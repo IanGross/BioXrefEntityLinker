@@ -1,0 +1,186 @@
+# ::snt The human and mouse genes display a high degree of synteny. Mcoln1 shows 91% amino acid and 86% nucleotide identity to MCOLN1.
+# ::tok The human and mouse genes display a high degree of synteny. Mcoln1 shows 91% amino acid and 86% nucleotide identity to MCOLN1.
+# ::alignments 19-20|0.1.0 18-19|0.1.0.0 16-17|0.1 15-16|0.1.3 14-15|0.1.3.0 12-13|0 11-12|0.0 8-9|0.1.2 7-8|0.1.2.0 5-6|0.1.1.0 4-5|0.1.1.0.0 3-4|0.1.1.1 2-3|0.1.1 1-2|0.1.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:21.678
+(s / show-01 
+      :ARG0 (m / Mcoln1) 
+      :ARG1 (a / and 
+            :domain-of (i / identity 
+                  :mod (n / nucleotide)) 
+            :op1 (a4 / and 
+                  :ARG1-of (d2 / display-01 
+                        :ARG0 (g / gene 
+                              :part-of (h2 / human))) 
+                  :op1 (m2 / mouse)) 
+            :op2 (d / degree 
+                  :ARG1-of (h / high-02)) 
+            :op3 (a2 / acid 
+                  :source (a3 / amino))))
+
+# ::snt Annexin A7 is unique in that it carries an extraordinarily long and hydrophobic amino terminus with more than 100 amino acids.
+# ::tok Annexin A7 is unique in that it carries an extraordinarily long and hydrophobic amino terminus with more than 100 amino acids.
+# ::alignments 19-20|0.0.4 18-19|0.0.0 16-17|0.0.3 14-15|0.2 13-14|0.0.1 12-13|0.1 11-12|0 10-11|0.0 9-10|0.0.2 7-8|0.2.0 3-4|0.2.0.0.0 0-2|0.2.0.0.1.1+0.2.0.0.1.0+0.2.0.0.1+0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:25.400
+(a3 / and 
+      :op1 (l / long-03 
+            :ARG0 100 
+            :ARG1 (a2 / amino) 
+            :degree (e / extraordinary) 
+            :degree (m / more) 
+            :op1-of (a / amino)) 
+      :op2 (h / hydrophobic) 
+      :op3 (t / terminu 
+            :ARG1-of (c / carry-out-03 
+                  :ARG0 (t2 / thing 
+                        :domain-of (u / unique) 
+                        :name (n / name 
+                              :op1 (a4 / Annexin) 
+                              :op2 (a5 / A7))))))
+
+# ::snt Given the difficulty of studying lethal developmental abnormalities in humans, it is of great potential utility to develop animal models of human birth defects, as the specific genetic abnormalities found in animal models can then be investigated in human populations.
+# ::tok Given the difficulty of studying lethal developmental abnormalities in humans, it is of great potential utility to develop animal models of human birth defects, as the specific genetic abnormalities found in animal models can then be investigated in human populations.
+# ::alignments 38-39|0.0.1.0.1.0.2.0 36-37|0.0.1.0.1 34-35|0.0.1.0.1.2 33-34|0.0.1.0.1.1 32-33|0.0.1.0.0.0 31-32|0.0.1.0.0.0.0 29-30|0.0.1.0.0 28-29|0.0.1.0 27-28|0.0.0 26-27|0.0.1 22-23|0.0.1.0.1.0.0.0 21-22|0.0.1.0.1.0.0.0.0 19-20|0.0.1.0.1.0.2.1 18-19|0.0.1.0.1.0.2.1.0 17-18|0.0.1.0.1.0.2 15-16|0.0.1.0.1.0 14-15|0.0.1.0.1.0.1 13-14|0.0.1.0.1.0.0 7-8|0 6-7|0.2 5-6|0.1 4-5|0.0 2-3|0.0.2 0-1|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:29.657
+(a4 / abnormaliti 
+      :ARG1-of (s2 / study-01 
+            :ARG0 (g / gene) 
+            :ARG2 (s / specific-02 
+                  :ARG1 (a2 / abnormaliti 
+                        :ARG1-of (f / find-01 
+                              :location (m / model 
+                                    :mod (a / animal))) 
+                        :ARG1-of (i / investigate-01 
+                              :ARG0 (u / utility 
+                                    :mod (g2 / great 
+                                          :ARG0-of (b / birth-01 
+                                                :ARG1 (h2 / human))) 
+                                    :mod (p2 / potential) 
+                                    :purpose (d / develop-02 
+                                          :ARG0 (h / human) 
+                                          :ARG1 (m2 / model 
+                                                :mod (a3 / animal)))) 
+                              :ARG1-of (p / possible-01) 
+                              :time (t / then)))) 
+            :mod-of (d3 / difficult 
+                  :ARG1-of (g3 / give-01))) 
+      :mod (l / lethal) 
+      :mod (d2 / developmental))
+
+# ::snt We have demonstrated the presence of both annexin A7 isoforms in red blood cells and the presence of the small isoform in platelets.
+# ::tok We have demonstrated the presence of both annexin A7 isoforms in red blood cells and the presence of the small isoform in platelets.
+# ::alignments 20-21|0.1.0.2.0.0 19-20|0.1.0.2.0.0.0 16-17|0.1.0.2.0 14-15|0.1.0.2 13-14|0.1.0 12-13|0.1.0.0 11-12|0.1.0.1 9-10|0.1.1 6-7|0.1.1.0 4-5|0.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:31.475
+(d / demonstrate-01 
+      :ARG0 (w / we) 
+      :ARG1 (p2 / presence 
+            :location (c / cell 
+                  :mod (b / blood) 
+                  :mod (r / red) 
+                  :op1-of (a / and 
+                        :op2 (p / presence 
+                              :poss (i / isoform 
+                                    :mod (s / small))))) 
+            :quant-of (i2 / isoform 
+                  :mod (b2 / both))))
+
+# ::snt To distinguish between the alternatives described above, we deleted an essential coding region in the mouse Capn2 gene in embryonic stems cells and transmitted this mutant allele through the mouse germline.
+# ::tok To distinguish between the alternatives described above, we deleted an essential coding region in the mouse Capn2 gene in embryonic stems cells and transmitted this mutant allele through the mouse germline.
+# ::alignments 29-30|0.0.0.0.0.2.0 26-27|0.0.1 25-26|0.0.1.1 24-25|0.0.1.0 23-24|0.0 22-23|0 21-22|0.0.0.0.0.0 20-21|0.0.0.0.0.0.0 19-20|0.0.0.0.0.0.1 17-18|0.0.0.0.0.0.0.0 16-17|0.0.0.0.0.0.0.0.0 15-16|0.0.0.0.0.0.0.0.0.0 12-13|0.0.0.0.0 11-12|0.0.0.0.0.2 10-11|0.0.0.0.0.1 8-9|0.0.0.0 7-8|0.0.0 5-6|0.0.0.2 4-5|0.0.0.2.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:33.265
+(a2 / and 
+      :op1 (t2 / transmit-01 
+            :ARG0 (w / we 
+                  :ARG0-of (d / delete-01 
+                        :ARG1 (r / region 
+                              :location (c / cell 
+                                    :ARG1-of (s / stem-01 
+                                          :ARG0 (g / gene 
+                                                :mod (c2 / Capn2 
+                                                      :mod (m3 / mouse)))) 
+                                    :mod (e / embryonic)) 
+                              :mod (e2 / essential) 
+                              :mod (c3 / code-01 
+                                    :ARG1 (m / mouse)))) 
+                  :ARG1-of (d3 / distinguish-01) 
+                  :ARG2-of (d2 / describe-01 
+                        :ARG1 (a3 / alternativ))) 
+            :ARG1 (a / allele 
+                  :mod (t / this) 
+                  :mod (m2 / mutant))))
+
+# ::snt Olfactory receptors were originally identified in an elegant experiment based on the hypothesis that they would be seven-transmembrane-domain proteins encoded by a large, diverse gene family whose expression is restricted to the olfactory epithelium.
+# ::tok Olfactory receptors were originally identified in an elegant experiment based on the hypothesis that they would be seven-transmembrane-domain proteins encoded by a large, diverse gene family whose expression is restricted to the olfactory epithelium.
+# ::alignments 32-33|0.1.0.0.0 29-30|0.1 27-28|0 25-26|0.0 24-25|0.0.2 23-24|0.0.1 19-20|0.0.0 18-19|0.0.0.1 14-15|0.0.0.0 12-13|0.1.0.0.1 9-10|0.1.0.0 8-9|0.1.0 7-8|0.1.0.2 4-5|0.1.0.1 3-4|0.1.0.1.1 1-2|0.1.0.1.0 0-1|0.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:37.094
+(e / express-01 
+      :ARG1 (f / family 
+            :ARG2-of (e2 / encode-01 
+                  :ARG0 (t / they) 
+                  :ARG1 (p / protein)) 
+            :mod (d / diverse) 
+            :mod (g / gene)) 
+      :ARG1-of (r / restrict-01 
+            :ARG1-of (e3 / experiment-01 
+                  :ARG1-of (b / base-02 
+                        :ARG0 (o / olfactory) 
+                        :ARG2 (h / hypothesi)) 
+                  :ARG2-of (i / identify-01 
+                        :ARG1 (r2 / receptor 
+                              :mod (o3 / olfactory)) 
+                        :time (o2 / original)) 
+                  :mod (e4 / elegant))))
+
+# ::snt Differences for one gene pair are apparently due to both unequal numbers of expressing cells and unequal transcript levels per expressing cell.
+# ::tok Differences for one gene pair are apparently due to both unequal numbers of expressing cells and unequal transcript levels per expressing cell.
+# ::alignments 20-21|0.2.0.1 18-19|0.2.0 17-18|0.2.0.0.0+0.2.0.0 16-17|0.2.0.1.1.0.0+0.2.0.1.1.0 15-16|0.2 14-15|0.1 13-14|0 11-12|0.3 10-11|0.3.1.0+0.3.1 9-10|0.3.0 6-7|0.2.0.1.0 4-5|0.2.0.1.1 3-4|0.2.0.1.1.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:41.245
+(e3 / express-01 
+      :ARG0 (d / difference) 
+      :ARG1 (c / cell) 
+      :ARG2 (a / and 
+            :op1 (l / level 
+                  :mod (t / thing 
+                        :ARG1-of (t2 / transcribe-01)) 
+                  :mod (e / express-01 
+                        :ARG0 (a2 / apparent) 
+                        :ARG1 (p / pair-01 
+                              :ARG0 (e2 / equal 
+                                    :polarity -) 
+                              :ARG1 (g / gene))))) 
+      :mod-of (n / number 
+            :mod (b / both) 
+            :mod (e4 / equal 
+                  :polarity -)))
+
+# ::snt BMPs bind tetrameric complexes of two type I and two type II transmembrane serine-threonine kinase receptors.
+# ::tok BMPs bind tetrameric complexes of two type I and two type II transmembrane serine-threonine kinase receptors.
+# ::alignments 14-15|0 10-11|0.0 9-10|0.0.1 8-9|0.0.0 7-8|0.0.0.1 6-7|0.0.0.0.1.0 5-6|0.0.0.0.1.0.0 3-4|0.0.0.0.1 1-2|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:43.044
+(k / kinase 
+      :mod-of (t / type 
+            :op2-of (a / and 
+                  :ARG2-of (b / bind-01 
+                        :ARG0 (b2 / bmp) 
+                        :ARG3 (c / complex 
+                              :consist-of (t2 / type 
+                                    :quant 2))) 
+                  :op1 (i / i)) 
+            :quant 2))
+
+# ::snt Patients with MLIV do not show mucopolysaccharide excretion, skeletal changes, or organomegaly like the other mucolipidoses.
+# ::tok Patients with MLIV do not show mucopolysaccharide excretion, skeletal changes, or organomegaly like the other mucolipidoses.
+# ::alignments 14-15|0.3 12-13|0.1.0 11-12|0.1.1 10-11|0.1 8-9|0.1.0.0 6-7|0.2 5-6|0 4-5|0.4 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:43.624
+(s2 / show-01 
+      :ARG0 (p / patient) 
+      :ARG1 (o3 / or 
+            :ARG1-of (r / resemble-01 
+                  :ARG0 (s / skeletal)) 
+            :op1 (o2 / organomegaly)) 
+      :ARG2 (m / mucopolysaccharide) 
+      :mod (o / other) 
+      :polarity -)
+
+# ::snt Phagocytosis of apoptotic cells is fundamental to animal development, immune function and cellular homeostasis.
+# ::tok Phagocytosis of apoptotic cells is fundamental to animal development, immune function and cellular homeostasis.
+# ::alignments 12-13|0.0.1.0 11-12|0.0.1 10-11|0.0 9-10|0 7-8|0.0.0 5-6|0.0.1.1 3-4|0.0.1.1.0.0 0-1|0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-05-04T21:10:44.372
+(i / immune-02 
+      :manner-of (f / function-01 
+            :ARG1 (a2 / animal) 
+            :op1-of (a / and 
+                  :op2 (c / cell) 
+                  :prep-to-of (f2 / fundamental 
+                        :domain (p / phagocytosi 
+                              :domain (c2 / cell))))))
+
