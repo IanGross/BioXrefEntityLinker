@@ -1,0 +1,531 @@
+<termsem="PR:000013773"> Rb </term> - Mediated Neuronal Differentiation through Cell-Cycle -- Independent Regulation of E2f3a .
+It has long been known that loss of the <termsem="PR:000013773"> retinoblastoma protein </term> ( <termsem="PR:000013773"> Rb </term> ) perturbs neural differentiation , but the underlying mechanism has never been solved .
+<termsem="PR:000013773"> Rb </term> absence impairs cell cycle exit and triggers death of some neurons , so differentiation defects may well be indirect .
+Indeed , we show that abnormalities in both differentiation and light-evoked electrophysiological responses in <termsem="PR:000013773"> Rb </term> - deficient retinal cells are rescued when ectopic division and apoptosis are blocked specifically by deleting E2f transcription factor ( E2f ) 1 .
+However , comprehensive cell-type analysis of the rescued double-null retina exposed cell-cycle -- independent differentiation defects specifically in starburst amacrine cells ( SACs ) , cholinergic interneurons critical in direction selectivity and developmentally important rhythmic bursts .
+Typically , <termsem="PR:000013773"> Rb </term> is thought to block division by repressing E2fs , but to promote differentiation by potentiating tissue-specific factors .
+Remarkably , however , <termsem="PR:000013773"> Rb </term> promotes SAC differentiation by inhibiting <termsem="PR:000006854"> E2f3 </term> activity .
+Two <termsem="PR:000006854"> E2f3 </term> isoforms exist , and we find both in the developing retina , although intriguingly they show distinct subcellular distribution .
+E2f3b is thought to mediate <termsem="PR:000013773"> Rb </term> function in quiescent cells .
+However , in what is to our knowledge the first work to dissect E2f isoform function in vivo we show that <termsem="PR:000013773"> Rb </term> promotes SAC differentiation through E2f3a .
+These data reveal a mechanism through which <termsem="PR:000013773"> Rb </term> regulates neural differentiation directly , and , unexpectedly , it involves inhibition of E2f3a , not potentiation of tissue-specific factors .
+The <termsem="PR:000013773"> retinoblastoma protein </term> ( <termsem="PR:000013773"> Rb </term> ) , an important tumor suppressor , blocks division and death by inhibiting the E2f transcription factor family .
+In contrast , <termsem="PR:000013773"> Rb </term> is thought to promote differentiation by potentiating tissue-specific transcription factors , although differentiation defects in <termsem="PR:000013773"> Rb </term> null cells could be an indirect consequence of E2f-driven division and death .
+Here , we resolve different mechanisms by which <termsem="PR:000013773"> Rb </term> controls division , death , and differentiation in the retina .
+Removing <termsem="PR:000006852"> E2f1 </term> rescues aberrant division of differentiating <termsem="PR:000013773"> Rb </term> - deficient retinal neurons , as well as death in cells prone to apoptosis , and restores both normal differentiation and function of major cell types , such as photoreceptors .
+However , <termsem="PR:000013773"> Rb </term> - deficient starburst amacrine neurons differentiate abnormally even when <termsem="PR:000006852"> E2f1 </term> is removed , providing an unequivocal example of a direct role for <termsem="PR:000013773"> Rb </term> in neuronal differentiation .
+Rather than potentiating a cell-specific factor , <termsem="PR:000013773"> Rb </term> promotes starburst cell differentiation by inhibiting another E2f , E2f3a .
+This cell-cycle -- independent activity broadens the importance of the <termsem="PR:000013773"> Rb </term> -- E2f pathway , and suggests we should reassess its role in the differentiation of other cell types .
+The simplicity of the retina makes it an ideal tissue to study neurogenesis .
+Its development proceeds through three overlapping steps starting with retinal progenitor cell ( RPC ) proliferation , followed by birth of post-mitotic retinal transition cells ( RTCs , also referred to as precursors ) , and ending with terminal differentiation of seven major cell types ( Figure 1A ) [ 1 ] .
+RPCs are multipotent and exit the cell cycle to generate different RTCs at specific time periods in development [ 1 ] .
+This process of RTC `` birth '' requires coupling of differentiation and cell cycle exit .
+Once born , post-mitotic RTCs migrate and form different retinal layers .
+Rods and cones make up the outer nuclear layer ( ONL ) ; horizontal , bipolar , and amacrine cells , as well as Mller glia cell bodies , reside in the inner nuclear layer ( INL ) ; and ganglion and displaced amacrine cells form the ganglion cell layer ( GCL ) ( Figure 1A ) .
+The outer plexiform layer ( OPL ) and inner plexiform layer ( IPL ) house synaptic connections separating the ONL/INL and INL/GCL , respectively .
+<termsem="PR:000006852"> E2f1 </term> , but Not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , Loss Rescues Ectopic Division and Cell Death in the <termsem="PR:000013773"> Rb </term> KO Retina .
+( A ) Retinal development .
+At E11 the retina is a NBL of dividing RPCs ( white circle , green nuclei ) .
+RPC cell bodies oscillate along processes as they progress through the cell cycle .
+By P0 the NBL contains both RPCs and post-mitotic RTCs ( coloured circles , red nuclei ) and is separated from the GCL by the IPL .
+By P8 there are no RPCs , fewer RTCs , an OPL , and more differentiated rods ( r ) and cones ( c ) in the ONL ; horizontal ( h ) , bipolar ( b ) , Mller ( m ) , and amacrine ( a ) cells in the INL ; and ganglion ( g ) and displaced amacrine cells in the GCL .
+Development is complete by ~ P18 .
+( B ) <termsem="PR:000013773"> Rb </term> is thought to regulate cell cycle and apoptosis by repressing E2fs , but to promote differentiation by potentiating tissue-specific transcription factors .
+However , <termsem="PR:000013773"> Rb </term> loss could also perturb differentiation through the indirect effects of abnormal division or death , and/or through direct regulation of differentiation genes by E2fs .
+( C and D ) Horizontal retinal sections of the indicated genotypes and ages were stained for nuclei ( DAPI , blue ) , and ( C ) S-phase ( anti-BrdU , red ) or ( D ) apoptosis ( TUNEL , red ) .
+Scale bars are 50 m .
+( E -- G ) Quantification of ( E ) all BrdU + cells , ( F ) ectopic BrdU + cells in GCL at P0 , and ( G ) total TUNEL + cells .
+( H ) Real-time RT-PCR analysis of E2fs and E2f target genes in P8 retinas of the indicated genotypes .
+Error bars represent SD of measurements from three animals , and asterisks indicate a significant difference between the WT and indicated genotypes ( * , p < 0.05 ; ** ; p < 0.01 ; ANOVA and Tukey HSD test for [ E -- G ] and Fisher test for [ H ] ) .
+The <termsem="PR:000013773"> retinoblastoma protein </term> ( <termsem="PR:000013773"> Rb </term> ) is critical for cell cycle exit during retinal transition cell birth .
+<termsem="PR:000013773"> Rb </term> knockout ( KO ) RTCs continue to proliferate inappropriately and some ( rod , ganglion , and bipolar cells ) die by apoptosis [ 2,3 ] .
+<termsem="PR:000013773"> Rb </term> controls the cell cycle by binding and inhibiting E2f transcription factors ( E2fs ) ( Figure 1B ) , first defined as transcription factors that bind adenoviral E2 regulatory elements and subsequently shown to be critical cell cycle regulators [ 4,5 ] .
+E2fs bind to DNA as heterodimers with proteins of the related Tfdp family .
+<termsem="PR:000006852"> E2f1 </term> , <termsem="PR:000006853"> E2f2 </term> , and E2f3a are `` activating E2fs '' that are required for fibroblast division .
+They are strong transcriptional activators that can drive G0 fibroblasts into cycle , and are inhibited when bound to <termsem="PR:000013773"> Rb </term> [ 4,5 ] .
+Ectopic division in <termsem="PR:000013773"> Rb </term> KO embryos can be rescued to various extents in different tissues by knocking out <termsem="PR:000006852"> E2f1 </term> , <termsem="PR:000006853"> E2f2 </term> , or <termsem="PR:000006854"> E2f3 </term> [ 6 -- 9 ] , but which member ( s ) drive division in <termsem="PR:000013773"> Rb </term> KO RTCs is unknown .
+Other members of the family , such as <termsem="PR:000006855"> E2f4 </term> and <termsem="PR:000006856"> E2f5 </term> , are known as `` repressive E2fs '' because they are weak activators and appear to be primarily involved in gene silencing in quiescent or differentiated cells .
+Activating E2fs may also promote apoptosis in the <termsem="PR:000013773"> Rb </term> KO retina ( Figure 1B ) .
+Originally , <termsem="PR:000006852"> E2f1 </term> was considered the primary pro-apoptotic member of the family [ 10 ] .
+However , this view was reevaluated when it was shown that either <termsem="PR:000006852"> E2f1 </term> or <termsem="PR:000006854"> E2f3 </term> deletion rescues apoptosis in the developing central nervous system ( CNS ) of <termsem="PR:000013773"> Rb </term> KO embryos [ 6,11 ] .
+Subsequently , CNS apoptosis was shown to be an indirect result of placental defects and probable hypoxia [ 12 -- 14 ] .
+Indeed , <termsem="PR:000006854"> E2f3 </term> - induced apoptosis in fibroblasts has recently been shown to require <termsem="PR:000006852"> E2f1 </term> [ 15 ] .
+Thus , it is controversial whether <termsem="PR:000006854"> E2f3 </term> is required for apoptosis of any <termsem="PR:000013773"> Rb </term> KO cell type .
+Determining which activating E2fs promote death in distinct <termsem="PR:000013773"> Rb </term> KO tissues requires conditional rather than germ line models of <termsem="PR:000013773"> Rb </term> deletion to avoid secondary indirect effects ( such as hypoxia ) .
+E2f family diversity is expanded by <termsem="PR:000006854"> E2f3 </term> isoforms .
+Alternative promoters generate two forms ( a and b ) that are identical except for distinct first exons [ 16 ] .
+E2f3a is a strong activator , and , like other activating E2fs , its expression is induced when quiescent cells are stimulated to divide [ 16 ] .
+E2f3b , like repressive E2fs , is present in both quiescent and dividing cells , and in quiescent fibroblasts it associates primarily with <termsem="PR:000013773"> Rb </term> , suggesting that it mediates repression [ 16 -- 18 ] .
+Indeed , silencing the <termsem="PR:000005279"> Cdkn2d </term> ( <termsem="PR:000005279"> p19Arf </term> ) locus in unstressed cells relies on E2f3b [ 19 ] .
+Other E2fs may also exist in isoforms since at least two mRNA species have been detected for <termsem="PR:000006852"> E2f1 </term> and <termsem="PR:000006853"> E2f2 </term> [ 16 ] .
+The roles of E2f isoforms in vivo are unknown .
+E2fs are also regulated by subcellular localization .
+Although this feature has been best characterized for repressive E2fs [ 20 -- 22 ] , it also affects activating E2fs [ 23 -- 25 ] .
+The distribution of E2f isoforms has never been assessed .
+It has been known for many years that <termsem="PR:000013773"> Rb </term> loss perturbs neuronal differentiation [ 26 -- 29 ] .
+However , prior work could not exclude the possibility that differentiation defects are simply an indirect consequence of abnormal division and death .
+If <termsem="PR:000013773"> Rb </term> does regulate differentiation directly it is unclear whether it does so in all or a subset of neurons .
+Moreover , the mechanism has never been solved .
+In other cell types where <termsem="PR:000013773"> Rb </term> may promote differentiation directly , such as muscle and bone , it seems to do so through E2f-independent means by potentiating tissue-specific transcription factors ( Figure 1B ) [ 30 -- 33 ] .
+In the retina , others have noted abnormally shaped <termsem="PR:000013773"> Rb </term> KO rods and have suggested <termsem="PR:000013773"> Rb </term> may directly promote their morphogenesis by activating retina-specific factors [ 29 ] .
+However , differentiation defects in any <termsem="PR:000013773"> Rb </term> KO neuron could be an indirect effect of ectopic division and/or apoptosis ( Figure 1B ) .
+Thus , it is critical to study differentiation of <termsem="PR:000013773"> Rb </term> KO cells in the absence of ectopic proliferation and death .
+Here , we establish that <termsem="PR:000013773"> Rb </term> suppresses RTC division and death by inhibiting <termsem="PR:000006852"> E2f1 </term> , not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> .
+When these defects were rescued , most retinal neurons , including rods , survived , differentiated , and functioned normally .
+Thus , unexpectedly , retina-specific differentiation factors function independently of <termsem="PR:000013773"> Rb </term> .
+However , comprehensive assessment of the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> double-null rescued retina revealed a differentiation defect in cholinergic starburst amacrine cells ( SACs ) .
+Recent breakthroughs have revealed that these interneurons are critical for direction selectivity and developmentally important rhythmic bursts [ 34 -- 36 ] .
+However , their differentiation is poorly understood .
+Contrary to the prevailing view that <termsem="PR:000013773"> Rb </term> promotes differentiation through E2f-independent tissue-specific transcription factors , we show that <termsem="PR:000013773"> Rb </term> facilitates SAC development through <termsem="PR:000006854"> E2f3 </term> .
+Defects in <termsem="PR:000013773"> Rb </term> null SACs correlated with specific <termsem="PR:000006854"> E2f3 </term> expression in these cells , and <termsem="PR:000006854"> E2f3 </term> expression was absent in neurons that differentiated without <termsem="PR:000013773"> Rb </term> .
+<termsem="PR:000006854"> E2f3 </term> is also present in a specific subset of other CNS neurons , implying that this may be a general mechanism by which <termsem="PR:000013773"> Rb </term> facilitates neurogenesis .
+To define the mechanism in even more detail , we determined which <termsem="PR:000006854"> E2f3 </term> isoform <termsem="PR:000013773"> Rb </term> targets to control SAC differentiation .
+E2f3b mediates <termsem="PR:000013773"> Rb </term> function in quiescent fibroblasts [ 19 ] , yet no prior studies to our knowledge have dissected E2f3a or E2f3b functions in vivo .
+Using an isoform-specific null mouse we show that <termsem="PR:000013773"> Rb </term> drives SAC differentiation through E2f3a .
+Thus , independent of <termsem="PR:000006852"> E2f1 </term> - mediated effects on division and death , <termsem="PR:000013773"> Rb </term> does regulate neuronal differentiation , but only in specific neurons and , unexpectedly , through E2f3a , not tissue-specific differentiation factors .
+<termsem="PR:000013773"> Rb </term> Regulates Division and Death through <termsem="PR:000006852"> E2f1 </term> .
+We used the -Cre transgene to delete floxed <termsem="PR:000013773"> Rb </term> exon 19 at embryonic day ( E ) 10 in peripheral retina [ 2 ] .
+RbloxP/loxP ; -Cre mice were bred with strains lacking <termsem="PR:000006852"> E2f1 </term> or <termsem="PR:000006853"> E2f2 </term> in the germ line , or a strain carrying a floxed <termsem="PR:000006854"> E2f3 </term> allele [ 5 ] .
+RbloxP/loxP ; <termsem="PR:000006852"> E2f1 </term> + /  and RbloxP/loxP ; <termsem="PR:000006852"> E2f1 </term> + /  ; -Cre mice were bred to produce RbloxP/loxP ; <termsem="PR:000006852"> E2f1 </term>  /  ; -Cre mice at a frequency of 1/8 and littermate controls at the same or higher ( 1/4 ) frequency .
+For simplicity we will refer to the RbloxP/loxP ; <termsem="PR:000006852"> E2f1 </term>  /  ; -Cre peripheral retina as the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> double knockout ( DKO ) retina .
+Similar strategies were employed in the case of <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> .
+Cre-mediated excision of <termsem="PR:000013773"> Rb </term> and <termsem="PR:000006854"> E2f3 </term> alleles in the retina was confirmed by PCR as described previously [ 2,5 ] .
+To measure ectopic cell division , mice were pulse-labelled with bromodeoxyuridine ( BrdU ) 2 h before sacrifice and the peripheral retina analyzed for BrdU incorporation by immunofluorescence .
+As reported before [ 2,3 ] , <termsem="PR:000013773"> Rb </term> KO retinas exhibited both spatial and temporal ectopic DNA synthesis ( Figures 1C and S1A ) .
+This is easily detected at E14 , E16 , and postnatal day ( P ) 0 in the inner retina where abnormal BrdU + ganglion and amacrine RTCs are located , or on the outermost region of the P0 retina , where BrdU + photoreceptor RTCs reside ( Figures S1A and S2 , arrows ) [ 2 ] .
+Ectopic RTC division in <termsem="PR:000013773"> Rb </term> KO retinas is even more obvious at P8 or P18 , when division is completed in wild-type ( WT ) retina ( Figures 1C and S1A ) .
+Strikingly , the ectopically positioned S-phase cells at E14 , E16 , and P0 and all the abnormal division at P8 and P18 were completely suppressed in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Figures 1C , 1E , 1F , S1A , and S2 ) .
+In contrast , deletion of <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> had no effect at any stage of development .
+Analysis of mitotic cells with anti -- phosphohistone 3 ( PH3 ) -- specific antibodies confirmed that loss of <termsem="PR:000006852"> E2f1 </term> , but not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , suppressed ectopic division ( Figure S3 ) .
+Deleting one <termsem="PR:000006852"> E2f1 </term> allele partially suppressed ectopic S-phase and mitosis in <termsem="PR:000013773"> Rb </term> KO RTCs ( Figures 1C , 1E , 1F , S1A , S2 , and S3 ) , suggesting that <termsem="PR:000006852"> E2f1 </term> drives ectopic division in <termsem="PR:000013773"> Rb </term> KO RTCs in a dose-dependent fashion .
+These data contrast with previous findings in the lens and CNS of <termsem="PR:000013773"> Rb </term> KO embryos , where deletion of any activating E2f suppresses ectopic division to some extent [ 6 -- 9 ] .
+Loss of <termsem="PR:000013773"> Rb </term> in the retina results in considerable RTC apoptosis , eliminating most bipolar and ganglion cells as well as many rods ( Figure 2A -- 2D ) [ 2,3 ] .
+The loss of <termsem="PR:000013773"> Rb </term> KO rods is evident from the thinner ONL , and the death of these cells as well as bipolar and ganglion neurons can be detected directly by double labelling for apoptotic and cell-type-specific markers [ 2 ] ( M. P. and R. B. , unpublished data ) .
+Loss of peripheral <termsem="PR:000013773"> Rb </term> KO ganglion cells is also evident from thinning of the optic nerve ( D. C. and R. B. , unpublished data ) .
+Deleting <termsem="PR:000006852"> E2f1 </term> , but not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , blocked this ectopic cell death in a dose-dependent fashion ( Figures 1D , 1G , and S1B ) .
+<termsem="PR:000006852"> E2f1 </term> Deletion Rescues Ganglion , Rod , and Bipolar Cells in the <termsem="PR:000013773"> Rb </term> KO Retina .
+( A ) Horizontal retinal sections from mice of the indicated ages and genotypes were stained for nuclei ( DAPI , blue ) and markers that detect ganglion cells ( <termsem="PR:000013042"> Pou4f2 </term> , red ) , rods and cones ( <termsem="PR:000014434"> Sag </term> [ <termsem="PR:000014434"> rod arrestin </term> ] , green ) , and rod bipolar cells ( <termsem="PR:000003058"> Prkca </term> , green , and <termsem="PR:000004937"> Cabp5 </term> , red ) .
+Scale bars are 50 m .
+( B ) Quantification of <termsem="PR:000013042"> Pou4f2 </term> + ganglion cells .
+( C ) Quantification of <termsem="PR:000003058"> Prkca </term> + and <termsem="PR:000004937"> Cabp5 </term> + bipolar cells .
+( D ) Thickness of the ONL , which represents the number of rods .
+Error bars represent SD of measurements from three animals , and asterisks indicate a significant difference between retinas of WT and the indicated genotypes , unless indicated otherwise by connecting lines ( * , p < 0.05 ; ** ; p < 0.01 ; ANOVA and Tukey HSD test ) .
+( E and F ) ERGs were recorded from the indicated genotypes under dark-adapted ( scotopic ) conditions , and ( E ) intensity series and ( F ) b-wave amplitudes as a function of the logarithm of the flash intensity were determined .
+( F ) Further illustrates that the relative influence of the mutations on the photoreceptors ( indicated by the saturated a-wave amplitude , right graph ) was not substantially different from their effect on the b-wave response ( dominated by the bipolars , left graph ) at the same intensity of 10 cd  s/m2 .
+To investigate the molecular mechanism that underlies the unique role of <termsem="PR:000006852"> E2f1 </term> , we assessed the expression of known E2f targets as well as other genes that regulate the cell cycle and apoptosis .
+Numerous positive and negative cell cycle and apoptotic regulators were up-regulated in the <termsem="PR:000013773"> Rb </term> KO retina ( Figure 1H ) .
+Among the E2f family , <termsem="PR:000006852"> E2f1 </term> , <termsem="PR:000006853"> E2f2 </term> , E2f3a , and <termsem="PR:000006858"> E2f7 </term> were induced following <termsem="PR:000013773"> Rb </term> loss , but E2f3b , <termsem="PR:000006855"> E2f4 </term> , and <termsem="PR:000006856"> E2f5 </term> were unaffected .
+Consistent with the BrdU and terminal dUTP nick-end labelling ( TUNEL ) analyses , <termsem="PR:000006852"> E2f1 </term> deletion specifically reversed all these molecular defects , but <termsem="PR:000006854"> E2f3 </term> deletion had no effect ( Figure 1H ) .
+Normal Differentiation in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO Retina .
+Because <termsem="PR:000006852"> E2f1 </term> deletion blocks abnormal division and death in the <termsem="PR:000013773"> Rb </term> KO retina , the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina provided a unique opportunity to evaluate whether <termsem="PR:000013773"> Rb </term> controls differentiation independent of cell cycle effects .
+The <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina had many <termsem="PR:000014434"> Sag </term> + ( <termsem="PR:000014434"> S-antigen </term> / <termsem="PR:000014434"> rod arrestin </term> ) photoreceptors , <termsem="PR:000013042"> Pou4f2 </term> + ( <termsem="PR:000013042"> Brn3b </term> ) ganglion cells , and numerous <termsem="PR:000003058"> Prkca </term> + / <termsem="PR:000004937"> Cabp5 </term> + bipolar neurons ( Figure 2A -- 2D ) .
+In contrast , there was no such rescue of cell types in <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO retinas ( Figure S4 ) .
+Analysis with general neuronal markers <termsem="PR:000010124"> Mtap2 </term> ( <termsem="PR:000010124"> MAP2 </term> ) and <termsem="PR:000015312"> Snap25 </term> , as well as other markers expressed in bipolar cells ( <termsem="PR:000017355"> Chx10 </term> , <termsem="PR:000013845"> Rcvrn </term> , <termsem="PR:000017354"> Vsx1 </term> , <termsem="PR:000001242"> Tacr3 </term> , and <termsem="PR:000004445"> Atp2b1 </term> ) and rod photoreceptors ( <termsem="PR:000001245"> Rho </term> and <termsem="PR:000013845"> Rcvrn </term> ) confirmed rescue of the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Table S1 ) .
+Moreover , neurons exhibited the same complex morphology as in WT retina .
+Bipolar cell bodies were located in the INL and had ascending and descending processes ending in the OPL and IPL , respectively ( Figure 2A ) .
+In addition , the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina had a healthy appearing ONL consisting of morphologically normal rods with descending processes ending in the OPL and ascending processes that terminated in inner and outer segments ( Figure 2A ) .
+It was suggested that <termsem="PR:000013773"> Rb </term> might regulate photoreceptor differentiation , possibly through rod-specific transcription factors ( Figure 1B ) [ 29 ] .
+However , if <termsem="PR:000013773"> Rb </term> does regulate photoreceptor differentiation , it does so by inhibiting <termsem="PR:000006852"> E2f1 </term> , not by potentiating rod differentiation factors , such as <termsem="PR:000012086"> Otx2 </term> , <termsem="PR:000005904"> Crx </term> , or <termsem="PR:000011432"> Nrl </term> .
+It is impossible to tell whether <termsem="PR:000006852"> E2f1 </term> perturbs differentiation directly , by affecting the expression of genes that modulate maturation , and/or indirectly through its effects on proliferation and survival ( Figure 1B ) .
+As with ectopic division and apoptosis ( Figure 1C and 1D ) , the rescue of <termsem="PR:000013773"> Rb </term> KO retinal bipolar , ganglion , and rod cells was dependent on <termsem="PR:000006852"> E2f1 </term> dose ( Figure 2A -- 2D ) .
+Separate from its role in driving ectopic division of <termsem="PR:000013773"> Rb </term> KO RTCs , <termsem="PR:000006852"> E2f1 </term> also promotes normal RPC division since in its absence RPC proliferation drops ~ 2-fold ( D. C. and R. B. , unpublished data ) .
+This modest reduction of RPC numbers in the absence of <termsem="PR:000006852"> E2f1 </term> accounts for the slight reduction in the number of ganglion cells at P0 , in the number of bipolar cells at P18 or P30 , and in the thickness of the ONL at P18 or P30 in the <termsem="PR:000006852"> E2f1 </term> KO and <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Figure 2B -- 2D ) .
+The morphology of <termsem="PR:000006852"> E2f1 </term> KO neurons was WT ( Figure 2A ) .
+Despite a slight drop in absolute cell numbers , the proportion of <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO and <termsem="PR:000006852"> E2f1 </term> KO bipolar cells was the same as WT ( data not shown ) .
+Slightly reduced cell numbers were not due to residual RTC death since we have not observed ectopic apoptosis at any embryonic or postnatal stage in the developing <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Figures 1D , 1G , and S2 ) .
+Moreover , deleting <termsem="PR:000005121"> Ccnd1 </term> , which acts upstream of <termsem="PR:000013773"> Rb </term> proteins , also reduces RPC number , but does not suppress any defect in the <termsem="PR:000013773"> Rb </term> KO retina ( D. C. and R. B. , unpublished data ) .
+Thus , slightly reduced RPC division and dramatic rescue of severe defects in <termsem="PR:000013773"> Rb </term> KO RTCs are distinct effects stemming from the deletion of <termsem="PR:000006852"> E2f1 </term> .
+Normal Function of the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO Retina .
+The discovery that <termsem="PR:000006852"> E2f1 </term> loss rescues even the morphology of <termsem="PR:000013773"> Rb </term> KO neurons is surprising because <termsem="PR:000013773"> Rb </term> is thought to regulate differentiation primarily through E2f-independent pathways [ 30 -- 33 ] .
+However , normal morphology may not equate to completely normal differentiation .
+Thus , we compared the electroretinograms ( ERGs ) of adult WT ( -Cre ) , <termsem="PR:000006852"> E2f1 </term>  /  , -Cre ; RbloxP/loxP , and -Cre ; RbloxP/loxP ; <termsem="PR:000006852"> E2f1 </term>  /  mice .
+ERGs functionally assess visual signalling in the mammalian retina from photoreceptors to amacrine cells ( but usually not gangion cells ) , and are dominated by rod and cone bipolar cells .
+Typically , an ERG signal begins with a negative deflection initiated by the photoreceptors ( the a-wave ) , which is terminated by a large positive deflection due to the activation of ON bipolar cells ( the b-wave ) .
+Responses to dim light in dark-adapted ( scotopic ) conditions specifically assess the rod system , and were defective in the <termsem="PR:000013773"> Rb </term> KO retina ( Figure 2E ) .
+The substantial reduction of both a - and b-waves is consistent with rod and bipolar cell apoptosis [ 2 ] .
+The sensitivity of the residual response appeared unchanged , suggesting it arose from the Cre-negative portions of the retina .
+Responses were about the same in the WT and <termsem="PR:000006852"> E2f1 </term> KO retina , and , most importantly , also the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO response median lay at the lower end of the normal range for most intensities ( Figure 2F ) .
+Thus , <termsem="PR:000006852"> E2f1 </term> deletion almost completely rescued the rod system in the <termsem="PR:000013773"> Rb </term> KO retina .
+Light-adapted ( photopic ) recordings to specifically assess the cone system yielded comparable results .
+Cones represent only 3 % of photoreceptors and , unlike rods , develop without <termsem="PR:000013773"> Rb </term> , but they require rods for survival , and in the <termsem="PR:000013773"> Rb </term> KO retina , they have abnormal morphology and their synaptic targets , bipolar cells , are much depleted [ 2 ] .
+The photopic response , a product of cone and mainly bipolar activity , was much reduced by <termsem="PR:000013773"> Rb </term> loss , but was rescued considerably in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Figure S5 ) .
+Again , the median amplitude lay at the lower end of the <termsem="PR:000006852"> E2f1 </term> KO range .
+The photopic response in <termsem="PR:000006852"> E2f1 </term> KO mice was slightly reduced relative to WT ( Figure S5B ) , possibly because <termsem="PR:000006852"> E2f1 </term> is required for maximal expansion of embryonic RPCs , and the <termsem="PR:000006852"> E2f1 </term> KO retina has , as noted earlier , slightly fewer cells than the WT retina , although cell type proportions are unaffected ( D. C. and R. B. , unpublished data ) .
+Thus , marginally subnormal photopic responses in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina can be attributed to both a reduction of cone numbers in <termsem="PR:000006852"> E2f1 </term> KO mice alone , and a `` genuine '' slight reduction in cone function attributable to <termsem="PR:000013773"> Rb </term> loss relative to WT .
+This slight effect may relate to a true differentiation defect in a subset of amacrine cells discussed below .
+This discussion should not obscure the major outcome that <termsem="PR:000006852"> E2f1 </term> deletion recovers most of the ERG response .
+Thus , <termsem="PR:000006852"> E2f1 </term> deletion not only rescues morphology but also both rod and cone system function in the <termsem="PR:000013773"> Rb </term> KO retina .
+Abnormal SAC Differentiation Independent of Cell Cycle and Survival Defects .
+ERGs primarily assess photoreceptor and bipolar cell function , but may miss differentiation defects in other cells .
+To test for subtle differences we stained the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina with 43 markers ( Table S1 ) .
+Thirty-two proteins displayed identical patterns in WT , <termsem="PR:000006852"> E2f1 </term> KO , and <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Table S1 ) .
+The other 11 markers revealed a cell-cycle -- and apoptosis-independent differentiation defect in SACs .
+We first studied <termsem="PR:000004968"> Calb2 </term> ( <termsem="PR:000004968"> calretinin </term> ) , which marks a subset of amacrine and ganglion cell bodies as well as three tracks corresponding to their processes in the IPL ( Figure 3A ) .
+Normal <termsem="PR:000004968"> Calb2 </term> staining was seen in the <termsem="PR:000006852"> E2f1 </term> KO IPL ( data not shown ) .
+However , only one <termsem="PR:000004968"> Calb2 </term> + track was evident in the <termsem="PR:000013773"> Rb </term> KO IPL , and this defect was not rescued in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina ( Figure 3A ) .
+We quantified <termsem="PR:000004968"> Calb2 </term> + cell bodies in the <termsem="PR:000013773"> Rb </term> KO INL ( corresponding to amacrine cell staining only ) and observed a reduction from P8 onwards ( Figures 3C and S6 ) .
+Differentiation Defects in <termsem="PR:000013773"> Rb </term> KO SACs .
+( A ) P18 horizontal sections of WT , <termsem="PR:000013773"> Rb </term> KO , and <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina were stained for nuclei ( DAPI , blue ) , <termsem="PR:000004968"> Calb2 </term> ( green ) , and <termsem="PR:000014968"> Slc18a3 </term> ( red ) .
+( B ) Confocal images of P30 horizontal sections of WT and <termsem="PR:000013773"> Rb </term> KO retina were stained for nuclei ( DAPI , blue ) , <termsem="PR:000005404"> Chat </term> and <termsem="PR:000014968"> Slc18a3 </term> ( both red ) , and <termsem="PR:000003199"> Camk2a </term> ( green ) .
+In the <termsem="PR:000013773"> Rb </term> KO section , the red stain is <termsem="PR:000005404"> Chat </term> only , as <termsem="PR:000014968"> Slc18a3 </term> is missing ( see [ A ] ) .
+( C ) Quantification of dense <termsem="PR:000004968"> Calb2 </term> + cell bodies in the INL , total <termsem="PR:000014968"> Slc18a3 </term> + cell bodies , and <termsem="PR:000003199"> Camk2a </term> + cell bodies in the INL .
+Error bars represent SD of measurements from three animals , and asterisks indicate significant differences between retinas of WT and the indicated genotypes ( * , p < 0.05 ; ** ; p < 0.01 ; ANOVA and Tukey HSD test ) .
+Scale bars are 50 m in ( A ) and 20 m in ( B ) .
+Of the three <termsem="PR:000004968"> Calb2 </term> + tracks in the IPL , the two outer tracks are from SACs , named after their extensive dendritic-tree-like morphology [ 37 ] .
+SACs are cholinergic , represent ~ 5.2 % of amacrine neurons [ 38 ] , and are critical for both direction selectivity [ 34,35 ] and spontaneous rhythmic activity that occurs during normal retinal development [ 36 ] .
+SACs in the INL synapse in the OFF layer of the IPL that responds to decreasing light , while displaced SACs in the GCL have processes that synapse in the nearby ON layer of the IPL that responds to increasing light ( reviewed in [ 39 ] ) .
+Mature SAC processes stain specifically for <termsem="PR:000014968"> Slc18a3 </term> ( <termsem="PR:000014968"> vesicular acetyl choline transporter </term> , <termsem="PR:000014968"> VAChT </term> ) [ 37 ] , and , significantly , this marker was absent in the peripheral <termsem="PR:000013773"> Rb </term> KO or <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO P18 retina ( Figures 3A and S7B ) .
+<termsem="PR:000005404"> Chat </term> , expressed from the same locus , is also SAC specific , but marks both cell bodies and processes of mature SACs [ 37 ] .
+<termsem="PR:000005404"> Chat </term> was seen in fewer cells in the mature <termsem="PR:000013773"> Rb </term> KO retina , and was present in the soma but absent from processes ( Figure 3B ) .
+We obtained similar results for <termsem="PR:000015851"> Sv2c </term> , a synaptic vesicle protein found in SACs [ 40 ] ; <termsem="PR:000000940"> Kcnc1b </term> and <termsem="PR:000000782"> Kcnc2 </term> , potassium channels expressed on SAC soma and dendrites as well as a very small number of ganglion cells [ 41 ] ; gamma-aminobutyric acid ( GABA ) , an inhibitory neurotransmitter present in about half of amacrine cells including SACs , as well as horizontal and some bipolar neurons [ 37 ] ; and <termsem="PR:000004967"> Calb1 </term> ( <termsem="PR:000004967"> calbindin </term> ) , which is expressed in many amacrine cells and labels SAC process faintly ( Figure S7A and S7B ; Table S1 ; and data not shown ) .
+Finally , we also examined the effect of <termsem="PR:000013773"> Rb </term> deletion on SAC differentiation using a <termsem="PR:000017355"> Chx10 </term> - Cre transgene that is expressed in a mosaic pattern across the retina , generating patches of Cre-expressing cells [ 42 ] .
+Consistent with the mosaic deletion pattern , we observed markedly reduced <termsem="PR:000005404"> Chat </term> / <termsem="PR:000014968"> Slc18a3 </term> staining in the IPL of <termsem="PR:000017355"> Chx10 </term> - Cre ; RbloxP/loxP retina compared to WT ( Figure S7C ) .
+Together , these results suggest a role for <termsem="PR:000013773"> Rb </term> in SAC differentiation .
+The above findings could indicate a defect in SAC specification , SAC survival , or the levels and/or transport of the markers described above .
+<termsem="PR:000003199"> Camk2a </term> marks both SACs and ganglion cells [ 37 ] , but because ganglion cells are eliminated in the <termsem="PR:000013773"> Rb </term> KO retina , <termsem="PR:000003199"> Camk2a </term> is a specific SAC marker in this context .
+Importantly , <termsem="PR:000003199"> Camk2a </term> + tracks and dendrites were present in both the WT and <termsem="PR:000013773"> Rb </term> KO retina ( Figure 3B ) , and the number of <termsem="PR:000003199"> Camk2a </term> + soma was similar in WT and <termsem="PR:000013773"> Rb </term> KO retina at P30 and beyond , although fewer cells stained in <termsem="PR:000013773"> Rb </term> KO retina at P18 , suggesting a delay in its appearance ( Figures 3C and S6B ) .
+Thus , <termsem="PR:000013773"> Rb </term> is not required for SAC survival or for process outgrowth , but rather it seems to regulate the expression and/or stability of <termsem="PR:000004968"> Calb2 </term> , <termsem="PR:000004967"> Calb1 </term> , <termsem="PR:000005404"> Chat </term> , <termsem="PR:000014968"> Slc18a3 </term> , <termsem="PR:000015851"> Sv2c </term> , <termsem="PR:000000940"> Kcnc1b </term> , <termsem="PR:000000782"> Kcnc2 </term> , and GABA in SACs , but leaves <termsem="PR:000003199"> Camk2a </term> expression virtually unaffected .
+The presence of <termsem="PR:000005404"> Chat </term> in some cell bodies but never in processes ( Figure 3B ) also suggests a transport defect .
+The developmental pattern of <termsem="PR:000014968"> Slc18a3 </term> expression also supported this notion .
+In mature WT SACs <termsem="PR:000014968"> Slc18a3 </term> is only in processes , but in early postnatal SACs , it is found in the cell body , and moves into emerging processes at approximately P4 -- P6 .
+As noted above , <termsem="PR:000014968"> Slc18a3 </term> was absent at P18 in the <termsem="PR:000013773"> Rb </term> KO retina ( Figure 3A ) ; at P4 or P5 it was in cell bodies , yet was rarely present in <termsem="PR:000013773"> Rb </term> KO processes ( Figures 4A and S6 ) .
+<termsem="PR:000014968"> Slc18a3 </term> became virtually undetectable in <termsem="PR:000013773"> Rb </term> KO SACs by P8 ( Figures 3C and S6C ) .
+These data suggest that <termsem="PR:000013773"> Rb </term> affects both the synthesis/stability and transport of SAC markers .
+<termsem="PR:000006854"> E2f3 </term> Loss Rescues Differentiation of <termsem="PR:000013773"> Rb </term> KO SACs .
+( A ) Horizontal retinal sections of the indicated ages and genotypes were stained for nuclei ( DAPI , blue ) , mitosis marker PH3 ( green ) , and <termsem="PR:000014968"> Slc18a3 </term> ( red ) , which marks SAC soma at early stages and processes from ~ P5 onwards .
+Arrows show mitotic PH3 + nuclei in <termsem="PR:000013773"> Rb </term> KO , <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006853"> E2f2 </term> DKO , and <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO retinas .
+<termsem="PR:000006852"> E2f1 </term> loss rescues the ectopic mitosis and cell death defects , but not the SAC defect .
+<termsem="PR:000006853"> E2f2 </term> loss has no effect .
+<termsem="PR:000006854"> E2f3 </term> loss does not rescue the ectopic mitosis and cell loss defects , but rescues the SAC defect .
+Inactivating <termsem="PR:000006852"> E2f1 </term> and <termsem="PR:000006854"> E2f3 </term> together rescues the ectopic mitosis , cell death , and SAC defects .
+( B ) The fraction of <termsem="PR:000003199"> Camk2a </term> + cells that are <termsem="PR:000005404"> Chat </term> + and <termsem="PR:000014968"> Slc18a3 </term> + in the P30 retina .
+( C ) Horizontal P5 retinal sections were stained for nuclei ( DAPI , blue ) , <termsem="PR:000014968"> Slc18a3 </term> ( green ) , and <termsem="PR:000009116"> Isl1 </term> ( red ) .
+Arrows show double-labelled <termsem="PR:000009116"> Isl1 </term> + / <termsem="PR:000014968"> Slc18a3 </term> + cells in the inner INL .
+( D ) Horizontal P0 retinal sections of the indicated genotypes were stained for nuclei ( DAPI , blue ) , cell division marker <termsem="PR:000010425"> Mki67 </term> ( green ) , and <termsem="PR:000009116"> Isl1 </term> ( red ) .
+Arrows show double-labelled dividing SACs .
+( E ) The fraction of <termsem="PR:000009116"> Isl1 </term> + cells in the inner NBL ( INBL ) of P0 retinas that are dividing ( <termsem="PR:000010425"> Mki67 </term> + ) .
+Error bars represent SD of measurements from three animals , and asterisks indicate significant differences between retinas of WT and the indicated genotypes ( * , p < 0.05 ; ** ; p < 0.01 ; ANOVA and Tukey HSD test ) .
+Scale bars in ( A ) , ( C ) , and ( D ) are 50 m .
+<termsem="PR:000013773"> Rb </term> Regulates SAC Differentiation through <termsem="PR:000006854"> E2f3 </term> .
+<termsem="PR:000013773"> Rb </term> binds more than 100 proteins [ 43 ] and in some non-neuronal cells , such as skeletal muscle , adipocytes , and bone , <termsem="PR:000013773"> Rb </term> is thought to bind and potentiate tissue-specific transcription factors that promote differentiation [ 31 -- 33 ] .
+Thus , we expected that <termsem="PR:000013773"> Rb </term> might interact with retina-specific factors to facilitate SAC differentiation .
+A direct role for E2f in mediating <termsem="PR:000013773"> Rb </term> - dependent differentiation defects ( independent of cell cycle or death defects ) has to our knowledge not been described , but because E2f can regulate some differentiation genes [ 44 -- 48 ] , we first tested whether <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> might perturb <termsem="PR:000013773"> Rb </term> KO SAC maturation .
+At multiple time points , <termsem="PR:000006852"> E2f1 </term> deletion suppressed ectopic mitosis ( PH3 + cells ) , but did not reverse the SAC defect , and <termsem="PR:000006853"> E2f2 </term> deletion had no effect on either defect ( Figure 4A ) .
+Remarkably , although <termsem="PR:000006854"> E2f3 </term> deletion did not reverse ectopic mitosis , it rescued <termsem="PR:000004968"> Calb2 </term> , <termsem="PR:000014968"> Slc18a3 </term> , <termsem="PR:000005404"> Chat </term> , GABA , <termsem="PR:000000940"> Kcnc1b </term> , <termsem="PR:000000782"> Kcnc2 </term> , and <termsem="PR:000015851"> Sv2c </term> staining at multiple times ( Figure 4A and data not shown ) .
+<termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO SAC tracks were slightly more disordered than in WT retina , most likely because of the absence of synaptic partner cells , which are killed by <termsem="PR:000006852"> E2f1 </term> .
+Indeed , this minor defect was rescued in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> / <termsem="PR:000006854"> E2f3 </term> triple knockout retina , where bipolar and ganglion cell death was rescued and SAC differentiation was restored ( Figure 4A ) .
+<termsem="PR:000006854"> E2f3 </term> deletion alone did not affect SAC differentiation ( Figure 4A ) ; thus , it is unleashed <termsem="PR:000006854"> E2f3 </term> activity that is detrimental , and the critical role for <termsem="PR:000013773"> Rb </term> is to inhibit <termsem="PR:000006854"> E2f3 </term> .
+We quantified the fraction of <termsem="PR:000003199"> Camk2a </term> + SACs in different genotypes and found that 60 % of WT P30 <termsem="PR:000003199"> Camk2a </term> + cells expressed <termsem="PR:000005404"> Chat </term> and <termsem="PR:000014968"> Slc18a3 </term> , which dropped to only 5.6 % in the <termsem="PR:000013773"> Rb </term> KO retina , and remained low at 3.7 % in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina , but rose to 91 % in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO retina ( Figure 4B ) .
+The latter fraction is higher than WT because ganglion cells , which normally make up ~ 40 % of <termsem="PR:000003199"> Camk2a </term> + cells , are killed by apoptosis .
+To quantify the effect of different E2fs on ectopic division specifically in SACs , we exploited <termsem="PR:000009116"> Isl1 </term> ( <termsem="PR:000009116"> Islet1 </term> ) .
+This marker is expressed in both SACs and ganglion cells , thus <termsem="PR:000009116"> Isl1 </term> + cells in the INL are exclusively SACs [ 49 ] .
+We found that 98.2 %  1.8 % of <termsem="PR:000009116"> Isl1 </term> + cells in the forming inner INL at P5 were also <termsem="PR:000014968"> Slc18a3 </term> + , confirming that <termsem="PR:000009116"> Isl1 </term> is an excellent SAC marker ( Figure 4C ) .
+Moreover , <termsem="PR:000009116"> Isl1 </term> , unlike <termsem="PR:000014968"> Slc18a3 </term> , is nuclear , which facilitates scoring of <termsem="PR:000009116"> Isl1 </term> + / <termsem="PR:000010425"> Mki67 </term> + cells .
+It is also expressed earlier than <termsem="PR:000014968"> Slc18a3 </term> , permitting analysis of SACs soon after their birth at ~ E15 ; thus , we could study retina at P0 , a time when ectopic division is high in the inner retina and prior to <termsem="PR:000013773"> Rb </term> - independent cell cycle exit associated with terminal differentiation [ 2 ] .
+At P0 , no WT <termsem="PR:000009116"> Isl1 </term> + cells in the inner neuroblastic layer ( NBL ) ( which is the future INL ) were dividing , but 57  14 <termsem="PR:000009116"> Isl1 </term> + / <termsem="PR:000010425"> Mki67 </term> + cells were detected in the <termsem="PR:000013773"> Rb </term> KO inner NBL ( Figure 4D ) .
+Indeed , about one-third of all <termsem="PR:000009116"> Isl1 </term> + cells in the entire inner NBL were dividing in the <termsem="PR:000013773"> Rb </term> KO retina , or ~ 50 % in the periphery where Cre is expressed ( Figure 4E and data not shown ) .
+This defect was suppressed in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina , where we detected only 1  1 dividing SAC , but not the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO retina , where there were 53  8 dividing SACs ( Figure 4D and 4E ) .
+We observed similar effects at P0 with <termsem="PR:000004968"> Calb2 </term> , which marks newborn SACs and other amacrine cells ( data not shown ) .
+Thus , in <termsem="PR:000013773"> Rb </term> KO SACs , <termsem="PR:000006852"> E2f1 </term> deletion suppresses ectopic division but not aberrant differentiation , whereas <termsem="PR:000006854"> E2f3 </term> deletion suppresses aberrant differentiation but not ectopic division .
+Specific Expression of <termsem="PR:000006854"> E2f3 </term> in SACs and Other Subsets of CNS Neurons .
+The unique effect of <termsem="PR:000006854"> E2f3 </term> in disrupting the differentiation of SACs but not other retinal neurons might be due to cell-type-specific expression or cell-type-specific activity of <termsem="PR:000006854"> E2f3 </term> .
+Determining between these two possibilities is not easy , as E2f immunostaining in mouse tissues is problematic .
+We did not solve this issue for <termsem="PR:000006852"> E2f1 </term> or <termsem="PR:000006853"> E2f2 </term> , but used a modified protocol [ 50 ] to successfully track <termsem="PR:000006854"> E2f3 </term> expression ( Figure 5 ) .
+At P0 , <termsem="PR:000006854"> E2f3 </term> was detected in RPCs , consistent with a putative role in normal proliferation ( Figure 5A ) .
+The signal was specific as it was absent in the <termsem="PR:000006854"> E2f3 </term> KO peripheral retina ( Figure 5A ) .
+As the retina differentiated and RPC division diminished , the number of <termsem="PR:000006854"> E2f3 </term> + cells also dropped , and by P8 , when division is virtually over , only a subset of post-mitotic cells in the inner retina expressed <termsem="PR:000006854"> E2f3 </term> ( Figure 5A ) .
+By P18 , <termsem="PR:000006854"> E2f3 </term> was also detected in two tracks in the IPL ( Figure 5A and 5B ) , reminiscent of SAC markers such as <termsem="PR:000005404"> Chat </term> and <termsem="PR:000014968"> Slc18a3 </term> ( c.f. Figures 3 and 4 ) .
+This cytoplasmic <termsem="PR:000006854"> E2f3 </term> staining was also specific , as it was absent in the <termsem="PR:000006854"> E2f3 </term> KO peripheral retina of -Cre ; E2f3loxP/loxP mice ( Figure 5A ) .
+Indeed , double labelling with <termsem="PR:000006854"> E2f3 </term> ( red ) and <termsem="PR:000005404"> Chat </term> plus <termsem="PR:000014968"> Slc18a3 </term> ( green ) confirmed that <termsem="PR:000006854"> E2f3 </term> is present in both SAC soma and dendrites ( Figure 5B ) .
+<termsem="PR:000013773"> Rb </term> protein was also detected in the inner retina ( Figure 5A ) , and showed a similar distribution as <termsem="PR:000006854"> E2f3 </term> in SACs ( Figure 5B ) , and was also present in mature ganglion cells and Mller cells as reported [ 51 ] .
+<termsem="PR:000013773"> Rb </term> staining in SAC processes was specific as it was absent in the peripheral retina of Cre ; RbloxP/loxP mice ( Figure 5A ) .
+These data suggest that <termsem="PR:000013773"> Rb </term> and <termsem="PR:000006854"> E2f3 </term> colocalize in SACs and that <termsem="PR:000006854"> E2f3 </term> triggers defects in SAC differentiation because it is specifically expressed in these retinal neurons .
+<termsem="PR:000006854"> E2f3 </term> and <termsem="PR:000013773"> Rb </term> Expression in SACs .
+( A ) Left panels : horizontal P0 , P8 , and P18 retinal sections of the indicated genotypes were stained for <termsem="PR:000006854"> E2f3 </term> ( red ) and DAPI ( blue ) .
+The arrow indicates the junction between the <termsem="PR:000006854"> E2f3 </term> null peripheral and WT central P0 retina .
+Note the absence of <termsem="PR:000006854"> E2f3 </term> protein in the peripheral <termsem="PR:000006854"> E2f3 </term> KO RPCs at P0 and in peripheral inner retinal neurons at P18 .
+Far right panel : P18 retinal sections of the indicated genotypes were stained for <termsem="PR:000013773"> Rb </term> ( red ) and DAPI ( blue ) .
+Note the absence of <termsem="PR:000013773"> Rb </term> protein in the peripheral <termsem="PR:000013773"> Rb </term> KO inner retinal neurons .
+( B ) WT P18 retinal sections were stained for nuclei ( DAPI , blue ) , <termsem="PR:000006854"> E2f3 </term> ( red ) or <termsem="PR:000013773"> Rb </term> ( red ) , and <termsem="PR:000005404"> Chat </term> plus <termsem="PR:000014968"> Slc18a3 </term> ( green ) .
+Arrows indicate double-labelled soma .
+Note that the IPL processes are also double-labelled .
+Scale bars are 50 m .
+We also found that <termsem="PR:000006854"> E2f3 </term> is present in a specific subset of mature neurons in various brain regions ( data not shown ) .
+For example , in the P20 amygdala , <termsem="PR:000006854"> E2f3 </term> colocalized with the general neuronal markers <termsem="PR:000010124"> Mtap2 </term> and <termsem="PR:000010277"> Mecp2 </term> [ 52 ] , but not with <termsem="PR:000004968"> Calb2 </term> , which marks a subset of neurons , or with the glial marker <termsem="PR:000007939"> Gfap </term> ( data not shown ) .
+Unlike in retinal SACs , <termsem="PR:000006854"> E2f3 </term> was not coexpressed in <termsem="PR:000005404"> Chat </term> + or <termsem="PR:000014968"> Slc18a3 </term> + cholinergic neurons located in various regions of the brain and spinal cord ( data not shown ) .
+In agreement , we could not detect defects in cholinergic <termsem="PR:000013773"> Rb </term> KO neurons in the developing forebrain , but other <termsem="PR:000013773"> Rb </term> KO neurons in this region showed differentiation defects that were rescued by deleting <termsem="PR:000006854"> E2f3 </term> [ 53 ] .
+Together , these results suggest that the common mechanism by which <termsem="PR:000013773"> Rb </term> promotes neural differentiation is through <termsem="PR:000006854"> E2f3 </term> inhibition .
+Distinct Localization of <termsem="PR:000006854"> E2f3 </term> Isoforms .
+As noted above , <termsem="PR:000006854"> E2f3 </term> and <termsem="PR:000013773"> Rb </term> staining in SACs was both nuclear and cytoplasmic ( Figure 5A and 5B ) .
+The antibody that worked in immunostaining recognizes a C-terminal region and thus , does not distinguish a/b isoforms .
+To our knowledge , the subcellular location of <termsem="PR:000006854"> E2f3 </term> isoforms has not been determined in any cell type .
+To verify the dual locations of <termsem="PR:000006854"> E2f3 </term> and to determine which isoforms were present in retina , we analyzed nuclear and cytoplasmic fractions by Western blot at different times during development .
+Analysis with the pan - <termsem="PR:000006854"> E2f3 </term> antibody ( sc-878 , Santa Cruz Biotechnology ) detected a 55-kD E2f3a species and a 40-kD E2f3b polypeptide ( Figure 6 ) .
+To confirm that the upper species in our retinal lysates was E2f3a , we exploited novel mice that lack <termsem="PR:000006854"> E2f3 </term> exon 1a and thus express E2f3b exclusively ( R. O. and G. L. , unpublished data ) .
+The genotyping strategy is discussed in detail later and is outlined in Figure 7A .
+Western analysis confirmed that the upper band was absent in E2f3a  /  mice ( Figures 6 and S8 ) .
+Consistent with the drop in <termsem="PR:000006854"> E2f3 </term> - expressing cells during WT retinal maturation ( Figure 5A ) , the total amount of E2f3a was less at P18 compared to P0 ( Figure 6 ) .
+E2f3b was present in similar amounts at both time points .
+At P0 and P18 , E2f3a was present in both nuclear and cytoplasmic fractions , but in marked contrast , E2f3b was exclusively nuclear at both times ( Figure 6 ) .
+Two closely migrating E2f3a bands were detected , more clearly evident at P18 , of which the faster migrating species was dominant in nuclear and the slower species was dominant in cytoplasm ( Figure 6 ) .
+The identity of both as E2f3a species was confirmed by their absence in the P18 E2f3a KO retina ( Figure S8 ) .
+Analysis of <termsem="PR:000013042"> Pou4f2 </term> , a nuclear transcription factor expressed in ganglion cells , showed that nuclear proteins had not contaminated the cytoplasmic fraction , and analysis of <termsem="PR:000014968"> Slc18a3 </term> , a cytoplasmic SAC marker , confirmed that the reverse had also not occurred ( Figure 6 ) .
+These data show , to our knowledge for the first time , that E2f3a and E2f3b exhibit distinct patterns of subcellular distribution , and raise the possibility that E2f3a localization may be regulated by as yet unknown post-translational modifications .
+Subcellular Distribution of <termsem="PR:000006854"> E2f3 </term> Isoforms and Other Cell Cycle Proteins in the Developing Retina .
+Nuclear and cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages were analyzed by Western blotting to detect the indicated proteins .
+Lysate from E2f3a  /  mice was used as a control to confirm the location of E2f3a protein .
+C , cytoplasmic extracts ; N , nuclear extracts .
+The E2f3a Isoform Drives the Differentiation Defect in <termsem="PR:000013773"> Rb </term> KO SACs .
+( A ) Schematic diagrams of the mouse WT , E2f3a  /  , and the Cre-recombined floxed <termsem="PR:000006854"> E2f3 </term> loci ( indicated here as <termsem="PR:000006854"> E2f3 </term>  /  for simplicity ) .
+E2f3a  /  mice lack most of <termsem="PR:000006854"> E2f3 </term> exon 1a and part of intron 1a ( red dotted box ) .
+Arrows indicate PCR primers .
+Genotyping of an E2f3a + /  mouse is shown on the right .
+( B ) RT-PCR detection of E2f3a and E2f3b mRNA in the retina .
+The sequences of primers are 1aF ( 5  - GCCTCTACACCACGCCACAAG-3  ) , 1bF ( 5  - CGGAAATGCCCTTACAGC-3  ) , and 4R ( 5  - CTCAGTCACTTCTTTGGACAG-3  ) .
+WT retina expresses both E2f3a and E2f3b mRNA .
+As expected , E2f3a  /  retina lacks E2f3a mRNA and still expresses E2f3b mRNA .
+<termsem="PR:000006854"> E2f3 </term>  /  retina lacks full-length E2f3a and E2f3b mRNAs , and instead expresses a truncated mRNA lacking exon 3 .
+( C ) Real-time RT-PCR analysis of E2f genes in P8 retinas of the indicated genotypes .
+Error bars represent SD of measurements from three animals , and asterisks indicate a significant difference between WT and the indicated genotypes ( * , p < 0.05 ; ** ; p < 0.01 ; ANOVA and Tukey HSD test ) .
+( D ) Rescue of <termsem="PR:000013773"> Rb </term> KO SACs by E2f3a deletion .
+Horizontal retinal sections of the indicated genotypes and ages were stained for nuclei ( DAPI , blue ) , M-phase ( PH3 , green ) , and the SAC marker <termsem="PR:000014968"> Slc18a3 </term> ( red ) .
+E2f3a deletion does not suppress ectopic division , but rescues the SAC defect .
+Scale bars are 50 m .
+M , molecular size marker .
+We also examined the distribution of other cell cycle regulators during retinal development .
+Like E2f3a , <termsem="PR:000013773"> Rb </term> was present in both the WT cytoplasm and nucleus at P0 , but at P18 , when the levels of <termsem="PR:000013773"> Rb </term> had increased , it was primarily nuclear ( Figure 6 ) .
+A very faint cytoplasmic <termsem="PR:000013773"> Rb </term> signal was evident at P18 , which is consistent with <termsem="PR:000013773"> Rb </term> staining of SAC processes ( Figure 5B ) , and with the very small proportion of SACs in the retina [ 38 ] .
+<termsem="PR:000006852"> E2f1 </term> was also detected in both nuclear and cytoplasmic fractions , although unlike E2f3a it was predominantly nuclear both at P0 and P18 ( Figure 6 ) .
+The E2f dimerization partner , <termsem="PR:000016269"> Tfdp1 </term> , which lacks a nuclear localization signal [ 54 ] , was primarily cytoplasmic at both P0 and P18 , and the Cdk inhibitors <termsem="PR:000005274"> Cdkn1a </term> and <termsem="PR:000003090"> Cdkn1b </term> showed a similar pattern of distribution ( Figure 6 ) .
+Thus , among the cell cycle regulators we examined , most showed bivalent distribution , and E2f3b was unusual in its solely nuclear compartmentalization .
+<termsem="PR:000013773"> Rb </term> Regulates SAC Differentiation through E2f3a .
+To test which <termsem="PR:000006854"> E2f3 </term> isoform is responsible for aberrant <termsem="PR:000013773"> Rb </term> KO SAC differentiation we exploited E2f3a  /  mice ( Figure 7A ) .
+The genotyping strategy outlined in Figure 7A was used to distinguish the E2f3a , WT , and null alleles .
+Reverse transcriptase PCR ( RT-PCR ) confirmed the presence of both E2f3a and E2f3b RNA species in the developing WT retina , and the specific absence of E2f3a RNA in the E2f3a  /  retina ( Figure 7B ) .
+E2f3a protein was absent in E2f3a  /  retinal lysate ( Figures 6 and S8 ) .
+Importantly , the levels of E2f3b message were similar in the <termsem="PR:000013773"> Rb </term> KO and <termsem="PR:000013773"> Rb </term> / E2f3a DKO retina , ruling out the possibility that any effects of E2f3a deletion we might observe were due to down-regulation of E2f3b ( Figure 7C ) .
+Also , the levels of other E2fs were the same in the <termsem="PR:000013773"> Rb </term> KO , <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006854"> E2f3 </term> DKO , and <termsem="PR:000013773"> Rb </term> / E2f3a DKO retina , ruling out any cross-regulatory effects ( Figure 7C ) [ 55 ] .
+E2f3a can trigger cell cycle induction , but because SAC defects are not linked to cell cycle perturbation ( Figures 3A and 4 ) , and in view of the predominant association between E2f3b and <termsem="PR:000013773"> Rb </term> in quiescent cells [ 16,19 ] , we suspected that E2f3b may perturb differentiation in <termsem="PR:000013773"> Rb </term> KO SACs .
+Unexpectedly , however , E2f3a deletion suppressed the <termsem="PR:000013773"> Rb </term> KO SAC defect ( Figure 7D ) .
+Thus , separate from its role in cell cycle control , <termsem="PR:000013773"> Rb </term> regulation of E2f3a is critical to ensure proper neuronal differentiation .
+<termsem="PR:000013773"> Rb </term> Controls Retinal Cell Division and Death through <termsem="PR:000006852"> E2f1 </term> .
+Work in the early 1990s showed that <termsem="PR:000013773"> Rb </term> loss triggers defects in neuronal cell cycle exit , survival , and differentiation [ 26 -- 28 ] .
+Much of the death is an indirect consequence of probable hypoxia linked to placental defects [ 12 -- 14 ] .
+However , targeted KO and chimeric studies reveal that <termsem="PR:000013773"> Rb </term> autonomously promotes cell cycle exit in newborn neurons , and is required for survival of a subset of neurons , particularly in the retina [ 2,3,13,14,56 -- 59 ] .
+However , whether <termsem="PR:000013773"> Rb </term> also regulates differentiation is obscured by potentially indirect effects of ectopic division and death .
+Moreover , a mechanism though which <termsem="PR:000013773"> Rb </term> may regulate neuronal maturation has not been elucidated .
+Here , deleting <termsem="PR:000006852"> E2f1 </term> specifically rescued ectopic division and death in the <termsem="PR:000013773"> Rb </term> KO retina .
+Importantly , major <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO neurons differentiated normally , and ERGs revealed the rescue of rod - and cone-mediated function , implicating a regular signal flow from photoreceptors to bipolar and amacrine cells .
+Division and death genes were induced in <termsem="PR:000013773"> Rb </term> KO cells , and deleting <termsem="PR:000006852"> E2f1 </term> , but not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , reversed these molecular events .
+<termsem="PR:000006852"> E2f1 </term> may also regulate differentiation targets , but whether this contributes to defects in retinal cell maturation is impossible to separate from potentially indirect consequences of deregulated division and death .
+In any case , it is clear that in most retinal cells , including photoreceptors [ 29 ] , transcription factors that promote differentiation function independently of <termsem="PR:000013773"> Rb </term> .
+We have also found that <termsem="PR:000006852"> E2f1 </term> deletion rescues cell-autonomous ectopic division , death , and differentiation defects in sporadic <termsem="PR:000013773"> Rb </term> KO clones generated using a Cre retrovirus vector ( M. P. and R. B. , unpublished data ) .
+These data are consistent with the observation that <termsem="PR:000006852"> E2f1 </term> overexpression in newborn photoreceptors drives ectopic division and apoptosis [ 60 ] , and add to the growing evidence indicating that <termsem="PR:000006852"> E2f1 </term> is the major , and perhaps only , member of the three activating E2fs required to induce apoptosis in <termsem="PR:000013773"> Rb </term> KO cells [ 10,15 ] .
+Thus , deregulated <termsem="PR:000006852"> E2f1 </term> activity in the retina , whether resulting from the inactivation of <termsem="PR:000013773"> Rb </term> or from overexpression , promotes unscheduled cell division and triggers apoptosis in susceptible RTCs .
+<termsem="PR:000006852"> E2f1 </term> , rather than other E2fs , may be a potential target for novel therapeutics to prevent retinoblastoma in <termsem="PR:000013773"> RB1 </term> + /  humans .
+Our ERG studies revealed rescue of the <termsem="PR:000013773"> Rb </term> KO rod -- bipolar system , and almost complete restoration of the cone -- bipolar system following <termsem="PR:000006852"> E2f1 </term> deletion .
+There was a slightly lower response in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina relative to the <termsem="PR:000006852"> E2f1 </term> KO control retina .
+This difference might reflect a role for <termsem="PR:000013773"> Rb </term> in the development of cones , bipolar cells , or other cells that may contribute to the photopic ERG , including potentially SACs , which do have a serious defect in the <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO retina .
+<termsem="PR:000013773"> Rb </term> Controls SAC Differentiation through E2f3a .
+Comprehensive marker analysis revealed that , in striking contrast to other retinal neurons , <termsem="PR:000006852"> E2f1 </term> deletion did not suppress defects in <termsem="PR:000013773"> Rb </term> KO cholinergic SACs .
+Instead , we observed <termsem="PR:000006852"> E2f1 </term> - independent defects in the synthesis and transport of a large cohort of SAC proteins .
+These data expand insight into the development of these important interneurons , but more critically , provide to our knowledge the first unambiguous evidence that <termsem="PR:000013773"> Rb </term> regulates neurogenesis beyond terminal mitosis .
+<termsem="PR:000013773"> Rb </term> binds more than 100 factors [ 43 ] , and in several non-neuronal cells , such as skeletal muscle , adipocytes , and bone , it binds and potentiates tissue-specific transcription factors that promote differentiation [ 31 -- 33 ] .
+The idea that <termsem="PR:000013773"> Rb </term> promotes muscle differentiation by potentiating <termsem="PR:000010875"> Myod1 </term> activity was contested [ 61 ] , and other mechanisms proposed [ 62,63 ] , but not involving E2f repression .
+Strikingly , however , we discovered that <termsem="PR:000013773"> Rb </term> promotes SAC differentiation through <termsem="PR:000006854"> E2f3 </term> ( Figure 8 ) .
+<termsem="PR:000013773"> Rb </term> Regulates Distinct Processes through <termsem="PR:000006852"> E2f1 </term> and E2f3a .
+Red text and arrows indicate <termsem="PR:000013773"> Rb </term> - dependent events .
+Black text and arrows indicate events for which there is no direct evidence of <termsem="PR:000013773"> Rb </term> involvement .
+<termsem="PR:000013773"> Rb </term> does not appear to temper RPC expansion and is not required for differentiation of RPCs into RTCs , but is essential to couple RTC birth to terminal mitosis , thus locking them out of cycle .
+<termsem="PR:000013773"> Rb </term> performs this function by inhibiting <termsem="PR:000006852"> E2f1 </term> .
+<termsem="PR:000013773"> Rb </term> is also required for SAC differentiation , and in this case , acts by inhibiting E2f3a .
+There is no direct evidence that <termsem="PR:000013773"> Rb </term> is required for terminal differentiation of other cell types .
+Colour codes and abbreviations as in Figure 1A .
+<termsem="PR:000013773"> Rb </term> regulation of SAC differentiation through <termsem="PR:000006854"> E2f3 </term> was independent of its role in controlling division or death : <termsem="PR:000006854"> E2f3 </term> deletion rescued <termsem="PR:000013773"> Rb </term> KO SAC defects but did not suppress aberrant proliferation or death , whereas <termsem="PR:000006852"> E2f1 </term> deletion reversed abnormal proliferation and death but did not rescue SAC differentiation .
+Double labelling confirmed that <termsem="PR:000006852"> E2f1 </term> but not <termsem="PR:000006854"> E2f3 </term> deletion reversed <termsem="PR:000013773"> Rb </term> KO SAC division .
+Moreover , deleting <termsem="PR:000006852"> E2f1 </term> , but not <termsem="PR:000006854"> E2f3 </term> , reversed deregulated expression of cell cycle and apoptotic genes in the <termsem="PR:000013773"> Rb </term> KO retina .
+<termsem="PR:000006854"> E2f3 </term> is expressed in a subset of CNS neurons ( this work ) and drives specific cell-cycle -- independent defects in <termsem="PR:000013773"> Rb </term> KO forebrain neurons [ 53 ] .
+Thus , <termsem="PR:000006854"> E2f3 </term> inhibition is the first , and may be the only , mechanism by which <termsem="PR:000013773"> Rb </term> participates directly in neuronal differentiation .
+To further dissect the mechanism of action of <termsem="PR:000013773"> Rb </term> in SACs we determined the <termsem="PR:000006854"> E2f3 </term> isoform it targets to promote differentiation .
+E2f3b was the primary candidate , since <termsem="PR:000013773"> Rb </term> and E2f3b collaborate to repress targets in quiescent cells in vitro [ 19 ] .
+However , in the first work to our knowledge to examine the function of any E2f protein isoform in vivo , we made the surprising observation that <termsem="PR:000013773"> Rb </term> regulates SAC differentiation through E2f3a ( Figure 8 ) .
+Formally , we can not exclude the possibility that deleting E2f3b might also rescue SAC differentiation , but definitive proof will require analysis of E2f3b null mice .
+Nevertheless , our data prove that <termsem="PR:000013773"> Rb </term> definitely regulates SAC differentiation through the activating <termsem="PR:000006854"> E2f3 </term> isoform .
+Distinct E2f3a and E2f3b Localization .
+The subcellular location of E2f isoforms has not to our knowledge been addressed before .
+E2f3a and E2f3b share 110 C-terminal amino acids that encode the NLS , DNA-binding , marked box , transactivation , and <termsem="PR:000013773"> Rb </term> - binding domains [ 16 ] , yet they exhibit different subcellular distribution in developing retinal cells .
+E2f3a is both nuclear and cytoplasmic , but E2f3b is always nuclear .
+The unique 121 - and six-residue N-termini of E2f3a and E2f3b , respectively , likely mediate this difference .
+This region in <termsem="PR:000006852"> E2f1 </term> , <termsem="PR:000006853"> E2f2 </term> , and E2f3a binds <termsem="PR:000005115"> Ccna2 </term> , establishing a negative regulatory loop that deactivates E2fs in mid-late S-phase [ 64,65 ] .
+However , even E2f3b , which lacks this domain , binds and is regulated by <termsem="PR:000005115"> Ccna2 </term> [ 18 ] , so the domain difference may not explain the unique distributions we observed .
+<termsem="PR:000013773"> Rb </term> family and Tfdp proteins can also determine E2f localization [ 20 -- 22 ] , and we found that a portion of both <termsem="PR:000013773"> Rb </term> and <termsem="PR:000016269"> Tfdp1 </term> proteins are cytoplasmic in retinal cells .
+Indeed , immunostaining revealed that <termsem="PR:000013773"> Rb </term> and <termsem="PR:000006854"> E2f3 </term> colocalize to SAC processes .
+The nuclear localization of E2f3b contrasts with that of other repressive E2fs in differentiating muscle , where <termsem="PR:000006856"> E2f5 </term> switches from the nucleus to cytoplasm , while <termsem="PR:000006855"> E2f4 </term> remains in both compartments [ 23 ] .
+The distinct compartmentalization of E2f3a and E2f3b in the retina suggests temporally and functionally distinct activities .
+<termsem="PR:000013773"> Rb </term> distribution matches that of E2f3a , consistent with its critical role in supporting SAC differentiation through E2f3a .
+Ectopic Division and Differentiation .
+<termsem="PR:000013773"> Rb </term> is critical to ensure that many types of terminally differentiating cells leave the cell cycle ( e.g. , neurons , gut and skin epithelia , muscle , and lens fibres ) ( reviewed in [ 66 ] ) .
+Early overexpression studies in vitro suggested <termsem="PR:000013773"> Rb </term> might temper expansion of cycling cells , but KO studies in vivo indicate that its major role is to block division in terminally differentiating cells .
+In its absence , many ( but clearly not all ) aspects of differentiation go ahead relatively unperturbed .
+In the retina , differentiating transition cells are born in the absence of <termsem="PR:000013773"> Rb </term> , migrate to the correct layer , and express appropriate markers ( [ 2 ] and this work ) .
+In brain , <termsem="PR:000013773"> Rb </term> KO neurons migrate away from the ventricular zone and switch on <termsem="PR:000016819"> Tubb3 </term> ( <termsem="PR:000016819"> III-tubulin </term> ) , but continue to incorporate BrdU [ 13 ] , and in gut epithelia , differentiated enterocytes migrate up the villi and activate expression of serotonin , yet continue to incorporate BrdU [ 67 ] .
+In the case of SACs , the differentiation defects we observed ( e.g. , loss of <termsem="PR:000014968"> Slc18a3 </term> and <termsem="PR:000005404"> Chat </term> ) were not due to aberrant division , but it is possible there are other problems with these cells that are caused by ectopic division .
+Nevertheless , it is clear that many aspects of differentiation in multiple cell types are compatible with ectopic division .
+However , division of terminally differentiating cells is dangerous , since it may facilitate transformation , as is the case in retinoblastoma ( reviewed in [ 66 ] ) .
+How Does E2f3a Perturb SAC Differentiation ?
+E2f3a could disrupt SAC differentiation through its well known role as a transcriptional activator , or , in view of the discovery that it is partially cytoplasmic , E2f3a may affect processes other than gene regulation .
+Both scenarios are feasible since E2fs regulate differentiation genes [ 44 -- 48 ] , and cell cycle regulators , such as <termsem="PR:000003090"> Cdkn1b </term> , have cytoplasmic activities that influence differentiation [ 68,69 ] .
+Many transcription factors shuttle between nucleus and cytoplasm during neurogenesis ( e.g. , [ 70 ] and references therein ) .
+It may be difficult to identify E2f3a-specific target genes or cytoplasmic proteins in SACs since these neurons are a small proportion ( < 1 % ) of the total retina and only ~ 5.2 % of amacrine neurons [ 38 ] .
+Do E2fs Mediate All <termsem="PR:000013773"> Rb </term> Functions ?
+Others have suggested that <termsem="PR:000013773"> Rb </term> promotes differentiation in non-neuronal cells through E2f-independent means [ 31 -- 33 ] .
+However , these studies did not assess whether these cell types differentiate normally if <termsem="PR:000013773"> Rb </term> is deleted along with one or more E2f family members .
+One study reported that <termsem="PR:000013773"> Rb </term> mutants that do not bind E2f still induce differentiation [ 30 ] .
+However , the binding assays were performed in solution , and we have found that several of these mutants do bind E2f , albeit weakly , on chromatin ( T. Yu and R. B. , unpublished data ) .
+It is possible that <termsem="PR:000013773"> Rb </term> - mediated potentiation of tissue-specific transcription factors may , at least in some cases , be a redundant activity , and that the only critical <termsem="PR:000013773"> Rb </term> function is to inhibit E2f .
+Our study is the first to our knowledge to assess comprehensively whether <termsem="PR:000013773"> Rb </term> KO cells can differentiate in the absence of different E2fs .
+In light of our findings , it will be important to reassess differentiation defects in other <termsem="PR:000013773"> Rb </term> KO tissues in the absence of individual and combined activating E2f family members .
+Mouse strains and genotyping .
+Mice were treated according to institutional and national guidelines .
+-Cre mice ( P. Gruss ) , <termsem="PR:000017355"> Chx10 </term> - Cre mice ( C. Cepko ) , RbloxP/loxP mice ( A. Berns ) , <termsem="PR:000006852"> E2f1 </term> -- / -- mice , <termsem="PR:000006853"> E2f2 </term> -- / -- mice , E2f3loxP/loxP mice , and E2f3a  /  mice were maintained on a mixed ( NMRI  C57/Bl  FVB/N  129sv ) background .
+A detailed description of E2f3a  /  mice will be published elsewhere .
+Mice of different genotypes were compared within the same litter and across a minimum of three litters .
+We have not noted any phenotypic differences in separate litters .
+Genotyping was performed as before [ 2,5 ] , and the primers used for genotyping E2f3a  /  mice were E2f3a KL ( 5  - CTCCAGACCCCCGATTATTT-3  ) , E2f3a KR1 ( 5  - TCCAGTGCACTACTCCCTCC-3  ) , and E2f3a KM ( 5  - GCTAGCAGTGCCCTTTTGTC-3  ) .
+Histology , immunofluorescence , and measurements .
+Eyeballs were fixed in 4 % paraformaldehyde for 1 h at 4 C , embedded in OCT ( TissueTek 4583 , Sakura , http://www.sakuraeu.com ) , frozen on dry ice , and cut into 12-m sections on Superfrost plus slides ( VWR , http://www.vwr.com ) .
+For S-phase analysis , BrdU ( 100 g/g of body weight ) was injected intraperitoneally 2 h prior to sacrifice .
+BrdU + cells were detected using a biotin-conjugated sheep polyclonal antibody ( 1:500 , Maine Biotechnology Services , http://www.mainebiotechnology.com ) .
+All other antibodies are described in Table S1 .
+For <termsem="PR:000006854"> E2f3 </term> , <termsem="PR:000010425"> Mki67 </term> , and <termsem="PR:000013773"> Rb </term> staining , antigen retrieval was performed by boiling sections in citric acid solution for 15 min according to Ino [ 50 ] , except on frozen sections .
+TUNEL was performed as described [ 13 ] .
+Briefly , sections were incubated for 1 h at 37 C with 75 l of mixture solution consisting of 0.5 l of <termsem="PR:000006611"> terminal deoxynucleotide transferase </term> , 1 l of biotin-16-dUTP , 7.5 l of CoCl2 , 15 l of 5  <termsem="PR:000006611"> terminal deoxynucleotide transferase </term> buffer , and 51 l of distilled water .
+After three washes in 4  SSC buffer , sections were incubated with Alexa 488 -- or Alexa 568  streptavidin ( 1:1,000 ; Molecular Probes , http://probes.invitrogen.com ) for 1 h at room temperature .
+Primary antibodies or labelled cells were visualized using donkey anti-mouse Alexa 488 or Alexa 568 , donkey anti-rabbit Alexa 488 or Alexa 568 , donkey anti-goat Alexa 488 or Alexa 568 , and streptavidin Alexa 488 or Alexa 568 ( 1:1,000 ; Molecular Probes ) .
+Nuclei were counter-stained with 4,6-diamidino-2-phenyindole ( DAPI ; Sigma , http://www.sigmaaldrich.com ) .
+Labelled cells were visualized using a Zeiss ( http://www.zeiss.com ) Axioplan-2 microscope with Plan Neofluar objectives and images captured with a Zeiss AxionCam camera .
+For double-labelled samples , confocal images were obtained with a Zeiss LSM 5.0 laser scanning microscope .
+The retina was separated into three bins by dividing the ventricular edge of the retina into equal parts and extending a line to the vitreal edge [ 2 ] .
+Bin 1 contains only cells that expressed Cre as progenitors ; bin 3 is at central retina and contains cells derived from progenitors that did not express Cre .
+For cell counts or thickness measurement we used a region 0 -- 100 m peripheral to the boundary separating bins 1 and 2 .
+Measurements were performed on an Axioplan-2 microscope using Axiovison software .
+Quantification of S-phase , M-phase , and apoptotic cells was performed on horizontal sections that included the optic nerve .
+Quantification of differentiated cell types was performed using horizontal sections at equal distances from the optic nerve .
+A minimum of three sections per eye and three eyes from different litters were counted .
+RNA extraction , reverse transcription , and PCR .
+Total RNA was isolated from dissected peripheral retina using TRIzol reagent ( Invitrogen , http://www.invitrogen.com ) followed by digestion with RNase-free DNase ( DNA-free , Ambion , http://www.ambion.com ) to remove DNA contamination .
+First-strand cDNA was synthesized from 0.2 -- 0.5 g of total RNA using the SuperScript II first-strand synthesis system ( Invitrogen ) .
+PCR primers are listed in Table S2 .
+Real-time quantitative PCR was performed using an Applied Biosystems ( http://appliedbiosystems.com ) PRISM 7900HT .
+Tests were run in duplicate on three separate biological samples with SYBR Green PCR Master Mix ( Applied Biosystems ) exactly as we described previously [ 71 ] .
+Briefly , master stocks were prepared such that each 10-l reaction contained 5 l of SYBR Green PCR Master Mix , 0.1 l of each forward and reverse primer ( stock 50 M ) , 0.8 l of blue H2O ( 0.73 % Blue Food Colour ; McCormick , http://www.mccormick.com ) , 2 l of diluted cDNA template , and 2 l of yellow H2O ( 0.73 % Yellow Food Colour ) .
+PCR consisted of 40 cycles of denaturation at 95 C for 15 s and annealing and extension at 55 C for 30 s .
+An additional cycle ( 95 C , 15 s , 60 C ) generated a dissociation curve to confirm a single product .
+The cycle quantity required to reach a threshold in the linear range was determined and compared to a standard curve for each primer set generated by five 3-fold dilutions of genomic DNA or cDNA samples of known concentration .
+Values obtained for test RNAs were normalized to <termsem="PR:000008735"> Hprt1 </term> mRNA levels .
+Western blots .
+Mouse retinas were homogenized by passing them through a 30-gauge BD 9 http://www.bd.com ) needle 5 -- 10 times in 1  PBS solution .
+Nuclear and cytoplasmic proteins were extracted using the NE-PER Nuclear and Cytoplasmic Extraction Kit ( Product # 78833 , Pierce Biotechnology , http://www.piercenet.com ) .
+Proteins were separated by 10 % SDS-PAGE and transferred to nitrocellulose .
+After blocking overnight at 4 C in 5 % skim milk , membranes were incubated in the primary antibody for 2 h at room temperature .
+After three 10-min washes in TPBS ( 100 mM Na2HPO4 , 100 mM NaH2PO4 , 0.5 N NaCl , 0.1 % Tween-20 ) , membranes were incubated for 30 min at room temperature in the secondary horseradish peroxidase-conjugated antibody ( Jackson ImmunoResearch Laboratories , http://www.jacksonimmuno.com ) .
+Blots were developed using the ECL-Plus chemiluminescent detection system ( Amersham Pharmacia Biotech , http://www.pharmacia.ca ) , according to the manufacturer 's instructions .
+The following primary antibodies were used : <termsem="PR:000006852"> E2f-1 </term> ( SC-193 ) , <termsem="PR:000006854"> E2f-3 </term> ( SC-878 ) , <termsem="PR:000005274"> Cdkn1a </term> ( <termsem="PR:000005274"> p21 </term> , SC-471 ) , <termsem="PR:000003090"> Cdkn1b </term> ( <termsem="PR:000003090"> p27 </term> , SC-528 ) , <termsem="PR:000013042"> Pou4f2 </term> ( <termsem="PR:000013042"> Brn3b </term> , SC-6062 ) , and <termsem="PR:000016269"> Tfdp1 </term> ( <termsem="PR:000016269"> Dp1 </term> , SC-610 ) from Santa Cruz Biotechnology ( http://www.scbt.com ) , pRB ( 554136 ) from BD Science-Pharmingen ( http://www.bdbiosciences.com ) , and <termsem="PR:000014968"> Slc18a3 </term> ( <termsem="PR:000014968"> VAChT </term> , G448A ) from Promega ( http://www.promega.com ) .
+Electroretinography .
+ERGs were recorded from dark-adapted mice as described [ 72 ] .
+Briefly , mice were dark-adapted overnight and anaesthetized by subcutaneous injection of ketamine ( 66.7 mg/kg body weight ) and xylazine ( 11.7 mg/kg body weight ) .
+The pupils were dilated and single-flash ERG recordings were obtained under dark-adapted ( scotopic ) and light-adapted ( photopic ) conditions .
+Light adaptation was accomplished with a background illumination of 30 candela ( cd ) per square meter starting 10 min before recording .
+Single white-flash stimulation ranged from 10  4 to 25 cd  s/m2 , divided into ten steps of 0.5 and 1 log cd  s/m2 .
+Ten responses were averaged with an inter-stimulus interval of either 5 s ( for 10  4 , 10  3 , 10  2 , 3  10  2 , 10  1 , and 3  10  1 cd  s/m2 ) or 17 s ( for 1 , 3 , 10 , and 25 cd  s/m2 ) .
+Band-pass filter cut-off frequencies were 0.1 and 3,000 Hz .
+Statistics .
+Different genotypes were evaluated using analysis of variance ( ANOVA ) followed by the Tukey honestly significant difference ( HSD ) test or Fisher test ( XLSTAT program , http://www.xlstat.com ) .
+Deleting <termsem="PR:000006852"> E2f1 </term> , but Not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , Rescues Ectopic Division and Cell Death in P0 and P18 <termsem="PR:000013773"> Rb </term> KO Retina .
+Horizontal sections of the indicated genotypes and ages were stained for nuclei ( DAPI , blue ) , and ( A ) S-phase ( anti-BrdU , red ) or ( B ) apoptosis ( TUNEL , red ) .
+In <termsem="PR:000013773"> Rb </term>  /  retinas , BrdU + cells extend beyond the normal boundaries at P0 ( arrows ) , and ectopic DNA synthesis continues in multiple layers at later stages .
+Scale bar is 50 m .
+The NBL is where dividing RPCs are located .
+Click here for additional data file .
+Deleting <termsem="PR:000006852"> E2f1 </term> Rescues Ectopic Division and Apoptosis in the Embryonic <termsem="PR:000013773"> Rb </term> KO Retina .
+Horizontal sections of the indicated genotypes and ages ( E14 and E16 , the period during which SACs are born ) were stained for nuclei ( DAPI , blue ) , and either S-phase ( upper two panels , anti-BrdU , red ) or apoptosis ( lower two panels , TUNEL , red ) .
+In <termsem="PR:000013773"> Rb </term>  /  retinas , BrdU + and TUNEL + cells can be seen in the inner retina ( arrows ) .
+Inactivation of <termsem="PR:000006852"> E2f1 </term> rescued these defects .
+Scale bar is 50 m .
+The NBL is where dividing RPCs are located .
+Click here for additional data file .
+Deleting <termsem="PR:000006852"> E2f1 </term> , but Not <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> , Rescues Ectopic Mitosis in the <termsem="PR:000013773"> Rb </term> KO Retina .
+( A ) Horizontal retinal sections of the indicated genotypes and ages were stained for nuclei ( DAPI , blue ) and M-phase ( anti-PH3 , red ) .
+Scale bar is 50 m .
+( B ) Quantification of all PH3 + cells .
+( C ) Quantification of ectopic PH3 + cells .
+Error bars represent standard deviation ( SD ) , and asterisks indicate significant difference between retina of WT and indicated genotypes ( * , p < 0.05 ; ** , p < 0.01 ; ANOVA and Tukey HSD test ) .
+Click here for additional data file .
+Deleting <termsem="PR:000006853"> E2f2 </term> or <termsem="PR:000006854"> E2f3 </term> Does Not Rescue Ganglion , Rod , or Bipolar Cell Death in the <termsem="PR:000013773"> Rb </term> KO Retina .
+( A ) Horizontal retinal sections from mice of the indicated ages and genotypes were stained for nuclei ( DAPI , blue ) and markers that detect ganglion cells ( <termsem="PR:000013042"> Pou4f2 </term> , red ) , rods and cones ( <termsem="PR:000014434"> Sag </term> [ <termsem="PR:000014434"> rod arrestin </term> ] , green ) , and rod bipolar cells ( <termsem="PR:000003058"> Prkca </term> , green ) .
+Scale bar is 50 m .
+( B ) Quantification of total ganglion ( <termsem="PR:000013042"> Pou4f2 </term> + ) cells .
+( C ) Quantification of total rod bipolar ( <termsem="PR:000003058"> Prkca </term> + ) cells .
+( D ) Thickness of the ONL , which represents the number of rods .
+Error bars represent SD , and asterisks indicate significant difference between retina of WT and indicated genotypes ( ** , p < 0.01 ; ANOVA and Tukey HSD test ) .
+Click here for additional data file .
+<termsem="PR:000006852"> E2f1 </term> Deletion Rescues -Cre ; RbloxP/loxP Retinal Function .
+ERGs were recorded from the indicated genotypes under light adapted ( photopic ) conditions .
+( A ) Intensity series .
+( B ) The b-wave amplitudes as a function of the logarithm of the flash intensity .
+Click here for additional data file .
+Differentiation Defects in <termsem="PR:000013773"> Rb </term> KO SACs .
+Horizontal retinal sections of indicated genotypes and ages were stained for nuclei ( DAPI , blue ) and <termsem="PR:000004968"> Calb2 </term> ( [ A ] , red ; only densely stained cells were counted for Figure 3C ) , <termsem="PR:000003199"> Camk2a </term> ( [ B ] , green ) , and <termsem="PR:000014968"> Slc18a3 </term> ( [ C ] , red ) .
+Scale bars are 50 m .
+Click here for additional data file .
+GABA Neurotransmitter in the <termsem="PR:000013773"> Rb </term> KO Retina and Abnormal SACs in <termsem="PR:000017355"> Chx10 </term> - Cre ; RbloxP/loxP Retina .
+Horizontal sections of the indicated genotypes and ages of retina were stained for nuclei ( DAPI , blue ) , and ( A and B ) GABA ( red ) and <termsem="PR:000014968"> Slc18a3 </term> ( green ) or ( C ) <termsem="PR:000005404"> Chat </term> and <termsem="PR:000014968"> Slc18a3 </term> ( red ) .
+( A ) In P18 WT retina , GABA labelled four IPL tracks , of which the two inner tracks co-stained with <termsem="PR:000014968"> Slc18a3 </term> .
+The latter tracks disappeared in the <termsem="PR:000013773"> Rb </term> KO retina , and were rescued by <termsem="PR:000006854"> E2f3 </term> KO but not <termsem="PR:000006852"> E2f1 </term> KO .
+( B ) At the boundary of the WT ( central ) and <termsem="PR:000013773"> Rb </term> KO area ( peripheral retina ) the inner GABA + SAC tracks can be seen disappearing towards the periphery ( left ) .
+( C ) <termsem="PR:000014968"> Slc18a3 </term> staining in the IPL of <termsem="PR:000017355"> Chx10 </term> - Cre ; RbloxP/loxP retina is consistent with the mosaic pattern of <termsem="PR:000013773"> Rb </term> inactivation .
+Scale bars are 50 m .
+Click here for additional data file .
+Subcellular Distribution of E2f3a Isoform in the Developing Retina .
+Nuclear and cytoplasmic extracts from an equivalent number of retinal cells from mice of the indicated genotypes and ages were analyzed by Western blotting to detect the E2f3a protein .
+Lysates from E2f3a  /  mice of matched ages were used as a control to confirm the location of E2f3a protein .
+C , cytoplasmic extracts ; N , nuclear extracts .
+Click here for additional data file .
+List of Antibodies and Marker Patterns in <termsem="PR:000013773"> Rb </term> / <termsem="PR:000006852"> E2f1 </term> DKO SACs .
+Click here for additional data file .
+Click here for additional data file .
+The GenBank ( http://www.ncbi.nlm.nih.gov/genbank ) accession numbers for the major genes and gene products discussed in this paper are <termsem="PR:000003199"> Camk2a </term> ( NM_009792 ) , <termsem="PR:000005404"> Chat </term> ( NM_009891 ) , <termsem="PR:000006852"> E2f1 </term> ( NM_007891 ) , <termsem="PR:000006853"> E2f2 </term> ( NM_177733 ) , <termsem="PR:000006854"> E2f3 </term> ( NM_010093 ) , <termsem="PR:000013773"> Rb </term> ( NM_009029 ) , and <termsem="PR:000014968"> Slc18a3 </term> ( NM_021712 ) .
+We thank K. McClellan and R. Slack for sharing unpublished data , L. Galli-Resta for suggesting <termsem="PR:000009116"> Isl1 </term> ( <termsem="PR:000009116"> Islet1 </term> ) as an early SAC marker , J. Eubanks for advice on immunostaining , A. Berns , C. Cepko , and P. Gruss for mice , and T. Edlund , F. Haeseleer , R. Janz , S. Sugita , P. A. Hargrave , C. M. Craft , X. Zhu , R. McInnes , R. L. Chow , and J. Saari for antibodies .
+ANOVA - analysis of variance .
+CNS - central nervous system .
+DKO - double knockout .
+E [ number ] - embryonic day [ number ] .
+E2f - E2f transcription factor .
+HSD - honestly significant difference .
+GABA - gamma-aminobutyric acid .
+GCL - ganglion cell layer .
+INL - inner nuclear layer .
+IPL - inner plexiform layer .
+NBL - neuroblastic layer .
+ONL - outer nuclear layer .
+OPL - outer plexiform layer .
+P [ number ] - postnatal day [ number ] .
+PH3 - phosphohistone 3 .
+<termsem="PR:000013773"> Rb </term> - <termsem="PR:000013773"> retinoblastoma protein </term> .
+RPC - retinal progenitor cell .
+RTC - retinal transition cell .
+RT-PCR - reverse transcriptase PCR .
+SAC - starburst amacrine cell .
+SD - standard deviation .
+TUNEL - terminal dUTP nick-end labelling .
+Author contributions .
+DC and RB conceived and designed the experiments .
+DC performed most of the experiments .
+RO , PW , and GL provided the <termsem="PR:000006854"> E2f3 </term> floxed and E2f3a KO mice .
+DC and RB analyzed the data .
+MP , NT , and MWS performed the ERG analysis .
+DC and RB wrote the paper .
+Funding .
+This work was supported by grants from the Canadian Institute for Health Research and Foundation Fighting Blindness Canada to RB , and by the German Research Council ( DFG Se837/4 -- 1 and 5 -- 1 ) and the European Union ( IP `` EVI-GenoRet '' LSHG-CT-512036 ) to MWS .
+Competing interests .
+The authors have declared that no competing interests exist .

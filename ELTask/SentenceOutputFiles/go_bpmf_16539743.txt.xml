@@ -1,0 +1,394 @@
+Cloning and characterization of mr-s , a novel SAM domain protein , predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptor cells .
+Sterile alpha motif ( SAM ) domains are ~ 70 residues long and have been reported as common protein-protein interaction modules .
+This domain is found in a large number of proteins , including Polycomb group ( PcG ) proteins and ETS family <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> .
+In this work , we report the cloning and functional characterization of a novel SAM domain-containing protein , which is predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptors and the pineal gland and is designated mouse mr-s ( major retinal SAM domain protein ) .
+mr-s is evolutionarily conserved from zebrafish through human , organisms through which the mechanism of <termsem="GO:0042461"> photoreceptor development </term> is also highly conserved .
+Phylogenetic analysis suggests that the SAM domain of mr-s is most closely related to a mouse polyhomeotic ( ph ) ortholog , Mph1/Rae28 , which is known as an epigenetic molecule involved in <termsem="GO:0016568"> chromatin modifications </term> .
+These findings provide the possibility that mr-s may play a critical role by <termsem="GO:0065007"> regulating </term> <termsem="GO:0010467"> gene expression </term> in <termsem="GO:0042461"> photoreceptor development </term> .
+mr-s is preferentially <termsem="GO:0010467"> expressed </term> in the photoreceptors at postnatal day 3 -- 6 ( P3-6 ) , when photoreceptors undergo terminal <termsem="GO:0030154"> differentiation </term> , and in the adult pineal gland .
+<termsem="GO:0006350"> Transcription </term> of mr-s is directly <termsem="GO:0065007"> regulated </term> by the cone-rod homeodomain protein Crx .
+Immunoprecipitation assay showed that the mr-s protein <termsem="GO:0043621"> self-associates </term> mainly through the SAM domain-containing region as well as ph. The mr-s protein <termsem="GO:0051179"> localizes </term> mainly in the nucleus , when mr-s is overexpressed in HEK293T cells .
+Moreover , in the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assays , we found that mr-s protein fused to GAL4 <termsem="GO:0003677"> DNA-binding </term> domain functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> .
+We revealed that the <termsem="GO:0048519"> repression </term> activity of mr-s is not due to a homophilic interaction through its SAM domain but to the C-terminal region .
+We identified a novel gene , mr-s , which is predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptors and pineal gland .
+Based on its <termsem="GO:0010467"> expression </term> pattern and biochemical analysis , we predict that mr-s may function as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> in photoreceptor cells and in pinealocytes of the pineal gland .
+In the development of the mammalian retina , a diverse range of cell types is <termsem="GO:0032502"> generated </term> from a pool of multipotent retinal progenitor cells .
+Among these cell types , photoreceptors account for over 70 % of all cells in the retina .
+In vertebrates , there are two classes of photoreceptors , rods and cones .
+Rods are sensors of dim light , while cones function in bright light and are responsible for color <termsem="GO:0007601"> vision </term> .
+<termsem="GO:0007602"> Phototransduction </term> , a series of signal amplifications <termsem="GO:0051606"> detecting </term> a single photon of light , is initiated by the <termsem="GO:0016037"> capture of light </term> with 11-cis-retinal , a chromophore <termsem="GO:0005488"> bound </term> by the opsin proteins : rhodopsin in rods and cone opsins in cones .
+The proteins that carry out <termsem="GO:0007602"> phototransduction </term> are located in an elaborate and highly specialized membranous structure , the outer segment .
+The outer segment appears to be relatively fragile , degenerating in response to many environmental and/or genetic perturbations .
+In the rodent retina , the <termsem="GO:0032502"> production </term> of specific cell types during <termsem="GO:0032502"> development </term> progresses in a general order [ 1,2 ] .
+<termsem="GO:0046548"> Rod photoreceptor generation </term> peaks around the time of <termsem="GO:0007567"> birth </term> .
+Cone photoreceptors , ganglion cells , horizontal cells and amacrine cells are <termsem="GO:0032502"> generated </term> earlier , while Mller glia and bipolar cells are <termsem="GO:0032502"> generated </term> later .
+This <termsem="GO:0032502"> production </term> of different cell types at different times appears to derive from differences in the intrinsic properties of progenitor cells involved in the <termsem="GO:0006350"> transcription </term> or <termsem="GO:0016568"> chromatin modification </term> .
+Recent studies identified several important <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> of <termsem="GO:0042461"> photoreceptor development </term> [ 3-7 ] .
+Two Otx family homeobox genes , Otx2 and Crx , play essential roles in early cell fate determination and terminal <termsem="GO:0030154"> differentiation </term> of photoreceptors [ 3,8,9 ] .
+In the absence of Otx2 function , <termsem="GO:0030154"> differentiating </term> photoreceptor cells are converted to amacrine-like neurons [ 9 ] .
+Crx , a downstream target of Otx2 , <termsem="GO:0065007"> controls </term> the <termsem="GO:0006350"> transcription </term> of various photoreceptor cell-specific genes and is essential for the <termsem="GO:0022607"> formation </term> of outer segments , synaptic terminals , and <termsem="GO:0007602"> phototransduction pathways </term> [ 8,10 ] .
+Crx transcripts begin to be <termsem="GO:0010467"> expressed </term> in <termsem="GO:0032502"> developing </term> photoreceptors at embryonic day 12.5 ( E12 .5 ) in the mouse and a strong upregulation of Crx <termsem="GO:0006350"> transcription </term> is apparent across the <termsem="GO:0030154"> differentiating </term> photoreceptors at postnatal day 6 ( P6 ) .
+Photoreceptor cells in the Crx knockout ( KO ) mice exhibit a dramatic reduction of many photoreceptor molecules including <termsem="GO:0007601"> visual </term> pigments and <termsem="GO:0022607"> develop </term> neither photoreceptor outer segments nor a synaptic terminus [ 8,10 ] .
+In addition , mutations of human CRX have been demonstrated to be associated with three types of photoreceptor diseases : autosomal dominant cone-rod dystrophy 2 , autosomal dominant-type retinitis pigmentosa , and Leber 's congenital amaurosis ( LCA ) [ 11-14 ] .
+While Otx2 and Crx <termsem="GO:0065007"> control </term> general <termsem="GO:0042461"> photoreceptor development </term> , three other <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> , TR2 , Nrl , and Nr2e3 <termsem="GO:0065007"> regulate </term> the <termsem="GO:0001708"> specification </term> of photoreceptor cell types [ 4,5,7 ] .
+SAM domains ( also known as Pointed , HLH , or SPM domains ) are ~ 70 residues long and have been reported as common protein-protein interaction modules [ 15-17 ] .
+This domain is found in a large number of proteins , including Polycomb group ( PcG ) proteins [ 18 ] , <termsem="GO:0004674"> <termsem="independent_continuant"> serine threonine kinases </term> </term> [ 19 ] , <termsem="GO:0005003"> <termsem="independent_continuant"> Eph family receptor tyrosine kinases </term> </term> [ 20 ] , the p73 tumor suppressor [ 21 ] , the <termsem="GO:0003723"> RNA-binding </term> protein Smaug [ 22 ] , <termsem="GO:0004143"> <termsem="independent_continuant"> diacylglycerol kinases </term> </term> [ 23,24 ] , yeast <termsem="GO:0007618"> mating </term> type <termsem="GO:0007165"> signaling </term> proteins [ 19,25 ] and ETS family <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> [ 26,27 ] .
+The PcG proteins are <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressors </term> </term> that maintain <termsem="GO:0016458"> gene silencing </term> during <termsem="GO:0032502"> development </term> [ 28-30 ] .
+In mammals , PcG proteins are also implicated in Hox gene <termsem="GO:0065007"> regulation </term> .
+Their biological activity lies in stable silencing of specific sets of genes through <termsem="GO:0016568"> chromatin modifications </term> .
+A member of polycomb <termsem="GO:0048519"> repressive </term> complex 1 ( PRC1 ) , ph , contains a SAM domain at the C-terminal , and PRC1 complex is known to <termsem="GO:0022607"> form </term> helical , head-to-tail polymers through its SAM domain [ 31 ] .
+These polymeric structures mediate the formation of a higher order chromatin structure and possibly stabilize the <termsem="GO:0048519"> repressed </term> state of Hox genes .
+In this study , we identified a novel gene , mr-s , which encodes a SAM domain-containing protein .
+The SAM domain of mr-s is most closely related to that of ph mouse ortholog , MPH1/Rae28 .
+mr-s is predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptors when they undergo terminal <termsem="GO:0030154"> differentiation </term> , and adult pineal gland .
+The <termsem="GO:0010467"> expression </term> of mr-s is directly <termsem="GO:0065007"> regulated </term> by Crx .
+Moreover , mr-s is <termsem="GO:0051179"> localized </term> in the nucleus and can <termsem="GO:0043621"> self-associate </term> through its SAM domain-containing region .
+We also found that mr-s protein fused to GAL4 <termsem="GO:0003677"> DNA-binding </term> domain functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> .
+These findings suggest that mr-s functions as a member of a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> complex in <termsem="GO:0042462"> retinal photoreceptor development </term> .
+Cloning of mouse mr-s .
+In order to identify novel mouse genes preferentially <termsem="GO:0010467"> expressed </term> in the <termsem="GO:0032502"> developing </term> retina , we screened the National Institute for Biotechnology Information ( NCBI ) database , UniGene , using Digital Differential Display ( DDD ) and found EST fragments which are frequently present in mouse retinal cDNA libraries .
+We found that one clone in these cDNAs encodes a protein containing a SAM domain related to that of polyhomeotic protein .
+A PCR fragment corresponding to this mouse clone was used to screen a mouse P0-P3 retinal cDNA library to obtain a full-length cDNA clone .
+Sequence analysis showed that this cDNA was a novel gene encoding a SAM domain-containing protein .
+We referred to this protein as mr-s ( major retinal SAM domain protein ) .
+As shown in Fig. 1A , a <termsem="GO:0006413"> <termsem="GO:0006412"> translation </term> initiation </term> codon is present in the same open reading frame as the SAM domain .
+This <termsem="GO:0006352"> <termsem="GO:0006413"> initiation </term> </term> site shows similarity to the consensus sequence proposed by Kozak [ 32 ] including the presence of the highly conserved purine at position -3 .
+The <termsem="GO:0006353"> <termsem="GO:0006415"> stop </term> </term> codon of the predicted mr-s protein is also indicated in Fig. 1A .
+The amino acid sequence of the SAM domain of mr-s protein ( Fig. 1A , boxed sequence ) exhibits homology with SAM domains of EphB2 , EphA4 , MPH1 , TEL and Smaug ( Fig. 1B ) .
+By phylogenetic analysis , the SAM domain of mr-s is most closely related to that of Mph1/Rae28 , a mouse homolog of ph ( Fig. 1C ) .
+Mouse mr-s protein is conserved in rat , human , chick and zebrafish , which display 91 % , 70 % , 36 % and 26 % identity with mouse mr-s , respectively ( Fig. 1D ) .
+The SAM domains of rat , human , chick and zebrafish mr-s protein are highly conserved and display 96 % , 90 % , 76 % and 72 % identity with the SAM domain of mouse mr-s protein .
+The chromosomal localizations of mouse and human mr-s genes were determined by searching the mouse and human genome databases ( NCBI ) , respectively .
+Mouse mr-s is mapped to chromosome 4E2 , and human MR-S is mapped to chromosome 1p36 .33 .
+LCA is the most common cause of inherited childhood blindness .
+Human MR-S maps in the vicinity region of the LCA9 , recently identified as a new locus for LCA [ 33 ] .
+mr-s nucleotide and amino acid sequences .
+( A ) mr-s nucleotide and amino acids sequences .
+Boxed amino acids are the SAM domain sequence and the dashed box indicates a putative nuclear <termsem="GO:0051179"> localization </term> signal .
+The underline indicates a putative <termsem="GO:0043631"> polyadenylation </term> termination signal .
+( B ) Alignment of SAM domain sequences for SAM domain-containing proteins .
+The five alpha helices are marked H1-H5 .
+Conserved amino acid residues are shown with a dark shadow and functionally similar residues are shown with a light shadow .
+The sites that were targeted for mutagenesis are indicated by arrows .
+( C ) Phylogenetic tree of SAM domain-containing proteins .
+Amino acid sequences were analyzed by the neighbor-joining method in MacVector 7.2 .
+Branch lengths reflect the mean number of substitutions per site .
+( D ) Schematic comparison of the amino acid sequences for mouse , rat , human , chick and zebrafish mr-s proteins .
+The percent similarity of the SAM domains and other regions to the corresponding regions of the mouse protein is shown .
+Overall sequence similarity with the mouse protein is shown on the right .
+<termsem="GO:0010467"> Expression </term> of mr-s in the <termsem="GO:0032502"> developing </term> retina and the pineal gland .
+To investigate mr-s <termsem="GO:0010467"> expression </term> , we first performed whole mount in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> in mouse embryos .
+No <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> signal was detected at E9 .5 , E10 .5 and E11 .5 with an mr-s probe ( data not shown ) .
+We then investigated the expression of the mr-s gene in the <termsem="GO:0032502"> developing </term> retina by section in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> ( Fig. 1A -- G ) .
+No significant signal was detected in the <termsem="GO:0032502"> developing </term> retina at E13 ( Fig. 2A ) .
+A weak signal was initially detected in the outer aspect of the neuroblastic layer ( NBL ) , a presumptive photoreceptor layer at E18 ( Fig. 2B , arrow ) .
+At P3 , an mr-s transcript was clearly detected in the <termsem="GO:0032502"> developing </term> photoreceptor layer ( Fig. 2E ) .
+At P6 , mr-s showed peak <termsem="GO:0010467"> expression </term> in the photoreceptor layer ( Fig. 2F ) .
+This pattern correlates with the rapid increase in cells <termsem="GO:0010467"> expressing </term> rhodopsin and other <termsem="GO:0007602"> phototransduction </term> genes between P6-P8 [ 34-37 ] .
+At P9 , the intensity of the mr-s signal was significantly reduced but was localized to the outer nuclear layer ( ONL ) ( data not shown ) .
+Faint <termsem="GO:0010467"> expression </term> of mr-s mRNA was observed in mature photoreceptors in the adult retina ( Fig. 2G ) .
+mr-s <termsem="GO:0010467"> expression </term> in <termsem="GO:0032502"> developing </term> mouse retina and pineal gland .
+( A-G ) mr-s <termsem="GO:0010467"> expression </term> during development of the mouse retina .
+The in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> signal of mr-s was not detected at E13 ( A ) .
+The signal ( arrow ) was first detected in the outer aspect of NBL at E18 ( B ) .
+A strong mr-s signal was detected in outer layer of the retina at P3-P6 , and then the signal decreased in the adult retina ( E-G ) .
+Control with the sense probe in E18 retina is shown ( C ) .
+Scale bar , 100 m .
+( H ) Northern blot analysis of mr-s <termsem="GO:0010467"> expression </term> in adult mouse organs .
+The arrow corresponds to 2.2 kb mr-s transcript .
+( I ) <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis of total RNAs extracted from E13 whole embryo , P0 whole body ( except for the eye ) , P7 retina , P7 pineal gland , P7 brain , P7 liver , adult retina , adult pineal gland , adult brain and adult liver , respectively .
+RPE , retinal pigment epithelium ; NR , neural retina ; NBL , neuroblastic layer ; GCL , ganglion cell layer ; ONL , outer nuclear layer ; INL , inner nuclear layer .
+To determine the tissue specificity of mr-s <termsem="GO:0010467"> expression </term> , the expression of the mr-s gene in various adult tissues was examined by Northern <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> ( Fig. 2H ) .
+As a control , P7 retinal RNA was used .
+Four bands corresponding to 7.2-kb , 4.0-kb , 2.5-kb and 2.2-kb were detected in P7 retina .
+The 2.2-kb band corresponds to the cDNA characterized in this study .
+The larger bands , possibly <termsem="GO:0000380"> alternative spliced </term> transcripts , have not yet been characterized .
+The mr-s probe did not detect a band in the adult tissues examined , indicating that these tissues do not <termsem="GO:0010467"> express </term> mr-s at a level comparable to that of the <termsem="GO:0032502"> developing </term> retina .
+Previous reports revealed that many photoreceptor-specific genes are also <termsem="GO:0010467"> expressed </term> in the pineal gland [ 38 ] .
+We examined the <termsem="GO:0010467"> expression </term> of mr-s transcripts in the whole embryo , whole body , retina , pineal gland , brain , liver and other organs at various stages by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR ( Fig. 2I and data not shown ) .
+We amplified PCR fragments of 292 bp and 452 bp with primer pairs for genes encoding mouse mr-s and <termsem="GO:0008943"> <termsem="independent_continuant"> G3PDH </term> </term> , respectively .
+In E13 whole embryo and P0 whole body ( except for the eye ) , no mr-s signal was detected .
+As expected , we observed that mr-s is <termsem="GO:0010467"> expressed </term> in the P7 and adult pineal gland .
+In the P7 and adult brain , liver and several other organs , the <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR amplified band of mr-s was not detected ( Fig. 2I and data not shown ) .
+Our data showed that mr-s is predominantly <termsem="GO:0010467"> expressed </term> in <termsem="GO:0032502"> developing </term> photoreceptors and the pineal gland .
+Regulation of mr-s <termsem="GO:0006350"> transcription </term> by Crx homeodomain protein .
+<termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> Transcription </term> factors </term> </term> Otx2 and Crx are known to be key regulators of <termsem="GO:0042462"> retinal photoreceptor development </term> [ 3,8,9 ] .
+Although both Otx2 and Crx are <termsem="GO:0010467"> expressed </term> in <termsem="GO:0032502"> developing </term> photoreceptor cells in the embryonic retina , only Crx is highly <termsem="GO:0010467"> expressed </term> in the postnatal photoreceptors , suggesting that mr-s may be <termsem="GO:0065007"> regulated </term> by Crx .
+To test whether Crx <termsem="GO:0065007"> regulates </term> mr-s <termsem="GO:0006350"> transcription </term> , we performed in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> of mr-s mRNA on wild-type and Crx KO P5 retinas ( Fig. 3A , B ) .
+In the Crx KO retina , the mr-s transcript was dramatically reduced ( Fig. 3B ) .
+This indicates that Crx is essential for transactivation of mr-s .
+Moreover , to test whether the <termsem="GO:0006350"> transcription </term> of mr-s is also <termsem="GO:0065007"> regulated </term> by Crx in the pineal gland , <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis was used to compare <termsem="GO:0006350"> transcriptional </term> levels of mr-s in P28 wild-type and Crx KO pineal gland ( Fig. 3C ) .
+The results revealed that mr-s <termsem="GO:0006350"> transcription </term> was significantly <termsem="GO:0048519"> downregulated </term> in the Crx KO pineal gland .
+Taken together , these data indicate that mr-s <termsem="GO:0006350"> transcription </term> is <termsem="GO:0065007"> regulated </term> by Crx in the <termsem="GO:0032502"> developing </term> photoreceptors and pineal gland .
+The <termsem="GO:0006350"> transcription </term> of mr-s is <termsem="GO:0065007"> regulated </term> by Crx .
+( A , B ) In situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> using a probe for mouse mr-s was performed on the wild-type ( A ) and Crx KO retinas ( B ) at P5 .
+mr-s <termsem="GO:0010467"> expression </term> was drastically reduced in the Crx KO retina ( B ) .
+Scale bar , 100 m .
+( C ) <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis of total RNAs extracted from the pineal glands of P5 wild-type and Crx KO mouse .
+The upper and lower lanes show PCR products amplified by the primer pairs specific for mr-s and <termsem="GO:0008943"> <termsem="independent_continuant"> G3PDH </term> </term> cDNAs , respectively .
+Water was used for control <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR reaction .
+( D-F ) Crx transactivates mr-s <termsem="GO:0006350"> transcription </term> .
+Reporter plasmids for the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay are shown .
+Blue boxes represent Crx <termsem="GO:0005488"> binding </term> sites ( D ) .
+Relative activity of the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> is indicated when Pro1 .2 k was co - <termsem="GO:0009294"> transfected </term> with Crx , Otx2 , Nrl , and Crx + Nrl , respectively ( E ) .
+Fold activation is indicated when Pro1 .2 k , mut1259 , mut198 , mut72 and mut all were co - <termsem="GO:0009294"> transfected </term> with the Crx <termsem="GO:0010467"> expression </term> vector ( Crx + ) or the empty vector ( Crx - ) into HEK293T cells ( F ) .
+Error bars represent standard error of mean .
+To further examine whether Crx <termsem="GO:0065007"> regulates </term> mr-s <termsem="GO:0006350"> transcription </term> directly or not , we next performed a <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay using the 1.2-kb proximal promoter region of mr-s fused to a <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> gene as a <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter ( Fig. 3D , Pro1 .2 k ) and the Crx , Otx2 , Nrl <termsem="GO:0010467"> expression </term> vectors , respectively .
+This 1.2-kb region of the mr-s upstream sequence contains three Crx <termsem="GO:0005488"> binding </term> consensus sequences .
+As shown in Fig. 3E , the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity was significantly <termsem="GO:0048518"> upregulated </term> when the Crx or Otx2 <termsem="GO:0010467"> expression </term> vector was co-introduced with Pro1 .2 k into HEK293T cells , while the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity was not altered when the Nrl <termsem="GO:0010467"> expression </term> vector was co-introduced .
+A previous report suggested that the <termsem="GO:0006350"> transcriptional activity </term> of Crx is <termsem="GO:0048518"> augmented </term> with Nrl when the rhodopsin promoter was used as a reporter gene [ 6 ] .
+On the other hand , our present data showed that the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> <termsem="GO:0010467"> gene expression </term> was not <termsem="GO:0048518"> upregulated </term> when both Crx and Nrl <termsem="GO:0010467"> expression </term> vectors were co-introduced with Pro1 .2 k compared to the activity when the Crx only <termsem="GO:0010467"> expression </term> vector was introduced .
+This may be due to cell type differences because a cell type of retinal/pineal origin was not used in our <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay .
+In addition , our present data showed that Otx2 , which is reported to have the same <termsem="GO:0005488"> binding </term> consensus as Crx , also transactivated mr-s <termsem="GO:0010467"> expression </term> .
+As shown in Fig. 2A -- F , the <termsem="GO:0010467"> expression </term> pattern of mr-s correlates with that of Crx .
+In contrast , the transcripts of Otx2 are mainly detected in the photoreceptor layer at embryonic stages .
+Therefore , we concluded that mr-s <termsem="GO:0006350"> transcription </term> is directly <termsem="GO:0065007"> regulated </term> mainly by Crx .
+We also <termsem="GO:0009058"> constructed </term> reporter vectors in which mutations were introduced at the three Crx <termsem="GO:0005488"> binding </term> sites ( Fig. 3D , mut1259 , mut198 , mut72 , mut all ) .
+Then the Crx <termsem="GO:0010467"> expression </term> vector was co-introduced with mut1259 , mut198 , mut72 and mut all , respectively ( Fig. 3F ) .
+The transactivaton activity by Crx was clearly reduced when mut198 or mut72 was co-introduced .
+On the other hand , when mut1259 was co - <termsem="GO:0009294"> transfected </term> , the transactivation activity by Crx was not altered .
+These results suggest that the Crx <termsem="GO:0005488"> binding </term> sites 72-bp and 198-bp upstream from the <termsem="GO:0006352"> <termsem="GO:0006350"> transcription </term> initiation </term> site are crucial for the direct regulation of mr-s <termsem="GO:0006350"> transcription </term> by Crx .
+Self-association of mr-s protein .
+SAM domains are known to function as protein-protein interaction modules [ 15-17 ] .
+Although SAM domains can <termsem="GO:0005488"> bind </term> to various non-SAM domain-containing proteins , many homo-SAM and hetero-SAM domain interactions have been reported .
+To investigate whether the SAM domain of the mr-s protein can also function as a protein-protein interaction module , we performed yeast two-hybrid screening using full-length mr-s protein as the bait .
+Using this bait , we screened the <termsem="GO:0016563"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> activator </term> </term> fusion protein library in which mouse P0-P3 retinal cDNAs were fused to the GAL4 activation domain .
+The most frequent positive clones ( 5 out of 28 ) were cDNA fragments containing the SAM domain of mr-s ( Fig. 4A ) .
+This result strongly suggests that mr-s protein <termsem="GO:0043621"> self-associates </term> through SAM domain-containing regions .
+We then directly tested this self-association of mr-s protein in yeast .
+We fused full-length or truncated portions of the mr-s protein to the <termsem="GO:0003677"> DNA-binding </term> domain of the yeast <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor </term> </term> GAL4 to <termsem="GO:0009058"> make </term> bait constructs .
+We fused full-length or truncated portions of the mr-s protein to the GAL4 <termsem="GO:0006350"> transcriptional </term> activation domain to <termsem="GO:0009058"> make </term> prey constructs ( Fig. 4B ) .
+These constructs were <termsem="GO:0009294"> transformed </term> into yeast that contain a transgene with GAL4 <termsem="GO:0005488"> binding </term> sites upstream of the lacZ gene .
+We found that the full-length mr-s bait construct induced lacZ <termsem="GO:0010467"> expression </term> with the full-length mr-s prey construct ( Fig. 4B , full  full ) .
+The N-terminus 400 amino acid ( aa ) stretch of mr-s , which does not contain a SAM domain , does weakly activate <termsem="GO:0006350"> transcription </term> of lacZ ( Fig. 4B , full  N ) .
+The N-terminus 400 aa stretch of mr-s was able to induce <termsem="GO:0006350"> transcription </term> of lacZ weakly with the same N-terminus 400 aa stretch of mr-s ( Fig. 4B , N  N ) .
+Although the N-terminus 400 aa mr-s protein weakly activates lacZ <termsem="GO:0006350"> transcription </term> with the same N-terminus portion , a much stronger activation of lacZ <termsem="GO:0010467"> expression </term> was observed with a C-terminus portion encoding the 391 -- 542 aa stretch of mr-s ( Fig. 4B , full  C , C  C ) .
+Our GAL4 assay indicated that the signal when the full-length mr-s was present in both the bait and prey contexts was weaker than when isolated SAM domains were used .
+This may simply reflect the tendency for the small fusion proteins to enter the yeast nucleus and occupy GAL4 <termsem="GO:0005488"> binding </term> sites .
+Alternatively , the SAM domain may be less accessible for interaction in the full-length protein context as previously reported [ 39 ] .
+Summary of yeast two-hybrid screening and GAL4 assay .
+( A ) Full-length mr-s as a bait used in the yeast two-hybrid screening and positive clones are indicated .
+Note that all of five mr-s clones identified in the screening contain SAM domains .
+( B ) Schematic diagram of the mr-s fusion proteins used in the yeast GAL4 assay .
+Black boxes represent the position of SAM domains .
+Relative levels of LacZ <termsem="GO:0010467"> expression </term> are shown on the right , respectively .
+Note ; + + indicates an intense blue signal visible after 12 hr of incubation at 37 C , + indicates a blue signal visible after 24 hr of incubation .
+BD , <termsem="GO:0005488"> binding </term> domain ; AD , activation domain ; full , full-length mr-s ; N , N-terminal portion of mr-s ( amino acids 1 to 400 ) ; C , C-terminal portion of mr-s ( amino acids 391 to 542 ) .
+To confirm self-association of the mr-s protein in mammalian cells , we next performed co-immunoprecipitation studies in HEK293T cells by co - <termsem="GO:0009294"> transfection </term> of HA-tagged full-length/truncated mr-s and Flag-tagged full-length/truncated mr-s ( Fig. 5A ) .
+As a negative control , we <termsem="GO:0009058"> constructed </term> Flag-tagged Sonic hedgehog ( Shh ) ( lane 2 and 7 ) .
+In accordance with the result of the yeast two-hybrid GAL4 assay , HA-tagged full-length mr-s ( full-HA ) was co-immunoprecipitated with Flag-tagged full-length mr-s ( Flag-mrs ) and the Flag-tagged C-terminus portion containing the SAM domain ( Flag-SAM ) , respectively ( Fig 5B , lane3 and lane5 ) .
+We also found a weak co-immunoprecipitation band in co - <termsem="GO:0009294"> transfection </term> of full-HA and Flag-tagged N-terminus portion of mr-s ( Flag-SAM , Fig. 5B , lane 4 ) .
+When SAM-HA and Flag-tagged deletion mutants were co - <termsem="GO:0009294"> transfected </term> , SAM-HA was co-immunoprecipitated with Flag-mrs and Flag-SAM ( Fig. 5B , lane 8 and lane 9 ) , while SAM-HA was not co-immunoprecipitated with Flag-SAM ( Fig. 5B , lane 10 ) .
+The mr-s protein can <termsem="GO:0043621"> self-associate </term> in mammalian cells .
+( A ) Schematic drawing of the constructs used for immunoprecipitation assay .
+HA-tagged or Flag-tagged full-length ( amino acids 1 to 542 ) , SAM ( amino acids 1 to 400 ) and SAM ( amino acids 401 to 542 ) regions were inserted into pcDNA3 vector , respectively .
+( B ) The constructs indicated above were <termsem="GO:0009294"> transfected </term> into HEK293T cells .
+Each lane was co-immunoprecipitated by anti-Flag antibody and detected by anti-HA antibody .
+Input protein lysates are shown in the lower panels .
+( C ) Flag-tagged two site-directed mr-s mutants , Flag-W404A and Flag-G453A were <termsem="GO:0009058"> generated </term> and co - <termsem="GO:0009294"> transfected </term> with full-HA .
+Each lane was co-immunoprecipitated by anti-HA antibody and detected by anti-Flag antibody .
+To investigate whether the mr-s protein <termsem="GO:0043621"> self-associates </term> mainly through the SAM domain , two site-directed mutations were generated in the SAM domain of mr-s ( Fig. 1B , arrows ) .
+These mutations alter residues that are conserved in the SAM domain of ph and previous report indicates that these mutations of ph-SAM cause significant reduction in <termsem="GO:0005488"> binding </term> activity to the other SAM domain-containing protein , Sex comb on midleg ( Scm ) ( 41 ) .
+Based on this result , we introduced two types of site-directed mutations , which correspond to the mutations introduced in ph protein , into Flag-tagged full-length mr-s ( Flag-W404A and Flag-G453A ) .
+We found that Flag-W404A <termsem="GO:0005488"> binding </term> activity was significantly reduced and Flag-G453A <termsem="GO:0005488"> binding </term> activity was also slightly reduced compared to Flag-mrs ( Fig. 5C ) .
+These results , together with yeast two-hybrid GAL4 assay , indicate that the mr-s protein <termsem="GO:0043621"> self-associates </term> strongly through its SAM domain and weakly through the N-terminus portion lacking SAM domain .
+The <termsem="GO:0051641"> subcellular localization </term> of mr-s protein in mammalian cells .
+The putative nuclear <termsem="GO:0051179"> localization </term> signal at the N-terminus of the mr-s protein ( Fig. 1A , dashed box ) suggests that the mr-s protein <termsem="GO:0051179"> localizes </term> in the nucleus .
+To determine the <termsem="GO:0051641"> subcellular localization </term> of mr-s in mammalian cells , we introduced an HA-tagged full-length mr-s plasmid into HEK293T cells .
+Confocal microscopy showed that the mr-s protein <termsem="GO:0051179"> localized </term> mainly in the nucleus of HEK293T cells ( Fig. 6A , B ) .
+To confirm the precise localization of the mr-s protein , full-length mr-s was co-immunostained with DAPI ( Fig. 6C -- E ) .
+These data showed that the mr-s protein <termsem="GO:0051179"> localizes </term> preferentially to the nucleus in mammalian cells , supporting the idea that the mr-s protein is involved in <termsem="GO:0045449"> <termsem="GO:0006350"> transcriptional </term> regulation </term> as are ph and/or TEL. .
+<termsem="GO:0051641"> Subcellular localization </term> of mr-s in mammalian cells .
+( A , B ) HA-tagged full-length mr-s was <termsem="GO:0009294"> transfected </term> into HEK293T ( B ) and detected by anti-HA antibody ( A ) .
+Scale bar , 20 m .
+( C-E ) HEK293T cells immunostained with anti-HA antibody ( C ) , DAPI ( D ) , and merged image ( E ) .
+Scale bar , 50 m .
+The GAL4-mr-s fusion protein functions as <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> .
+A member of PcG proteins , ph , does not contain an obvious <termsem="GO:0043565"> sequence-specific DNA binding </term> motif ( 16 ) .
+Ph functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> through its <termsem="GO:0051258"> polymerization </term> and protein-protein interaction with other <termsem="GO:0016566"> <termsem="independent_continuant"> sequence-specific <termsem="GO:0006350"> transcriptional </term> repressors </term> </term> , which can <termsem="GO:0022607"> form </term> a higher order chromatin structure .
+The mr-s protein also does not have an obvious <termsem="GO:0003677"> DNA-binding </term> domain .
+To characterize the biochemical activity of mr-s , we next performed a <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay .
+We <termsem="GO:0009058"> generated </term> effector plasmids , which <termsem="GO:0010467"> express </term> various deletion constructs of mr-s fused to the GAL4 <termsem="GO:0003677"> DNA-binding </term> domain ( Fig. 7A ) .
+We first confirmed that full-length mr-s fused to GAL4 <termsem="GO:0003677"> DNA binding </term> domain ( DBD-mrs ) had no effect on the pGL3 promoter plasmid lacking GAL4 <termsem="GO:0005488"> binding </term> sites ( data not shown ) .
+When the 5xGAL4-pGL3 reporter plasmid was co - <termsem="GO:0009294"> transfected </term> , DBD-mrs <termsem="GO:0048519"> repressed </term> <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity by about 90 % in a dose-dependent manner ( Fig. 7B ) .
+As a control , GAL4 <termsem="GO:0003677"> DNA-binding </term> domain ( DBD ) had no significant effect on the 5xGAL4-pGL3 reporter plasmid .
+In addition , we confirmed that full-length mr-s without GAL4 DBD had no effect on the same reporter plasmid ( data not shown ) .
+We next analyzed deletion constructs in which the N-terminus 400 aa stretch of mr-s ( amino acids 1 to 400 ) or the C-terminus portion ( amino acids 391 to 542 ) were fused to the GAL4 DBD ( Fig. 7A , DBD-N , DBD-C ) .
+While DBD-N had no <termsem="GO:0048519"> repressive </term> effect on this reporter activity , DBD-C <termsem="GO:0048519"> repressed </term> <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> <termsem="GO:0010467"> gene expression </term> by about 65 % .
+This result suggested to us the possibility that DBD-mrs exerts <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> activity via <termsem="GO:0043621"> self-association </term> through its SAM domain .
+To investigate whether the <termsem="GO:0043621"> homophilic association </term> of mr-s is required for <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> , two site-directed mutants , DBD-W404A and DBD-G453A , either of which may reduce self - <termsem="GO:0005488"> binding </term> ability , were analyzed ( Fig. 7C ) .
+Compared to DBD-mrs , DBD-W404A and DBD-G453A had <termsem="GO:0048519"> repression </term> activity of 72 % and 87 % , respectively .
+While the ability of mr-s <termsem="GO:0043621"> self-association </term> partially correlates with <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> activity , these mutants do not compromise the ability to <termsem="GO:0048519"> repress </term> <termsem="GO:0006350"> transcription </term> critically .
+To determine the regions of mr-s involved in <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> more precisely , the C-terminus portion was divided into two regions and each was fused to the GAL4 DBD ( Fig. 7A , DBD-tail , DBD-SAM ) .
+As a consequence , DBD-SAM ( amino acids 384 to 462 ) did not have a <termsem="GO:0048519"> repressive </term> effect on the 5xGAL4-pGL3 reporter plasmid .
+On the other hand , <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity was <termsem="GO:0048519"> repressed </term> by 55 % when DBD-tail ( amino acids 459 to 542 ) was co - <termsem="GO:0009294"> transfected </term> with this reporter plasmid ( Fig. 7D ) .
+To assess the <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> activity of mr-s in cells of retinal origin , we performed similar experiments using human Y79 retinoblastoma cells .
+The results indicated that DBD-mrs also reduced <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity significantly in Y79 retinoblastoma cells ( Fig. 7E ) .
+However , <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity was <termsem="GO:0048519"> repressed </term> by about 30 % in Y79 cells , while it was <termsem="GO:0048519"> repressed </term> by 90 % in HEK293T cells .
+This might be due to the difference in <termsem="GO:0009294"> transfection </term> efficiency between these cell lines .
+Another possibility is that intracellular environment in Y79 cells , a retinoblastoma cell line , is insufficient for recapitulating <termsem="GO:0032502"> developing </term> photoreceptors .
+In this study , we did not address the question whether or not our in vitro data reflect native mr-s <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> in vivo .
+However , these in vitro experiments using HEK293T and Y79 cells strongly support our hypothesis that mr-s functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> in <termsem="GO:0032502"> developing </term> photoreceptors .
+Our results suggested that the C-terminal region of mr-s ( amino acids 463 to 542 ) is required for <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> of mr-s and the SAM domain appears to be dispensable for this <termsem="GO:0048519"> repressive </term> activity .
+This C-terminal region of mouse mr-s is highly conserved among species ( Fig. 7F ) .
+The sequence identity of the region was 93 % , 73 % , 41 % and 40 % for rat , human , chick and zebrafish , respectively ( Fig. 1D ) .
+This strongly suggests that the C-terminal region of mouse mr-s functions as a <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> domain in <termsem="GO:0042461"> photoreceptor development </term> .
+However , this region does not contain characteristic amino acid motifs and the mechanism through which the region achieves and/or maintains gene <termsem="GO:0048519"> repression </term> remains to be clarified in the future .
+mr-s fused to GAL4 <termsem="GO:0003677"> DNA binding </term> domain functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> in HEK293T cells .
+( A ) Schematic drawing of the constructs used for the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay .
+5xGAL4-pGL3 reporter plasmid was co - <termsem="GO:0009294"> transfected </term> into HEK293T cells with effector plasmids <termsem="GO:0010467"> expressing </term> various deletion mutants fused to GAL4-DBD .
+( B ) Various amounts of DBD , DBD-mrs , DBD-N or DBD-C plasmids were <termsem="GO:0009294"> transfected </term> with 0.1 g of 5xGAL4-pGL3 reporter plasmid .
+The reporter activity in the presence of the pcDNA3 vector ( pcDNA3 ) was designated as 1 .
+Error bars represent standard error of mean .
+( C ) DBD-W404A and DBD-G453A were co - <termsem="GO:0009294"> transfected </term> into HEK293T cells with 5xGAL4-pGL3 reporter plasmid .
+Fold <termsem="GO:0048519"> repression </term> was calculated as the fold decrease in <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity compared with DBD-mrs .
+Error bars represent standard deviation .
+( D ) Various amounts of DBD-tail or DBD-SAM were <termsem="GO:0009294"> transfected </term> with 5xGAL4-pGL3 reporter plasmid .
+Error bars represent standard error of mean .
+( E ) pcDNA3 or DBD-mrs ( 5 g ) was co - <termsem="GO:0009294"> transfected </term> into Y79 retinoblastoma cells with 0.5 g of 5xGAL4-pGL3 reporter plasmid .
+The reporter activity in the presence of pcDNA3 was designated as 1 .
+Error bars represent standard deviation .
+Asterisk marks statistically significant difference ( Student 's t test : p < 0.03 ) .
+( F ) Alignment of the C-terminal regions for mouse , rat , human , chick and zebrafish mr-s proteins .
+Conserved amino acid residues are shown with a dark shadow .
+Taken together , our findings suggest that DBD-mrs functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> and that the <termsem="GO:0048519"> repression </term> activity of mr-s is not due to a homophilic interaction through its SAM domain but to the C-terminal region ( amino acids 463 to 542 ) .
+In the present study , we identified a novel gene , mr-s , which is predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptors and the pineal gland .
+The peak of mr-s <termsem="GO:0010467"> expression </term> in the <termsem="GO:0032502"> developing </term> retina is around P6 .
+This <termsem="GO:0010467"> expression </term> pattern correlates with the rapid increase of Crx , rhodopsin and other photoreceptor genes around P6-P8 .
+Around P6 , the outer plexiform layer becomes visible and the outer layer of retina separates into two layers , ONL and INL .
+At the same time , photoreceptors begin to undergo terminal <termsem="GO:0030154"> differentiation </term> , <termsem="GO:0022607"> forming </term> the outer segment .
+We therefore hypothesized that mr-s is a key molecule in the late <termsem="GO:0042461"> development of photoreceptors </term> .
+We previously reported that Otx2 and Crx have a critical role in <termsem="GO:0042461"> photoreceptor development </term> and that Otx2 directly <termsem="GO:0065007"> regulates </term> Crx <termsem="GO:0006350"> transcription </term> [ 3,9 ] .
+In situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> and <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR showed significant reduction of mr-s signal in the Crx KO retina and pineal gland .
+Furthermore , the <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay demonstrated that Otx2 and Crx may directly <termsem="GO:0048518"> upregulate </term> the <termsem="GO:0006350"> transcription </term> of mr-s in mammalian cells .
+In retinal photoreceptor cells , the Otx2 transcripts are not highly <termsem="GO:0010467"> expressed </term> at P6-P9 , while the Crx transcripts are strongly detected around P6 .
+Therefore , our results strongly suggest that mr-s <termsem="GO:0006350"> transcription </term> is directly <termsem="GO:0065007"> regulated </term> by Crx .
+In the present study , Nrl , a photoreceptor-specific <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor </term> </term> that is highly <termsem="GO:0010467"> expressed </term> in photoreceptors at the postnatal stage , did not affect the <termsem="GO:0006350"> transcription </term> of mr-s .
+This finding is actually consistent with the analysis of the Nrl KO mouse which was recently reported [ 40 ] .
+The <termsem="GO:0010467"> expression </term> profiles of wild-type and Nrl KO retinas at P2 , P10 and 2 months were analyzed and mr-s was not included in 161 differentially <termsem="GO:0010467"> expressed </term> genes in the Nrl KO retina .
+Previous reports suggested that the SAM domain is a protein-protein interaction module .
+The SAM domain of the mr-s protein is closely related to that of ph and TEL , whose SAM domains can <termsem="GO:0022607"> form </term> a helical , head-to-tail polymeric structure and mediate the formation of a higher order chromatin structure .
+To characterize the biochemical function of mr-s , we performed yeast two-hybrid screening using full-length mr-s as the bait .
+As a result , the most frequent positive clones ( 5/28 ) in the screening were the cDNA fragments containing the SAM domain of mr-s .
+This strongly suggests that mr-s <termsem="GO:0043621"> self-associates </term> through its SAM domain .
+An immunoprecipitation assay , using two site-directed mutants of the SAM domain of mr-s , demonstrated that the mr-s protein can <termsem="GO:0043621"> self-associate </term> through its SAM domain in mammalian cells .
+While we did not address the question whether the SAM domain of mr-s <termsem="GO:0022607"> forms </term> a polymeric structure in the present study , the phylogenetic analysis of SAM domain of mr-s and other SAM domain-containing molecules suggests that mr-s can <termsem="GO:0022607"> form </term> head-to-tail polymer and mediate <termsem="GO:0016458"> gene silencing </term> by spreading <termsem="GO:0048519"> repressive </term> complexes along the chromatin similar to ph and/or TEL. .
+Although our results in the immunoprecipitation assay demonstrated that the N-terminal constructs lacking a SAM domain still interact with each other , these results do not fit into the head-to-tail polymer model .
+We can not exclude the possibility that the resulting protein-protein interaction of mr-s is an artifact of the overexpression conditions .
+The issue of whether or not mr-s <termsem="GO:0022607"> forms </term> a polymer awaits future analysis .
+A previous report indicated that TEL contains a <termsem="GO:0043565"> sequence-specific DNA binding </term> domain , namely the ETS domain , and <termsem="GO:0005488"> binds </term> to specific sites via its ETS domain [ 41 ] .
+TEL could serve to nucleate a polymer , which would spread by <termsem="GO:0051259"> oligomerization </term> of the SAM domain .
+In contrast to TEL , ph does not contain an obvious <termsem="GO:0043565"> sequence-specific DNA binding </term> motif ( 16 ) .
+Therefore , its initial <termsem="GO:0005488"> binding </term> to the template may require protein-protein interactions with other <termsem="GO:0016566"> <termsem="independent_continuant"> sequence-specific <termsem="GO:0006350"> transcriptional </term> repressors </term> </term> .
+The <termsem="GO:0035282"> segmentation </term> gene-encoding <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressors </term> </term> such as Hunchback have a role in <termsem="GO:0051234"> recruiting </term> SAM domain-containing PcG proteins , which can spread along the template via <termsem="GO:0051258"> polymerization </term> [ 42 ] .
+Since mr-s does not contain obvious <termsem="GO:0003677"> DNA binding </term> motifs , we suppose that there is a sequence-specific <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor ( s ) </term> </term> which interacts with mr-s .
+However , we did not find any <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> in the present yeast two-hybrid screening .
+We also found that full-length mr-s fused to the GAL4 <termsem="GO:0003677"> DNA binding </term> domain ( DBD-mrs ) functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> .
+This may support the idea that mr-s is involved in <termsem="GO:0048519"> repressive </term> complexes similar to other SAM domain-containing proteins .
+Our results , however , showed that the <termsem="GO:0043621"> self-association </term> of mr-s through its SAM domain is not essential for the <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> activity .
+<termsem="GO:0051258"> Polymerization </term> of the SAM domain has been previously reported to be essential for the <termsem="GO:0048519"> repressive </term> functions of ph and TEL [ 43,44 ] .
+On the other hand , human <termsem="GO:0016265"> lethal </term> ( 3 ) malignant brain tumor ( H-L ( 3 ) MBT ) protein , which also contains a SAM domain at the C-terminus , was reported as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> and the repressor activity of H-L ( 3 ) MBT required mainly the presence of the MBT repeats but not the SAM domain [ 45 ] .
+To determine the <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> region of the mr-s protein , we performed a <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay using site-directed mutants ( DBD-W404A and DBD-G453A ) .
+The result showed that the reduced <termsem="GO:0005488"> binding </term> ability of <termsem="GO:0043621"> self-association </term> partially compromises the <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repressive </term> activity of mr-s ( Fig. 7D ) .
+However , the <termsem="GO:0048519"> repressive </term> effect was more significant when DBD-tail , which does not contain SAM domain , was co-introduced with the 5xGAL4-pGL3 reporter plasmid .
+Therefore , we conclude that a region from amino acids 463 to 542 is mainly responsible for the repressor activity in the case of mr-s .
+Evolutionary conservation of the C-terminal 80 aa region of mr-s from zebrafish through human may underlie the functional importance of this region .
+Two distinct multiprotein PcG complexes , PRC1 and PRC2 , have been identified .
+PRC2 is involved in the initiation of <termsem="GO:0016458"> silencing </term> and contains <termsem="GO:0004407"> <termsem="independent_continuant"> histone deacetylases </term> </term> ( <termsem="GO:0004407"> <termsem="independent_continuant"> HDACs </term> </term> ) and <termsem="GO:0042054"> <termsem="independent_continuant"> histone methyltransferases </term> </term> , which can <termsem="GO:0032259"> methylate </term> histone H3 lysine 9 and 27 , marks of <termsem="GO:0016458"> silenced </term> chromatin .
+PRC1 , including ph , recognizes the histone H3 lysine 27 mark set by PRC2 and maintains a stable state of gene <termsem="GO:0048519"> repression </term> in which PRC1 blocks <termsem="GO:0006338"> chromatin remodeling </term> by the trithorax group-related SWI-SNF complex [ 46,47 ] .
+Therefore , the mechanism of <termsem="GO:0048519"> repression </term> by PRC2 is thought to be <termsem="GO:0004407"> <termsem="independent_continuant"> HDAC </term> </term> - dependent while the mechanism of <termsem="GO:0048519"> repression </term> by PRC1 appears to be <termsem="GO:0004407"> <termsem="independent_continuant"> HDAC </term> </term> - independent .
+Our <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay also showed that <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> of DBD-mrs was not affected by the addition of various concentrations of trichostatin A , a potent <termsem="GO:0046811"> <termsem="independent_continuant"> <termsem="GO:0004407"> <termsem="independent_continuant"> HDAC </term> </term> inhibitor </term> </term> ( data not shown ) .
+Therefore , we speculate that the mechanism of <termsem="GO:0048519"> repression </term> of mr-s may be <termsem="GO:0004407"> <termsem="independent_continuant"> HDAC </term> </term> - independent and more similar to that of PRC1 complex .
+In the present study , the biochemical experiments demonstrate that the mr-s protein functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> and possibly <termsem="GO:0048519"> down-regulates </term> the spatial and temporal expression of the target genes during <termsem="GO:0042462"> retinal photoreceptor development </term> .
+Our data also revealed that the <termsem="GO:0048519"> repressive </term> activity of mr-s is mainly due to the C-terminal region ( amino acids 463 to 542 ) .
+However , downstream targets of mr-s still remain unclear .
+In situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> showed that the peak of mr-s <termsem="GO:0010467"> expression </term> is around P6 , when retinal photoreceptors undergo terminal <termsem="GO:0030154"> differentiation </term> .
+We hypothesize that the target genes of mr-s might be non-photoreceptor genes .
+In this case , mr-s may <termsem="GO:0048519"> suppress </term> the expression of non-photoreceptor genes in rod and cone photoreceptors .
+There may be another possibility that mr-s is involved in cell fate determination of rod photoreceptors versus cone photoreceptors .
+While cone photoreceptors are born during the early embryonic stages of mouse <termsem="GO:0060041"> retinogenesis </term> , rod photoreceptors are born primarily in the late embryonic and early postnatal period [ 48 ] .
+The <termsem="GO:0010467"> expression </term> pattern of mr-s may suggest that mr-s is <termsem="GO:0010467"> expressed </term> in rod photoreceptors but not in cone photoreceptors as well as Nr2e3 , which is known as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> and is thought to <termsem="GO:0048519"> down-regulate </term> cone photoreceptor-specific genes .
+To clarify the biological function of mr-s , analysis of mice with targeted disruptions of mr-s will be very important .
+Here we identified mouse mr-s , which is predominantly <termsem="GO:0010467"> expressed </term> in retinal photoreceptors and the pineal gland .
+mr-s is evolutionarily conserved from zebrafish through to human , suggesting a significant role of mr-s in <termsem="GO:0042461"> photoreceptor development </term> .
+Our present data suggest that mr-s protein <termsem="GO:0051179"> localizes </term> in the nucleus and can <termsem="GO:0043621"> self-associated </term> mainly through the SAM domain .
+Moreover , mr-s protein fused to GAL4 DBD functions as a <termsem="GO:0016564"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> repressor </term> </term> .
+The <termsem="GO:0048519"> repressive </term> activity of mr-s is due to its C-terminal region ( amino acid 463 to 542 ) .
+Taken together , mr-s is a novel repressor molecule possibly involved in the <termsem="GO:0042462"> development of retinal photoreceptors </term> and pineal gland .
+Isolation of mouse mr-s cDNA .
+We used the bioinformatics method Digital Differential Display ( NCBI , UniGene ) to screen novel mouse genes <termsem="GO:0010467"> expressed </term> preferentially in the retina .
+Some of the clusters in the UniGene database were mainly from mouse retinal cDNAs .
+One clone in these clusters ( #Mm .
+246385 ) has a weak homology with the polyhomeotic family genes .
+A 735-bp cDNA fragment of this clone , encoding amino acids 140 -- 384 was amplified by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR from mouse P0 retinal cDNA .
+This fragment was used as the probe for library screening , in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> and Northern <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+A mouse P0-P3 retinal cDNA library was screened using this mouse cDNA fragment .
+Positive bacteriophage clones were isolated and the full-length mr-s fragment was inserted into pBluescriptII ( Stratagene ) .
+DNA sequencing was performed on both strands by the cycle sequencing method .
+The nucleotide sequence for mr-s gene has been deposited in the GenBank database under GenBank Accession Number #AY458844 .
+In situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+The 735-bp cDNA fragment of mr-s amplified by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR was used as a probe for in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+In situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> was performed as described previously [ 49 ] .
+Cell culture and <termsem="GO:0009294"> transfection </term> .
+HEK293T cells were maintained at 37 C in Dulbecco 's modified Eagle 's medium ( DMEM ) supplemented with 10 % fetal bovine serum ( Sigma ) , 100 IU/ml penicillin and 100 g/ml streptomycin .
+Transient <termsem="GO:0009294"> transfection </term> of HEK293T cells was carried out using calcium phosphate method or Fugene6 <termsem="GO:0009294"> transfection </term> reagent ( Roche ) .
+Y79 retinoblastoma cells were maintained in Iscove 's modified Dulbecco 's medium with 4 mM L-glutamine adjusted to contain 1.5 g/L sodium bicarbonate , 20 % FBS .
+Transient <termsem="GO:0009294"> transfection </term> was carried out using TransIt LT1 ( Mirus ) .
+RNA was extracted from the tissues of adult mice using Trizol ( Invitrogen ) .
+A 5 g of total RNA was electrophoresed in a 1.0 % agarose-formaldehyde gel and transferred to a nylon membrane ( Zeta-Probe GT , Bio-Rad ) .
+The 735-bp cDNA fragment encoding the SAM domain of mr-s was used as a probe for <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+<termsem="GO:0000739"> <termsem="GO:0033592"> Hybridization </term> </term> was performed according to the manufacturer 's protocol .
+Washes with increasing stringency were performed , the last being at 50 C in 0.1  standard saline citrate/0 .1 % sodium dodecyl sulfate ( SDS ) .
+<termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis .
+Total RNA was isolated from each tissue using Trizol .
+A 1 g of total RNA was <termsem="GO:0006410"> reverse transcribed </term> using SuperscriptII ( Invitrogen ) .
+<termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR primers , which span introns , for detection of mr-s cDNA were 5 ' - TGTCCAGCCCAGCCAACCCAAGGAGACGACA-3 ' and 5 ' - TGTGGTCTCCTCATCAGTGAAGA-3 ' .
+Product size was 292 bp ( positions 965 -- 1256 of Genbank Accession Number #AY458844 ) .
+Primer pairs for mouse <termsem="GO:0008943"> <termsem="independent_continuant"> G3PDH </term> </term> were 5 ' - ACCACAGTCCATGCCATCAC-3 ' and 5 ' - TCCACCACCCTGTTGCTGTA - 3 ' which amplified a 452-bp product ( positions 587 -- 1038 of Genbank Accession Number #BC85275 ) .
+Yeast two-hybrid screening and GAL4 assay .
+We carried out yeast two-hybrid experiments using the MATCHMAKER GAL4 two-hybrid system 3 ( BD Bioscience ) as recommended by the manufacturer .
+We cloned the full-length mr-s into the pGBKT7 vector and used it to screen a library of mouse P0-P3 retinal cDNAs in the pGADT7 vector .
+Transformants that conferred <termsem="GO:0040007"> growth </term> were picked , isolated and re-introduced with the bait into AH109 to confirm interaction .
+Plasmid DNA was isolated from yeast using RPM Yeast Plasmid Isolation Kit ( Qbiogene ) .
+In order to confirm the protein interactions , single colonies were picked and <termsem="GO:0040007"> grown </term> individually in synthetic complete media lacking leucine , tryptophan and containing X-gal .
+After 4 -- 5 days , X-gal positive clones were selected and analyzed .
+To test self-interaction of mr-s , we subcloned the full-length , N-terminus ( amino acids 1 -- 400 ) and C-terminus ( amino acids 391 -- 542 ) of mr-s into pGBKT7 and pGADT7 vectors .
+We assessed interactions by scoring blue color on plates of medium containing X-gal .
+For immunoprecipitation assay , 4  hemagglutinin ( HA ) or 3  Flag tagged cDNA fragment encoding full-length mr-s ( full-HA and Flag-mrs ) , a cDNA fragment encoding amino acids 1 -- 400 ( SAM-HA and Flag-SAM ) , and a cDNA fragment encoding amino acids 400 -- 542 ( Flag-SAM ) were subcloned into the pcDNA3 ( Invitrogen ) <termsem="GO:0010467"> expression </term> vector .
+We also <termsem="GO:0009058"> constructed </term> two site-directed mutants , Flag-W404A and Flag-G453A , using PCR .
+Each of these mutations was also introduced into Flag-mr-s .
+We <termsem="GO:0009294"> transfected </term> HEK293T cells with 5 g of plasmid DNA per 6 cm dish by calcium phosphate method .
+Approximately 48 hr after <termsem="GO:0009294"> transfection </term> , cells were harvested in immunoprecipitation buffer ( 50 mM Tris-HCl [ pH 7.5 ] , 1 mM EDTA , 2 mM MgCl2 , 150 mM NaCl , 1 mM phenylmethylsulfonyl fluoride [ Wako ] , 1 % Nonidet P-40 , 10 % glycerol ) in the presence of <termsem="GO:0030414"> <termsem="independent_continuant"> <termsem="GO:0008233"> <termsem="independent_continuant"> protease </term> </term> inhibitor </term> </term> cocktail tablets ( Roche ) .
+For each reaction , 1 mg of cell lysate was mixed with 0.5 g of anti-Flag antibody ( SIGMA , F3165 ) and 15 l of protein G-Sepharose ( Amersham ) on a rotating wheel at 4 C for 2 hrs .
+Protein concentration was determined by the BCA protein assay system ( Pierce ) .
+The beads were then washed three times with immunoprecipitation buffer and followed by three times with wash buffer ( 50 mM Tris-HCl [ pH 7.5 ] , 150 mM NaCl , 20 mM MgCl2 ) .
+Proteins were then boiled for 5 min in SDS sample buffer ( 1 % SDS , 1 mM Tris [ pH 6.8 ] , 40 mM DTT , 4 % glycerol , 0.01 % pyronine Y ) .
+The supernatants were fractionated by sodium dodecyl sulfate-polyacrylamide gel electrophoresis ( SDS-PAGE ) and transferred to the nitrocellulose membrane ( Trans-Blot Transfer Medium , Bio-Rad ) .
+Western blotting was performed with rabbit polyclonal anti-HA antibody ( Santa Cruz , #sc -805 ) .
+Signals were detected with horseradish <termsem="GO:0004601"> <termsem="independent_continuant"> peroxidase </term> </term> - <termsem="GO:0043412"> conjugated </term> goat anti-rabbit IgG and ECL plus Western Blotting Detection System ( Amersham ) .
+<termsem="GO:0051641"> Subcellular localization </term> analysis .
+We <termsem="GO:0009294"> transfected </term> the plasmid encoding HA-tagged full-length mr-s into HEK293T cells , seeded cells on coverslips coated with collagen 48 hr after <termsem="GO:0009294"> transfection </term> , fixed with 4 % paraformaldehyde in phosphate-buffered saline ( PBS ) at room temperature for 20 min , and washed with PBS .
+Then we permeabilized cells in PBS containing 0.1 % Triton X-100 for 15 min , washed again with PBS , and incubated in PBS containing 0.1 % bovine serum albumin ( BSA ) for 30 min at room temperature .
+We incubated cells with anti-HA antibody overnight at 4 C ( 1:200 in PBS containing 0.2 % BSA ) .
+The following day , we washed cells three times with PBS and incubated with a Cy3 - <termsem="GO:0043412"> conjugated </term> goat IgG against rabbit IgG ( 1:400 in PBS , Jackson ImmunoReseach Laboratories ) for 30 min .
+We rinsed cells three times with PBS , followed by observation using a confocal microscope FV300 ( Olympus ) equipped with a 60  objective lens .
+<termsem="GO:0045289"> <termsem="independent_continuant"> Luciferase </term> </term> assay .
+For <termsem="GO:0006350"> transcriptional </term> analysis of the 1.2-kb promoter region of mr-s , we <termsem="GO:0009058"> constructed </term> a reporter plasmid ( pro1 .2 k ) by subcloning a 1.2-kb upstream genomic fragment of mr-s gene into a pGL3 <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter plasmid ( Promega ) .
+The <termsem="GO:0010467"> expression </term> vectors were <termsem="GO:0009058"> constructed </term> by subcloning full-length Crx , Otx2 , Nrl genes into a pMIK <termsem="GO:0010467"> expression </term> vector ( a gift from Dr. K. Maruyama ) , respectively .
+For the `` mut1259 '' vector , the Crx <termsem="GO:0005488"> binding </term> site at the -1259 bp position was mutated by replacing GGATTA with AGATCT .
+For the `` mut198 '' vector , the Crx <termsem="GO:0005488"> binding </term> site at the -198 bp position was mutated by replacing TAATCC with GAATTC .
+For the `` mut72 '' vector , the Crx <termsem="GO:0005488"> binding </term> site at the -72 bp position was mutated by replacing GGATTA with GAATTC .
+For the `` mut all '' vector , all of three Crx <termsem="GO:0005488"> binding </term> sites were mutated .
+5xGAL4-pGL3 Control reporter plasmid , which contains five copies of the GAL4 DNA recognition sequence positioned immediately upstream of SV40 minimal promoter , was kindly gifted from Dr. T. Noguchi and used for analysis of the <termsem="GO:0006350"> transcriptional activity </term> of mr-s [ 50 ] .
+To <termsem="GO:0009058"> generate </term> effector plasmids , various deletion fragments were <termsem="GO:0009058"> produced </term> by PCR reaction and subcloned into pGBKT7 vector , respectively .
+These fragments were <termsem="GO:0009056"> digested </term> with the sequence , which encodes GAL4 <termsem="GO:0003677"> DNA binding </term> domain , and inserted into pcDNA3 .
+We <termsem="GO:0009294"> transfected </term> 0.1 g of reporter plasmid DNA and 2 g of the <termsem="GO:0010467"> expression </term> vector DNA per 6 cm dish into HEK293T cells using Fugene6 <termsem="GO:0009294"> transfection </term> reagent .
+We analyzed <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> activity 48 hr after <termsem="GO:0009294"> transfection </term> .
+Crx , cone-rod homeobox ; Otx2 , orthodenticle-related homeobox 2 ; TR2 , <termsem="GO:0004887"> <termsem="independent_continuant"> thyroid <termsem="GO:0005179"> <termsem="independent_continuant"> hormone </term> </term> receptor </term> </term> beta 2 ; Nrl , neural retina leucine zipper ; Nr2e3 , <termsem="GO:0004879"> <termsem="independent_continuant"> nuclear receptor </term> </term> subfamily 2 group E member 3 ; EST , <termsem="GO:0010467"> expressed </term> sequence tag ; EphB2 , <termsem="GO:0005003"> <termsem="independent_continuant"> ephrin receptor </term> </term> B2 ; EphA4 , <termsem="GO:0005003"> <termsem="independent_continuant"> ephrin receptor </term> </term> A4 ; TEL , translocation ETS leukemia .
+TI and KT performed most of the experiments , interpreted the data and wrote the first draft of the manuscript .
+AF prepared retinal tissues and their sections of wild-type and Crx mutant mice .
+CK performed <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> assay using Y79 retinoblastoma cells .
+YT , MA and TF have made substantial contributions to conception and design of the experiments and drafting of the manuscript .
+All authors read and approved the final manuscript .
+We thank T. Noguchi for 5xGAL4-pGL3 reporter plasmid ; A. Nishida for discussion and critical reading of the manuscript ; A. Yoshimura for advice on confocal microscopy ; A. Tani , Y. Kambara , M. Murai , Y. Hirao and H. Yoshii for technical assistance .
+This work was supported by Precursory Research for Embryonic Science and Technology ( PRESTO ) , Dynamics of <termsem="GO:0032502"> Development </term> Systems Molecular Brain Science , Grant-in Aid for Scientific Research ( B ) , Senri Life Science Foundation , and Uehara Foundation .

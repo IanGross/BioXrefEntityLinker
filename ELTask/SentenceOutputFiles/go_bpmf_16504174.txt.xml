@@ -1,0 +1,201 @@
+Identification and targeted disruption of the mouse gene encoding ESG1 ( PH34/ECAT2/DPPA5 ) .
+Embryonic stem cell-specific gene ( ESG ) 1 , which encodes a KH-domain containing protein , is specifically <termsem="GO:0010467"> expressed </term> in early embryos , germ cells , and embryonic stem ( ES ) cells .
+Previous studies identified genomic clones containing the mouse ESG1 gene and five pseudogenes .
+However , their chromosomal localizations or physiological functions have not been determined .
+A Blast search of mouse genomic databases failed to locate the ESG1 gene .
+We identified several bacterial artificial clones containing the mouse ESG1 gene and an additional ESG1-like sequence with a similar gene structure from chromosome 9 .
+The ESG1-like sequence contained a multiple critical mutations , indicating that it was a duplicated pseudogene .
+The 5 ' flanking region of the ESG1 gene , but not that of the pseudogene , exhibited strong enhancer and promoter activity in undifferentiated ES cells by <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter assay .
+To study the physiological functions of the ESG1 gene , we replaced this sequence in ES cells with a -geo cassette by homologous <termsem="GO:0006310"> recombination </term> .
+Despite specific <termsem="GO:0010467"> expression </term> in early embryos and germ cells , ESG1 - / - mice <termsem="GO:0032502"> developed </term> normally and were fertile .
+We also <termsem="GO:0032502"> generated </term> ESG1 - / - ES cells both by a second independent homologous <termsem="GO:0006310"> recombination </term> and directly from blastocysts derived from heterozygous intercrosses .
+Northern blot and western blot analyses confirmed the absence of ESG1 in these cells .
+These ES cells demonstrated normal morphology , <termsem="GO:0008283"> proliferation </term> , and <termsem="GO:0030154"> differentiation </term> .
+The mouse ESG1 gene , together with a duplicated pseudogene , is located on chromosome 9 .
+Despite its specific <termsem="GO:0010467"> expression </term> in pluripotent cells and germ cells , ESG1 is dispensable for self-renewal of ES cells and <termsem="GO:0007281"> establishment of germcells </term> .
+Embryonic stem ( ES ) cells were first derived from the blastocysts of mice in 1981 [ 1,2 ] and humans in 1998 [ 3 ] .
+ES cells have two important properties : theability to maintain pluripotency , which is the ability to <termsem="GO:0030154"> differentiate </term> into a wide variety of cells , and rapid <termsem="GO:0008283"> proliferation </term> .
+These characteristics make mouse ES cells an essential component of gene targeting technology .
+These qualitiesalso make human ES cells attractive sources for cell transplantation therapy to treat various diseases , including spinal cord injuries and juvenile diabetes .
+The molecular mechanisms underlying the pluripotency and rapid proliferation of ES cells are currently a major focus of the field of stem cell biology [ 4-6 ] .
+To identify molecules essential in ES cells for these properties , several groups have utilized transcriptome analyses to identify genes specifically <termsem="GO:0010467"> expressed </term> in ES cells and early embryos .
+These analyses , including DNA microarray analyses [ 7 ] and <termsem="GO:0010467"> expressed </term> sequence tag analyses [ 8-12 ] , identified several common transcripts , including ESG1 that was also designated dppa5 or ECAT2 .
+ESG1 was originally identified as a transcript Ph34 that was <termsem="GO:0048519"> down-regulated </term> by retinoic acid in embryonic carcinoma cells [ 13 ] .
+The expression of this gene was confined in mice to early embryos and germ cells [ 14 ] .
+It is also <termsem="GO:0010467"> expressed </term> in pluripotent cells , including ES cells , embryonic germ cells , and multipotent germline stem cells [ 15 ] .
+ESG1 encodes a polypeptide of 118 amino acids that contains a single KH domain , which is an <termsem="GO:0003723"> RNA-binding </term> domain [ 16 ] .
+It remains unclear , however , if ESG1 functions as an <termsem="GO:0003723"> RNA-binding </term> protein or the roles it plays in ES cells and mice .
+Previous genomic library screening by identified genomic clones containing the mouse ESG1 gene and seven pseudogenes [ 17 ] .
+Two of these pseudogenes exhibit a similar exon-intron structure as the ESG1 gene , indicating their <termsem="GO:0009058"> generation </term> by gene duplication .
+The five remaining pseudogenes did not contain any introns , indicating that these were <termsem="GO:0009058"> generated </term> by retrotransposition of ESG1 transcripts .
+The chromosomal localizations of the mouse ESG1 gene and pseudogenes , however , have not been reported .
+In this study , we determined the structure of the mouse gene encoding this protein and related pseudogenes .
+We also performed gene targeting to determine the physiological function of ESG1 .
+Chromosomal localization and structures of mouse ESG1 gene and psedogenes .
+To determine the chromosomal localizations of the mouse ESG1 gene and pseudogenes , we performed a Blast analysis of the mouse genomic database with the ESG1 cDNA sequence as a query .
+We identified several putative pseudogenes without introns on chromosomes 1 , 5 , 11 , 12 , 14 , 16 , 17 , and X ( Figure 1 ) .
+In addition , two intron-less pseudogenes were identified in DNA fragments for which the chromosomal localization remained unmapped .
+While these pseudodgenes have significant homology to ESG1 cDNA , they could not <termsem="GO:0009058"> produce </term> functional proteins , because of critical mutations .
+This result suggests that there are a larger number of intron-less pseudogenes than previously anticipated .
+Existence of multiple retropseudogenes is a hallmark of pluripotent cell-specific genes [ 18 ] .
+ESG1pseudogenes identified by a Blast search of mouse genomic databases .
+Substitution mutations are indicated by black lines .
+Intron-like gap sequences are indicated with triangles .
+Chromosomal localizations are shown on the right .
+On chromosome 9 , we identified a DNA fragment similar to the ESG1 gene that included two putative introns .
+These putative first and second exons , however , contained ( 4 ) multiple mutations of the ESG1 cDNA sequence .
+The putative third exon was identical to that of the previously reported ESG1 gene .
+Also on chromosome 9 , we identified another DNA fragment that was similar , but not identical , to the third exon of the ESG1 gene .
+These findings suggest that these ESG1-like sequences on chromosome 9 have not been correctly assembled .
+To obtain DNA fragments containing the ESG1 gene , we screened the bacterial artificial chromosome ( BAC ) DNA pool by PCR using primer pairs that would only amplify the real gene , not the pseudogenes .
+We obtained two independent , but overlapping BAC clones .
+Southern blot analyses and sequencing demonstrated that these clones contained a sequence exhibiting complete identity with ESG1 cDNA that was interrupted by two putative introns ( Figure 2A ) .
+The two intron sequences begin with GT and terminate with AG , fulfilling the GT-AG rule of exon-intron junctions [ 19 ] .
+The 5 ' flanking region of this DNA fragment exhibited strong promoter/enhancer activity by <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter assays in undifferentiated ES cells , but not in somatic cells ( Figure 3 ) .
+The same fragment showed much weaker activity after <termsem="GO:0031128"> induction </term> of <termsem="GO:0030154"> differentiation </term> by retinoic acid .
+We concluded that this sequence is the ESG1 gene .
+BAC clones containing the ESG1 gene and a duplication pseudogene ( PS ) .
+A ) Localization of the gene and PS on chromosome 9 .
+B ) Sequence comparison of the gene and PS revealed that these are homologous from eight base pairs upstream of the first exon to 675 bp downstream of the third exon .
+Substitution mutations are indicated by black lines .
+The insertion is indicated by an open triangle .
+Promoter/enhancer activity of the ESG1 gene and pseudogene .
+DNA fragments of ~ 6 kbp isolated from the 5 ' flanking regions of the gene and PS were transferred into <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter plasmids .
+We introduced the reporter genes into undifferentiated ES cells ( open columns ) , retinoic acid-treated ES cells ( grey columns ) , and NIH3T3 cells ( closed columns ) .
+Data represent the averages and standard deviations of three independent experiments .
+We also found that the two BAC clones contained another ESG1-like sequence ( Figure 2A ) .
+The two sequences , separated by a 68 kbp intergenic sequence , were oriented in opposite directions .
+The ESG1-like sequence exhibited greater than 95 % identity to the exons and introns of the ESG1 gene .
+This sequence , however , contained critical nucleotide substitutions in all of the exons and one nucleotide insertion in exon 2 ( Figure 2B ) .
+Although 675 base pairs of the 3 ' flanking regions were conserved between the ESG1 gene and the pseudogene , only five base pairs of the 5 ' flanking region were identical .
+This 5 ' flanking region ( ~ 6 kbp ) did not possess any promoter/enhancer activity in <termsem="GO:0045289"> <termsem="independent_continuant"> luciferase </term> </term> reporter assays ( Figure 3 ) .
+It is thus unlikely that this sequence is <termsem="GO:0006350"> transcribed </term> or <termsem="GO:0006412"> translated </term> into a functional protein .
+This sequence likely represents a duplication pseudogene .
+Bierbaum previously reported the existence of two pseudogenes with similar exon-intron organization as the ESG1 gene [ 17 ] .
+We could not determine which of these two pseudogenes corresponds to the one we identified or the location of the remaining pseudogene .
+Targeted disruption of the mouse ESG1 gene .
+To study the function of ESG1 , we deleted the gene by homologous <termsem="GO:0006310"> recombination </term> in mouse ES cells .
+We replaced the three exons with either a fusion of the neomycin-resistance and <termsem="GO:0004565"> <termsem="independent_continuant"> -galactosidase </term> </term> genes ( -geo ) or the hygromycin resistant gene ( HygR ) using two targeting vectors ( Figure 4A ) introduced into RF8 ES cells by electroporation .
+We obtained eight ES cell clones with correct homologous <termsem="GO:0006310"> recombination </term> of the -geo targeting vector , which was confirmed by Southern blot analysis ( Figure 4B ) .
+We obtained only one clone with correct homologous <termsem="GO:0006310"> recombination </term> of the HygR targeting vector .
+Targeted disruption of the mouse ESG1 gene .
+A ) Targeting strategy .
+Homologous regions are indicated by thick lines .
+Recognition sites of PstI ( P ) and SpeI ( S ) , which were used for Southern blot analyses , are shown .
+The gene encoding diphtheria toxin A ( DTA ) was inserted at the 3 ' end of the targeting vectors to facilitate negative selection .
+B ) Southern blot analyses confirming homologous <termsem="GO:0006310"> recombination </term> .
+WT , wild-type ES cells ;  , -geo + / - ES cells ; H , HygR + / - ES cells ; - / - , ESG1-null ES cells .
+Numbers indicate clone numbers .
+C ) Northern blot ( upper ) and western blot ( lower ) analyses of wild-type ES cells ( WT ) , ESG1-null ES cells ( - / - , three clones ) and heterozygous ES cells ( + / - ) .
+Northern blot was performed as previously described [ 20 ] .
+To confirm the loading of equal amounts of RNA , ethidium bromide staining of ribosomal RNA is also shown ( middle ) .
+To obtain homozygous mutant ES cells , we introduced the -geo vector into HygR heterozygous ES cells .
+Of 105 G418-resistant colonies tested , 49 were homozygous for ESG1 deletion .
+Northern blot and western blot analyses confirmed the absence of ESG1 in these cells ( Figure 4C ) .
+In 29 clones , the -geo vector had replaced the HygR vector , such that the cells remained heterozygous .
+In the remaining 27 clones , the -geo vector was integrated at non-homologous sites .
+ESG1 - / - ES cells exhibited normal morphology ( Figure 5A ) .
+These cells also <termsem="GO:0008283"> proliferated </term> at a speed comparable to that of the control ( heterozygous and wild-type ) cells ( Figure 5B ) .
+ESG1 - / - cells <termsem="GO:0030154"> differentiated </term> normally after the removal of leukemia inhibitory factor ( Figure 5B ) or retinoic acid treatment ( not shown ) .
+When transplanted into hind flanks of nude mice , these cells <termsem="GO:0032502"> produced </term> teratomas , tumors containing components of all three germ layers ( Figure 5C ) .
+These results indicate that ESG1 is dispensable for the <termsem="GO:0017145"> self-renewal </term> properties and pluripotency of ES cells .
+Analyses of ESG1-null ES cells .
+A ) The morphology of ESG1-null ES cell colonies <termsem="GO:0040007"> grown </term> on STO feeder cells .
+B ) <termsem="GO:0040007"> Growth </term> curve of wild-type ( WT ) , ESG1-null ( - / - ) and heterozygous ( + / - ) ES cells .
+Each clone ( 1  104 cells/well ) was plated in 24-well plates .
+Cell numbers were determined with a Coulter counter at 2 , 4 , and 6 days .
+Data of + / - and - / - cells are shown as averages and standard deviations of three independent clones .
+C ) A section of teratoma derived from ESG1-null ES cells ( hematoxylin & eosin staining ) .
+We examined the <termsem="GO:0010467"> gene expression </term> profiles of ESG1 - / - ES cells using oligonucleotide-based DNA microarrays representing ~ 20,000 genes .
+In comparison to control ES cells , ESG1 was identified as the gene reduced to the greatest extent in ESG1 - / - ES cells ( Figure 6A ) .
+The expression of ES cell marker genes , such as Nanog and Oct3/4 , was normal in ESG1 - / - ES cells .
+We confirmed normal Oct3/4 <termsem="GO:0010467"> expression </term> at protein levels by Western blot ( Figure 6B ) .
+The overall <termsem="GO:0010467"> gene expression </term> profiles were similar between control ES cells and ESG1 - / - ES cells .
+Several genes exhibited a greater than two-fold reduction in ESG1 - / - cells , including Krt1-8 , Pem , Ctgf , Ptgs2 , Igf2 and Inhba .
+These genes might be <termsem="GO:0065007"> regulated </term> directly or indirectly by ESG1 .
+Since ESG1 contains a KH-type <termsem="GO:0003723"> RNA-binding </term> domain , it may <termsem="GO:0043489"> stabilize </term> mRNA of these genes .
+Further studied are required to clarify this possibility .
+<termsem="GO:0010467"> Gene expression </term> analyses of ESG1-null ES cells .
+A ) DNA microarray analyses .
+Total RNA from wild-type ES cells and ESG1-null ES cells were labeled with Cy3 and Cy5 , respectively .
+Samples were <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> to Agilent Mouse <termsem="GO:0032502"> Developmental </term> Microarrays .
+The averages of two independent clones are shown .
+B ) Western blot analyses .
+Cell lysates from ESG1 + / - and ESG1 - / - cells were examined for <termsem="GO:0010467"> expression </term> of ESG1 , Oct3/4 and CDK4 with immunoblotting .
+To <termsem="GO:0000003"> generate </term> ESG1-knockout mice , we injected -geo-ESG1 + / - ES cell clones into the blastocysts of C57BL6 mice .
+We obtained germline transmission from three clones .
+We obtained ESG1 - / - mice at the Mendelian ratios ( 36 wild-type , 69 ESG1 + / - , and 45 ESG1 - / - ) from intercrosses of ESG1 + / - mice .
+These animals exhibited normal <termsem="GO:0032502"> development </term> , gross appearance , and fertility ( not shown ) .
+Histological examination of testis and ovary could not identify any abnormalities ( not shown ) .
+These data demonstrated that ESG1 is dispensable for both mouse <termsem="GO:0032502"> development </term> and <termsem="GO:0007281"> germ cell formation </term> .
+We also <termsem="GO:0032502"> generated </term> ES cells from blastocysts obtained by intercrosses of ESG1 + / - males and ESG1 - / - females .
+Of the eight ES cell lines <termsem="GO:0032502"> established </term> , two clones were ESG1 - / - .
+These ESG1-null ES cells demonstrated normal morphology , <termsem="GO:0008283"> proliferation </term> , and <termsem="GO:0030154"> differentiation </term> ( not shown ) , confirming that ESG1 is dispensable in ES cells .
+To analyze the physiological roles of ESG1 , we identified the mouse gene on chromosome 9 and deleted it by homologous <termsem="GO:0006310"> recombination </term> in ES cells .
+Despite specific <termsem="GO:0010467"> expression </term> in early embryos , germ cells , and pluripotent cells , our data demonstrated that ESG1 is dispensable for mouse <termsem="GO:0032502"> development </term> , <termsem="GO:0007281"> germ cell formation </term> , and ES <termsem="GO:0017145"> cell self-renewal </term> .
+Identification and analyses of BAC clones containing the mouse ESG1 gene .
+To identify bacterial artificial chromosome ( BAC ) clones containing mouse ESG1 gene , we performed PCR-based screening of mouse BAC library DNA pools ( Research Genetics ) using the pH34-u38 ( 5 ' - GAAGTCTGGTTCCTTGGCAGG-3 ' ) and pH34-L394 ( 5 ' - ACTCGATACACTGGCCTAGC-3 ' ) primers .
+Following <termsem="GO:0015666"> <termsem="independent_continuant"> restriction enzyme </term> </term> <termsem="GO:0009056"> digestion </term> , we performed Southern blot analyses of BAC clones as described [ 20 ] using the pH34-U258 ( 5 ' - CTCGAGTGTACAGTCAAGTGGTTGCTGGGA-3 ' ) , pH34-U65 ( 5 ' - GTGACCCTCGTGACCCGTAA-3 ' ) , pH34-intron1L ( 5 ' - CTGCGTGAGAGAAACACCAAACAGGC-3 ' ) , pH34-L545 ( 5 ' - TGTGAATGGGAAGGTTACCACTCT-3 ' ) and pH34-SCL1 ( 5 ' - GCCCTCTTCTGGTTTGTCTCGAAAT-3 ' ) probes .
+<termsem="GO:0000739"> <termsem="GO:0033592"> Hybridization </term> </term> with these probes revealed bands containing either the ESG1 gene or pseudogenes .
+To sequence the region containing the mouse ESG1 gene and the 3 ' flanking region , we subcloned a ~ 15 kbp XhoI-SalI fragment into the pZERO-2 vector ( Invitrogen ) .
+HindIII - or EcoRI - <termsem="GO:0009056"> digested </term> fragments of this vector were then cloned into pBluescript KS ( - ) for sequencing .
+To sequence the ESG1 pseudogene and the 3 ' flanking region , an 8 kbp NotI/XhoI fragment was cloned into pBluescript KS ( - ) .
+BamHI - or PstI - fragments of this vector were also cloned into pBluescript KS ( - ) .
+To identify the sequence containing the 5 ' flanking regions of the ESG1 gene and the related pseudogenes , we used a TOPO walker kit ( Invitrogen ) with the pH34-T2L ( 5 ' - ACTAGTCGCAGCAGGGATCCAGGAATATCT-3 ' ) and pH34-L394 primers .
+The resulting sequence was cloned into pCR2 .1 ( Invitrogen ) .
+We obtained a ~ 6 kbp band from the NsiI - <termsem="GO:0009056"> digensted </term> library ; XbaI - , SpeI - , EcoRI - , and PstI - <termsem="GO:0009056"> digested </term> fragments of this band were cloned into pBluescript KS ( - ) for sequencing .
+This fragment contained the 5 ' flanking region of the ESG1 gene .
+A ~ 3 kbp fragment , obtained from the SacI - <termsem="GO:0009056"> digested </term> library , was cloned into pCR2 .1 for sequencing .
+This fragment was contained the 5 ' region flanking the pseudogene .
+<termsem="GO:0009058"> Construction </term> of ESG1 targeting vectors .
+We replaced all of the ESG1 exons with two targeting vectors containing either an IRES--geo cassette [ 21 ] or an IRES-HygR cassette by promoter trap selection .
+We amplified the 5 ' arm ( 1.8 kbp ) using KOD plus ( TOYOBO ) with the pH34-targetpair5-U ( 5 ' - CCGCGGAAAGTCAAGAGATTGGGTGG-3 ' ) and pH34-targetpair5-L ( 5 ' - GCGGCCGCCTTTACGGGTCACGAGGGTCAC-3 ' ) primers .
+The 3 ' arm ( 5.8 kbp ) was amplified using the pH34-targetpair3-U ( 5 ' - TGTGGCCAGTGTTTGGTTCTGGCGGG-3 ' ) and pH34-targetpair3-L ( 5 ' - CTCGAGGACTCGCCATTCTAGCCAAG-3 ' ) primers .
+The IRES -geo or IRES HygR cassettes were <termsem="GO:0006266"> ligated </term> in between the two PCR fragments .
+The diphtheria toxin A cassette was placed downstream of the 3 ' arm .
+After linearization with SacII , these targeting vectors were electroporated into 2.0  107 RF8 ES cells [ 22 ] using a Gene pulser ( BIORAD ) .
+<termsem="GO:0009294"> Transfected </term> cells were selected with 250 g/mL G418 or 100 g/mL hygromycin B , respectively .
+Genomic DNA from G418 - or hygromycin B-resistant colonies was screened for homologous <termsem="GO:0006310"> recombination </term> by Southern blotting .
+Southern blot screening for homologous <termsem="GO:0006310"> recombination </term> .
+ES cells genomic DNA was extracted with PUREGENE  <termsem="GO:0019835"> Cell Lysis </term> Solution ( Gentra systems ) .
+For 5 ' Southern blot analysis , genomic DNA was first <termsem="GO:0009056"> digested </term> with PstI , then separated on an 0.8 % agarose gel and transferred to a nylon membrane as described [ 20 ] .
+A 560 bp 5 ' probe was amplified using the ESG1S5 ( 5 ' - GATGGTGGTGGTGACTCAGAG -3 ' ) and ESG1AS5 as ( 5 ' - CCTCCATTGCCTCTATATCAG -3 ' ) primers .
+The probe specifically labeled an 18 kbp band from the wild-type locus , a 15 kbp band from the -geo locus , and a 12 kbp band from the HygR locus .
+Genomic DNA was also <termsem="GO:0009056"> digested </term> with SpeI for 3 ' Southern blot analysis .
+A 1,010 bp 3 ' probe was amplified with the pH34U-8000 ( 5 ' - CCAACCAGCCAGAGTTTCAGTTAT -3 ' ) and pH34L-9000 ( 5 ' - GATAAGCTGCTGCCAAAAGACAAG -3 ' ) primers .
+The probe <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> to an 11.5 kbp band from the wild-type locus , a 12.5 kbp band from the -geo locus , and a 9.5 kbp band from the HygR locus .
+Generation of anti-ESG1 polyclonal antibodies .
+The coding sequence of Esg1 was amplified by PCR with the pH34-gw-s ( 5 ' - AAAAAGCAGGCTGGATGATGGTGACCCTCGTGA-3 ' ) and pH34-gw-as ( 5 ' - AGAAAGCTGGGTCTGCATCCAGGTCGGAGACA-3 ' ) primers .
+To <termsem="GO:0009058"> construct </term> pDONR-pH34 , the resulting PCR product was subcloned into pDONR201 ( Invitrogen ) .
+pDONR-pH34 was interacted with pDEST17 ( Invitrogen ) by LR <termsem="GO:0006310"> recombination </term> .
+After <termsem="GO:0009294"> introduction </term> of the resulting <termsem="GO:0010467"> expression </term> vector pDEST17-pH34 into BL21-AI E. coli ( Invitrogen ) , <termsem="GO:0006310"> recombinant </term> <termsem="GO:0006412"> protein production </term> was induced according to the manufacture 's protocol .
+Histidine-tagged ESG1 was purified using Ni-nitrilotriacetic acid agarose ( Qiagen ) under <termsem="GO:0030164"> denaturing </term> conditions in the presence of 8 M urea .
+After dialysis against 6 M urea , the <termsem="GO:0006310"> recombinant </term> proteins were injected into New Zealand White rabbits to <termsem="GO:0009058"> generate </term> anti-ESG1 polyclonal antibodies .
+After preparation of ES cell extracts with M-Per ( Pierce ) , cellular proteins were separated on sodium dodecyl sulfate ( SDS ) -14 % polyacrylamide gels and transferred to nitrocellulose membranes ( Millipore ) .
+Membranes were incubated with anti-ESG1 ( 1/500 dilution ) , anti-Oct3 / 4 ( 1/500 ; Santa Cruz Biotechnology ) , anti-CDK4 ( 1/200 ; Santa Cruz Biotechnology ) , and anti-GFP ( 1/1000 ; MBL ) primary antibodies .
+Horseradish <termsem="GO:0004601"> <termsem="independent_continuant"> peroxidase </term> </term> - <termsem="GO:0043412"> conjugated </term> anti-rabbit and anti-mouse immunoglobulins ( 1/5000 ; Cell <termsem="GO:0007165"> Signaling </term> ) were used to detect <termsem="GO:0019865"> antibody binding </term> .
+We visualized <termsem="GO:0005488"> bound </term> antibody with an ECL Western Blotting Detection System ( Amersham ) .
+Derivation of ESG1-deficient ES cells from blastocysts .
+Esg1 + / - or ESG1 - / - mutant female mice were injected with Tamoxifen ( 10 g ) and Depo-provera ( 1 mg ) subcutaneously on the third day of <termsem="GO:0007565"> pregnancy </term> .
+Four days later , embryos in diapause were flushed out of the uterus and cultured on STO feeder cells in four-well plates in Dulbecco 's Modified Eagle Medium ( DMEM ) supplemented with 20 % Fetal Bovine Serum ( Hyclone ) , 0.1 mM Non-Essential Amino Acids ( Invitrogen ) , 2 mM L-glutamine ( Invitrogen ) , 50 U/ml Penicillin-Streptomysin ( Invitrogen ) , and 0.11 mM 2-mercaptoethanol ( Invitrogen ) .
+After six days , the central mass of each explant was harvested , rinsed in PBS , and placed in a drop of <termsem="GO:0004295"> <termsem="independent_continuant"> trypsin </term> </term> for a few minutes .
+The cell mass was collected with a finely drawn-out Pasteur pipette preloaded with medium , ensuring minimal carryover of the <termsem="GO:0004295"> <termsem="independent_continuant"> trypsin </term> </term> .
+The cells were gently transfered into a fresh well with 20 % FBS-containing medium .
+The resulting primary ES cell colonies were individually passaged into wells of four-well plates containing STO feeder cell layers .
+Thereafter , cells were expanded by trypsinization of the entire culture .
+Total RNA from wild-type ES cells and ESG1 - / - ES cells was labeled with Cy3 and Cy5 , respectively .
+The samples were <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> to a Mouse <termsem="GO:0032502"> Development </term> Microarray ( Algilent ) according to the manufacturer 's protocol .
+Arrays were scanned with a G2565BA Microarray Scanner System ( Agilent ) .
+<termsem="GO:0000739"> <termsem="GO:0033592"> Hybridization </term> </term> was repeated with two independent clones .
+Data were analyzed with GeneSprings software ( Silico Genetics ) .
+HA carried out the phenotypic studies of ESG1 knockout mice .
+KI determined the chromosomal localizations of the ESG1 gene and pseudogenes and <termsem="GO:0009058"> constructed </term> the targeting vector .
+TI carried out mouse embryo manipulation .
+MM and MN carried out ES cell culture .
+SY conceived of the study , and participated in its design and coordination and helped to draft the manuscript .
+All authors read and approved the final manuscript .
+We thank Chihiro Takigawa , Junko Iida , Masako Shirasaka , Yumi Ohuchi , and Megumi Narita for their technical and administrative assistance .
+We are grateful to Drs. Minoru Ko and Azim Surani for sharing helpful data prior to publication , Dr. Hitoshi Niwa for generously providing various vectors , and Dr. Robert Farese Jr. for his kind gift of the RF8 ES cells .
+This work was supported in part by research grants from the Ministry of Education , Culture , Sports , Science , and Technology of Japan , the Uehara Memorial Foundation , the Naito Foundation , the Sumitomo Research Foundation , the Mitsubishi Foundation .
+S.Y. was supported by a Toray Science and Technology Grant ( to S.Y. ) .
+This work was also supported in part by a Grant-in-Aid for 21st Century COE ( Center of Excellence ) Research from the Ministry of Education , Culture , Sports , Science , and Technology .

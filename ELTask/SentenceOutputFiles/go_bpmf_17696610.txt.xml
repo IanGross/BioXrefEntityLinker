@@ -1,0 +1,372 @@
+Mouse <termsem="GO:0051598"> <termsem="GO:0000239"> Pachytene </term> Checkpoint </term> 2 ( Trip13 ) Is Required for Completing <termsem="GO:0007131"> <termsem="GO:0007126"> Meiotic </term> Recombination </term> but Not Synapsis .
+In mammalian <termsem="GO:0007126"> meiosis </term> , <termsem="GO:0007129"> homologous chromosome synapsis </term> is coupled with <termsem="GO:0006310"> recombination </term> .
+As in most eukaryotes , mammalian meiocytes have <termsem="GO:0000075"> checkpoints </term> that <termsem="GO:0065007"> monitor </term> the fidelity of these processes .
+We report that the mouse ortholog ( Trip13 ) of <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> 2 ( PCH2 ) , an essential component of the <termsem="GO:0007129"> synapsis </term> <termsem="GO:0000075"> checkpoint </term> in Saccharomyces cerevisiae and Caenorhabditis elegans , is required for completion of <termsem="GO:0007126"> meiosis </term> in both sexes .
+TRIP13-deficient mice exhibit spermatocyte <termsem="GO:0016265"> death </term> in <termsem="GO:0000239"> pachynema </term> and loss of oocytes around <termsem="GO:0007567"> birth </term> .
+The chromosomes of mutant spermatocytes <termsem="GO:0007129"> synapse </term> fully , yet retain several markers of <termsem="GO:0006310"> recombination </term> intermediates , including RAD51 , BLM , and RPA .
+These chromosomes also exhibited the chiasmata markers MLH1 and MLH3 , and okadaic acid treatment of mutant spermatocytes caused progression to <termsem="GO:0007132"> metaphase I </term> with bivalent chromosomes .
+Double mutant analysis demonstrated that the <termsem="GO:0006310"> recombination </term> and <termsem="GO:0007129"> synapsis </term> genes Spo11 , Mei1 , Rec8 , and Dmc1 are all epistatic to Trip13 , suggesting that TRIP13 does not have <termsem="GO:0033313"> <termsem="GO:0007126"> meiotic </term> checkpoint </term> function in mice .
+Our data indicate that TRIP13 is required after <termsem="GO:0042148"> strand invasion </term> for completing a subset of <termsem="GO:0006310"> recombination events </term> , but possibly not those destined to be <termsem="GO:0007131"> crossovers </term> .
+To our knowledge , this is the first model to separate <termsem="GO:0006310"> recombination </term> defects from asynapsis in mammalian <termsem="GO:0007126"> meiosis </term> , and provides the first evidence that unrepaired DNA damage alone can trigger the <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> <termsem="GO:0050896"> response </term> in mice .
+It is critical that the chromosomes carried by sperm and eggs contain faithful representations of the genome of the individual that <termsem="GO:0022607"> produced </term> them .
+During the <termsem="GO:0007126"> process of meiosis </term> , the maternal and paternal copies of each chromosome `` <termsem="GO:0007129"> synapse </term> '' with each other ( become tightly associated ) , exchange genetic material via the <termsem="GO:0006310"> process of recombination </term> , then <termsem="GO:0051304"> separate </term> into daughter cells in the first of two <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051301"> cell divisions </term> .
+The intricate chromosome behavior is subject to errors , so most organisms have evolved <termsem="GO:0007126"> meiotic </term> `` checkpoints '' that <termsem="GO:0065007"> monitor </term> fidelity of <termsem="GO:0007129"> chromosome synapsis </term> and <termsem="GO:0006281"> repair of DNA damage </term> .
+These <termsem="GO:0000075"> checkpoints </term> cause defective cells to <termsem="GO:0012501"> self destruct </term> rather than <termsem="GO:0007276"> generate </term> defective sperm or eggs .
+We studied the effects of deleting mouse Trip13 , a gene that in distant organisms plays a key role in <termsem="GO:0033313"> <termsem="GO:0007126"> meiotic </term> checkpoint control </term> .
+These experiments revealed that instead of having a <termsem="GO:0000075"> checkpoint </term> role , Trip13 is required for one of the two major classes of <termsem="GO:0007131"> recombination in <termsem="GO:0007126"> meiosis </term> </term> that is required for <termsem="GO:0006281"> repairing </term> broken DNA molecules .
+The chromosomes still <termsem="GO:0007129"> synapsed </term> normally , but animals were sterile due to massive <termsem="GO:0016265"> death </term> of oocytes and spermatocytes .
+These results indicate that , in addition to a <termsem="GO:0000075"> checkpoint </term> that <termsem="GO:0050896"> responds </term> to failed <termsem="GO:0007129"> synapsis </term> , one exists to specifically <termsem="GO:0051606"> detect </term> unrepaired DNA damage that is due to failed <termsem="GO:0006310"> recombination </term> .
+The <termsem="GO:0007276"> genesis of gametes </term> containing an intact , haploid genome is critical for the prevention of <termsem="GO:0007567"> birth </term> defects , and is highly dependent upon the fidelity of chromosome dynamics before the <termsem="GO:0007127"> first <termsem="GO:0007126"> meiotic </term> </term> <termsem="GO:0051301"> division </term> .
+Homologous chromosomes must pair , <termsem="GO:0007129"> synapse </term> , undergo <termsem="GO:0006310"> recombination </term> , and <termsem="GO:0007059"> segregate </term> properly to opposite poles .
+<termsem="GO:0006310"> Recombination </term> , which <termsem="GO:0006281"> repairs </term> <termsem="GO:0006281"> repair </term> double strand breaks ( DSBs ) that are genetically induced in <termsem="GO:0000237"> leptonema </term> , is coupled with <termsem="GO:0007129"> synapsis </term> in <termsem="GO:0007114"> budding </term> yeast and mammals .
+While our knowledge of the assembly and nature of <termsem="GO:0006310"> recombination </term> machinery is extensive , little is known about the <termsem="GO:0022411"> disassembly </term> of <termsem="GO:0006310"> recombination </term> intermediates , <termsem="GO:0045184"> recruitment </term> of <termsem="GO:0006260"> DNA replication </term> machinery during <termsem="GO:0000725"> recombinational repair </term> , and how the choice between different <termsem="GO:0006281"> repair pathways </term> is made .
+Defects in <termsem="GO:0006310"> recombination </term> can preclude <termsem="GO:0007129"> homologous chromosome pairing </term> , leave unrepaired chromosome breaks , and cause aneuploidy by abrogating <termsem="GO:0007131"> crossing over </term> .
+To avoid such deleterious outcomes , <termsem="GO:0065007"> surveillance </term> systems ( `` <termsem="GO:0000075"> checkpoints </term> '' ) exist to <termsem="GO:0051606"> sense </term> <termsem="GO:0007126"> meiotic </term> errors and <termsem="GO:0012501"> eliminate </term> cells containing unresolved defects .
+In many organisms , including S. cerevisiae , Drosophila melanogaster , C. elegans , and mice [ 1 -- 4 ] , meiocytes with defects in <termsem="GO:0006310"> recombination </term> and/or <termsem="GO:0007129"> chromosome synapsis </term> trigger <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> in the <termsem="GO:0000239"> pachytene stage </term> of <termsem="GO:0007128"> <termsem="GO:0007126"> meiotic </term> prophase I </term> .
+This <termsem="GO:0050896"> response </term> to <termsem="GO:0007126"> meiotic </term> defects is referred to as the `` <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> '' ( reviewed in [ 5 ] ) .
+Genetic experiments in S. cerevisiae have identified elements of the <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> machinery ( reviewed in [ 5 ] ) .
+In addition to <termsem="GO:0007126"> meiosis </term> - specific proteins , these include factors that play roles in <termsem="GO:0042770"> DNA damage signaling </term> in <termsem="GO:0007067"> mitotic </term> cells [ 6 -- 10 ] .
+Arabidopsis thaliana does not appear to have a <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> akin to that in yeast [ 11 ] , nor do male Drosophila .
+The <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> is known to <termsem="GO:0065007"> monitor </term> two aspects of <termsem="GO:0007126"> meiotic </term> chromosome <termsem="GO:0008152"> metabolism </term> in S. cerevisiae and C. elegans : ( 1 ) <termsem="GO:0006302"> DSB repair </term> and ( 2 ) <termsem="GO:0007129"> chromosome synapsis </term> [ 2,12 ] .
+In mice , both spermatocytes and oocytes harboring mutations that disrupt <termsem="GO:0006302"> DSB repair </term> ( such as Dmc1 , Msh5 , and Atm ) are efficiently <termsem="GO:0012501"> eliminated </term> in <termsem="GO:0000239"> pachynema </term> , but spermatocytes are much more sensitive to <termsem="GO:0006302"> DSB repair </term> -- independent <termsem="GO:0007129"> synapsis </term> defects than oocytes [ 13 -- 15 ] .
+However , because <termsem="GO:0006310"> recombination </term> is required for <termsem="GO:0007129"> synapsis </term> in mice ( mutations in <termsem="GO:0006310"> recombination </term> genes such as Dmc1 cause extensive asynapsis [ 16 ] ) , it has remained formally uncertain whether there is a distinct <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> that <termsem="GO:0050896"> responds </term> to defects in <termsem="GO:0007131"> <termsem="GO:0007126"> meiotic </term> recombination </term> , and if so , whether it would be identical to that used in somatic cells .
+The mechanisms of putative <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint control </term> remain unknown in mammals , since no mutations have been identified that abolish it .
+PCH2 , encoding a nucleolar - <termsem="GO:0051179"> localized </term> AAA - <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> that was originally identified in an S. cerevisiae genetic screen for mutants that relieve <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> of asynaptic zip1 mutants [ 8 ] , was recently determined to be an essential component of the <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007129"> synapsis </term> ( but not <termsem="GO:0006302"> DSB repair </term> ) checkpoint in yeast and worms [ 2,12 ] .
+PCH2 orthologs are present in organisms that undergo <termsem="GO:0007129"> synaptic </term> <termsem="GO:0007126"> meiosis </term> , but not asynaptic <termsem="GO:0007126"> meiosis </term> , prompting the suggestion that a Pch2-dependent <termsem="GO:0000075"> checkpoint </term> evolved to <termsem="GO:0065007"> monitor </term> synaptonemal complex ( SC ) defects from yeast to humans [ 12 ] .
+Here , we <termsem="GO:0000003"> generated </term> mice deficient for the Trip13 , the ortholog of PCH2 , and evaluated whether it also plays a role in the <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> .
+Surprisingly , while we found no evidence for <termsem="GO:0000075"> checkpoint </term> function , we did uncover a potential role for this protein in <termsem="GO:0006311"> noncrossover </term> ( <termsem="GO:0006311"> NCO </term> ) repair of <termsem="GO:0007126"> meiotic </term> DSBs .
+Trip13 Is a Widely <termsem="GO:0010467"> Expressed </term> Mammalian Ortholog of PCH2 with Unusual Phylogenetic Relationships .
+The mammalian ortholog of PCH2 , Trip13 ( <termsem="GO:0004887"> <termsem="independent_continuant"> thyroid <termsem="GO:0005179"> <termsem="independent_continuant"> hormone </term> </term> receptor </term> </term> interacting protein 13 ) , encodes a protein with extensive amino acid homology in regions alignable to the yeast and worm orthologs ( Figure S1 ) [ 12 ] ) .
+Interestingly , phylogenetic analysis of TRIP13/Pch2p shows that the mammalian protein clusters more closely to plants than it does to the evolutionarily more closely related worms and flies ( Figure 1A ; see Discussion ) .
+Semi-quantitative <termsem="GO:0003964"> <termsem="independent_continuant"> reverse-transcriptase </term> </term> PCR ( <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR ) analysis showed Trip13 mRNA to be <termsem="GO:0010467"> expressed </term> in a variety of embryonic and adult tissues , including testis ( Figure 1B ) , consistent with mouse and human EST data summarized in Unigene ( http://www.ncbi.nlm.nih.gov/UniGene ) .
+It is also highly <termsem="GO:0010467"> expressed </term> in human and mouse oocytes [ 17 ] .
+The Mouse PCH2 Ortholog TRIP13 and <termsem="GO:0010467"> Expression </term> in Wild Type and Mutant .
+( A ) Phylogenetic tree of presumed PCH2/TRIP13 orthologs .
+The database sequence accession number of each protein is presented in Table S1 .
+Numbers shown are bootstrap values ( see Materials and Methods ) .
+The clustering was the same regardless of whether the whole entire AA sequence or trimmed sequences ( where regions showing little conservation were removed ) were used for the analysis .
+Major eukaryotic groups are indicated in color , with deuterostomia in blue , plants in green , protostomia in purple , and fungi in maroon .
+( B ) Amplification products of cDNA from the following tissues : 1 , heart ; 2 , brain ; 3 , spleen ; 4 , lung ; 5 , liver ; 6 , skeletal muscle ; 7 , kidney ; 8 , testis ; 9 , E7 embryo ; 10 , E11 embryo ; 11 , E15 embryo ; and 12 , E17 embryo .
+( C ) Intron -- exon structure of TRIP13 and insertion site of gene-trap vector .
+See Materials and Methods for details on how the precise insertion site was identified .
+( D ) <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR of Trip13 and a control gene Med31 from testis RNA .
+The Trip13 primers are situated in the first and last exons ( see Materials and Methods ) .
+( E ) Western blot analysis of testis protein with anti-TRIP13 antibody .
+The blot was later probed with anti-alpha tubulin actin as a loading control .
+The expected TRIP13 protein is  48 KDa .
+( F ) <termsem="GO:0051179"> Localization </term> of TRIP13 in testes .
+Wild-type ( top ) and mutant ( bottom ) testis sections were probed with chicken anti-TRIP13 , and detected with HRP - <termsem="GO:0043412"> conjugated </term> anti-chicken IgG ( brown/red staining ) .
+<termsem="GO:0010467"> Expression </term> in WT was most prominent in the nuclei of Type B spermatogonia ( Sg ) , <termsem="GO:0000237"> leptotene </term> spermatocytes ( LS ) , and early <termsem="GO:0000239"> pachytene </term> spermatocytes ( PS ) , but not late <termsem="GO:0000239"> pachytene </term> spermatocytes ( LP ) .
+No nuclear staining was seen in mutant testis sections , although reddish cytoplasmic background is present .
+Identification of cell types was judged in part by estimating the epithelial stage of the tubules as described [ 67 ] .
+( G ) TRIP13 <termsem="GO:0051179"> localization </term> in surface-spread spermatocytes .
+Preparations were immunolabeled with anti-SYCP3 ( S ) and TRIP13 ( T ) .
+Both individual and merged images are shown for <termsem="GO:0000237"> leptotene </term> ( <termsem="GO:0000237"> Lep </term> ) , <termsem="GO:0000238"> zygotene </term> ( <termsem="GO:0000238"> Zyg </term> ) , and <termsem="GO:0000239"> pachytene </term> ( <termsem="GO:0000239"> Pac </term> ) spermatocytes .
+Nuclear staining was absent in the mutant .
+<termsem="GO:0000003"> Generation </term> of Trip13 Mutant Mice .
+To explore the function of TRIP13 in mammals , we <termsem="GO:0000003"> generated </term> mice with a gene trap-disrupted allele , Trip13RRB047 ( Figure 1C ; abbreviated as Trip13Gt ) .
+Heterozygotes were normal in all respects , but homozygotes were present at  2/3 the expected ratio from intercrosses between heterozygotes ( 91 Trip13 + / + , 183 Trip13Gt / + , and 61 Trip13Gt/Gt ) .
+Since > 90 % of prewean mice that <termsem="GO:0016265"> died </term> were mutant homozygotes , this discrepancy is apparently due to a partially penetrant lethality .
+Most surviving Trip13Gt/Gt animals were grossly normal .
+However , homozygotes that were semi-congenic ( N4 ) on the C57BL/6J strain were often markedly smaller and/or had kinked or shorter tails ( Figure 2A and 2B ) .
+<termsem="GO:0032502"> Developmental </term> Phenotypes of Trip13 Mutant Mice .
+( A ) Shown are 21-d-old littermates .
+Note the shortened tail in the mutant , but overall similar body size .
+( B ) Shown are 23-d-old littermates .
+The mutant is smaller in this case , but the tail is not as truncated as the mouse in ( A ) .
+( C ) Wild-type ( WT ) and homozygous Trip13 mutant ( MUT ) testes .
+( D ) and ( E ) are cross sections through 17.5-d-old heterozygous ( `` WT '' ) and homozygous mutant Trip13 testes , respectively .
+Whereas the tubules in WT show coordinated <termsem="GO:0007283"> spermatogenesis </term> with <termsem="GO:0000239"> pachytene </term> spermatocytes present in all tubules ( proximal to the lumen ) , <termsem="GO:0032502"> developmental </term> progression in the mutant is not synchronized between tubules .
+Some tubules have no <termsem="GO:0000239"> pachytene </term> spermatocyes ( asterisks ) , while in others , <termsem="GO:0032502"> development </term> is somewhat disorganized ( # ) .
+<termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR analysis of Trip13Gt <termsem="GO:0010467"> expression </term> ( Figure 1D ) revealed a low level of normally <termsem="GO:0008380"> spliced </term> transcripts in testes of homozygotes that is presumably a consequence of incomplete usage of the gene trap 's <termsem="GO:0008380"> splice </term> acceptor .
+Western blot analysis , using a polyclonal antibody <termsem="GO:0009058"> raised </term> against a peptide encoded by exon 3 , revealed multiple species in wild-type and heterozygous testes , one of which corresponds to the expected size of 48 kDa ( Figure 1E ) .
+This and three other species were undetectable in homozygous mutant testes , but a reduced amount of an intense  38 kDa smaller band was present .
+It is not clear if this corresponds to TRIP13 .
+The greatly decreased Trip13 mRNA and predicted correct-length protein in mutants indicate that the Trip13RRB047 allele is severely hypomorphic .
+To determine the germ cell types in which TRIP13 is <termsem="GO:0010467"> expressed </term> , and to assess possible <termsem="GO:0010467"> expression </term> in the mutant by means other than Western analysis , testis sections were immunolabeled for TRIP13 using a polyclonal chicken antipeptide antibody ( see Materials and Methods ) .
+The most intensely labeled cells in control testes were Type B spermatogonia and <termsem="GO:0000237"> leptotene </term> spermatocytes ( Figure 1F ) .
+<termsem="GO:0000238"> Zygotene </term> / <termsem="GO:0000239"> pachytene </term> spermatocytes stained less strongly , and there was no detectable staining in late <termsem="GO:0000239"> pachytene </term> spermatocytes .
+TRIP13 appeared to be nuclear <termsem="GO:0051179"> localized </term> .
+There was no such staining of nuclei in mutant seminiferous tubules ( Figure 1F ) .
+To further assess the nuclear <termsem="GO:0051179"> localization </term> , TRIP13 was used to probe <termsem="GO:0007126"> meiotic </term> chromosomes prepared by surface spreading of spermatocyte nuclei .
+In wild type , there was diffuse nuclear staining , and no evidence of concentration on SC cores ( marked by the axial element protein SYCP3 ) at any <termsem="GO:0007126"> meiotic </term> <termsem="GO:0022403"> substage </term> ( Figure 1G ) .
+TRIP13 signal was noticeably absent in mutant <termsem="GO:0007126"> meiotic </term> nuclei .
+Infertility Due to <termsem="GO:0007126"> Meiotic </term> Disruption in TRIP13-Deficient Meiocytes .
+Homozygotes of both sexes had small gonads ( Figure 2C ; see below ) and were invariably sterile .
+Ovaries of adult Trip13Gt/Gt females were severely dysmorphic and had few or no follicles ( Figure 3A and 3B ) .
+The majority of oocyte loss occurred in late <termsem="GO:0009790"> embryogenesis </term> or early in postnatal <termsem="GO:0032502"> development </term> , since 2 d postpartum ovaries were markedly smaller than those of control littermates , and were lacking oocytes or newly <termsem="GO:0032502"> forming </term> follicles ( Figure 3C and 3D ) .
+Thus , oocytes failed to progress to the dictyate ( resting ) <termsem="GO:0022403"> phase </term> .
+Since we observed oocytes with <termsem="GO:0000239"> pachytene stage </term> chromosomes in 17.5 d Trip13Gt/Gt embryonic ovaries ( unpublished data ) , this indicates that oocytes were <termsem="GO:0012501"> eliminated </term> somewhere between <termsem="GO:0000239"> pachynema </term> and dictyate .
+Histology of Mutant Gonads .
+All are hematoxylin/eosin-stained paraffin sections .
+Testes are from 6-wk-old males , except as indicated below .
+( A ) Wild-type 25-d-old ovary .
+( B ) Trip13Gt/Gt 25-d-old ovary , showing dysgenesis from an absence of oocytes .
+( C ) Trip13Gt / + 2-d-old control ovary .
+Arrows point to oocytes in newly <termsem="GO:0032502"> forming </term> follicles .
+( D ) Trip13Gt/Gt 2-d-old ovary , dysgenic due to lack of oocytes .
+Magnification is the same as its littermate in `` C. '' ( E ) Wild-type testis .
+( F ) Trip13Gt/Gt testis with uniform <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> .
+( G ) Trip13Gt/Gt 3-mo-old testis with some postmeiotic spermatids ( arrows ) .
+( H ) Spo11  / - testis .
+A tubule with spermatocytes at <termsem="GO:0000237"> leptotene </term> / <termsem="GO:0000238"> zygotene </term> transition is labeled ZP , and tubules with <termsem="GO:0006915"> apoptotic </term> spermatocytes are marked with an asterisk .
+The specimen was taken from a littermate of that in ( I ) .
+( I ) Spo11  /  Trip13Gt/Gt testis .
+Labeling is the same as in ( H ) .
+The inset contains a tubule with <termsem="GO:0000237"> leptotene </term> - <termsem="GO:0000238"> zygotene </term> spermatocytes .
+( J ) Mei1  /  Trip13Gt / + testis .
+The specimen was taken from a littermate of that in ( K ) .
+( K ) Mei1  /  Trip13Gt/Gt testis .
+( L ) Rec8Mei8/Rec8Mei8 Trip13Gt / + testis .
+The Rec8Mei8 allele was described [ 39 ] .
+The specimen was taken from a littermate of that in ( M ) .
+( M ) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt testis .
+( N ) Dmc1  /  Trip13Gt/Gt testis .
+( O ) Spo11  /  Trip13Gt / + 25-d-old ovary .
+The specimen was taken from a littermate of that in ( P ) .
+( P ) Spo11  /  Trip13Gt/Gt 25-d-old ovary .
+( Q ) Mei1  /  Trip13Gt / + 25-d-old ovary .
+The specimen was taken from a littermate of that in ( R ) .
+( R ) Mei1  /  Trip13Gt/Gt 25-d-old ovary .
+( S ) Rec8Mei8/Rec8Mei8 Trip13Gt / + 25-d-old ovary .
+The specimen was taken from a littermate of that in ( T ) .
+( T ) Rec8Mei8/Rec8Mei8 Trip13Gt/Gt 25-d-old ovary .
+Histological sections of mutant testes revealed a lack of postmeiotic cell types that are characteristic of wild-type seminiferous tubules ( Figure 3E ) .
+The most <termsem="GO:0032502"> developmentally </term> advanced seminiferous tubules contained adluminal spermatocytes with <termsem="GO:0030261"> condensed </term> chromatin characteristic of <termsem="GO:0000239"> pachynema </term> ( Figure 3F ) .
+The absence of coordinated <termsem="GO:0007283"> spermatogenic </term> progression beyond this <termsem="GO:0022403"> stage </term> is indicative of a <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> .
+This was revealed more clearly by chromosome analysis ( see below ) .
+Some sections of adult seminiferous tubules contained postmeiotic spermatids ( Figure 3G ) , although we saw no <termsem="GO:0006928"> motile </term> epididymal sperm .
+These drastic <termsem="GO:0007126"> meiotic </term> defects stand in contrast to yeast and C. elegans , in which deletion of Pch2 alone has minor effects on spore / <termsem="GO:0007276"> gamete development </term> [ 2,8 ] .
+TRIP13-Deficient Meiocytes Undergo <termsem="GO:0007129"> Homologous Chromosome Synapsis </term> Despite the Presence of Unrepaired DSBs in <termsem="GO:0000239"> Pachynema </term> .
+To better characterize the degree of <termsem="GO:0007126"> meiotic </term> progression in Trip13Gt/Gt spermatocytes , we immunostained chromosome spreads for SYCP3 and SYCP1 , components of the axial/lateral elements and transverse filaments , respectively , of the synaptonemal complex ( SC ) .
+<termsem="GO:0000239"> Pachytene </term> spermatocyte nuclei from postpubertal mutant testes could <termsem="GO:0022607"> assemble </term> normal SC cores and exhibited full <termsem="GO:0007129"> synapsis of chromosomes </term> as judged by colabeling of SYCP1 and SYCP3 along the full lengths of all autosomes ( Figure 4A ) .
+Additionally , the X and Y chromosomes were normally <termsem="GO:0007129"> synapsed </term> at their pseudoautosomal region .
+More prepubertal ( 17.5 d postpartum ) mutant spermatocytes contained asynaptic or terminally asynapsed chromosomes than age-matched controls ( 62.5 % versus 25 % , respectively ; Figure 4B ) .
+We attribute this to a delay in the first wave of postnatal <termsem="GO:0007283"> spermatogenesis </term> ( Figure 2D and 2E ) , likely related to systemic <termsem="GO:0032502"> developmental </term> retardation ( Figure 2A and 2B ) .
+Nevertheless , since Trip13Gt/Gt spermatocytes progress to <termsem="GO:0000239"> pachynema </term> with no gross SC abnormalities , and oocytes were <termsem="GO:0012501"> eliminated </term> soon after <termsem="GO:0007567"> birth </term> ( a characteristic of <termsem="GO:0006281"> DNA repair </term> mutants [ 13 ] ) , this suggested that unrepaired DSBs are responsible for eventual <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> and <termsem="GO:0012501"> elimination </term> .
+Immunohistochemical Analysis of <termsem="GO:0000239"> Pachytene </term> Spermatocyte Chromosomes .
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores .
+As indicated in the upper right of each panel , cells were from wild type ( WT , either + / + or Trip13Gt / + ) or Trip13Gt/Gt ( Mut ) .
+There were no differences seen between heterozygotes and + / + spermatocytes .
+( A ) A mutant <termsem="GO:0000239"> pachytene </term> nucleus with full <termsem="GO:0007129"> synapsis </term> .
+Areas of SYCP1/SYCP3 colabeling are yellow .
+( B -- E ) Spermatocytes nucleus from 17.5 d postpartum mutant .
+Asynapsed chromosomes or regions of chromosomes are indicated by white and yellow arrows , respectively .
+Unlike the normal <termsem="GO:0051179"> distribution </term> in wild-type <termsem="GO:0000239"> pachytene </term> spermatocytes ( C ) , BLM foci are present on <termsem="GO:0007129"> synapsed </term> <termsem="GO:0000239"> pachytene </term> chromosomes in the mutant ( D ) .
+RAD51 foci , which are abundant earlier in <termsem="GO:0051324"> prophase </term> , disappear from autosomes in wild-type <termsem="GO:0000239"> pachytene </term> nuclei ( E ) and the bulk of staining is over the XY body ( arrow ) .
+( F ) RAD51 persists on the <termsem="GO:0007129"> synapsed </term> mutant chromosomes ( arrows ) .
+( G ) H2AX <termsem="GO:0016310"> phosphorylation </term> is restricted to the XY body in WT .
+( H ) In addition to a large area of H2AX staining ( arrow ) over the XY body , there is extensive autosomal H2AX <termsem="GO:0016310"> phosphorylation </term> ( arrows ) .
+( I , J ) Note that in wild-type <termsem="GO:0000239"> pachytene </term> spermatocytes , TOPBP1 is present only over the XY body ( yellow arrow ) .
+In the mutant ( J ) , an arrow denotes one area of intensive staining that may be over the sex chromosomes , but many other chromosome cores are positively stained .
+( K , L ) RPA persists along <termsem="GO:0007129"> synapsed </term> cores in the mutant , not WT .
+( M , N ) Arrows indicate examples of MLH3 foci on SCs .
+( O ) In WT late <termsem="GO:0000239"> pachytene </term> spermatocytes , RAD51 is present only at background levels .
+( P ) As in ( F ) , extensive RAD51 staining delineates SCs in mutant <termsem="GO:0000239"> pachytene </term> nuclei ( indicated by white arcs ) .
+MLH1 foci colocalize with these tracts ( arrows ) at the typical 1 -- 2 foci per chromosome as in ( M ) .
+To elucidate the cause of <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> , we analyzed <termsem="GO:0007126"> meiotic </term> chromosomes with a variety of markers that are diagnostic of <termsem="GO:0006310"> recombination </term> and <termsem="GO:0007129"> synapsis </term> .
+<termsem="GO:0006310"> Recombination </term> in Trip13Gt/Gt spermatocytes appeared to initiate normally as judged by the presence of H2AX in <termsem="GO:0000237"> leptonema </term> ( Figure S2A and S2B ) , which reflects the presence of <termsem="GO:0007126"> meiotically </term> induced DSBs [ 18 ] .
+RAD51 and/or DMC1 , components of early <termsem="GO:0006310"> recombination </term> nodules ( ERNs ) , was also present as abundant foci in Trip13Gt/Gt <termsem="GO:0000238"> zygotene </term> spermatocytes ( unpublished data ; the anti-RAD51 antibody cross-reacts with DMC1 ) , indicating that <termsem="GO:0000724"> recombinational repair of DSBs </term> is initiated .
+The cohesin complex , which is essential for completion and/or maintenance of <termsem="GO:0007129"> synaptic </term> associations , appeared to <termsem="GO:0022607"> assemble </term> normally as judged by immunolabeling for the <termsem="GO:0007126"> meiosis </term> - specific cohesins STAG3 ( Figure S2C and S2D ) and REC8 ( unpublished data ) .
+Because yeast PCH2 <termsem="GO:0051179"> localizes </term> to telomeres in a Sir3p-dependent manner , we tested for possible telomere defects by immunolabeling for TRF2 , a component of a protein complex that plays an essential role in telomere protection [ 19 ] .
+It was <termsem="GO:0051179"> localized </term> to telomeres of both fully <termsem="GO:0007129"> synapsed </term> and telomerically asynaptic mutant chromosomes ( Figure S2E and S2F ) .
+Defects in <termsem="GO:0006302"> DSB repair </term> became apparent in <termsem="GO:0000239"> pachynema </term> upon probing of mutant spermatocyte nuclei with antibodies against molecules involved in various stages of <termsem="GO:0006310"> recombination </term> .
+In > 99 % of Trip13Gt/Gt chromosome spreads , BLM <termsem="GO:0004386"> <termsem="independent_continuant"> helicase </term> </term> ( Figure 4C and 4D ) , RAD51/DMC1 ( Figure 4E and 4F ) , H2AX ( Figure 4G and 4H ) , and TOPBP1 ( Figure 4I and 4J ) all persisted abnormally on <termsem="GO:0007129"> synapsed </term> chromosomes .
+For RAD51/DMC1 , mutant <termsem="GO:0000239"> pachytene </term> spermatocytes contained 138  6 foci ( compared to 11  3 foci in wild type , most of which were on the XY body ) , down from 218  13 in <termsem="GO:0000238"> zygonema </term> ( compared to 220  13 foci in wild type ) .
+TOPBP1 is a <termsem="GO:0000077"> DNA damage -- checkpoint </term> protein involved in ATM protein -- dependent activation of ATR protein [ 20,21 ] .
+It <termsem="GO:0005488"> binds </term> sites of DSBs and unsynapsed regions of <termsem="GO:0007126"> meiotic </term> chromosomes [ 22,23 ] .
+BLM has been reported to colocalize with markers ( RPA and MSH4 ) of <termsem="GO:0006310"> recombination </term> at sites distinct from those that become resolved as <termsem="GO:0007131"> crossovers </term> ( <termsem="GO:0007131"> CO </term> ) [ 24 ] .
+We therefore assessed the <termsem="GO:0051179"> distribution </term> of RPA , the <termsem="GO:0003697"> ssDNA binding </term> protein , which is normally present at focal sites of <termsem="GO:0007129"> synapsing </term> <termsem="GO:0007126"> meiotic </term> chromosomes before disappearing in mid - <termsem="GO:0000239"> pachynema </term> [ 25 ] .
+It is thought to <termsem="GO:0005488"> bind </term> D-loops of <termsem="GO:0006310"> recombination </term> intermediates [ 26 ] .
+RPA also persisted on <termsem="GO:0000239"> pachytene </term> mutant chromosomes ( Figure 4K and 4L ) .
+These data indicate that unrepaired DSBs , or unresolved <termsem="GO:0006310"> recombination </term> intermediates , remain in <termsem="GO:0000239"> pachynema </term> and activate a <termsem="GO:0000077"> DNA damage checkpoint </term> system .
+It should be noted that chromosomes affected by <termsem="GO:0007126"> meiotic </term> sex chromosome inactivation ( MSCI ) and <termsem="GO:0007126"> meiotic </term> silencing of unpaired chromatin ( MSUC ) are heavily stained by antibodies for several <termsem="GO:0006302"> DSB repair </term> - associated molecules , including H2AX .
+H2AX <termsem="GO:0016310"> phosphorylation </term> due to MSCI and MSUC is conducted by ATR , not ATM [ 27 -- 29 ] .
+Since mutant chromosomes are fully <termsem="GO:0007129"> synapsed </term> , and MSUC is known to occur only as a result of asynapsis , the decoration of Trip13Gt/Gt chromosomes with <termsem="GO:0006281"> DNA repair </term> markers is probably attributable to incomplete <termsem="GO:0006281"> DNA repair </term> rather than <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptional </term> silencing </term> .
+Consistent with the presence of rare ( < 1 % ) Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> spermatocytes devoid of persistent <termsem="GO:0006281"> DNA repair </term> markers , and testis histology showing some degree of postmeiotic progression ( Figure 3G ) , we observed both <termsem="GO:0000240"> diplotene </term> nuclei that lacked autosomal RAD51/DMC1 and H2AX ( Figure S3A -- S3D ) , and also <termsem="GO:0007132"> metaphase I </term> spreads with 20 bivalents ( Figure S3E -- S3F ) .
+Since Trip13Gt may not be a complete null , these <termsem="GO:0000240"> diplotene </term> and <termsem="GO:0007132"> metaphase I </term> spermatocytes might <termsem="GO:0032502"> arise </term> by virtue of having sufficient wild-type TRIP13 .
+CO-Associated Markers Appear Normally in the Absence of TRIP13 .
+The persistence of BLM on Trip13Gt/Gt spermatocyte chromosomes suggests that at least a subset of the unrepaired DSBs correspond to sites of defective <termsem="GO:0006311"> NCO </term> <termsem="GO:0000725"> recombinational repair </term> .
+To assess whether <termsem="GO:0007131"> CO recombination </term> occurs in the mutant , we examined the distribution of the <termsem="GO:0006298"> mismatch repair </term> proteins MLH1 and MLH3 , which are normally detectable as foci in mid-late <termsem="GO:0000239"> pachynema </term> and mark the locations of chiasmata [ 30,31 ] .
+Remarkably , MLH1/3 foci were <termsem="GO:0022607"> formed </term> ; we observed 1 -- 2 foci/chromosome as in wild type and at typical overall levels ( MLH3 = 23  2 , N = 10 ; [ 30,32 ] ) on mid-late <termsem="GO:0000239"> pachytene </term> chromosomes ( Figure 4M and 4N ; MLH1 not shown ) .
+Since < 1 % of Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> nuclei had normal <termsem="GO:0006281"> repair </term> ( as judged by absence of persistent <termsem="GO:0006302"> DSB repair </term> markers ; see above ) , but most of the <termsem="GO:0000239"> pachytene </term> nuclei had MLH1/3 foci , it was unlikely that the MLH1/3 foci <termsem="GO:0022607"> formed </term> only on chromosomes with fully <termsem="GO:0006281"> repaired </term> DSBs .
+To test this directly , we conducted double staining for MLH1 and RAD51/DMC1 .
+MLH1 foci were present on chromosomes that also contained numerous RAD51/DMC1 foci ( Figure 4O and 4P ) .
+To assess whether these MLH1/3 foci in Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> spermatocytes represent <termsem="GO:0007131"> CO events </term> completed to a point where they could maintain interhomolog attachments though the end of <termsem="GO:0007128"> prophase I </term> , we treated testicular cells from 17.5 -- 20.5-d-old control ( + / + ) , Trip13Gt/Gt , and Dmc1  /  mice with the <termsem="GO:0004864"> <termsem="independent_continuant"> <termsem="GO:0004721"> <termsem="independent_continuant"> protein phosphatase </term> </term> inhibitor </term> </term> okadaic acid ( OA ) , a chemical that induces <termsem="GO:0022411"> degradation </term> of the SC , <termsem="GO:0030261"> chromosome condensation </term> , and premature progression to <termsem="GO:0007132"> metaphase I </term> [ 33 ] .
+Fifteen <termsem="GO:0051323"> metaphase </term> spreads were identified for each genotype .
+Whereas all of the Dmc1  /  spreads had  35 or more <termsem="GO:0030261"> condensed </term> chromosomes , all of the + / + and Trip13Gt/Gt spreads had 20 -- 25 , suggesting that the MLH1/3 foci in Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> spermatocytes represent sites of completed , or near-completed , <termsem="GO:0007131"> COs </term> .
+Because the preparations were made from whole testes , it is possible that the univalent-containing <termsem="GO:0051323"> metaphases </term> from Dmc1  /  mice were from spermatogonia , not spermatocytes .
+TRIP13 Deficiency Does Not Alleviate <termsem="GO:0007126"> Meiotic </term> <termsem="GO:0007050"> Arrest </term> Phenotypes of Mutants Defective in <termsem="GO:0007129"> Synapsis </term> .
+To determine if TRIP13 deficiency prevents <termsem="GO:0006915"> apoptosis </term> triggered by asynapsis as in C. elegans , we analyzed mice that were doubly mutant for Spo11 and Trip13 .
+SPO11 is a transesterase that is essential for the creation of genetically programmed DSB during <termsem="GO:0000237"> leptonema </term> of many organisms , including mice [ 18 ] .
+In C. elegans , spo-11 mutant gametes have extensive asynapsis , which triggers PCH-2 dependent <termsem="GO:0006915"> apoptosis </term> in <termsem="GO:0000239"> pachynema </term> [ 2 ] .
+In mice , Spo11  /  spermatocytes are severely defective in <termsem="GO:0007129"> homologous chromosome synapsis </term> [ 34,35 ] , and <termsem="GO:0007050"> arrest </term> with chromosomes in a state characteristic of the <termsem="GO:0000238"> zygotene </term> / <termsem="GO:0000239"> pachytene </term> transition ( Figure 3H ) .
+Spermatocytes in Trip13Gt/Gt Spo11  /  testes progressed maximally to that point before undergoing <termsem="GO:0016265"> death </term> ( Figs 3I ) , well before the <termsem="GO:0031577"> spindle checkpoint </term> that <termsem="GO:0012501"> eliminates </term> achiasmate spermatocytes [ 36 ] .
+There was no evidence of <termsem="GO:0007132"> metaphase I </term> spermatocytes or postmeiotic spermatids in these testes , unlike those seen in Trip13 single mutants ( Figure 3G ) .
+In contrast to the complete <termsem="GO:0007129"> synapsis </term> in Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> spermatocytes ( Figure 5A ) , in which SPO11 is available in <termsem="GO:0000237"> leptonema </term> to initiate ( via DSB induction , Figure S2A and S2B ) a <termsem="GO:0000725"> recombination </term> - <termsem="GO:0048518"> driven </term> homolog search , <termsem="GO:0007129"> chromosome synapsis </term> in doubly mutant spermatocytes was highly disrupted as in Spo11 single mutants ( Figure 5B and 5C ) .
+Identical studies were performed with mice deficient for Mei1 , a vertebrate-specific gene also required for DSB formation and <termsem="GO:0007129"> chromosome synapsis </term> [ 37 ] , with similar results ( Figure 3J and 3K ; immunocytology not shown ) .
+Immunocytological Analysis of Trip13 Compound Mutants .
+Surface-spread chromosomes were immunolabeled with the indicated antibodies and fluorophores .
+Genotypes are indicated , as are those panels in which dual staining patterns are merged .
+Note that ( H ) and ( I ) are at lower magnification to show multiple nuclei .
+In yeast , deletion of PCH2 alleviates the <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> caused by asynaptic mutants zip1 and zip2 [ 8 ] .
+Although mouse SYCP1 might be a functional equivalent of Zip1p , because Sycp1 mutant spermatocytes <termsem="GO:0007050"> arrest </term> at approximately the same point as Trip13 mutants , there would be no opportunity to observe bypass of Sycp1  /  .
+Since Zip2p is present at sites of axial associations , even in zip1 mutants , it has been suggested that Zip2p <termsem="GO:0048518"> promotes </term> initiation of <termsem="GO:0007129"> chromosome synapsis </term> [ 38 ] .
+These observations raise the possibility that in yeast , Pch2p <termsem="GO:0050896"> responds </term> to <termsem="GO:0007129"> synapsis </term> <termsem="GO:0051258"> polymerization </term> rather than initiation .
+To test this , we performed epistasis analysis with a Rec8 allele ( Rec8Mei8 , abbreviated as Rec8  ) .
+<termsem="GO:0007126"> Meiotic </term> chromosomes of Rec8 mutant spermatocytes undergo apparent homolog pairing and <termsem="GO:0007129"> interhomolog synaptic </term> initiation , but are defective in <termsem="GO:0006302"> DSB repair </term> and fail to maintain <termsem="GO:0007129"> interhomolog synapsis </term> [ 39,40 ] .
+Rather , sister chromatids appear to <termsem="GO:0007129"> synapse </term> and are <termsem="GO:0005488"> bound </term> by SYCP1 along their axes .
+Rec8 mutants do not progress to <termsem="GO:0000240"> diplonema </term> or <termsem="GO:0007132"> metaphase I </term> .
+Double mutant analysis indicated that Rec8 is epistatic to Trip13 .
+As in the Spo11 and Mei1 experiments , histology of testes deficient for both REC8 and TRIP13 resembled the Rec8 mutant , with no evidence of progression to <termsem="GO:0007132"> metaphase I </term> that occurs in Trip13Gt/Gt mice ( Figure 3L and 3M ) .
+Immunocytological analysis of spread chromosomes showed a failure of <termsem="GO:0007129"> homologous chromosome synapsis </term> in both the Rec8  /  and Rec8  /  Trip13Gt/Gt spermatocytes , as previously reported for Rec8 mutants ( Figure 5D and 5E ) [ 39,40 ] .
+Although subsequent reports indicate otherwise [ 10,12 ] , deletion of PCH2 in yeast was originally reported to alleviate <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> caused by deficiency for the <termsem="GO:0007126"> meiosis </term> - specific RecA homolog DMC1 [ 8 ] .
+To investigate this relationship in mice , we <termsem="GO:0000003"> constructed </term> animals doubly mutant for Trip13 and Dmc1 .
+As in Dmc1  /  mice , in which spermatocytes undergo <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> from defective <termsem="GO:0006302"> DSB repair </term> and failed <termsem="GO:0007129"> chromosome synapsis </term> [ 16 ] , <termsem="GO:0007283"> spermatogenesis </term> in Dmc1  /  Trip13Gt/Gt testes was uniformly <termsem="GO:0007050"> arrested </term> at the point where spermatocytes contained chromatin characteristic of <termsem="GO:0000238"> zygonema </term> / <termsem="GO:0000239"> pachynema </term> ( Figure 3N ) .
+Immunocytological analysis indicated that both Dmc1  /  and Dmc1  /  Trip13Gt/Gt chromosomes had extensive asynapsis compared to Trip13Gt single mutants ( Figure 5F -- 5H ) , and all had persistent RAD51/DMC1 foci and <termsem="GO:0016310"> phosphorylated </term> H2AX ( H2AX ; Figure 5I -- 5L ) , confirming that Dmc1 is epistatic to Trip13 .
+Doubly mutant females had residual ovaries , phenocopying Dmc1  /  and Trip13Gt/Gt single mutants ( unpublished data ) .
+<termsem="GO:0007126"> Meiotic </term> Defects in Trip13Gt/Gt Oocytes Are DSB-Dependent .
+Epistasis analysis of females was insightful with respect to the cause of <termsem="GO:0007050"> arrest </term> in Trip13 mutants .
+Both Mei1  /  / Trip13Gt/Gt and Spo11  /  / Trip13Gt/Gt females had ovaries with numerous follicles , identical to Mei1 and Spo11 single mutants ( Figure 3O -- 3R ) .
+Thus , Spo11 and Mei1 are epistatic to Trip13 in <termsem="GO:0048477"> oogenesis </term> , just as they are to Dmc1 [ 13,41 ] .
+This demonstrates that oocyte loss in Trip13Gt/Gt females is dependent on DSB formation .
+In conjunction with the immunohistochemical data , these data provide strong evidence that <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> in Trip13 mutant mice is due to defects in <termsem="GO:0006302"> DSB repair </term> .
+As expected , ovaries of Rec8 Trip13 double mutants were devoid of oocytes as were those from either single mutant ( Figure 3B , 3S , and 3T ) .
+Genetic experiments in S. cerevisiae provided evidence that the <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> <termsem="GO:0065007"> monitors </term> and <termsem="GO:0050896"> responds </term> to recombinational <termsem="GO:0006302"> DSB repair </term> and <termsem="GO:0007129"> synapsis </term> independently .
+Wu and Burgess concluded that the <termsem="GO:0000077"> <termsem="GO:0006281"> repair </term> checkpoint </term> is RAD17-SAE2 dependent , while the <termsem="GO:0007129"> synapsis </term> <termsem="GO:0000075"> checkpoint </term> is PCH2-ZIP1 dependent [ 12 ] .
+Of these four genes , SAE2 and ZIP1 do not have clear mammalian orthologs ( although SYCP1 may be a functional ortholog of ZIP1 ) , and mutation of the mouse RAD17 ortholog , Rad1 , presumably causes embryonic lethality [ 42 ] .
+Thus , mutational analysis of mouse Pch2 ( Trip13 ) , which is also critical for the <termsem="GO:0007129"> synapsis </term> <termsem="GO:0000075"> checkpoint </term> in C. elegans [ 2 ] , was the best remaining option to evaluate potential functional conservation in mammalian <termsem="GO:0033313"> <termsem="GO:0007126"> meiotic </term> checkpoint control </term> .
+Our results demonstrate that in mice , the primary <termsem="GO:0007126"> meiotic </term> function of TRIP13 is in <termsem="GO:0006310"> recombination </term> itself .
+We found no evidence that it is involved in <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint control </term> .
+Our data suggest that while <termsem="GO:0006310"> recombination events </term> destined to be resolved as <termsem="GO:0007131"> COs </term> can proceed normally in Trip13 mutants , DSBs that enter the <termsem="GO:0006311"> NCO </term> <termsem="GO:0006302"> repair pathway </term> are incompletely resolved or processed inefficiently .
+This hypothesis is compatible with current knowledge of <termsem="GO:0007131"> <termsem="GO:0007126"> meiotic </term> recombination pathways </term> .
+In S. cerevisiae , CO and <termsem="GO:0006311"> NCO pathways </term> are distinct [ 43 ] ; they have different <termsem="GO:0007131"> recombination </term> intermediates , and are dependent upon different proteins [ 44,45 ] .
+Mice also appear to have independent CO versus <termsem="GO:0006311"> NCO recombination pathways </term> [ 46 ] .
+As in yeast , both require SPO11-induced breaks , but only the <termsem="GO:0007131"> CO pathway </term> requires MLH1 .
+Both types of <termsem="GO:0006310"> recombinant </term> products are formed by mid-late <termsem="GO:0000239"> pachynema </term> .
+Another possibility is that the <termsem="GO:0006310"> recombination </term> defects are a result of defective <termsem="GO:0000724"> intersister recombination </term> .
+However , this type of <termsem="GO:0006302"> DSB repair </term> is <termsem="GO:0048519"> suppressed </term> in <termsem="GO:0007126"> meiotic </term> cells .
+Ablation of RAD54 , which mediates <termsem="GO:0000724"> intersister recombination </term> in yeast , does not significantly disrupt <termsem="GO:0007126"> meiosis </term> in either yeast or mice [ 47,48 ] .
+Interestingly , RAD54-deficient spermatocytes display abnormal persistence of RAD51 foci on <termsem="GO:0000239"> pachytene </term> chromosomes , similar to those in TRIP13 mice , but there are no deleterious effects on <termsem="GO:0007126"> meiotic </term> progression or fertility [ 49 ] .
+Data from <termsem="GO:0007114"> budding </term> yeast also indicate that Pch2p functions in <termsem="GO:0006310"> recombination </term> .
+Deletion of PCH2 delays <termsem="GO:0007126"> meiotic </term> progression by  2 h in SK1 yeast , and causes a minor decrease in ascus <termsem="GO:0032502"> formation </term> [ 50 ] .
+DSBs persist > 2 h longer in pch2 yeast than in wild type , and hyperresection of DSBs in dmc1 pch2 double mutants is lower than in dmc1 cells [ 10 ] .
+Additionally , it was reported that pch2 yeast had a <termsem="GO:0007127"> meiosis I </term> delay dependent on the RAD17 -- SAE2 <termsem="GO:0000075"> checkpoint </term> that <termsem="GO:0065007"> monitors </term> <termsem="GO:0006310"> recombination </term> intermediates [ 12 ] .
+However , the exact role of TRIP13 ( or Pch2 ) in <termsem="GO:0006310"> recombination </term> is unclear .
+Because <termsem="GO:0007129"> synapsis </term> occurs in TRIP13-deficient spermatocytes and is dependent on DSB formation ( activity of SPO11 and MEI1 ) , we suggest that TRIP13 functions after homology recognition and strand exchange , and that <termsem="GO:0006310"> recombination events </term> entering the CO <termsem="GO:0006302"> repair pathway </term> are either completed or nearly so ( because OA treated resulted in bivalent chromosomes ) .
+One possibility for TRIP13  s role in <termsem="GO:0006310"> recombination </term> is that it is directly involved in a step specific to resolution of <termsem="GO:0006311"> NCO recombination </term> intermediates .
+Another possibility is that TRIP13 is required for disassembly of <termsem="GO:0006311"> NCO <termsem="GO:0000725"> recombinational </term> repair </term> complexes [ 51 ] containing those proteins that persist abnormally on Trip13Gt/Gt <termsem="GO:0000239"> pachytene </term> chromosomes .
+Notably , TRIP13 has two putative <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> domains , a signature of AAA - <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> ClpA/B chaperones that perform protein or <termsem="GO:0032986"> protein/DNA complex disassembly </term> [ 52 ] .
+These potential <termsem="GO:0006310"> recombination </term> roles might not be limited to <termsem="GO:0007126"> meiosis </term> , since Trip13 is widely <termsem="GO:0006350"> transcribed </term> and the mutant animals exhibited <termsem="GO:0032502"> developmental </term> defects .
+Finally , TRIP13 might play an indirect role , such as providing a `` licensing '' signal for the resolution of <termsem="GO:0006311"> NCO </term> intermediates and completion of <termsem="GO:0007126"> meiosis </term> .
+Regarding the cause of <termsem="GO:0008219"> cell death </term> in Trip13 mutants , our data indicate that this is triggered by defective <termsem="GO:0006302"> DSB repair </term> rather than asynapsis .
+We base this conclusion on two observations : ( 1 ) oocyte <termsem="GO:0012501"> elimination </term> is dependent upon DSB formation and ( 2 ) <termsem="GO:0007129"> synapsis </term> is normal in spermatocytes of adult testes .
+Indeed , this mutant is unique in that <termsem="GO:0006310"> recombination </term> defects occur in the absence of asynapsis ( e.g. , as in Dmc1 knockouts ) .
+Thus , the Trip13 mutant provides the first evidence that unrepaired DNA damage alone can trigger the mammalian <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> <termsem="GO:0050896"> response </term> .
+Furthermore , our results allow us to conclude that oocytes and spermatocytes share a similar , if not identical , DNA damage <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> that is decoupled from a <termsem="GO:0007129"> synapsis </term> <termsem="GO:0000075"> checkpoint </term> .
+Interestingly , we found that OA treatment of Trip13Gt/Gt spermatocytes could propel them into <termsem="GO:0007132"> MI </term> , despite a report that the same did not occur when wild-type <termsem="GO:0000239"> pachytene </term> spermatocytes were treated with the DSB-inducing agents gamma radiation or etoposide [ 53 ] .
+It is possible that the nascent induction of DSBs in <termsem="GO:0000239"> pachynema </term> evokes a <termsem="GO:0000075"> checkpoint </term> <termsem="GO:0050896"> response </term> that can not be bypassed by OA , whereas the post - <termsem="GO:0042148"> strand invasion </term> lesions in TRIP13-deficient spermatocytes do not .
+TRIP13 was originally discovered to be an interactor with rat <termsem="GO:0004887"> <termsem="independent_continuant"> thyroid receptor </term> </term> beta ( THRB ; [ 54 ] ) , but the relationship between THRB and TRIP13 in <termsem="GO:0007126"> meiosis </term> is unknown .
+Interestingly , we observed that THRB is <termsem="GO:0051179"> distributed </term> diffusely throughout wild-type spermatocyte nuclei but is excluded from the XY ( sex ) body ( unpublished observations ) , a compartmentalized nuclear domain beginning in <termsem="GO:0000239"> pachynema </term> , in which the sex chromosomes become <termsem="GO:0031507"> heterochromatinized </term> and <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptionally </term> silenced </term> in the process of MSCI [ 55 ] .
+However , the XY body appeared intact in most mutant spermatocytes upon probing with several markers of XY <termsem="GO:0031507"> heterochromatinization </term> ( unpublished observations ) .
+Considering that THRB knockout mice are viable and fertile [ 56 ] , the functional relationship between TRIP13 and its <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> THRB in <termsem="GO:0007126"> meiosis </term> is unclear .
+Given the high similarity of PCH2 orthologs throughout the eukaryotic world , one or more essential functions of this protein must be conserved .
+Since TRIP13 does not exhibit <termsem="GO:0000075"> checkpoint </term> function in mice , we surmise that the TRIP13/PCH2 ancestral protein had a function in <termsem="GO:0006310"> recombination </term> that persists to the present .
+Notably , A. thaliana does not appear to have a <termsem="GO:0033313"> <termsem="GO:0007126"> meiotic </term> checkpoint </term> activity that <termsem="GO:0012501"> eliminates </term> mutant meiocytes in a manner analogous to organisms such as mice , <termsem="GO:0007114"> budding </term> yeast , and female Drosophila [ 11,57 ] , and mammalian TRIP13 is more similar to Arabidopsis PCH2 than the fly or worm proteins ( Figures 1A and S1 ) .
+The unusual relatedness between mammalian and plant PCH2 may therefore be attributable to both the presence of a common conserved function ( namely <termsem="GO:0006310"> recombination </term> , although the role of PCH2 in plants has yet to be determined ) , and the absence of <termsem="GO:0000075"> checkpoint </term> function .
+Nevertheless , the evolutionary relationships between animals , fungi , and plants ( which are discordant with PCH2 sequence phylogeny ) do not allow parsimonious models addressing the points in time that <termsem="GO:0000075"> checkpoint </term> functions in PCH2 were gained or lost .
+It is possible that its <termsem="GO:0000075"> checkpoint </term> function evolved independently in worms and <termsem="GO:0007114"> budding </term> yeast .
+The picture will become clearer as the function of PCH2 in other organisms is elucidated .
+The nature of the <termsem="GO:0007129"> synapsis </term> <termsem="GO:0000075"> checkpoint </term> in male mice remains unidentified .
+One possible candidate is Dot1 ( PCH1 in yeast ) , a <termsem="GO:0042054"> <termsem="independent_continuant"> histone methyltransferase </term> </term> <termsem="GO:0016458"> silencing </term> factor that is required for <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> of zip1 and dmc1 mutants in yeast [ 58 ] , and for preventing RAD54-mediated recombinational <termsem="GO:0006302"> DSB repair </term> between sister chromatids .
+However , DOT1 acts upstream of PCH2 .
+Given that TRIP13 does n't have <termsem="GO:0000075"> checkpoint </term> function in mice , a potential role for mammalian DOT1 in the <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> is dubious but awaits investigation .
+Recently , it was shown that the TRP53 homolog TRP63 is required for DNA damage -- induced <termsem="GO:0016265"> death </term> of dictyate - <termsem="GO:0022403"> stage </term> primordial oocytes , leading to the suggestion that it is involved in <termsem="GO:0065007"> monitoring </term> genome integrity [ 59 ] .
+However , this activity occurs subsequent to a <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> .
+As alluded to earlier , a complicating problem for studying potential <termsem="GO:0033313"> <termsem="GO:0007126"> meiotic </term> checkpoint </term> genes in mice is that as in yeast , such genes often have <termsem="GO:0007067"> mitotic </term> functions ( such as RAD24 [ 7 ] ) , and their ablation can cause lethality [ 42 ] .
+Unless mammalian <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> checkpoint </term> components have orthologs with similar functions in organisms such as yeast , their identities are likely to remain elusive .
+PCR analysis of Trip13 cDNA .
+Trip13 was amplified from samples of Clontech 's Mouse Multiple Tissue cDNA Panel I ( http://www.clontech.com ) , using the following primers : 5  - GCACCATTGCACTTCACATC-3  ( TRP3-6F ) and 5  - TGACCATCAGACTGTCGAGC-3  ( TRP3-6R ) .
+These primers correspond to exons 3 and 6 , respectively , and amplify a 330-bp cDNA product .
+The cDNAs in this panel are equalized to allow quantitative analysis by <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR .
+<termsem="GO:0000003"> Generation </term> of Trip13-deficient mice .
+The mouse embryonic stem cell line RRB047 ( strain 129/Ola ) containing a gene trap insertion in Trip13 was obtained from BayGenomics ( http://www.baygenomics.ucsf.edu/ ) .
+The gene-trapping vector used to <termsem="GO:0032502"> create </term> this line , pGT1lxf , was designed to <termsem="GO:0009058"> create </term> an in-frame fusion between the 5  exons of the trapped gene and a reporter , geo ( a fusion of <termsem="GO:0004565"> <termsem="independent_continuant"> -galactosidase </term> </term> and <termsem="GO:0008910"> <termsem="independent_continuant"> neomycin phosphotransferase </term> </term> II ) .
+The gene-trapped locus <termsem="GO:0009058"> creates </term> a fusion transcript containing exons 1 -- 3 of Trip13 and geo .
+To identify the exact insertion site within intron 3 , PCR was performed using one primer within the gene trap vector , and the other primer at various positions in intron 3 pointing towards the 3  end of the gene .
+Product from a productive reaction was sequenced , revealing that the insertion site was 445 bp into intron 3 .
+Genotyping of mice .
+Three primers were used to distinguish wild-type and mutant alleles of Trip13 : primer 1 , 5  - CGTCGCTCCATTGCTTTGTGC-3  ; primer 2 , 5  - AGTAGTGGTACACTGTATTTTTGCTTTCATTGA-3  ; and primer 3 , 5  - GTAGATCCCGGCGCTCTTACCAA-3  .
+Primers 1 and 2 are located upstream and downstream , respectively , of the gene trap insertion within the intron 3 .
+Primer 3 corresponds to pGTlxf sequence .
+Primers 1 and 2 amplify a 700-bp band from a wild-type allele ; primers 1 and 3 amplify a 540-bp fragment from a mutant allele .
+Separate reactions were used to assay the presence or absence of each amplicon from a DNA sample .
+The cycling conditions were : 94 C 2 min ; 35 cycles of 94 C 30 s , 57 C 45 s , and 72 C 50 s ; and 72 C 2 min .
+<termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR .
+Total RNA was isolated from adult testes with the RNeasy Mini Kit ( Qiagen , http://www.qiagen.com ) , and 4.0 g was oligo dT -- primed and <termsem="GO:0006410"> reverse-transcribed </term> with Superscript II ( Stratagene , http://www.stratagene.com ) .
+The entire Trip13 protein-coding sequence was amplified with primers 5  - ATGGACGAGGCGGTG-3  and 5  - TCAAACATAAGCTGAAAGTT-3  .
+The cycling conditions were : 94 C 2 min ; 94 C 30s , 55 C 45 s , and 72 C 80 s for 35 cycles ; and 72 C 2 min .
+The primers for amplifying the Med31 coding sequence as control were : 5  - ATGGCCGCGGCCGTCGCTATGG-3  and 5  - TCATTTCCCTGCTGTGTTATTCTGCTGCTGCTGC-3  .
+The cycling conditions were : 94 C 2 min ; 94 C 30 s , 55 C 30 s , and 72 C 35 s for 35 cycles ; and 72 C 2 min .
+Development and purification of chicken antibodies .
+A peptide corresponding to amino acids 25 -- 40 of TRIP13 , VLQRSGSTAKKEDIK , was <termsem="GO:0043412"> conjugated </term> to KLH and used to immunize chickens ( done by Sigma Genosys , http://www.sigmaaldrich.com ) .
+Polyclonal IgY was isolated from eggs with the Eggcellent Chicken IgY Purification kit ( Pierce , http://www.piercenet.com ) .
+IgY antibodies were then affinity purified using the immunizing synthetic peptide .
+Western blotting .
+50 g of testis extract in RIPA buffer was separated by 8 % SDS-PAGE and electrotransferred onto a Pure Nitrocellulose membrane ( Bio-Rad , http://www.biorad.com ) .
+The membrane was incubated with a polyclonal rabbit anti-human TRIP13 antibody ( 18-003-42687 ; Genway , http://www.genwaybio.com ) .
+According to the manufacturer , the immunogen was a synthetic peptide embedded in sequence we deduced to correspond to exon 3 .
+<termsem="GO:0005488"> Binding </term> was detected by chemiluminescence ECL kit ( Pierce ) using a rabbit anti-chicken IgG horseradish <termsem="GO:0004601"> <termsem="independent_continuant"> peroxidase </term> </term> conjugate ( Pierce ) .
+Histological analyses .
+Testes or ovaries were fixed in Bouin 's , embedded in paraffin , sectioned at 6 m , and stained by hematoxylin and eosin .
+Antigen retrieval for immunohistochemistry of testis sections was as described [ 60 ] .
+Oocyte and follicle numbers were counted as described [ 61 ] .
+Only follicles containing an oocyte with a clearly visible nucleus were scored .
+Immunocytochemistry .
+Immunolabeling of surface-spread spermatocytes and oocytes was performed as described [ 39,62 ] .
+To reach conclusions on the pattern of staining for various proteins , 30 ( unless otherwise indicated ) well-spread nuclei of particular <termsem="GO:0007126"> meiotic </term> <termsem="GO:0022403"> stages </term> were first identified under the fluorescent microscope on the basis of SYCP3 or STAG3 staining , then imaged at both appropriate wavelengths to determine the pattern of second proteins with focal patterns such as RAD51 or RPA .
+Unless otherwise indicated , the panels shown in the figures were the exclusive or predominant patterns seen .
+The exception for this approach was in the case of staining for MLH1 or MLH3 plus RAD51 ( in which case SYCP3 or STAG3 was not available to find chromosome cores ) .
+Nuclei in this situation were identified first by MLH1/3 foci clustering , then imaged for both fluorescent wavelengths .
+Primary antibodies used in this study were as follows : mouse anti-SCP3 ( 1:500 ; Abcam , http://www.abcam.com ) ; rabbit anti-SYCP1 ( 1:1,000 ; a gift from C. Heyting ) [ 63 ] ; rabbit anti-REC8 ( 1:100 ; a gift from C. Heyting ) ; rabbit anti-RAD51 ( 1:250 , this polyclonal antibody recognizes both RAD51 and DMC1 ; Oncogene Research Products , http://www.merckbiosciences.co.uk ) ; rabbit anti-H2AX ( 1:500 ; Upstate Biotechnology , http://www.upstate.com/ ) ; rabbit anti-STAG3 ( 1:1,000 ; a gift from R. Jessberger ) ; rabbit anti-MLH3 ( 1:400 ; a gift from P. Cohen ) ; mouse-anti-human MLH1 ( 1:50 ; BD Biosciences , http://www.bdbiosciences.com ) ; rabbit-anti-TopBP1 ( 1:100 ; a gift from J. Chen ) [ 22 ] ; mouse-anti-ubiquityl-histone H2A ( 1:200 ; Upstate Biotechnology ) ; rabbit-anti-TRF2 ( 1:500 ; a gift from T. de Lange ) ; and rabbit-anti-BLM ( 1:50 ; a gift from R. Freire ) .
+All secondary antibodies <termsem="GO:0043412"> conjugated </term> with either Alexa Fluor 488 or 594 ( Molecular Probes , http://probes.invitrogen.com/ ) were used at a dilution of 1:1,000 .
+All images were taken with a 100  objective lens under immersion oil .
+<termsem="GO:0007132"> Metaphase I </term> spermatocyte spreads and OA treatment .
+<termsem="GO:0051323"> Metaphase </term> fixed spermatocytes from 8-mo-old Trip13RRB047 homozygotes , using 23-d-old wild-type mice as control , were prepared and stained with Giemsa as described [ 64 ] .
+For OA treatment , cells were exposed to 5 M OA ( Calbiochem , http://www.emdbiosciences.com ) for 6 h at 32 C in a humidified environment of 5 % CO2 before spreading [ 65 ] .
+These preparations were stained with DAPI to visualize <termsem="GO:0051323"> metaphase </term> nuclei and chromosomes .
+Phylogenetic analyses .
+TRIP13 orthologs were identified by BLASTP searches of Genbank and other sources providing gene models such as Ensembl .
+The selected orthologs can be found in Table S1 .
+Amino acid alignments were done with Clustal W , using the default settings with and without removing the regions outside of the AAA - <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> central domain .
+The trees were constructed by using the neighbor-joining method with Poisson correction .
+The reliability of internal branches was assessed by using 500 bootstrap replicates , and sites with gaps were ignored in this analysis .
+Neighbor-joining searches were conducted by using the computer program MEGA3 [ 66 ] .
+Depiction of Conserved Regions of Mouse TRIP13 and Its PCH2 Orthologs .
+Click here for additional data file .
+Surface-Spread Chromosomes Immunolabeled with the Indicated Antibodies and Fluorophores .
+Click here for additional data file .
+Trip13 Mutant Spermatocytes That Progress Beyond <termsem="GO:0000239"> Pachynema </term> Have <termsem="GO:0006281"> Repaired </term> DSBs and Form Bivalents at <termsem="GO:0007132"> Metaphase I </term> .
+Click here for additional data file .
+Sources of TRIP13 Amino Acid Sequences Used to Construct the Phylogenetic Tree in Figure 1 .
+Click here for additional data file .
+We thank P. Burgoyne , P. Cohen , E. Alani , and P. Moens for helpful discussions , R. Viswanatha for helpful comments on the manuscript , W. Pawlowski and T. Pawlowska for input on the evolutionary tree of PCH2 , R. Freire and J. Chen for antibodies , M. Jasin for Spo11  embryonic stem cells , and R. Munroe for <termsem="GO:0000003"> generating </term> chimeric mice .
+We also thank an anonymous reviewer for pointing out that Pch2p might be <termsem="GO:0051606"> sensing </term> <termsem="GO:0007129"> synaptic </term> <termsem="GO:0051258"> polymerization </term> in yeast , not initiation .
+<termsem="GO:0007131"> CO </term> - <termsem="GO:0007131"> crossover </term> .
+DSB - double strand break .
+MSCI - <termsem="GO:0007126"> meiotic </term> sex chromosome inactivation .
+MSUC - <termsem="GO:0007126"> meiotic </term> silencing of unpaired chromatin .
+<termsem="GO:0006311"> NCO </term> - <termsem="GO:0006311"> noncrossover </term> .
+OA - okadaic acid .
+<termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR - <termsem="GO:0003964"> <termsem="independent_continuant"> reverse-transcriptase </term> </term> PCR .
+SC - synaptonemal complex .
+A previous version of this article appeared as an Early Online Release on June 21 , 2007 ( doi : 10.1371 / journal.pgen .0030130 .
+eor ) .
+Author contributions .
+XL and JCS conceived and designed the experiments and analyzed the data .
+XL performed the experiments .
+JCS wrote the paper .
+Funding .
+This work was supported by NIH grant GM45415 to JS .
+Competing interests .
+The authors have declared that no competing interests exist .

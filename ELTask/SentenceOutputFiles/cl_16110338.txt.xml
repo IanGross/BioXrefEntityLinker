@@ -1,0 +1,491 @@
+A Hybrid <termsem="CL:0000210"> Photoreceptor </term> Expressing Both <termsem="CL:0000604"> Rod </term> and <termsem="CL:0000573"> Cone </term> Genes in a Mouse Model of Enhanced S - <termsem="CL:0000573"> Cone </term> Syndrome .
+Rod and <termsem="CL:0000573"> cone photoreceptors </term> subserve vision under dim and bright light conditions , respectively .
+The differences in their function are thought to stem from their different gene expression patterns , morphologies , and synaptic connectivities .
+In this study , we have examined the <termsem="CL:0000210"> photoreceptor cells </term> of the retinal degeneration 7 ( rd7 ) mutant mouse , a model for the human enhanced S - <termsem="CL:0000573"> cone </term> syndrome ( ESCS ) .
+This mutant carries a spontaneous deletion in the mouse ortholog of NR2E3 , an orphan nuclear receptor transcription factor mutated in ESCS .
+Employing microarray and in situ hybridization analysis we have found that the rd7 retina contains a modestly increased number of S-opsin -- expressing <termsem="CL:0000000"> cells </term> that ultrastructurally appear to be normal <termsem="CL:0000573"> cones </term> .
+Strikingly , the majority of the photoreceptors in the rd7 retina represent a morphologically hybrid <termsem="CL:0000000"> cell </term> type that expresses both <termsem="CL:0000604"> rod </term> - and <termsem="CL:0000573"> cone </term> - specific genes .
+In addition , in situ hybridization screening of genes shown to be up-regulated in the rd7 mutant retina by microarray identified ten new <termsem="CL:0000573"> cone </term> - specific or <termsem="CL:0000573"> cone </term> - enriched genes with a wide range of biochemical functions , including two genes specifically involved in glucose/glycogen metabolism .
+We suggest that the abnormal electroretinograms , slow retinal degeneration , and retinal dysmorphology seen in humans with ESCS may , in part , be attributable to the aberrant function of a hybrid <termsem="CL:0000210"> photoreceptor cell </term> type similar to that identified in this study .
+The functional diversity of the novel <termsem="CL:0000573"> cone </term> - specific genes identified here indicates molecular differences between <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> extending far beyond those previously discovered .
+Vision begins with light entering the eye .
+This light is projected onto the retina , a thin neural structure lining the inside of the eye .
+<termsem="CL:0000210"> Photoreceptors </term> , among the most important <termsem="CL:0000000"> cell </term> types in the retina , are the first to receive the incoming rays of light .
+In mammals , there are two types of <termsem="CL:0000210"> photoreceptors </term> : <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> .
+<termsem="CL:0000604"> Rods </term> are specialized for nighttime vision , and <termsem="CL:0000573"> cones </term> for daytime and color vision .
+In this study , the authors examined the <termsem="CL:0000210"> photoreceptors </term> of a mouse with a gene mutation that causes <termsem="CL:0000210"> photoreceptors </term> to develop abnormally .
+Humans with a similar mutation have a form of blindness called enhanced S - <termsem="CL:0000573"> cone </term> syndrome ( ESCS ) .
+Surprisingly , the majority of <termsem="CL:0000210"> photoreceptors </term> in this mutant mouse were found to have features of both normal <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> .
+It is possible that the abnormal features of these <termsem="CL:0000210"> photoreceptors </term> predispose them to undergo premature death .
+If this model accurately reflects the situation in human patients with ESCS , it may provide an explanation for the loss of vision seen in this disease .
+This study also elucidated previously unknown molecular differences between normal <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> .
+This new knowledge may contribute to a better overall understanding of the mechanisms underlying night , day , and color vision .
+Enhanced S - <termsem="CL:0000573"> cone </term> syndrome ( ESCS ) is an unusual disease of <termsem="CL:0000210"> photoreceptors </term> that includes night blindness ( suggestive of <termsem="CL:0000604"> rod </term> dysfunction ) , an abnormal electroretinogram ( ERG ) with a waveform that is nearly identical under both light and dark adaptation , and an increased sensitivity of the ERG to short-wavelength light [ 1,2 ] .
+The disease is caused by mutations in the orphan nuclear receptor transcription factor NR2E3 ( also known as <termsem="CL:0000210"> photoreceptor </term> nuclear receptor ) , which is expressed exclusively in <termsem="CL:0000604"> rods </term> [ 3,4 ] .
+Recent human genetic studies have also demonstrated mutations in this gene in Goldmann-Favre syndrome and many cases of clumped pigmentary retinal degeneration [ 5 ] .
+The initial reports of patients with ESCS attributed the unusual ERG to an abnormally functioning <termsem="CL:0000604"> rod photoreceptor </term> system with persistent activity under light adaptation [ 6 -- 8 ] .
+Subsequent studies , however , concluded that the ERG was due to supernumerary short-wavelength ( `` blue '' ) <termsem="CL:0000573"> cone photoreceptors </term> ( S - <termsem="CL:0000573"> cones </term> ) in these patients [ 1,2,9 -- 11 ] .
+Histopathologic analysis of a retina from a human patient with ESCS and extensive retinal degeneration demonstrated an absence of rhodopsin-positive <termsem="CL:0000000"> cells </term> and an increase in the number of S - <termsem="CL:0000573"> cone </term> opsin-expressing <termsem="CL:0000000"> cells </term> .
+Nevertheless , the overall density of <termsem="CL:0000573"> cones </term> was only modestly increased in this patient ( approximately 2-fold ) , suggesting that there might be additional factors that contribute to the very large , light-adapted ERG seen in this disease .
+In addition to the ERG findings , patients with ESCS have dysmorphic retinas with rosette formation in the outer nuclear layer ( ONL ) where <termsem="CL:0000210"> photoreceptor cell </term> bodies reside , and a slow retinal degeneration that can ultimately lead to complete blindness [ 12 -- 14 ] .
+Mutations in the mouse ortholog of NR2E3 have been identified in the spontaneous mutant retinal degeneration 7 ( rd7 ) [ 15 ] .
+This mutant demonstrates slow retinal degeneration and abnormal lamination of the ONL with rosette formation [ 15,16 ] .
+Curiously , the ERG of the mouse under both light and dark adaptation has been reported to be normal , showing progressive attenuation with time , presumably due to degenerative <termsem="CL:0000000"> cell </term> loss [ 15 ] .
+A prior study showed a 2 - to 3-fold increase in the number S-opsin -- positive <termsem="CL:0000000"> cells </term> in the rd7 retina compared to wild type [ 17 ] .
+In addition , two groups recently reported derepression of additional <termsem="CL:0000573"> cone </term> genes in the rd7 mutant [ 18,19 ] .
+In order to better understand the mechanistic basis of ESCS , we undertook a molecular and ultrastructural analysis of the <termsem="CL:0000210"> photoreceptors </term> of the rd7 mutant mouse .
+Microarray and in situ hybridization analyses revealed a modest increase in the number of S-opsin -- positive <termsem="CL:0000000"> cells </term> and widespread derepression of many <termsem="CL:0000573"> cone </term> - specific genes within <termsem="CL:0000604"> rod photoreceptor cells </term> .
+Ultrastructural studies demonstrated that the <termsem="CL:0000000"> cells </term> that coexpress <termsem="CL:0000604"> rod </term> and <termsem="CL:0000573"> cone </term> genes in the rd7 retina represent a morphologically hybrid <termsem="CL:0000000"> cell </term> type , intermediate between normal <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> .
+Widespread Up-Regulation of <termsem="CL:0000573"> Cone </term> Genes in the rd7 Mutant Retina .
+In an initial analysis of the rd7 mutant , homozygous mutant retinas were compared with wild-type controls at multiple postnatal time points using both cDNA and Affymetrix microarrays .
+The cDNA microarray used in this study contains approximately 12,000 different cDNAs largely derived from the retina and nervous system , and the Affymetrix microarray contains over 34,000 genes .
+Experiments at all timepoints were carried out in triplicate , and stringent criteria were applied in deciding whether a given gene was up - or down-regulated in the mutant ( see Materials and Methods for details ) .
+These experiments demonstrated widespread up-regulation of <termsem="CL:0000573"> cone </term> - specific and <termsem="CL:0000573"> cone </term> - enriched genes in the rd7 retina , especially by postnatal day 14 ( P14 ) and P21 ( Figure 1 ) .
+Most known <termsem="CL:0000573"> cone </term> - specific or <termsem="CL:0000573"> cone </term> - enriched genes were found to be up-regulated in the mutant ( Figure 1 , genes G1 -- G15 ) .
+The majority of these genes represent components of the phototransduction cascade ( e.g. , opsins , transducins , and phosphodiesterase subunits ) .
+In addition to these genes , several novel <termsem="CL:0000573"> cone </term> - specific genes of unknown function recently identified in our lab were also up-regulated ( Figure 1 , genes G16 , G17 , G21 , and G24 ; unpublished data ) .
+Finally , a wide range of other genes , most with no previously recognized role in the retina , were found to be up-regulated in the rd7 mutant ( Figure 1 , G26 -- G53 ; Tables S1 and S2 ; Figures S1 -- S7 ) .
+Nr2e3 expression is first detectable by in situ hybridization around embryonic day 18 ( E18 ) ; it then peaks around P6 and subsequently decreases to adult levels by P21 ( unpublished data ) .
+In accordance with this time course of expression , almost no gene expression changes were found at P0 , with progressively more changes at later timepoints ( Figure 1 ) .
+One exception to this statement is the gene RIKEN cDNA 4933409K07 ( Figure 1 , gene G47 ) , which was the only gene shown to be up-regulated at all timepoints examined .
+Additional discussion of this gene and its unusual expression pattern will be presented below .
+Two Distinct Patterns of <termsem="CL:0000573"> Cone </term> Gene Derepression in rd7 .
+In order to confirm these microarray results , an in situ hybridization analysis of the putative up-regulated <termsem="CL:0000573"> cone </term> genes was carried out in which the rd7 mutant retina was compared with age-matched , wild-type controls .
+We found that the majority of the <termsem="CL:0000573"> cone </term> - specific genes that were up-regulated in microarray experiments were derepressed when assessed by in situ hybridization ( Figure 2 ) .
+There were two major patterns of <termsem="CL:0000573"> cone </term> gene derepression .
+The more common pattern ( type I ) manifested itself as ectopic gene expression throughout the ONL , consistent with gene expression in all <termsem="CL:0000210"> photoreceptors </term> ( Figure 2 ; upper left photomicrographs ) .
+Typical examples of this pattern of derepression are shown in Figure 2 , and many more are available in Table S1 .
+This pattern of expression contrasts sharply with the usual pattern of <termsem="CL:0000573"> cone </term> gene expression , which consists of scattered <termsem="CL:0000000"> cells </term> localized to the scleral edge of the ONL ( Figure 2 ) .
+The second category of <termsem="CL:0000573"> cone </term> gene derepression ( type II ) consisted of a patchy , salt-and-pepper pattern of ectopic expression in which individual positive <termsem="CL:0000000"> cells </term> were scattered throughout the ONL ( Figure 2 , upper right photomicrographs ; Table S1 ) .
+Although numerous positive <termsem="CL:0000000"> cells </term> were present in the rd7 retina ( particularly in the ventral portion ) , there were clearly many interspersed <termsem="CL:0000000"> cells </term> that showed a complete absence of expression .
+In order to rule out the possibility that these scattered positive <termsem="CL:0000000"> cells </term> were simply the normal complement of <termsem="CL:0000573"> cones </term> that had failed to localize their <termsem="CL:0000000"> cell </term> bodies to the scleral edge of the ONL , the number of positive <termsem="CL:0000000"> cells </term> in the rd7 retina was quantitated by dissociated <termsem="CL:0000000"> cell </term> in situ hybridization .
+Dissociated <termsem="CL:0000000"> cell </term> in situ hybridization was performed using a probe for the S - <termsem="CL:0000573"> cone </term> opsin gene ( Opn1sw ) , which shows type II derepression ( Figures 2 and 3A -- 3C ) .
+S-opsin was expressed in 3.2 % of retinal <termsem="CL:0000000"> cells </term> in the rd7 mutant ( 66 S-opsin -- positive <termsem="CL:0000000"> cells </term> out of 2,056 6-diamidino-2-phenylindole [ DAPI ] - positive <termsem="CL:0000000"> cells </term> ) .
+This value is approximately 2-fold greater than the percentage of S-opsin -- positive <termsem="CL:0000000"> cells </term> identified in wild-type control retinas , 1.65 % ( 54 S-opsin-positive <termsem="CL:0000000"> cells </term> out of 3,271 DAPI-positive <termsem="CL:0000000"> cells </term> ) , and accords well with the previously reported value of 2 - to 3-fold more S-opsin -- positive <termsem="CL:0000000"> cells </term> in rd7 compared to wild type arrived at by antibody staining of tissue sections [ 17 ] .
+Previous studies have estimated that the total number of <termsem="CL:0000573"> cones </term> in the mouse retina is 2 % of all retinal <termsem="CL:0000000"> cells </term> [ 20 ] , and that S-opsin is largely repressed in <termsem="CL:0000573"> cones </term> in the dorsal third of the retina [ 21 ] .
+The estimate of 1.65 % S-opsin -- positive <termsem="CL:0000000"> cells </term> in the wild-type retina is in agreement with these data .
+The fact that only 3.2 % of all retinal <termsem="CL:0000000"> cells </term> are S-opsin -- positive in the rd7 mutant also confirms that the majority of the <termsem="CL:0000210"> photoreceptors </term> ( which make up just over 70 % of the <termsem="CL:0000000"> cells </term> in the adult mouse retina ) do not express this gene .
+In order to assess whether these supernumerary S-opsin -- expressing <termsem="CL:0000000"> cells </term> coexpressed <termsem="CL:0000604"> rod </term> - specific markers , a double antibody staining for S-opsin and rhodopsin was performed .
+This study showed mutually exclusive domains of expression of S-opsin and rhodopsin in the <termsem="CL:0000210"> photoreceptor </term> outer segments ( Figure 3D -- 3F ) .
+This finding suggests that the supernumerary S-opsin -- expressing <termsem="CL:0000000"> cells </term> in the rd7 retina may represent normal `` blue '' <termsem="CL:0000573"> cones </term> .
+Novel <termsem="CL:0000573"> Cone </term> - Specific Genes Are Derepressed in rd7 .
+Given that the majority of known <termsem="CL:0000573"> cone </term> - specific genes showed marked derepression in the rd7 mutant , additional candidate genes up-regulated on microarray analysis were evaluated for <termsem="CL:0000573"> cone </term> - specific expression .
+In situ hybridization was performed on an additional 45 up-regulated genes , confirming that 21 of them were derepressed .
+Of these , at least ten showed a definite <termsem="CL:0000573"> cone </term> - specific or <termsem="CL:0000573"> cone </term> - enriched pattern of expression in the wild-type retina ( Figure 1 , genes G26 -- G35 ) .
+Several examples are given in Figure 4 .
+Note that in the wild-type retina , there is a relatively weak pattern of scattered positive <termsem="CL:0000000"> cells </term> at the scleral edge of the ONL , consistent with a <termsem="CL:0000573"> cone </term> - specific pattern of expression .
+All of these genes show marked derepression in the rd7 retina .
+A number of these novel <termsem="CL:0000573"> cone </term> - specific genes showed a striking localization of their transcripts to the <termsem="CL:0000210"> photoreceptor </term> inner segment ( e.g. , Bub1b and Tcta ) .
+This localization manifests in a section in situ hybridization as a dark band of staining just beyond the outer edge of the ONL immediately underlying the outer segment layer .
+Although such a pattern of transcript localization is commonly seen in many <termsem="CL:0000604"> rod </term> - specific genes ( e.g. , Rho in Figure 2 ; Pcdh21 , Rbp3 , and Cnga1 in Table S2 ) , it is not easily appreciated in <termsem="CL:0000573"> cone </term> - specific genes , possibly due to the relative scarcity of <termsem="CL:0000573"> cones </term> in the mouse .
+In the rd7 mutant retina in which such genes are widely derepressed , such a pattern of transcript localization often becomes apparent .
+In addition to the ten genes that showed <termsem="CL:0000573"> cone </term> - specific expression in the wild-type retina , another 11 novel genes were derepressed in the rd7 retina by in situ hybridization ( Figure 1 , genes G36 -- G46 ) .
+Some of these genes showed faint expression in a <termsem="CL:0000573"> cone </term> - like distribution ( see Table S1 , genes G36 , G40 , and G44 ) , and one appeared to be expressed throughout the ONL but at greater levels in <termsem="CL:0000573"> cones </term> than in <termsem="CL:0000604"> rods </term> ( Table S1 , gene G37 ) .
+The remainder of the up-regulated genes did not have detectable <termsem="CL:0000573"> cone </term> staining in the wild-type retina .
+Despite this apparent absence of <termsem="CL:0000573"> cone </term> staining , the pattern of derepression in rd7 suggests that these genes may also be novel <termsem="CL:0000573"> cone </term> - specific genes , albeit expressed at levels below the sensitivity threshold of our in situ hybridization assay .
+In most cases , the novel <termsem="CL:0000573"> cone </term> genes identified in this study appear to have a type I pattern of derepression .
+However , due to the weakness of the signal in some cases , or transcript localization to the inner segment in others , it was not always possible to determine with confidence which of the two patterns of derepression ( if either ) each of these genes displayed .
+In terms of functional categorization , the novel <termsem="CL:0000573"> cone </term> genes cover a broad range including glucose metabolism ( Pygm and Glo1 ) , fatty acid metabolism ( Elovl2 ) , DNA repair ( Smug1 ) , <termsem="CL:0000000"> cell </term> cycle/chromosome segregation ( Bub1b ) , carcinogenesis ( Tcta ) , endothelial biology ( Ece1 ) , cytoskeletal function ( Ebp4 .1 l1 ) , and even otolith formation ( Otop3 ) .
+A relatively frequent finding among both previously identified <termsem="CL:0000573"> cone </term> - specific genes , as well as in some of those identified in the present study , is the occurrence of gene expression in an early <termsem="CL:0000210"> photoreceptor </term> precursor pattern ( Figure 5 ) .
+This pattern of expression consists of positive staining by in situ hybridization specifically at the scleral border of the retina during prenatal timepoints ( in the range of E13 -- E18 ) .
+Gnb3 and Thrb2 are two examples of known <termsem="CL:0000573"> cone </term> genes with this early pattern of expression ( Figure 5 ) .
+Two of the 11 novel <termsem="CL:0000573"> cone </term> genes identified in this study also have this early <termsem="CL:0000210"> photoreceptor </term> pattern of expression ( Ece1 and Otop3 ) .
+Intriguingly , three genes shown to be up-regulated in rd7 on microarray , but that had either no detectable signal by in situ hybridization at adult stages or no apparent change in expression by in situ hybridization between wild type and rd7 , also showed this early <termsem="CL:0000210"> photoreceptor </term> pattern ( Figure 1 , genes G48 -- G50 ) .
+The embryonic expression pattern of two of these genes is shown in Figure 5 ( the embryonic in situ hybridization for the third , G50 , can be found in Table S1 ) .
+Although the significance of such early <termsem="CL:0000210"> photoreceptor </term> expression is not known , it is possible that these genes may also be <termsem="CL:0000573"> cone </term> - specific but are expressed at undetectably low levels in the adult .
+M-Opsin and Thyroid Hormone Receptor 2 Are Unchanged in the rd7 Mutant .
+Only two <termsem="CL:0000573"> cone </term> - specific genes failed to show any change in expression by either microarray or in situ hybridization in the rd7 mutant : M-opsin ( Opn1mw ) and thyroid hormone receptor 2 ( Thrb2 ) ( Figure S8 ) .
+This result is particularly notable because Thrb2 is absolutely required for the expression of M-opsin [ 22 ] .
+Furthermore , the repression of S-opsin expression in the dorsal third of the mouse retina is thought to depend , at least in part , on Thrb2 since S-opsin shows dorsal derepression in the Thrb2 mutant [ 22 ] .
+Despite the derepression of S-opsin seen in the ventral portion of the rd7 retina , the normal dorsal repression of this gene is still present in this mutant ( unpublished data ) .
+This finding is consistent with the normal expression pattern and function of Thrb2 in the rd7 mutant .
+One further finding to note is that the <termsem="CL:0000000"> cell </term> bodies of the M-opsin -- positive <termsem="CL:0000000"> cells </term> appear to be scattered throughout the ONL in the rd7 mutant at P14 ( Figure S8 ) .
+Despite this fact , their overall number does not appear to be increased relative to wild-type .
+In addition , by P28 , the M-opsin-positive <termsem="CL:0000000"> cell </term> bodies in rd7 appear to have relocated to their normal position at the scleral edge of the ONL ( Figure S8 ) .
+It is known that until P11 , the <termsem="CL:0000000"> cell </term> bodies of <termsem="CL:0000573"> cone photoreceptors </term> in the mouse are normally dispersed throughout the ONL , only to relocate subsequently to the scleral edge of the ONL around P12 [ 23 ] .
+It is possible that in the rd7 mutant retina , there is a short delay in the relocation of the M-opsin -- expressing <termsem="CL:0000306"> cone cell </term> bodies to the scleral edge of the ONL .
+<termsem="CL:0000604"> Rod </term> Genes Are Only Modestly and Temporarily Affected in rd7 .
+In sharp contrast to changes in <termsem="CL:0000573"> cone </term> gene expression , <termsem="CL:0000604"> rod </term> - specific genes were much less severely affected in the rd7 mutant .
+Microarray and in situ hybridization analysis of numerous <termsem="CL:0000604"> rod </term> genes failed to reveal marked changes in expression levels at P14 and P21 ( see Figure 2 , lower left photomicrographs ; Table S2 ) .
+In addition to the three <termsem="CL:0000604"> rod </term> genes depicted in Figure 2 , in situ hybridization analysis on an additional 19 <termsem="CL:0000604"> rod </term> - specific and pan - <termsem="CL:0000210"> photoreceptor </term> genes demonstrated only a very mild diminution of expression in two of these genes , gucy2e and Rgs9 , at P14 , and an increase in expression in two , Nr2e3 , and Cnga1 ( Table S2 ) .
+Despite the minimal changes in <termsem="CL:0000604"> rod </term> gene expression at later postnatal timepoints , there was evidence of a significant delay in the onset of rhodopsin ( Rho ) expression in rd7 mutants relative to wild-type .
+Microarray analysis at P6 demonstrated five cDNA spots that were down-regulated in three out of three experiments .
+Of these spots , three corresponded to rhodopsin ( Table S3 ) .
+In situ hybridization analysis of several <termsem="CL:0000604"> rod </term> - specific genes at P6 revealed that rhodopsin alone showed a markedly lower level of expression compared to wild type ( Figure 6 ; unpublished data ) .
+Despite this modest delay in the onset of rhodopsin expression , by P14 the gene had attained nearly normal levels in the rd7 mutant ( see Figure 2 , lower left photomicrographs ) .
+This latter finding suggests that all the <termsem="CL:0000604"> rod </term> - and many <termsem="CL:0000573"> cone </term> - specific genes are coexpressed in the majority of <termsem="CL:0000210"> photoreceptors </term> in the rd7 mutant .
+Changes in Retinal Transcription Factor and Mller Glial Gene Expression in rd7 .
+Analysis of several <termsem="CL:0000210"> photoreceptor </term> transcription factors in the rd7 mutant indicated that the levels of Crx and Nrl are unaffected in the mutant at P14 ( see Figure 2 , lower right photomicrographs ) .
+Nrl is a <termsem="CL:0000604"> rod </term> - specific , basic leucine zipper transcription factor required for the activation of many <termsem="CL:0000604"> rod </term> - specific genes and the repression of most <termsem="CL:0000573"> cone </term> - specific genes in <termsem="CL:0000604"> rods </term> [ 24 ] .
+Nrl is known to be genetically upstream of Nr2e3 and is required for its expression [ 24 ] .
+Crx is a homeobox transcription factor expressed in both <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> and is required for the expression of a variety of <termsem="CL:0000604"> rod </term> - and <termsem="CL:0000573"> cone </term> - specific genes [ 25 ] .
+In contrast to what is seen in the Nrl mutant , Nr2e3 expression is unchanged in Crx mutant homozygotes ( unpublished data ) .
+Strikingly , Nr2e3 itself was markedly up-regulated in the rd7 mutant both by microarray and in situ hybridization ( see Figure 2 , lower right photomicrographs ; Table S2 ) .
+The rd7 mutant carries a deletion in Nr2e3 that removes portions of both the DNA-binding and ligand-binding domains [ 15 ] .
+Although this deletion most likely creates a null allele , a residual transcript is clearly present and up-regulated in the rd7 mutant .
+This finding suggests that Nr2e3 is required for repression of its own transcription .
+One gene , RIKEN cDNA 4933409K07 ( Figure 1 , gene G47 ) , was found to be up-regulated on microarray at all four timepoints examined .
+This gene showed a unique pattern of expression in the adult rd7 mutant retina .
+Whereas there was only a barely detectable hint of expression in the inner nuclear layer ( INL ) in the wild-type retina , this gene showed strong expression in the middle and vitreal thirds of the INL as well as patchy expression in the ganglion <termsem="CL:0000000"> cell </term> layer ( GCL ) and at the scleral edge of the ONL in rd7 ( see Table S1 ) .
+This in situ hybridization pattern is consistent with staining in <termsem="CL:0000636"> Mller glia </term> , the principal <termsem="CL:0000125"> glial cell </term> type of the mouse retina .
+One possible interpretation of this unusual expression pattern is that it represents an early reaction of Mller glia to injury in this mutant .
+The Majority of the <termsem="CL:0000210"> Photoreceptors </term> in the rd7 Retina Represent a Morphologically Hybrid <termsem="CL:0000000"> Cell </term> Type .
+In order to assess the morphologic effects of the above gene expression changes , the ultrastructure of the <termsem="CL:0000210"> photoreceptor cell </term> bodies in the rd7 mutant was examined .
+The <termsem="CL:0000000"> cell </term> bodies were chosen for evaluation rather than the outer segments , since in the mouse , the ultrastructural differences between <termsem="CL:0000604"> rod </term> and <termsem="CL:0000573"> cone </term> somata are much greater than are the differences between the outer segments [ 26 ] .
+In the wild-type mouse , <termsem="CL:0000306"> cone cell </term> bodies are aligned along the scleral border of the ONL , and they are larger than those of <termsem="CL:0000604"> rods </term> .
+They have a smaller , more irregular mass of nuclear heterochromatin that is often broken up into multiple discrete clumps connected by thin threads .
+They also have more abundant electron-lucent euchromatin than <termsem="CL:0000604"> rods </term> .
+Lastly , they frequently have a patch of organelle-rich cytoplasm next to their nuclei , usually containing large mitochondria [ 26 ] .
+Analysis of toluidine blue-stained semi-thin sections revealed that such <termsem="CL:0000573"> cone </term> - like <termsem="CL:0000000"> cells </term> were present in greater abundance in the rd7 retina than in wild-type , and that their somata were scattered throughout the ONL ( Figure 7 ) .
+A comparison between the distribution of these <termsem="CL:0000000"> cells </term> and those expressing S - <termsem="CL:0000573"> cone </term> opsin strongly suggests that they represent the same <termsem="CL:0000000"> cell </term> population ( compare Figure 7D and 7F ) .
+Analysis of the nuclear morphology of dissociated retinal <termsem="CL:0000000"> cells </term> stained for S - <termsem="CL:0000573"> cone </term> opsin by dissociated <termsem="CL:0000000"> cell </term> in situ hybridization confirmed that this is the case ( unpublished data ) .
+These findings , along with the absence of rhodopsin staining in these <termsem="CL:0000000"> cells </term> ( see Figure 3D -- 3F ) , suggest that these `` <termsem="CL:0000573"> cone </term> - like '' <termsem="CL:0000000"> cells </term> in the rd7 mutant retina may represent supernumerary normal <termsem="CL:0000573"> cones </term> with an abnormal localization of their <termsem="CL:0000000"> cell </term> bodies .
+In contrast to the <termsem="CL:0000306"> cone cell </term> body , the wild-type <termsem="CL:0000604"> rod </term> soma is small and nearly round .
+It has a single , large clump of dense heterochromatin , a thin rim of moderately electron-dense euchromatin , and very scant juxtanuclear cytoplasm without organelles [ 26,27 ] .
+The second <termsem="CL:0000000"> cell </term> population in the ONL of the rd7 retina has some of the nuclear features of normal <termsem="CL:0000604"> rods </term> , such as a single , dense mass of heterochromatin and moderately electron-dense euchromatin ( Figure 7H ) ; yet these <termsem="CL:0000000"> cells </term> also show features of <termsem="CL:0000573"> cones </term> .
+First , the euchromatin is , on average , more abundant in these <termsem="CL:0000000"> cells </term> than in wild-type <termsem="CL:0000604"> rods </term> ( compare Figure 7G and 7H ) .
+In addition , comparison of the diagrammatic representation of the wild-type and rd7 ONLs suggests that the average area of the S-opsin -- negative <termsem="CL:0000000"> cells </term> in rd7 is greater than in the wild-type ( Figure 7C and 7D ) .
+In order to confirm this impression , we quantitated the area of 50 wild-type and 50 mutant <termsem="CL:0000604"> rod </term> - like <termsem="CL:0000000"> cell </term> bodies ( see Materials and Methods for details ) .
+This experiment confirmed that the average area of the <termsem="CL:0000604"> rod </term> - like somata in rd7 is approximately 30 % larger than that of wild-type <termsem="CL:0000604"> rod </term> somata ( mean area in rd7 was 9.75  1.36 ( standard deviation ) m2 , compared to wild-type <termsem="CL:0000604"> rods </term> , with 7.53  0.72 m2 ; n = 50 ; p = 7.6  10 -- 16 , Student 's t-test ) .
+It is also notable that the standard deviation of the somal area is nearly twice as great in rd7 than in wild-type , confirming the subjective impression of greater variability in somal size and shape in the mutant compared to the wild-type ( compare Figure 7C and 7D ) .
+Lastly , 38 % ( 19/50 ) of the rd7 <termsem="CL:0000210"> photoreceptors </term> selected for somal area quantitation had prominent juxtanuclear mitochondria ( red arrow in Figure 7H ; unpublished data ) .
+Such juxtanuclear organelles are only very rarely seen in normal <termsem="CL:0000604"> rods </term> ( 1.5 % ; six out of 399 <termsem="CL:0000000"> cells </term> counted ) , but are common in <termsem="CL:0000573"> cones </term> ( yellow arrow in Figure 7H ) .
+In conclusion , it is clear that this second <termsem="CL:0000000"> cell </term> population in the rd7 retina has morphological features of both normal <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> consistent with the coexpression of many <termsem="CL:0000604"> rod </term> - and <termsem="CL:0000573"> cone </term> - specific genes in these <termsem="CL:0000000"> cells </term> .
+In this paper we have determined that the primary role of the <termsem="CL:0000604"> rod </term> - specific transcription factor , Nr2e3 , is to maintain <termsem="CL:0000573"> cone </term> genes transcriptionally silent within <termsem="CL:0000604"> rods </term> .
+We have identified two patterns of <termsem="CL:0000573"> cone </term> gene derepression in the rd7 mutant retina , in agreement with a previous report by Chen et al. [ 18 ] .
+The first pattern of derepression identified ( type I ) consists of ectopic expression of <termsem="CL:0000573"> cone </term> genes in the vast majority of <termsem="CL:0000000"> cells </term> in the ONL .
+These <termsem="CL:0000000"> cells </term> were also shown to coexpress all <termsem="CL:0000604"> rod </term> genes tested .
+Consistent with the hybrid pattern of gene expression in these <termsem="CL:0000000"> cells </term> , electron microscopic analysis revealed them to be morphologically intermediate between normal <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> .
+Although genes showing type I derepression demonstrated staining in the majority of <termsem="CL:0000000"> cells </term> in the ONL , two lines of evidence suggest that these genes are not completely derepressed in these <termsem="CL:0000000"> cells </term> when compared to their expression in S-opsin -- expressing <termsem="CL:0000573"> cones </term> .
+First , close evaluation of the staining pattern of a number of type I genes in the rd7 mutant retina ( e.g. , see Table S1 , genes G9 , G19 , and G24 ) , reveals that , in addition to the background staining throughout the ONL , there is a more darkly staining subpopulation of <termsem="CL:0000000"> cells </term> scattered throughout this layer in a distribution corresponding to that of the supernumerary S - <termsem="CL:0000573"> cone </term> opsin-expressing <termsem="CL:0000000"> cells </term> .
+This pattern of staining suggests that these genes are more highly expressed in S-opsin expressing <termsem="CL:0000000"> cells </term> than in the hybrid <termsem="CL:0000000"> cells </term> of the rd7 retina .
+The second line of evidence derives from a comparison of the expression pattern of many type I genes in rd7 and Nrl  /  mutant backgrounds .
+As mentioned above , Nrl is a retinal transcription factor that , when mutated , results in en masse conversion of <termsem="CL:0000604"> rods </term> into S-opsin -- expressing <termsem="CL:0000573"> cones </term> [ 24 ] .
+It can be inferred from this fact that Nrl is absolutely required for the normal silencing of <termsem="CL:0000573"> cone </term> - specific genes in <termsem="CL:0000604"> rods </term> .
+In the Nrl homozygous mutant , there is a stronger and more uniform derepression of many <termsem="CL:0000573"> cone </term> - specific genes throughout the ONL than is seen in the rd7 retina ( unpublished data ) .
+This finding further suggests that , in addition to its repression of <termsem="CL:0000573"> cone </term> gene expression via induction of Nr2e3 expression , Nrl exerts an additional level of negative control over <termsem="CL:0000573"> cone </term> genes either directly or via a second , as yet uncharacterized , repressor .
+The second pattern of derepression seen in the rd7 retina ( type II ) , is represented by a scattered population of <termsem="CL:0000000"> cells </term> throughout the ONL that shows derepression of several <termsem="CL:0000573"> cone </term> - specific genes , including S - <termsem="CL:0000573"> cone </term> opsin .
+By ultrastructural criteria , these <termsem="CL:0000000"> cells </term> appear to be normal <termsem="CL:0000573"> cones </term> , albeit with displaced <termsem="CL:0000000"> cell </term> bodies .
+Quantitation of these supernumerary S - <termsem="CL:0000573"> cone </term> opsin-positive <termsem="CL:0000000"> cells </term> indicates that they are approximately 2-fold more abundant than in normal retina , consistent with previous antibody studies [ 17 ] .
+Two recent studies have presented data that are consistent with many of the findings in our study [ 18,19 ] .
+Both studies showed that <termsem="CL:0000573"> cone </term> genes in addition to S - <termsem="CL:0000573"> cone </term> opsin are derepressed in the mouse rd7 mutant .
+In addition , Peng et al. [ 19 ] found by RT-PCR that the levels of several <termsem="CL:0000604"> rod </term> - specific genes , including rhodopsin , were modestly reduced in rd7 at P28 .
+Our in situ hybridization data suggest that rhodopsin expression is markedly reduced at P6 , but that it attains levels indistinguishable from wild-type by P14 .
+Since the change in rhodopsin levels identified by Peng et al. were relatively small ( an approximately 15 % reduction ) , it is not surprising that such a difference was not detected by in situ hybridization .
+The overall finding of modest reductions in <termsem="CL:0000604"> rod </term> - specific gene expression is entirely in keeping with the results of the present study .
+In addition to demonstrating derepression of a range of known <termsem="CL:0000573"> cone </term> - specific genes in rd7 mutants , Chen et al. [ 18 ] showed up-regulation by Northern blot of two additional genes in the rd7 mutant , Elovl2 and Fabp7 .
+These two genes were also found to be up-regulated in rd7 in the present study ( see Figure 1 ; Table S1 ) .
+Although we found Elovl2 to have a <termsem="CL:0000573"> cone </term> - enriched pattern of expression ( see Figure 1 ) , in situ hybridization analysis of Fabp7 failed to show a signal in wild-type or mutant retina ( unpublished data ) .
+Nevertheless , previous studies have suggested that Fabp7 is expressed in <termsem="CL:0000681"> radial glia </term> and immature <termsem="CL:0000127"> astrocytes </term> in the brain [ 28 -- 30 ] .
+Given the expression pattern elsewhere in the nervous system , it is possible that Fabp7 is up-regulated in <termsem="CL:0000636"> Mller glia </term> in the rd7 retina in response to injury in a manner akin to the novel <termsem="CL:0000636"> Mller glial </term> gene identified in this study , RIKEN cDNA 4933409K07 ( Figure 1 , gene G47 ) .
+Indirect support for this idea is provided by the observation that Fabp7 is up-regulated by microarray analysis in Nrl and Crx mutant retinas as well ( unpublished data ) , suggesting that this change may represent a generalized response to injury in the retina rather than derepression of a <termsem="CL:0000573"> cone </term> - enriched gene .
+The study by Chen et al. [ 18 ] made two further observations worthy of note .
+First , they identified a zebrafish homolog of Nr2e3 and showed it to be expressed in <termsem="CL:0000210"> photoreceptors </term> .
+Interestingly , they showed that this homolog appears to have a pan - <termsem="CL:0000210"> photoreceptor </term> pattern of expression early in development that later resolves into a <termsem="CL:0000604"> rod </term> - specific pattern of expression .
+This early expression in <termsem="CL:0000573"> cones </term> may represent a mechanism whereby the expression of <termsem="CL:0000573"> cone </term> - specific gene products is temporarily repressed .
+It will be important to determine the extent to which the function of Nr2e3 has been conserved in the retina of such a distantly related organism .
+Secondly , Chen et al. [ 18 ] used an in vitro oligonucleotide selection protocol to determine the preferred binding site for Nr2e3 .
+This information will be very useful for future bioinformatic analyses of Nr2e3 target genes .
+The gene expression changes identified in the rd7 mutant retina in the present study suggest the scheme of gene regulation in mouse <termsem="CL:0000604"> rods </term> depicted in Figure 8 .
+As this diagram implies , there appear to be at least two different repressors of <termsem="CL:0000573"> cone </term> genes within <termsem="CL:0000604"> rods </term> , Nr2e3 and either Nrl itself or an additional unknown transcription factor downstream of Nrl , here termed `` transcription factor X. '' In fact , it appears that the differences between type I and type II <termsem="CL:0000573"> cone </term> genes may simply depend on which repressor -- Nr2e3 or transcription factor X -- is primarily responsible for the regulation of the gene in question .
+In the case of type I genes , Nr2e3 is the primary repressor and transcription factor X is of secondary importance .
+In the case of type II genes , transcription factor X exerts the major repressive effect on transcription , and Nr2e3 plays a lesser , but still important role .
+In contrast to the marked derepression of the vast majority of <termsem="CL:0000573"> cone </term> - specific genes in the rd7 mutant , two genes stand out as being unaffected by the mutation : the gene encoding M-opsin and Thrb2 .
+As Thrb2 is known to be required for the expression of M-opsin [ 22 ] , the absence of supernumerary M-opsin -- positive <termsem="CL:0000000"> cells </term> may simply be a consequence of the fact that Thrb2 expression is unchanged in the rd7 mutant .
+Further support for this idea has been provided by recent work in our lab showing widespread derepression of <termsem="CL:0000573"> cone </term> genes in the Notch1  /  retina ( unpublished data ) .
+In contrast to the rd7 mutant , Notch1  /  retinas show marked derepression of Thrb2 and a corresponding derepression of the gene that encodes M-opsin .
+An additional observation suggesting that M-opsin and S-opsin are controlled by different mechanisms comes from in vitro experiments [ 31,32 ] .
+While explanted P3 retinas express S-opsin and M-opsin with normal kinetics , explanted P0 retinas express only S-opsin [ 32 ] .
+The factor ( s ) controlling these differences are unknown , but may be intrinsic , as cocultures of older and younger retinas , conditioned media from older retinas , and addition of a variety of small molecules were unable to promote the expression of M-opsin in the P0-initiated cultures [ 32 ] .
+In contrast to our findings , Peng et al. [ 19 ] reported that M-opsin expression is mildly increased in the rd7 mutant retina .
+It is possible that a subtle increase in M-opsin transcript levels does occur in the rd7 retina , and that this difference could not be detected by in situ hybridization .
+Since virtually all M-opsin -- expressing <termsem="CL:0000000"> cells </term> are localized at the outer edge of the ONL by P28 in the rd7 mutant ( Figure S8 ) , any increase in M-opsin transcript in the mutant must have occurred in <termsem="CL:0000000"> cells </term> in that location .
+A variety of novel <termsem="CL:0000573"> cone </term> - specific or <termsem="CL:0000573"> cone </term> - enriched genes were characterized in this study .
+One of these genes , Pygm , is involved in glycogen/glucose metabolism , and a second , Glo1 , is required for detoxification of methylglyoxal , a byproduct of glycolysis [ 33 ] .
+A third gene involved in glucose metabolism , hexokinase 2 ( Hk2 ) , is also derepressed in the rd7 mutant and shows a pattern of expression in the wild-type retina , suggesting greater expression in <termsem="CL:0000573"> cones </term> than in <termsem="CL:0000604"> rods </term> ( see Figure 1 ; Table S1 ) .
+A fourth gene involved in glucose metabolism , glucokinase regulatory protein ( Gckr ) , was found to be increased in three out of three microarrays at P21 but was not tested by in situ hybridization ( Table S4 ) .
+The increased expression of Gckr in rd7 mutant retina suggests that it too may be a <termsem="CL:0000573"> cone </term> - enriched gene .
+A previous study found that two of these genes , Pygm and Hk2 , have markedly elevated tag levels in an ONL-specific serial analysis of gene expression library consistent with their being highly enriched in wild-type <termsem="CL:0000210"> photoreceptors </term> [ 34 ] .
+Furthermore , prior studies have suggested differences in glycogen and glucose metabolism between primate <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> [ 35 ] .
+Our findings lend further support to this concept .
+Interestingly , Pygm has been implicated in human disease .
+Mutations in this gene underlie McArdle 's disease ( glycogen storage disease type V ) , the symptoms of which include exercise intolerance , muscle cramps , and myoglobinuria [ 36 ] .
+To our knowledge , no abnormalities of retinal function have been reported .
+One of the most curious findings in the rd7 mutant retina was the occurrence of two different types of changes : an increase in the number of S-opsin -- expressing <termsem="CL:0000573"> cones </term> and a transformation of <termsem="CL:0000604"> rods </term> into hybrid <termsem="CL:0000210"> photoreceptors </term> .
+It is known that Nr2e3 is expressed only in <termsem="CL:0000604"> rods </term> , and the transcript is first detectable in postmitotic <termsem="CL:0000000"> cells </term> ( J. Trimarchi and CLC , unpublished data ) .
+Assuming that Nr2e3 acts <termsem="CL:0000000"> cell </term> autonomously , we can conclude that the supernumerary S - <termsem="CL:0000573"> cone </term> -- positive <termsem="CL:0000000"> cells </term> and the hybrid <termsem="CL:0000210"> photoreceptors </term> identified in the rd7 retina were redirected to these fates from postmitotic <termsem="CL:0000000"> cells </term> that were destined to become <termsem="CL:0000604"> rods </term> .
+This conclusion raises this question : Why does loss of a single transcription factor within <termsem="CL:0000604"> rod </term> precursors lead to two alternative fates -- a hybrid <termsem="CL:0000000"> cell </term> type on the one hand and apparently normal S - <termsem="CL:0000573"> cones </term> on the other ?
+There are at least two possible explanations for these differences .
+First , it is possible that there are two distinct types of <termsem="CL:0000604"> rod </term> precursor ; loss of Nr2e3 in one leads to S - <termsem="CL:0000573"> cone </term> fate and in the other results in a hybrid <termsem="CL:0000000"> cell </term> type .
+In fact , there is experimental evidence from the rat to support the conclusion that early-born and late-born <termsem="CL:0000604"> rods </term> are intrinsically different [ 37 ] .
+One test of the hypothesis that there are two temporally distinct <termsem="CL:0000604"> rod </term> precursor populations would be to carry out birthdating experiments to determine whether the supernumerary S-opsin -- positive <termsem="CL:0000000"> cells </term> in the rd7 retina derived exclusively from an early - or late-born population .
+Of course , if this were not the case , this experiment could not rule out the possibility that molecularly distinct populations of <termsem="CL:0000604"> rod </term> precursors are present simultaneously in the developing retina .
+An alternative explanation would be that there is only a single , homogeneous population of postmitotic <termsem="CL:0000604"> rod </term> precursors in the mouse , and a stochastic event triggers assumption of the S - <termsem="CL:0000573"> cone </term> fate in a small subpopulation of these <termsem="CL:0000000"> cells </term> in the rd7 mutant .
+Recent studies in a variety of experiment systems suggest that such a stochastic , all-or-none mechanism of gene activation is commonplace [ 38 -- 44 ] .
+In this scenario , the absence of Nr2e3 would alter the probability that an unknown master control gene is expressed in <termsem="CL:0000604"> rod </term> precursors .
+Once this event takes place , it would initiate an irreversible program of differentiation toward S - <termsem="CL:0000573"> cone </term> fate , albeit at a relatively low frequency .
+In this way , a subset of <termsem="CL:0000000"> cells </term> from an initially homogeneous population would select the S - <termsem="CL:0000573"> cone </term> fate in an entirely probabilistic manner .
+Human patients with ESCS display three types of abnormality attributable to the retina : ( 1 ) an atypical ERG waveform that is preferentially sensitive to short-wavelength light , ( 2 ) slowly progressive retinal degeneration , and ( 3 ) abnormal retinal lamination with rosette formation [ 1,12,13 ] .
+The rd7 mutant mice also demonstrate the latter two defects , but have a normal ERG [ 15,45 ] .
+These similarities and differences between the two species help to explain the possible mechanistic basis of the ESCS .
+The fact that the rd7 mouse has a normal ERG strongly suggests that the aberrant ERG in ESCS is not attributable to the activity of a hybrid <termsem="CL:0000210"> photoreceptor </term> identical to that found in this study .
+Namely , the signal is unlikely to derive from a population of <termsem="CL:0000000"> cells </term> coexpressing both <termsem="CL:0000604"> rod </term> and <termsem="CL:0000573"> cone </term> genes but whose photopigment is rhodopsin and not S - <termsem="CL:0000573"> cone </term> opsin .
+This conclusion is consistent with the evidence from human ESCS patients indicating a markedly reduced <termsem="CL:0000604"> rod </term> system and a lack of measurable rhodopsin by reflection densitometry [ 1,2,10,11 ] .
+It is also unlikely that we would fail to detect an ESCS-like ERG signal in mice if it were present , as such a signal has been demonstrated in the Nrl mutant mouse , which has a near total transformation of all its <termsem="CL:0000604"> rods </term> into blue <termsem="CL:0000573"> cones </term> [ 24 ] .
+These findings , however , do not rule out the possibility that the abnormal human ERG derives from a hybrid <termsem="CL:0000210"> photoreceptor cell </term> type that also expresses S-opsin .
+It is possible that there are gene regulatory differences between mice and humans such that in human NR2E3 mutants , S-opsin shows a type I pattern of derepression rather than a type II as in seen in the rd7 mouse , and is therefore expressed in all of the hybrid <termsem="CL:0000210"> photoreceptor cells </term> .
+Alternatively , the ratio of supernumerary S - <termsem="CL:0000573"> cones </term> to hybrid <termsem="CL:0000210"> photoreceptors </term> produced in the retina of ESCS patients might be such that a higher percentage of the presumptive <termsem="CL:0000604"> rods </term> in ESCS patients become S - <termsem="CL:0000573"> cones </term> rather than hybrid <termsem="CL:0000210"> photoreceptors </term> .
+As discussed above , this ratio could depend either on the relative percentages of two distinct <termsem="CL:0000604"> rod </term> precursor populations or on stochastic effects on regulatory gene expression .
+In contrast to the ERG differences between mouse rd7 and human NR2E3 mutants , both species demonstrate slow retinal degeneration .
+It is possible that this degeneration is attributable to the abnormal function of the hybrid <termsem="CL:0000210"> photoreceptor cell </term> type characterized in the present study .
+The coexpression of both <termsem="CL:0000604"> rod </term> and <termsem="CL:0000573"> cone </term> genes in the same <termsem="CL:0000000"> cell </term> could predispose the <termsem="CL:0000000"> cell </term> to apoptosis .
+The final common feature between mouse rd7 and human NR2E3 mutants is the presence of an abnormally laminated retina with waviness and rosette formation in the ONL [ 12 -- 15 ] .
+The cause of this abnormality is not known , but it is possibly related to defects in <termsem="CL:0000210"> photoreceptor cell </term> polarity in the rd7 mutant .
+Rosette formation and abnormally wavy epithelia are common sequelae of defects in pathways controlling <termsem="CL:0000000"> cell </term> polarity [ 46,47 ] .
+In particular , loss-of-function mutations in the polarity gene crumbs ( CRB1 ) have been shown to cause morphological abnormalities of the ONL in both humans and mice , including rosette formation in mice very similar to that seen in the rd7 mutant [ 48,49 ] .
+Interestingly , Sharon et al. [ 5 ] have recently pointed out additional features shared by patients with CRB1 mutations and mutations in NR2E3 , including hyperopic refractive errors and a distinctive pattern of clumped pigmentation in the retina .
+In the present study we found the mouse crumbs ortholog to be up-regulated in the rd7 mutant retina by microarray , consistent with its higher expression level in <termsem="CL:0000573"> cones </term> than in <termsem="CL:0000604"> rods </term> [ 50 ] .
+Although we were unable to confirm this finding by in situ hybridization due to the weakness of the signal , it is possible that the up-regulation of crumbs in the retina is the cause of the lamination defects seen in the rd7 mutant .
+Overexpression of wild-type crumbs in Drosophila has been shown to cause polarity defects leading to waviness of epithelia and even to misalignment of nuclei within <termsem="CL:0000210"> photoreceptors </term> analogous to what is seen in the rd7 retina [ 47,51 ] .
+Future experiments will address this question by overexpressing full-length Crb1 in a wild-type background .
+One further point worthy of note is the striking similarity between the hybrid <termsem="CL:0000210"> photoreceptor </term> identified in this study and a naturally occurring <termsem="CL:0000210"> photoreceptor </term> found in ground squirrels .
+The `` <termsem="CL:0000604"> rods </term> '' of this species have electrophysiologic , molecular , and ultrastructural features of both <termsem="CL:0000604"> rods </term> and <termsem="CL:0000573"> cones </term> [ 52 -- 58 ] .
+Although these unusual findings have been difficult to interpret under the usual assumptions of `` duplicity theory '' [ 56 ] , we would like to suggest that ground squirrels may have experienced a naturally occurring down-regulation or loss of Nr2e3 expression in their `` <termsem="CL:0000604"> rods </term> '' that transformed them into a hybrid <termsem="CL:0000210"> photoreceptor cell </term> type .
+The adaptive significance of such a change , if any , is unknown , and it may simply be due to relaxation of selective pressure for night vision in this strictly diurnal species .
+Mutant mice .
+Nr2e3rd7 mutant mice were obtained from Jackson Laboratories ( Bar Harbor , Maine , United States ; stock # 004643 ) and maintained on a C57BL/6 background .
+All control mice were C57BL/6 .
+Microarray analysis .
+Total retinal RNA samples were isolated from P0 , P6 , P14 , and P21 Nr2e3 mutant mice using the Trizol reagent ( Gibco , San Diego , California .
+United States ) .
+Total retinal RNA samples from age-matched wild-type C57BL/6 mice were used as controls .
+Individual total RNA samples were derived from four retinas ( pooled from two animals ) .
+All microarray experiments were performed in triplicate , in each case with separate RNA preparations .
+Microarray experiments with cDNAs were performed with the P0 , P6 , and P14 derived samples .
+Probes were labeled with either Cy3 or Cy5 using the Array 900 kit from Genisphere ( Hatfield , Pennsylvania , United States ) starting with 5 g of total RNA according to the manufacturer 's instructions .
+Wild-type control probes were compared to mutant on the same microarray .
+In two of the three replicates , the mutant probe was labeled with Cy3 and the wild type with Cy5 , and in the third replicate the dyes were swapped .
+Labeled probe was hybridized to microarray slides spotted with approximately 11,500 cDNA clones from the brain molecular anatomy project library ( kind gift of B. Soares , University of Iowa ; see http://trans.nih.gov/bmap/index.htm for details ) and 500 cDNA clones from our lab collection .
+Slides were printed and hybridized as described [ 59,60 ] .
+After hybridization and washing of slides according to the manufacturer 's instructions ( Genisphere ) , the slides were scanned on an Axon Instruments ( Union City , California , United States ) GenePix 4000 scanner and images were analyzed using the accompanying GenePix Pro software package .
+The complete raw cDNA microarray data set are available in Tables S6 -- S14 .
+Two types of normalization were performed on the raw intensity scores derived from the GenePix Pro analysis .
+First , for a given experiment , the average intensity of all the spots in the weaker of the two channels ( Cy3 or Cy5 ) was normalized to those in the stronger channel .
+Second , in a given set of experiments done in triplicate at a particular time point , the two experiments with the weaker average signal intensity over all spots were normalized to those in the third microarray with the strongest average signal intensity .
+All spots with signal levels equal to or below background were removed from the analysis .
+The resulting files contained on average about 6,000 spots .
+These files were then sorted according to Cy3/Cy5 signal intensity , and those spots with the 10 % highest and 10 % lowest intensity ratios ( approximately 600 spots/experiment ) were compared across the three experiments at a given time point using custom Perl scripts ( available upon request from JCC ) .
+All spots which were present in the top 10 % most up - or down-regulated genes in two out of three or three out of three experiments were recorded ( the latter are listed in Table S3 ) .
+Microarray analysis of the P21 retinas was performed on Affymetrix mouse genome 430 2.0 GeneChip array ( Affymetrix , Santa Clara , California , United States ) .
+A total of six microarray hybridizations were performed : three with probes derived from mutant RNA and three from wild-type .
+Probes were synthesized starting with 10 g of total RNA for each sample according to manufacturer 's instructions ( Affymetrix ) .
+Hybridization , washing , and scanning of the microarrays were all performed at the Bauer Center for Genomics Research at Harvard University according to manufacturer 's instructions ( Affymetrix ) .
+Initial data analysis was carried out using the GeneChip Operating System ( GCOS ) software from Affymetrix .
+Pairwise comparisons were made between individual mutant microarray results and controls .
+All genes were removed from the analysis for which `` absent '' calls were made by the software for both the wild-type and mutant samples being compared .
+The remaining gene lists contained approximately 26,000 transcripts .
+These lists were then sorted according to the mutant-to-wild-type `` signal log ratio '' in order to identify the most markedly up - and down-regulated genes .
+The top 500 most up - and down-regulated transcripts ( approximately 2 % of all genes in each case ) from each of the three pairwise comparisons between mutant and wild-type were compared using custom Perl scripts ( available upon request from JCC ) to identify those genes that were present in two or three out of three lists .
+Those genes that were up - or down-regulated in three out of three experiments were recorded ( Tables S4 and S5 ) .
+The complete pairwise Affymetrix microarray datasets are available in Tables S15 -- S17 .
+In Situ hybridization .
+Section in situ hybridization was performed as previously described [ 61 ] using 20-m cryosections from OCT-embedded tissue or 4-m paraffin sections .
+All in situ hybridizations were performed with the mutant and wild-type control sections on the same glass slide .
+Riboprobes labeled with digoxygenin-tagged UTP ( Roche , Basel , Switzerland ) were detected with NBT/BCIP ( Sigma , St. Louis , Missouri , United States ) .
+The sources of the individual riboprobes used in this study are described in Tables S1 and S2 .
+Dissociated <termsem="CL:0000000"> cell </term> in situ hybridization was performed as described previously [ 62 ] using the same S-opsin digoxygenin-labeled probe used for section in situ hybridization .
+All images were captured on a compound microscope ( Eclipse e1000 ; Nikon , Tokyo , Japan ) using a CCD camera ( DXM1200F , Nikon ) .
+S-opsin positive <termsem="CL:0000000"> cells </term> were quantitated on dissociated <termsem="CL:0000000"> cell </term> in situ hybridization as previously described [ 62 ] .
+Twenty fields were quantitated in this manner at 200  magnification for both rd7 and wild-type retinas .
+Immunohistochemistry .
+For antibody staining , cryosections were prepared and stained as described previously [ 63 ] .
+Primary antibodies used were a polyclonal anti-blue opsin raised in rabbit ( 1:300 ; Chemicon International , Temecula , California , United States ; AB5407 ) and a mouse monoclonal anti-rhodopsin ( 1:200 ; rho4D2 ) .
+Secondary antibodies used were Cy2 - or Cy3-conjugated goat anti-rabbit and anti-mouse ( 1:500 ; Jackson Immunologicals , West Grove , Pennsylvania , United States ) .
+Following antibody staining , 4  - DAPI was applied to stain nuclei ( Sigma ) , and the sections were coverslipped and mounted in Gel/Mount ( Biomeda , Foster City , California , United States ) .
+Electron microscopy .
+This protocol was adapted from one used by Raviola [ 64 ] with some modifications derived from Carter-Dawson and Lavail [ 26 ] .
+Four adult wild-type and four mutant animals were deeply anesthetized by intraperitoneal injection of Avertin and the eyes were then removed .
+The cornea was gently punctured with sharp forceps and excised with iridectomy scissors .
+The eye was then transferred to a solution of 2 % paraformaldehyde/2 % glutaraldehyde in cacodylate buffer ( 0.1 M cacodylic acid ; 0.1 % calcium chloride ) .
+The lens was gently removed and the eyecup allowed to fix for 2 h at room temperature .
+The fixed eye was then placed on dental wax and sectioned in the midline with a fresh razor blade ( half of the retinas were sectioned along the D-V axis and half along the nasal-temporal axis ) .
+The retinas ( and attached retinal pigment epithelium ) were carefully dissected away from the sclera , which was discarded .
+The retinas were then rinsed four times for 15 min each with Sorenson 's buffer ( pH 7.4 ) .
+They were then stained for 2 h at 4 C with 1 % osmium tetroxide in 1.5 % potassium ferrocyanide .
+Next , the retinas were rinsed four times for 15 min in maleate buffer ( pH 5.1 ) and then stained for 2 h at room temperature with 1 % uranyl acetate in maleate buffer ( pH 6.2 ) .
+They were then washed four times for 15 min with maleate buffer ( pH 5.1 ) ; once for 10 min with 70 % ethanol ; once for 10 min with 95 % ethanol ; and four times for 30 min with 100 % ethanol .
+Next , the retinas were washed three times over one hour with propylene oxide and then embedded in TAAB 812 Resin ( Marivac , Quebec , Canada ) for 1 -- 2 d in a 60 C oven .
+Semi-thin sections were cut at a thickness of 0.5 m and stained with 1 % toluidine blue in 1 % sodium borate buffer .
+Images of semi-thin sections from the mutant retina were taken within the ventral two-thirds of the retina where the majority of the supernumerary S-opsin -- expressing <termsem="CL:0000000"> cells </term> reside .
+Wild-type images were taken in comparable regions .
+Sections for electron microscopy were cut at a thickness of 95 nm , placed on grids , and poststained with 2 % uranyl acetate followed by 0.2 % lead citrate .
+All sections were cut in a plane perpendicular to the plane of the <termsem="CL:0000210"> photoreceptor </term> layer .
+They were then visualized on a Jeol 1200EX electron microscope ( Jeol , Tokyo , Japan ) .
+The electron microscopic images in Figure 7 derive from the ventral two-thirds of the wild-type and mutant retinas .
+The area of the <termsem="CL:0000000"> cell </term> bodies of the <termsem="CL:0000604"> rods </term> and `` <termsem="CL:0000604"> rod </term> - like '' <termsem="CL:0000000"> cells </term> in the wild-type and mutant ONLs , respectively , were quantitated in the following manner .
+First , ten fields within the ONL were chosen at random at 1,000  magnification and then photographed at 4,000  magnification for each of the two genotypes .
+Such images typically contained 35 -- 45 <termsem="CL:0000000"> cell </term> bodies .
+In order to quantitate only the area of those <termsem="CL:0000000"> cell </term> bodies that were cut as near to the midline of the <termsem="CL:0000000"> cell </term> as possible ( i.e. , in order to obtain the maximal cross-sectional area ) the five <termsem="CL:0000000"> cells </term> with the largest apparent area in each photograph were chosen by eye and the outline of the <termsem="CL:0000000"> cell </term> membranes were traced onto white paper .
+These tracings were scanned along with the size bar from the electron micrographs , and the areas of the resulting digital images were quantitated using Scion Image software ( NIH Image , http://rsb.info.nih.gov/nih-image ) .
+A total of 50 <termsem="CL:0000000"> cells </term> of each genotype were quantitated in this manner .
+In addition , in order to evaluate the percentage of <termsem="CL:0000604"> rods </term> in the wild-type retina that had any juxtanuclear mitochondria , all <termsem="CL:0000604"> rods </term> within all ten images were counted as were the number of <termsem="CL:0000000"> cells </term> showing juxtanuclear organelles .
+A total of six out of 399 wild-type <termsem="CL:0000604"> rods </term> ( 1.5 % ) possessed a juxtanuclear organelle .
+This analysis permitted us to evaluate the wild-type <termsem="CL:0000604"> rods </term> for juxtanuclear mitochondria at multiple planes of section ; however , serial sections of individual <termsem="CL:0000000"> cell </term> bodies were not performed .
+Figures S1 -- S7 show the in situ hybridization images of all genes discussed in the paper ( see Tables S1 and S2 ) .
+All paired images ( which show the wild-type control on the left and the rd7 mutant retina on the right ) are labeled in the lower left-hand corner with the gene symbol followed by the age of the retinas in question ( P6 , P14 , P28 , or adult ) .
+Unpaired images represent prenatal time points and are labeled with the gene symbol of the gene in question ( `` wt '' indicates that the retina is from a wild-type animal ) and a designation of the embryonic day from which the retina derives ( e.g. , e17 .5 = embryonic day 17.5 ) .
+In Situ Hybridization Images for G1 -- G13 in Table S1 .
+Click here for additional data file .
+In Situ Hybridization Images for G14 -- G25 in Table S1 .
+Click here for additional data file .
+In Situ Hybridization Images for G26 -- G35 in Table S1 .
+Click here for additional data file .
+In Situ Hybridization Images for G36 -- G46 in Table S1 .
+Click here for additional data file .
+In Situ Hybridization Images for G47 -- G53 in Table S1 .
+Click here for additional data file .
+In Situ Hybridization Images for Genes 1 -- 11 in Table S2 .
+Click here for additional data file .
+In Situ Hybridization Images for Genes 12 -- 22 in Table S2 .
+Click here for additional data file .
+In Situ Hybridization Results for M-Opsin and Thrb2 .
+Note that the M-opsin -- positive <termsem="CL:0000000"> cells </term> are scattered throughout the ONL at P14 , but appear to have migrated to the scleral edge of the ONL by P28 .
+There is no change in the number of M-opsin -- or Thrb2-positive <termsem="CL:0000000"> cells </term> in the rd7 mutant .
+Click here for additional data file .
+<termsem="CL:0000573"> Cone </term> - Specific and <termsem="CL:0000573"> Cone </term> - Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization .
+This table is a supplemental version of Figure 1 .
+`` Figure Number '' indicates which figure ( Figure S1 -- S5 ) contains the in situ hybridization images corresponding to the gene in question .
+`` Lab Clone Information '' indicates the region of the gene in question from which the probe used for in situ hybridization was derived .
+All abbreviations are as indicated in Figure 1 .
+Click here for additional data file .
+<termsem="CL:0000604"> Rod </term> Genes Evaluated in the rd7 Mutant by In Situ Hybridization .
+This table contains details about the in situ hybridization patterns of 22 genes ( many of which are <termsem="CL:0000604"> rod </term> - specific ) evaluated in the rd7 mutant retina .
+`` Figure Number '' indicates which figure ( Figure S6 or S7 ) contains the in situ hybridization images corresponding to the gene in question .
+`` Lab Clone Information '' indicates the region of the gene in question from which the probe used for in situ hybridization was derived .
+The color coding of the in situ hybridization results under `` In Situ Pattern '' is as follows : dark green , markedly down-regulated ; light green , mildly down-regulated ; red , markedly up-regulated ; orange , mildly up-regulated .
+Click here for additional data file .
+Summary of cDNA Microarray Results from P0 , P6 , and P14 .
+The spots listed in this table represent those that were either up - or down-regulated in three out of three microarray experiments as described in Materials and Methods .
+The Cy3/Cy5 signal ratios are indicated for all three microarray experiments at each time point .
+Note that the Cy3/Cy5 ratios for `` Microarray # 3 '' are reversed relative to the other two , since the fluorescent tag used to label wild-type and mutant RNA was swapped as described in Materials and Methods .
+Click here for additional data file .
+Summary of Genes Up-Regulated in rd7 Mutant Retina at P21 by Affymetrix Microarray .
+Only genes that were found to be up-regulated in three out of three microarray experiments ( as described in Materials and Methods ) are listed .
+`` Nr2e3 signal '' and `` C57BL/6 signal '' represent the average signal for that transcript in all three microarray experiments .
+Click here for additional data file .
+Summary of Genes Down-Regulated in rd7 Mutant Retina at P21 by Affymetrix Microarray .
+Only genes that were found to be down-regulated in three out of three microarray experiments ( as described in Materials and Methods ) are listed .
+`` Nr2e3 signal '' and `` C57BL/6 signal '' represent the average signal for that transcript in all three microarray experiments .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P0 ( I ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P0 ( II ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P0 ( III ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P6 ( I ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P6 ( II ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P6 ( III ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P14 ( I ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P14 ( II ) .
+Click here for additional data file .
+Raw cDNA Microarray Data for rd7 versus Wild-Type Comparison at P14 ( III ) .
+Click here for additional data file .
+Raw Affymetrix Microarray Data for rd7 versus Wild-Type Comparison at P21 ( I ) .
+Click here for additional data file .
+Raw Affymetrix Microarray Data for rd7 versus Wild-Type Comparison at P21 ( II ) .
+Click here for additional data file .
+Raw Affymetrix Microarray Data for rd7 versus Wild-Type Comparison at P21 ( III ) .
+Click here for additional data file .
+We are grateful to E. Raviola and T. Reese for help with electron microscopy and to A. Jadhav and J. Trimarchi for access to unpublished data and reagents .
+Thanks to A. Jadhav , J. Trimarchi , D. Kim , and T. Cherry for helpful comments on the manuscript .
+This work was supported by the Howard Hughes Medical Institute and grants from the National Institutes of Health ( EY014822 to JCC and EY009676 to CLC ) .
+Thanks to A. Swaroop for providing us with Nrl mutant mice .
+E [ number ] - embryonic day [ number ] .
+ESCS - enhanced S - <termsem="CL:0000573"> cone </term> syndrome .
+GCL - ganglion <termsem="CL:0000000"> cell </term> layer .
+INL - inner nuclear layer .
+ONL - outer nuclear layer .
+P [ number ] - postnatal day [ number ] .
+<termsem="CL:0000573"> Cone </term> - Specific and <termsem="CL:0000573"> Cone </term> - Enriched Genes Evaluated in the rd7 Mutant by Microarray and In Situ Hybridization .
+The color coding of text in the column `` Gene Name '' is as follows : light blue ( G1 -- G15 ) , genes previously reported in the literature to have <termsem="CL:0000573"> cone </term> - specific or <termsem="CL:0000573"> cone </term> - enriched patterns of expression ; yellow ( G16 -- G25 ) , novel <termsem="CL:0000573"> cone </term> genes identified in an unrelated study ( unpublished data ) ; dark green ( G26 -- G36 ) , novel <termsem="CL:0000573"> cone </term> genes identified in the present study that were up-regulated in rd7 ; light green ( G37 -- G46 ) , additional genes found to be up-regulated in rd7 by microarray in the present study but that had either weak or inapparent <termsem="CL:0000573"> cone </term> - specific signal on in situ hybridization ; white ( G47 -- G53 ) , additional genes up-regulated by microarray at two different timepoints but with either unusual expression patterns or nonconfirmatory in situ hybridizations .
+The column `` ID '' contains identifiers used in the present paper to refer to specific genes .
+`` GenBank ID '' contains the GenBank accession number of the clone used to make the probe for in situ hybridization .
+Within this column , `` lab clone '' indicates that the probe used for in situ hybridization derived from a clone in our laboratory .
+The region of the gene to which it corresponds is indicated in Table S1 .
+Columns `` P0 '' through `` P21 '' contain the results of microarray experiments at the given postnatal dates .
+P0 , P6 , and P14 time points represent analyses on cDNA microarrays ; the P21 time point represents data from an Affymetrix microarray ( mouse genome 432 2.0 ) .
+A red <termsem="CL:0000000"> cell </term> with a single up arrow indicates that the gene in question was up-regulated in three out of three microarrays at that time point ( as described in Materials and Methods ) .
+Those <termsem="CL:0000000"> cells </term> labeled orange with a single up arrow and asterisk indicate that the gene in question was up-regulated in two out of three microarrays at that time point .
+The column `` In Situ '' lists the type of derepression seen for the gene in question in the rd7 mutant retina ( type I and type II are described in the main text ) .
+Genes designated `` unclassified '' represent patterns of derepression that were difficult to classify as either type I or type II ( see main text for more details ) .
+`` Wild type '' in this column indicates that the in situ hybridization pattern in the rd7 mutant retina was not different from the wild-type pattern ; and `` special '' indicates a special pattern of expression discussed more fully in the main text .
+The column `` Expression Pattern '' contains a concise description of the wild-type expression pattern of the gene in question .
+In the case of genes for which no signal was obtained on in situ hybridization in the present study , the specified expression pattern derives from reports in the literature .
+Within this column , `` <termsem="CL:0000573"> cone </term> > <termsem="CL:0000604"> rod </term> '' indicates that the gene is expressed in all <termsem="CL:0000210"> photoreceptors </term> , but at higher levels in <termsem="CL:0000573"> cones </term> than <termsem="CL:0000604"> rods </term> ; `` <termsem="CL:0000573"> cone </term> ? ''
+indicates very weak staining in a <termsem="CL:0000573"> cone </term> - like distribution .
+<termsem="CL:0000748"> BP </term> , <termsem="CL:0000748"> bipolar cells </term> ; EP , early <termsem="CL:0000210"> photoreceptor </term> expression pattern ; IS , inner core segment localization ; <termsem="CL:0000636"> MG </term> , <termsem="CL:0000636"> Mller glia </term> ; N/A , not available on the microarray ; NS , no signal detected on in situ hybridization ; RPE , retinal pigment epithelium .
+<termsem="CL:0000573"> Cone </term> and <termsem="CL:0000604"> Rod </term> Gene Expression in the rd7 Mutant at P14 .
+The upper sets of photomicrographs demonstrate examples of type I and type II <termsem="CL:0000573"> cone </term> gene derepression in the rd7 mutant retina as explained in the main text .
+The bottom left images show several <termsem="CL:0000604"> rod </term> - specific genes that are essentially unchanged in the rd7 background at P14 .
+The bottom right images show the expression pattern of three <termsem="CL:0000210"> photoreceptor </term> transcription factors in the rd7 mutant .
+Abbreviations in the lower left hand corner of each pair of panels represent the gene symbols summarized in Figure 1 .
+S-Opsin Dissociated <termsem="CL:0000000"> Cell </term> In Situ Hybridization and S-Opsin/Rhodopsin Antibody Staining on rd7 Mutant Retina .
+( A -- C ) A dissociated <termsem="CL:0000000"> cell </term> in situ hybridization with an S-opsin probe ( red ) on dissociated rd7 mutant retinal <termsem="CL:0000000"> cells </term> stained with DAPI ( blue ) .
+( C ) shows the merged images .
+( D -- F ) The outer nuclear layer of an rd7 mutant retina stained by antibody for S-opsin ( red ) and rhodopsin ( green ) .
+The scleral edge of the outer nuclear layer is up .
+DAPI staining is in blue .
+( F ) shows the merged images .
+Insets are higher-power images of the outer segments showing non-overlap of S-opsin and rhodopsin staining in the mutant .
+Expression Patterns of Several Novel <termsem="CL:0000573"> Cone </term> Genes Up-Regulated in rd7 .
+In the wild-type images ( wt ) , note the scattered , weakly positive <termsem="CL:0000000"> cells </term> at the scleral edge of the outer nuclear layer in a <termsem="CL:0000573"> cone </term> distribution .
+All of the genes show marked up-regulation in the rd7 mutant .
+Bub1b and Tcta show transcript localization predominantly to the inner segment of the <termsem="CL:0000210"> photoreceptors </term> .
+Retinas are oriented such that the scleral edge is up .
+Some of the Genes Up-Regulated in rd7 Show an Early <termsem="CL:0000210"> Photoreceptor </term> Pattern of Expression .
+Gnb3 and Thrb2 are both previously characterized <termsem="CL:0000573"> cone </term> genes that show staining at the scleral edge of the embryonic mouse retina in <termsem="CL:0000000"> cells </term> that will differentiate into <termsem="CL:0000210"> photoreceptors </term> .
+Ece1 and Otop3 are two novel <termsem="CL:0000573"> cone </term> genes identified in this study that were up-regulated in rd7 and also showed an early <termsem="CL:0000210"> photoreceptor </term> pattern of expression .
+Prdm1 and RIKEN cDNA 1300018I05 ( Figure 1 , genes G48 and G49 , respectively ) are two other genes that had either undetectable signal ( Prdm1 ) or no apparent change in expression pattern in adult rd7 mutants ( RIKEN cDNA 1300018I05 ) , but which also showed staining in the embryonic retina in a presumptive <termsem="CL:0000210"> photoreceptor </term> pattern .
+All images are from E17 .5 retina except Gnb3 , which was from E16 .
+The Onset of rhodopsin Expression Is Delayed in the rd7 Mutant Retina .
+Note the nearly undetectable staining for rhodopsin in this P6 mutant retina ( top right ) .
+The majority of <termsem="CL:0000604"> rod </term> - specific genes did not show this delay in expression onset , as indicated by the normal amount of staining for Pde6a in the mutant at P6 ( bottom images ) .
+The rd7 Mutant Retina Contains a Morphologically Hybrid <termsem="CL:0000210"> Photoreceptor Cell </term> Type in Addition to Supernumerary S-Opsin -- Positive <termsem="CL:0000573"> Cones </term> .
+( A and B ) Toluidine blue-stained semi-thin sections of the outer nuclear layer ( scleral edge oriented up ) .
+( C and D ) Hand-drawn diagrams of the <termsem="CL:0000000"> cells </term> in ( A ) and ( B ) , respectively .
+<termsem="CL:0000000"> Cells </term> with the nuclear features of <termsem="CL:0000573"> cones </term> are highlighted in blue .
+Note that the number of such <termsem="CL:0000000"> cells </term> is greater in the mutant , and their <termsem="CL:0000000"> cell </term> bodies are scattered throughout the outer nuclear layer .
+In addition , the overall columnar architecture of the outer nuclear layer seen in the wild type is disrupted in this portion of the mutant retina .
+Other portions of the mutant retina with fewer supernumerary <termsem="CL:0000573"> cone cells </term> , however , retain the normal columnar appearance ( unpublished data ) .
+( E and F ) Images of the outer nuclear layer ( scleral edge up ) stained by in situ hybridization for S-opsin .
+Note the typical pattern of staining at the scleral edge of the outer nuclear layer in the wild type .
+The rd7 mutant retina shows supernumerary S-opsin -- positive <termsem="CL:0000000"> cells </term> scattered throughout the outer nuclear layer in a distribution very similar to the supernumerary <termsem="CL:0000573"> cone cells </term> seen in ( B ) .
+Since images ( E ) and ( F ) derive from different retinas than those depicted in ( A ) and ( B ) , the location of the individual <termsem="CL:0000000"> cells </term> do not correspond .
+( G and H ) Electron micrographs of the outer nuclear layer ( 10,000  magnification ) .
+Note the uniform distribution of <termsem="CL:0000604"> rod cell </term> bodies in the wild type ( G ) .
+The <termsem="CL:0000000"> cell </term> bodies are nearly round and consist almost exclusively of a nucleus with a single , dense mass of heterochromatin .
+In the rd7 mutant ( H ) , two types of <termsem="CL:0000000"> cell </term> are shown .
+The ovoid one with a lesser quantity of heterochromatin , paler euchromatin , and two juxtanuclear mitochondria ( yellow arrow ) represents a typical <termsem="CL:0000573"> cone cell </term> body .
+The adjacent <termsem="CL:0000000"> cell </term> with a more `` <termsem="CL:0000604"> rod </term> - like '' mass of heterochromatin and a single juxtanuclear mitochondrion ( red arrow ) represents one of the hybrid <termsem="CL:0000210"> photoreceptors </term> discussed more fully in the main text .
+A Partial View of the <termsem="CL:0000604"> Rod Photoreceptor </term> Transcriptional Regulatory Network .
+Note that green lines indicate activation , and yellow and red lines indicate weak and strong repression , respectively .
+The dotted lines associated with a question mark indicate that it is not known whether Nrl directly represses the target genes in question or whether its repression is mediated by a downstream transcription factor ( `` X '' ) .
+Note that Nr2e3 appears to negatively regulate its own transcription .
+The regulatory linkages depicted in this diagram are not necessarily direct .
+The weak activation of some <termsem="CL:0000604"> rod </term> - specific genes by Nr2e3 is omitted from this diagram for clarity .
+Also not shown is the role of other <termsem="CL:0000210"> photoreceptor </term> transcription factors , such as Crx .
+Competing interests .
+The authors have declared that no competing interests exist .
+Author contributions .
+JCC and CLC conceived and designed the experiments .
+JCC performed the experiments .
+JCC and CLC analyzed the data .
+JCC contributed reagents/materials/analysis tools .
+JCC and CLC wrote the paper .
+Citation : Corbo JC , Cepko CL ( 2005 ) A hybrid <termsem="CL:0000210"> photoreceptor </term> expressing both <termsem="CL:0000604"> rod </term> and <termsem="CL:0000573"> cone </term> genes in a mouse model of enhanced s - <termsem="CL:0000573"> cone </term> syndrome .
+PLoS Genet 1 ( 2 ) : e11 .

@@ -1,0 +1,464 @@
+Genetic Analysis of the Roles of <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> in Limb Patterning and Skeletogenesis .
+<termsem="PR:000000034"> Bone morphogenetic protein </term> ( <termsem="PR:000000034"> BMP </term> ) family members , including <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> , are expressed throughout limb development .
+<termsem="PR:000000034"> BMPs </term> have been implicated in early limb patterning as well as in the process of skeletogenesis .
+However , due to complications associated with early embryonic lethality , particularly for <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> , and with functional redundancy among <termsem="PR:000000034"> BMP </term> molecules , it has been difficult to decipher the specific roles of these <termsem="PR:000000034"> BMP </term> molecules during different stages of limb development .
+To circumvent these issues , we have constructed a series of mouse strains lacking one or more of these <termsem="PR:000000034"> BMPs </term> , using conditional alleles in the case of <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> to remove them specifically from the limb bud mesenchyme .
+Contrary to earlier suggestions , our results indicate that <termsem="PR:000000034"> BMPs </term> neither act as secondary signals downstream of <termsem="PR:000014841"> Sonic Hedghog </term> ( <termsem="PR:000014841"> SHH </term> ) in patterning the anteroposterior axis nor as signals from the interdigital mesenchyme in specifying digit identity .
+We do find that a threshold level of <termsem="PR:000000034"> BMP </term> signaling is required for the onset of chondrogenesis , and hence some chondrogenic condensations fail to form in limbs deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+However , in the condensations that do form , subsequent chondrogenic differentiation proceeds normally even in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+In contrast , we find that the loss of both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> results in a severe impairment of osteogenesis .
+A group of related signaling molecules called <termsem="PR:000000034"> bone morphogenetic proteins </term> ( <termsem="PR:000000034"> BMPs </term> ) are known to play important roles in the formation of the structures such as the limbs .
+However , because different members of this group often have similar effects on target cells and are produced in overlapping regions of the embryo and hence can be redundant with one another , removal of any single member of the <termsem="PR:000000034"> BMP </term> family may not reveal the full extent of the roles they play during development .
+We have therefore improved on this type of analysis by removing pairs of these factors ( <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> ) specifically from the developing limb .
+Although some have speculated that these signals play an early role in organizing or `` patterning '' the different tissues of the limb , we find no evidence for such a role .
+We do find , however , that a minimal amount of <termsem="PR:000000034"> BMP </term> signal is required to form cartilage , and hence some cartilaginous elements fail to form in limbs deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+Moreover , in the absence of these two <termsem="PR:000000034"> BMP </term> family members , there is a severe impairment in the development of bone tissue , resulting in severely deformed limbs .
+This study gives important new insight into the roles of these <termsem="PR:000000034"> BMP </term> signals in making skeletal tissues in the embryo .
+<termsem="PR:000000034"> Bone morphogenetic proteins </term> ( <termsem="PR:000000034"> BMPs </term> ) are secreted signaling molecules belonging to the <termsem="PR:000000046"> transforming growth factor  </term> superfamily , originally identified on the basis of their ability to induce ectopic bone formation when implanted within soft tissue in vivo [ 1 -- 3 ] .
+<termsem="PR:000000034"> BMP </term> family members are now known to play an extremely diverse set of roles in a wide variety of developmental processes [ 4 ] .
+Even in the context of the morphogenesis of a single structure , these molecules can play a series of quite divergent roles .
+For example , during limb development , <termsem="PR:000000034"> BMPs </term> have been postulated to act sequentially in multiple distinct aspects of patterning , cell type specification , and differentiation of various tissues , particularly of the skeleton .
+The earliest step of limb development in which <termsem="PR:000000034"> BMP </term> signaling has been implicated is the establishment of the anterior-posterior limb axis .
+Differences in anterior-posterior pattern are instructed as a graded response to <termsem="PR:000014841"> Sonic Hedghog </term> ( <termsem="PR:000014841"> SHH </term> ) signaling emanating from the posterior margin of the limb bud [ 5 ] .
+It has remained controversial , however , whether this response is direct or indirect .
+If indeed the long-range effects of <termsem="PR:000014841"> SHH </term> are indirectly mediated by local production of secondary signals , the leading candidates have been two members of the <termsem="PR:000000034"> BMP </term> family , <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> .
+Both are expressed in a broader domain than <termsem="PR:000014841"> SHH </term> in the early posterior limb bud mesenchyme [ 6,7 ] , although <termsem="PR:000000168"> BMP7 </term> also has a second , weaker domain of expression in the anterior limb bud mesenchyme .
+<termsem="PR:000000164"> BMP2 </term> [ 8 ] and <termsem="PR:000000168"> BMP7 </term> [ 7 ] can be induced by ectopic <termsem="PR:000014841"> SHH </term> and their expression is greatly diminished in the absence of <termsem="PR:000014841"> SHH </term> activity [ 9 ] .
+<termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> are thus secondary signals produced in response to <termsem="PR:000014841"> SHH </term> activity .
+Moreover , <termsem="PR:000000034"> BMP </term> signaling has a weak ability to posteriorly polarize the limb in ectopic grafting experiments [ 10 ] , an activity enhanced by prior low-level exposure to <termsem="PR:000014841"> SHH </term> [ 11 ] .
+It remains unclear , however , whether <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> activity is required endogenously for anterior-posterior limb patterning by <termsem="PR:000014841"> SHH </term> .
+<termsem="PR:000000164"> Bmp2 </term> mutant embryos die too early to assess their limb phenotypes .
+A targeted deletion of <termsem="PR:000000168"> Bmp7 </term> has been made , and <termsem="PR:000000168"> Bmp7 </term> - deficient embryos display hindlimb polydactyly with incomplete penetrance but otherwise phenotypically normal limbs [ 12,13 ] .
+Nonetheless , <termsem="PR:000000168"> Bmp7 </term> knockout mice do not show any defect in limb polarity .
+However , a redundant function in anterior-posterior patterning with <termsem="PR:000000164"> BMP2 </term> remains a possibility .
+In addition to <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> , a third member of this family that is closely related to <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , is also expressed in the early limb bud .
+Like <termsem="PR:000000168"> BMP7 </term> , it is expressed in both the anterior and posterior margins of the limb bud mesenchyme [ 4,14 ] ; however , it does not appear to be induced by <termsem="PR:000014841"> SHH </term> signaling , nor does its expression change in <termsem="PR:000014841"> SHH </term> - deficient limb buds .
+Thus , <termsem="PR:000000165"> BMP4 </term> is not a candidate for a secondary signal downstream of <termsem="PR:000014841"> SHH </term> in early patterning .
+However , all three of these molecules , <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> , have been suggested to act in a second distinct phase of limb patterning , when digit identities are established downstream of earlier patterning events .
+In the vertebrate limb , each digit can be uniquely identified based on its size , length , number of phalanges , and location within the autopod .
+As a consequence of the initial establishment of anterior-posterior positioned information within the limb by <termsem="PR:000014841"> SHH </term> and/or <termsem="PR:000000034"> BMP </term> signaling , the interdigital mesenchyme of the hand plate becomes specified in a graded manner .
+Grafting and extirpation experiments have shown that it is this polarized interdigital tissue which directs digit morphology [ 15 ] .
+<termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> are all expressed in the interdigital mesenchyme [ 4,14 ] , and experiments inhibiting <termsem="PR:000000034"> BMP </term> signaling in this tissue suggested that differential levels of <termsem="PR:000000034"> BMPs </term> in the interdigital mesenchyme might be the relevant factor directing digit morphology [ 15 ] .
+As noted above , <termsem="PR:000000168"> BMP7 </term> - deficient embryos produce mostly normal limbs , and mice harboring a conditional deletion of <termsem="PR:000000165"> Bmp4 </term> in the limb bud mesenchyme also do not show evidence of anterior digit transformation [ 16 ] , as would have been predicted if <termsem="PR:000000165"> BMP4 </term> acted as an interdigital regulator of digit morphology .
+In the light of these observations , it would seem unlikely that quantitative differences in levels of interdigital <termsem="PR:000000034"> BMP </term> signal are responsible for establishing digit identity , although redundancy between <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> in this role remains a possibility .
+A third aspect of limb patterning in which <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> have been implicated is in the apoptotic death of the interdigital tissue .
+For example , ectopic application of <termsem="PR:000000034"> BMP </term> antagonists demonstrates that <termsem="PR:000000034"> BMP </term> signaling is necessary for this process , and in its absence , webbing occurs [ 17 -- 19 ] ) .
+<termsem="PR:000000034"> BMP </term> activity also plays an indirect role in limb patterning as a key component of a feedback loop between <termsem="PR:000014841"> SHH </term> production in the posterior limb bud and fibroblast growth factor production in the overlying apical ectodermal ridge ( AER ) .
+<termsem="PR:000014841"> SHH </term> activity leads to the upregulation of the <termsem="PR:000000034"> BMP </term> antagonist Gremlin in the mesenchyme [ 20,21 ] .
+This , in turn , prevents <termsem="PR:000000034"> BMPs </term> from downregulating fibroblast growth factor ( FGF ) production in the AER [ 17,22 ] and maintains the integrity of the AER itself [ 23 ] .
+FGF signaling feeds back to maintain <termsem="PR:000014841"> SHH </term> production in the posterior mesenchyme [ 8,24 ] .
+Thus , conditional removal of <termsem="PR:000000165"> BMP4 </term> activity from the posterior limb mesenchyme results in a persistence of the AER , expanded <termsem="PR:000014841"> SHH </term> signaling , and consequent preaxial and postaxial polydactyly [ 16 ] .
+At later stages of limb development , <termsem="PR:000000034"> BMP </term> activity is also believed to play critical roles in skeletogenesis .
+Activation and dominant-negative experiments in the chick have shown that signaling through the <termsem="PR:000000036"> BMPR-IB receptor </term> is necessary and sufficient for cartilage condensation in chick [ 25 ] .
+Likewise , conditional knockout of <termsem="PR:000000035"> BmpR1A </term> and <termsem="PR:000000036"> BmpR1B </term> blocks all chondrogenic differentiation in the mouse limb bud [ 26 ] .
+Similarly , when <termsem="PR:000000021"> noggin </term> , a potent <termsem="PR:000000034"> BMP </term> inhibitor , is introduced in early stage chick limb buds prior to skeletogenesis , mesenchymal condensation does not take place [ 27,28 ] .
+Taken together , these studies strongly implicate <termsem="PR:000000034"> BMP </term> signaling as necessary for mesenchymal condensations and the initiation of chondrogenesis .
+However , the phenotypes in these experiments are severe , causing either global chondrogenesis or absence of chondrogenesis , in the gain - and loss-of-function experiments , respectively .
+These severe defects during the early stages of skeletogenesis preclude investigation of any specific roles for <termsem="PR:000000034"> BMPs </term> in later events in cartilage differentiation , bone formation , and bone metabolism [ 29 ] .
+Conversely , removal of individual ligands such as <termsem="PR:000000165"> BMP4 </term> [ 16 ] or <termsem="PR:000000168"> BMP7 </term> [ 12,13 ] has not displayed defects in skeletal differentiation , presumably due to functional redundancy .
+To gain further insights into the potential roles of <termsem="PR:000000034"> BMP </term> signaling in vertebrate limb patterning and skeletogenesis , we have produced mice simultaneously lacking <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> activity or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> activity in the limb mesechyme during limb development .
+Since <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> mutants are both lethal early in embryogenesis [ 30,31 ] , we used conditional alleles of both these genes .
+The conditional alleles were deleted early in limb development through the action of a cre-recombinase transgene expressed under the control of the <termsem="PR:000013316"> Prx1 </term> enhancer [ 32 ] .
+Neither limbs deficient in <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> nor those deficient in <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> had defects suggestive of loss of anterior-posterior patterning information , arguing against these factors acting as secondary signals downstream of <termsem="PR:000014841"> SHH </term> or acting as interdigital determinants of digit identity .
+The <termsem="PR:000000164"> Bmp2 </term> / <termsem="PR:000000165"> Bmp4 </term> double mutants did display a loss of posterior digits with a broad posterior hand plate , suggestive of a block in the chondrogenic condensation of the posterior digit rays , rather than a change in anterior-posterior digit identity .
+At later stages , the combined activity of neither <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> nor of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> is required for chondrogenesis .
+Osteogenesis is also initiated properly in the absence of these pairs of factors .
+However , at later stages , the combined loss of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> evidently becomes limiting , and osteogenesis ceases .
+As all prior reported manipulations of the <termsem="PR:000000034"> BMP </term> pathway during skeletal development either result in a block at the first stage of chondrogenesis or allow complete skeletal formation , this is the first demonstration of a requirement for <termsem="PR:000000034"> BMP </term> activity in osteogenic differentiation .
+To investigate the roles of <termsem="PR:000000034"> BMP </term> signaling at various stages of limb patterning and skeletogenesis , we constructed a series of mice deficient singly or in combination in the ability to produce <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> .
+<termsem="PR:000000168"> BMP7 </term> - deficient mice ( kindly provided by Dr. Liz Robertson ) survive until birth .
+However , <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> are both required for viability early in embryonic development [ 30,31 ] .
+We therefore constructed a conditional allele of <termsem="PR:000000164"> Bmp2 </term> , introducing loxP sites flanking exon 3 .
+We obtained a conditional allele of <termsem="PR:000000165"> Bmp4 </term> , in which exon 4 is flanked by loxP sites , from Dr. Holger Kulessa and Dr. Brigid Hogan [ 16 ] .
+Both of these alleles would be expected to result in null alleles following recombination ( see Materials and Methods for details ) .
+To conditionally inactivate <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> in the limb , we used a well-characterized transgene in which cre-recombinase is expressed under the control of the <termsem="PR:000013316"> Prx1 </term> limb enhancer [ 32 ] .
+This transgene expresses cre very early in limb development , resulting in complete recombination of floxed alleles at early limb bud stages .
+We verified the ability of <termsem="PR:000013316"> Prx1 </term> : : cre to recombine the conditional <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> alleles at earliest limb bud stages using in situ hybridization .
+<termsem="PR:000000164"> Bmp2 </term> is first expressed in the limb mesenchyme at embryonic day ( E ) 10.5 in the mouse ( Figure 1A , asterisk ) .
+By the time its expression is first detectable , the floxed <termsem="PR:000000164"> Bmp2 </term> allele appears to be completely recombined in the limb mesenchyme , as whole mount in situ hybridization does not detect any mesenchymal <termsem="PR:000000164"> Bmp2 </term> transcription ( Figure 1B ) .
+At E10 .5 <termsem="PR:000000165"> Bmp4 </term> is expressed in the mouse limb mesenchyme in two stripes at the anterior and posterior margins ( Figure 1C , red arrows ) .
+These expression domains are completely lost by E10 .5 in the presence of the <termsem="PR:000013316"> Prx1 </term> : : cre transgene ( Figure 1D ) .
+<termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> are also expressed in the AER , where <termsem="PR:000013316"> Prx1 </term> : : cre is inactive , and these domains of expression are not affected ( Figure 1A -- 1D , black arrows ) .
+An Allelic/Nonallelic Series of <termsem="PR:000000034"> BMP </term> - Deficient Limbs .
+Mice were generated with limbs deficient in <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , or <termsem="PR:000000168"> BMP7 </term> , both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , or both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> .
+To obtain an initial indication of the range of phenotypes produced in these animals , we first examined the limb skeletons of newborn animals .
+<termsem="PR:000000164"> BMP2 </term> - deficient limbs appeared remarkably normal , both in skeletal pattern and in gross aspects of chondrogenesis and osteogenesis indicated by Alcian blue/Alizarin red staining .
+The one notable defect in the appendicular skeleton of these animals is a characteristic malformation of the scapula ( Figure 1 , red arrow ) .
+<termsem="PR:000000164"> BMP2 </term> - deficient limbs also exhibit 3/4 soft-tissue syndactyly with variable penetrance ( Figure 2 ) .
+Mice with limbs deficient in <termsem="PR:000000165"> BMP4 </term> activity and the limbs of <termsem="PR:000000168"> Bmp7 </term> mutant mice have both been previously described .
+As reported [ 16 ] , in the absence of <termsem="PR:000000165"> BMP4 </term> activity , limbs display a variable penetrance of preaxial and postaxial polydactyly , but otherwise , normal digit patterns and apparently normal skeletal differentiation ( Figure 1G and 1O ) take place .
+As previously described , mice homozygous for a null mutation in <termsem="PR:000000168"> Bmp7 </term> [ 12 ] have no defects in the formation of the normal appendicular skeletal elements ( Figure 1H and 1P ) .
+We do occasionally observe preaxial polydactyly in these mutants .
+Compound heterozygous mice , with one functional copy each of <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> in the limb ( <termsem="PR:000000164"> Bmp2 </term> + / C ; <termsem="PR:000000165"> Bmp4 </term> + / C ; <termsem="PR:000013316"> Prx1 </term> : : cre ) , show no effect on either limb patterning or skeletogenesis ( unpublished data ) .
+Similarly , limb skeletons of mice in which both copies of the <termsem="PR:000000165"> Bmp4 </term> gene and one copy of the <termsem="PR:000000164"> Bmp2 </term> gene have been conditionally removed in the limb ( <termsem="PR:000000164"> Bmp2 </term> + / C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ) are phenotypically normal other than exhibiting the variable penetrance preaxial and postaxial polydactyly seen in mice deficient in <termsem="PR:000000165"> BMP4 </term> activity alone ( Figure 1J and 1R ) .
+In contrast , mice in which both copies of <termsem="PR:000000164"> Bmp2 </term> and one copy of <termsem="PR:000000165"> Bmp4 </term> had been removed ( Bmp2C/C ; <termsem="PR:000000165"> Bmp4 </term> + / C ; <termsem="PR:000013316"> Prx1 </term> : : cre ) showed more severe skeletal defects , including significantly thinner skeletal elements .
+However , the digit patterns of those animals are completely normal ( Figure 1I and 1Q ) .
+Animals in which both copies of <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> were removed ( Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ) had extremely malformed limbs ( Figure 1K and 1S ) .
+They displayed severely short and malformed stylopods ; one of the zeugopod elements was almost always missing , and the remaining one was so deformed that it was difficult to identify the element correctly .
+Moreover , the joint articulations are defective such that zeugopod and stylopod elements are fused ( see below and Figure S1A -- S1C ) .
+Interestingly , the autopods are less affected than the proximal elements .
+Nonetheless , the autopod elements are significantly reduced in size , and strikingly the two posterior-most digits are missing in the forelimbs of these animals .
+Simultaneous removal of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> had far less of an effect than did removal of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> activity .
+Compound heterozygous removal of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> ( <termsem="PR:000000164"> Bmp2 </term> + / C , <termsem="PR:000000168"> Bmp7 </term> + /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ) and heterozygous removal of <termsem="PR:000000164"> BMP2 </term> with complete removal of <termsem="PR:000000168"> BMP7 </term> ( <termsem="PR:000000164"> Bmp2 </term> + / C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ) were both completely wild-type in skeletal pattern and differentiation ( unpublished data ) .
+Mice homozygous for removal of <termsem="PR:000000164"> Bmp2 </term> and heterozygous for <termsem="PR:000000168"> Bmp7 </term> ( Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term> + /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ) displayed the same subtle scapular defect seen in Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mutants alone ( unpublished data ) .
+In limbs developing in the complete absence of both <termsem="PR:000000168"> BMP7 </term> and <termsem="PR:000000164"> BMP2 </term> activity ( Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ) , the last phalanx was missing from digit III in the forelimb , and these limbs displayed the same phenotype in the hindlimb with variable penetrance ( Figure 1L and 1T , black arrow ) .
+Additionally , the fibulae of these hindlimbs are malformed and do not articulate with the femur at the knee ( Figure 1T , thick red arrow ) .
+They also display the same scapular defects seen in Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice , and the overall size of the appendicular skeleton is slightly diminished .
+However , skeletal differentiation appears normal in the limbs of these animals .
+Soft Tissue Syndactyly Observed in Limbs of Mice Devoid of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> Activity .
+As noted above , <termsem="PR:000000164"> Bmp2 </term> - deficient animals display a variably penetrant 3/4 soft tissue syndactyly phenotype ( Figure 2B ) .
+In contrast , <termsem="PR:000000165"> Bmp4 </term> - deficient mice show no evidence of syndactyly ( unpublished data ) .
+However , one of the striking defects observed in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice is that in the newborn animals , the digits of both forelimb ( unpublished data ) and hindlimb show complete syndactyly ( Figure 2D ; compare to wild-type , Figure 2C ) .
+To determine the origin of this defect , we examined embryonic limbs at E15 .5 , the stage when interdigital separation is normally taking place ( Figure 2E ) .
+In Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limbs , only the very distal tips of each digit were separated , with the autopod adopting the shape of a notched pallet ( Figure 2F ) .
+In wild-type development , the individual digits become free from one another through a process of interdigital apoptosis , observable by staining with acridine orange ( Figure 2E and 2G , arrow ) .
+Interdigital apoptosis is dramatically reduced in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limbs ( Figure 2F and 2H , arrow ) .
+( Note that the strong acridine orange staining in Figure 2H is not in the interdigital mesenchyme but rather is in the remnant of the cells of the AER [ red asterisk ] . )
+Another region of very prominent apoptosis in the wild-type limb bud is within the AER .
+The AER is a specialized ridge of ectoderm running along the anterior-posterior axis at the distal margin of the early limb bud .
+One of the phenotypes characterizing the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mutant is expansion of the AER ( see below ) .
+Moreover , in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals , the AER is maintained as late as E15 .5 , long after it has started to degrade in wild-type limbs .
+This can be seen morphologically ( unpublished data ) or by staining for expression of AER-specific marker such as <termsem="PR:000007499"> Fgf8 </term> ( Figure 2I and 2J ) .
+The AER displays intense staining with acridine orange , TUNEL , or other markers for apoptosis at every stage when it is present , reflecting the rapid turnover of cells in this structure [ 33 -- 35 ] .
+The Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mutant limbs at E15 .5 show strong acridine orange staining in the remnants of AER ( Figure 2H , asterisk ) , in domains of the distal tip where the AER remains the longest ( compare staining in Figure 2F and 2J ) .
+No significant difference was observed in the extent of apoptosis in the cells of the AER in earlier stage Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mutant embryonic limbs ( Figure S1D -- S1G ) .
+Patterning Defects in Limb Developing with Reduced Levels of <termsem="PR:000000034"> BMP </term> Signaling .
+<termsem="PR:000000034"> BMP </term> signaling has been proposed to play several distinct roles in limb patterning .
+The first of these is in establishing differences along the anterior-posterior axis of the limb downstream of <termsem="PR:000014841"> sonic hedgehog </term> ( <termsem="PR:000014841"> Shh </term> ) .
+<termsem="PR:000014841"> SHH </term> signaling itself extends over a long range in the developing limb bud , based on both activation of target genes [ 36 ] and protein distribution [ 37 ] .
+Nonetheless , some models have suggested that the patterning effect of this morphogenic signal is mediated entirely [ 10 ] or in part [ 11 ] by <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> produced as secondary signals in response to <termsem="PR:000014841"> SHH </term> .
+We have removed both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> activities in the early limb bud ( Figure 1 ) , and moreover , there is no apparent upregulation of <termsem="PR:000000165"> BMP4 </term> expression in the posterior of these limbs ( Figure 3A -- 3D ) .
+The skeletal phenotypes of mouse limbs formed in the absence of <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000168"> BMP7 </term> , and both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> are illuminating , as none of these exhibit significant digit pattern defects ( Figure 1 ) .
+While a distal phalanx is missing in the middle digits of the double mutants ( Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ) , this is not a phenotype consistent with a decrease or loss of a posteriorly derived polarizing activity .
+Indeed , the terminal phalanx forms at the distal tip of each digit by a distinct mechanism , not dependent upon anterior-posterior patterning [ 38 ] .
+These data strongly indicate that <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> are not required secondary signals for <termsem="PR:000014841"> SHH </term> - mediated polarization of the digits along the anterior-posterior axis .
+The lack of transformations in digit identity in the limb skeletons formed in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> activity also argues against <termsem="PR:000000034"> BMP </term> signaling being the critical instructive signal from the interdigital mesenchyme to the forming digits .
+While a distal phalanx was lost from the middle digit of the forelimbs of these animals , these digits do not otherwise have a morphology consistent with their being transformed anteriorly into digit 1 ( thumb ) .
+Indeed , in the hindlimbs , where the penetrance of the phenotype is variable , the mutant middle digits are otherwise indistinguishable from wild-type , other than the presence or absence of this variable skeletal element .
+In contrast to the proposed roles for <termsem="PR:000000034"> BMPs </term> in anterior-posterior digit patterning , we obtained further support for the well-accepted idea that a threshold level of <termsem="PR:000000034"> BMP </term> signaling is necessary interdigitally for programmed cell death to occur .
+We observed syndactyly with variable penetrance in limbs developing without <termsem="PR:000000164"> BMP2 </term> activity ( Figure 2B ) , and nearly complete soft tissue syndactyly of all digits in limbs deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> ( compare Figure 2C and Figure 2D ) .
+The one dramatic patterning defect we observed in our <termsem="PR:000000034"> BMP </term> deficiency series was the loss of posterior digits in forelimbs deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> ( Figure 1K ) , also observed in earlier limb buds stained to show no expression of the condensation marker <termsem="PR:000015435"> Sox9 </term> ( Figure 3 ) .
+To understand this phenotype , we analyzed limb buds at various stages using a series of molecular markers .
+By E11 .5 , the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limb buds are noticeably broader , expanded in the posterior relative to wild-type .
+This correlates with an anterior expansion in <termsem="PR:000014841"> Shh </term> expression ( Figure 3E and 3F , red bracket ) and a concomitant expansion of the AER as visualized by <termsem="PR:000007499"> Fgf8 </term> expression ( Figure 3G and 3H , red bracket ) .
+The expansion in <termsem="PR:000014841"> Shh </term> expression can first be detected at E10 .5 and persists at least until E12 .5 , well after the time normal <termsem="PR:000014841"> Shh </term> expression disappears at E11 .75 ( Figure 3L and 3P ) .
+The expansion of the AER in the absence of <termsem="PR:000000034"> BMP </term> signaling may be understood on the basis of the feedback loop between the zone of polarizing activity ( ZPA ) and the AER .
+Expression of several Fgf genes [ 20,21 ] and maintenance of the AER itself [ 23 ] normally depend on <termsem="PR:000000034"> BMP </term> antagonism induced by <termsem="PR:000014841"> SHH </term> .
+Thus , a decrease in <termsem="PR:000000034"> BMP </term> signaling expands and maintains the AER .
+Because <termsem="PR:000014841"> Shh </term> expression is , reciprocally , supported by FGF signaling from the AER [ 8,24 ] , this , in turn , feeds back on the ZPA , expanding <termsem="PR:000014841"> Shh </term> expression .
+While this explains the broader hand plate of the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limb buds , it is somewhat paradoxical in terms of the skeletal phenotype , as a broadened autopod would normally be expected to result in the formation of extra digits ( polydactyly ) ( e.g. , Figure 1G and 1O of this paper and [ 16 ] ) , not the loss of digits , as observed in the double mutant forelimbs .
+To examine the loss of digits more closely , <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limb buds were examined during cartilage condensation phase of the digit rays at E12 .5 .
+In wild-type limb buds the condensation of all five digits can be visualized at this stage by in situ hybridization with a probe directed against <termsem="PR:000015435"> Sox9 </term> , the earliest known chondrogenic marker ( Figure 3I ) .
+However , in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limb buds at E12 .5 , <termsem="PR:000015435"> Sox9 </term> only detects primordia of the anterior three digits of the forelimb , indicating a failure in the formation of posterior digits at this earliest stage ( Figure 3J ) .
+Genes such as <termsem="PR:000010687"> Msx2 </term> ( Figure 3N ) continue to be expressed throughout the posterior forelimb mesenchyme , indicating that the posterior forelimb tissue is viable at E12 .5 in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+<termsem="PR:000010687"> Msx2 </term> is normally expressed in the non-chondrogenic interdigital mesenchyme at this stage ( Figure 3M ) , a continuation of an earlier expression domain throughout the distal mesenchyme .
+This expression of <termsem="PR:000010687"> Msx2 </term> in the posterior of the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient forelimbs reflects a failure of chondrogenesis in this region .
+The loss of the posterior forelimb digits in these mice thus does not appear to represent a decrease in polarizing activity leading to a change in digit identity rather a consequence of the overall level of <termsem="PR:000000034"> BMP </term> signaling falling below a threshold for initiating chondrogenesis in the posterior of these forelimbs .
+The posterior of the hindlimb in the mutant , in contrast , appears to remain above this threshold , and more than five digit condensations form in the hindlimb bud ( Figures 3K and 1S ) and no ectopic expression of <termsem="PR:000010687"> Msx2 </term> is observed in the posterior ( Figure 3O ) .
+Skeletal Differentiation in Limbs Developing with Reduced Levels of <termsem="PR:000000034"> BMP </term> Signaling .
+<termsem="PR:000000034"> BMPs </term> were first discovered in the context of their skeletogenic activity .
+We therefore wanted to determine whether the loss of the specific <termsem="PR:000000034"> BMP </term> molecules under investigation here would perturb the skeletal differentiation pathways .
+Accordingly , skeletal preparations from each of the various mutant alleles were subjected to histological and molecular analyses .
+The skeletal elements that formed in the absence of <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , or <termsem="PR:000000168"> BMP7 </term> or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> all underwent normal chondrogenesis and osteogenesis by a series of criteria .
+All showed normal staining with Alcian blue ( for cartilage ) and Alizarin red ( for mineralized tissue , see Figure 1 ) .
+Most were also analyzed in histological sections stained with toluidine blue and showed osteoid formation and bone matrix deposition ( compare Figure S2A and S2E ; and unpublished data ) .
+The skeletal elements in these various <termsem="PR:000000034"> BMP </term> - deficient animals contained normal prehypertrophic chondrocytes expressing <termsem="PR:000003266"> type II collagen </term> , hypertrophic chondrocytes expressing <termsem="PR:000005693"> type X collagen </term> , as well as the osteoblasts expressing <termsem="PR:000003263"> type I collagen </term> , like their wild-type counterparts ( Figure S2 ; compare Figure S2F -- S2H with Figure S2B -- S2D ; and unpublished data ) .
+In contrast , however , limbs completely deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> activity showed severe defects in skeletal differentiation .
+<termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> Are Not Critical for Chondrogenic Differentiation .
+As noted above , at E12 .5 , chondrogenic condensation of the digits could be visualized in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limb buds by in situ hybridization with a <termsem="PR:000015435"> Sox9 </term> probe .
+Similar analysis at E10 .5 and E11 .5 demonstrated a relatively normal process of condensation of the proximal skeletal elements ( Figure S1H -- S1M ) , despite the absence of detectable <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> transcripts .
+As shown in Figure S1N and S1O , expression of <termsem="PR:000003266"> Col II </term> , a chondrocyte marker , is observed in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient cartilage ( Figure S1O ) as early as E12 .5 , similar to a wild-type control ( Figure S1N ) .
+Similarly , at E13 .5 , the entire limb skeleton could be visualized undergoing chondrogenesis by Alcian blue staining , albeit in a defective pattern , in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limb buds ( Figure 4A and 4B and unpublished data ) .
+As the cartilage elements grow , a wave of hypertrophic differentiation occurs from the center toward the distal ends ( reviewed in [ 39 -- 41 ] ) .
+Histological examination of the humeri at E13 .5 showed that while chondrogenic differentiation had taken place in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient humerus , hypertrophic differentiation was delayed ( Figure 4C and 4D ) .
+However , by E15 .5 , hypertrophy was evident in these elements as seen by <termsem="PR:000005693"> type X collagen </term> expression ( Figure 4E and 4F ) .
+The hypertrophic cells in <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limb also express late hypertrophic markers , such as <termsem="PR:000015561"> osteopontin </term> [ 42 ] ( unpublished data ) .
+To examine whether the successful execution of chondrogenesis in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs is a result of compensatory upregulation of other ostegenic <termsem="PR:000000034"> BMPs </term> , we carried out in situ hybridization for <termsem="PR:000000167"> Bmp6 </term> and <termsem="PR:000000168"> Bmp7 </term> in these limbs .
+At E13 .5 , we observed no increase in expression of <termsem="PR:000000167"> Bmp6 </term> ( Figure S1P -- S1S ) or <termsem="PR:000000168"> Bmp7 </term> ( compare Figure 4H with Figure 4G ) mRNA in the mutant tissues compared to their wild-type counterparts .
+Osteogenesis Is Initiated Normally in <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- Deficient Limb Buds .
+Bone formation first occurs at the interface between the late hypertrophic chondrocytes and the surrounding perichondrium , a region identified as the bone collar .
+We examined whether the osteogenesis program is initiated in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs using several histological and molecular criteria , as described below ( Figure 5 ) .
+Adjacent to the hypertrophic cells , a bone collar is laid down normally in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> ( Figure 5A and 5B , red star ) .
+As can be seen in sagittal sections through an E15 .5 humerus , the cells embedded in the mineralized matrix express the osteoblast marker <termsem="PR:000003263"> Col I </term> as normal ( Figure 5C and 5D ) .
+By E17 .5 , the mineralized cartilage that makes up the late hypertrophic zone of the growth plate normally undergoes removal by osteoclasts ( Figure 5G , brown-stained cells , red arrows ) , resulting in the formation of a bone marrow cavity ( red arrow in Figure 5E and 5I , see also Figure 6 ) .
+Osteoprogenitor cells from bone collar region now populate this site and deposit osteoid , forming the trabecular bone in the bone marrow cavity ( Figure 6E , red arrow ) and cortical bone at birth ( Figure 5I , asterisk ) .
+In contrast , in E17 .5 limbs deficient in <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , there is an overall delay in the normal endochondral process ( Figure 5F ) .
+While vascularization occurs in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre forelimbs , few osteoclasts are recruited to the mineralized cartilage ( compare Figure 5G and Figure 5H , red arrows ) , resulting in a delay in bone marrow cavity formation in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+In fact , bone marrow formation and trabecular bone formation have not yet started at birth in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> ( Figure 5J ) , and the morphology of Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre bones at birth is most similar to control embryos at E17 .5 ( Figure 5E ) .
+To differentiate between a simple delay in bone formation in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> and the inability to form bone without these <termsem="PR:000000034"> BMPs </term> , we performed histological analyses in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice up to 3 wks of age .
+As shown in Figure 6A through 6E , in the control mice , a bone collar is found adjacent to the zone of late hypertrophic chondrocytes at 1 wk ( Figure 6A and 6B ) .
+Many osteoblasts line the newly formed cortical bone in the diaphyseal region ( Figure 6C , blue arrow ) , and formation of a secondary ossification center has begun ( Figure 6A , red star ) .
+At 3 wks of age , formation of the secondary ossification center is complete ( Figure 6D , red star ) , along with robust bone marrow formation ( Figure 6D , bm ) and deposition of trabecular bone ( Figure 6E , pale blue tissue marked by red arrow ) .
+In stark contrast , bone formation is not observed in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> at 1 or 3 wks after birth ( Figure 6F -- 6J ) .
+The appearance of the skeletal elements in the double mutants remains similar to E17 .5 structures seen in wild-type limbs ( Figure 5E ) , and although there is a bone collar at the site of hypertrophic cartilage ( Figure 6G ) , no bone marrow cavity , trabecular bone , or cortical bone is present ( Figure 6F ) .
+Many osteoclasts have been recruited to the remaining mineralized cartilage and are actively resorbing this tissue ( red asterisks , Figure 6I ) , so that by 3 wks , all the mineralized cartilage in the diaphyseal region has disappeared , leaving a void where bone formation should have occurred ( Figure 6J , also see Figures 6L and S3 ) .
+This void is eventually invaded by soft tissues and the adjacent muscle ( marked s and m , respectively , in Figure 6J ) .
+The resorption of bone at 3 wks of age is clearly visible in the proximal femur of mutant animals where a portion of that bone is missing ( Figure 6L , black arrow ) .
+The inability to complete osteoblast differentiation in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice results in strikingly defective limb morphology at 1 wk of age ( compare Figure S3G and S3H ) .
+To determine if any osteoblast differentiation occurs in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre forelimbs , we examined osteoblast-related gene expression ( Figure 7 ) .
+In the control mice , osteoblasts lining the surface of trabecular and cortical bone express <termsem="PR:000003263"> type I collagen </term> , <termsem="PR:000014364"> runx2 </term> , and <termsem="PR:000015445"> osterix </term> genes at both 1 wk and 3 wks after birth ( Figure 7A -- 7D and 7I -- 7L ) .
+In the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , cells which are fibroblastic in appearance ( Figure 6H ) are found adjacent to the mineralized cartilage surfaces .
+These cells express amounts of <termsem="PR:000003263"> type I collagen </term> and <termsem="PR:000014364"> runx2 </term> comparable to control osteoblasts , but their expression of <termsem="PR:000015445"> osterix </term> , while noticeable at 1 wk , becomes almost undetectable at 3 wks ( Figure 7E -- 7H and 7M -- 7P ) .
+These results allow us to conclude that the fibroblast-like cells resident in the bone shaft ( Figure 6H ) may be osteoprogenitor cells unable to differentiate into mature osteoblasts in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+Using a genetic approach to remove activity of different <termsem="PR:000000034"> Bmp </term> genes during limb development , we have found that <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> either individually or in combination are not required for specification of normal digit identities .
+However , <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> are required in concert to promote condensation of the posterior digit anlagen .
+We have also shown that chondrogenesis can be initiated and chondrogenic differentiation will take place even in the absence of both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> .
+On the other hand , <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> together are required for completion of osteogenesis .
+<termsem="PR:000000034"> BMP </term> Signaling and Pattern Formation .
+It has been proposed that <termsem="PR:000000034"> BMP </term> signaling may be involved in digit patterning as a secondary signal originating in the ZPA [ 7,11,43 ] or as a later mediator of interdigital patterning information [ 15 ] .
+In particular , <termsem="PR:000000164"> BMP2 </term> , a secreted factor that is induced by <termsem="PR:000014841"> SHH </term> [ 8 ] in the posterior limb bud , has been suggested to act as a true morphogen secondary to <termsem="PR:000014841"> SHH </term> signaling to properly pattern the limb digits .
+However , inactivation of <termsem="PR:000000164"> Bmp2 </term> during early limb bud development clearly does not cause any digit patterning defects .
+<termsem="PR:000000034"> BMPs </term> are known , in many cases , to function redundantly [ 44 ] .
+In considering potential secondary signals mediating ZPA activity , the most relevant family member to consider is <termsem="PR:000000168"> BMP7 </term> as , like <termsem="PR:000000164"> BMP2 </term> ( and unlike <termsem="PR:000000165"> BMP4 </term> ) , it is positively regulated by <termsem="PR:000014841"> SHH </term> signaling [ 7 ] .
+However , <termsem="PR:000000168"> Bmp7 </term> expression does not overlap with <termsem="PR:000000164"> Bmp2 </term> in the early mouse limb bud [ 45 ] , and in any case , mice in which we conditionally knocked out <termsem="PR:000000164"> Bmp2 </term> in the <termsem="PR:000000168"> Bmp7 </term>  /  background do not show any obvious digit patterning defect other than the missing final phalanx in digit III .
+Although still poorly understood , the final phalanges form at the tip of every digit through a process distinct from the more proximal phalanges [ 38 ] .
+Our data implicate <termsem="PR:000000034"> BMP </term> signaling in this process .
+At later stages , <termsem="PR:000000034"> BMP </term> signaling has been suggested to play a role in mediating the transfer of positional information from the interdigital mesenchyme to specify the identity of the adjacent digits [ 15 ] .
+Application of the <termsem="PR:000000034"> BMP </term> antagonist <termsem="PR:000000021"> noggin </term> to the interdigital tissue at the time of digit condensation results in loss of phalanges and a resultant pattern that can be interpreted as an anterior homeotic transformation in digit identity .
+However , increasing <termsem="PR:000000034"> BMP </term> concentrations interdigitally with exogenous protein does not result in the reciprocal posterior transformations , and the <termsem="PR:000000021"> noggin </term> experiments can also be interpreted simply as a block in the condensation of the primordia of distal phalanges when <termsem="PR:000000034"> BMP </term> activity is completely abolished [ 38 ] .
+Decreasing the level of interdigital <termsem="PR:000000034"> BMP </term> signaling , without abolishing it , provides an opportunity for differentiating between these models .
+If <termsem="PR:000000034"> BMP </term> signaling were only required as a permissive factor for chondrogenesis , partial reduction in the level of signaling might have no effect .
+However , if levels of <termsem="PR:000000034"> BMP </term> signaling were instructive in terms of digit identities , then a substantial decrease in the amount of <termsem="PR:000000034"> BMP </term> ligand present should cause transformations in digit identity .
+This is not what is observed , either in limbs deficient in both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> or in those deficient in <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> .
+It should be noted that the interdigital expression domains form several days after recombination of the floxed <termsem="PR:000000034"> BMP </term> alleles is complete .
+Moreover , there is no detectable compensatory upregulation of <termsem="PR:000000168"> BMP7 </term> in the interdigital mesenchyme of the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs ( compare Figure 4G and Figure 4H ) .
+Thus , we conclude that <termsem="PR:000000034"> BMP </term> signaling is not likely to be responsible in a quantitative fashion for the instructive role of interdigital mesenchyme in establishing digit identities .
+However , in the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre forelimbs , there is a complete loss of posterior digit ray condensations , presumably because the total level of <termsem="PR:000000034"> BMP </term> signaling falls below the threshold for initiation of condensation , as previously seen in cases where <termsem="PR:000000034"> BMP </term> antagonists have been used [ 27,28 ] .
+It is worth noting that the defects in chondrogenesis seen in the <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs are much more severe proximally than distally .
+This is particularly significant because proximal elements condense and differentiate before distal ones .
+Thus , if the conditional alleles were partially recombined at early stages and only completely recombined at later stages , it is the distal elements , formed after greater recombination has taken place , that should be more severely affected .
+Since it is the proximal elements which are more severely affected , the explanation for the difference in severity must lie elsewhere .
+This is most likely explained by compensation in the distal limb bud by <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> produced in the AER .
+Compensation by <termsem="PR:000000034"> BMPs </term> in the AER also likely explains a difference seen between the Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice in our experiments and a recently published analysis [ 16 ] , which used the identical <termsem="PR:000000165"> Bmp4 </term> conditional allele and <termsem="PR:000013316"> Prx1 </term> : : cre driver .
+The earlier report , like ours , described preaxial and postaxial polydactyly .
+However , they observed these phenotypes with less variability and , moreover , described multiple preaxial and postaxial ectopic digits , while we saw , at most , a single preaxial and postaxial digit .
+The difference is that the mice analyzed in the previous report had one null allele and one conditional allele , while ours had two conditional alleles .
+Their mice , therefore , lost a half-dose of <termsem="PR:000000165"> BMP4 </term> from the AER in addition to complete loss in the mesenchyme , while our conditional alleles were only recombined in the mesenchyme by the <termsem="PR:000013316"> Prx1 </term> : : cre driver .
+It is also possible that the difference in severity relates to the time required to recombine one as opposed to two floxed alleles ; however , we do not favor this explanation as all detectable <termsem="PR:000000165"> BMP4 </term> expression is lost prior to any morphological differences between the mutant and wild-type limb buds .
+Finally , differences in genetic background could contribute to the differences as the <termsem="PR:000013316"> Prx1 </term> : : cre line is outbred .
+A final aspect of patterning previously associated with <termsem="PR:000000034"> BMP </term> signaling is interdigital apoptosis .
+Consistent with this , we see some syndactyly in the <termsem="PR:000000164"> BMP2 </term> - deficient limbs .
+The fact that this is variable , and limited to the 3/4 interdigit , implies that the threshold for induction of apoptosis is low enough that loss of <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> or <termsem="PR:000000168"> BMP7 </term> or <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> still leaves sufficient <termsem="PR:000000034"> BMP </term> signaling for most interdigital cell death to occur normally .
+However , loss of both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> results in complete soft tissue syndactyly , i.e. , webbing between all the digits .
+Although <termsem="PR:000000034"> BMP </term> activity has been previously implicated in regulating interdigital apoptosis , this is the first genetic verification of their requirement for this process .
+<termsem="PR:000000034"> BMP </term> Signaling and Skeletal Development .
+As discussed above , our data indicate that threshold levels of <termsem="PR:000000034"> BMP </term> signaling are required for initiating chondrogenic condensation , consistent with prior results [ 26 -- 28 ] .
+However , once chondrogenesis begins , cartilage differentiation can be sustained , albeit with some detectable delay , in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> or in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> .
+Thus , the expression of either <termsem="PR:000000166"> BMP5 </term> , <termsem="PR:000000167"> BMP6 </term> , and <termsem="PR:000000168"> BMP7 </term> ( in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> ) or the expression of <termsem="PR:000000165"> BMP4 </term> , <termsem="PR:000000166"> BMP5 </term> , and <termsem="PR:000000167"> BMP6 </term> ( in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> ) is sufficient to support mesenchymal condensation and chondrocyte differentiation in the developing limb .
+In one set of previous studies implicating <termsem="PR:000000034"> BMP </term> signaling in chondrogenesis , Yoon et al. [ 26 ] showed that if mice lose both <termsem="PR:000000035"> Alk3 </term> ( <termsem="PR:000000035"> BmprIa </term> ) and <termsem="PR:000000036"> Alk6 </term> ( <termsem="PR:000000036"> BmpIb </term> ) , two of the three <termsem="PR:000000035"> type I receptors </term> used in <termsem="PR:000000034"> BMP </term> signal transduction , there is a dramatic decrease in the size of skeletal primordial due to a reduction of proliferation and increase in apoptosis .
+The size of the skeletal elements in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre limbs are also decreased compared to those of control mice , although not to the extent seen in the double receptor mutant .
+We do not know if reduced size of the skeletal elements in our study is similarly due to reduced proliferation and increase in apoptosis , lack of replacement by bone , or a combination of these .
+It is possible that a triple mutant removing <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , and <termsem="PR:000000168"> BMP7 </term> activities would have a similar phenotype as the <termsem="PR:000000035"> BmprIa </term> , <termsem="PR:000000036"> BmprIb </term> double mutant , although these could also be compensated from other <termsem="PR:000000034"> BMPs </term> .
+We do know , however , that osteogenesis is defective in these mice , although bone formation proceeds normally in siblings retaining one functional copy of either the <termsem="PR:000000164"> Bmp2 </term> or <termsem="PR:000000165"> Bmp4 </term> gene ( Figure S4 ) , as it does in mice completely deficient in <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000168"> BMP7 </term> ( Figures 1 and S2 ) .
+The phenotype we observe in limbs of Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice is similar to the phenotype reported for <termsem="PR:000015445"> osterix </term> knockout mice [ 46 ] , which exhibited severe defects in osteoblastic differentiation .
+Since we observe fibroblastic cells adjacent to mineralized cartilage that have characteristics of osteoprogenitor cells but fail to express <termsem="PR:000015445"> osterix </term> in the absence of both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , one important role of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> during endochondral ossification may be to induce <termsem="PR:000015445"> osterix </term> gene expression in osteoprogenitors .
+Strikingly , however , we do observe <termsem="PR:000015445"> osterix </term> expression in the bone collar of E16 .5 mice missing functional copies of both the <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> genes ( K. Tsuji and A. Bandyopadhyay , unpublished data ) .
+This suggests that varying levels of expression from different <termsem="PR:000000034"> BMP </term> genes during preaxial and postaxial development result in fluctuations in total levels of <termsem="PR:000000034"> BMP </term> signaling , which at distinct times are above or below the threshold for supporting osteogenesis .
+While many osteogenic <termsem="PR:000000034"> BMP </term> molecules , apart from <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , such as <termsem="PR:000000166"> BMP5 </term> , <termsem="PR:000000167"> BMP6 </term> , and <termsem="PR:000000168"> BMP7 </term> , are expressed during the endochondral process , our data suggest that these <termsem="PR:000000034"> BMP </term> molecules can not compensate for the combined loss of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> in bone formation .
+Recent biochemical and genetic experiments have suggested that individual <termsem="PR:000000034"> BMPs </term> have identical functions .
+<termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , <termsem="PR:000000166"> BMP5 </term> , <termsem="PR:000000167"> BMP6 </term> , and <termsem="PR:000000168"> BMP7 </term> can utilize the same type I ( <termsem="PR:000000067"> Alk2 </term> , <termsem="PR:000000035"> Alk3 </term> , and <termsem="PR:000000036"> Alk6 </term> ) and type II receptors ( <termsem="PR:000000037"> <termsem="PR:000000034"> BMP </term> RII </term> , <termsem="PR:000000070"> ActRII </term> , and <termsem="PR:000000071"> ActRIIb </term> ) [ 47 ] .
+Once the complex between ligand and receptors is formed , <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> , <termsem="PR:000000166"> BMP5 </term> , <termsem="PR:000000167"> BMP6 </term> , and <termsem="PR:000000168"> BMP7 </term> direct the phosphorylation of the same set of <termsem="PR:000000038"> <termsem="PR:000000034"> BMP </term> receptor -- specific Smads </term> ( 1 , 5 , or 8 ) , and the signal that is transduced by each <termsem="PR:000000034"> BMP </term> appears to be identical in the skeletal target cells [ 48 -- 51 ] .
+<termsem="PR:000000034"> BMPs </term> have also been shown to activate MAPK and <termsem="PR:000002190"> AKT </term> pathways and , based on current published information , each of the osteogenic <termsem="PR:000000034"> BMPs </term> appears to have the same capacity to activate these signaling pathways [ 52 -- 54 ] .
+When this information is considered along with our observation that one allele of either <termsem="PR:000000164"> Bmp2 </term> or <termsem="PR:000000165"> Bmp4 </term> can rescue the osteoblast differentiation phenotype observed in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice ( see Figures 1I , 1J , 1Q , and 1R and S4 ) , we favor the hypothesis that bone formation requires a threshold amount of <termsem="PR:000000034"> BMP </term> signaling which is not met when both <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> are completely absent .
+We can not , however , exclude the possibility that <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> have distinct functions in osteoblastogenesis .
+Our analysis of skeletogenesis indicates that <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> are prerequisite for osteoblastogenesis while less important for chondrogenesis .
+These studies provide the first evidence linking <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> with bone formation in an in vivo setting where the preceding events of chondrogenesis are not compromised .
+Reagents .
+Xylene , formamide , and acetic anhydride were purchased from Fisher Scientific ( http://www.fishersci.com ) .
+Alizarin red S , toluidine blue , paraformaldehyde , polyvinylpyrrolidone , proteinase K , <termsem="PR:000014042"> RNase A </term> , tRNA , and dithiothreitol were purchased from Sigma ( http://www.sigmaaldrich.com ) .
+Alcian blue 8GX was purchased from Electron Microscopy Science ( http://www.emsdiasum.com ) .
+Dextran sulfate was purchased from Pharmacia ( http://www.pharmacia.com ) .
+Generation of <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> conditional null allele .
+Mice carrying floxed <termsem="PR:000000164"> Bmp2 </term> allele were available through a material transfer agreement between Harvard University and Wyeth Pharmaceuticals .
+In these mice , LoxP sites were integrated to excise the entire protein-coding region in exon 3 of the <termsem="PR:000000164"> Bmp2 </term> gene .
+Generation of <termsem="PR:000000165"> Bmp4 </term> conditional allele has been described [ 16,55 ] .
+The <termsem="PR:000013316"> Prx1 </term> : : cre transgene has been described [ 32 ] .
+Generation of <termsem="PR:000000164"> Bmp2 </term> , <termsem="PR:000000165"> Bmp4 </term> double conditional mice and <termsem="PR:000000164"> Bmp2 </term> conditional , <termsem="PR:000000168"> Bmp7 </term> mutant mice .
+Bmp2C/C animals were crossed with Bmp4C/C animals to generate Bmp2C / + ; Bmp4C / + animals .
+These animals were crossed with Bmp2C/C or Bmp4C/C animals to generate Bmp2C/C ; Bmp4C / + or Bmp2C / + ; Bmp4C/C animals , respectively .
+Bmp2C/C ; Bmp4C / + or Bmp2C / + ; Bmp4C/C animals were crossed with each other to generate Bmp2C/C ; Bmp4C/C animals .
+Bmp2C/C ; Bmp4C/C females were crossed with males bearing <termsem="PR:000013316"> Prx1 </term> : : cre transgene to generate Bmp2C / + ; Bmp4C / + ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+Bmp2C / + ; Bmp4C / + ; <termsem="PR:000013316"> Prx1 </term> : : cre males were crossed with Bmp2C/C ; Bmp4C/C females to generate Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+Bmp2C/C ; Bmp4C/C mice carrying floxed alleles of the <termsem="PR:000000034"> Bmp </term> genes without <termsem="PR:000013316"> Prx1 </term> : : cre are wild-type ( WT ) .
+Genotyping of animals were done by PCR analyses with the primers ( 5  -- 3  ) GTGTGGTCCACCGCATCAC ( AHP2 -- 9 ) and GGCAGACATTGTATCTCTAGG ( AHP2 -- 35 ) for <termsem="PR:000000164"> Bmp2 </term> and AGACTCTTTAGTGAGCATTTTCAAC ( No. 79 [ order of primers tried ] ) and AGCCCAATTTCCACAACTTC ( No. 80 ) for <termsem="PR:000000165"> Bmp4 </term> following extraction of genomic DNA from embryonic or adult tail .
+For <termsem="PR:000000164"> Bmp2 </term> , the floxed allele amplifies as a 545-bp product , while the wild-type allele amplifies as a 474-bp product .
+For <termsem="PR:000000165"> Bmp4 </term> , the floxed allele amplifies as a 220-bp product , while the wild-type allele amplifies as a 180-bp product .
+Protocols utilized for mouse experiments were approved by the Harvard University Institutional Animal Care and Use Committee ( Cliff Tabin # 02735 ) .
+The strategy for generating a <termsem="PR:000000164"> Bmp2 </term> conditional null in the <termsem="PR:000000168"> BMP7 </term>  /  background is similar to the strategy used for generating the <termsem="PR:000000164"> Bmp2 </term> , <termsem="PR:000000165"> Bmp4 </term> double conditional allele with three important differences .
+First , the <termsem="PR:000000168"> Bmp7 </term>  /  ( strain kindly donated by Dr. Liz Robertson [ 12 ] ) is not a conditional allele but a null mutation .
+Second , <termsem="PR:000000168"> Bmp7 </term>  /  mice do not survive past birth due to kidney failure [ 12 ] and hence can not be maintained as homozygous for the null allele .
+Third , <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000168"> Bmp7 </term> are on the same chromosome ( Chromosome 2 ) .
+To obtain Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre we crossed Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  / + females with Bmp2C / + , <termsem="PR:000000168"> Bmp7 </term>  / + ; <termsem="PR:000013316"> Prx1 </term> : : cre males .
+Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre progeny were obtained at a rate slightly higher than 1 in 16 .
+For genotyping of <termsem="PR:000000168"> Bmp7 </term> locus we used the following set of primers : <termsem="PR:000000168"> Bmp7 </term> _ ExI_5  ( 5  -- 3  ) TCGCCTGCAGCAAGTGACCTCGGGTC ; <termsem="PR:000000168"> Bmp7 </term> _ ExI_3  ( 5  -- 3  ) TAGGGGTAGGAGAAGCCCTGTCCGTCC and Beta-geo 5  of 3  ( 5  -- 3  ) CTGCATACGCTTGATCCGGCTACCTGC .
+From a wild-type chromosome <termsem="PR:000000168"> Bmp7 </term> _ ExI_5  and <termsem="PR:000000168"> Bmp7 </term> _ ExI_3  amplifies an approximately 423-bp PCR product , while from the lacZ insertion mutant this pair fails to amplify any product .
+<termsem="PR:000000168"> Bmp7 </term> _ ExI_5  and Beta-geo 5  of 3  ( this primer is designed from the Beta-geo cassette ) amplifies an approximately 1-kb PCR product from the lacZ inserted chromosome .
+Skeletal analysis .
+Our protocol is an adaptation of the procedure described [ 56 ] previously .
+Newborn and older animals were killed using carbon dioxide .
+Skin , viscera , and adipose tissues were removed within 2 h after death , and samples were fixed in 95 % ethanol for 5 d. Samples were then placed in acetone to remove residual fat for 2 d. For E13 .5 embryos , skin was not removed .
+The dehydrated animals were stained with 0.015 % w/v Alcian blue and 0.005 % w/v Alizarin red in a 1:19 mixture of glacial acetic acid and 70 % ethanol .
+The younger animals were stained for 5 h at 37 C and then overnight at room temperature , while the newborns were stained overnight at 37 C followed by 2 d at room temperature .
+The stained skeletons were kept in 1 % KOH , with occasional change of solution , until cleared .
+The cleared skeletons were transferred into 100 % glycerol and photographed .
+Acridine orange staining for apoptotic cells .
+A working stock of 5 mg/ml acridine orange was diluted 1:10,000 in PBS .
+Dissected fresh embryos were transferred to the working solution of acridine orange and incubated for 30 min at 37 C in the dark .
+Embryos were then washed twice in PBS for 5 min and viewed with a fluorescence microscope .
+Whole mount in situ hybridization .
+In situ hybridization staining on whole embryos was performed as described [ 57 ] .
+For section in situ hybridizations , please see below .
+Histology , section in situ hybridizations , and immunohistochemistry .
+For histology and section in situ hybridization , samples were fixed in 4 % paraformaldehyde in PBS at 4 C overnight .
+Newborn and older animals were then decalcified in Tris buffer containing 10 % EDTA and 7.5 % polyvinylpyrrolidone ( pH 7.5 ) at 4 C for 3 wks .
+Samples were then dehydrated through a graded ethanol series , cleared in xylene , and embedded in paraffin .
+8m sections were collected and stained with hematoxylin and eosin ( H & E ) or toluidine blue following standard procedure .
+Section in situ hybridization with digoxigenin labeled probes was performed as described [ 57 ] .
+Section in situ hybridization with radiolabeled probes was performed as described [ 58 ] with a small modification .
+Briefly , sections were deparaffinized in xylene and rehydrated through a graded ethanol series .
+Sections were postfixed in 4 % paraformaldehyde in PBS at room temperature for 15 min , digested with 10 g/ml proteinase K at room temperature for 10 min , and again fixed in 4 % paraformaldehyde at room temperature for 10 min and acetylated in the solution containing 0.2 % hydrochloric acid , 0.1 M triethanol amine , and 0.25 % acetic anhydride at room temperature for 10 min .
+Sections were then dehydrated in increasing concentrations of ethanol and air-dried .
+Hybridization was performed in a humidified chamber in a solution containing 50 % formamide , 10 % dextran sulfate , 1  Denhardt 's solution , 0.6 M sodium chloride , 0.01 M Tris buffer ( pH 7.5 ) , 0.001 M EDTA , 0.05 M dithiothreitol , 0.25 % SDS , 200 g tRNA , and 35S-labeled cRNA probe at the final concentration of 5  106 cpm/ml at 55 C for 16 h .
+After hybridization , sections were washed with a solution containing 5  SSC and 10 mM dithiothreitol at 50 C for 30 min , incubated in a solution containing 50 % formamide , 2  SSC , and 10 mM dithiothreitol at 65 C for 30 min , treated in a solution containing 10 g/ml <termsem="PR:000014042"> RNase A </term> in TNE [ 0.01 M Tris buffer ( pH 7.6 ) , 0.5 M sodium chloride , and 0.001 M EDTA ] at 37 C for 30 min and then washed with 50 % formamide , 2  SSC , and 10 mM dithiothreitol at 65 C for an additional 30 min followed by two washes with 2  SSC/10 mM dithiothreitol at 65 C for 30 min , and 0.1  SSC/10 mM dithiothreitol at 65 C for 30 min .
+To visualize the signal , sections were dipped into NTB-2 emulsion ( Kodak , http://www.Kodak.com ) and placed at 4 C .
+After developing , sections were counterstained with H&E .
+The 35S-labeled cRNA probes were transcribed from plasmids encoding <termsem="PR:000003263"> type I collagen </term> [ 59 ] , <termsem="PR:000014364"> runx2 </term> [ 60 ] , <termsem="PR:000015561"> osteopontin </term> [ 61 ] , and <termsem="PR:000015445"> osterix </term> [ 46 ] .
+Sense and antisense probes were synthesized from linearized plasmids using a Riboprobe Combination System ( Promega , http://www.promega.com ) .
+Chondrogenic Differentiation in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre Animals .
+( A -- C ) In <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs , there is only one zeugopod present , and it is often fused with the stylopod .
+All panels are from E17 .5 Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryos .
+( A ) Hematoxylin and eosin -- stained section of the forelimb .
+Alcian blue -- and Alizarin red -- stained skeletons shown in ( B ) ( forelimb ) and ( C ) ( hindlimb ) .
+Black arrow shows the fusion of the zeugopod and stylopod in <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient limbs .
+( D and E ) Acridine orange -- stained limbs from E11 .5 wild-type ( D ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryos ( E ) .
+( F and G ) Acridine orange -- stained hindlimbs from E13 .5 wild-type ( F ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( G ) embryos .
+( H -- M ) In the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , condensation begins in the limb normally .
+Whole mount in situ staining of <termsem="PR:000015435"> Sox9 </term> mRNA in embryonic limb buds from E10 .5 ( H and I ) and E11 .5 ( J -- M ) embryos .
+( H , J , and L ) From wild-type embryos , ( I , K , and M ) from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryos .
+( H , I , J , and K ) Forelimbs , ( L and M ) hindlimbs .
+( N and O ) In situ hybridizations with <termsem="PR:000003266"> Col II </term> mRNA probes of sections derived from E12 .5 wild-type ( N ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( O ) embryos .
+( P -- S ) <termsem="PR:000000167"> Bmp6 </term> mRNA expression is not increased in E13 .5 Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre cartilage .
+<termsem="PR:000000167"> Bmp6 </term> in situ on sagittal sections from wild-type ( Q ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( S ) embryonic forelimbs .
+( P and R ) Bright field images of ( Q ) and ( S ) , respectively .
+Click here for additional data file .
+Skeletal Differentiation Occurs Normally in Absence of <termsem="PR:000000164"> BMP2 </term> .
+( A ) Toluidine blue -- stained section of newborn femurs from Bmp2C/C animals .
+( B -- D ) Marker analyses .
+Sections of femurs from Bmp2C/C animals hybridized with <termsem="PR:000003266"> Col II </term> ( B ) , <termsem="PR:000005693"> Col X </term> ( C ) , and <termsem="PR:000003263"> Col I </term> ( D ) mRNA probes .
+( E ) Toluidine blue -- stained section of newborn femurs from Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+( F -- H ) Marker analyses .
+Sections of femurs from Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals hybridized with <termsem="PR:000003266"> Col II </term> ( F ) , <termsem="PR:000005693"> Col X </term> ( G ) , and <termsem="PR:000003263"> Col I </term> ( H ) mRNA probes .
+Click here for additional data file .
+<termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- Deficient Limb Skeleton Is Resorbed .
+Alcian blue -- and Alizarin red -- stained skeletons of forelimbs ( A -- D ) and hindlimbs ( E -- F ) from 1-wk-old ( A , B , E , and F ) and 3-wk-old ( C and D ) animals .
+( A , C , and E ) Wild-type animals , ( B , D , and F ) Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+The limbs of Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( H ) animals are severely defective compared to a wild-type ( G ) animal at 1 wk of age .
+Please note that the proximal part of the femur is present at 1 wk of age but missing at 3 wks ( refer to Figure 6L ) .
+Click here for additional data file .
+Osteogenesis Occurs in Mice Lacking Three of Four Alleles of <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> Combined .
+Toluidine blue -- stained sections of femurs from adult control , Bmp2C / + ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , and Bmp2C/C ; Bmp4C / + ; <termsem="PR:000013316"> Prx1 </term> : : cre animals .
+Click here for additional data file .
+We thank Dr. Andy Dudley for his help in designing mouse genotyping strategies .
+We also thank Jose Rivera-Feliciano and Dr. Douglas Kim for helpful discussions .
+We are immensely grateful to Drs. Brigid Hogan and Holger Kulessa for their kind gift of the <termsem="PR:000000165"> Bmp4 </term> conditional allele and Drs. Liz Robertson and Andy Dudley for the <termsem="PR:000000168"> Bmp7 </term> knockout allele .
+We would like to acknowledge the help of Dr. Ernestina Schipani and Jan Saxton for help with histology .
+This manuscript is dedicated to the memory of Dr. Holger Kulessa , whose efforts contributed to the groundwork for this study and whose dedication and intense commitment to excellence in science are greatly missed .
+AER - apical ectodermal ridge .
+<termsem="PR:000000034"> BMP </term> - <termsem="PR:000000034"> bone morphogenetic protein </term> .
+E - embryonic day .
+FGF - fibroblast growth factor .
+<termsem="PR:000014841"> SHH </term> - <termsem="PR:000014841"> Sonic Hedgehog </term> .
+<termsem="PR:000014841"> Shh </term> - <termsem="PR:000014841"> sonic hedgehog </term> .
+ZPA - zone of polarizing activity .
+An Allelic/Nonallelic Series of <termsem="PR:000000034"> BMP </term> - Deficient Limbs .
+( A -- D ) <termsem="PR:000013316"> Prx1 </term> : : cre efficiently recombines <termsem="PR:000000164"> Bmp2 </term> and <termsem="PR:000000165"> Bmp4 </term> conditional alleles in the limbs .
+<termsem="PR:000000164"> Bmp2 </term> ( A and B ) and <termsem="PR:000000165"> Bmp4 </term> ( C and D ) whole mount mRNA in situ hybridization in the limb .
+Wild-type ( A ) and Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( B ) are forelimbs from E10 .5 mouse embryos .
+Mesenchymal expression [ asterisk ( A ) ] of <termsem="PR:000000164"> Bmp2 </term> is abolished in Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryo while the AER expression [ black arrow ( A and B ) ] of <termsem="PR:000000164"> Bmp2 </term> persists .
+Note that pink staining in the central region of the limb bud in ( B ) is nonspecific background .
+Wild-type ( C ) and Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( D ) are forelimbs from E10 .5 mouse embryos .
+Mesenchymal expression [ red arrow ( C ) ] of <termsem="PR:000000165"> Bmp4 </term> is abolished in Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryo while the AER expression [ black arrow ( C and D ) ] of <termsem="PR:000000165"> Bmp4 </term> persists .
+( E -- T ) Depletion of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> together causes severe limb skeletal defects .
+( E -- T ) Whole mount skeletons from newborn animals stained with Alcian blue and Alizarin red .
+( E -- L ) Forelimbs , ( M -- T ) hindlimbs .
+( E and M ) Wild-type , ( F and N ) Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , ( G and O ) Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , ( H and P ) <termsem="PR:000000168"> Bmp7 </term>  /  , ( I and Q ) Bmp2C/C ; <termsem="PR:000000165"> Bmp4 </term> + / C ; <termsem="PR:000013316"> Prx1 </term> : : cre , ( J and R ) <termsem="PR:000000164"> Bmp2 </term> + / C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , ( K and S ) Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , ( L and T ) Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre .
+Thin red arrow in ( F ) , ( I ) , and ( L ) , defective scapula ; thick red arrow in ( T ) , failure of fibula to articulate with knee , and thick black arrow in ( L ) and ( T ) , missing phalanx in digit III .
+Depletion of <termsem="PR:000000034"> BMP </term> Signaling Causes Interdigital Syndactyly .
+( A -- D ) Forelimb of adult wild-type ( A ) and Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mouse ( B ) and hindlimbs of newborn wild-type ( C ) mouse and newborn Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( D ) mouse .
+The black arrow in ( B ) shows soft tissue syndactyly in Bmp2C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mouse .
+( E and F ) Wild-type and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre , respectively , showing acridine orange -- stained hindlimbs of E15 .5 mouse embryos .
+Acridine orange stain is in yellow .
+( G and H ) Enlarged views of selected regions from ( E ) and ( F ) , respectively .
+Black arrow in ( G ) and ( H ) show acridine orange -- stained apoptotic cells in the interdigital mesenchyme , and asterisk in ( H ) shows the remnant of the AER .
+( I and J ) <termsem="PR:000007499"> Fgf8 </term> mRNA expression in the hindlimbs of E13 .5 wild-type ( I ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( J ) embryos .
+The thick black arrows in ( J ) show <termsem="PR:000007499"> Fgf8 </term> mRNA expression .
+Patterning Defects in Limbs Deficient of Different Combinations of <termsem="PR:000000034"> BMP </term> Molecules .
+( A -- D ) <termsem="PR:000000165"> Bmp4 </term> expression in limb buds from E11 .5 wild-type ( A and C ) and Bmp2C/C , <termsem="PR:000000168"> Bmp7 </term>  /  ; <termsem="PR:000013316"> Prx1 </term> : : cre ( B and D ) mouse embryos .
+( A and B ) Forelimbs , ( C and D ) hindlimbs .
+( E -- H ) <termsem="PR:000014841"> Shh </term> ( E and F ) and <termsem="PR:000007499"> Fgf8 </term> ( G and H ) expression in E11 .5 forelimbs and hindlimbs , respectively .
+( E and G ) Wild-type embryos , ( F and H ) Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryos .
+( I -- P ) <termsem="PR:000015435"> Sox9 </term> ( I -- K ) and <termsem="PR:000010687"> Msx2 </term> ( M -- O ) expression in E12 .5 wild-type ( I and M ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mouse embryonic forelimbs ( J and N ) and hindlimbs ( K and O ) .
+( L and P ) <termsem="PR:000014841"> Shh </term> expression in E12 .5 wild-type ( L ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( P ) embryonic hindlimbs .
+The red brackets in ( F ) and ( H ) show the broadened domains of expressions of <termsem="PR:000014841"> Shh </term> and <termsem="PR:000007499"> Fgf8 </term> , respectively .
+Chondrogenesis Starts and Proceeds Normally Even in the Absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+( A and B ) Whole mount skeletons from E13 .5 embryos that are stained with alcian blue .
+( A ) Wild-type embryo , ( B ) Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryo .
+Black arrow in ( B ) shows the fusion of the zeugopod and stylopod .
+( C and D ) Hematoxylin and eosin -- stained sagittal sections of humeri from E13 .5 wild-type ( C ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( D ) embryos .
+Thick red arrow in ( C ) shows the hypertrophic region .
+( E and F ) Sagittal sections of wild-type ( E ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( F ) humeri from E15 .5 embryos were hybridized with digoxigenin-labeled antisense rioprobes for <termsem="PR:000005693"> ColX </term> .
+( G and H ) Sagittal sections of forelimbs from E13 .5 wild-type and <termsem="PR:000000164"> BMP2 </term> , <termsem="PR:000000165"> BMP4 </term> -- deficient embryos , respectively , stained with radioactive riboprobes for <termsem="PR:000000168"> Bmp7 </term> mRNA .
+( G  ) and ( H  ) show the bright field views of ( G ) and ( H ) , respectively .
+In the Absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , Osteogenesis Begins During Early Embryonic Development .
+( A -- D ) Sagittal sections of forelimb from E15 .5 embryos .
+( A and B ) Stained with toluidine blue .
+( A ) Distal ulna from wild-type embryo , ( B ) distal ulna/radius from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryo .
+Mineralized cartilage is shown by dark purple and osteoid is shown by light blue ( red asterisk ) .
+( C and D ) Humeri sections were hybridized with digoxigenin labeled riboprobe for <termsem="PR:000003263"> ColI </term> .
+( C ) Section of wild-type humerus from E15 .5 embryo , ( D ) from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre E15 .5 embryo .
+( E -- H ) Sagittal sections of zeugopod from E17 .5 embryos .
+( E and F ) Stained with toluidine blue while G and H are stained for <termsem="PR:000001937"> TRAP </term> ( brown stain , red arrow ) .
+( E and G ) E17 .5 proximal radius from wild-type embryo , ( F and H ) E17 .5 proximal ulna/radius from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre embryo .
+Although vascularization occurs in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> , few osteoclasts are observed in the mineralized cartilage in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice .
+Please note all the panels other than ( G ) and ( H ) are photographed at  20 , while ( G ) and ( H ) were photographed at  40 .
+( I and J ) Sections of newborn proximal radius ( I ) from control animal and newborn proximal ulna/radius ( J ) from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre animal were stained with toluidine blue .
+Red arrow shows the bone marrow cavity in ( E ) and ( I ) .
+Note that bone collar ( red * ) forms at the right time and place in the absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+Also note that since Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice occasionally have only one bone in zeugopod and the elbow joint is occasionally fused , it is difficult to distinguish between the ulna and the radius .
+Defects in Bone Formation in the Absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+Toluidine blue staining of sagittal sections of distal femurs .
+( A -- E ) Control femurs at 1 wk ( A ) and 3 wks ( D ) of age .
+Boxed areas in ( A ) are enlarged in ( B ) and ( C ) .
+Boxed area in ( D ) is enlarged in ( E ) .
+Blue arrows in ( C ) point to osteoblast cells lining the surface of cortical bone .
+Pink arrows in ( G ) show similar cells to those in ( C ) in Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre femurs .
+Red star in ( A ) and ( D ) marks the secondary ossification center .
+Pale blue -- stained tissue in ( E ) , marked by red arrows , is trabecular bone .
+bm , marks the bone marrow cavity in ( D ) .
+( F -- J ) Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre femurs at 1 wk ( F ) and 3 wks ( J ) of age .
+Boxed areas in ( F ) are enlarged in ( G ) , ( H ) , and ( I ) .
+( A ) , ( D ) , ( F ) , and ( J ) are shown with the same magnification .
+Note that there are defects in bone formation but no defect in osteoclast mediated bone resorption .
+Mineralized tissue in the mid shaft of femur is almost resorbed at 3 wks .
+( H ) Fibroblast-like cells present in the bone shaft of Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mouse .
+Red star in ( I ) shows the osteoclasts invading the Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre femurs at 1 wk of age .
+s and m mark soft tissues and muscle in ( J ) , respectively .
+( K and L ) Three-wk-old wild-type ( K ) and Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre ( L ) hindlimb skeletons stained with Alcian blue and Alizarin red .
+The black arrow shows the missing part of proximal femur .
+Osteoblast Maturation Is Inhibited in the Absence of <termsem="PR:000000164"> BMP2 </term> and <termsem="PR:000000165"> BMP4 </term> .
+( A -- D ) Distal femurs from control mice at 1 wk of age .
+( E -- H ) Distal femurs from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice at 1 wk of age .
+( I -- L ) Distal femurs from control mice at 3 wks of age .
+( M -- P ) Distal femurs from Bmp2C/C ; Bmp4C/C ; <termsem="PR:000013316"> Prx1 </term> : : cre mice at 3 wks of age .
+In situ hybridization of early osteoblast differentiation-related marker genes <termsem="PR:000003263"> Col I </term> ( B , F , J , and N ) , <termsem="PR:000014364"> runx2 </term> ( C , G , K , and O ) and <termsem="PR:000015445"> osterix </term> ( D , H , L , and P ) .
+Competing interests .
+The authors have declared that no competing interests exist .
+A previous version of this article appeared as an Early Online Release on November 6 , 2006 ( doi : 10.1371 / journal.pgen .0020216 .
+eor ) .
+Author contributions .
+AB , KT , BDH , VR , and CJT conceived and designed the experiments .
+AB , KT , KC , and BDH performed the experiments .
+AB , KT , VR , and CJT analyzed the data .
+AB and KT wrote the paper .
+Funding .
+This work was supported by a grant from the National Institutes of Health ( P01 DK56246 to CJT ) and by funds from the Forsyth Institute and Harvard School of Dental Medicine ( to VR ) .

@@ -1,0 +1,271 @@
+m-Calpain is required for preimplantation <termsem="GO:0009790"> embryonic development </term> in mice .
+-calpain and m-calpain are ubiquitously <termsem="GO:0010467"> expressed </term> <termsem="GO:0008233"> <termsem="independent_continuant"> proteases </term> </term> implicated in <termsem="GO:0016477"> cellular migration </term> , <termsem="GO:0007049"> cell cycle </term> progression , degenerative processes and <termsem="GO:0008219"> cell death </term> .
+These heterodimeric enzymes are composed of distinct catalytic subunits , encoded by Capn1 ( -calpain ) or Capn2 ( m-calpain ) , and a common <termsem="GO:0065007"> regulatory </term> subunit encoded by Capn4 .
+Disruption of the mouse Capn4 gene abolished both -calpain and m-calpain activity , and resulted in embryonic lethality , thereby suggesting essential roles for one or both of these enzymes during mammalian <termsem="GO:0009790"> embryogenesis </term> .
+Disruption of the Capn1 gene <termsem="GO:0000003"> produced </term> viable , fertile mice implying that either m-calpain could compensate for the loss of -calpain , or that the loss of m-calpain was responsible for <termsem="GO:0016265"> death </term> of Capn4 - / - mice .
+To distinguish between the alternatives described above , we deleted an essential coding region in the mouse Capn2 gene in embryonic stems cells and transmitted this mutant allele through the mouse germline .
+<termsem="GO:0007618"> Breeding </term> of heterozygous animals failed to <termsem="GO:0000003"> produce </term> homozygous mutant live offspring or <termsem="GO:0007566"> implanted </term> embryos .
+A nested PCR genotyping protocol was established , and homozygous preimplantation mutant embryos were detected at the morula but not at the blastocyts stage .
+We conclude that homozygous disruption of the Capn2 gene results in pre - <termsem="GO:0007566"> implantation </term> embryonic lethality between the morula and blastocyst stage .
+This establishes that -calpain and m-calpain have distinct functions , and that m-calpain is vital for development of the preimplantation murine embryo .
+The two ubiquitous Ca2 + - dependent , <termsem="GO:0008234"> <termsem="independent_continuant"> cysteine proteases </term> </term> known as -calpain ( calpain-1 ) and m-calpain ( capain-2 ) , are the founding members of a gene family comprising 13 genes in mammals [ 1-3 ] .
+Both are heterodimeric enzymes consisting of distinct 80 kDa catalytic subunits , encoded by the Capn1 ( -80 k ) and Capn2 ( m-80 k ) genes , respectively , that associate with a common 28 kDa <termsem="GO:0065007"> regulatory </term> subunit encoded by the Capn4 gene .
+The -80 k and m-80 k subunits share 62 % amino acid sequence identity , and are very similar in terms of structure , protein chemistry , and in vitro substrate specificity .
+Despite these similarities , the differential <termsem="GO:0010467"> expression </term> patterns of  - and m-calpain in mammalian tissues suggest they have some isoform specific and distinct functions .
+The  and m designations derive from the levels of Ca2 + required in vitro for optimal activation ; 10 -- 50 M Ca2 + for -calpain and 0.3 -- 0.35 mM Ca2 + for m-calpain .
+It is generally assumed that  - and m-calpain maintain their differential sensitivities to calcium in vivo , although this has not yet been strictly demonstrated .
+Furthermore , since the cytoplasmic free Ca2 + concentration is typically less than 1 M , it is also assumed that other in vivo factors must contribute to <termsem="GO:0065007"> regulation </term> of these enzymes [ 3 ] .
+Without apriori knowledge of the factors <termsem="GO:0065007"> regulating </term> calpain activity or their relevant substrates , elucidation of biological functions for calpains presents a challenge .
+Research on calpains has linked them with a wide variety of functions including muscle <termsem="GO:0040007"> growth </term> , development , degeneration ( 3 ) , neuronal <termsem="GO:0040007"> growth </term> and neurodegeneration [ 4 ] , <termsem="GO:0007049"> cell cycle </term> progression [ 5,6 ] , <termsem="GO:0007165"> signal cascades </term> triggered by integrins and <termsem="GO:0008083"> <termsem="independent_continuant"> <termsem="GO:0040007"> growth </term> factors </term> </term> [ 7 ] , membrane protrusion [ 8 ] , remodeling of the cytoskeleton and <termsem="GO:0016477"> cell migration </term> [ 9-15 ] , and <termsem="GO:0065007"> regulation </term> of <termsem="GO:0008219"> cell death </term> via both necrosis and <termsem="GO:0006915"> apoptosis </term> [ 16-22 ] .
+To date , the literature suggests a complex interplay between <termsem="GO:0030693"> <termsem="independent_continuant"> caspases </term> </term> and calpains [ 23,24 ] and impact of calpain on <termsem="GO:0008219"> cell death pathway </term> components [ 25 ] .
+The lack of highly specific cell-permeable <termsem="GO:0030161"> <termsem="independent_continuant"> inhibitors of calpains </term> </term> contributes to the challenge of investigating and defining calpain functions in these processes .
+Although over - <termsem="GO:0010467"> expression </term> of calpastatin , the endogenous protein inhibitor of  - and m-calpain provides an important approach for these efforts , it will not distinguish isoform specific functions [ 24,26,27 ] .
+Some work has suggested isoform specific roles , such as a role for m-calpain in epidermal <termsem="GO:0008083"> <termsem="independent_continuant"> <termsem="GO:0040007"> growth </term> factor </term> </term> ( EGF ) - <termsem="GO:0031128"> induced </term> <termsem="GO:0006928"> cell motility </term> [ 28,29 ] and a role for -calpain in interferon-inducible protein 9 - <termsem="GO:0031128"> induced </term> <termsem="GO:0051546"> migration of keratinocytes </term> [ 28 ] .
+A cell permeable <termsem="GO:0030161"> <termsem="independent_continuant"> calpain inhibitor </term> </term> ( which likely inhibits other <termsem="GO:0008234"> <termsem="independent_continuant"> thiol-proteases </term> </term> as well ) has been used to select cells lacking -calpain which display reduced <termsem="GO:0008283"> proliferation </term> rates [ 30 ] .
+Interestingly , m-calpain <termsem="GO:0010467"> expression </term> persisted in these cells , suggesting a possible requirement of m-calpain for cell survival [ 30 ] .
+Targeted gene deletion in mice provides a powerful approach to determining the physiological roles of  - and m-calpain and the opportunity to approach their isoform specific functions .
+Initial studies targeted Capn4 based on the prediction that loss of this calpain subunit would abolish activity of both  - and m-calpain .
+Capn4 - / - murine embryos <termsem="GO:0016265"> died </term> between days 10 and 11 of <termsem="GO:0007565"> gestation </term> , and there was no detectable  - or m-calpain activity in these or younger embryos [ 31 ] .
+Capn4 - / - murine embryonic fibroblasts ( MEFs ) could be cultured from these embryos , although they also lacked calpain activity as assessed by casein zymography or by the <termsem="GO:0009058"> formation </term> of characteristic spectrin <termsem="GO:0009056"> breakdown </term> products , and they displayed <termsem="GO:0016477"> migration </term> defects consistent with a role for calpain in release of focal adhesions [ 9 ] .
+An independently derived Capn4 knockout , involving a more extensive deletion of the gene , resulted in an earlier embryonic lethality , apparently at a pre - <termsem="GO:0007566"> implantation </term> stage [ 32 ] .
+The different times of embryonic lethality suggested that the first reported Capn4 - / - mice [ 31 ] were targeted with a hypomorphic mutation , which retained some small level of calpain activity , allowing for their survival to mid - <termsem="GO:0007565"> gestation </term> , while the second reported Capn4 - / - mice [ 32 ] represented a true null mutation .
+Disruption of Capn1 , encoding the -calpain catalytic subunit , was subsequently reported to result in fertile , viable mice with some mild defects in the -calpain rich platelets relating to their aggregation and <termsem="GO:0050819"> clot retraction </term> [ 33 ] .
+The fact that Capn4 null mice <termsem="GO:0016265"> die </term> during <termsem="GO:0009790"> embryogenesis </term> indicates that at least one of the ubiquitous calpains is essential for <termsem="GO:0032502"> development </term> to term .
+The viability of Capn1-deficient mice does not however distinguish between two possibilities : either that m-calpain is specifically required during <termsem="GO:0009790"> embryogenesis </term> , or that either form of calpain alone is sufficient and can compensate for the absence of the other .
+To resolve this question , we have now knocked out the Capn2 gene encoding the m-80 k subunit in mice .
+We report here that Capn2 null embryos <termsem="GO:0016265"> died </term> prior to the <termsem="GO:0007566"> implantation stage </term> , indicating that m-calpain is indispensable for early <termsem="GO:0009790"> embryogenesis </term> .
+This role can not be fulfilled by -calpain , which is <termsem="GO:0010467"> expressed </term> in embryonic stem ( ES ) cells [ 31 ] and is assumed to be present at this stage of <termsem="GO:0007565"> gestation </term> .
+This demonstrates unequivocally that m-calpain and -calpain have distinct physiological roles during early <termsem="GO:0009790"> embryogenesis </term> .
+Isolation and characterization of Capn2 targeted ES cell clones .
+Two independent Capn2 + / - ES cell lines , designated ES27 and ES36 , were isolated from a screen of 305 drug-resistant clones .
+Correct targeting of the Capn2 locus was established both by Southern blot <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> and PCR analysis .
+A probe located outside the short ( upstream ) arm of homology <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> to a 3.5-kb BamHI fragment of the wild-type allele and 5.3-kb BamHI fragment of the mutant allele as predicted from genomic maps ( Figure 2A ) .
+The same probe also detected the expected 7.2-kb wild-type and 6.4-kb mutant BglII fragments , 4.9-kb wild-type and 5.7-kb mutant NcoI fragments , as well as 7.2-kb wild-type and 4.9-kb mutant BglII/AgeI fragments ( not shown ) .
+A probe derived from the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette recognized only the 5.3-kb BamHI fragment in Capn2 + / - ES cells , suggesting that the targeting vector had integrated solely at the Capn2 locus ( not shown ) .
+A PCR screening method was also established that <termsem="GO:0009058"> generated </term> a wild-type product of 2,749 bp and a 2,711 bp product from the mutant allele .
+The 2,711 bp product was only evident in the two targeted cell lines ( Figure 2B ) .
+Characterization of targeted ES cell lines .
+( A ) Targeted disruption of the Capn2 locus was detected initially by Southern blotting .
+Membranes were blotted with BamHI - <termsem="GO:0009056"> digested </term> genomic DNA extracted from ES cells and <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> with a DIG-labeled 823 bp BamHI/HindIII fragment located immediately upstream of the short arm of the targeting vector ( Figure 1 ) .
+A 3.5-kb BamHI fragment corresponding to the wild-type allele was present in all cells , whereas a 5.3-kb fragment from the mutant allele was detected in two targeted cell lines , designated ES27 and ES36 .
+( B ) PCR genotyping was carried out with two separate reactions designed to amplify either a 2,748 bp segment from the wild-type allele or a 2,711 bp segment from the mutant allele .
+Both reactions used a common sense primer located in intron 4 , outside the short arm of the targeting vector , and distinct allele-specific antisense primers .
+The reaction to detect the wild-type allele used an antisense primer located in exon 7 while the amplification of the mutant sequence was done with an antisense primer in the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette .
+The results confirm the presence of the wild-type allele in all cells , whereas the mutant allele signal was observed only in the two targeted clones .
+( M ) denotes the molecular weight marker .
+<termsem="GO:0000003"> Generation </term> of chimeric mice and germline transmission of the mutant Capn2 allele .
+Eight chimeric male mice were <termsem="GO:0000003"> produced </term> in morula aggregation experiments using the Capn2 + / - ES27 cell line .
+Two of these males transmitted the Capn2 + / - ES27 genotype through the germline into the F1 generation .
+Heterozygous Capn2 + / - animals appeared normal , with no obvious defects in gross anatomy , <termsem="GO:0000003"> reproduction </term> , or life span .
+Out of 199 weanlings from heterozygous intercrosses , no Capn2 - / - progeny were detected ( Table 2 ) .
+We did not observe high rates of perinatal <termsem="GO:0016265"> death </term> , and no Capn2 - / - stillborns were observed .
+This suggested that Capn2 - / - animals <termsem="GO:0016265"> perished </term> at some stage during <termsem="GO:0009790"> embryonic development </term> .
+In an attempt to determine if embryonic <termsem="GO:0016265"> death </term> occurred at a post - <termsem="GO:0007566"> implantation </term> stage , embryos were harvested for genotyping at different times between E10 .5 and E18 .5 .
+No Capn2 - / - embryos were observed and no signs of embryo resorption were detected ( Table 2 ) .
+This indicated that the Capn2 - / - embryos might be <termsem="GO:0016265"> dying </term> prior to <termsem="GO:0007566"> implantation </term> .
+Embryos were then flushed from the oviducts of <termsem="GO:0007565"> pregnant </term> females at E2 .5 or E3 .5 , and genotyped by means of a nested PCR strategy ( Figure 4 ) .
+Two of 90 successfully genotyped pre - <termsem="GO:0007566"> implantation </term> embryos were Capn2 - / - , ( Table 2 ; Figure 5 ) .
+Both of these Capn2 - / - embryos were isolated at the 8-cell stage and did not display any obvious morphological defects .
+None of the 46 successfully genotyped blastocyst-staged embryos were Capn2 - / - .
+The scarcity of Capn2-deficient embryos surviving to the 8-cell stage suggested that the loss of m-calpain activity must <termsem="GO:0016265"> fatally </term> compromise the viability of early embryos .
+Furthermore , it is possible that persistence of some maternally derived mRNA transcript or protein might have allowed a small number of Capn2 - / - embryos to survive to the morula-stage .
+Genotype distribution of offspring derived from Capn2 transgenic mice .
+* ND , not determined .
+Nested PCR strategy for genotyping of pre - <termsem="GO:0007566"> implantation </term> embryos .
+Due to the scarcity of extractable genetic material , a nested PCR strategy was developed in order to genotype pre - <termsem="GO:0007566"> implantation </term> embryos .
+Separate reactions were used to amplify a 429 bp fragment from the wild-type allele and a 389 bp segment from the mutant allele , both spanning the 3 ' end of the short ( upstream ) arm of the targeting vector .
+In both reactions , a 213 bp sequence located within the short arm was co-amplified with the ` diagnostic ' products as an internal control .
+The same sense primers were used to amplify ` diagnostic ' sequences in both reactions , whereas the antisense primers were allele-specific .
+The primers , represented by triangles , are depicted in two ( nested ) sets for each of the three reactions .
+Exons are represented by open , vertical rectangles , the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette by an open , horizontal rectangle , while thin vertical lines denote the boundaries of the short arm and the 5 ' end of the long ( downstream ) arm .
+A grey , horizontal rectangle delineates the segment of the wild-type allele that is replaced by the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette in the mutant allele .
+Genotyping of pre - <termsem="GO:0007566"> implantation </term> embryos .
+A nested PCR strategy was used to genotype embryos prior to <termsem="GO:0007566"> implantation </term> as described in Figure 4 .
+Capn2 + / - mice were <termsem="GO:0007618"> mated </term> and the date of <termsem="GO:0009566"> fertilization </term> established by the appearance of vaginal plugs .
+Blastocyst ( E3 .5 ) or 8-cell embryos ( E2 .5 ) were flushed from the oviducts and then <termsem="GO:0009056"> digested </term> with <termsem="GO:0008233"> <termsem="independent_continuant"> proteinase </term> </term> K .
+In separate reactions segments found exclusively in either the wild-type or mutant alleles were co-amplified with an internal control sequence , located in the short ( upstream ) arm of the targeting vector , which is found in both alleles .
+The final products were 429 bp for the wild-type allele , 389 bp for the mutant allele , and 213 bp for the internal control .
+( A ) A representative example of the genotyping of blastocyst stage embryos .
+Embryos # 1 , 2 , 4 , 5 , and 6 were Capn2 + / - whereas embryos # 3 and # 7 were Capn2 + / + , denoted by the absence of the 389 bp mutant signal .
+( B ) An example of the genotyping of 8-cell embryos is shown .
+Embryos # 1 , 2 , 3 , 5 , and 6 were Capn2 + / - while embryo # 4 was Capn2 - / - , marked by the absence of the 429 bp wild-type signal .
+( M ) denotes the molecular weight marker .
+The genotyping results for weanlings , post - <termsem="GO:0007566"> implantation </term> , and pre - <termsem="GO:0007566"> implantation </term> embryos are shown in Table 2 .
+Curiously , the ratio of Capn2 + / + to Capn2 + / - animals from inbred heterozygous intercrosses was substantially less than the predicted 1:2 Mendelian ratio .
+In a group of 199 animals derived from heterozygote <termsem="GO:0007618"> breeding </term> ( 33 litters ) , 23 Capn2 + / + ( 11.6 % ) and 176 ( 88.4 % ) Capn2 + / - animals were observed .
+The ratio of Capn2 + / + to Capn2 + / - animals among males ( 14 % to 82 % ) or females ( 13 % to 90 % ) was essentially the same is it was for the combined population , and there were an average of six pups per litter , which is normal for this background strain .
+A larger than expected proportion Capn2 + / - animals was also evident in both post - <termsem="GO:0007566"> implantation </term> and pre - <termsem="GO:0007566"> implantation </term> embryos ( Table 2 ) .
+Interestingly , a similar over-representation of heterozygous animals was also reported in one of the Capn4 transgenic lines , though the genotype skewing was not as extreme [ 32 ] .
+Crosses between Capn2 + / + and Capn2 + / - animals also resulted in a greater than expected proportion of Capn2 + / - animals ( Table 2 ) .
+An even higher degree of Capn2 + / - over-representation was seen when the mutant allele came the mother ( 73 % ) compared to when it came from the father ( 59 % ) .
+In these crosses the ratios of Capn2 + / + to Capn2 + / - animals among males or females compared well with the ratio in the combined populations ; 77 % of males and 69 % of females were Capn2 + / - when the mutant allele came from the mother , and 62 % of males and 55 % of females were Capn2 + / - when the mutant allele came from the father .
+Attempted generation of Capn2 - / - ES cells .
+Capn2 + / - ES cells were subjected to clonal selection in the presence of 2 mg/mL G418 in attempts to <termsem="GO:0032502"> generate </term> homozygous mutant cells by gene conversion .
+This procedure has been extensively applied to targeted ES cells and was readily achieved in the case of Capn4 + / - ES cells [ 31 ] .
+In this case , however , no Capn2 - / - ES cells were isolated in screens of 126 drug-resistant clones .
+The inability to isolate Capn2 - / - ES cells , in concert with the absence of Capn2 - / - embryos beyond the 8-cell stage , suggested that m-calpain activity might be essential for cell viability or the <termsem="GO:0032502"> establishment </term> of viable ES cell clones .
+Although calpain activity was first identified four decades ago , a clear understanding of the substrates and functions of the enzymes has remained elusive .
+In large part , this has been due to the lack of inhibitors capable of specifically <termsem="GO:0048519"> down-regulating </term> the calpains without affecting other <termsem="GO:0008233"> <termsem="independent_continuant"> proteases </term> </term> .
+In the past decade , the story has been further complicated by the discovery of a number of previously unknown isoforms which may be differently <termsem="GO:0065007"> regulated </term> and have different substrate specificity .
+Gene targeting in mice has provided a powerful approach to examine the physiologic roles of individual calpain isoforms .
+This was first used to disrupt the Capn4 gene , encoding the small <termsem="GO:0065007"> regulatory </term> subunit common to both  - and m-calpain .
+Two independent laboratories observed embryonic lethality in Capn4 knockout mice , albeit at different stages of <termsem="GO:0032502"> development </term> [ 31,32 ] .
+These observations supported the hypothesis that the small subunit is required for both  - and m-calpain , and furthermore suggested four possibilities regarding their requirement for <termsem="GO:0009790"> embryonic development </term> : 1 ) both isoforms were required ; 2 ) -calpain was required ; 3 ) m-calpain was required , or 4 )  - and m-calpain are redundant , and one or the other isoform was required .
+These options were narrowed down by the subsequent observation that Capn1 - / - mice , which lack the -calpain catalytic subunit , were healthy and fertile , although platelet aggregation and <termsem="GO:0050819"> clot retraction </term> defects were observed [ 33 ] .
+At that point , we were left with the last two possibilities that either m-calpain was specifically required during <termsem="GO:0009790"> embryogenesis </term> , or that either isoform alone was sufficient for sustaining embryonic viability .
+We report here that Capn2 - / - mice , which lack the m-calpain catalytic subunit , <termsem="GO:0016265"> die </term> at the preimplantation stage of <termsem="GO:0032502"> development </term> .
+This observation allows us to now conclude that m-calpain is specifically required during <termsem="GO:0009790"> embryogenesis </term> .
+Since homozygous disruption of the Capn4 gene was also expected to abolish m-calpain activity , this result is in agreement with the phenotype presented by one of the two Capn4 targeted lines in which preimplantation lethality of null embryos was also observed [ 32 ] .
+The survival of Capn4 - / - embryos from the original targeted line reported by Arthur and colleagues to mid - <termsem="GO:0007565"> gestation </term> is more difficult to reconcile [ 31 ] .
+In retrospect , it seems likely that the latter line represents a hypomorphic state , rather than a true null .
+The Capn4 targeting strategy employed by Arthur and colleagues involved disrupting the C-terminus of the calpain small subunit by insertion of the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette into the middle of exon 9 , which caused truncation of the protein [ 31 ] .
+This strategy was based upon previous structure/function studies showing that excision of the C-terminal 25 amino acid residues of the small subunit abolished calpain activity when co - <termsem="GO:0010467"> expressed </term> with the m-calpain large subunit in E. coli [ 34 ] .
+In contrast , the Capn4 targeting strategy employed by Zimmerman and colleagues involved a much more extensive deletion of exons 4 through 8 [ 32 ] .
+It now seems probable that the difference in the time of lethality of these two targeted Capn4 lines can be explained by different extents of disruption .
+The Zimmerman allele probably represents a true null genotype while the Arthur allele is likely a hypomorphic mutation .
+Alternate targeting strategies have been shown to yield different phenotypes in gene disruption studies .
+For example , three different targeting strategies were independently used to disrupt the mixed lineage leukemia ( Mll ) gene .
+In all three studies , homozygous null embryos <termsem="GO:0016265"> perished </term> during <termsem="GO:0009790"> embryogenesis </term> , but at different stages ( E0 .5 , E10 .5 , E14 .5 ) [ 35 ] .
+The variation in phenotype was attributed to the differences in degree of function of the truncated proteins <termsem="GO:0009058"> produced </term> from the mutant alleles .
+A similar effect might be at work in the two Capn4 transgenic lines .
+Efforts were made to detect transcripts or calpain activities derived from the Arthur Capn4 allele .
+This allele gave rise to multiple mRNA species , detectable by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR , reading through from the first half of exon 9 to at least two different cryptic <termsem="GO:0008380"> splice </term> sites in the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> promoter sequence [ 31 ] .
+These transcripts could give rise to defective calpain small subunits with 10 -- 30 inappropriate C-terminal acids , which might be sufficient to support a low level of calpain activity .
+However , <termsem="GO:0010467"> expression </term> of calpains with these modified small subunits did not give rise to any detectable calpain activity when <termsem="GO:0010467"> expressed </term> in E. coli , although their functionality in mammalian cells has yet to be determined ( J.S. Elce , unpublished work ) It has also been suggested that calpain large subunits alone might provide some activity in eukaryotic cells , although the Zimmerman et al. knockout appears to exclude that possibility , and no calpain activity was observed in our hands when calpain large subunits were <termsem="GO:0010467"> expressed </term> alone either in E. coli or in mammalian cells [ 36 ] .
+The different timing of lethality in the Capn4 knockouts might also be a consequence of the different genetic backgrounds of the two transgenic lines , which has been observed to influence the phenotype of transgenic mice on a number of occasions [ 37 ] .
+One of the enduring questions in calpain research has been whether the two ubiquitous isoforms ,  - and m-calpain , possess distinct in vivo roles .
+The two enzymes share 62 % sequence identity and are very similar in their structure and biochemistry .
+Notably , they <termsem="GO:0030908"> cleave </term> essentially the same set of substrates in vitro , suggesting that they have the potential to carry out the same functions in vivo .
+On the other hand , since they require different amounts of Ca2 + for in vitro activation , it is possible that the two isoforms are differentially <termsem="GO:0065007"> regulated </term> inside cells .
+It is now clear , from the gene targeting work done in mice , that  - and m-calpain have some distinct physiological roles , at least during <termsem="GO:0009790"> embryogenesis </term> .
+As noted , whereas Capn2 null murine embryos <termsem="GO:0016265"> die </term> prior to <termsem="GO:0007566"> implantation </term> , homozygous disruption of the -calpain large subunit gene , Capn1 , did not affect the viability of mice [ 33 ] .
+The principal phenotype observed as a result of Capn1 deficiency involved a disturbance in platelet function , possibly at the level of the tyrosine phosphorylation of certain proteins involved in <termsem="GO:0030168"> platelet activation </term> .
+Both  - and m-calpain activities are present in most mammalian cells , although the published data , owing to weaknesses in the available methodology , do not provide reliable estimates of their relative amounts .
+Platelets and erythrocytes contain abundant -calpain activity , while m-calpain activity is barely detectable .
+Compensation for -calpain deficiency by m-calpain is therefore less likely in platelets and erythrocytes than in other cell types .
+As a result , it is not possible to determine whether the absence of marked phenotype in Capn1 - / - animals is due to a compensatory affect by the remaining m-calpain activity , or whether the functions of -calpain are simply not essential .
+In contrast , lethality in Capn2 - / - embryos demonstrates that m-calpain activity is essential for <termsem="GO:0009790"> embryonic development </term> beyond the 8-cell stage .
+It follows that at least some functions of -calpain and m-calpain are distinct .
+The underlying cause of the preimplantation lethality in Capn2 - / - embryos has not yet been clarified .
+The two homozygous null embryos identified at the 8-cell stage did not present any obvious morphological defects .
+However , the fact that only two out of 90 successfully genotyped pre - <termsem="GO:0007566"> implantation </term> embryos proved to be Capn2 - / - is in itself revealing .
+Preimplantation lethality resulting from gene knockouts can typically be attributed to two general causes .
+In some cases , defects are incurred in the embryonic <termsem="GO:0030154"> differentiation </term> program which can often be observed morphologically [ 38 ] .
+Null embryos of this type often survive beyond the morula stage , and a Mendelian distribution of embryonic genotypes is usually noted .
+In other cases , however , the gene disruption is thought to compromise <termsem="GO:0016265"> fatally </term> the viability of cells in the early embryo [ 3,39-43 ] .
+In these instances , only a few null embryos are ever observed and homozygous mutant ES cells could not be isolated .
+The Capn2 knockout fits into the latter category .
+If it is true that m-calpain is essential for some aspect of cell viability , the survival of a few Capn2 - / - embryos to the 8-cell stage is most likely due to the persistence of some maternal m-calpain mRNA and/or protein through 2 -- 3 <termsem="GO:0051301"> cell divisions </term> .
+The mechanistic reasons for lethality in the absence of m-calpain are still unclear .
+There have been several reports of m-calpain involvement in <termsem="GO:0008283"> cell proliferation </term> in certain circumstances , including reports of its involvement in chromosome segregation during <termsem="GO:0007067"> mitosis </term> [ 44 ] as well as during <termsem="GO:0007126"> meiosis </term> [ 45 ] .
+Defects in <termsem="GO:0016477"> migration </term> , reported in Capn4 - / - cells [ 9 ] , could contribute to failed <termsem="GO:0009790"> embryonic development </term> .
+The association between calpain and cell viability has been noted in Capn4 - / - MEFs and other cell lines , although the reported work frequently did not distinguish between  - and m-calpain , and did not show that calpain was strictly essential [ 5,6 ] .
+In both CHO cells and Capn4 - / - MEFs , calpain was shown to influence <termsem="GO:0008283"> cell proliferation </term> , but only at very low cell densities [ 5 ] .
+Calpain has also been associated with progression through the <termsem="GO:0051318"> G1 stage </term> of the <termsem="GO:0007049"> cell cycle </term> [ 6 ] .
+Furthermore , some of the proteins known to be involved in <termsem="GO:0007049"> cell cycle </term> progression , such as p53 , p107 , cyclin D1 , and p27kip1 are reputed to be calpain substrates [ 3 ] .
+Sperm <termsem="GO:0005488"> binding </term> to the oocyte leads to increased cytoplasmic calcium which triggers the <termsem="GO:0007340"> acrosome reaction </term> [ 46 ] .
+Both  - and m-calpain have recently been detected in rodent sperm [ 47 ] and oocytes [ 45 ] .
+m-calpain was implicated in the <termsem="GO:0007340"> acrosome reaction </term> [ 47 ] which correlated with a <termsem="GO:0015031"> translocation </term> of m-calpain to the cortical membrane in oocytes where it might participate in the release of cortical granule contents required to prevent polyspermy [ 45 ] .
+m-calpain also relocalized to the oocyte <termsem="GO:0007126"> meiotic </term> spindle after <termsem="GO:0009566"> fertilization </term> , were it could be involved in <termsem="GO:0007059"> chromosome segregation </term> [ 45 ] .
+Polyspermy or defective <termsem="GO:0007059"> chromosome segregation </term> would both have <termsem="GO:0016265"> lethal </term> effects on early <termsem="GO:0009790"> embryonic development </term> .
+It should also be stressed that Capn4 - / - ES and MEF cells from the presumptive hypomorphic allele can be maintained in culture despite an apparent lack of calpain activity , as assessed by casein zymography or by the appearance of characteristic spectrin <termsem="GO:0009056"> breakdown </term> products .
+It is conceivable , as discussed earlier , that a trace amount of calpain activity , beneath levels detectable by these methods , is retained from this mutant Capn4 allele , and it is sufficient for maintaining the viability of the cells .
+Furthermore , calpain-independent mechanisms for protecting cell viability might exist in these cell lines that are absent in early embryonic cells .
+The repeated failure to achieve gene conversion of Capn2 + / - to Capn2 - / - ES cells by selection of clones in high concentrations of G418 suggests that the homozygous mutant state somehow compromises cell viability or clonal selection of ES cells .
+Efforts are under way to <termsem="GO:0010467"> express </term> the m-80 k subunit from a Capn2 cDNA rescue transgene prior to gene conversion in order to preemptively rescue m-calpain activity before the remaining endogenous wild-type allele is lost .
+However , difficulty in achieving stable <termsem="GO:0010467"> expression </term> of the rescue transgene has thus far hampered these attempts .
+One curiosity which arose during the genotyping of progeny from heterozygous interbreeding was the highly non-Mendelian ratio of Capn2 + / + ( 11.6 % ) to Capn2 + / - ( 88.4 % ) of weanlings .
+At present , there is no obvious explanation for this result .
+Crosses between wild-type and heterozygous mice also <termsem="GO:0000003"> produced </term> progeny with a greater than expected proportion of heterozygous offspring .
+Interestingly , heterozygous crosses involving the Capn4 transgenic line <termsem="GO:0000003"> generated </term> by Zimmerman and colleagues <termsem="GO:0000003"> yielded </term> progeny with a similar , if less extreme , skewing in favor of the heterozygous genotype .
+Out of a total of 80 genotyped animals , 22.5 % were wild-type and 77.5 % were heterozygous , with no homozygous null progeny observed [ 32 ] .
+These observations suggest a <termsem="GO:0032502"> developmental </term> advantage associated with reduced calpain <termsem="GO:0010467"> expression </term> .
+Perhaps future studies will reveal a mechanistic basis for this .
+The work presented here has clarified two important questions regarding the physiological roles of the two ubiquitous calpain isoforms ,  - and m-calpain .
+Firstly , it was determined that m-calpain plays an indispensable role in murine <termsem="GO:0009790"> embryogenesis </term> , possibly related to pre - <termsem="GO:0007566"> implantation </term> <termsem="GO:0032502"> development </term> .
+Furthermore , this function can not be carried out by -calpain despite the apparent in vitro similarities of  - and m-calpain , demonstrating that the two isoforms clearly have some distinct roles in vivo .
+The functions of m-calpain during post - <termsem="GO:0007566"> implantation </term> <termsem="GO:0009790"> embryogenesis </term> and in adult mice remain to be elucidated and will have to be addressed using a conditional gene targeting strategy .
+Cloning and sequencing of the mouse Capn2 locus .
+The mouse Capn2 gene encodes the 700 amino acids of the m-calpain large subunit ( m-80 k ) and consists of 21 exons extending over 50-kb on chromosome 1 .
+A cDNA clone encoding a portion of the mouse m-80 k subunit was purchased ( dbEST Id , 807416 , Image : 606689 , Image Consortium , LLNL ) .
+It was found to contain 2.8-kb of sequence from position 247 of the coding sequence to the <termsem="GO:0006353"> <termsem="GO:0006415"> stop </term> </term> codon at position 2,101 , including the 3 ' - UTR to the polyA signal .
+A fragment of this cDNA was subcloned and used to screen a 129Sv mouse genomic library in -Dash II .
+Overlapping genomic clones were obtained covering 15,354 bp , extending from a BamHI site in intron 3 to a BamHI site in intron 15 .
+These clones were sequenced completely on both strands and the data were submitted to GenBank ( accession no .
+AF497625 ) .
+The submitted sequences agreed precisely with the public databases , and also filled in several small gaps corresponding to short repetitive sequences which could only be firmly established by repeated sequencing in non-standard conditions .
+<termsem="GO:0009058"> Construction </term> of the Capn2 targeting vector .
+A targeting construct was designed to replace a 785 bp BamHI-HindIII fragment , containing exon 7 of the Capn2 gene , with the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette ( Figure 1 ) .
+Exon 7 encodes 24 amino acids in the active-site region , including Asn286 , one of the catalytic triad residues .
+The short ( upstream ) arm of the targeting construct was provided by a 2.7-kb HindIII-BamHI fragment , containing exons 5 and 6 , which was inserted into the pPNT vector upstream of the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette [ 48 ] .
+During cloning , the BamHI site at the 3 ' end of the short arm was abolished .
+The loss of this BamHI site in the mutant allele , coupled with the introduction of a new BamHI site at the 3 ' end of the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette , provided a basis for distinguishing the wild-type and mutant alleles by Southern blotting .
+The long ( downstream ) arm of homology was provided by a 7-kb HindIII-KpnI fragment , extending from intron 7 to intron 12 , inserted between the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> and <termsem="GO:0004797"> <termsem="independent_continuant"> thymidine kinase </term> </term> ( <termsem="GO:0004797"> <termsem="independent_continuant"> tk </term> </term> ) cassettes .
+Targeting strategy for disruption of the murine Capn2 gene .
+The murine Capn2 gene , encoding the m-80 k subunit , was disrupted in ES cells by homologous <termsem="GO:0006310"> recombination </term> .
+The structures of the wild-type allele ( top ) , the targeting vector ( middle ) , and the mutant allele ( bottom ) are depicted .
+In the mutant allele , a <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette replaces a 0.8-kb genomic fragment containing exon 7 ( grey rectangle ) which encodes the active site asparagine residue ( Asn286 ) In the targeting vector , the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette is flanked by 2.7-kb of Capn2 homologous sequence in the upstream ( short ) arm and 7.9-kb of homology in the downstream ( long ) arm .
+A probe located immediately outside of the short arm detects a 3.5-kb BamHI fragment from the wild-type allele and a 5.3-kb BamHI fragment from the mutant allele .
+Exons are depicted as open vertical rectangles except for exon 7 which is represented by a solid vertical rectangle .
+The probe used in most Southern blot analyses is shown as a solid , horizontal rectangle , while triangles mark the positions of PCR primers also used for genotyping purposes .
+ES cell culture , <termsem="GO:0009294"> transfection </term> and selection of targeted clones .
+Mouse R1 ES cells [ 49 ] were maintained on gelatin-coated plates with feeder layers of mouse embryonic fibroblasts at 37 C under 5 % CO2 in ES cell medium ( DMEM [ high glucose ] supplemented with 15 % fetal bovine serum , 0.1 mM non-essential amino acids , 2 mM glutamine , 1 mM sodium pyruvate , 0.1 mM 2-mercaptoethanol , 100 U/ml penicillin , 100 g/ml streptomycin , 25 g/ml amphotericin , and 1,000 U/ml of ESGro [ Chemicon ] ) .
+Fetal bovine serum from HyClone Laboratories Inc ( Logan , Utah ) was tested for its ability to support ES <termsem="GO:0016049"> cell growth </term> .
+Gelatin was from Sigma-Aldrich Canada ( Oakville , Ontario ) .
+Unless otherwise specified , all other tissue culture reagents were from Gibco-BRL .
+The targeting construct was linearized by NotI <termsem="GO:0009056"> digestion </term> and electroporated into R1 ES cells .
+Cells were plated without feeder layers on gelatin-coated plates and <termsem="GO:0009294"> transformed </term> clones were selected in the presence of 200 g/ml G418 ( Gibco - BRL ) and 2 M ganciclovir ( Syntex , Inc. ) for eight days .
+Drug-resistant clones were picked , <termsem="GO:0008283"> expanded </term> on gelatin-coated plates , and genotyped by Southern blotting and PCR analysis ( see below ) .
+<termsem="GO:0000003"> Generation </term> of targeted mice .
+Capn2 + / - ES cells were aggregated overnight with 8-cell embryos recovered from CD1 <termsem="GO:0007618"> matings </term> , as previously described [ 31 ] .
+On the next day , blastocysts were transferred to pseudopregnant CD1 females .
+Chimeric animals were identifiable at <termsem="GO:0007567"> birth </term> by black <termsem="GO:0048069"> eye pigmentation </term> and subsequently by patches of agouti coat colour .
+Chimeric males were <termsem="GO:0007618"> bred </term> with CD1 females to identify those males capable of germline transmission .
+These were then <termsem="GO:0007618"> bred </term> with 129SvJ females to establish the mutation in an inbred genetic background .
+Mouse protocols were approved by the Queen 's University Animal Care Committee according to the guidelines of the Canadian Council on Animal Care .
+Several Southern blot and PCR strategies were exploited in order to determine the genotype of the Capn2 locus .
+Southern blotting was carried out using the digoxigenin ( DIG ) non-radioactive system ( Roche ) .
+In most cases , membranes were blotted with BamHI - <termsem="GO:0009056"> digested </term> genomic DNA and <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> with a DIG-labeled 823 bp exon 4-containing BamHI-HindIII fragment located immediately upstream of the short arm of homology ( Figure 1 ) .
+A 681 bp PstI-XbaI fragment from the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette was also used to probe Southern blots in order to verify a single integration event in targeted clones .
+Genotyping was also carried out by PCR analysis of genomic DNA .
+The sequences of all oligonucleotide primers are listed in Table 1 .
+A single-step PCR strategy was sufficient for genotyping ES cells or biopsies from post - <termsem="GO:0007566"> implantation </term> embryos and weanlings ( Figure 1 ) .
+A 2,748 bp segment of the wild-type allele and a 2,711 bp segment of the mutant allele were amplified in separate reactions using a common ( intron 4 ) sense primer , located outside the short arm of homology , and distinct antisense primers which <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> to either wild-type ( exon 7 ) or mutant ( <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> ) sequence ( Table I ) .
+The thermocycling parameters included a five minute initial <termsem="GO:0032508"> denaturation </term> step at 95 C , 30 cycles of one minute <termsem="GO:0032508"> denaturation </term> at 95 C , one minute <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> at 56 C , and one minute <termsem="GO:0006354"> <termsem="GO:0022616"> extension </term> </term> at 72 C , with a ten minute final <termsem="GO:0006354"> <termsem="GO:0022616"> extension </term> </term> step .
+Oligonucleotide primers used to genotype the Capn2 locus .
+Due to the limited amount of genetic material available in pre - <termsem="GO:0007566"> implantation </term> embryos , a nested PCR strategy was developed to yield reliable genotyping information ( Figure 4 ) .
+Whole embryos were first <termsem="GO:0009056"> digested </term> in 20 L of <termsem="GO:0008233"> <termsem="independent_continuant"> proteinase </term> </term> K buffer ( see below ) .
+The lysate was then divided in two , with half ( 10 L ) being used in the amplification of the wild-type allele and the remaining 10 L in the amplification of the mutant allele .
+The first reaction in the nested PCR amplification of the wild-type allele was carried out in a final reaction volume of 50 L , using an intron 6 sense primer and an antisense primer located in intron 7 .
+Two L of the first reaction were used as template in the second PCR amplification using another intron 6 sense primer and an antisense primer in exon 7 .
+The nested amplification of the mutant allele was carried out similarly .
+The first primer pair consisted of the intron 6 sense primer and an antisense primer in the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> cassette .
+The nested primer pair was comprised of the second intron 6 sense primer and an antisense primer also located within the <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> Neo </term> </term> sequence .
+It should be noted that amplification of both sequences involved the same sense primers in both steps of the nested PCR strategy .
+In addition , the two sets of reactions included a common internal control designed to amplify a genomic region within the short arm of the targeting vector that is preserved in both the wild-type and mutant alleles .
+The first primer pair of the control PCR was made up of an intron 4 sense primer and an intron 5 antisense primer .
+The second primer pair comprised an exon 5 sense primer and a nested intron 5 antisense primer .
+The final products were 213 bp for the control PCR , 429 bp for the wild-type PCR , and 389 bp for the mutant PCR .
+All reactions were carried out using identical PCR conditions entailing an initial five minute <termsem="GO:0032508"> denaturation </term> at 95 C , 35 cycles of one minute <termsem="GO:0032508"> denaturation </term> at 95 C , one minute <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> at 56 C , and one minute <termsem="GO:0006354"> <termsem="GO:0022616"> extension </term> </term> at 72 C , with a final <termsem="GO:0006354"> <termsem="GO:0022616"> extension </term> </term> step of ten minutes .
+Isolation of pre - <termsem="GO:0007566"> implantation </term> embryos .
+Time of <termsem="GO:0009566"> fertilization </term> was determined by observation of <termsem="GO:0007620"> copulation </term> plugs , and noon of that day was defined as E0 .5 .
+Pre - <termsem="GO:0007566"> implantation </term> embryos were obtained by dissecting the uteri out of <termsem="GO:0007565"> pregnant </term> females at E2 .5 or E3 .5 and flushing the oviducts with ES cell medium .
+Isolated embryos were then <termsem="GO:0009056"> digested </term> for five hours at 55 C in 20 L of <termsem="GO:0019835"> lysis </term> buffer ( 50 mM Tris-HCl , 0.5 % Triton X-100 , 200 L/mL <termsem="GO:0008233"> <termsem="independent_continuant"> proteinase </term> </term> K , pH 8.0 ) , followed by ten minutes at 95 C to inactivate the <termsem="GO:0008233"> <termsem="independent_continuant"> proteinase </term> </term> K. Lysates were then used for PCR genotyping .
+EGF : Epidermal <termsem="GO:0008083"> <termsem="independent_continuant"> <termsem="GO:0040007"> growth </term> factor </term> </term> .
+MEF : Mouse embryonic fibroblast .
+DEC <termsem="GO:0009058"> generated </term> the Capn2 targeting construct .
+PD and PAG carried out the ES electroporation and selection of targeted clones .
+KW performed aggregation chimeras to <termsem="GO:0000003"> establish </term> germline chimeric animals .
+TDV <termsem="GO:0000003"> established </term> and maintained the knockout mouse colony and performed genotyping analysis .
+PD , JSCA , JSE , DEC and PAG conceived the study and helped draft the manuscript .
+All authors read and approved the final manuscript .
+Genotyping of weanlings from heterozygote intercrosses .
+A representative example of the Southern blot genotyping of progeny from a Capn2 + / - intercross is shown .
+Genomic DNA was extracted from mouse tail biopsies taken from three-week old weanlings and genotyped by Southern blotting as described in Figure 1 .
+A 3.5-kb BamHI fragment from the wild-type allele was detected in all animals while a 5.3-kb BamHI fragment from the mutant allele was observed in a subset of progeny .
+No Capn2 - / - offspring were detected among weanlings or post - <termsem="GO:0007566"> implantation </term> embryos , nor were embryo resorption sites observed .
+These results indicate that Capn2 - / - embryos <termsem="GO:0016265"> perished </term> at a pre - <termsem="GO:0007566"> implantation </term> stage .
+We would like to thank Andras Nagy for providing the R1 ES cell line , Janet Rossant for the 129SvJ mouse genomic DNA library , and Ralph Zirngibl for modification of the pPNT vector .
+Initial cloning of Capn2 and vector <termsem="GO:0009058"> construction </term> was undertaken by DEC as a sabbatical visitor at Queen 's University with support from the National Science Foundation ( MCB9723636 ) and the University of Maine .
+This work was supported by grants from the Canadian Institutes of Health Research and The Heart and Stroke Foundation of Canada .
+P.D. was an Ontario Graduate Scholar .

@@ -1,0 +1,3163 @@
+# ::snt Embryonic stem cells and mice expressing different GFP variants for multiple non-invasive reporter usage within a single animal .
+# ::tok Embryonic stem cells and mice expressing different GFP variants for multiple non-invasive reporter usage within a single animal .
+# ::alignments 17-18|0.0.0.1.2 16-17|0.0.0.1.2.0 13-14|0.0.0.0.1 12-13|0.0.0.1.1 10-11|0.0.0.1.1.0 8-9|0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0 4-5|0.0.0.1.0 3-4|0.0.0.1 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T19:59:39.728
+(s2 / stem-01 
+      :ARG0 (e2 / embryonic 
+            :ARG0-of (e / express-01 
+                  :ARG1 (v / variant 
+                        :ARG1-of (d / differ-02) 
+                        :mod (u / usage)) 
+                  :op2-of (a2 / and 
+                        :op1 (m2 / mouse) 
+                        :op3 (r / report-01 
+                              :quant (m / multiple)) 
+                        :op4 (a / animal 
+                              :ARG1-of (s / single-02))))) 
+      :ARG1 (c / cell))
+
+# ::snt Non-invasive autofluorescent reporters have revolutionized lineage labeling in an array of different organisms .
+# ::tok Non-invasive autofluorescent reporters have revolutionized lineage labeling in an array of different organisms .
+# ::alignments 12-13|0.0.0.0.0.0 11-12|0.0.0.0.0.0.0 9-10|0.0.0.0.0 6-7|0.0.0.0 5-6|0.0.0.0.1 4-5|0.0.0 2-3|0+0.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T19:59:40.194
+(r2 / report-01 
+      :ARG0 (p / person 
+            :ARG0-of (r / revolutionize-05 
+                  :ARG1 (l / label-01 
+                        :ARG1 (a / array 
+                              :mod (o / organism 
+                                    :ARG1-of (d / differ-02))) 
+                        :mod (l2 / lineage)))) 
+      :ARG1 (a2 / autofluorescent))
+
+# ::snt In recent years green fluorescent protein ( GFP ) from the bioluminescent jellyfish Aequoria Victoria has gained popularity in mouse transgenic and gene targeting regimes [ 1 ] .
+# ::tok In recent years green fluorescent protein ( GFP ) from the bioluminescent jellyfish Aequoria Victoria has gained popularity in mouse transgenic and gene targeting regimes [ 1 ] .
+# ::alignments 26-27|0.0.0.0.0.0.0.0 24-25|0.0.0.0 23-24|0.0.0 22-23|0.0.3 21-22|0.0 20-21|0.0.2 19-20|0.0.2.0 17-18|0.0.1.1 16-17|0.0.1 13-15|0.0.1.0.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 12-13|0 11-12|0.0.0.0.0 5-6|0.0.0.0.0.0 4-5|0.0.0.0.0.0.1 3-4|0.0.0.0.0.0.0 2-3|0.0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T19:59:44.091
+(j / jellyfish 
+      :concession (a / and 
+            :ARG0-of (t / target-01 
+                  :ARG1 (r / regime 
+                        :poss-of (b / bioluminescent 
+                              :poss-of (p2 / protein 
+                                    :ARG1-of (g3 / green-02 
+                                          :ARG0 (1 / 1 
+                                                :quant-of (t3 / temporal-quantity 
+                                                      :time (r2 / recent) 
+                                                      :unit (y / year)))) 
+                                    :mod (f / fluorescent))))) 
+            :ARG2-of (g2 / gain-02 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "Aequoria" 
+                              :op2 "Victoria")) 
+                  :ARG1 (p / popularity)) 
+            :op1 (t2 / transgenic 
+                  :mod (m / mouse)) 
+            :op2 (g / gene)))
+
+# ::snt It offers several advantages over conventional gene-based reporters , such as lacZ and alkaline phosphatase , in that its visualization does not require a chromogenic substrate and can be realized in vivo .
+# ::tok It offers several advantages over conventional gene-based reporters , such as lacZ and alkaline phosphatase , in that its visualization does not require a chromogenic substrate and can be realized in vivo .
+# ::alignments 31-32|0.0 29-30|0.1.1 27-28|0 26-27|0.1 25-26|0.1.0.1 22-23|0.1.0 21-22|0.1.0.2 19-20|0.1.0.0 14-15|0.1.1.1.0.1.2 13-14|0.1.1.1.0.1.2.0 12-13|0.1.1.1.0.1 11-12|0.1.1.1.0.1.1 9-10|0.1.1.1.0.1.0 7-8|0.1.1.0.0+0.1.1.0 6-7|0.1.1.0.1.0 5-6|0.1.1.0.1 3-4|0.1.1.1 2-3|0.1.1.1.1 1-2|0.1.1.1.0 0-1|0.1.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T19:59:53.200
+(p / possible-01 
+      :ARG1 (v / vivo) 
+      :op2-of (a / and 
+            :op1 (r2 / require-01 
+                  :ARG0 (v2 / visualization) 
+                  :ARG1 (s / substrate) 
+                  :polarity -) 
+            :op3 (r / realize-02 
+                  :ARG0 (p3 / person 
+                        :ARG0-of (r3 / report-01) 
+                        :mod (c / conventional 
+                              :mod-of (g / gene-bas))) 
+                  :ARG1 (a4 / advantage 
+                        :ARG1-of (o / offer-01 
+                              :ARG0 (i / it) 
+                              :op1-of (a3 / and 
+                                    :op2 (s2 / such) 
+                                    :op3 (l / lacZ) 
+                                    :op4 (p2 / phosphatase 
+                                          :mod (a2 / alkaline)))) 
+                        :quant (s3 / several)))))
+
+# ::snt We have previously demonstrated the utility and developmental neutrality of enhanced green fluorescent protein ( EGFP ) in embryonic stem ( ES ) cells and mice [ 2 ] .
+# ::tok We have previously demonstrated the utility and developmental neutrality of enhanced green fluorescent protein ( EGFP ) in embryonic stem ( ES ) cells and mice [ 2 ] .
+# ::alignments 27-28|0.2 25-26|0.3.1.1 24-25|0.3.1 23-24|0.3 21-22|0.3.1.0 19-20|0.3.0 18-19|0.1.1.1.0 15-16|0.4.1.0.0+0.4.1.0+0.4.1 13-14|0.1.1 12-13|0.1.1.2 11-12|0.1.1.1 10-11|0.1.1.0 8-9|0.1 7-8|0.1.0 6-7|0.4 5-6|0.4.0 3-4|0 2-3|0.5 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T19:59:55.568
+(d2 / demonstrate-01 
+      :ARG0 (w / we) 
+      :ARG1 (n2 / neutrality 
+            :mod (d / developmental) 
+            :mod (p / protein 
+                  :ARG1-of (e3 / enhance-01) 
+                  :ARG1-of (g / green-02 
+                        :ARG2 (e2 / embryonic)) 
+                  :mod (f / fluorescent))) 
+      :ARG2 2 
+      :location (c / cell 
+            :mod (s / stem) 
+            :op2-of (a / and 
+                  :op1 (e / e) 
+                  :op3 (m / mouse))) 
+      :op1-of (a2 / and 
+            :op2 (u / utility) 
+            :op3 (o / organization 
+                  :name (n / name 
+                        :op1 "EGFP"))) 
+      :time (p2 / previous))
+
+# ::snt In this study we have used embryonic stem ( ES ) cell-mediated transgenesis to test the enhanced cyan fluorescent protein ( ECFP ) and enhanced yellow fluorescent protein ( EYFP ) , two mutant and spectrally distinct color variants of wild type ( wt ) GFP .
+# ::tok In this study we have used embryonic stem ( ES ) cell-mediated transgenesis to test the enhanced cyan fluorescent protein ( ECFP ) and enhanced yellow fluorescent protein ( EYFP ) , two mutant and spectrally distinct color variants of wild type ( wt ) GFP .
+# ::alignments 45-46|0.0.1.1.1 41-42|0.0.1.1.1.0 40-41|0.0.1.1.1.0.0 38-39|0.0.1.1 37-38|0.0.1.1.0 36-37|0.0.1.1.2 34-35|0.0.1 33-34|0.0.1.0 32-33|0.0.1.0.0 27-28|0.1 26-27|0.1.1 25-26|0.1.0 24-25|0.0 23-24|0 19-20|0.0.0.0.1.1 18-19|0.0.0.0.1.1.1 17-18|0.0.0.0.1.1.2 16-17|0.0.0.0.1.1.0 14-15|0.0.0.0.1 12-13|0.0.0.0.1.0 11-12|0.0.0.0.1.0.0 9-10|0.1.0.0 7-8|0.0.0.0.0 6-7|0.0.0.0.0.0 5-6|0.0.0.0 3-4|0.0.0 2-3|0.0.0.0.2 1-2|0.0.0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:02.761
+(a2 / and 
+      :op1 (e / enhance-01 
+            :ARG0 (w2 / we 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (s / stem 
+                              :mod (e4 / embryonic)) 
+                        :ARG2 (t2 / test-01 
+                              :ARG0 (t3 / transgenesi 
+                                    :mod (c3 / cell-mediat)) 
+                              :ARG1 (p2 / protein 
+                                    :ARG1-of (e2 / enhance-01) 
+                                    :mod (f2 / fluorescent) 
+                                    :mod (c2 / cyan))) 
+                        :time (s2 / study-01 
+                              :mod (t4 / this)))) 
+            :ARG1 (a / and 
+                  :op1 (m / mutant 
+                        :quant 2) 
+                  :op2 (v / variant 
+                        :mod (c / color) 
+                        :mod (g / GFP 
+                              :mod (t / type 
+                                    :mod (w / wild))) 
+                        :mod (d / distinct)))) 
+      :op2 (p / protein 
+            :ARG1-of (y / yellow-02 
+                  :ARG0 (e3 / e)) 
+            :mod (f / fluorescent)))
+
+# ::snt We have also tested DsRed1 , the novel red fluorescent protein reporter recently cloned from the Discostoma coral by virtue of its homology to GFP .
+# ::tok We have also tested DsRed1 , the novel red fluorescent protein reporter recently cloned from the Discostoma coral by virtue of its homology to GFP .
+# ::alignments 22-23|0.0.1.0.0 19-20|0.0.1.0 17-18|0.0.1.1 16-17|0.0.1.1.0.0.0+0.0.1.1.0.0+0.0.1.1.0 13-14|0.0.1 12-13|0.0.1.2 11-12|0.0 10-11|0 9-10|0.1 8-9|0.0.3 7-8|0.0.2 4-5|0.0.0.1.0+0.0.0.1+0.0.0 3-4|0.0.0.0 2-3|0.0.0.0.1 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:04.711
+(p / protein 
+      :ARG1-of (r2 / report-01 
+            :ARG0 (p2 / person 
+                  :ARG1-of (t / test-01 
+                        :ARG0 (w / we) 
+                        :mod (a / also)) 
+                  :name (n3 / name 
+                        :op1 "DsRed1")) 
+            :ARG1-of (c2 / clone-01 
+                  :ARG0 (v / virtue 
+                        :poss (h / homology)) 
+                  :ARG2 (c / coral 
+                        :mod (o / organization 
+                              :name (n / name 
+                                    :op1 "Discostoma"))) 
+                  :time (r / recent)) 
+            :mod (n2 / novel) 
+            :mod (r3 / red)) 
+      :mod (f / fluorescent))
+
+# ::snt To this end , we have established lines of ES cells together with viable and fertile mice having widespread expression of either the ECFP or EYFP GFP-variant reporters .
+# ::tok To this end , we have established lines of ES cells together with viable and fertile mice having widespread expression of either the ECFP or EYFP GFP-variant reporters .
+# ::alignments 27-28|0.0.0.0.1.0+0.0.0.0.1 24-25|0.0.0.0 21-22|0.0.0.0.0 19-20|0.0.0 18-19|0.0 16-17|0.4 15-16|0.3 14-15|0 13-14|0.2 11-12|0.1.2 10-11|0.1.1.0 9-10|0.1.1.0.0 7-8|0.1.1 6-7|0.1 4-5|0.1.0 2-3|0.1.0.0 1-2|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:08.922
+(a / and 
+      :ARG0-of (w / wide-02 
+            :ARG1 (e2 / express-01 
+                  :ARG1 (o / or 
+                        :mod (e / either) 
+                        :op1 (p / person 
+                              :ARG0-of (r / report-01))))) 
+      :op1 (e4 / establish-01 
+            :ARG0 (w2 / we 
+                  :ARG1-of (e5 / end-01 
+                        :mod (t2 / this))) 
+            :ARG1 (l / line 
+                  :domain (c / cell 
+                        :mod (e3 / e))) 
+            :time (t / together)) 
+      :op2 (v / viable) 
+      :op3 (f / fertile) 
+      :op4 (m / mouse))
+
+# ::snt However , we were unable to generate equivalent DsRed1 lines , suggesting that DsRed1 is not developmentally neutral or that transgene expression can not be sustained constitutively .
+# ::tok However , we were unable to generate equivalent DsRed1 lines , suggesting that DsRed1 is not developmentally neutral or that transgene expression can not be sustained constitutively .
+# ::alignments 26-27|0.0.1 25-26|0.0 23-24|0.0.0.0 22-23|0.0.0 21-22|0 20-21|0.1 18-19|0.0.2 17-18|0.0.2.1 16-17|0.0.2.1.1 15-16|0.0.2.1.0 11-12|0.0.2.0 9-10|0.0.2.0.0.0.0.1 8-9|0.0.2.0.0.0.0.2.0+0.0.2.0.0.0.0.2+0.0.2.0.0.0.0 7-8|0.0.2.0.0.0.0.0 6-7|0.0.2.0.0.0 2-3|0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:13.079
+(e / express-01 
+      :ARG1-of (s / sustain-01 
+            :ARG1-of (p / possible-01 
+                  :polarity -) 
+            :mod-of (c / constitutively) 
+            :op2-of (o / or 
+                  :ARG1-of (s2 / suggest-01 
+                        :ARG0 (w / we 
+                              :ARG0-of (g / generate-01 
+                                    :ARG1 (p2 / person 
+                                          :mod (e2 / equivalent) 
+                                          :mod-of (l / line) 
+                                          :name (n2 / name 
+                                                :op1 "DsRed1"))))) 
+                  :op1 (n / neutral-02 
+                        :polarity - 
+                        :time (d / develop-02)))) 
+      :mod (t / transgene))
+
+# ::snt Balanced ( diploid < - > diploid ) and polarized ( tetraploid < - > diploid ) chimeras comprising combinations of the ECFP and EYFP ES cells and/or embryos , demonstrate that populations of cells expressing each individual reporter can be distinguished within a single animal .
+# ::tok Balanced ( diploid < - > diploid ) and polarized ( tetraploid < - > diploid ) chimeras comprising combinations of the ECFP and EYFP ES cells and/or embryos , demonstrate that populations of cells expressing each individual reporter can be distinguished within a single animal .
+# ::alignments 45-46|0.0.0.0.2 44-45|0.0.0.0.2.0 41-42|0.0.0.0 39-40|0.0.0.0.0 38-39|0.1 37-38|0.1.1.0 36-37|0.1.1 35-36|0 34-35|0.0 32-33|0.0.0 30-31|0.0.0.0.1 26-27|0.0.0.0.1.0.0.0.0.0 24-26|0.0.0.0.1.0.0.0.0.1.1+0.0.0.0.1.0.0.0.0.1.0+0.0.0.0.1.0.0.0.0.1+0.0.0.0.1.0.0.0.0 23-24|0.0.0.0.1.0.0.0 19-20|0.0.0.0.1.0.0.1 18-19|0.0.0.0.1.0.0 15-16|0.1.0 9-10|0.0.0.0.1.0.3 8-9|0.0.0.0.1.0 6-7|0.0.0.0.1.0.2 2-3|0.0.0.0.1.0.3.0 0-1|0.0.0.0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:19.028
+(e2 / express-01 
+      :ARG0 (c / cell 
+            :domain-of (p2 / population 
+                  :ARG1-of (d / distinguish-01 
+                        :ARG1-of (p / possible-01) 
+                        :ARG1-of (d2 / demonstrate-01 
+                              :op4-of (a3 / and 
+                                    :ARG0-of (c4 / comprise-01 
+                                          :ARG1 (a2 / and 
+                                                :op1 (t / thing 
+                                                      :mod-of (c2 / cell) 
+                                                      :name (n / name 
+                                                            :op1 (e3 / EYFP) 
+                                                            :op2 (e4 / ES)))) 
+                                          :ARG2 (c3 / combination)) 
+                                    :op1 (b / balance-01) 
+                                    :op2 (d4 / diploid) 
+                                    :op3 (p3 / polarize-01 
+                                          :ARG1 (d5 / diploid)))) 
+                        :ARG2 (a / animal 
+                              :ARG1-of (s / single-02))))) 
+      :ARG1 (r / report-01 
+            :ARG1 (d3 / diploid) 
+            :mod (e / each 
+                  :mod-of (i / individual))))
+
+# ::snt GFP variant reporters are unique in allowing non-invasive multi-spectral visualization in live samples .
+# ::tok GFP variant reporters are unique in allowing non-invasive multi-spectral visualization in live samples .
+# ::alignments 12-13|0+0.0 11-12|0.0.0 9-10|0.0.0.0.0.0 6-7|0.0.0.0.0 4-5|0.0.0.0.2 2-3|0.0.0.0.1+0.0.0.0 1-2|0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:19.440
+(s / sample-01 
+      :ARG1 (t / thing 
+            :ARG1-of (l / live-01 
+                  :ARG0 (p / person 
+                        :ARG0-of (a / allow-01 
+                              :ARG1 (v / visualization)) 
+                        :ARG0-of (r / report-01 
+                              :ARG1 (v2 / variant)) 
+                        :domain-of (u / unique)))))
+
+# ::snt The ECFP and EYFP-expressing transgenic ES cells and mice that we have generated provide sources of cells and tissues for combinatorial , double-tagged recombination experiments , chimeras or transplantations .
+# ::tok The ECFP and EYFP-expressing transgenic ES cells and mice that we have generated provide sources of cells and tissues for combinatorial , double-tagged recombination experiments , chimeras or transplantations .
+# ::alignments 28-29|0.0.0.0.1.3.1 27-28|0.0.0.0.1.3 26-27|0.0.0.0.1.3.0 24-25|0.0.0.0.1 23-24|0.0.0.0.1.0 22-23|0.0.0.0.1.1 20-21|0.0.0.0.1.2 18-19|0 17-18|0.0 16-17|0.0.0.1 14-15|0.0.0 13-14|0.0.0.0 12-13|0.0.0.0.0.0 10-11|0.0.0.0.0 8-9|0.0.0.0.0.0.1.1 7-8|0.0.0.0.0.0.0 6-7|0.0.0.0.0.0.0.0 5-6|0.0.0.0.0.0.0.0.0 3-4|0.0.0.0.0.0.1.0 2-3|0.0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:22.212
+(t2 / tissue 
+      :op2-of (a / and 
+            :op1 (s / source 
+                  :ARG1-of (p / provide-01 
+                        :ARG0 (w / we 
+                              :ARG0-of (g / generate-01 
+                                    :op2-of (a2 / and 
+                                          :op1 (c4 / cell 
+                                                :mod (e2 / e))) 
+                                    :op3-of (a3 / and 
+                                          :op1 (e3 / eyfp-express) 
+                                          :op2 (m / mouse)))) 
+                        :ARG2 (e / experiment-01 
+                              :ARG1 (r / recombination) 
+                              :mod (d / double-tagg) 
+                              :mod (c2 / combinatorial) 
+                              :op1-of (o / or 
+                                    :op2 (c / chimera) 
+                                    :op3 (t / transplantation)))) 
+                  :domain (c3 / cell))))
+
+# ::snt The ease of manipulating its genome has helped establish the mouse as the premier model organism for mammalian genetic studies .
+# ::tok The ease of manipulating its genome has helped establish the mouse as the premier model organism for mammalian genetic studies .
+# ::alignments 19-20|0.1.1.0 18-19|0.1.1.0.1 17-18|0.1.1.0.0 15-16|0.1.1 14-15|0.1.1.1 13-14|0.1.1.1.0 10-11|0.1.0 8-9|0.1 7-8|0 5-6|0.0.0.0 3-4|0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:22.585
+(h / help-01 
+      :ARG0 (e2 / ease-02 
+            :ARG1 (m4 / manipulate-02 
+                  :ARG1 (g2 / genome))) 
+      :ARG1 (e / establish-01 
+            :ARG1 (m3 / mouse) 
+            :ARG2 (o / organism 
+                  :beneficiary (s / study-01 
+                        :mod (m / mammalian) 
+                        :mod (g / gene)) 
+                  :mod (m2 / model 
+                        :mod (p / premier)))))
+
+# ::snt Both directed and random mutagenesis approaches , including the technologies of transgenesis and gene targeting in ES cells , have become commonplace .
+# ::tok Both directed and random mutagenesis approaches , including the technologies of transgenesis and gene targeting in ES cells , have become commonplace .
+# ::alignments 21-22|0.2.0.1 20-21|0.2.0 17-18|0.2.1.0 16-17|0.2.1.0.0 14-15|0.2.1 13-14|0.2 12-13|0 11-12|0.1 9-10|0.0 5-6|0.2.0.0 4-5|0.2.0.0.0 3-4|0.2.0.0.0.0 2-3|0.2.0.2 1-2|0.2.0.2.0 0-1|0.2.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:23.634
+(a / and 
+      :op1 (t3 / technology) 
+      :op2 (t2 / transgenesi) 
+      :op3 (g / gene 
+            :ARG0-of (b / become-01 
+                  :ARG1 (a2 / approach-02 
+                        :ARG1 (m / mutagenesi 
+                              :mod (r / random))) 
+                  :ARG2 (c / commonplace) 
+                  :op2-of (a3 / and 
+                        :op1 (d / direct-01 
+                              :ARG1 (b2 / both)))) 
+            :ARG1-of (t / target-01 
+                  :ARG0 (c2 / cell 
+                        :mod (e / e)))))
+
+# ::snt Genetically manipulated mice , often incorporating gene-based reporters , are frequently being used to model and understand mammalian development and disease processes .
+# ::tok Genetically manipulated mice , often incorporating gene-based reporters , are frequently being used to model and understand mammalian development and disease processes .
+# ::alignments 21-22|0.0.2.1.1.0 20-21|0.0.2.1.1.0.1 19-20|0.0.2.1.1 18-19|0.0.2.1.2.0.0 17-18|0.0.2.1.2.0.0.0 16-17|0.0.2.1.2.0 15-16|0.0.2.1.2 14-15|0.0.2.1 12-13|0.0.2 10-11|0.0.2.0 7-8|0.0.0+0.0 6-7|0 5-6|0.0.1 4-5|0.0.1.0 2-3|0.0.2.1.0 1-2|0.0.2.1.0.0 0-1|0.0.2.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:28.930
+(g / gene-bas 
+      :mod-of (p2 / person 
+            :ARG0-of (r / report-01) 
+            :ARG1-of (i / incorporate-01 
+                  :frequency (o / often)) 
+            :ARG1-of (u2 / use-01 
+                  :ARG1-of (f / frequent-02) 
+                  :ARG2 (m2 / model-01 
+                        :ARG0 (m3 / mouse 
+                              :ARG1-of (m4 / manipulate-02)) 
+                        :ARG1 (a / and 
+                              :op1 (p / process-02 
+                                    :ARG0 (g2 / genetically) 
+                                    :ARG1 (d / disease))) 
+                        :op1-of (a2 / and 
+                              :op2 (u / understand-01 
+                                    :ARG1 (d2 / develop-02 
+                                          :ARG1 (m / mammalian))))))))
+
+# ::snt Fluorescent protein reporters currently represent a superior alternative to other gene-based reporters such as the bacterial lacZ or human placental alkaline phosphatase in that their visualization is non-invasive , and as such does not require chromogenic substrates .
+# ::tok Fluorescent protein reporters currently represent a superior alternative to other gene-based reporters such as the bacterial lacZ or human placental alkaline phosphatase in that their visualization is non-invasive , and as such does not require chromogenic substrates .
+# ::alignments 36-37|0.1.1 34-35|0.1 33-34|0.1.2 31-32|0.0.0.0.0.1.0 29-30|0 25-26|0.1.0 21-22|0.0.0.0.0.0.0.1 20-21|0.0.0.0.0.0.0.1.0 19-20|0.0.0.0.0.0.0.1.0.0.0 18-19|0.0.0.0.0.0.0.1.0.0 17-18|0.0.0.0.0.0.0 16-17|0.0.0.0.0.0.0.0 15-16|0.0.0.0.0.0.0.0.0 12-13|0.0.0.0.0.1.1 11-12|0.0.0.0.0.0+0.0.0.0.0 10-11|0.0.0.0.0.3 9-10|0.0.0.0.0.2 7-8|0.0.0.0 6-7|0.0.0.0.0.1 4-5|0.0.0 3-4|0.0.0.1 2-3|0.0.1+0.0 1-2|0.0.1.0 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:38.155
+(a / and 
+      :op1 (p4 / person 
+            :ARG0-of (r3 / represent-01 
+                  :ARG1 (a3 / alternative 
+                        :prep-to (p3 / person 
+                              :ARG0-of (r2 / report-01 
+                                    :ARG1 (o / or 
+                                          :op1 (l / lacZ 
+                                                :mod (b / bacterial)) 
+                                          :op2 (p / phosphatase 
+                                                :mod (a2 / alkaline 
+                                                      :mod (h / human 
+                                                            :mod-of (p2 / placental)))))) 
+                              :ARG2-of (s4 / superior-01 
+                                    :ARG0 (s2 / such) 
+                                    :ARG1 (s3 / such)) 
+                              :mod (o2 / other) 
+                              :mod (g / gene-bas))) 
+                  :time (c / current)) 
+            :ARG0-of (r4 / report-01 
+                  :ARG1 (p5 / protein)) 
+            :mod (f / fluorescent)) 
+      :op2 (r / require-01 
+            :ARG0 (v / visualization) 
+            :ARG1 (s / substrat) 
+            :polarity -))
+
+# ::snt Fluorescence can be monitored in real-time in vivo and in situ , and has the added advantage in that it can be quantified .
+# ::tok Fluorescence can be monitored in real-time in vivo and in situ , and has the added advantage in that it can be quantified .
+# ::alignments 22-23|0.0.0.0.2.1.0 20-21|0.0.0.0.2.1 16-17|0.0 15-16|0 12-13|0.0.0 10-11|0.0.0.0.2.0 8-9|0.0.0.0.2 7-8|0.0.0.2 5-6|0.0.0.0.1 3-4|0.0.0.0 1-2|0.0.0.1 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:39.658
+(a2 / add-01 
+      :ARG1 (a / advantage 
+            :op2-of (a3 / and 
+                  :ARG0-of (m / monitor-01 
+                        :ARG1 (f / fluorescence) 
+                        :ARG2 (r / real-time) 
+                        :location (a4 / and 
+                              :op1 (s / situ) 
+                              :op2 (p / possible-01 
+                                    :ARG1 (q / quantify-01)))) 
+                  :ARG1-of (p2 / possible-01) 
+                  :op1 (v / vivo))))
+
+# ::snt The prototype fluorescent protein reporter is green fluorescent protein ( GFP , reviewed in [ 3 ] ) , which is derived from the bioluminescent jellyfish Aequorea Victoria [ 1 ] .
+# ::tok The prototype fluorescent protein reporter is green fluorescent protein ( GFP , reviewed in [ 3 ] ) , which is derived from the bioluminescent jellyfish Aequorea Victoria [ 1 ] .
+# ::alignments 29-30|0.2.0 26-28|0.1.1.0.1+0.1.1.0.0+0.1.1.0+0.1.1 25-26|0.3.1 24-25|0.3.2 21-22|0.1 15-16|0.1.0 12-13|0.0 8-9|0 7-8|0.4 6-7|0.2 4-5|0.3 3-4|0.3.0 2-3|0.3.2.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:41.889
+(p / protein 
+      :ARG1-of (r / review-01 
+            :ARG0 (p3 / prototype)) 
+      :ARG1-of (d / derive-01 
+            :ARG0 3 
+            :ARG2 (o / organization 
+                  :name (n / name 
+                        :op1 "Aequorea" 
+                        :op2 "Victoria"))) 
+      :ARG1-of (g / green-02 
+            :ARG0 1) 
+      :domain (r2 / report-01 
+            :ARG0 (p2 / protein) 
+            :ARG2 (j / jellyfish) 
+            :op1-of (b / bioluminescent 
+                  :mod (f2 / fluorescent))) 
+      :mod (f / fluorescent))
+
+# ::snt Green fluorescent variants of wild type GFP ( wtGFP ) with improved thermostability and fluorescence emission , including enhanced green fluorescent protein ( EGFP , [ 4 ] ) , and mMGFP [ 5 ] , have gained popularity for use in mice .
+# ::tok Green fluorescent variants of wild type GFP ( wtGFP ) with improved thermostability and fluorescence emission , including enhanced green fluorescent protein ( EGFP , [ 4 ] ) , and mMGFP [ 5 ] , have gained popularity for use in mice .
+# ::alignments 42-43|0.2.0.2.1.3.0.1 40-41|0.2.0.2.1 38-39|0.2.0.2.1.3 37-38|0.2.0.2.1.3.0 33-34|0.2.0.0 31-32|0.2.0.2.1.2.0 30-31|0.2 26-27|0.2.0.2.1.1 23-24|0.2.1.0.0+0.2.1.0+0.2.1 21-22|0 20-21|0.1 19-20|0.2.0.2.1.2 18-19|0.0 15-16|0.2.0.2.0 14-15|0.2.0.2.0.0 13-14|0.2.0.2 12-13|0.2.0.1 11-12|0.2.0 8-9|0.2.0.2.1.3.0.0 6-7|0.2.0.2.1.0.1 5-6|0.2.0.2.1.0.1.0 4-5|0.2.0.2.1.0.1.1 2-3|0.2.0.2.1.0 1-2|0.2.0.2.1.0.2 0-1|0.2.0.2.1.0.0.0.0+0.2.0.2.1.0.0.0+0.2.0.2.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:47.658
+(p2 / protein 
+      :ARG1-of (e / enhance-01) 
+      :mod (f / fluorescent) 
+      :op2-of (a / and 
+            :op1 (i / improve-01 
+                  :ARG0 5 
+                  :ARG1 (t / thermostability) 
+                  :op1-of (a2 / and 
+                        :op2 (e2 / emission 
+                              :mod (f2 / fluorescence)) 
+                        :op3 (u / use-01 
+                              :ARG0 (v / variant 
+                                    :mod (p3 / political-party 
+                                          :name (n2 / name 
+                                                :op1 "Green")) 
+                                    :mod (g3 / GFP 
+                                          :mod (t2 / type) 
+                                          :mod (w2 / wild)) 
+                                    :mod (f3 / fluorescent)) 
+                              :ARG1 4 
+                              :ARG2 (g2 / green-02 
+                                    :ARG1 (m2 / mMGFP)) 
+                              :purpose-of (p / popularity 
+                                    :ARG1-of (g / gain-02 
+                                          :ARG0 (w / wtGFP) 
+                                          :location (m / mouse)))))) 
+            :op3 (o / organization 
+                  :name (n / name 
+                        :op1 "EGFP"))))
+
+# ::snt Recently however , several additional mutants of wtGFP , with altered excitation and emission spectral profiles ( i.e. fluoresce in colors other than green ) , as well as improved thermostability and fluorescence , have been described [ 4,6 ] .
+# ::tok Recently however , several additional mutants of wtGFP , with altered excitation and emission spectral profiles ( i.e. fluoresce in colors other than green ) , as well as improved thermostability and fluorescence , have been described [ 4,6 ] .
+# ::alignments 36-37|0.2.0.0 32-33|0.2.0.0.0.1 31-32|0.2.0.0.0 30-31|0.2.0.0.0.0.0 29-30|0.2.0.0.0.0 23-24|0 21-22|0.1 20-21|0.2 18-19|0.2.0 17-18|0.2.0.0.0.0.0.0.0.0.0 15-16|0.2.0.0.0.0.0.0.1 14-15|0.2.0.0.0.0.0.0.1.0 13-14|0.2.0.0.0.0.0.0.1.0.0 12-13|0.2.0.0.0.0.0.0 11-12|0.2.0.0.0.0.0.0.0 10-11|0.2.0.0.0.0.0.0.0.0 7-8|0.2.0.0.1.1 5-6|0.2.0.0.1 4-5|0.2.0.0.1.0 3-4|0.2.0.0.1.2 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:52.577
+(g / green-02 
+      :ARG0 (r / recent) 
+      :ARG1 (o / other) 
+      :ARG1-of (c / color-01 
+            :ARG1-of (f2 / fluoresce-01 
+                  :ARG1-of (d / describe-01 
+                        :ARG0 (a / and 
+                              :op1 (i / improve-01 
+                                    :ARG1 (t / thermostability 
+                                          :op3-of (a2 / and 
+                                                :op1 (e2 / excitation 
+                                                      :ARG1-of (a3 / alter-01 
+                                                            :ARG0 (i2 / i.e.))) 
+                                                :op2 (p / profile-01 
+                                                      :ARG1 (s / spectral 
+                                                            :mod (e / emission)))))) 
+                              :op2 (f / fluorescence)) 
+                        :ARG2 (m / mutant 
+                              :mod (a4 / additional) 
+                              :mod (w / wtGFP) 
+                              :quant (s2 / several))))))
+
+# ::snt Dual color imaging of several GFP variant proteins is a very attractive prospect and has become a standard procedure in cell biology [ 7,8 ] .
+# ::tok Dual color imaging of several GFP variant proteins is a very attractive prospect and has become a standard procedure in cell biology [ 7,8 ] .
+# ::alignments 21-22|0.0.1.0 20-21|0.0.1 18-19|0.1.1 17-18|0.1.1.0 15-16|0.1 13-14|0 12-13|0.0 11-12|0.0.0 10-11|0.0.0.1 7-8|0.0.0.0 6-7|0.0.0.0.0 4-5|0.0.0.0.1 2-3|0.1.0 1-2|0.1.0.0 0-1|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:52.999
+(a / and 
+      :op1 (p2 / prospect-02 
+            :ARG0-of (a2 / attract-01 
+                  :ARG1 (p3 / protein 
+                        :mod (v2 / variant) 
+                        :quant (s2 / several)) 
+                  :degree (v / very)) 
+            :ARG1 (c / cell 
+                  :mod-of (b / biology))) 
+      :op2 (b2 / become-01 
+            :ARG1 (i / image 
+                  :mod (c2 / color) 
+                  :mod (d / dual)) 
+            :ARG2 (p / procedure 
+                  :ARG1-of (s / standard-02))))
+
+# ::snt It has also recently been demonstrated in a subset of cells within the central nervous system ( CNS ) of mice using both transgenic and viral infection-based approaches [ 9,10 ] .
+# ::tok It has also recently been demonstrated in a subset of cells within the central nervous system ( CNS ) of mice using both transgenic and viral infection-based approaches [ 9,10 ] .
+# ::alignments 27-28|0.0 26-27|0.0.1 25-26|0.3 24-25|0 22-23|0.1 21-22|0.0.0 20-21|0.0.0.0 17-18|0.2.0.0.0+0.2.0.0+0.2.0 15-16|0.0.0.0.0 14-15|0.0.0.0.0.0 13-14|0.0.0.0.0.1 10-11|0.2.2.0 8-9|0.2.2 5-6|0.2 3-4|0.2.3 2-3|0.2.3.0 0-1|0.2.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:54.873
+(a2 / and 
+      :ARG2-of (a / approach-02 
+            :ARG1-of (u / use-01 
+                  :ARG0 (m / mouse 
+                        :mod-of (s / system 
+                              :ARG1-of (n2 / nervous-01) 
+                              :mod (c / central)))) 
+            :manner (i / infection-bas)) 
+      :mod (b / both) 
+      :op1 (d / demonstrate-01 
+            :ARG0 (o / organization 
+                  :name (n / name 
+                        :op1 "CNS")) 
+            :ARG1 (i2 / it) 
+            :location (s2 / subset 
+                  :domain (c2 / cell)) 
+            :time (r / recent 
+                  :mod (a3 / also))) 
+      :op2 (v / viral))
+
+# ::snt We therefore wished to investigate the feasibility of non-invasive multiple reporter imaging in mice , and as a first step we wanted to ascertain whether we could establish viable and fertile mice with widespread expression of GFP variant reporters .
+# ::tok We therefore wished to investigate the feasibility of non-invasive multiple reporter imaging in mice , and as a first step we wanted to ascertain whether we could establish viable and fertile mice with widespread expression of GFP variant reporters .
+# ::alignments 38-39|0.0.0+0.0 37-38|0.0.0.0 34-35|0 33-34|0.0.1 31-32|0.1 30-31|0.1.0.2.1 29-30|0.1.0.2 28-29|0.1.0.2.0 27-28|0.1.0 26-27|0.1.0.1 25-26|0.1.0.0 23-24|0.1.0.1.0 21-22|0.1.0.1.0.1 20-21|0.1.0.1.0.0 19-20|0.1.0.1.0.1.1 15-16|0.1.0.1.0.1.0 13-14|0.1.0.1.0.1.0.0.1.0.0 11-12|0.1.0.1.0.1.0.0.1.0 10-11|0.1.0.1.0.1.0.1 9-10|0.1.0.1.0.1.0.1.0 6-7|0.1.0.1.0.1.0.0.1 4-5|0.1.0.1.0.1.0.0 2-3|0.1.0.1.0.1.0.0.0.0 0-1|0.1.0.1.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:00:59.304
+(e / express-01 
+      :ARG0 (p / person 
+            :ARG0-of (r / report-01 
+                  :ARG1 (v / variant)) 
+            :ARG1-of (w / wide-02)) 
+      :ARG1 (m / mouse 
+            :ARG1-of (e2 / establish-01 
+                  :ARG0 (w2 / we) 
+                  :ARG1-of (p2 / possible-01 
+                        :ARG1-of (a2 / ascertain-01 
+                              :ARG0 (w4 / we) 
+                              :ARG1-of (w3 / want-01 
+                                    :op3-of (a3 / and 
+                                          :op1 (i2 / investigate-01 
+                                                :ARG0 (w6 / we 
+                                                      :ARG0-of (w5 / wish-01)) 
+                                                :ARG1 (f2 / feasibility 
+                                                      :mod (i / image 
+                                                            :location (m2 / mouse)))) 
+                                          :op2 (r2 / report-01 
+                                                :quant (m3 / multiple))) 
+                                    :prep-as (s / step) 
+                                    :ARG0 w4))) 
+                  :op1-of (a / and 
+                        :op2 (v2 / viable) 
+                        :op3 (f / fertile)))))
+
+# ::snt We tested several of the available wtGFP variants for developmental neutrality and stability of widespread expression .
+# ::tok We tested several of the available wtGFP variants for developmental neutrality and stability of widespread expression .
+# ::alignments 15-16|0.0.0 14-15|0.0.0.0 12-13|0.0.2.2.1.0 11-12|0.0.2.2.1 10-11|0.0.2.2 9-10|0.0.2.2.0 7-8|0.0 6-7|0 5-6|0.0.1 2-3|0.0.2.1 1-2|0.0.2 0-1|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:00.853
+(w2 / wtGFP 
+      :mod-of (v / variant 
+            :ARG1-of (e / express-01 
+                  :ARG1-of (w / wide-02)) 
+            :ARG2-of (a2 / available-02) 
+            :time-of (t / test-01 
+                  :ARG0 (w3 / we) 
+                  :ARG1 (s2 / several) 
+                  :ARG2 (n / neutrality 
+                        :mod (d / developmental) 
+                        :op1-of (a / and 
+                              :op2 (s / stability))))))
+
+# ::snt An ES cell-mediated transgenic approach was used to evaluate the Enhanced Cyan Fluorescent Protein ( ECFP ) and Enhanced Yellow Fluorescent Protein ( EYFP ) wtGFP spectral variants [ 4,11 ] .
+# ::tok An ES cell-mediated transgenic approach was used to evaluate the Enhanced Cyan Fluorescent Protein ( ECFP ) and Enhanced Yellow Fluorescent Protein ( EYFP ) wtGFP spectral variants [ 4,11 ] .
+# ::alignments 27-28|0.2 26-27|0.2.0 18-22|0.1.0.3+0.1.0.2+0.1.0.1+0.1.0.0+0.1.0+0.1 17-18|0 10-14|0.0.1.3+0.0.1.2+0.0.1.1+0.0.1.0+0.0.1+0.0 8-9|0.0.0 6-7|0.0.0.0 4-5|0.0.0.0.0 2-3|0.0.0.0.0.0 1-2|0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:01.467
+(a / and 
+      :op1 (o2 / organization 
+            :ARG1-of (e / evaluate-01 
+                  :ARG2-of (u / use-01 
+                        :ARG1 (a2 / approach-02 
+                              :mod (c / cell-mediat) 
+                              :mod (e2 / e)))) 
+            :name (n2 / name 
+                  :op1 "Enhanced" 
+                  :op2 "Cyan" 
+                  :op3 "Fluorescent" 
+                  :op4 "Protein")) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "Enhanced" 
+                  :op2 "Yellow" 
+                  :op3 "Fluorescent" 
+                  :op4 "Protein")) 
+      :poss-of (v / variant 
+            :mod (s / spectral)))
+
+# ::snt ECFP harbors six amino substitutions ( Y66W , F64L , S65T , N146I , M153T , V163A ) as compared to GFP , whereas EYFP harbors four ( S65G , V68L , S72A and T203Y ) .
+# ::tok ECFP harbors six amino substitutions ( Y66W , F64L , S65T , N146I , M153T , V163A ) as compared to GFP , whereas EYFP harbors four ( S65G , V68L , S72A and T203Y ) .
+# ::alignments 34-35|0.1.0.0+0.1.0+0.1 33-34|0 32-33|0.0.1.0+0.0.1+0.0 26-27|0.0.0.1.0 25-26|0.0.0.1 23-24|0.0.0.1.1 19-20|0.0.0 4-5|0.0.0.0 3-4|0.0.0.0.1 2-3|0.0.0.0.2 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:02.498
+(a / and 
+      :op1 (p / person 
+            :ARG1-of (c / compare-01 
+                  :ARG0 (s / substitution 
+                        :ARG1-of (h2 / harbor-01) 
+                        :mod (a2 / amino) 
+                        :quant 6) 
+                  :concession (h / harbor-01 
+                        :ARG1 4 
+                        :op1-of (w / whereas))) 
+            :name (n2 / name 
+                  :op1 "S72A")) 
+      :op2 (t / thing 
+            :name (n / name 
+                  :op1 "T203Y")))
+
+# ::snt In addition to increasing the quantum yield and solubility of the proteins these mutations shift the spectral profiles of the translation products [ 4,11 ] .
+# ::tok In addition to increasing the quantum yield and solubility of the proteins these mutations shift the spectral profiles of the translation products [ 4,11 ] .
+# ::alignments 21-22|0.0.1.0 20-21|0.0.1.0.1+0.0.1.0.1.0 17-18|0.0.1.0.0 16-17|0.0.1.0.0.1 14-15|0.0.1.0.0.0 13-14|0.0.1.0.0.0.0 12-13|0.0.1.0.0.0.0.0 11-12|0 8-9|0.0.1.1.0 7-8|0.0.1.1 6-7|0.0 5-6|0.0.0 3-4|0.0.1 1-2|0.0.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:04.101
+(p3 / protein 
+      :ARG1-of (y / yield-01 
+            :ARG0 (q / quantum) 
+            :ARG2-of (i / increase-01 
+                  :ARG0 (p / product 
+                        :ARG1-of (p2 / profile-01 
+                              :ARG1-of (s2 / shift-01 
+                                    :ARG0 (m / mutate-01 
+                                          :mod (t3 / this))) 
+                              :mod (s / spectral)) 
+                        :ARG1-of (t2 / translate-01 
+                              :ARG2 (t / thing))) 
+                  :ARG1 (a / and 
+                        :op1 (s3 / solubility)) 
+                  :ARG3 (a2 / addition))))
+
+# ::snt A breakthrough in the availability of spectrally distinct autofluorescent proteins came with the cloning of six anthozoan fluorescent proteins all having 20 -- 30 % identity to wtGFP [ 12 ] .
+# ::tok A breakthrough in the availability of spectrally distinct autofluorescent proteins came with the cloning of six anthozoan fluorescent proteins all having 20 -- 30 % identity to wtGFP [ 12 ] .
+# ::alignments 29-30|0.0.0.0.0.1.0 25-26|0.0.0.0.0.1.1.0 24-25|0.0.0.0.0.1.1.0.0 23-24|0.0.0.0.0.1.1.0.0.0 21-22|0.0.0.0.0.0 19-20|0.0.1 18-19|0 17-18|0.1 16-17|0.2 15-16|0.3 13-14|0.0 10-11|0.0.0.0.0.1.1 9-10|0.0.0.0 8-9|0.0.0 7-8|0.0.0.0.1 4-5|0.0.0.0.0 1-2|0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:04.998
+(p2 / protein 
+      :ARG1-of (c / clone-01 
+            :ARG2 (a3 / autofluorescent 
+                  :mod-of (p3 / protein 
+                        :ARG2-of (a4 / available-02 
+                              :ARG0 20 
+                              :ARG1-of (b / break-through-26 
+                                    :ARG0 12 
+                                    :ARG1-of (c2 / come-01 
+                                          :ARG0 (i / identity 
+                                                :mod (p / percentage-entity 
+                                                      :quant 30))))) 
+                        :mod (d / distinct))) 
+            :time (a / all)) 
+      :mod (f / fluorescent) 
+      :mod (a2 / anthozoan) 
+      :quant 6)
+
+# ::snt Of these , DsRed1 ( referred to as drFP585 by Matz et al. , [ 12 ] ) , a 28 kDa protein isolated from the IndoPacific sea anemone Discosoma sp , posseses the longest excitation ( 558 nm ) and emission ( 583 nm ) wavelength maxima known for a wild-type autofluorescent protein .
+# ::tok Of these , DsRed1 ( referred to as drFP585 by Matz et al. , [ 12 ] ) , a 28 kDa protein isolated from the IndoPacific sea anemone Discosoma sp , posseses the longest excitation ( 558 nm ) and emission ( 583 nm ) wavelength maxima known for a wild-type autofluorescent protein .
+# ::alignments 53-54|0.0.0.0.1.1.1.0.1 52-53|0.0.0.0.1.1.1.0.1.0 48-49|0.0.0.0.1.1.1.0 47-48|0.0.0.0.1.1.1.0.0 46-47|0.0.0.0.1.1.1.0.0.0 41-42|0.0.0.0.0 40-41|0.0.0.0.1.1 35-36|0.0.0.0.1.1.3 34-35|0.0.0.0.1.1.3.0 29-31|0+0.0.1+0.0+0.0.0 28-29|0.0.0.1 27-28|0.0.0.1.0 26-27|0.0.0.0.1.1.2.0.0.0.0+0.0.0.0.1.1.2.0.0.0+0.0.0.0.1.1.2.0.0 23-24|0.0.0.0 22-23|0.0.0.0.1 21-22|0.0.0.0.1.0 20-21|0.0.0.0.1.1.3.0.0 15-16|0.0.0.0.1.1.3.0.1 10-11|0.0.0.0.1.1.2.1.0+0.0.0.0.1.1.2.1+0.0.0.0.1.1.2 5-6|0.0.0.0.1.1.2.0 3-4|0.0.0.0.1.1.1.1.0+0.0.0.0.1.1.1.1+0.0.0.0.1.1.1 1-2|0.0.0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:09.206
+(s / sp 
+      :op2-of (n / name 
+            :name-of (t / thing 
+                  :ARG2-of (i / isolate-01 
+                        :ARG0 (e / emission) 
+                        :ARG1 (p2 / protein 
+                              :mod (k2 / kDa) 
+                              :op3-of (a2 / and 
+                                    :mod (t2 / this) 
+                                    :op1 (p4 / person 
+                                          :ARG0-of (k / know-02 
+                                                :ARG1 (m / maximum 
+                                                      :mod (w / wavelength)) 
+                                                :ARG2 (p / protein 
+                                                      :mod (a / autofluorescent))) 
+                                          :name (n4 / name 
+                                                :op1 "DsRed1")) 
+                                    :op2 (p3 / person 
+                                          :ARG0-of (r / refer-01 
+                                                :ARG1 (c / country 
+                                                      :name (n2 / name 
+                                                            :op1 "IndoPacific"))) 
+                                          :name (n3 / name 
+                                                :op1 "Matz")) 
+                                    :op4 (e2 / excitation 
+                                          :ARG1-of (l / long-03 
+                                                :ARG0 28 
+                                                :ARG2 12))))) 
+                  :mod (a3 / anemone 
+                        :mod (s2 / sea))) 
+            :op1 (d / Discosoma)))
+
+# ::snt The sequence of DsRed1 has recently been modified and optimized for high levels of expression in mammalian cells by the introduction of 144 silent base pair changes corresponding to human codon usage preferences .
+# ::tok The sequence of DsRed1 has recently been modified and optimized for high levels of expression in mammalian cells by the introduction of 144 silent base pair changes corresponding to human codon usage preferences .
+# ::alignments 32-33|0.1.2.2.0 31-32|0.1.2.2.0.0 30-31|0.1.2.2.0.0.0.0 29-30|0.1.2.2.0.0.0 27-28|0.1.2.2 26-27|0.1.2 25-26|0.1.2.0 24-25|0.1.2.0.0 23-24|0.1.2.0.0.0 22-23|0.1.2.3 20-21|0.1.2.1 17-18|0.1.1.0.0 16-17|0.1.1.0.0.0 14-15|0.1.1.0 12-13|0.0.0 11-12|0.0.0.0 9-10|0.1 8-9|0 7-8|0.0 5-6|0.0.1 3-4|0.1.1.1.0+0.1.1.1+0.1.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:14.262
+(a / and 
+      :op1 (m2 / modify-01 
+            :ARG2 (l / level 
+                  :ARG1-of (h2 / high-02)) 
+            :time (r / recent)) 
+      :op2 (o / optimize-01 
+            :ARG0 (s2 / sequence) 
+            :ARG1 (p3 / person 
+                  :ARG0-of (e / express-01 
+                        :ARG1 (c4 / cell 
+                              :mod (m / mammalian))) 
+                  :name (n / name 
+                        :op1 "DsRed1")) 
+            :manner-of (c3 / change-01 
+                  :ARG1 (p2 / pair-01 
+                        :ARG1 (b / base 
+                              :mod (s / silent))) 
+                  :ARG1-of (i / introduce-02) 
+                  :ARG1-of (c2 / correspond-01 
+                        :ARG2 (p / preferenc 
+                              :mod (u / usage 
+                                    :mod (h / human 
+                                          :mod-of (c / codon))))) 
+                  :quant 144)))
+
+# ::snt We therefore also tested this novel red fluorescent protein ( RFP ) in ES cells and mice .
+# ::tok We therefore also tested this novel red fluorescent protein ( RFP ) in ES cells and mice .
+# ::alignments 16-17|0.0.0.2.1 15-16|0.0.0.2 14-15|0.0.0.2.0 13-14|0.0.0.2.0.0 8-9|0.0 7-8|0.0.2 6-7|0.0.1 5-6|0 4-5|0.0.3 3-4|0.0.0 2-3|0.0.0.1 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:14.749
+(n / novel 
+      :mod-of (p / protein 
+            :ARG1-of (t2 / test-01 
+                  :ARG0 (w / we) 
+                  :mod (a2 / also) 
+                  :op1-of (a / and 
+                        :op2 (c / cell 
+                              :mod (e / e)) 
+                        :op3 (m / mouse))) 
+            :mod (r / red) 
+            :mod (f / fluorescent) 
+            :mod (t / this)))
+
+# ::snt Plasmids were constructed for driving widespread expression of each of the gene-based fluorescent protein ( FP ) reporters and were tested in ES cell-mediated transgenics as described previously [ 2 ] .
+# ::tok Plasmids were constructed for driving widespread expression of each of the gene-based fluorescent protein ( FP ) reporters and were tested in ES cell-mediated transgenics as described previously [ 2 ] .
+# ::alignments 29-30|0.0.0.0.0.0 27-28|0.0.1.1.0.1 26-27|0.0.1.1.0 24-25|0.0.1.1.1 23-24|0.0.1.1.1.0 22-23|0.0.1.1.1.1 20-21|0.0.1.1 18-19|0.0.1 17-18|0.0.1.0.0+0.0.1.0 15-16|0.0.1.1.0.0.0.0+0.0.1.1.0.0.0+0.0.1.1.0.0 13-14|0 12-13|0.1 11-12|0.2 8-9|0.0.0.0.0.1 6-7|0.0.0.0.0 5-6|0.0.0.0.0.2 4-5|0.0.0.0 2-3|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:18.292
+(p3 / protein 
+      :ARG0-of (c2 / construct-01 
+            :ARG1 (p4 / plasmid 
+                  :ARG0-of (d2 / drive-01 
+                        :ARG1 (e3 / express-01 
+                              :ARG0 2 
+                              :ARG1 (e2 / each) 
+                              :ARG1-of (w / wide-02)))) 
+            :op1-of (a / and 
+                  :op2 (p2 / person 
+                        :ARG0-of (r / report-01)) 
+                  :op3 (t2 / test-01 
+                        :ARG1 (d / describe-01 
+                              :ARG0 (o / organization 
+                                    :name (n / name 
+                                          :op1 "FP")) 
+                              :ARG1 (p / previous)) 
+                        :time (t / transgenic 
+                              :mod (c / cell-mediat) 
+                              :mod (e / e))))) 
+      :mod (f / fluorescent) 
+      :mod (g / gene-bas))
+
+# ::snt Transgenic ES cells exhibiting robust expression of ECFP or EYFP were obtained at the same frequency as we had previously obtained for EGFP .
+# ::tok Transgenic ES cells exhibiting robust expression of ECFP or EYFP were obtained at the same frequency as we had previously obtained for EGFP .
+# ::alignments 22-23|0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0 20-21|0.0.0.0.0.0.0 19-20|0.0.0.0.0.0.0.1 17-18|0.0.0.0.0.0 15-16|0.0.0.0.0.1 14-15|0.0.0.0.0.1.0 11-12|0.0.0.0.0 8-9|0 5-6|0.0 4-5|0.0.1 3-4|0.0.0 2-3|0.0.0.0 0-2|0.0.0.0.1.0.1+0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:20.128
+(o4 / or 
+      :ARG1-of (e / express-01 
+            :ARG1-of (e2 / exhibit-01 
+                  :ARG0 (c / cell 
+                        :ARG1-of (o3 / obtain-01 
+                              :ARG0 (w / we 
+                                    :ARG0-of (o2 / obtain-01 
+                                          :ARG1 (o / organization 
+                                                :name (n / name 
+                                                      :op1 "EGFP")) 
+                                          :time (p / previous))) 
+                              :ARG2 (f / frequency 
+                                    :ARG1-of (s / same-01))) 
+                        :mod (t / thing 
+                              :name (n2 / name 
+                                    :op1 (t2 / Transgenic) 
+                                    :op2 (e3 / ES))))) 
+            :mod (r / robust)))
+
+# ::snt Cells expressing one or other of the two GFP variant reporters were clearly distinguishable within a mixed population ( Fig. 1a ,1 b ,1 c ,1 d ) .
+# ::tok Cells expressing one or other of the two GFP variant reporters were clearly distinguishable within a mixed population ( Fig. 1a ,1 b ,1 c ,1 d ) .
+# ::alignments 26-27|0.0.0.0.0.1.0.0 24-25|0.0.0.0.0.0.0 22-23|0.0.0.1 17-18|0.0.0.0.0.1 16-17|0.0.0.0.0.1.0 13-14|0.0.0.0.0 12-13|0.0.0.0.0.0 10-11|0+0.0 9-10|0.1 7-8|0.0.1 4-5|0.0.0.2.0 3-4|0.0.0.2 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:21.259
+(r / report-01 
+      :ARG0 (p2 / person 
+            :ARG0-of (e / express-01 
+                  :ARG1 (c3 / cell 
+                        :domain-of (d2 / distinguishable 
+                              :ARG1-of (c2 / clear-06 
+                                    :ARG0 (c / c)) 
+                              :domain (p / population 
+                                    :ARG3-of (m / mix-01 
+                                          :ARG0 (d / d))))) 
+                  :ARG2 (b / b) 
+                  :op1-of (o2 / or 
+                        :op2 (o / other))) 
+            :quant 2) 
+      :ARG1 (v / variant))
+
+# ::snt Interestingly however we were unable to recover clones expressing DsRed1 at the same frequency as for the GFP variant reporters after electroporation and selection under identical conditions .
+# ::tok Interestingly however we were unable to recover clones expressing DsRed1 at the same frequency as for the GFP variant reporters after electroporation and selection under identical conditions .
+# ::alignments 26-27|0.0.0.1.2 25-26|0.0.0.1.2.0 23-24|0.0.0.0 22-23|0.0.0 21-22|0.0.0.1.0 20-21|0.0.0.1 19-20|0+0.0 18-19|0.1 13-14|0.0.0.1.1.1.0.1 12-13|0.0.0.1.1.1.0.1.0 9-10|0.0.0.1.1.1.0.0.0.0+0.0.0.1.1.1.0.0.0+0.0.0.1.1.1.0.0 8-9|0.0.0.1.1.1.0 7-8|0.0.0.1.1.1 6-7|0.0.0.1.1 2-3|0.0.0.1.1.0 0-1|0.0.0.1.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:25.388
+(r / report-01 
+      :ARG0 (p / person 
+            :op1-of (a / and 
+                  :op2 (s / select-01) 
+                  :op2-of (a2 / after 
+                        :op1 (e / electroporation) 
+                        :time-of (r2 / recover-02 
+                              :ARG0 (w / we) 
+                              :ARG1 (c2 / clone-01 
+                                    :ARG0-of (e2 / express-01 
+                                          :ARG1 (p2 / person 
+                                                :name (n / name 
+                                                      :op1 "DsRed1")) 
+                                          :ARG2 (f / frequency 
+                                                :ARG1-of (s2 / same-01))) 
+                                    :ARG1 (i2 / interesting))) 
+                        :time-of (c / condition 
+                              :ARG2-of (i / identical-01))))) 
+      :ARG1 (v / variant))
+
+# ::snt Indeed the DsRed1 expressing clones that we were able to recover did not retain their characteristic ES cell morphology , usually appearing smaller and more spherical ( Fig. 1e and 1f ) , or occasionally spindle shaped ( data not shown ) .
+# ::tok Indeed the DsRed1 expressing clones that we were able to recover did not retain their characteristic ES cell morphology , usually appearing smaller and more spherical ( Fig. 1e and 1f ) , or occasionally spindle shaped ( data not shown ) .
+# ::alignments 40-41|0 39-40|0.2 38-39|0.1 36-37|0.0.0.1.0 35-36|0.0.0.1.0.0 34-35|0.0.0.1.0.0.0 33-34|0.0.0.1 30-31|0.0.0.0.0.0.0.0.0.0.0.1 29-30|0.0.0.0.0.0.0.0.0.0.0 28-29|0.0.0.0.0.0.0.0.0.0.0.0 27-28|0.0.0.0.0.0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0.0.0.0.0 25-26|0.0.0.1.1 24-25|0.0.0.1.1.0 23-24|0.0 22-23|0.0.0 21-22|0.0.0.0 20-21|0.0.0.0.1 18-19|0.0.0.0.0.1.0 17-18|0.0.0.0.0.1.0.1 16-17|0.0.0.0.0.1.0.1.0 15-16|0.0.0.0.0.1.0.0 13-14|0.0.0.0.0.1 12-13|0.0.0.0.0.1.1 10-11|0.0.0.0.0.0.0.0.0 8-9|0.0.0.0.0.0.0.0.0.0 6-7|0.0.0.0.0.0.0.0 4-5|0.0.0.0.0.0.0 3-4|0.0.0.0.0.0 2-3|0.0.0.0.0.2.0+0.0.0.0.0.2+0.0.0.0.0 0-1|0.0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:36.749
+(s / show-01 
+      :ARG0 (a2 / and 
+            :op1 (s5 / small 
+                  :ARG2-of (a3 / appear-01 
+                        :ARG0 (p2 / person 
+                              :ARG0-of (e2 / express-01 
+                                    :ARG1 (c4 / clone-01 
+                                          :ARG1 (w / we 
+                                                :ARG0-of (r2 / recover-02 
+                                                      :ARG1-of (p / possible-01 
+                                                            :op1-of (a / and 
+                                                                  :op2 (12 / 1e 
+                                                                        :mod (c / country 
+                                                                              :name (n / name 
+                                                                                    :op1 "Fig."))) 
+                                                                  :op3 1f))))) 
+                                    :time (i / indeed)) 
+                              :ARG0-of (r / retain-01 
+                                    :ARG1 (m2 / morphology 
+                                          :ARG1-of (c3 / characteristic-02) 
+                                          :mod (c2 / cell 
+                                                :mod (e / e))) 
+                                    :polarity -) 
+                              :name (n2 / name 
+                                    :op1 "DsRed1")) 
+                        :mod (u / usual)) 
+                  :op1-of (o2 / or 
+                        :ARG1-of (s2 / shape-01 
+                              :ARG1-of (s3 / spindle-01 
+                                    :ARG0 (o / occasional))) 
+                        :op2 (s4 / spherical 
+                              :degree (m / more))))) 
+      :ARG1 (d / data) 
+      :polarity -)
+
+# ::snt Unlike the fluorescence produced by the GFP variants which was evenly distributed throughout the cells , the DsRed signal was never homogenous .
+# ::tok Unlike the fluorescence produced by the GFP variants which was evenly distributed throughout the cells , the DsRed signal was never homogenous .
+# ::alignments 18-19|0.0.0 17-18|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 14-15|0.0.2 12-13|0.0.2.0 11-12|0.0 10-11|0 7-8|0.0.1 3-4|0.0.1.0 2-3|0.0.1.0.0 0-1|0.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:37.694
+(e / even-02 
+      :time-of (d / distribute-01 
+            :ARG0 (s / signal 
+                  :mod (t / thing 
+                        :name (n / name 
+                              :op1 "DsRed"))) 
+            :ARG1 (v / variant 
+                  :ARG0-of (p / produce-01 
+                        :ARG1 (f / fluorescence 
+                              :op1-of (u / unlike)))) 
+            :ARG2 (c / cell 
+                  :op1-of (t2 / throughout))))
+
+# ::snt Red fluorescence was often aggregated in what appeared to be perinuclear regions of the cytoplasm .
+# ::tok Red fluorescence was often aggregated in what appeared to be perinuclear regions of the cytoplasm .
+# ::alignments 14-15|0.0.0.0 11-12|0.0 10-11|0 7-8|0.0.0 4-5|0.0.0.1 3-4|0.0.0.1.1 1-2|0.0.0.1.0 0-1|0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:38.678
+(p / perinuclear 
+      :mod-of (r / region 
+            :ARG1-of (a / appear-01 
+                  :ARG0 (c / cytoplasm) 
+                  :ARG2-of (a2 / aggregate-01 
+                        :ARG1 (f / fluorescence 
+                              :mod (r2 / red)) 
+                        :frequency (o / often)))))
+
+# ::snt Similar observations have been made by Furuta and colleagues when they used recombinant sindbis virus for the labeling of dendrites and axons within the CNS of adult mice [ 10 ] .
+# ::tok Similar observations have been made by Furuta and colleagues when they used recombinant sindbis virus for the labeling of dendrites and axons within the CNS of adult mice [ 10 ] .
+# ::alignments 29-30|0.0.0 27-28|0.4.0 26-27|0.2.0.0.1 24-25|0.4.0.0.0.0+0.4.0.0.0+0.4.0.0 21-22|0.4 20-21|0 19-20|0.3 17-18|0.0 14-15|0.2.1 13-14|0.2.1.1 12-13|0.2.1.0 11-12|0.2 10-11|0.2.0 8-9|0.1.1.0 7-8|0.1.1 6-7|0.1.0.0+0.1.0+0.1 1-2|0.2.0.0.0 0-1|0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:41.645
+(a3 / and 
+      :ARG1-of (l / label-01 
+            :ARG0 10) 
+      :op1 (p / person 
+            :name (n2 / name 
+                  :op1 "Furuta") 
+            :op1-of (a4 / and 
+                  :op2 (c / colleagu))) 
+      :op2 (u / use-01 
+            :ARG0 (t / they 
+                  :ARG0-of (r2 / resemble-01 
+                        :ARG1 (o2 / observation) 
+                        :ARG2 (a / adult))) 
+            :ARG1 (v / virus 
+                  :mod (r / recombinant) 
+                  :name (s / sindbi))) 
+      :op3 (d / dendrit) 
+      :op4 (a2 / axon 
+            :poss (m / mouse 
+                  :part (o / organization 
+                        :name (n / name 
+                              :op1 "CNS")))))
+
+# ::snt In order to generate a DsRed variant that may be amenable to use in ES cells and mice , we recently introduced various sequences that direct nuclear localization to the DsRed coding region .
+# ::tok In order to generate a DsRed variant that may be amenable to use in ES cells and mice , we recently introduced various sequences that direct nuclear localization to the DsRed coding region .
+# ::alignments 32-33|0.1.0.1 31-32|0.1.0.1.0 27-28|0.1.0.0 26-27|0.1.0.0.0 25-26|0.1.0 23-24|0.1 22-23|0.1.1 21-22|0 20-21|0.2 19-20|0.0 17-18|0.0.0.1.0.1.0 16-17|0.0.0.1.0.1 15-16|0.0.0.1.0.0 14-15|0.0.0.1.0.0.0 12-13|0.0.0.1.0 10-11|0.0.0.1.0.2 8-9|0.0.0.1.0.2.0 6-7|0.0.0.1 5-6|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 3-4|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:45.358
+(i / introduce-02 
+      :ARG0 (w / we 
+            :ARG0-of (g / generate-01 
+                  :ARG1 (t / thing 
+                        :name (n2 / name 
+                              :op1 "DsRed")) 
+                  :ARG2 (v2 / variant 
+                        :ARG0-of (u / use-01 
+                              :ARG1 (c2 / cell 
+                                    :mod (e / e)) 
+                              :ARG2 (a / and 
+                                    :op1 (m / mouse)) 
+                              :domain-of (a2 / amenable 
+                                    :ARG1-of (p / possible-01)))))) 
+      :ARG1 (s / sequence 
+            :ARG0-of (d / direct-02 
+                  :ARG1 (l / localization 
+                        :mod (n / nucleus)) 
+                  :ARG2 (r / region 
+                        :mod (c / code-01))) 
+            :mod (v / various)) 
+      :time (r2 / recent))
+
+# ::snt However , again we were unable to generate ES cells or mice exhibiting robust widespread reporter activity ( A.-K.H. and V.E. Papaioannou , unpublished observations ) .
+# ::tok However , again we were unable to generate ES cells or mice exhibiting robust widespread reporter activity ( A.-K.H. and V.E. Papaioannou , unpublished observations ) .
+# ::alignments 24-25|0.2 23-24|0.2.0 20-22|0.1.0.1+0.1.0.0+0.1.0+0.1 19-20|0 16-17|0.0 15-16|0.0.0 14-15|0.0.0.1 13-14|0.0.2 12-13|0.0.1 11-12|0.0.1.0.2 10-11|0.0.1.0 9-10|0.0.1.0.1 8-9|0.0.1.0.1.0 7-8|0.0.1.0.0 3-4|0.0.1.0.0.0 2-3|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:48.930
+(a / and 
+      :op1 (a2 / activity-06 
+            :ARG0 (r / report-01 
+                  :ARG1 (a3 / again) 
+                  :ARG1-of (w / wide-02)) 
+            :ARG1-of (e / exhibit-01 
+                  :ARG0 (o2 / or 
+                        :ARG1-of (g / generate-01 
+                              :ARG0 (w2 / we)) 
+                        :op1 (c / cell 
+                              :mod (e2 / e)) 
+                        :op2 (m / mouse))) 
+            :mod (r2 / robust)) 
+      :op2 (p / person 
+            :name (n / name 
+                  :op1 "V.E." 
+                  :op2 "Papaioannou")) 
+      :op3 (o / observation 
+            :mod (u / unpublish)))
+
+# ::snt Non-invasive multiple reporter visualization in ES cells .
+# ::tok Non-invasive multiple reporter visualization in ES cells .
+# ::alignments 6-7|0.1 5-6|0.1.0 3-4|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:49.002
+(v / visualization 
+      :ARG0-of (r / report-01 
+            :quant (m / multiple)) 
+      :location (c / cell 
+            :mod (e / e)))
+
+# ::snt ( a-d ) a mixture of CK6/ECFP ( ECFP + ) and YC5/EYFP ( EYFP + ) ES cells at low density .
+# ::tok ( a-d ) a mixture of CK6/ECFP ( ECFP + ) and YC5/EYFP ( EYFP + ) ES cells at low density .
+# ::alignments 21-22|0.1.1 20-21|0.1.1.0 18-19|0.1.1.1 12-13|0.1.0.0+0.1.0+0.1 11-12|0 6-7|0.2.0.0+0.2.0+0.2 4-5|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:49.223
+(a / and 
+      :op1 (m / mixture) 
+      :op2 (p / person 
+            :name (n / name 
+                  :op1 "YC5/EYFP") 
+            :poss-of (d / density 
+                  :ARG1-of (l / low-04) 
+                  :location-of (c / cell))) 
+      :poss (p2 / person 
+            :name (n2 / name 
+                  :op1 "CK6/ECFP")))
+
+# ::snt ( a ) image taken under bright field with no epifluorescence .
+# ::tok ( a ) image taken under bright field with no epifluorescence .
+# ::alignments 9-10|0.1 7-8|0.2 6-7|0.2.0 4-5|0 3-4|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:49.378
+(t / take-01 
+      :ARG1 (i / image) 
+      :ARG2 - 
+      :ARG3 (f / field 
+            :ARG1-of (b / bright-02)))
+
+# ::snt ( b ) dark field image taken through an EYFP filter .
+# ::tok ( b ) dark field image taken through an EYFP filter .
+# ::alignments 10-11|0 9-10|0.0.0.0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:49.502
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01 
+                  :path (e / EYFP)) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :li (b / b))
+
+# ::snt ( c ) dark field image taken through an ECFP filter .
+# ::tok ( c ) dark field image taken through an ECFP filter .
+# ::alignments 10-11|0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:49.677
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :ARG1 (c / c))
+
+# ::snt ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::tok ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::alignments 15-16|0.2 13-14|0 12-13|0.1.0.0+0.1.0+0.1 11-12|0.0 10-11|0.2.0 8-9|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0.0.0.0 4-5|0.0.0.0.2 3-4|0.0.0.0.2.0 1-2|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:52.545
+(a / and 
+      :op1 (u / use-01 
+            :ARG1-of (a2 / acquire-01 
+                  :ARG0 (i / image 
+                        :ARG1-of (e / expose-01 
+                              :ARG0 (d / double)) 
+                        :li (d3 / d) 
+                        :mod (f2 / field 
+                              :ARG1-of (d2 / dark-02))))) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (f / filter-02 
+            :ARG1 (c / consecutively)))
+
+# ::snt ECFP + cells can clearly be discerned from EYFP + cells .
+# ::tok ECFP + cells can clearly be discerned from EYFP + cells .
+# ::alignments 10-11|0.0.2 6-7|0.0 4-5|0.0.1 3-4|0 2-3|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:52.615
+(p / possible-01 
+      :ARG1 (d / discern-01 
+            :ARG1 (c3 / cell) 
+            :ARG1-of (c2 / clear-06) 
+            :source (c / cell)))
+
+# ::snt ( e-f ) culture of mixed populations of ES cells comprising ECFP + , EYFP + and RFP + cells .
+# ::tok ( e-f ) culture of mixed populations of ES cells comprising ECFP + , EYFP + and RFP + cells .
+# ::alignments 19-20|0.1.0 16-17|0.1 11-12|0.2.0.0+0.2.0+0.2 10-11|0 9-10|0.0.0.1 8-9|0.0.0.1.0 6-7|0.0.0 5-6|0.0.0.0 3-4|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:53.532
+(c2 / comprise-01 
+      :ARG0 (c4 / culture 
+            :poss (p / population 
+                  :ARG3-of (m / mix-01) 
+                  :mod (c3 / cell 
+                        :mod (e / e)))) 
+      :ARG1 (a / and 
+            :op1 (c / cell)) 
+      :ARG2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")))
+
+# ::snt Scale bars represent 100 m .
+# ::tok Scale bars represent 100 m .
+# ::alignments 4-5|0.1 3-4|0.1.0 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:53.852
+(r / represent-01 
+      :ARG0 (b / bar 
+            :mod (s / scale)) 
+      :ARG1 (m / m 
+            :quant 100))
+
+# ::snt Two ECFP + and two EYFP + clones exhibiting robust fluorescence were used to generate chimeras through ES cell < - > morula stage embryo aggregation [ 13 ] .
+# ::tok Two ECFP + and two EYFP + clones exhibiting robust fluorescence were used to generate chimeras through ES cell < - > morula stage embryo aggregation [ 13 ] .
+# ::alignments 27-28|0.0.0.0.0.0.1.0 25-26|0.1 24-25|0 23-24|0.0 22-23|0.0.0 18-19|0.0.0.0.0.0.1.1.0.1 17-18|0.0.0.0.0.0.1.1.0.1.0 15-16|0.0.0.0.0.0.0 14-15|0.0.0.0.0.0 12-13|0.0.0.0.0.0.1 10-11|0.0.0.0.0 9-10|0.0.0.0.0.1 8-9|0.0.0.0 7-8|0.0.0.0.0.0.1.1.0 4-5|0.0.0.0.0.0.1.1.0.2 3-4|0.0.0.0.0.0.1.1 1-2|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 0-1|0.0.0.0.0.0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:01:56.218
+(e / embryo 
+      :mod (s / stage 
+            :mod (m / morula 
+                  :ARG0-of (e3 / exhibit-01 
+                        :ARG1 (f / fluorescence 
+                              :ARG0-of (g / generate-01 
+                                    :ARG1 (c2 / chimera) 
+                                    :ARG2-of (u / use-01 
+                                          :ARG0 13 
+                                          :ARG1 (a2 / and 
+                                                :op1 (c3 / clone-01 
+                                                      :ARG0 2 
+                                                      :op1-of (c / cell 
+                                                            :mod (e2 / e)) 
+                                                      :quant 2)))) 
+                              :mod (r / robust))) 
+                  :mod-of (o / organization 
+                        :name (n / name 
+                              :op1 "ECFP")))) 
+      :mod-of (a / aggregation))
+
+# ::snt All four ES cell lines transmitted through the germline , leading to the establishment of , CK4/ECFP and CK6/ECFP , two strains of mice having cyan fluorescent protein expression and , YC5/EYFP and 2A4/EYFP , two strains having widespread yellow fluorescent protein expression .
+# ::tok All four ES cell lines transmitted through the germline , leading to the establishment of , CK4/ECFP and CK6/ECFP , two strains of mice having cyan fluorescent protein expression and , YC5/EYFP and 2A4/EYFP , two strains having widespread yellow fluorescent protein expression .
+# ::alignments 42-43|0.0.2.0.0 41-42|0.0.2.0.0.0 40-41|0.0.2.0.0.2 39-40|0.0.2.0.0.0.0 38-39|0.0.2.0.0.1 36-37|0.4.1 35-36|0.4.1.0 32-33|0.4 31-32|0.4.0.0.0+0.4.0.0+0.4.0 29-30|0.5 28-29|0 27-28|0.1 26-27|0.3 25-26|0.2 23-24|0.5.0 21-22|0.0.0.0 20-21|0.0.0.0.0 18-19|0.0.2.0.1.0+0.0.2.0.1+0.0.2.0 17-18|0.0.2 16-17|0.0.1.0+0.0.1+0.0 13-14|0.0.0 10-11|0.0.0.1 8-9|0.0.0.1.1.0.0 5-6|0.0.0.1.1.0 4-5|0.0.0.1.1 3-4|0.0.0.1.1.2 2-3|0.0.0.1.0 1-2|0.0.0.1.1.3 0-1|0.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:00.139
+(e2 / express-01 
+      :ARG0 (p5 / person 
+            :ARG0-of (e3 / establish-01 
+                  :ARG1 (s2 / strain 
+                        :quant 2) 
+                  :ARG2-of (l / lead-01 
+                        :ARG0 (e4 / e) 
+                        :ARG1 (l2 / line 
+                              :ARG0-of (t / transmit-01 
+                                    :ARG1 (g / germline)) 
+                              :mod (a4 / all) 
+                              :mod (c2 / cell) 
+                              :quant 4))) 
+            :name (n3 / name 
+                  :op1 "CK4/ECFP") 
+            :op1-of (a3 / and 
+                  :op2 (p4 / person 
+                        :ARG0-of (e / express-01 
+                              :ARG1 (p / protein 
+                                    :ARG1-of (y / yellow-02)) 
+                              :ARG1-of (w / wide-02) 
+                              :mod (f / fluorescent)) 
+                        :name (n2 / name 
+                              :op1 "CK6/ECFP")))) 
+      :ARG1 (p3 / protein) 
+      :mod (c / cyan) 
+      :mod (f2 / fluorescent) 
+      :op1-of (a / and 
+            :op2 (p2 / person 
+                  :name (n / name 
+                        :op1 "YC5/EYFP")) 
+            :op3 (s / strain 
+                  :quant 2)) 
+      :op2-of (a2 / and 
+            :op1 (m / mouse)))
+
+# ::snt In these mice the respective FP expression is constituitive , starting at preimplantation stages and continuing through postimplantation embryogenesis to adulthood ( Fig. 2 ) .
+# ::tok In these mice the respective FP expression is constituitive , starting at preimplantation stages and continuing through postimplantation embryogenesis to adulthood ( Fig. 2 ) .
+# ::alignments 23-24|0.1.0.0 22-23|0.1.2.0.0+0.1.2.0+0.1.2 20-21|0.1.1.2 18-19|0.1.1.0 17-18|0.1.1.0.0 15-16|0.1.1 14-15|0.1 13-14|0.1.0.2 12-13|0.1.0.2.0 10-11|0.1.0 8-9|0.1.1.1 6-7|0 5-6|0.0.0.0+0.0.0+0.0 4-5|0.2 2-3|0.1.0.1 1-2|0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:01.364
+(e2 / express-01 
+      :ARG0 (o / organization 
+            :name (n2 / name 
+                  :op1 "FP")) 
+      :ARG1 (a2 / and 
+            :op1 (s2 / start-01 
+                  :ARG1 2 
+                  :manner (m / mouse 
+                        :mod (t / this)) 
+                  :time (s / stage 
+                        :mod (p2 / preimplantation))) 
+            :op2 (c2 / continue-01 
+                  :ARG0 (e / embryogenesi 
+                        :mod (p / postimplantation)) 
+                  :ARG1 (c3 / constituitive) 
+                  :purpose (a / adulthood)) 
+            :op3 (c / country 
+                  :name (n / name 
+                        :op1 "Fig."))) 
+      :mod (r / respective))
+
+# ::snt One line expressing each color was chosen for further analysis and breeding to homozygosity .
+# ::tok One line expressing each color was chosen for further analysis and breeding to homozygosity .
+# ::alignments 13-14|0 11-12|0.0 10-11|0.0.0 9-10|0.0.0.0.1 8-9|0.0.0.0.1.0 6-7|0.0.0.0 4-5|0.0.0.0.0 3-4|0.0.0.0.0.1 2-3|0.0.0.0.0.0 1-2|0.0.0.0.0.0.0 0-1|0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:02.652
+(h / homozygosity 
+      :ARG2-of (b / breed-01 
+            :op1-of (a / and 
+                  :ARG0-of (c / choose-01 
+                        :ARG1 (c2 / color 
+                              :ARG1-of (e2 / express-01 
+                                    :ARG0 (l / line 
+                                          :quant 1)) 
+                              :mod (e / each)) 
+                        :ARG3 (a2 / analyze-01 
+                              :mod (f / further))))))
+
+# ::snt The availability of homozygous animals demonstrated that both reporter gene expression and the site of transgene integration were developmentally neutral .
+# ::tok The availability of homozygous animals demonstrated that both reporter gene expression and the site of transgene integration were developmentally neutral .
+# ::alignments 19-20|0.1.0.0 18-19|0.1.0.0.1 16-17|0 15-16|0.0 13-14|0.1 11-12|0.1.0 10-11|0.1.0.1 9-10|0.1.0.1.1 8-9|0.1.0.1.1.0 7-8|0.1.0.1.0 5-6|0.1.0.0.0 4-5|0.1.0.0.0.0.0 3-4|0.1.0.0.0.0.0.0 1-2|0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:03.196
+(i / integrate-01 
+      :ARG1 (t / transgene) 
+      :consist (s / site 
+            :op2-of (a / and 
+                  :ARG1-of (n / neutral-02 
+                        :ARG1-of (d2 / demonstrate-01 
+                              :ARG0 (a3 / available-02 
+                                    :ARG1 (a2 / animal 
+                                          :mod (h / homozygou)))) 
+                        :time (d / develop-02)) 
+                  :op1 (e / express-01 
+                        :mod (b / both) 
+                        :mod (g / gene 
+                              :ARG0-of (r / report-01))))))
+
+# ::snt Dual non-invasive reporter visualization in embryos and adult mice .
+# ::tok Dual non-invasive reporter visualization in embryos and adult mice .
+# ::alignments 8-9|0.0.1 7-8|0.0.1.1 6-7|0.0 5-6|0.0.0 3-4|0 2-3|0.0.1.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:03.332
+(v / visualization 
+      :location (a2 / and 
+            :op1 (e / embryo) 
+            :op2 (m / mouse 
+                  :ARG1-of (r / report-01) 
+                  :mod (a / adult))) 
+      :mod (d / dual))
+
+# ::snt Transgenic animals are hemizygous for either the CK6/ECFP or YC5/EYFP transgenes .
+# ::tok Transgenic animals are hemizygous for either the CK6/ECFP or YC5/EYFP transgenes .
+# ::alignments 10-11|0.2 8-9|0 7-8|0.1.0.0+0.1.0+0.1 5-6|0.0 1-2|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:03.461
+(o / or 
+      :mod (e / either) 
+      :op1 (p / person 
+            :name (n / name 
+                  :op1 "CK6/ECFP") 
+            :prep-for-of (a / animal)) 
+      :op2 (t / transgen))
+
+# ::snt ( a-d ) blastocyst stage ( E3 .5 ) embryos , that are either fluorescent or non-fluorescent .
+# ::tok ( a-d ) blastocyst stage ( E3 .5 ) embryos , that are either fluorescent or non-fluorescent .
+# ::alignments 15-16|0.0 14-15|0 13-14|0.0.1 11-12|0.0.0 4-5|0.0.2 3-4|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:03.620
+(f / fluorescent 
+      :op1-of (o / or 
+            :domain (t / that) 
+            :mod (e / either) 
+            :poss (s / stage 
+                  :mod (b / blastocyst))))
+
+# ::snt Fluorescent embryos are either blue/cyan or yellow/green , thereby being hemizygous for either the CK6/ECFP or YC5/EYFP transgenes respectively .
+# ::tok Fluorescent embryos are either blue/cyan or yellow/green , thereby being hemizygous for either the CK6/ECFP or YC5/EYFP transgenes respectively .
+# ::alignments 18-19|0.0 17-18|0.5 16-17|0.4.1.0+0.4.1+0.4 15-16|0 14-15|0.3.0.0+0.3.0+0.3 12-13|0.1 10-11|0.3.1 8-9|0.4.0 5-6|0.2.0 3-4|0.2 1-2|0.5.0.0 0-1|0.5.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:04.077
+(o / or 
+      :mod (r / respective) 
+      :mod (e / either) 
+      :mod (e2 / either 
+            :mod-of (o2 / or)) 
+      :op1 (p2 / person 
+            :name (n2 / name 
+                  :op1 "CK6/ECFP") 
+            :prep-for-of (h / hemizygou)) 
+      :op2 (p / person 
+            :mod-of (t2 / thereby) 
+            :name (n / name 
+                  :op1 "YC5/EYFP")) 
+      :op3 (t / transgen 
+            :poss (f / fluorescent 
+                  :mod-of (e3 / embryo))))
+
+# ::snt Non-fluorescent embryos ( marked with an asterix on panel a ) are of the wild type outbred ICR strain .
+# ::tok Non-fluorescent embryos ( marked with an asterix on panel a ) are of the wild type outbred ICR strain .
+# ::alignments 18-19|0.0.0.0.0.2+0.0.0.0.0 17-18|0.0.0.0.1.0+0.0.0.0.1+0.0.0.0 16-17|0.0.0.0.0.1 15-16|0.0.0.0.0.0 14-15|0.0.0.0.0.0.0 8-9|0 6-7|0.0 3-4|0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:04.656
+(p / panel 
+      :prep-on-of (a / asterix 
+            :ARG2-of (m / mark-01 
+                  :ARG0 (o / organization 
+                        :mod-of (s / strain 
+                              :mod (t / type 
+                                    :mod (w / wild)) 
+                              :mod (o2 / outbred) 
+                              :wiki "Influenza_A_virus_subtype_H5N1") 
+                        :name (n / name 
+                              :op1 "ICR")) 
+                  :ARG1 (e / embryo))))
+
+# ::snt ( a ) image taken under bright field with no epifluorescence .
+# ::tok ( a ) image taken under bright field with no epifluorescence .
+# ::alignments 9-10|0.1 7-8|0.2 6-7|0.2.0 4-5|0 3-4|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:04.853
+(t / take-01 
+      :ARG1 (i / image) 
+      :ARG2 - 
+      :ARG3 (f / field 
+            :ARG1-of (b / bright-02)))
+
+# ::snt ( b ) dark field image taken through an EYFP filter .
+# ::tok ( b ) dark field image taken through an EYFP filter .
+# ::alignments 10-11|0 9-10|0.0.0.0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:05.005
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01 
+                  :path (e / EYFP)) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :li (b / b))
+
+# ::snt ( c ) dark field image taken through an ECFP filter .
+# ::tok ( c ) dark field image taken through an ECFP filter .
+# ::alignments 10-11|0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:05.093
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :ARG1 (c / c))
+
+# ::snt ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::tok ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::alignments 15-16|0.2 13-14|0 12-13|0.1.0.0+0.1.0+0.1 11-12|0.0 10-11|0.2.0 8-9|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0.0.0.0 4-5|0.0.0.0.2 3-4|0.0.0.0.2.0 1-2|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:06.586
+(a / and 
+      :op1 (u / use-01 
+            :ARG1-of (a2 / acquire-01 
+                  :ARG0 (i / image 
+                        :ARG1-of (e / expose-01 
+                              :ARG0 (d / double)) 
+                        :li (d3 / d) 
+                        :mod (f2 / field 
+                              :ARG1-of (d2 / dark-02))))) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (f / filter-02 
+            :ARG1 (c / consecutively)))
+
+# ::snt ( e-h ) two transgenic ( TG / + ) E13 .5 embryos dissected free of their extraembryonic membranes , one is blue/cyan fluorescent ( CK6/ECFP transgenic , left ) and the other is yellow/green fluorescent ( 7YC5/EYFP transgenic , right ) .
+# ::tok ( e-h ) two transgenic ( TG / + ) E13 .5 embryos dissected free of their extraembryonic membranes , one is blue/cyan fluorescent ( CK6/ECFP transgenic , left ) and the other is yellow/green fluorescent ( 7YC5/EYFP transgenic , right ) .
+# ::alignments 40-41|0 35-36|0.2.3.0 32-33|0.2.0 30-31|0.2.3 28-29|0.0 23-24|0.1.0 18-19|0.1 14-15|0.2 13-14|0.2.1 12-13|0.2.1.1 7-8|0.2.2 4-5|0.2.1.0 3-4|0.2.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:08.378
+(r / right-05 
+      :ARG0 (l / left) 
+      :ARG1 (m / membran 
+            :quant (f2 / fluorescent)) 
+      :ARG2 (f3 / free-04 
+            :ARG0 (o / other) 
+            :manner-of (d / dissect-01 
+                  :ARG0 (t / transgenic 
+                        :quant 2) 
+                  :ARG1 (e / embryo)) 
+            :op1-of (s / slash) 
+            :op1-of (a / and 
+                  :op2 (f / fluorescent))))
+
+# ::snt ( e ) image taken under bright field with no epifluorescence .
+# ::tok ( e ) image taken under bright field with no epifluorescence .
+# ::alignments 9-10|0.0.0.0 7-8|0.0.0.1 6-7|0.0.0.1.0 4-5|0.0.0 3-4|0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:08.601
+(e / e 
+      :li-of (i / image 
+            :ARG1-of (t / take-01 
+                  :ARG2 - 
+                  :ARG3 (f / field 
+                        :ARG1-of (b / bright-02)))))
+
+# ::snt ( f ) dark field image taken through an EYFP filter .
+# ::tok ( f ) dark field image taken through an EYFP filter .
+# ::alignments 10-11|0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:08.714
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :li (f3 / f))
+
+# ::snt ( g ) , dark field image taken through an ECFP filter .
+# ::tok ( g ) , dark field image taken through an ECFP filter .
+# ::alignments 11-12|0.0 7-8|0.0.0 6-7|0.0.0.0 5-6|0.0.0.0.0 4-5|0.0.0.0.0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:08.890
+(g / g 
+      :ARG1-of (f / filter-02 
+            :path-of (t / take-01 
+                  :ARG1 (i / image 
+                        :mod (f2 / field 
+                              :ARG1-of (d / dark-02))))))
+
+# ::snt ( h ) double exposure acquired by consecutively using ECFP and EYFP filters .
+# ::tok ( h ) double exposure acquired by consecutively using ECFP and EYFP filters .
+# ::alignments 12-13|0.2 10-11|0 9-10|0.1.0.0+0.1.0+0.1 8-9|0.0 7-8|0.0.1 5-6|0.0.0 4-5|0.0.0.0 3-4|0.0.0.0.0 1-2|0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:09.260
+(a / and 
+      :op1 (u / use-01 
+            :ARG2-of (a2 / acquire-01 
+                  :ARG1 (e / expose-01 
+                        :mod (d / double))) 
+            :manner (c / consecutively)) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (f / filter-02 
+            :ARG1 (h / h)))
+
+# ::snt ( i-k ) two three week old transgenic mice each exclusively expressing either the ECFP or EYFP reporter .
+# ::tok ( i-k ) two three week old transgenic mice each exclusively expressing either the ECFP or EYFP reporter .
+# ::alignments 17-18|0.0.0.1.1.1 15-16|0.0.0.1.1 14-15|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 12-13|0.0.0.1.1.0 11-12|0.0.0 10-11|0.0 9-10|0.0.0.0 8-9|0 6-7|0.1 5-6|0.2.0 4-5|0.0.0.1.1.1.0 3-4|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:11.471
+(m / mouse 
+      :ARG1-of (e3 / exclusive-02 
+            :manner-of (e2 / express-01 
+                  :ARG0 (e4 / each) 
+                  :ARG1 (o2 / organization 
+                        :name (n / name 
+                              :op1 "ECFP") 
+                        :op1-of (o / or 
+                              :mod (e / either) 
+                              :op2 (r / report-01 
+                                    :ARG1 3))))) 
+      :mod (o3 / old) 
+      :quant (2 / 2 
+            :quant-of (w / week)))
+
+# ::snt All images shown are double exposures taken by consecutively using ECFP and then the EYFP filters under epifluorescence .
+# ::tok All images shown are double exposures taken by consecutively using ECFP and then the EYFP filters under epifluorescence .
+# ::alignments 17-18|0.0.0.0.0 15-16|0.0.0.0 12-13|0.0.0.0.1 11-12|0.0.0 10-11|0.0.1.0.0+0.0.1.0+0.0.1 9-10|0.0 8-9|0 6-7|0.0.2 5-6|0.0.2.0 4-5|0.0.2.0.1 2-3|0.0.2.0.0 1-2|0.0.2.0.0.0 0-1|0.0.2.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:14.150
+(c / consecutively 
+      :manner-of (u / use-01 
+            :ARG0 (a / and 
+                  :op1 (f / filter-02 
+                        :ARG1 (e / epifluorescence) 
+                        :time (t / then))) 
+            :ARG1 (o / organization 
+                  :name (n / name 
+                        :op1 "ECFP")) 
+            :ARG2-of (t2 / take-01 
+                  :ARG1 (e2 / exposur 
+                        :ARG1-of (s / show-01 
+                              :ARG0 (i / image 
+                                    :mod (a2 / all))) 
+                        :mod (d / double)))))
+
+# ::snt ( i ) CK6/ECFP ( TG / + ) transgenic mouse bottom , YC5/EYFP ( TG / + ) transgenic mouse bottom .
+# ::tok ( i ) CK6/ECFP ( TG / + ) transgenic mouse bottom , YC5/EYFP ( TG / + ) transgenic mouse bottom .
+# ::alignments 21-22|0.0.0.0 20-21|0.0.0 16-17|0.0.0.1 13-14|0.0.0.1.0.0.0.0+0.0.0.1.0.0.0+0.0.0.1.0.0 11-12|0 10-11|0.0 6-7|0.0.0.1.0 3-4|0.0.0.1.1.0.0+0.0.0.1.1.0+0.0.0.1.1 1-2|0.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:14.419
+(b2 / bottom 
+      :mod (m2 / mouse 
+            :op1 (m / mouse 
+                  :mod-of (b / bottom) 
+                  :op2-of (s / slash 
+                        :mod (s2 / slash 
+                              :op1 (p / person 
+                                    :name (n / name 
+                                          :op1 "YC5/EYFP"))) 
+                        :op1 (p2 / person 
+                              :name (n2 / name 
+                                    :op1 "CK6/ECFP") 
+                              :op1-of (i / i))))))
+
+# ::snt ( j ) CK6/ECFP ( TG / + ) transgenic mouse left , YC5/EYFP ( TG / + ) transgenic mouse right .
+# ::tok ( j ) CK6/ECFP ( TG / + ) transgenic mouse left , YC5/EYFP ( TG / + ) transgenic mouse right .
+# ::alignments 21-22|0 20-21|0.1 16-17|0.2.0 13-14|0.2.1.0.0+0.2.1.0+0.2.1 11-12|0.0.0 10-11|0.0 6-7|0.2 3-4|0.2.0.0.0.0+0.2.0.0.0+0.2.0.0 1-2|0.2.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:15.336
+(r / right-05 
+      :ARG0 (m2 / mouse 
+            :mod-of (l / left)) 
+      :ARG2 (m / mouse) 
+      :manner (s2 / slash 
+            :mod-of (s / slash 
+                  :op1 (p2 / person 
+                        :name (n2 / name 
+                              :op1 "CK6/ECFP") 
+                        :op1-of (j / j))) 
+            :op1 (p / person 
+                  :name (n / name 
+                        :op1 "YC5/EYFP"))))
+
+# ::snt ( k ) higher maginification view of the tails of the mice in i and j. Zygotic expression of the FP transgenes is clearly evident by the blastocyst stage ( Fig. 2a ,2 b ,2 c ,2 d ) and remains widespread thereafter ( Fig. 2 ) .
+# ::tok ( k ) higher maginification view of the tails of the mice in i and j. Zygotic expression of the FP transgenes is clearly evident by the blastocyst stage ( Fig. 2a ,2 b ,2 c ,2 d ) and remains widespread thereafter ( Fig. 2 ) .
+# ::alignments 45-46|0.0.0 42-43|0.2.0.1 41-42|0.2.0.2 40-41|0.2.0 39-40|0.2 37-38|0.2.1.0.2.1 35-36|0.2.1.2 33-34|0.2.1.3 31-32|0.2.1.4 28-29|0.1 27-28|0.1.0 24-25|0 23-24|0.0 21-22|0.2.1.0.2.0 17-18|0.2.1.0.2 15-17|0.2.1.0.1.0.1+0.2.1.0.1.0.0+0.2.1.0.1.0+0.2.1.0.1 14-15|0.2.1.0 13-14|0.2.1.0.0 11-12|0.2.1.1 8-9|0.2.1 5-6|0.2.1.0.0.0 4-5|0.2.1.0.0.0.0 3-4|0.2.1.0.0.0.1 1-2|0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:20.681
+(e / evident 
+      :ARG1-of (c2 / clear-06 
+            :ARG2 2) 
+      :domain (s / stage 
+            :mod (b2 / blastocyst)) 
+      :op1-of (a / and 
+            :op2 (r / remain-01 
+                  :ARG0 (k / k) 
+                  :ARG1 (t / thereaft) 
+                  :ARG2 (w / wide-02)) 
+            :poss (t4 / tail-01 
+                  :ARG0 (a2 / and 
+                        :op1 (i / i 
+                              :ARG0-of (v / view-02 
+                                    :ARG1 (m2 / maginification) 
+                                    :ARG1-of (h / high-02))) 
+                        :op2 (t3 / thing 
+                              :name (n / name 
+                                    :op1 (j / j.) 
+                                    :op2 (z / Zygotic))) 
+                        :op3 (e2 / express-01 
+                              :ARG1 (t2 / transgen) 
+                              :op1-of (d / d))) 
+                  :ARG1 (m / mouse) 
+                  :op1-of (c / c) 
+                  :op1-of (b / b) 
+                  :op1-of 2a)))
+
+# ::snt Figure 2 demonstrates that ECFP + embryos can easily be distinguished from EYFP + embryos and from non-transgenic non-fluorescent embryos from preimplantation stages ( Fig. 2a ,2 b ,2 c ,2 d ) to postimplantation stages ( Fig. 2e ,2 f ,2 g ,2 h ) .
+# ::tok Figure 2 demonstrates that ECFP + embryos can easily be distinguished from EYFP + embryos and from non-transgenic non-fluorescent embryos from preimplantation stages ( Fig. 2a ,2 b ,2 c ,2 d ) to postimplantation stages ( Fig. 2e ,2 f ,2 g ,2 h ) .
+# ::alignments 44-45|0.2.0.1 42-43|0.2.0.0.0 40-41|0.0.1.3 35-36|0.0.2 34-35|0.0.2.0 31-32|0.0.1.0 29-30|0.0.1.2 27-28|0.0.1.1.2 22-23|0.2.0 21-22|0.2.0.0 19-20|0.2 15-16|0 14-15|0.1 10-11|0.0 7-8|0.0.1 6-7|0.0.0 4-5|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 2-3|0.0.1.1 1-2|0.0.1.1.1 0-1|0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:26.466
+(a / and 
+      :ARG0-of (d2 / distinguish-01 
+            :ARG1 (e3 / embryo 
+                  :mod (o / organization 
+                        :name (n / name 
+                              :op1 "ECFP"))) 
+            :ARG1-of (p3 / possible-01 
+                  :ARG0 (d / d) 
+                  :ARG1-of (d3 / demonstrate-01 
+                        :ARG0 (f2 / figure) 
+                        :ARG2 2 
+                        :op1-of (b / b)) 
+                  :ARG2 (c / c) 
+                  :op1-of (f / f)) 
+            :ARG2 (s / stage 
+                  :mod (p / postimplantation))) 
+      :op1 (e2 / embryo) 
+      :op2 (e / embryo 
+            :source (s2 / stage 
+                  :mod (p2 / preimplantation 
+                        :mod (g / g)) 
+                  :mod-of (h / h))))
+
+# ::snt Additionally adult mice can also be discriminated on the basis of the color of their fluorescence ( Fig. 2i ,2 j ,2 k ) .
+# ::tok Additionally adult mice can also be discriminated on the basis of the color of their fluorescence ( Fig. 2i ,2 j ,2 k ) .
+# ::alignments 22-23|0.0.2 20-21|0.0.4 18-19|0.0.0 15-16|0.0.5 12-13|0.0.5.0 6-7|0.0 4-5|0.0.3 3-4|0 2-3|0.0.1 1-2|0.0.1.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:27.174
+(p / possible-01 
+      :ARG1 (d / discriminate-02 
+            :ARG0 2i 
+            :ARG1 (m / mouse 
+                  :mod (a2 / adult)) 
+            :ARG2 (k / k) 
+            :mod (a / also) 
+            :op1-of (j / j) 
+            :time (f / fluorescence 
+                  :poss-of (c / color))) 
+      :time (a3 / additional))
+
+# ::snt Even though our RFP transgenic ES cell lines failed to maintain strong uniform expression with in vitro passage , we selected three lines exhibiting the most robust expression for making chimeras , in order to ascertain whether we could achieve , or possibly recover , RFP expression in animals .
+# ::tok Even though our RFP transgenic ES cell lines failed to maintain strong uniform expression with in vitro passage , we selected three lines exhibiting the most robust expression for making chimeras , in order to ascertain whether we could achieve , or possibly recover , RFP expression in animals .
+# ::alignments 48-49|0.0 46-47|0 43-44|0.1.0 42-43|0.1.0.1 41-42|0.1 39-40|0.1.0.0.0 38-39|0.1.0.0.0.0 37-38|0.1.0.0 35-36|0.1.0.0.0.0.0 30-31|0.1.0.0.0.0.0.0.0.0.1.0 27-28|0.1.0.0.0.0.0.0.0.0.1 26-27|0.1.0.0.0.0.0.0.0.0.1.1 25-26|0.1.0.0.0.0.0.0.0.0.1.1.0 23-24|0.1.0.0.0.0.0.0.0.0 22-23|0.1.0.0.0.0.0.0.0.0.0 21-22|0.1.0.0.0.0.0.0.0.0.0.0 20-21|0.1.0.0.0.0.0.0.0 19-20|0.1.0.0.0.0.0.0 17-18|0.1.0.0.0.0.0.0.1 16-17|0.1.0.0.0.0.0.0.1.0 13-14|0.1.0.0.0.0.0.0.0.1.1.0 12-13|0.1.0.0.0.0.0.0.0.1.1.0.0.0+0.1.0.0.0.0.0.0.0.1.1.0.0 11-12|0.1.0.0.0.0.0.0.0.1.1.0.1 10-11|0.1.0.0.0.0.0.0.0.1.1 8-9|0.1.0.0.0.0.0.0.0.1 7-8|0.1.0.0.0.0.0.0.0.1.0 6-7|0.1.0.0.0.0.0.0.0.1.0.0 5-6|0.1.0.0.0.0.0.0.0.1.0.0.0 2-3|0.1.0.0.0.0.0.0.0.1.0.1 0-1|0.1.0.0.0.0.0.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:33.791
+(e / express-01 
+      :ARG1 (a / animal) 
+      :op2-of (o / or 
+            :op1 (r / recover-02 
+                  :ARG0 (w / we 
+                        :ARG0-of (a2 / achieve-01 
+                              :ARG1-of (p2 / possible-01 
+                                    :ARG1-of (a3 / ascertain-01 
+                                          :ARG0 (w2 / we 
+                                                :ARG0-of (s / select-01 
+                                                      :ARG1 (e3 / exhibit-01 
+                                                            :ARG0 (l / line 
+                                                                  :quant 3) 
+                                                            :ARG1 (e2 / express-01 
+                                                                  :ARG1 (c / chimera) 
+                                                                  :mod (r2 / robust 
+                                                                        :degree (m / most)))) 
+                                                      :concession (f / fail-01 
+                                                            :ARG1 (l2 / line 
+                                                                  :mod (c2 / cell 
+                                                                        :mod (e5 / e)) 
+                                                                  :poss (w3 / we)) 
+                                                            :ARG2 (m2 / maintain-01 
+                                                                  :ARG1 (e4 / express-01 
+                                                                        :ARG1 (t / thing 
+                                                                              :ARG1-of (u / uniform-01)) 
+                                                                        :ARG1-of (s2 / strong-02)) 
+                                                                  :mod (e6 / even)))) 
+                                                :ARG0-of (p3 / pass-01 
+                                                      :mod (v / vitro))))))) 
+                  :ARG1-of (p / possible-01))))
+
+# ::snt Cells were flow sorted prior to aggregation so as to enrich for RFP expression .
+# ::tok Cells were flow sorted prior to aggregation so as to enrich for RFP expression .
+# ::alignments 13-14|0 10-11|0.1 4-5|0.0.2 3-4|0.0.1 2-3|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:34.020
+(e / express-01 
+      :ARG1 (f / flow-01 
+            :ARG1 (c / cell) 
+            :ARG1-of (s / sort-out-02) 
+            :location (p / prior)) 
+      :ARG2-of (e2 / enrich-01))
+
+# ::snt Even though they had lost their characteristic ES cell morphology all three RFP + ES cell lines went gemline as detected by coat color and PCR for the DsRed1 transgene ( data not shown ) .
+# ::tok Even though they had lost their characteristic ES cell morphology all three RFP + ES cell lines went gemline as detected by coat color and PCR for the DsRed1 transgene ( data not shown ) .
+# ::alignments 33-34|0 32-33|0.2 31-32|0.1 29-30|0.0.0.1 28-29|0.0.0.2.0.0.0.0.0.0.0+0.0.0.2.0.0.0.0.0.0+0.0.0.2.0.0.0.0.0 24-25|0.0 23-24|0.0.1 22-23|0.0.1.0 20-21|0.0.0 18-19|0.0.0.0 17-18|0.0.0.2 16-17|0.0.0.2.1 15-16|0.0.0.2.1.0 11-12|0.0.0.2.1.2 10-11|0.0.0.2.1.1 9-10|0.0.0.2.0.0.0 8-9|0.0.0.2.0.0.0.1 7-8|0.0.0.2.0.0.0.1.0 6-7|0.0.0.2.0.0.0.0 4-5|0.0.0.2.0.0 2-3|0.0.0.2.0 0-1|0.0.0.2.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:42.382
+(s / show-01 
+      :ARG0 (a / and 
+            :ARG0-of (d2 / detect-01 
+                  :ARG1 (g / gemline) 
+                  :ARG2 (t / transgene) 
+                  :condition-of (g2 / go-02 
+                        :ARG0 (t3 / they 
+                              :ARG0-of (l2 / lose-02 
+                                    :ARG1 (m / morphology 
+                                          :ARG1-of (c5 / characteristic-02 
+                                                :ARG0 (t2 / thing 
+                                                      :name (n / name 
+                                                            :op1 "DsRed1"))) 
+                                          :mod (c4 / cell 
+                                                :mod (e / e))) 
+                                    :op1-of (e2 / even))) 
+                        :ARG1 (l / line 
+                              :mod (c3 / cell) 
+                              :mod (a2 / all) 
+                              :quant 3))) 
+            :op1 (c / color 
+                  :mod (c2 / coat))) 
+      :ARG1 (d / data) 
+      :polarity -)
+
+# ::snt However expression of the RFP reporter could not be detected in any organ of adult mice nor in embryos ( data not shown ) .
+# ::tok However expression of the RFP reporter could not be detected in any organ of adult mice nor in embryos ( data not shown ) .
+# ::alignments 22-23|0 21-22|0.2 20-21|0.0 18-19|0.1.0.0 15-16|0.1.1.1.1 14-15|0.1.1.1.1.0 12-13|0.1.1.1 11-12|0.1.1.1.0 9-10|0.1.1 7-8|0.1.1.0.0 6-7|0.1.1.0 5-6|0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:43.545
+(s / show-01 
+      :ARG1 (d / data) 
+      :ARG2-of (e2 / express-01 
+            :ARG1 (r / report-01 
+                  :ARG1 (e / embryo)) 
+            :ARG1-of (d2 / detect-01 
+                  :ARG1-of (p / possible-01 
+                        :polarity -) 
+                  :ARG2 (o / organ 
+                        :mod (a2 / any) 
+                        :mod (m / mouse 
+                              :mod (a / adult))))) 
+      :polarity -)
+
+# ::snt This suggests that the DsRed1 RFP reporter was unable to recapitulate the expression profile of the promoter/enhancer combination employed .
+# ::tok This suggests that the DsRed1 RFP reporter was unable to recapitulate the expression profile of the promoter/enhancer combination employed .
+# ::alignments 18-19|0.0.0.0.1.1 17-18|0.0.0.0.1.1.0 16-17|0.0.0.0.1.1.0.0 13-14|0.0 12-13|0 10-11|0.0.0 6-7|0.0.0.0 4-5|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 1-2|0.0.0.0.1 0-1|0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:44.295
+(e2 / express-01 
+      :ARG1 (p2 / profile 
+            :ARG1-of (r / recapitulate-01 
+                  :ARG0 (r2 / report-01 
+                        :ARG1 (t / thing 
+                              :name (n / name 
+                                    :op1 "DsRed1")) 
+                        :ARG2-of (s / suggest-01 
+                              :ARG0 (t2 / this) 
+                              :ARG1 (e / employ-01 
+                                    :ARG1 (c / combine-01 
+                                          :ARG1 (p / promoter/enhanc))))))))
+
+# ::snt Therefore it appears that GFP variant reporters are more versatile with respect to their application in mice .
+# ::tok Therefore it appears that GFP variant reporters are more versatile with respect to their application in mice .
+# ::alignments 16-17|0.0.1.1.0.0 14-15|0.0.1.1.0 11-12|0.0.1.1 9-10|0.0 8-9|0.0.0 6-7|0.0.1.0+0.0.1 5-6|0.0.1.0.0 2-3|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:44.655
+(a2 / appear-02 
+      :ARG1 (v / versatile 
+            :degree (m2 / more) 
+            :domain (p / person 
+                  :ARG0-of (r2 / report-01 
+                        :ARG1 (v2 / variant)) 
+                  :ARG0-of (r / respect-01 
+                        :ARG1 (a / apply-01 
+                              :ARG1 (m / mouse))))))
+
+# ::snt We produced double FP-tagged chimeras in order to assess whether the ECFP and EYFP reporters could be co-visualized within the same animal .
+# ::tok We produced double FP-tagged chimeras in order to assess whether the ECFP and EYFP reporters could be co-visualized within the same animal .
+# ::alignments 21-22|0.2.0.0 20-21|0.2.0.0.0 15-16|0.0.2.0 14-15|0.2.0+0.2 12-13|0 11-12|0.1.0.0+0.1.0+0.1 8-9|0.0.2 4-5|0.0.1 3-4|0.0.1.0 2-3|0.0.1.1 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:45.068
+(a2 / and 
+      :op1 (p3 / produce-01 
+            :ARG0 (w / we) 
+            :ARG1 (c / chimera 
+                  :mod (f / fp-tagg) 
+                  :mod (d / double)) 
+            :purpose (a3 / assess-01 
+                  :ARG1 (p / possible-01))) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (p2 / person 
+            :ARG0-of (r / report-01 
+                  :ARG1 (a / animal 
+                        :ARG1-of (s / same-01)))))
+
+# ::snt The first series of chimeras were generated through the aggregation of tetraploid embryos with FP + ES cells ( or embryos ) of the complementary color .
+# ::tok The first series of chimeras were generated through the aggregation of tetraploid embryos with FP + ES cells ( or embryos ) of the complementary color .
+# ::alignments 25-26|0.0.0.0.1 24-25|0.0.0.0.1.0 19-20|0 17-18|0.0.0.0 16-17|0.0.0 14-15|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 12-13|0.0 9-10|0.0.1 6-7|0.0.1.0 4-5|0.0.1.0.0 2-3|0.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:45.562
+(o / or 
+      :location-of (e2 / embryo 
+            :domain (e / e 
+                  :mod-of (c3 / cell 
+                        :location (o2 / organization 
+                              :name (n / name 
+                                    :op1 "FP")) 
+                        :part-of (c / color 
+                              :mod (c2 / complementary)))) 
+            :mod-of (a / aggregation 
+                  :path-of (g / generate-01 
+                        :ARG1 (c4 / chimera 
+                              :quant (s / series))))))
+
+# ::snt The procedure is schematized in Fig. 3a .
+# ::tok The procedure is schematized in Fig. 3a .
+# ::alignments 6-7|0.0 5-6|0.0.0.0.0+0.0.0.0+0.0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:45.631
+(p / procedure 
+      :prep-on (3 / 3a 
+            :mod (c / country 
+                  :name (n / name 
+                        :op1 "Fig."))))
+
+# ::snt It is evident that the expression of the two FPs can easily be discerned in these double transgenic embryos where the diploid , embryo-proper compartment is ECFP + and the tetraploid extraembryonic compartment is EYFP + ( Fig. 3b ,3 c ,3 d ,3 e ,3 f ) .
+# ::tok It is evident that the expression of the two FPs can easily be discerned in these double transgenic embryos where the diploid , embryo-proper compartment is ECFP + and the tetraploid extraembryonic compartment is EYFP + ( Fig. 3b ,3 c ,3 d ,3 e ,3 f ) .
+# ::alignments 46-47|0.0.0.4 44-45|0.0.0.5 42-43|0.0.0.6 40-41|0.0.0.3 38-39|0.0.0.1.1.1.0 37-38|0.0.0.1.1.1.1.0+0.0.0.1.1.1.1+0.0.0.1.1.1 32-33|0.0.0.1.0 28-29|0.0.0.1.1 26-27|0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 24-25|0.0.0.1.1.0 23-24|0.0.0.1.1.0.0 21-22|0.0.0.1.1.0.1 18-19|0.0.0.2 16-17|0.0.0.2.1 15-16|0.0.0.2.0 13-14|0.0.0 10-11|0.0.0.1 9-10|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 8-9|0.0.0.0.0.1 5-6|0.0.0.0 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:48.474
+(e5 / evident 
+      :domain (i / it 
+            :ARG0-of (d4 / discern-01 
+                  :ARG1 (e4 / express-01 
+                        :ARG1 (t2 / thing 
+                              :name (n3 / name 
+                                    :op1 "FPs") 
+                              :quant 2) 
+                        :op1-of (o / organization 
+                              :name (n2 / name 
+                                    :op1 "ECFP"))) 
+                  :ARG1-of (p / possible-01 
+                        :ARG2 (c3 / compartment) 
+                        :op1-of (a / and 
+                              :op2 (c4 / compartment 
+                                    :mod (e2 / embryo-prop) 
+                                    :mod (d2 / diploid)) 
+                              :op3 (c2 / country 
+                                    :mod-of 3b 
+                                    :name (n / name 
+                                          :op1 "Fig.")))) 
+                  :ARG2 (e3 / embryo 
+                        :mod (t / this) 
+                        :mod (d3 / double)) 
+                  :op1-of (c / c) 
+                  :op1-of (f / f) 
+                  :op1-of (e / e) 
+                  :op1-of (d / d))))
+
+# ::snt Secondly we investigated reporter co-visualization in balanced adult chimeras comprised of both ECFP + and EYFP + compartments .
+# ::tok Secondly we investigated reporter co-visualization in balanced adult chimeras comprised of both ECFP + and EYFP + compartments .
+# ::alignments 17-18|0.3 14-15|0 12-13|0.2.1.0.0.0+0.2.1.0.0+0.2.1.0 11-12|0.1 9-10|0.0 8-9|0.0.0 7-8|0.2.1.1 6-7|0.0.0.0 3-4|0.2.1 2-3|0.2 1-2|0.2.0 0-1|0.2.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:48.810
+(a / and 
+      :ARG2-of (c2 / comprise-01 
+            :ARG1 (c3 / chimera 
+                  :ARG1-of (b2 / balance-01))) 
+      :mod (b / both) 
+      :op1 (i / investigate-01 
+            :ARG0 (w / we) 
+            :ARG1 (r / report-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "ECFP")) 
+                  :ARG1 (a2 / adult)) 
+            :location (s / secondly)) 
+      :op2 (c / compartment))
+
+# ::snt These were generated through the aggregation of diploid embryos with diploid embryos ( or ES cells ) of the complementary color .
+# ::tok These were generated through the aggregation of diploid embryos with diploid embryos ( or ES cells ) of the complementary color .
+# ::alignments 20-21|0.0.0.0.0 19-20|0.0.0.0 15-16|0.3 14-15|0.3.0 13-14|0 11-12|0.2 10-11|0.1 8-9|0.0.0.1.0 7-8|0.0.0.1.0.0 5-6|0.0.0.1 2-3|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:49.535
+(o / or 
+      :domain (t / this 
+            :ARG1-of (g / generate-01 
+                  :ARG0 (c2 / complementary 
+                        :mod-of (c / color)) 
+                  :path (a / aggregation 
+                        :mod (e3 / embryo 
+                              :mod (d2 / diploid))))) 
+      :op1 (d / diploid) 
+      :op2 (e2 / embryo) 
+      :op3 (c3 / cell 
+            :mod (e / e)))
+
+# ::snt The aggregated components of the chimera from which each organ originated is schematized in the top right of each panel in Fig. 4 .
+# ::tok The aggregated components of the chimera from which each organ originated is schematized in the top right of each panel in Fig. 4 .
+# ::alignments 22-23|0.1.0.0.0 21-22|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 19-20|0.0.0 18-19|0.0.0.1 16-17|0.0 15-16|0.0.1 10-11|0.1 9-10|0 8-9|0.2 5-6|0.1.0.1 2-3|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:50.208
+(o2 / organ 
+      :ARG0-of (r / right-05 
+            :ARG1 (p / panel 
+                  :location (c / country 
+                        :name (n / name 
+                              :op1 "Fig.")) 
+                  :mod (e / each)) 
+            :mod (t / top)) 
+      :ARG1-of (o / originate-01 
+            :ARG0 (c3 / component 
+                  :ARG1-of (a / aggregate-01 
+                        :ARG0 4) 
+                  :poss (c2 / chimera))) 
+      :mod (e2 / each))
+
+# ::snt These chimeric adult organs demonstrate that the ECFP + and EYFP + cells comprising these chimeras can easily be discerned ( Fig. 4 ) .
+# ::tok These chimeric adult organs demonstrate that the ECFP + and EYFP + cells comprising these chimeras can easily be discerned ( Fig. 4 ) .
+# ::alignments 22-23|0.0.1.0 21-22|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 19-20|0.1.0 16-17|0.1 15-16|0.1.1.0.1 14-15|0.1.1.0.1.0 13-14|0.1.1.0 12-13|0.1.1.2 9-10|0.1.1 7-8|0.1.1.1.0.0+0.1.1.1.0+0.1.1.1 4-5|0 3-4|0.0 2-3|0.1.1.0.0 1-2|0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:02:51.922
+(d2 / demonstrate-01 
+      :ARG0 (o2 / organ 
+            :mod (t2 / this) 
+            :mod (c5 / chimeric 
+                  :mod-of 4)) 
+      :ARG1 (p / possible-01 
+            :ARG1 (d / discern-01 
+                  :ARG2 (c / country 
+                        :name (n / name 
+                              :op1 "Fig."))) 
+            :op2-of (a / and 
+                  :ARG1-of (c3 / comprise-01 
+                        :ARG0 (a2 / adult) 
+                        :ARG2 (c2 / chimera 
+                              :mod (t / this))) 
+                  :mod (o / organization 
+                        :name (n2 / name 
+                              :op1 "ECFP")) 
+                  :op1 (c4 / cell))))
+
+# ::snt It can therefore be envisaged that two different FP colors could be used in the construction of chimeras so as to tag both mutant and wild type lineages .
+# ::tok It can therefore be envisaged that two different FP colors could be used in the construction of chimeras so as to tag both mutant and wild type lineages .
+# ::alignments 27-28|0.3 26-27|0.3.0 25-26|0.3.1 24-25|0 23-24|0.2 22-23|0.1 21-22|0.0 18-19|0.0.0 17-18|0.0.0.0.2.0 15-16|0.0.0.0.2 12-13|0.0.0.0 10-11|0.0.0.0.1 9-10|0.0.0.0.0 8-9|0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 7-8|0.0.0.0.0.1 6-7|0.0.0.0.0.2 4-5|0.0.0.0.1.0 1-2|0.0.0.0.1.0.1 0-1|0.0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:00.171
+(a / and 
+      :ARG1-of (t2 / tag-01 
+            :ARG1-of (c / cause-01 
+                  :ARG0 (u / use-01 
+                        :ARG1 (c4 / color-01 
+                              :ARG1 (o / organization 
+                                    :name (n / name 
+                                          :op1 "FP")) 
+                              :ARG1-of (d / differ-02) 
+                              :quant 2) 
+                        :ARG1-of (p / possible-01 
+                              :ARG0-of (e / envisage-01 
+                                    :ARG1 (i / it) 
+                                    :ARG1-of (p2 / possible-01))) 
+                        :ARG2 (c3 / construct-01 
+                              :ARG1 (c2 / chimera))))) 
+      :mod (b / both) 
+      :op1 (m / mutant) 
+      :op2 (l / lineag 
+            :mod (t / type) 
+            :mod (w / wild)))
+
+# ::snt Dual non-invasive reporter visualization in chimeric embryos generated by tetraploid < - > diploid aggregation .
+# ::tok Dual non-invasive reporter visualization in chimeric embryos generated by tetraploid < - > diploid aggregation .
+# ::alignments 14-15|0.0.0.0 13-14|0.0.0 7-8|0.1 6-7|0.1.0 5-6|0.1.0.0 3-4|0 2-3|0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:00.602
+(v / visualization 
+      :ARG0-of (r / report-01 
+            :ARG1 (d / diploid 
+                  :mod-of (a / aggregation))) 
+      :ARG0-of (g / generate-01 
+            :ARG1 (e / embryo 
+                  :mod (c / chimeric))) 
+      :mod (d2 / dual))
+
+# ::snt In all panels the tetraploid compartment is yellow/green fluorescent ( EYFP + ) and the diploid is blue/cyan fluorescent ( ECFP + ) .
+# ::tok In all panels the tetraploid compartment is yellow/green fluorescent ( EYFP + ) and the diploid is blue/cyan fluorescent ( ECFP + ) .
+# ::alignments 20-21|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 18-19|0.3 15-16|0.2 13-14|0 8-9|0.1 5-6|0.0 2-3|0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:01.065
+(a / and 
+      :op1 (c / compartment 
+            :ARG1-of (p / panel-01 
+                  :ARG2 (o / organization 
+                        :name (n / name 
+                              :op1 "ECFP")) 
+                  :quant (a2 / all))) 
+      :op2 (f2 / fluorescent) 
+      :op3 (d / diploid) 
+      :op4 (f / fluorescent))
+
+# ::snt ( a ) schematic representation of the tetraploid procedure .
+# ::tok ( a ) schematic representation of the tetraploid procedure .
+# ::alignments 8-9|0.0 4-5|0 3-4|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:01.139
+(r / representation-02 
+      :ARG1 (p / procedure) 
+      :mod (s / schematic))
+
+# ::snt Electrofusion of E1 .5 embryos to render the blastomeres tetraploid , in vitro culture , and subsequent aggregation schemes using double-tagged compartments .
+# ::tok Electrofusion of E1 .5 embryos to render the blastomeres tetraploid , in vitro culture , and subsequent aggregation schemes using double-tagged compartments .
+# ::alignments 21-22|0.1.1.0.0 20-21|0.1.1.0.0.0 19-20|0.1.1.0 18-19|0.1.1 17-18|0.1.1.1 16-17|0.1.1.2 15-16|0.1 13-14|0.1.0 12-13|0.1.0.0 9-10|0.0 8-9|0.0.0 6-7|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:03.706
+(r / render-01 
+      :ARG1 (t / tetraploid 
+            :mod (b / blastomer)) 
+      :ARG2 (a2 / and 
+            :op1 (c2 / culture 
+                  :mod (v / vitro)) 
+            :op2 (s / scheme-01 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (c / compartment 
+                              :mod (d / double-tagg))) 
+                  :mod (a / aggregation) 
+                  :time (s2 / subsequent))))
+
+# ::snt Sandwich aggregations were made using either ECFP + ( diploid ) morulae or ES cells .
+# ::tok Sandwich aggregations were made using either ECFP + ( diploid ) morulae or ES cells .
+# ::alignments 14-15|0.0.0.0.0.2 13-14|0.0.0.0.0.2.0 12-13|0.0.0.0.0 11-12|0.0.0.0.0.1 9-10|0 6-7|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 5-6|0.0.0.0.0.0 4-5|0.0.0.0 1-2|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:04.666
+(d / diploid 
+      :ARG0-of (s / sandwich-01 
+            :ARG1 (a / aggregation 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (o / or 
+                              :mod (e2 / either) 
+                              :op1 (m / morula) 
+                              :op2 (c / cell 
+                                    :mod (e / e)))) 
+                  :mod (o2 / organization 
+                        :name (n / name 
+                              :op1 "ECFP")))))
+
+# ::snt ( b-d ) anterior view of an E7 .5 double-tagged polarized chimera dissected free of its deciduum and therefore missing primary giant cells and parietal endoderm .
+# ::tok ( b-d ) anterior view of an E7 .5 double-tagged polarized chimera dissected free of its deciduum and therefore missing primary giant cells and parietal endoderm .
+# ::alignments 25-26|0.0.0.0 24-25|0.0.0.0.0 23-24|0.0.0 22-23|0.1.0 21-22|0.1.0.0 20-21|0.1.0.1 19-20|0.1 17-18|0 16-17|0.0.2.0 13-14|0.0.2 12-13|0.0 11-12|0.0.1.0 10-11|0.0.1.0.0 9-10|0.0.1.0.0.0 7-8|0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 4-5|0.0.1 3-4|0.0.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:07.089
+(a2 / and 
+      :op1 (d2 / dissect-01 
+            :ARG0 (a / and 
+                  :op1 (e / endoderm 
+                        :mod (p / parietal))) 
+            :ARG1 (v / view-02 
+                  :ARG1 (c2 / chimera 
+                        :ARG1-of (p3 / polarize-01 
+                              :ARG0 (d3 / double-tagg))) 
+                  :ARG2 (t / thing 
+                        :name (n / name 
+                              :op1 "E7")) 
+                  :mod (a3 / anterior)) 
+            :ARG2 (f / free-04 
+                  :ARG2 (d / deciduum))) 
+      :op2 (m / miss-01 
+            :ARG1 (c / cell 
+                  :mod (g / giant) 
+                  :mod (p2 / primary))))
+
+# ::snt Here the epiblast ( lower half of embryo ) and its derivatives are ECFP + whereas the extraembryonic ectoderm , the visceral endoderm and trophoblast are EYFP + ( upper half or embryo ) .
+# ::tok Here the epiblast ( lower half of embryo ) and its derivatives are ECFP + whereas the extraembryonic ectoderm , the visceral endoderm and trophoblast are EYFP + ( upper half or embryo ) .
+# ::alignments 32-33|0.1.1 31-32|0.1 30-31|0.1.0 29-30|0.1.0.0 24-25|0.3.2 23-24|0.3 22-23|0.3.1 21-22|0.3.1.0 18-19|0.3.0 15-16|0.2.1.0.0 11-12|0.2 9-10|0 7-8|0.2.1.1 5-6|0.2.1 4-5|0.2.1.0 2-3|0.0 0-1|0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:08.086
+(a2 / and 
+      :op1 (e5 / epiblast) 
+      :op1-of (o / or 
+            :op2 (h / half 
+                  :mod (u / upper)) 
+            :op3 (e / embryo)) 
+      :op2 (d / derive-01 
+            :ARG0 (h3 / here) 
+            :ARG1 (h2 / half 
+                  :ARG1-of (l / low-04 
+                        :ARG0 (w / whereas)) 
+                  :mod (e4 / embryo))) 
+      :op3 (a / and 
+            :op1 (e3 / ectoderm) 
+            :op2 (e2 / endoderm 
+                  :mod (v / visceral)) 
+            :op3 (t / trophoblast)))
+
+# ::snt ( b ) dark field image taken through an EYFP filter .
+# ::tok ( b ) dark field image taken through an EYFP filter .
+# ::alignments 10-11|0 9-10|0.0.0.0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:08.254
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01 
+                  :path (e / EYFP)) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :li (b / b))
+
+# ::snt ( c ) dark field image taken through an ECFP filter .
+# ::tok ( c ) dark field image taken through an ECFP filter .
+# ::alignments 10-11|0 6-7|0.0.0 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:08.388
+(f / filter-02 
+      :ARG0 (i / image 
+            :ARG1-of (t / take-01) 
+            :mod (f2 / field 
+                  :ARG1-of (d / dark-02))) 
+      :ARG1 (c / c))
+
+# ::snt ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::tok ( d ) dark field double exposure image acquired by consecutively using ECFP and EYFP filters .
+# ::alignments 15-16|0.2 13-14|0 12-13|0.1.0.0+0.1.0+0.1 11-12|0.0 10-11|0.2.0 8-9|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0.0.0.0 4-5|0.0.0.0.2 3-4|0.0.0.0.2.0 1-2|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:09.869
+(a / and 
+      :op1 (u / use-01 
+            :ARG1-of (a2 / acquire-01 
+                  :ARG0 (i / image 
+                        :ARG1-of (e / expose-01 
+                              :ARG0 (d / double)) 
+                        :li (d3 / d) 
+                        :mod (f2 / field 
+                              :ARG1-of (d2 / dark-02))))) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (f / filter-02 
+            :ARG1 (c / consecutively)))
+
+# ::snt ( e ) dark field double filter exposure of an E9 chimera dissected free of all extraembryonic membranes except for a small piece of yolk sac ( lower left ) .
+# ::tok ( e ) dark field double filter exposure of an E9 chimera dissected free of all extraembryonic membranes except for a small piece of yolk sac ( lower left ) .
+# ::alignments 28-29|0.0.0.1.1.0 27-28|0.0.0.1.1.0.0 25-26|0.0.0.1.1 24-25|0.0.0.1.1.1 22-23|0.0.0.1 21-22|0.0.0.1.0 18-19|0.1 17-18|0 15-16|0.1.0 13-14|0.0 12-13|0.0.0 11-12|0.0.0.0 10-11|0.0.0.1.1.0.0.0.0.0+0.0.0.1.1.0.0.0.0+0.0.0.1.1.0.0.0 7-8|0.0.0.0.0 6-7|0.0.0.0.0.0 5-6|0.0.0.0.0.1 4-5|0.0.0.0.0.1.0 3-4|0.0.0.0.0.1.0.0 1-2|0.0.0.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:12.885
+(m / membran 
+      :ARG2-of (f / free-04 
+            :ARG1-of (d / dissect-01 
+                  :ARG0 (c / chimera 
+                        :ARG1-of (e2 / expose-01 
+                              :ARG1-of (f2 / filter-02) 
+                              :ARG1-of (d2 / double-01 
+                                    :ARG0 (f3 / field 
+                                          :ARG1-of (d3 / dark-02)) 
+                                    :li (e3 / e)))) 
+                  :ARG2 (p / piece 
+                        :mod (s2 / small) 
+                        :mod (s / sac 
+                              :ARG1-of (l / leave-11 
+                                    :degree (l2 / low-04 
+                                          :ARG1 (t / thing 
+                                                :name (n / name 
+                                                      :op1 "E9")))) 
+                              :mod (y / yolk))))) 
+      :location (e / except-01 
+            :ARG1 (a / all)))
+
+# ::snt The embryo itself is ECFP + whereas the yolk sac both ECFP + and EYFP + in the mesoderm and endoderm respectively .
+# ::tok The embryo itself is ECFP + whereas the yolk sac both ECFP + and EYFP + in the mesoderm and endoderm respectively .
+# ::alignments 21-22|0.3.0 20-21|0.3 19-20|0 18-19|0.2 13-14|0.2.0 10-11|0.0 9-10|0.3.1.0 8-9|0.3.1.0.0 6-7|0.3.1 4-5|0.1.0.0+0.1.0+0.1 1-2|0.2.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:13.219
+(a / and 
+      :mod (b / both) 
+      :op1 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op2 (m / mesoderm 
+            :example (a2 / and) 
+            :poss-of (e2 / embryo)) 
+      :op3 (e / endoderm 
+            :mod (r / respective) 
+            :mod-of (w / whereas 
+                  :op1 (s / sac 
+                        :mod (y / yolk)))))
+
+# ::snt A small number of EYFP + cells are also observed in the ventral midline of the embryo ( arrowhead ) .
+# ::tok A small number of EYFP + cells are also observed in the ventral midline of the embryo ( arrowhead ) .
+# ::alignments 18-19|0 16-17|0.0.1.1 13-14|0.0.1 12-13|0.0.1.0 9-10|0.0 8-9|0.0.2 6-7|0.0.0.0 2-3|0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:13.514
+(a / arrowhead 
+      :ARG0-of (o / observe-01 
+            :ARG1 (n / number 
+                  :domain (c / cell) 
+                  :mod (s / small)) 
+            :ARG2 (m / midline 
+                  :mod (v / ventral) 
+                  :poss (e / embryo)) 
+            :mod (a2 / also)))
+
+# ::snt This observation has been noted previously in tetraploid chimeras , and is presumed to represent a small population of visceral endoderm cells that fail to be displaced by the definitive endoderm at earlier stages .
+# ::tok This observation has been noted previously in tetraploid chimeras , and is presumed to represent a small population of visceral endoderm cells that fail to be displaced by the definitive endoderm at earlier stages .
+# ::alignments 33-34|0.2.0.0.0.1.0.0.1 32-33|0.2.0.0.0.1.0.0.1.0 30-31|0.2.0.0.0.1.0.0.0 29-30|0.2.0.0.0.1.0.0.0.0 26-27|0.2.0.0.0.1.0.0 23-24|0.2.0.0.0.1.0 21-22|0.2.0.0.0.1 20-21|0.2.0.0.0.1.1 19-20|0.2.0.0.0.1.2 17-18|0.2.0.0.0 16-17|0.2.0.0.0.0 14-15|0.2.0.0 12-13|0.2.0 10-11|0.2 8-9|0.1 5-6|0.3 4-5|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:15.343
+(n / note-01 
+      :ARG1 (o / observation 
+            :mod (t / this)) 
+      :ARG2 (c2 / chimera) 
+      :op1-of (a / and 
+            :op2 (p2 / presume-01 
+                  :ARG1 (r / represent-01 
+                        :ARG1 (p / population 
+                              :mod (s2 / small) 
+                              :poss (c / cell 
+                                    :ARG1-of (f / fail-01 
+                                          :ARG2 (d2 / displace-01 
+                                                :ARG0 (e2 / endoderm 
+                                                      :mod (d / definitive)) 
+                                                :time (s / stage 
+                                                      :time (e / early)))) 
+                                    :mod (e3 / endoderm) 
+                                    :mod (v / visceral)))))) 
+      :time (p3 / previous))
+
+# ::snt ( f ) dark field double filter exposure of an E10 chimera .
+# ::tok ( f ) dark field double filter exposure of an E10 chimera .
+# ::alignments 11-12|0.0.0 10-11|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 7-8|0.0 6-7|0.0.1 5-6|0.0.3 4-5|0.0.2 3-4|0.0.2.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:15.865
+(f3 / f 
+      :li-of (e / expose-01 
+            :ARG1 (c / chimera 
+                  :mod (t / thing 
+                        :name (n / name 
+                              :op1 "E10"))) 
+            :ARG1-of (f / filter-02) 
+            :mod (f2 / field 
+                  :ARG1-of (d2 / dark-02)) 
+            :mod (d / double)))
+
+# ::snt The embryo is exclusively ECFP + whereas its placenta ( to the left of the embryo ) is predominantly EYFP + .
+# ::tok The embryo is exclusively ECFP + whereas its placenta ( to the left of the embryo ) is predominantly EYFP + .
+# ::alignments 18-19|0.0.0 15-16|0 12-13|0.1 8-9|0.0.1.0.0 6-7|0.0.1.0.0.0 4-5|0.0.1.0.1.0+0.0.1.0.1+0.0.1.0 3-4|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:16.397
+(e / embryo 
+      :ARG2-of (e2 / exclusive-02 
+            :ARG0 (p / predominant) 
+            :ARG1 (e3 / embryo 
+                  :domain-of (o / organization 
+                        :domain (p2 / placenta 
+                              :op1-of (w / whereas)) 
+                        :name (n / name 
+                              :op1 "ECFP")))) 
+      :poss-of (l / left))
+
+# ::snt The labyrinthine trophoblast layer of the placenta comprises both ECFP + and EYFP + cells .
+# ::tok The labyrinthine trophoblast layer of the placenta comprises both ECFP + and EYFP + cells .
+# ::alignments 14-15|0.2.1 11-12|0.2 9-10|0.2.0.0.0.0+0.2.0.0.0+0.2.0.0 8-9|0.2.0 7-8|0 6-7|0.0 3-4|0.1 2-3|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:17.927
+(c2 / comprise-01 
+      :ARG0 (p / placenta) 
+      :ARG1 (l / layer 
+            :mod (t / trophoblast 
+                  :mod (l2 / labyrinthine))) 
+      :ARG2 (a / and 
+            :mod (b / both 
+                  :mod-of (o / organization 
+                        :name (n / name 
+                              :op1 "ECFP"))) 
+            :op1 (c / cell)))
+
+# ::snt Dual non-invasive reporter visualization in the organs of adult chimeras .
+# ::tok Dual non-invasive reporter visualization in the organs of adult chimeras .
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 6-7|0.1 3-4|0 2-3|0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:18.071
+(v / visualization 
+      :ARG0-of (r / report-01) 
+      :location (o / organ 
+            :mod (c / chimera 
+                  :mod (a / adult))) 
+      :mod (d / dual))
+
+# ::snt All images depict dark field double exposures acquired by consecutively using ECFP and EYFP filters under dark field epifluorescence .
+# ::tok All images depict dark field double exposures acquired by consecutively using ECFP and EYFP filters under dark field epifluorescence .
+# ::alignments 18-19|0.2.0.1 17-18|0.2.0 16-17|0.2.0.0 14-15|0.2 12-13|0 11-12|0.1.0.0+0.1.0+0.1 10-11|0.0 9-10|0.0.1 7-8|0.0.0 6-7|0.0.0.1 5-6|0.0.0.0.0.0 4-5|0.0.0.1.0 3-4|0.0.0.1.0.0 2-3|0.0.0.0.0 1-2|0.0.0.0 0-1|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:20.041
+(a / and 
+      :op1 (u / use-01 
+            :ARG2-of (a2 / acquire-01 
+                  :ARG0 (i / image 
+                        :ARG0-of (d4 / depict-01 
+                              :ARG1 (d2 / double)) 
+                        :mod (a3 / all)) 
+                  :ARG1 (e2 / exposur 
+                        :mod (f3 / field 
+                              :ARG1-of (d3 / dark-02)))) 
+            :manner (c / consecutively)) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "ECFP")) 
+      :op3 (f2 / filter-02 
+            :ARG1 (f / field 
+                  :ARG1-of (d / dark-02) 
+                  :mod-of (e / epifluorescence))))
+
+# ::snt Details of aggregates are schematized at the top right of each panel .
+# ::tok Details of aggregates are schematized at the top right of each panel .
+# ::alignments 11-12|0.0 10-11|0.0.0 8-9|0.1.0 7-8|0.0.1 2-3|0.1 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:20.197
+(d / detail-01 
+      :ARG0 (p / panel 
+            :mod (e / each) 
+            :part (t / top)) 
+      :ARG1 (a / aggregate-01 
+            :ARG1 (r / right)))
+
+# ::snt ( a-c ) heart and pancreas from double-tagged double-compartment adult chimeras .
+# ::tok ( a-c ) heart and pancreas from double-tagged double-compartment adult chimeras .
+# ::alignments 10-11|0.0.0 9-10|0.2 7-8|0.0 5-6|0 4-5|0.1 3-4|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:20.317
+(p / pancrea 
+      :location (d / double-tagg 
+            :mod-of (c / chimera)) 
+      :op2-of (a2 / and 
+            :op1 (h / heart)) 
+      :purpose (a / adult))
+
+# ::snt ( a ) view of the surface of an adult heart .
+# ::tok ( a ) view of the surface of an adult heart .
+# ::alignments 10-11|0.0.0 9-10|0.1 6-7|0.0 3-4|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:20.388
+(v / view-02 
+      :ARG0 (s / surface 
+            :part-of (h / heart)) 
+      :ARG1 (a / adult))
+
+# ::snt ( b ) close-up surface view of ventricle of a chimeric heart generated by aggregation of two diploid morulae , one hemizygous for the CK6/ECFP ( ECFP + ) transgene and the other hemizygous for the YC5/EYFP ( EYFP + ) transgene .
+# ::tok ( b ) close-up surface view of ventricle of a chimeric heart generated by aggregation of two diploid morulae , one hemizygous for the CK6/ECFP ( ECFP + ) transgene and the other hemizygous for the YC5/EYFP ( EYFP + ) transgene .
+# ::alignments 41-42|0.0.1.3 36-37|0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 33-34|0.0.1.2.0.3 32-33|0.0.1.2.0.3.0 30-31|0.0.1.2.0 29-30|0 26-27|0.0.3.0.0+0.0.3.0+0.0.3 24-25|0.0.1.2.0.2.1.0+0.0.1.2.0.2.1+0.0.1.2.0.2 21-22|0.0.1.2.0.1 18-19|0.0.1.2.0.0 17-18|0.0.1.2.0.0.0 16-17|0.0.1.2.0.0.1 14-15|0.0.1.2 12-13|0.0.1 11-12|0.0.1.0 10-11|0.0.1.0.0 7-8|0.0.0 5-6|0.0 4-5|0.0.2 1-2|0.0.1.2.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:26.253
+(t3 / transgene 
+      :op1 (v2 / view-02 
+            :ARG0 (v / ventricle) 
+            :ARG0-of (g / generate-01 
+                  :ARG1 (h3 / heart 
+                        :mod (c / chimeric)) 
+                  :ARG2 (t2 / thing 
+                        :name (n / name 
+                              :op1 "YC5/EYFP")) 
+                  :degree (a2 / aggregation 
+                        :time-of (a / and 
+                              :op1 (m / morula 
+                                    :mod (d / diploid) 
+                                    :quant 2) 
+                              :op2 (h2 / hemizygou) 
+                              :op3 (p / person 
+                                    :mod (b / b) 
+                                    :name (n3 / name 
+                                          :op1 "CK6/ECFP")) 
+                              :op4 (h / hemizygou 
+                                    :mod (o / other)))) 
+                  :op1-of (t / transgene)) 
+            :ARG1 (s / surface) 
+            :ARG2 (o2 / organization 
+                  :name (n2 / name 
+                        :op1 "ECFP"))))
+
+# ::snt The regions of yellow/green and cyan fluorescence are clearly mutually exclusive .
+# ::tok The regions of yellow/green and cyan fluorescence are clearly mutually exclusive .
+# ::alignments 10-11|0.0.0.0 9-10|0.0.0.0.1 8-9|0.0.0.0.0 6-7|0.0 5-6|0 4-5|0.0.1 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:26.376
+(c2 / cyan 
+      :mod-of (f / fluorescence 
+            :mod-of (r / region 
+                  :ARG1-of (e / exclusive-02 
+                        :ARG1-of (c / clear-06) 
+                        :mod (m / mutual))) 
+            :op1-of (a / and)))
+
+# ::snt The striations in the fields of fluorescence represent the proliferative zones present within the ventricle .
+# ::tok The striations in the fields of fluorescence represent the proliferative zones present within the ventricle .
+# ::alignments 14-15|0.2 11-12|0.3 10-11|0.1 9-10|0.1.0 7-8|0 6-7|0.0.0.0 4-5|0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:26.879
+(r / represent-01 
+      :ARG0 (s / striation 
+            :location (f2 / field 
+                  :mod (f / fluorescence))) 
+      :ARG1 (z / zone 
+            :mod (p2 / proliferative)) 
+      :location (v / ventricle) 
+      :manner (p / present))
+
+# ::snt ( c ) chimeric pancreas generated by aggregation of a morula hemizygous for the YC5/EYFP transgene with CK6/ECFP ES cells .
+# ::tok ( c ) chimeric pancreas generated by aggregation of a morula hemizygous for the YC5/EYFP transgene with CK6/ECFP ES cells .
+# ::alignments 19-20|0.0.1.0.0 18-19|0.0.1.0.0.0 17-18|0.0.1.0.0.1.0.0+0.0.1.0.0.1.0+0.0.1.0.0.1 15-16|0.0.1.0 14-15|0.0.1.1.0+0.0.1.1+0.0.1 10-11|0.0.0.0 7-8|0.0.0 5-6|0.0 4-5|0 3-4|0.1 1-2|0.0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:27.870
+(p / pancrea 
+      :ARG1-of (g / generate-01 
+            :ARG0 (a / aggregation 
+                  :poss (m / morula)) 
+            :ARG2 (t3 / thing 
+                  :mod-of (t2 / transgene 
+                        :beneficiary (c / cell 
+                              :mod (e / e 
+                                    :poss-of (c3 / c)) 
+                              :mod (t / thing 
+                                    :name (n / name 
+                                          :op1 "CK6/ECFP")))) 
+                  :name (n2 / name 
+                        :op1 "YC5/EYFP"))) 
+      :mod (c2 / chimeric))
+
+# ::snt The restricted fields of fluorescence represent the proliferative zones present within the pancreas .
+# ::tok The restricted fields of fluorescence represent the proliferative zones present within the pancreas .
+# ::alignments 12-13|0.1.0.0 9-10|0.1.0 8-9|0.1 7-8|0.1.1 5-6|0 4-5|0.0.1 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:28.420
+(r / represent-01 
+      :ARG0 (f2 / field 
+            :mod (r2 / restrict-01) 
+            :mod (f / fluorescence)) 
+      :ARG1 (z / zone 
+            :location (p2 / present 
+                  :compared-to (p / pancrea)) 
+            :mod (p3 / proliferative)))
+
+# ::snt ( d ) liver from a double-tagged triple-compartment adult chimera .
+# ::tok ( d ) liver from a double-tagged triple-compartment adult chimera .
+# ::alignments 9-10|0.1 8-9|0.1.0 6-7|0.1.1 3-4|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:28.500
+(l / liver 
+      :li (d2 / d) 
+      :source (c / chimera 
+            :mod (a / adult) 
+            :mod (d / double-tagg)))
+
+# ::snt A non-fluorescent morula was aggregated with two clumps of ES cells , one carrying the CK6/ECFP transgene ( ECFP + ) and the other carrying the YC5/EYFP transgene ( EYFP + ) .
+# ::tok A non-fluorescent morula was aggregated with two clumps of ES cells , one carrying the CK6/ECFP transgene ( ECFP + ) and the other carrying the YC5/EYFP transgene ( EYFP + ) .
+# ::alignments 27-28|0.1.1.1 26-27|0.1.1.1.0.0.0+0.1.1.1.0.0+0.1.1.1.0 24-25|0.1.1 23-24|0.1.1.2 21-22|0.1 18-19|0.1.0.0.0.0.0.0+0.1.0.0.0.0.0+0.1.0.0.0.0 16-17|0.0 15-16|0.0.0.0.0+0.0.0.0+0.0.0 13-14|0 10-11|0.1.0 9-10|0.1.0.1 7-8|0.1.0.0 6-7|0.1.1.0 4-5|0.1.0.0.0 2-3|0.1.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:30.713
+(c2 / carry-01 
+      :ARG1 (t3 / transgene 
+            :mod (t4 / thing 
+                  :name (n3 / name 
+                        :op1 "CK6/ECFP"))) 
+      :op2-of (a / and 
+            :op1 (c3 / cell 
+                  :ARG1-of (c4 / clump-01 
+                        :ARG2-of (a2 / aggregate-01 
+                              :ARG0 (o2 / organization 
+                                    :name (n2 / name 
+                                          :op1 "ECFP")) 
+                              :ARG1 (m / morula))) 
+                  :mod (e / e)) 
+            :op3 (c / carry-01 
+                  :ARG0 2 
+                  :ARG1 (t / transgene 
+                        :mod (t2 / thing 
+                              :name (n / name 
+                                    :op1 "YC5/EYFP"))) 
+                  :mod (o / other))))
+
+# ::snt An ECFP + vessel has clonally proliferated and infiltrated the liver lobe ( top ) .
+# ::tok An ECFP + vessel has clonally proliferated and infiltrated the liver lobe ( top ) .
+# ::alignments 13-14|0.2 11-12|0.1.1 10-11|0.1.1.0 8-9|0.1 7-8|0 6-7|0.0 3-4|0.1.0 1-2|0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:30.995
+(a / and 
+      :op1 (p / proliferate-01 
+            :ARG0 (o / organization 
+                  :name (n / name 
+                        :op1 "ECFP"))) 
+      :op2 (i / infiltrate-01 
+            :ARG0 (v / vessel) 
+            :ARG1 (l / lobe 
+                  :mod (l2 / liver))) 
+      :op3 (t / top))
+
+# ::snt Note that unlike in heart and pancreas there appears to be more interspersed blue/cyan vs green/yellow fluorescence present in the liver , possibly reflecting greater cell intermingling during the genesis of this organ .
+# ::tok Note that unlike in heart and pancreas there appears to be more interspersed blue/cyan vs green/yellow fluorescence present in the liver , possibly reflecting greater cell intermingling during the genesis of this organ .
+# ::alignments 32-33|0.1.0.2.3.0 31-32|0.1.0.2.3.0.0 29-30|0.1.0.2.3 26-27|0.1.0.2.1 25-26|0.1.0.2.1.0 24-25|0.1.0.2.1.1 23-24|0.1.0.2 22-23|0.1.0.2.0 20-21|0.1.0.2.2 17-18|0.1.0.2.0.0 16-17|0.0 14-15|0.1.0.0 12-13|0.1.0 11-12|0.1.0.1 8-9|0.1 6-7|0.2.1 5-6|0.2 4-5|0.2.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:32.797
+(n / note-01 
+      :ARG0 (f / fluorescence) 
+      :ARG1 (a / appear-02 
+            :ARG1 (i2 / intersperse-01 
+                  :ARG1 (v / v) 
+                  :degree (m / more) 
+                  :purpose (r / reflect-01 
+                        :ARG1-of (p / possible-01 
+                              :ARG0 (p2 / present)) 
+                        :ARG2 (i / intermingle-01 
+                              :ARG1 (c / cell) 
+                              :mod (g2 / great)) 
+                        :ARG4 (l / liver) 
+                        :time (g / genesi 
+                              :poss (o / organ 
+                                    :mod (t / this)))))) 
+      :ARG2 (a2 / and 
+            :op1 (h / heart) 
+            :op2 (p3 / pancrea)))
+
+# ::snt From these observations we conclude that the blue-shifted ECFP , and the red-shifted EYFP variants of wtGFP are both amenable to use in mice .
+# ::tok From these observations we conclude that the blue-shifted ECFP , and the red-shifted EYFP variants of wtGFP are both amenable to use in mice .
+# ::alignments 23-24|0.1.1.2 21-22|0.1.1 19-20|0.1 18-19|0.1.0 16-17|0.1.1.0.0.0 14-15|0.1.1.0.0 12-13|0.1.1.0.0.1 10-11|0.1.1.0 8-9|0.1.1.1.1.0+0.1.1.1.1+0.1.1.1 7-8|0.1.1.1.0 4-5|0 3-4|0.0 2-3|0.2 1-2|0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:33.702
+(c / conclude-02 
+      :ARG0 (w2 / we) 
+      :ARG1 (a / amenable 
+            :degree (b / both) 
+            :domain (u / use-01 
+                  :ARG0 (a2 / and 
+                        :op1 (v / variant 
+                              :mod (w / wtGFP) 
+                              :mod (r / red-shift))) 
+                  :ARG1 (o / organization 
+                        :mod (b2 / blue-shift) 
+                        :name (n / name 
+                              :op1 "ECFP")) 
+                  :location (m / mouse))) 
+      :source (o2 / observation 
+            :mod (t / this)))
+
+# ::snt Also since we have established lines of viable and fertile mice having widespread FP expression we have demonstrated that ECFP and EYFP represent developmentally neutral reporters .
+# ::tok Also since we have established lines of viable and fertile mice having widespread FP expression we have demonstrated that ECFP and EYFP represent developmentally neutral reporters .
+# ::alignments 25-26|0.4.0.2.0.1.1.0+0.4.0.2.0.1.1 24-25|0.4.0.2.0.1.1.1 23-24|0.4.0.2.0.1.1.2 22-23|0.4.0.2.0.1 21-22|0.4.0.2.0.1.0.1.0.0+0.4.0.2.0.1.0.1.0+0.4.0.2.0.1.0.1 20-21|0.4.0.2.0.1.0 19-20|0.4.0.2.0.1.0.0.0.0+0.4.0.2.0.1.0.0.0+0.4.0.2.0.1.0.0 17-18|0.4.0.2.0 15-16|0.4.0.2.0.0 14-15|0.4.0.2.0.2 13-14|0.4.0.2.0.2.0.0.0+0.4.0.2.0.2.0.0+0.4.0.2.0.2.0 12-13|0.0 10-11|0.3 9-10|0.2 8-9|0 7-8|0.1 5-6|0.4 4-5|0.4.0 2-3|0.4.0.0 1-2|0.4.0.2 0-1|0.4.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:03:41.482
+(a2 / and 
+      :ARG0-of (w2 / wide-02) 
+      :op1 (v / viable) 
+      :op2 (f / fertile) 
+      :op3 (m / mouse) 
+      :quant (l / line 
+            :ARG1-of (e2 / establish-01 
+                  :ARG0 (w3 / we) 
+                  :mod (a3 / also) 
+                  :op1-of (s / since 
+                        :time-of (d2 / demonstrate-01 
+                              :ARG0 (w / we) 
+                              :ARG1 (r2 / represent-01 
+                                    :ARG0 (a / and 
+                                          :op1 (o2 / organization 
+                                                :name (n3 / name 
+                                                      :op1 "ECFP")) 
+                                          :op2 (o / organization 
+                                                :name (n2 / name 
+                                                      :op1 "EYFP"))) 
+                                    :ARG1 (p / person 
+                                          :ARG0-of (r / report-01) 
+                                          :ARG0-of (n / neutral-02) 
+                                          :ARG1-of (d / develop-02))) 
+                              :ARG1-of (e / express-01 
+                                    :ARG0 (o3 / organization 
+                                          :name (n4 / name 
+                                                :op1 "FP"))))))))
+
+# ::snt Since we were unable to obtain ES cells , embryos or mice with widespread expression of a RFP ( DsRed1 ) we conclude that this reporter is not developmentally neutral or that its expression can not be sustained at levels high enough for detection , and as such is not as versatile as other gene-based fluorescent reporters .
+# ::tok Since we were unable to obtain ES cells , embryos or mice with widespread expression of a RFP ( DsRed1 ) we conclude that this reporter is not developmentally neutral or that its expression can not be sustained at levels high enough for detection , and as such is not as versatile as other gene-based fluorescent reporters .
+# ::alignments 56-57|0.0.1+0.0 55-56|0.0.3 54-55|0.0.4 53-54|0.0.2 51-52|0.1.2.2 49-50|0.1.2.2.0 47-48|0.1.2.1.0 45-46|0.1.2 43-44|0.1.2.1 41-42|0.1.1.1 40-41|0.1.1.0 39-40|0.1.1 37-38|0.1 35-36|0.1.0.0 34-35|0.1.0 33-34|0 30-31|0.1.2.0 29-30|0.1.2.0.1 28-29|0.1.2.0.1.2 27-28|0.1.2.0.1.1 25-26|0.1.2.0.1.0 24-25|0.1.2.0.1.0.0 22-23|0.1.2.0.0 21-22|0.1.2.0.0.0 14-15|0.0.0 13-14|0.0.0.0 11-12|0.0.0.1.1.1.1 10-11|0.0.0.1.1.1 9-10|0.0.0.1.1.1.0 7-8|0.0.0.1.1 6-7|0.0.0.1.1.0 5-6|0.0.0.1 1-2|0.0.0.1.0 0-1|0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:00.500
+(e2 / express-01 
+      :ARG0 (p / person 
+            :ARG0-of (e3 / express-01 
+                  :ARG1-of (w2 / wide-02) 
+                  :ARG2-of (o4 / obtain-01 
+                        :ARG0 (w3 / we 
+                              :op1-of (s3 / since)) 
+                        :ARG1 (c2 / cell 
+                              :mod (e5 / e) 
+                              :op1-of (o3 / or 
+                                    :op2 (e4 / embryo) 
+                                    :op3 (m / mouse))))) 
+            :ARG0-of (r / report-01) 
+            :mod (o / other) 
+            :mod (f / fluorescent) 
+            :mod (g / gene-bas)) 
+      :ARG1-of (s2 / sustain-01 
+            :ARG1-of (p2 / possible-01 
+                  :polarity -) 
+            :location (l / level 
+                  :ARG1-of (h / high-02) 
+                  :quant (e / enough)) 
+            :op2-of (a / and 
+                  :op1 (o2 / or 
+                        :condition-of (c / conclude-02 
+                              :ARG0 (w / we)) 
+                        :op1 (n / neutral-02 
+                              :ARG1 (r2 / report-01 
+                                    :mod (t / this)) 
+                              :polarity - 
+                              :time (d2 / develop-02))) 
+                  :op3 (d / detect-01 
+                        :ARG1 (s / such)) 
+                  :op4 (v / versatile 
+                        :polarity -))))
+
+# ::snt ECFP and EYFP can be distinguished on the basis of their unique non-overlapping spectral profiles , and chimeras comprised of ECFP and EYFP tagged compartments demonstrate that the two reporters can be simultaneously non-invasively visualized within the same embryo or adult organ .
+# ::tok ECFP and EYFP can be distinguished on the basis of their unique non-overlapping spectral profiles , and chimeras comprised of ECFP and EYFP tagged compartments demonstrate that the two reporters can be simultaneously non-invasively visualized within the same embryo or adult organ .
+# ::alignments 41-42|0.0.0.0.0.1.1 40-41|0.0.0.0.0.1.1.0 39-40|0.0.0.0.0.1 38-39|0.0.0.0.0.1.0 37-38|0.0.0.0.0.1.0.0 34-35|0.0.0.0.0 32-33|0.0.0.0.0.2 30-31|0.0.0.0 29-30|0.0.0.0.0.0.0+0.0.0.0.0.0 28-29|0.0.0.0.0.0.1 25-26|0.0.0 24-25|0.1.0 23-24|0.1.0.0 21-22|0.1 18-19|0 17-18|0.0 16-17|0.0.0.2 14-15|0.0.0.2.2 13-14|0.0.0.2.2.0 12-13|0.0.0.2.2.2 11-12|0.0.0.2.2.1 5-6|0.0.0.1.0 3-4|0.0.0.2.0 2-3|0.0.0.2.1.0.0+0.0.0.2.1.0+0.0.0.2.1 1-2|0.0.0.1 0-1|0.0.0.1.1.0.0+0.0.0.1.1.0+0.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:05.124
+(c2 / comprise-01 
+      :ARG1 (c3 / chimera 
+            :ARG0-of (d / demonstrate-01 
+                  :ARG1 (p / possible-01 
+                        :ARG1 (v / visualize-01 
+                              :ARG1 (p2 / person 
+                                    :ARG0-of (r / report-01) 
+                                    :quant 2) 
+                              :ARG2 (o2 / or 
+                                    :op1 (e / embryo 
+                                          :ARG1-of (s / same-01)) 
+                                    :op2 (o / organ 
+                                          :mod (a / adult))) 
+                              :time (s2 / simultaneous))) 
+                  :op2-of (a4 / and 
+                        :ARG1-of (d2 / distinguish-01) 
+                        :op1 (o4 / organization 
+                              :name (n3 / name 
+                                    :op1 "ECFP"))) 
+                  :op3-of (a3 / and 
+                        :ARG1-of (p4 / possible-01) 
+                        :op1 (o3 / organization 
+                              :name (n2 / name 
+                                    :op1 "EYFP")) 
+                        :op2 (p3 / profile-01 
+                              :mod (s3 / spectral) 
+                              :mod (u / unique) 
+                              :mod (n / non-overlapp))))) 
+      :ARG2 (a2 / and 
+            :op1 (c / compartment 
+                  :ARG1-of (t / tag-01))))
+
+# ::snt Therefore it should be possible to use flow cytometry to isolate cells expressing either or both of the reporters from embryos or adult organs [ 14 ] .
+# ::tok Therefore it should be possible to use flow cytometry to isolate cells expressing either or both of the reporters from embryos or adult organs [ 14 ] .
+# ::alignments 25-26|0.1.0.0.1.0 23-24|0.2.2 22-23|0.2.1 21-22|0.2 20-21|0.2.0 18-19|0.0.0+0.0 15-16|0.1.0.0.1.1.0 14-15|0.1.0.0.2 13-14|0.1.0.0.2.0 12-13|0 11-12|0.1 10-11|0.1.0 8-9|0.1.0.0.0 7-8|0.1.0.0.0.0 6-7|0.1.0.0 4-5|0.1.0.0.1 2-3|0.1.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:10.779
+(e3 / express-01 
+      :ARG0 (p / person 
+            :ARG0-of (r / report-01)) 
+      :ARG1 (c / cell 
+            :ARG1-of (i / isolate-01 
+                  :purpose-of (u / use-01 
+                        :ARG1 (c2 / cytometry 
+                              :ARG1-of (f / flow-01)) 
+                        :ARG1-of (p2 / possible-01 
+                              :ARG0 14 
+                              :ARG1-of (r2 / recommend-01 
+                                    :ARG0 (b / both))) 
+                        :ARG2 (o3 / or 
+                              :op1 (e2 / either))))) 
+      :ARG2 (o2 / or 
+            :op1 (e / embryo) 
+            :op2 (a / adult) 
+            :op3 (o / organ)))
+
+# ::snt These two reporters can also be used to create pairs of donors and acceptors for in vivo fluorescence energy transfer ( FRET ) [ 15 ] .
+# ::tok These two reporters can also be used to create pairs of donors and acceptors for in vivo fluorescence energy transfer ( FRET ) [ 15 ] .
+# ::alignments 24-25|0.0.0 21-22|0.0.2.1 19-20|0.0.2.0.0.2 18-19|0.0.2.0.0.2.0 17-18|0.0.2.0.0.2.0.0 13-14|0.0.2.0.0.1 12-13|0.0.2.0.0 11-12|0.0.2.0.0.0 9-10|0.0.2.0 8-9|0.0.2 6-7|0.0 4-5|0.0.3 3-4|0 2-3|0.0.1.0+0.0.1 1-2|0.0.1.2 0-1|0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:13.030
+(p2 / possible-01 
+      :ARG1 (u / use-01 
+            :ARG0 15 
+            :ARG1 (p3 / person 
+                  :ARG0-of (r / report-01) 
+                  :mod (t2 / this) 
+                  :quant 2) 
+            :ARG2 (c / create-01 
+                  :ARG1 (p / pair-01 
+                        :ARG1 (a2 / and 
+                              :op1 (d / donor) 
+                              :op2 (a / acceptor) 
+                              :op3 (t / transfer-01 
+                                    :ARG1 (e / energy 
+                                          :mod (f2 / fluorescence))))) 
+                  :ARG1-of (f / fret-01)) 
+            :mod (a3 / also)))
+
+# ::snt Since the emission profiles of ECFP and EYFP are the least overlapping of all the usable GFP variants , these ECFP and EYFP currently represent the best combination for co-visualization and for use in multi-spectral double-tagged transgenic , chimeric and/or in vivo FRET experiments ( reviewed in [ 16 ] ) .
+# ::tok Since the emission profiles of ECFP and EYFP are the least overlapping of all the usable GFP variants , these ECFP and EYFP currently represent the best combination for co-visualization and for use in multi-spectral double-tagged transgenic , chimeric and/or in vivo FRET experiments ( reviewed in [ 16 ] ) .
+# ::alignments 48-49|0.2.1.0.0 45-46|0.2.1.0.1.0 43-44|0.2.1.0.1 42-43|0.2.1.0 38-39|0.2.1.0.1.0.0 35-36|0.0.1 32-33|0.2.1 30-31|0.2 27-28|0.2.0.0.0 26-27|0.2.0.0.0.0.0+0.2.0.0.0.0 24-25|0.2.0 23-24|0.2.0.1 21-22|0.2.0.0 19-20|0.2.0.0.1 17-18|0.0.0 16-17|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 15-16|0.0.0.0 13-14|0.0.0.2 11-12|0.0 6-7|0 5-6|0.1.0.0.0+0.1.0.0+0.1.0 3-4|0.1 2-3|0.1.1 0-1|0.3 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:17.246
+(a4 / and 
+      :ARG0-of (o2 / overlap-01 
+            :ARG1 (v / variant 
+                  :mod (u2 / usable) 
+                  :mod (o / organization 
+                        :name (n / name 
+                              :op1 "GFP")) 
+                  :quant (a3 / all)) 
+            :ARG2 (d / double-tagg)) 
+      :ARG1-of (p / profile-01 
+            :ARG0 (o3 / organization 
+                  :name (n2 / name 
+                        :op1 "ECFP")) 
+            :mod (e2 / emission)) 
+      :op1 (a / and 
+            :ARG1-of (r2 / represent-01 
+                  :ARG0 (a2 / and 
+                        :ARG1-of (c2 / combine-01 
+                              :mod (g / good 
+                                    :degree (m / most))) 
+                        :mod (t / this)) 
+                  :time (c3 / current)) 
+            :op1 (u / use-01 
+                  :ARG1 (f / fret-01 
+                        :ARG1 16 
+                        :ARG1-of (e / experiment-01 
+                              :ARG1-of (r / review-01 
+                                    :ARG0 (c / chimeric)))))) 
+      :time (s / since))
+
+# ::snt These experiments have demonstrated the feasibility of monitoring multiple FP reporters non-invasively within a single animal , and have shown the developmental neutrality of the FP reporters employed .
+# ::tok These experiments have demonstrated the feasibility of monitoring multiple FP reporters non-invasively within a single animal , and have shown the developmental neutrality of the FP reporters employed .
+# ::alignments 27-28|0.1.0.2.1 26-27|0.1.0.2.0+0.1.0.2 22-23|0.1.0 21-22|0.1.0.0 19-20|0.1 17-18|0 15-16|0.1.0.1.0 14-15|0.1.0.1 10-11|0.0.1.0.0.0+0.0.1.0.0 9-10|0.0.1.0.0.0.0.0.0+0.0.1.0.0.0.0.0+0.0.1.0.0.0.0 8-9|0.0.1.0.0.0.0.1 7-8|0.0.1.0 5-6|0.0.1 3-4|0.0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:21.642
+(a / and 
+      :op1 (d2 / demonstrate-01 
+            :ARG0 (e2 / experiment-01 
+                  :mod (t / this)) 
+            :ARG1 (f / feasibility 
+                  :mod (m2 / monitor-01 
+                        :ARG1 (p2 / person 
+                              :ARG0-of (r2 / report-01 
+                                    :ARG1 (o / organization 
+                                          :name (n2 / name 
+                                                :op1 "FP") 
+                                          :quant (m / multiple))))))) 
+      :op2 (s / show-01 
+            :ARG1 (n / neutrality 
+                  :mod (d / developmental) 
+                  :mod (s2 / single-02 
+                        :ARG1 (a2 / animal)) 
+                  :poss (p / person 
+                        :ARG0-of (r / report-01) 
+                        :ARG1-of (e / employ-01)))))
+
+# ::snt This should pave the way for novel strategies designed to incorporate the use of compound transgenics or tissue recombination or chimeric analyses where several compartments are to be tagged .
+# ::tok This should pave the way for novel strategies designed to incorporate the use of compound transgenics or tissue recombination or chimeric analyses where several compartments are to be tagged .
+# ::alignments 28-29|0.0.2.1.0.1.0.0 24-25|0.0.2.1.0.1.0.0.0 23-24|0.0.2.1.0.1.0.0.0.0 21-22|0.0.2 20-21|0.0.2.0 19-20|0.0.2.1 18-19|0.0.2.1.0 17-18|0.0.2.1.0.0 16-17|0.0.2.1.0.1 15-16|0.0.2.1.0.1.1 14-15|0.0.2.1.0.1.1.0 12-13|0.0.2.1.0.1.0 10-11|0.0.2.1.0.1.0.1 8-9|0.0.2.1.0.1.0.1.0 7-8|0.0.2.1.0.1.0.1.0.0 6-7|0.0.2.1.0.1.0.1.0.0.0 4-5|0.0.1 2-3|0.0 1-2|0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:23.928
+(r2 / recommend-01 
+      :ARG1 (p / pave-02 
+            :ARG0 (t4 / this) 
+            :ARG1 (w / way) 
+            :ARG2 (a / analysis 
+                  :mod (c2 / chimeric) 
+                  :op2-of (o / or 
+                        :op1 (r / recombination 
+                              :mod (t2 / tissue) 
+                              :op2-of (o2 / or 
+                                    :ARG1-of (u / use-01 
+                                          :ARG1-of (t / tag-01 
+                                                :ARG0 (c / compartment 
+                                                      :quant (s / several))) 
+                                          :ARG1-of (i / incorporate-01 
+                                                :ARG3-of (d / design-01 
+                                                      :ARG1 (s2 / strategy 
+                                                            :mod (n / novel))))) 
+                                    :op1 (t3 / transgenic 
+                                          :ARG1-of (c3 / compound-01))))))))
+
+# ::snt This technology should provide new possibilities in manipulating the mouse genome , and non-invasively studying the consequences .
+# ::tok This technology should provide new possibilities in manipulating the mouse genome , and non-invasively studying the consequences .
+# ::alignments 16-17|0.0.2.0.1 14-15|0.0.2.0 12-13|0.0.2 10-11|0.0.1.0 9-10|0.0.1.0.0 7-8|0.0.1 5-6|0.0.0.0+0.0.0 4-5|0.0.0.1 3-4|0.0 2-3|0 1-2|0.0.2.0.0 0-1|0.0.2.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:25.510
+(r / recommend-01 
+      :ARG1 (p2 / provide-01 
+            :ARG1 (t / thing 
+                  :ARG1-of (p / possible-01) 
+                  :mod (n / new)) 
+            :ARG2 (m2 / manipulate-02 
+                  :ARG1 (g / genome 
+                        :mod (m / mouse))) 
+            :op1-of (a / and 
+                  :op2 (s / study-01 
+                        :ARG0 (t2 / technology 
+                              :mod (t3 / this)) 
+                        :ARG1 (c / consequence)))))
+
+# ::snt cDNAs encoding ECFP , EYFP and DsRed were amplified from plasmids pECFP , pEYFP and pDsRed1-N1 ( Clontech , Inc. ) by PCR using HiFi Taq Polymerase ( Invitrogen ) .
+# ::tok cDNAs encoding ECFP , EYFP and DsRed were amplified from plasmids pECFP , pEYFP and pDsRed1-N1 ( Clontech , Inc. ) by PCR using HiFi Taq Polymerase ( Invitrogen ) .
+# ::alignments 25-27|0.3.0.0.1+0.3.0.0.0+0.3.0.0+0.3.0 23-24|0.3 14-15|0.0 13-14|0.0.0 11-12|0.2 10-11|0.2.0 8-9|0 6-7|0.1.0.1.1.0.0+0.1.0.1.1.0+0.1.0.1.1 5-6|0.1.0.1 4-5|0.1.0.1.0.0.0+0.1.0.1.0.0+0.1.0.1.0 2-3|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 1-2|0.1.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:28.556
+(a2 / amplify-01 
+      :ARG0 (a / and 
+            :op1 (p2 / pEYFP)) 
+      :ARG1 (c / cdna 
+            :ARG0-of (e / encode-01 
+                  :ARG1 (o2 / organization 
+                        :name (n4 / name 
+                              :op1 "ECFP")) 
+                  :ARG2 (a3 / and 
+                        :op1 (o / organization 
+                              :name (n3 / name 
+                                    :op1 "EYFP")) 
+                        :op2 (t3 / thing 
+                              :name (n2 / name 
+                                    :op1 "DsRed"))))) 
+      :ARG2 (p3 / pECFP 
+            :mod (p4 / plasmid)) 
+      :manner (u / use-01 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 (t2 / Taq) 
+                        :op2 (p / Polymerase)))))
+
+# ::snt For ECFP and EYFP primers used were GFP-L ( 5 ' - TTG AAT TCG CCA CCA TGG TGA GC ) and GFP-R ( 5 ' - TTG AAT TCT TAC TTG TAC AGC TCG TCC ) , for dsRed primers were red-L ( 5 ' - TTG AAT TCG CCA CCA TGG TGC GCT C ) and red-R ( 5 ' - TTG AAT TCT TAC GCT ACA GCT ACA GGA ACA GGT G ) .
+# ::tok For ECFP and EYFP primers used were GFP-L ( 5 ' - TTG AAT TCG CCA CCA TGG TGA GC ) and GFP-R ( 5 ' - TTG AAT TCT TAC TTG TAC AGC TCG TCC ) , for dsRed primers were red-L ( 5 ' - TTG AAT TCG CCA CCA TGG TGC GCT C ) and red-R ( 5 ' - TTG AAT TCT TAC GCT ACA GCT ACA GGA ACA GGT G ) .
+# ::alignments 74-75|0.3.1.3.1.2.4+0.3.1.3.1.2.3.0+0.3.1.3.1.2.3+0.3.1.3.1.2 72-74|0.3.1.3.1.2.0.0.1+0.3.1.3.1.2.0.0.0+0.3.1.3.1.2.0.0+0.3.1.3.1.2.0 70-72|0.3.1.3.1.2.1.0.1+0.3.1.3.1.2.1.0.0+0.3.1.3.1.2.1.0+0.3.1.3.1.2.1 68-70|0.3.1.3.1.2.2.0.1+0.3.1.3.1.2.2.0.0+0.3.1.3.1.2.2.0+0.3.1.3.1.2.2 65-68|0.3.1.1.1.1.0.0.2+0.3.1.1.1.1.0.0.1+0.3.1.1.1.1.0.0.0+0.3.1.1.1.1.0.0+0.3.1.1.1.1.0 63-65|0.3.1.1.1.1.1.1+0.3.1.1.1.1.1.0+0.3.1.1.1.1.1+0.3.1.1.1.1 60-61|0.3.1.1.1.1.2 57-58|0.3.1.3.1 55-56|0.4.0 53-55|0.4.1.1+0.4.1.0+0.4.1+0.4 48-50|0.3.1.4.0.1+0.3.1.4.0.0+0.3.1.4.0+0.3.1.4 44-45|0.3.1.2.3 40-41|0.3.1.2.2.0 39-40|0.3.1.2.2 34-36|0.0.0.1+0.0.0.0+0.0.0+0.0 31-34|0.0.0.0.0.1.2+0.0.0.0.0.1.1+0.0.0.0.0.1.0+0.0.0.0.0.1+0.0.0.0.0 29-31|0.3.1.3.1.1.0.1+0.3.1.3.1.1.0.0+0.3.1.3.1.1.0+0.3.1.3.1.1 27-29|0.3.1.1.1.0.1+0.3.1.1.1.0.0+0.3.1.1.1.0+0.3.1.1.1 24-25|0.3.1.2.1 22-23|0.3.0.0+0.3.0+0.3 21-22|0 18-20|0.2.0.1+0.2.0.0+0.2.0+0.2 16-18|0.2.0.0.0.0.1+0.2.0.0.0.0.0+0.2.0.0.0.0+0.2.0.0.0 14-16|0.1.0.1+0.1.0.0+0.1.0+0.1 12-14|0.3.1.3.1.0.0.1+0.3.1.3.1.0.0.0+0.3.1.3.1.0.0+0.3.1.3.1.0 9-10|0.0.0.0.0.0 7-8|0.3.1.3.0.0+0.3.1.3.0+0.3.1.3 5-6|0.3.1.2 4-5|0.3.1.2.0 3-4|0.3.1.1.0.0+0.3.1.1.0+0.3.1.1 2-3|0.3.1 1-2|0.3.1.0.0.0+0.3.1.0.0+0.3.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:46.268
+(a7 / and 
+      :domain (t11 / thing 
+            :name (n9 / name 
+                  :op1 (t12 / TCG 
+                        :mod (t14 / thing 
+                              :mod 5 
+                              :name (n10 / name 
+                                    :op1 (t15 / TTG) 
+                                    :op2 (t16 / TAC) 
+                                    :op3 (a6 / AGC)))) 
+                  :op2 (t13 / TCC))) 
+      :op1 (t24 / thing 
+            :name (n16 / name 
+                  :op1 (t25 / TCG) 
+                  :op2 (c3 / CCA))) 
+      :op2 (t20 / thing 
+            :name (n14 / name 
+                  :op1 (t21 / TGA 
+                        :mod (t22 / thing 
+                              :name (n15 / name 
+                                    :op1 (c2 / CCA) 
+                                    :op2 (t23 / TGG)))) 
+                  :op2 (g6 / GC))) 
+      :op3 (p2 / person 
+            :name (n13 / name 
+                  :op1 "GFP-R") 
+            :op5-of (a8 / and 
+                  :op1 (o6 / organization 
+                        :name (n20 / name 
+                              :op1 "ECFP")) 
+                  :op2 (o5 / organization 
+                        :name (n19 / name 
+                              :op1 "EYFP") 
+                        :part-of (o3 / organization 
+                              :name (n12 / name 
+                                    :op1 "TTG" 
+                                    :op2 "AAT") 
+                              :part (o2 / organization 
+                                    :mod-of (t4 / thing 
+                                          :name (n5 / name 
+                                                :op1 (t5 / TCT) 
+                                                :op2 (t6 / TAC) 
+                                                :op3 (g4 / GCT))) 
+                                    :name (n6 / name 
+                                          :op1 "TTG" 
+                                          :op2 "AAT") 
+                                    :poss 5))) 
+                  :op3 (u / use-01 
+                        :ARG1 (p4 / primer) 
+                        :ARG2 5 
+                        :op1-of (d / dsr 
+                              :mod-of (p / primer)) 
+                        :op1-of 5) 
+                  :op4 (p3 / person 
+                        :name (n18 / name 
+                              :op1 "GFP-L") 
+                        :op1-of (a4 / and 
+                              :op2 (o4 / organization 
+                                    :name (n17 / name 
+                                          :op1 "TTG" 
+                                          :op2 "AAT")) 
+                              :op3 (t17 / thing 
+                                    :name (n11 / name 
+                                          :op1 (t18 / TCT) 
+                                          :op2 (t19 / TAC))) 
+                              :op4 (o / organization 
+                                    :mod (t / thing 
+                                          :name (n2 / name 
+                                                :op1 (a / ACA) 
+                                                :op2 (g / GGT))) 
+                                    :mod (t2 / thing 
+                                          :name (n3 / name 
+                                                :op1 (a2 / ACA) 
+                                                :op2 (g2 / GGA))) 
+                                    :mod (t3 / thing 
+                                          :name (n4 / name 
+                                                :op1 (a3 / ACA) 
+                                                :op2 (g3 / GCT))) 
+                                    :name (n / name 
+                                          :op1 "G-8") 
+                                    :wiki "G8"))) 
+                  :op6 (t9 / thing 
+                        :name (n8 / name 
+                              :op1 (a5 / AAT) 
+                              :op2 (t10 / TCG))))) 
+      :op4 (t7 / thing 
+            :mod (c / C) 
+            :name (n7 / name 
+                  :op1 (t8 / TGC) 
+                  :op2 (g5 / GCT))))
+
+# ::snt All 5 ' primers contain a Kozak consensus translation initiation site upstream of the ATG for increased translation efficiency in eukaryotic cells [ 17 ] .
+# ::tok All 5 ' primers contain a Kozak consensus translation initiation site upstream of the ATG for increased translation efficiency in eukaryotic cells [ 17 ] .
+# ::alignments 23-24|0.3.2 21-22|0.3.1.0 20-21|0.3.1.0.0 18-19|0.3.1 17-18|0.3.1.1.0+0.3.1.1 16-17|0.3 11-12|0.3.0 10-11|0.1 9-10|0.1.0 8-9|0.1.1.0+0.1.1 7-8|0.1.2 6-7|0.2.0.0+0.2.0+0.2 4-5|0 3-4|0.0 1-2|0.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:49.495
+(c3 / contain-01 
+      :ARG0 (p2 / primer 
+            :poss 5 
+            :quant (a / all)) 
+      :ARG1 (s / site 
+            :mod (i2 / initiation) 
+            :mod (t3 / thing 
+                  :ARG2-of (t4 / translate-01)) 
+            :mod (c2 / consensus)) 
+      :ARG2 (p / person 
+            :name (n / name 
+                  :op1 "Kozak")) 
+      :manner (i / increase-01 
+            :ARG0 (u / upstream) 
+            :ARG1 (e2 / efficient-01 
+                  :ARG1 (c / cell 
+                        :mod (e / eukaryotic)) 
+                  :ARG2 (t / thing 
+                        :ARG2-of (t2 / translate-01))) 
+            :ARG2 17))
+
+# ::snt To construct vectors driving ubiquitous transgene expression in ES cells and mice , the PCR amplified cDNAs were digested with EcoRI and inserted into the EcoRI sites of pCAGGS [ 18 ] to generate pCX-ECFP , pCX-EYFP and pCX-DsRed .
+# ::tok To construct vectors driving ubiquitous transgene expression in ES cells and mice , the PCR amplified cDNAs were digested with EcoRI and inserted into the EcoRI sites of pCAGGS [ 18 ] to generate pCX-ECFP , pCX-EYFP and pCX-DsRed .
+# ::alignments 38-39|0.1 37-38|0 33-34|0.0 30-31|0.0.0.0.0.0 28-29|0.0.0.1 26-27|0.0.0.2 22-23|0.0.0 21-22|0.0.0.3 20-21|0.0.0.3.1.0.0.0+0.0.0.3.1.0.0+0.0.0.3.1.0 18-19|0.0.0.3.1 16-17|0.0.0.0 15-16|0.0.0.0.0 11-12|0.0.0.3.0.0.1.3.0 10-11|0.0.0.3.0.0.1.3 9-10|0.0.0.3.0.0.1.1 8-9|0.0.0.3.0.0.1.1.0 6-7|0.0.0.3.0.0.1 5-6|0.0.0.3.0.0.1.0 4-5|0.0.0.3.0.0.1.2 3-4|0.0.0.3.0.0 2-3|0.0.0.3.0.0.0 1-2|0.0.0.3.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:56.669
+(a / and 
+      :ARG1-of (g / generate-01 
+            :ARG0 (i / insert-01 
+                  :ARG1 (c / cdna 
+                        :mod (a3 / amplify-01 
+                              :ARG1 18)) 
+                  :ARG2 (p2 / pcagg) 
+                  :location (s / site) 
+                  :op2-of (a2 / and 
+                        :ARG1-of (c3 / construct-01 
+                              :ARG2 (d2 / drive-01 
+                                    :ARG0 (v / vector) 
+                                    :ARG1 (e2 / express-01 
+                                          :ARG0 (t2 / transgene) 
+                                          :ARG1 (c2 / cell 
+                                                :mod (e / e)) 
+                                          :mod (u / ubiquitou) 
+                                          :op1-of (a4 / and 
+                                                :op2 (m / mouse))))) 
+                        :op1 (d / digest-01 
+                              :ARG2 (t / thing 
+                                    :name (n / name 
+                                          :op1 "EcoRI")))))) 
+      :op1 (p / pcx-dsr))
+
+# ::snt pCAGGS contains the chicken beta-actin promoter and first intron coupled to the CMV immediate early enhancer , and rabbit beta-globin polyadenylation signal .
+# ::tok pCAGGS contains the chicken beta-actin promoter and first intron coupled to the CMV immediate early enhancer , and rabbit beta-globin polyadenylation signal .
+# ::alignments 21-22|0.1.1.0 20-21|0.1.1.0.0 18-19|0.1.1 17-18|0.2.1 15-16|0.1.0.1 14-15|0.1.0.1.2 13-14|0.1.0.1.1 12-13|0.1.0.1.0 9-10|0.1.0 8-9|0.1.0.0 6-7|0.1 5-6|0.2 3-4|0.2.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:04:58.311
+(c4 / contain-01 
+      :ARG0 (p3 / pcagg) 
+      :ARG1 (a2 / and 
+            :ARG1-of (c2 / couple-01 
+                  :ARG0 (i2 / intron) 
+                  :ARG2 (e / enhance-01 
+                        :ARG1 (c / cmv) 
+                        :time (i / immediate) 
+                        :time (e2 / early))) 
+            :ARG1-of (r / rabbit-01 
+                  :mod-of (s / signal 
+                        :mod (p / polyadenylation)))) 
+      :ARG2 (p2 / promote-01 
+            :ARG1 (c3 / chicken) 
+            :op1-of (a / and)))
+
+# ::snt This promoter/enhancer combination has previously been shown to drive strong and widespread transgene expression in ES cells , embryos and adult mice [ 18,19 ] .
+# ::tok This promoter/enhancer combination has previously been shown to drive strong and widespread transgene expression in ES cells , embryos and adult mice [ 18,19 ] .
+# ::alignments 21-22|0.1.0.0.0.1.1 20-21|0.1.0.0.0.1.1.0 19-20|0.1.0.0.0.1 18-19|0.1.0.0.0.1.0 16-17|0.1.0.0.0.0 15-16|0.1.0.0.0.0.0 13-14|0.1.0.0.0 12-13|0.1.0.1.0 11-12|0.1.0.1 10-11|0.1.0 9-10|0.1.0.0 8-9|0.1 6-7|0 4-5|0.2 2-3|0.0 1-2|0.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:01.186
+(s2 / show-01 
+      :ARG1 (c2 / combine-01 
+            :ARG1 (p2 / promoter/enhanc) 
+            :mod (t2 / this)) 
+      :ARG2 (d / drive-01 
+            :ARG1 (a3 / and 
+                  :op1 (s / strong-02 
+                        :ARG1 (e3 / express-01 
+                              :ARG1 (c / cell 
+                                    :mod (e2 / e)) 
+                              :location (a2 / and 
+                                    :op1 (e / embryo) 
+                                    :op2 (m / mouse 
+                                          :mod (a / adult))))) 
+                  :op2 (w / wide-02 
+                        :ARG1 (t / transgene)))) 
+      :time (p / previous))
+
+# ::snt R1 ES cells [ 20 ] were maintained under standard culture conditions in the presence of LIF , as described previously [ 21 ] .
+# ::tok R1 ES cells [ 20 ] were maintained under standard culture conditions in the presence of LIF , as described previously [ 21 ] .
+# ::alignments 22-23|0.1.0.0 20-21|0.3.1 19-20|0.3 16-17|0.2.0.0.0+0.2.0.0+0.2.0 14-15|0.2 11-12|0.1 10-11|0.1.1 9-10|0.1.0 7-8|0 4-5|0.3.0 2-3|0.0 0-2|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:02.878
+(m / maintain-01 
+      :ARG0 (c4 / cell 
+            :mod (t / thing 
+                  :name (n2 / name 
+                        :op1 (r / R1) 
+                        :op2 (e / ES)))) 
+      :ARG1 (c2 / condition 
+            :ARG1-of (s / standard-02 
+                  :ARG0 21) 
+            :mod (c3 / culture)) 
+      :location (p2 / presence 
+            :poss (c / country 
+                  :name (n / name 
+                        :op1 "LIF"))) 
+      :purpose (d / describe-01 
+            :ARG1 20 
+            :manner (p / previous)))
+
+# ::snt 20 g of SalI linearized pCX-ECFP , pCX-EYFP or pCX-DsRed1 was co-electroporated into 2  107 cells with 5 -- 10 g of circular pPGKPuro [ 22 ] .
+# ::tok 20 g of SalI linearized pCX-ECFP , pCX-EYFP or pCX-DsRed1 was co-electroporated into 2  107 cells with 5 -- 10 g of circular pPGKPuro [ 22 ] .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:02.883
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt This provided transient drug resistance which could be used as a selection for obtaining individual colonies .
+# ::tok This provided transient drug resistance which could be used as a selection for obtaining individual colonies .
+# ::alignments 15-16|0.1.1.1.0.0 14-15|0.1.1.1.0.0.0 13-14|0.1.1.1.0 11-12|0.1.1.1 8-9|0.1.1 6-7|0.1.1.0 4-5|0.1 3-4|0.1.0 2-3|0.1.1.2 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:03.265
+(p2 / provide-01 
+      :ARG0 (t2 / this) 
+      :ARG1 (r / resist-01 
+            :ARG1 (d / drug) 
+            :ARG1-of (u / use-01 
+                  :ARG1-of (p / possible-01) 
+                  :ARG2 (s / select-01 
+                        :ARG1 (o / obtain-01 
+                              :ARG1 (c / colony 
+                                    :mod (i / individual)))) 
+                  :mod (t / transient))))
+
+# ::snt Selection was applied 24 hours after electroporation and maintained for 5 days , thereafter cells were propagated in in the absence of selection .
+# ::tok Selection was applied 24 hours after electroporation and maintained for 5 days , thereafter cells were propagated in in the absence of selection .
+# ::alignments 22-23|0.1.0 20-21|0.1.0.0 16-17|0.1.0.0.0 14-15|0.1.0.0.0.0 13-14|0.1.0.0.0.0.0 11-12|0.1.1.1+0.1.1 10-11|0.1.1.0 8-9|0.1 7-8|0 6-7|0.0.1.0 5-6|0.0.1 4-5|0.0.1.1.1+0.0.1.1 3-4|0.0.1.1.0 2-3|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:05.098
+(a2 / and 
+      :condition-of (a4 / apply-01 
+            :ARG1 (s2 / selection) 
+            :time (a3 / after 
+                  :op1 (e / electroporation) 
+                  :quant (t3 / temporal-quantity 
+                        :quant 24 
+                        :unit (h / hour)))) 
+      :op1 (m / maintain-01 
+            :ARG1 (s / select-01 
+                  :ARG1-of (a / absent-01 
+                        :purpose-of (p / propagate-01 
+                              :ARG1 (c / cell 
+                                    :mod (t / thereaft))))) 
+            :duration (t2 / temporal-quantity 
+                  :quant 5 
+                  :unit (d / day))))
+
+# ::snt Fluorescent colonies were picked into 96-well plates , expanded and archived as described previously ( [ 2 ] .
+# ::tok Fluorescent colonies were picked into 96-well plates , expanded and archived as described previously ( [ 2 ] .
+# ::alignments 16-17|0.2.0.0 13-14|0.2.1.0.0 12-13|0.2.1.0 10-11|0.2.1 9-10|0.2 8-9|0.2.0 6-7|0.1 3-4|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:06.071
+(p3 / pick-up-04 
+      :ARG1 (c / colony 
+            :mod (f / fluorescent)) 
+      :ARG2 (p2 / plate) 
+      :op1-of (a2 / and 
+            :op2 (e / expand-01 
+                  :ARG1 2) 
+            :op3 (a / archive-01 
+                  :ARG1 (d / describe-01 
+                        :time (p / previous)))))
+
+# ::snt Clones were screened for strong , stable , and homogenous transgene expression during culture in the absence of drug selection .
+# ::tok Clones were screened for strong , stable , and homogenous transgene expression during culture in the absence of drug selection .
+# ::alignments 19-20|0.1.3.0 18-19|0.1.3.0.0 16-17|0.1.3.0.1 13-14|0.1.3.0.1.0 11-12|0.1.3 10-11|0.1.2 9-10|0.1.1 8-9|0.1 6-7|0.1.3.1 4-5|0.1.0 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:06.465
+(s4 / screen-01 
+      :ARG1 (c2 / clone-01) 
+      :op1-of (a2 / and 
+            :op2 (s3 / strong-02) 
+            :op3 (h / homogenou) 
+            :op4 (t / transgene) 
+            :op5 (e / express-01 
+                  :ARG1 (s / select-01 
+                        :ARG1 (d / drug) 
+                        :ARG1-of (a / absent-01 
+                              :location-of (c / culture))) 
+                  :ARG1-of (s2 / stable-03))))
+
+# ::snt Chimera production and germline transmission .
+# ::tok Chimera production and germline transmission .
+# ::alignments 4-5|0.1 3-4|0.1.0 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:06.548
+(a / and 
+      :op1 (p / produce-01 
+            :ARG1 (c / chimera)) 
+      :op2 (t / transmission 
+            :mod (g / germline)))
+
+# ::snt ES cell lines exhibiting robust transgene expression in vitro were assessed in vivo for the spatiotemporal extent of transgene expression and their developmental potential in chimeras produced by aggregation with wild type tetraploid ICR embryos so as to produce completely ES cell-derived embryos , as described previously [ 20,23 ] .
+# ::tok ES cell lines exhibiting robust transgene expression in vitro were assessed in vivo for the spatiotemporal extent of transgene expression and their developmental potential in chimeras produced by aggregation with wild type tetraploid ICR embryos so as to produce completely ES cell-derived embryos , as described previously [ 20,23 ] .
+# ::alignments 46-47|0.2.0.0 45-46|0.2.0 42-43|0.0.0.0.0.1.0 41-42|0.0.0.0.0.1.0.0 39-40|0.0.0.0.0.1.1 38-39|0.0.0.0.0.1 34-35|0.3 31-32|0.2.1.0.1 30-31|0.2.1.0.1.0 28-29|0.2.1.0.0 26-27|0.2.1.0 25-26|0.2.1 23-24|0.2 22-23|0.2.2 20-21|0 19-20|0.1 18-19|0.1.1 16-17|0.0.2 15-16|0.0.2.0 12-13|0.0.1 10-11|0.0 6-7|0.0.0.0.0 5-6|0.0.0.0.0.0 4-5|0.1.0 3-4|0.0.0.0 2-3|0.0.0 1-2|0.0.0.1 0-1|0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:13.162
+(a2 / and 
+      :op1 (a3 / assess-01 
+            :ARG1 (l / line 
+                  :ARG0-of (e6 / exhibit-01 
+                        :ARG1 (e5 / express-01 
+                              :ARG0 (t3 / transgene) 
+                              :ARG1 (p2 / produce-01 
+                                    :ARG1 (e / embryo 
+                                          :mod (c / cell-deriv)) 
+                                    :ARG1-of (c2 / complete-02)))) 
+                  :mod (c4 / cell 
+                        :mod (e7 / e))) 
+            :location (v / vivo) 
+            :prep-in (e4 / extent 
+                  :mod (s / spatiotemporal))) 
+      :op2 (e3 / express-01 
+            :ARG1 (r / robust) 
+            :mod (t2 / transgene)) 
+      :op3 (p4 / potential 
+            :ARG0-of (d / describe-01 
+                  :manner (p / previous)) 
+            :location (c3 / chimera 
+                  :ARG1-of (p3 / produce-01 
+                        :ARG0 (a / aggregation) 
+                        :ARG2 (t / type 
+                              :mod (w / wild)))) 
+            :mod (d2 / developmental)) 
+      :op4 (e2 / embryo))
+
+# ::snt A detailed protocol can be found on the world wide web at .
+# ::tok A detailed protocol can be found on the world wide web at .
+# ::alignments 10-11|0.0.1 9-10|0.0.1.0 8-9|0.0.1.1 5-6|0.0 3-4|0 2-3|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:13.294
+(p / possible-01 
+      :ARG1 (f / find-01 
+            :ARG1 (p2 / protocol 
+                  :ARG1-of (d / detail-01)) 
+            :medium (w / web 
+                  :ARG1-of (w2 / wide-02) 
+                  :mod (w3 / world))))
+
+# ::snt Clones giving fluorescent E12 .5 embryos having no readily identifiable malformations were used to generate germline transmitting chimeras by aggregation with diploid wild type ICR embryos as described previously [ 21,23 ] .
+# ::tok Clones giving fluorescent E12 .5 embryos having no readily identifiable malformations were used to generate germline transmitting chimeras by aggregation with diploid wild type ICR embryos as described previously [ 21,23 ] .
+# ::alignments 28-29|0.1.0.0.2.1 27-28|0.1.0.0.2 25-26|0.2 24-25|0.0 23-24|0.1 22-23|0 21-22|0.1.0.0.1.1.1.0 19-20|0.1.0 17-18|0.1.0.0.0 16-17|0.1.0.0 15-16|0.1.0.0.1.0 14-15|0.1.0.0.1 12-13|0.1.0.0.1.1 10-11|0.1.0.0.2.0 9-10|0.1.0.0.1.1.0.0 8-9|0.1.0.0.1.1.0 7-8|0.1.0.0.1.1.1.1 5-6|0.1.0.0.1.1.1.2.0 3-4|0.1.0.0.1.1.1.2.1.1.0+0.1.0.0.1.1.1.2.1.1+0.1.0.0.1.1.1.2.1 2-3|0.1.0.0.1.1.1.2.1.0 1-2|0.1.0.0.1.1.1.2 0-1|0.1.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:20.651
+(w / wild 
+      :mod-of (i / ICR) 
+      :mod-of (t / type 
+            :poss-of (a / aggregation 
+                  :ARG0-of (t2 / transmit-01 
+                        :ARG1 (c / chimera) 
+                        :ARG3-of (g2 / generate-01 
+                              :ARG1 (g / germline) 
+                              :ARG2-of (u / use-01 
+                                    :ARG0-of (r / ready-02 
+                                          :ARG1 (i2 / identifiable)) 
+                                    :ARG1 (c2 / clone-01 
+                                          :ARG0 (d2 / diploid) 
+                                          :ARG1 - 
+                                          :ARG1-of (g3 / give-01 
+                                                :ARG0 (e2 / embryo) 
+                                                :ARG2 (t3 / thing 
+                                                      :mod (f / fluorescent) 
+                                                      :name (n / name 
+                                                            :op1 "E12")))))) 
+                        :condition (d / describe-01 
+                              :ARG0 (m / malformation) 
+                              :ARG1 (p / previous))))) 
+      :mod-of (e / embryo))
+
+# ::snt After germline transmission transgenes were bred to homozygosity .
+# ::tok After germline transmission transgenes were bred to homozygosity .
+# ::alignments 7-8|0.1 5-6|0 3-4|0.0 2-3|0.0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:20.751
+(b / breed-01 
+      :ARG1 (t / transgen 
+            :mod (t2 / transmission)) 
+      :ARG2 (h / homozygosity) 
+      :time (a / after))
+
+# ::snt Transgenes were maintained on both mixedbred ICR and inbred 129/SvJ genetic backgrounds [ 24 ] .
+# ::tok Transgenes were maintained on both mixedbred ICR and inbred 129/SvJ genetic backgrounds [ 24 ] .
+# ::alignments 13-14|0.5 11-12|0.1 10-11|0.1.0 8-9|0.4 7-8|0 5-6|0.2 4-5|0.0 2-3|0.3 0-1|0.3.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:20.982
+(a / and 
+      :mod (b2 / both) 
+      :mod (b / background 
+            :mod (g / gene)) 
+      :mod (m / mixedbr) 
+      :op1 (m2 / maintain-01 
+            :ARG1 (t / transgen)) 
+      :op2 (i / inbred) 
+      :op3 24)
+
+# ::snt Photographs of live samples , freshly dissected in PBS ( [ 24 ] were taken on a Leica MZFLIII stereo dissecting microscope equipped with epifluorescence optics .
+# ::tok Photographs of live samples , freshly dissected in PBS ( [ 24 ] were taken on a Leica MZFLIII stereo dissecting microscope equipped with epifluorescence optics .
+# ::alignments 25-26|0.0.1 22-23|0.0 21-22|0.0.0 20-21|0.0.0.0 19-20|0.0.0.0.0 17-19|0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 14-15|0.0.2 11-12|0.0.2.0.0 8-9|0 6-7|0.0.2.0.1.2 5-6|0.0.2.0.1.2.0 3-4|0.0.2.0.1.1+0.0.2.0.1 2-3|0.0.2.0.1.0 0-1|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:23.483
+(p / pb 
+      :ARG0-of (e / equip-01 
+            :ARG1 (m / microscope 
+                  :ARG0-of (d / dissect-01 
+                        :ARG1 (s / stereo 
+                              :mod (t / thing 
+                                    :name (n / name 
+                                          :op1 (l / Leica) 
+                                          :op2 (m2 / MZFLIII)))))) 
+            :ARG2 (o / optic) 
+            :ARG2-of (t2 / take-01 
+                  :ARG1 (p2 / photograph-01 
+                        :ARG0 24 
+                        :ARG1 (t3 / thing 
+                              :ARG1-of (l2 / live-01) 
+                              :ARG1-of (s2 / sample-01) 
+                              :ARG1-of (d2 / dissect-01 
+                                    :ARG1-of (f / fresh-04)))))))
+
+# ::snt Filter sets used were : excitation 436/20 nm , dichroic mirror 455 nm , barrier 480/40 nm for ECFP , excitation 500/20 nm , dichroic mirror 515 nm , barrier 535/30 nm for EYFP and excitation 540/25 nm , dichroic mirror 565 nm , barrier 605/55 for DsRed .
+# ::tok Filter sets used were : excitation 436/20 nm , dichroic mirror 455 nm , barrier 480/40 nm for ECFP , excitation 500/20 nm , dichroic mirror 515 nm , barrier 535/30 nm for EYFP and excitation 540/25 nm , dichroic mirror 565 nm , barrier 605/55 for DsRed .
+# ::alignments 47-48|0.0.0.0.4.1.0.0+0.0.0.0.4.1.0+0.0.0.0.4.1 44-45|0.0.0.0.2 40-41|0.0.0.0.4.0 35-36|0.0.0.0.6 34-35|0.0.0.0.4 33-34|0.0.0.0.0.1.0.0+0.0.0.0.0.1.0+0.0.0.0.0.1 29-30|0.0.0.0.3 26-27|0.0.0.0.5.0 25-26|0.0.0.0.5 20-21|0.0.2 18-19|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 14-15|0 11-12|0.0.4 10-11|0.0.3 7-8|0.0.1 5-6|0.0.0.0.1 2-3|0.0.0.0 1-2|0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:25.384
+(b3 / barrier 
+      :op1 (f / filter-01 
+            :ARG1 (s / set 
+                  :ARG1-of (u / use-01 
+                        :ARG0 (o2 / organization 
+                              :name (n3 / name 
+                                    :op1 "ECFP") 
+                              :part (o / organization 
+                                    :name (n2 / name 
+                                          :op1 "EYFP"))) 
+                        :ARG2 (e3 / excitation) 
+                        :op1-of (b / barrier) 
+                        :op1-of (b2 / barrier) 
+                        :op1-of (a / and 
+                              :domain-of (m / mirror) 
+                              :op2 (t / thing 
+                                    :name (n / name 
+                                          :op1 "DsRed"))) 
+                        :op1-of (m2 / mirror 
+                              :mod-of 515) 
+                        :op1-of (e / excitation))) 
+            :ARG2 (n4 / nm) 
+            :op1-of (e2 / excitation) 
+            :op1-of (m3 / mirror) 
+            :op1-of 455))
+
+# ::snt Adult mice were anaesthetized with avertin .
+# ::tok Adult mice were anaesthetized with avertin .
+# ::alignments 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:25.429
+(m / mouse 
+      :mod (a / adult))
+
+# ::snt They were then placed on the stage of a stereo dissecting microscope ( Leica MZFLIII ) from which the objective had been removed , such that they were illuminated using the epifluorescence optics ( lamp and excitation filters ) .
+# ::tok They were then placed on the stage of a stereo dissecting microscope ( Leica MZFLIII ) from which the objective had been removed , such that they were illuminated using the epifluorescence optics ( lamp and excitation filters ) .
+# ::alignments 37-38|0.2 36-37|0.2.0 35-36|0 34-35|0.1 32-33|0.0.2.2.0.0.0.0.0.1 29-30|0.0.2.2.0.0.0.0.0 28-29|0.0.2.2.0.0.0.0 26-27|0.0.2.2.0.0.0.0.0.0 24-25|0.0.2.2.0.0.0 22-23|0.0 19-20|0.0.1 13-15|0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 11-12|0.0.2 10-11|0.0.2.0 9-10|0.0.2.1 6-7|0.0.2.2 3-4|0.0.2.2.0 2-3|0.0.2.2.0.1 0-1|0.0.2.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:27.239
+(a / and 
+      :op1 (r / remove-01 
+            :ARG0 (t2 / thing 
+                  :name (n / name 
+                        :op1 (l2 / Leica) 
+                        :op2 (m / MZFLIII))) 
+            :ARG1 (o2 / objective) 
+            :ARG2 (m2 / microscope 
+                  :ARG1-of (d / dissect-01) 
+                  :mod (s2 / stereo) 
+                  :part (s3 / stage 
+                        :ARG2-of (p / place-01 
+                              :ARG1 (t4 / they 
+                                    :domain-of (s / such 
+                                          :domain (i / illuminate-01 
+                                                :ARG1 (u / use-01 
+                                                      :ARG0 (t / they) 
+                                                      :ARG1 (o / optic))))) 
+                              :time (t3 / then))))) 
+      :op2 (l / lamp) 
+      :op3 (f / filter-02 
+            :ARG1 (e / excitation)))
+
+# ::snt Photographs were taken using a Nikon FE10 35 mm SLR camera fitted with individual emission filters .
+# ::tok Photographs were taken using a Nikon FE10 35 mm SLR camera fitted with individual emission filters .
+# ::alignments 15-16|0.0 14-15|0 13-14|0.1 11-12|0.0.0 10-11|0.0.0.0 9-10|0.0.0.0.1 8-9|0.0.0.0.2 7-8|0.0.0.0.0.0.0 5-7|0.0.0.0.0.1.0.1+0.0.0.0.0.1.0.0+0.0.0.0.0.1.0+0.0.0.0.0.1 3-4|0.0.0.0.0 2-3|0.0.0.0.0.0.1 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:30.594
+(e / emission 
+      :ARG1-of (f / filter-02 
+            :ARG2-of (f2 / fit-01 
+                  :ARG1 (c / camera 
+                        :ARG1-of (u / use-01 
+                              :ARG0 (p / photograph-01 
+                                    :ARG1 35 
+                                    :ARG1-of (t2 / take-01)) 
+                              :ARG2 (t / thing 
+                                    :name (n / name 
+                                          :op1 "Nikon" 
+                                          :op2 "FE10"))) 
+                        :mod (s / SLR) 
+                        :mod (m / mm)))) 
+      :mod (i / individual))
+
+# ::snt Images were processed using Photoshop software ( Adobe Systems ) .
+# ::tok Images were processed using Photoshop software ( Adobe Systems ) .
+# ::alignments 7-9|0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 5-6|0.0.0.0 4-5|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 3-4|0.0.0 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:32.422
+(p / process-01 
+      :ARG1 (i / image 
+            :ARG0-of (u / use-01 
+                  :ARG1 (s / software 
+                        :mod (t / thing 
+                              :name (n2 / name 
+                                    :op1 "Photoshop"))) 
+                  :ARG2 (o / organization 
+                        :name (n / name 
+                              :op1 "Adobe" 
+                              :op2 "Systems")))))
+
+# ::snt The cyan and yellow fluorescent protein-expressing mice described here have been acquired by , and are available from , the Jackson Laboratory Induced Mutant Resource .
+# ::tok The cyan and yellow fluorescent protein-expressing mice described here have been acquired by , and are available from , the Jackson Laboratory Induced Mutant Resource .
+# ::alignments 20-25|0.0.1.0.0.4+0.0.1.0.0.3+0.0.1.0.0.2+0.0.1.0.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 16-17|0.0 14-15|0 11-12|0.0.1 8-9|0.0.1.1.0.0 7-8|0.0.1.1.0 6-7|0.0.1.1.2 5-6|0.0.1.1.2.0 4-5|0.0.1.1.2.1 3-4|0.0.0 2-3|0.0.1.1 1-2|0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:33.878
+(a2 / and 
+      :op1 (a / available-02 
+            :ARG1 (y / yellow-02) 
+            :ARG2-of (a3 / acquire-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "Jackson" 
+                              :op2 "Laboratory" 
+                              :op3 "Induced" 
+                              :op4 "Mutant" 
+                              :op5 "Resource")) 
+                  :ARG1 (a4 / and 
+                        :ARG1-of (d / describe-01 
+                              :location (h / here)) 
+                        :op1 (c / cyan) 
+                        :op2 (m / mouse 
+                              :mod (p / protein-express) 
+                              :mod (f / fluorescent))))))
+
+# ::snt They are referred to therein as 003373 Stock TgN ( ActbECFP ) 1Nagy ( CK6/ECFP ) and 003772 Stock TgN ( ActbEYFP ) 1Nagy ( YC5/EYFP ) .
+# ::tok They are referred to therein as 003373 Stock TgN ( ActbECFP ) 1Nagy ( CK6/ECFP ) and 003772 Stock TgN ( ActbEYFP ) 1Nagy ( YC5/EYFP ) .
+# ::alignments 18-20|0.0.0.1+0.0.0.0+0.0.0+0.0 17-18|0.0.2.0.1+0.0.2+0.0.2.0.0+0.0.2.0 16-17|0.0.1 12-13|0.0.1.1 7-9|0.0.1.0.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 6-7|0.0.1.1.0.2+0.0.1.1.0.1+0.0.1.1.0.0+0.0.1.1.0 2-3|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:34.429
+(r / refer-01 
+      :ARG0 (p / person 
+            :name (n / name 
+                  :op1 "Stock" 
+                  :op2 "TgN") 
+            :op3-of (a / and 
+                  :op1 (p2 / person 
+                        :name (n2 / name 
+                              :op1 "Stock" 
+                              :op2 "TgN")) 
+                  :op2 (1 / 1Nagy 
+                        :time (d2 / date-entity 
+                              :day 73 
+                              :month 33 
+                              :year 00))) 
+            :quant (3 / 37 
+                  :month-of (d / date-entity 
+                        :day 72 
+                        :year 2000))) 
+      :ARG1 (t / they))
+
+# ::snt We thank J.-I .
+# ::tok We thank J.-I .
+# ::alignments 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:34.466
+(t / thank-01 
+      :ARG0 (w / we))
+
+# ::snt Miyazaki for the pCAGGS plasmid .
+# ::tok Miyazaki for the pCAGGS plasmid .
+# ::alignments 3-4|0 0-1|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:34.509
+(p / pcagg 
+      :beneficiary-of (o / organization 
+            :name (n / name 
+                  :op1 "Miyazaki")))
+
+# ::snt A.-K.H. is particularly indebted to V. E. Papaioannou for helpful discussion and constructive comments on the manuscript .
+# ::tok A.-K.H. is particularly indebted to V. E. Papaioannou for helpful discussion and constructive comments on the manuscript .
+# ::alignments 16-17|0 13-14|0.0 12-13|0.0.0 11-12|0.0.1 10-11|0.0.1.1 9-10|0.0.1.1.0 5-8|0.0.1.0.0.2+0.0.1.0.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 3-4|0.0.1.0.1 2-3|0.0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:34.726
+(m / manuscript 
+      :ARG3-of (c / comment-01 
+            :ARG0-of (c2 / constructive-02) 
+            :op3-of (a / and 
+                  :op1 (p / person 
+                        :name (n / name 
+                              :op1 "V." 
+                              :op2 "E." 
+                              :op3 "Papaioannou") 
+                        :prep-to-of (i / indebt 
+                              :mod (p2 / particular))) 
+                  :op2 (d / discuss-01 
+                        :ARG1-of (h / helpful-04)))))
+
+# ::snt This work was supported by grants from the National Cancer Institute of Canada .
+# ::tok This work was supported by grants from the National Cancer Institute of Canada .
+# ::alignments 12-13|0.1.0.1+0.1.0.0.0+0.1.0.0+0.1.0 8-11|0.0.0.0.2+0.0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 5-6|0.0 3-4|0 1-2|0.1 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-21T20:05:34.896
+(s / support-01 
+      :ARG0 (g / grant-01 
+            :ARG0 (o / organization 
+                  :name (n2 / name 
+                        :op1 "National" 
+                        :op2 "Cancer" 
+                        :op3 "Institute"))) 
+      :ARG1 (w / work-01 
+            :ARG0 (c / country 
+                  :name (n / name 
+                        :op1 "Canada") 
+                  :wiki "Canada") 
+            :mod (t / this)))
+

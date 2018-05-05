@@ -1,0 +1,338 @@
+Ablation of the Sam68 <termsem="GO:0003723"> RNA Binding </term> Protein Protects Mice from Age-Related Bone Loss .
+The Src substrate associated in <termsem="GO:0007067"> mitosis </term> of 68 kDa ( Sam68 ) is a KH-type <termsem="GO:0003723"> RNA binding </term> protein that has been shown to <termsem="GO:0065007"> regulate </term> several aspects of <termsem="GO:0016070"> RNA metabolism </term> ; however , its physiologic role has remained elusive .
+Herein we report the <termsem="GO:0000003"> generation </term> of Sam68-null mice by homologous <termsem="GO:0006310"> recombination </term> .
+<termsem="GO:0007568"> Aged </term> Sam68  /  mice preserved their bone mass , in sharp contrast with 12-month-old wild-type littermates in which bone mass was decreased up to approximately 75 % .
+In fact , the bone volume of the 12-month-old Sam68  /  mice was virtually indistinguishable from that of 4-month-old wild-type or Sam68  /  mice .
+Sam68  /  bone marrow stromal cells had a <termsem="GO:0030154"> differentiation </term> advantage for the <termsem="GO:0001503"> osteogenic pathway </term> .
+Moreover , the knockdown of Sam68 using short hairpin RNA in the embryonic mesenchymal multipotential progenitor C3H10T1/2 cells resulted in more pronounced <termsem="GO:0010467"> expression </term> of the mature osteoblast marker osteocalcin when <termsem="GO:0030154"> differentiation </term> was <termsem="GO:0031128"> induced </term> with bone <termsem="GO:0009653"> morphogenetic </term> protein-2 .
+Cultures of mouse embryo fibroblasts <termsem="GO:0032502"> generated </term> from Sam68 + / + and Sam68  /  littermates were <termsem="GO:0031128"> induced </term> to <termsem="GO:0030154"> differentiate </term> into adipocytes with culture medium containing pioglitazone and the Sam68  /  mouse embryo fibroblasts shown to have impaired adipocyte <termsem="GO:0030154"> differentiation </term> .
+Furthermore , in vivo it was shown that sections of bone from 12-month-old Sam68  /  mice had few marrow adipocytes compared with their age-matched wild-type littermate controls , which exhibited fatty bone marrow .
+Our findings identify endogenous Sam68 as a positive regulator of adipocyte <termsem="GO:0030154"> differentiation </term> and a negative regulator of osteoblast <termsem="GO:0030154"> differentiation </term> , which is consistent with Sam68 being a modulator of bone marrow mesenchymal <termsem="GO:0030154"> cell differentiation </term> , and hence bone <termsem="GO:0008152"> metabolism </term> , in <termsem="GO:0007568"> aged </term> mice .
+Osteoporosis is a debilitating bone disease that is characterized by reduced bone mass and microarchitectural damage , which result in increased bone fragility and susceptibility to fracture .
+Peak bone mass , which is achieved by the age of 30 in humans , has been identified as a major determinant of resistance or susceptibility to osteoporosis .
+The authors <termsem="GO:0000003"> generated </term> mice deficient for the Sam68 <termsem="GO:0003723"> RNA binding </term> protein , a protein of unknown physiologic function .
+The mice <termsem="GO:0032502"> develop </term> normally and are protected against bone loss during <termsem="GO:0007568"> aging </term> .
+Age-related bone loss has long been associated with an increase in marrow adipocytes , which are derived from the same mesenchymal lineage as osteoblasts in bone marrow .
+The authors showed that Sam68 <termsem="GO:0065007"> regulates </term> the <termsem="GO:0030154"> differentiation </term> of this mesenchymal lineage , such that in its absence , osteoblasts continued to be <termsem="GO:0032502"> generated </term> in <termsem="GO:0007568"> aging </term> bone , leading to preservation of bone mass .
+This study identifies a physiologic role for Sam68 as a modulator of the bone marrow stem cell niche and hence of bone <termsem="GO:0008152"> metabolism </term> .
+The data identify Sam68 as a potential therapeutic target for the prevention and treatment of age-related bone loss .
+During <termsem="GO:0001501"> skeletal development </term> , the <termsem="GO:0009058"> anabolic activity </term> of osteoblasts [ 1 ] is favored over the <termsem="GO:0009056"> catabolic activity </term> of osteoclasts [ 2 ] , which results in a net gain in bone mass .
+At skeletal maturity , bone mass is maintained through the balanced activity of osteoblasts and osteoclasts during the <termsem="GO:0048771"> remodeling </term> cycle .
+During skeletal <termsem="GO:0007568"> aging </term> , there is a shift in the balance that favors osteoclast over osteoblast activity , which results in net bone loss [ 3 ] .
+The amount and rate at which bone is gained during <termsem="GO:0032502"> development </term> and lost during <termsem="GO:0007568"> aging </term> are determined in large part by genetics [ 4 -- 6 ] but also by physical activity and by alterations in the availability and response of bone cells to circulating <termsem="GO:0005179"> <termsem="independent_continuant"> hormones </term> </term> [ 7 -- 9 ] and locally derived <termsem="GO:0008083"> <termsem="independent_continuant"> <termsem="GO:0040007"> growth </term> factors </term> </term> [ 10,11 ] .
+Whereas genetic-based studies have provided novel insights into the pathways that <termsem="GO:0065007"> regulate </term> <termsem="GO:0001503"> bone development </term> [ 12 -- 14 ] , relatively little is known about the etiology of age-related bone loss .
+Increased <termsem="GO:0045453"> bone resorption </term> in elderly men and women is associated with a reduction in bone mass and an increase in circulating levels of bone biomarkers [ 15 ] .
+These changes have been attributed primarily to nutritional deficits resulting in alterations in the parathyroid <termsem="GO:0005179"> <termsem="independent_continuant"> hormone </term> </term> -- vitamin D axis [ 16 ] , to gonadal <termsem="GO:0005179"> <termsem="independent_continuant"> hormone </term> </term> deficiency [ 17 ] , to leptin levels and the sympathetic nervous system [ 8,18 -- 20 ] , and to alterations in bone <termsem="GO:0006915"> cell apoptosis </term> [ 21 ] .
+Bone loss in the elderly has also been attributed to alterations in the response of bone marrow stromal cells to their microenvironment that favors <termsem="GO:0030154"> differentiation </term> down the adipocyte lineage rather than the osteoblast lineage [ 22 ] .
+<termsem="GO:0007568"> Aging </term> has long been associated with an increase in marrow fat , where the <termsem="GO:0032502"> generation </term> of adipocytes is favored over osteoblasts [ 23 ] .
+Osteoblasts and adipocytes are derived from a common mesenchymal precursor cell present in bone marrow , and the factors that <termsem="GO:0065007"> control </term> this age-induced switch toward adipogenic <termsem="GO:0030154"> differentiation </term> is not well understood [ 24 ] .
+While several <termsem="GO:0045449"> <termsem="GO:0006350"> transcriptional </term> regulatory </term> proteins have been associated with <termsem="GO:0001709"> cell fate determination </term> of bone marrow mesenchymal cells , including peroxisome proliferator -- activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term>  ( PPAR ) and KLF5 [ 25 -- 30 ] , the role of <termsem="GO:0003723"> RNA binding </term> proteins in this process remains unknown .
+<termsem="GO:0003723"> RNA binding </term> proteins of the KH type are known regulators of <termsem="GO:0030154"> cellular differentiation </term> .
+For example , <termsem="GO:0010467"> expression </term> defects in the KH domain proteins NOVA and FMRP are known to cause paraneoplastic neurologic disorders [ 31 ] and the fragile X syndrome , respectively , in humans [ 32 ] .
+The phenotype of the quaking viable mice suggests a role for the QUAKING <termsem="GO:0003723"> RNA binding </term> protein in oligodendrocytes and <termsem="GO:0042552"> myelination </term> [ 33 ] .
+Indeed , the ectopic <termsem="GO:0010467"> expression </term> of the QKI-6 / 7 isoforms in vivo led to the <termsem="GO:0021782"> formation of glial cells </term> rather than neurons from neural progenitor , demonstrating its role in <termsem="GO:0001709"> cell fate determination </term> [ 34 ] .
+The loss of GLD-1 protein in Caenorhabditis elegans prevents the appearance of stem cells [ 35 ] , and the absence of the KH domain protein HOW in Drosophila prevents muscle <termsem="GO:0030154"> differentiation </term> and results in flies with held-out-wings [ 36,37 ] .
+The Src substrate associated in <termsem="GO:0007067"> mitosis </term> of 68 kDa ( Sam68 ) is also a member of the family of KH domain <termsem="GO:0003723"> RNA binding </term> proteins [ 38 ] ; however , its physiologic role has remained undefined .
+Sam68 was identified as an SH3 and SH2 domain interacting protein for Src family <termsem="GO:0016301"> <termsem="independent_continuant"> kinases </term> </term> and is also a known substrate of Src <termsem="GO:0016301"> <termsem="independent_continuant"> kinases </term> </term> [ 39 -- 42 ] and of the breast tumor <termsem="GO:0016301"> <termsem="independent_continuant"> kinase </term> </term> [ 43 ] .
+Sam68 has been shown to facilitate the export of unspliced HIV RNA [ 44 ] and to <termsem="GO:0065007"> regulate </term> <termsem="GO:0006397"> pre-mRNA processing </term> [ 45 ] .
+In the present paper , we report the <termsem="GO:0000003"> generation </term> of Sam68  /  mice and analysis of their skeletal phenotype .
+Our data indicate that the absence of Sam68 confers resistance to age-related bone loss in mice such that old Sam68 have a higher bone mass than their wild-type littermates .
+We provide evidence that Sam68 <termsem="GO:0065007"> regulates </term> the differentiation of bone marrow stromal cells by showing that cells isolated from Sam68  /  animals had <termsem="GO:0048518"> enhanced </term> <termsem="GO:0001503"> osteogenic activity </term> and decreased adipogenic activity than those harvested from wild-type littermates .
+Furthermore , Sam68  /  mouse embryo fibroblasts ( MEFs ) were impaired in their capacity to <termsem="GO:0030154"> differentiate </term> into adipocytes , consistent with Sam68 being a regulator of bone marrow mesenchymal <termsem="GO:0030154"> cell differentiation </term> .
+These results also characterize a new animal model to study bone <termsem="GO:0008152"> metabolism </term> , <termsem="GO:0031099"> regeneration </term> , and repair during <termsem="GO:0007568"> aging </term> .
+Sam68 Is <termsem="GO:0010467"> Expressed </term> in the <termsem="GO:0032502"> Developing </term> Skeleton of Embryonic Mice .
+The Sam68 mRNA is known to be widely <termsem="GO:0010467"> expressed </term> [ 38 ] , whereas its pattern of protein <termsem="GO:0010467"> expression </term> in vivo remains to be defined .
+Sections of paraffin-embedded wild-type E14 .5 and E16 .5 embryonic mice were immunostained with the well-characterized AD1 anti-Sam68 antibody , <termsem="GO:0009058"> raised </term> in rabbits against an immunizing peptide that corresponds to amino acids 330 to 348 of the mouse Sam68 protein [ 46 ] .
+Sam68 immunoreactivity was observed in the skeleton and soft tissues of <termsem="GO:0032502"> developing </term> wild-type mice at E14 .5 and E16 .5 ( Figure 1 ) .
+Intense staining was seen in the nucleus of cells in the <termsem="GO:0032502"> developing </term> brain , heart , and small intestine ( Figure 1B ) , as well as in chondrocytes in the nasal septum and the glandular tissue adjacent to the nasal cartilage ( Figure 1C , panels A -- D ) , in the vertebra and intervertebral discs ( panels E -- H ) and in the epiphysis ( panels I -- K ) and metaphysis ( panel L ) of long bones .
+Nuclear staining was observed in <termsem="GO:0008283"> proliferating </term> chondrocytes and hypertrophic chondrocytes ( Figure 1C , panel H ) , in osteoblasts ( panel L ; Dataset S1 ) , and in osteoclasts ( Dataset S1 ) .
+No staining was observed with preimmune serum or when the antiserum was preadsorbed with the immunizing peptide ( Figure 1C , panels B , F , and J ) .
+Taken together , these data demonstrate that Sam68 protein is selectively <termsem="GO:0010467"> expressed </term> in the <termsem="GO:0032502"> developing </term> mouse embryo , with particularly elevated <termsem="GO:0010467"> expression </term> in cartilage and bone .
+Sam68 is Not Essential for Mouse <termsem="GO:0032502"> Development </term> .
+To define the physiologic role of Sam68 , we <termsem="GO:0000003"> generated </term> Sam68-deficient mice by targeted disruption of exons 4 and 5 of the sam68 gene , which encode the functional region of the KH-type <termsem="GO:0003723"> RNA binding </term> domain ( Figure 2A ) .
+The integrity of the targeted allele was verified by Southern blot analysis ( Figure 2B ) and by PCR of genomic DNA ( unpublished data ) .
+Sam68 transcripts encoded by exons 1 to 5 were absent as evidenced by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR ( Dataset S2 ) , and Sam68  /  mice were devoid of Sam68 protein , as visualized by immunoblotting with anti-Sam68 AD1 and SC-333 antibodies or control normal rabbit serum or anti-Sam68 AD1 preabsorbed with peptide ( Figure 2C ) .
+SC-333 is a rabbit anti-Sam68 antibody that was <termsem="GO:0009058"> raised </term> against the C-terminal 20 amino acids of Sam68 [ 47 ] .
+These data confirmed the <termsem="GO:0000003"> generation </term> of a mouse deficient in Sam68 .
+The genotypes of offspring from heterozygote intercrosses exhibited a Mendelian segregation at E18 .5 ( Table 1 ) .
+Despite the lack of visible deformity , many of the Sam68  /  pups <termsem="GO:0016265"> died </term> at <termsem="GO:0007567"> birth </term> of unknown causes .
+Sam68 + / - mice were phenotypically normal and Sam68  /  pups that survived the perinatal period invariably lived to old age .
+Despite evidence that Sam68 mRNA is widely <termsem="GO:0010467"> expressed </term> and <termsem="GO:0016310"> phosphorylated </term> in <termsem="GO:0007067"> mitosis </term> [ 41,42 ] , the Sam68  /  mice did not <termsem="GO:0032502"> develop </term> tumors and showed no immunologic or other major illnesses .
+Sam68  /  mice did , however , have difficulty <termsem="GO:0000003"> breeding </term> due to male infertility and the females rarely provided adequate care to their young .
+Sam68 Deficiency Protects Mice from Age-Related Bone Loss .
+Src null animals are known to have bone <termsem="GO:0008152"> metabolism </term> defects [ 48 ] , and since Sam68 is a substrate of Src , we decided to analyze the Sam68 mice for skeletal abnormalities .
+Cohorts of Sam68 + / + and Sam68  /  mice were euthanized at 4 and 12 months of age for skeletal phenotyping .
+To minimize differences in the bone phenotype that might arise secondary to gender or weight differences , we selected age-matched female mice for these analyses .
+The female mice demonstrated similar increases in body weight , although 4-month-old Sam68  /  mice weighed less than Sam68 + / + mice , and similar changes in bone lengths in the axial and appendicular skeleton between 4 and 12 months of age ( Table 2 ) .
+Faxitron radiography ( Faxitron X-ray Corporation , Wheeling , Illinois , United States ) ( Figure 3A ) and micro -- computed tomography ( CT ) ( Figure 3B ) revealed significant cortical thinning ( arrow ) and a reduction in metaphyseal bone ( asterisk ) in the distal femora of 12-month-old Sam68 + / + mice compared with 4-month-old mice of either genotype and 12-month-old Sam68  /  mice .
+Similar reductions in trabecular bone were shown by Faxitron and micro-CT in the fifth lumbar vertebrae of the 12-month-old Sam68 + / + mice but not in the Sam68  /  mice ( unpublished data ) .
+Total body bone mineral content ( BMC ) , quantified with a Lunar PIXImus mouse densitometer ( GE-Lunar , Madison , Wisconsin , United States ) , increased in both Sam68 + / + and Sam68  /  mice between 4 months and 12 months of age , but only reached significance in the Sam68  /  mice ( Table 2 ) .
+Similarly , a greater increase in BMC was seen in the femur and vertebra in the Sam68  /  mice .
+Bone mineral density ( BMD ) remained constant or decreased in the wild type mice but increased significantly in the total body and in the femoral and vertebral regions of interest in the Sam68  /  ( Table 2 ) .
+These data showed that Sam68  /  mice continued to thrive and accrue bone in the axial and appendicular skeleton for longer than 12 months .
+This was in contrast to the situation in age-matched , littermate controls in which a significant amount of bone was lost over the same timeframe .
+Three-Dimensional Architecture of Bone Is Preserved in <termsem="GO:0007568"> Aged </term> Sam68  /  Mice .
+Bone loss and compromised architecture are characteristic features of the skeletons of <termsem="GO:0007568"> aged </term> C57BL/6 mice and resemble the clinical features of age-related bone loss in humans that can predispose an individual to fracture .
+Quantification of the micro-CT data shown in Figure 3B confirmed the reduction in bone volume compared with tissue volume ( BV/TV ; Figure 4A , left ) in the 12-month-old Sam68 + / + mice ( hatched bars ) compared with 4-month-old mice of both genotypes ( solid bars ) and 12-month-old Sam68  /  mice ( stippled bars ) .
+This was associated with a significant increase ( p < 0.01 ; denoted by the asterisks ) in the structure model index , which measures the ratio of plate-like to rod-like structures ( Figure 4A , right ) .
+A quantifiable increase in the mean trabecular separation ( Tb.Sp ) ( unpublished data ) in 12-month-old Sam68 + / + mice was due to an increase in the percentage of spaces falling in the range of 350 to 700 m ( Figure 4B , red hatched line ) .
+Trabecular thickness remained constant among the different groups of mice ( unpublished data ) .
+In effect , this meant that there were fewer trabeculae , rather than equivalent numbers of thin trabeculae , in the 12-month-old Sam68 + / + mice compared with any of the other groups of mice .
+<termsem="GO:0046849"> Bone Remodeling </term> Is Preserved in <termsem="GO:0007568"> Aged </term> Sam68  /  Mice .
+To further define the mechanisms involved in the preservation of bone mass in <termsem="GO:0007568"> aged </term> Sam68  /  mice , we prepared sections from plastic-embedded femora and tibia to evaluate osteoblast and osteoclast activity ( Figure 5 ) .
+In situ enzyme histochemical staining for <termsem="GO:0004035"> <termsem="independent_continuant"> alkaline phosphatase </term> </term> ( <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> ; brown stain ) activity was used as a biomarker for osteoblasts and tartrate-resistant <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> ( tartrate-resistant <termsem="GO:0003993"> <termsem="independent_continuant"> acid phosphatase </term> </term> [ TRAP ] ; red stain ) activity as a marker for osteoclasts .
+Little difference was seen between Sam68 + / + ( Figure 5A and 5B ) and Sam68  /  ( Figure 5C and 5D ) mice at 4 months of age .
+<termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> - and TRAP-positive cells were reduced in the 12-month-old Sam68 + / + mice ( Figure 5E and 5F ) and remained unchanged in 12-month-old Sam68  /  mice ( Figure 5G and 5H ) .
+The reduction in both osteoblast and osteoclast activity in the 12-month-old Sam68 + / + mice argued against bone being lost primarily due to a relative increase in osteoclast over osteoblast activity , as seen in high turnover disease [ 49 ] .
+Histomorphometric analyses [ 50 ] of the long bones ( Table 3 ) corroborated the radiologic evidence of age-related bone loss .
+Bone volume ( BV/TV ) , newly <termsem="GO:0032502"> formed </term> osteoid ( OV/TV ) , and <termsem="GO:0031214"> mineral apposition </term> rate ( MAR ) were all significantly reduced in 12-month-old Sam68 + / + mice compared with 4-month-old Sam68 + / + mice .
+These reductions were associated with a significant increase in marrow fat ( FV/TV ) and decreased numbers of osteoblasts ( nOB/TV ) and osteoclasts ( nOC/TV ) per tissue volume ( Table 3 ) .
+These results were in contrast to those of the 12-month-old Sam68  /  mice in which all histomorphometric parameters , including marrow fat , resembled those of young mice of either genotype ( Table 3 ) .
+When cells were expressed as a function of the bone perimeter ( nOB/BP , nOC/BP ) , there were no statistical differences and the ratio of osteoblasts to osteoclasts was similar in all groups of mice ( Table 3 ) .
+Circulating levels of serum C-telopeptide ( sCTX ; Roche Diagnostics , Mannheim , Germany ) and <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> showed little difference among the groups , except for a small decrease in 12-month-old Sam68  /  mice and ( Dataset S3 ) .
+Serum estrogen was significantly decreased in all 12-month-old mice regardless of genotype with a reciprocal increase in interleukin-6 levels ( Dataset S3 ) .
+Given the involvement of leptin in <termsem="GO:0065007"> regulating </term> body and bone mass , serum leptin was measured in Sam68 + / + and Sam68  /  mice .
+Twelve-month-old Sam68  /  mice had significantly lower levels than young and old Sam68 + / + mice and young Sam68  /  mice ( Dataset S3 ) .
+Taken together , these observations suggested that preservation of bone mass in the Sam68  /  mice was not due primarily to altered estrogen status but could have been influenced by differences in circulating leptin levels .
+Osteoblast , but Not Osteoclast , Activity Is Altered in Sam68  /  Mice Ex Vivo .
+Maintenance of bone mass during the adult <termsem="GO:0048771"> remodeling </term> cycle is dependent on the coupling of osteoblast to osteoclast activity , such that there is no net gain or loss of bone [ 49 ] .
+To further explore the age-related advantage of Sam68  /  mice with respect to bone preservation , we examined the functional activity of Sam68  /  osteoblasts and osteoclasts ex vivo ( Figure 6A and 6B ) .
+Cultures of bone marrow stromal cells harvested from 4-week-old Sam68  /  mice and maintained for 18 days in osteoblast <termsem="GO:0030154"> differentiation </term> medium demonstrated more intense staining for <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> at 6 days ( unpublished data ) and 18 days ( Figure 6A ) , and more <termsem="GO:0031214"> mineralized </term> nodules at 18 days , than the Sam68 + / + mice , even though similar amounts of fibroblast colony - <termsem="GO:0032502"> forming </term> units ( CFU-F ) were observed ( Figure 6A and unpublished data ) .
+<termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis of molecular markers of osteoblast <termsem="GO:0030154"> differentiation </term> ( Dataset S2 ) revealed similar increases over time in RNA from Sam68 + / + and Sam68  /  mice , although type I collagen appeared to be <termsem="GO:0048518"> up-regulated </term> at both timepoints in the Sam68  /  mice .
+Short-term cultures of mature osteoclasts released from the crushed long bones of Sam68 + / + and Sam68  /  mice stained equally well for TRAP and excavated approximately equal numbers of pits of equal size in dentin slices , as visualized by scanning electron microscopy ( Figure 6B ) .
+These findings suggest that the osteoclasts may not be the primary defect in Sam68  /  mice , as they are in Src null mice [ 48 ] .
+The Absence of Sam68 Prevents Adipocyte <termsem="GO:0030154"> Differentiation </term> and <termsem="GO:0048518"> Promotes </term> Osteoblast <termsem="GO:0030154"> Differentiation </term> .
+It is well recognized that bone marrow stromal cells give rise to both osteoblasts and adipocytes and that age-related bone loss is accompanied by an increase in <termsem="GO:0030154"> differentiation </term> down the adipocyte lineage [ 22 ] .
+Therefore , the loss of Sam68 could influence the bone marrow stromal cells to <termsem="GO:0030154"> differentiate </term> along the osteogenic versus the adipogenic pathway .
+Alternatively , the loss of Sam68 could indirectly <termsem="GO:0065007"> regulate </term> bone mass as a general disturbance of neuroendocrine <termsem="GO:0065007"> control </term> as was shown when leptin and the sympathetic nervous system axis were shown to <termsem="GO:0048519"> negatively regulate </term> bone mass [ 8 ] .
+To confirm a role for Sam68 in the regulation of adipocyte <termsem="GO:0030154"> differentiation </term> , we isolated primary MEFs from 14.5-day-old Sam68 + / + and Sam68  /  embryos .
+The primary Sam68  /  MEFs were <termsem="GO:0030154"> differentiated </term> into adipocytes in vitro in culture medium containing 5 M pioglitazone to <termsem="GO:0031128"> induce </term> adipogenesis .
+Cells at days 0 , 4 , 6 , and 12 were stained with Oil red O to monitor adipogenesis .
+Adipogenesis was more pronounced in the wild-type MEFs cultures than in the Sam68  /  MEFs , consistent with the positive role of endogenous Sam68 in adipocyte <termsem="GO:0030154"> differentiation </term> ( Figure 7 ) .
+The <termsem="GO:0010467"> expression </term> of key <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> including the PPAR and KLF5 was impaired in Sam68  /  <termsem="GO:0030154"> differentiated </term> MEFs compared with Sam68 + / + MEFs , consistent with impaired adipogenesis in the absence of Sam68 ( Figure 7 ) .
+These data , together with data confirming a lean phenotype in Sam68  /  mice ( N. Torabi and S. Richard , unpublished data ) , support the hypothesis that Sam68 <termsem="GO:0065007"> modulates </term> the differentiation of mesenchymal cells .
+To further examine this phenotype in a cell autonomous system , we chose the embryonic mesenchymal multipotential progenitor cells C3H10T1/2 .
+The addition of BMP-2 <termsem="GO:0031128"> induced </term> osteoblast <termsem="GO:0030154"> differentiation </term> , as evidenced by an approximately 400-fold increase in expression of the osteocalcin ( OCN ) gene [ 51 ] .
+Populations of C3H10T1/2 cells stably <termsem="GO:0009294"> transfected </term> with either pSuper-retro ( control ) and pSuper-retro harboring a short hairpin against Sam68 ( Sam68sh ) were selected with puromycin .
+The <termsem="GO:0010467"> expression </term> of Sam68 was reduced by approximately 80 % as evidenced by immunoblot analyses using -actin as a loading control ( Figure 8A ) .
+Osteoblast <termsem="GO:0030154"> differentiation </term> was <termsem="GO:0031128"> induced </term> in cultures <termsem="GO:0010467"> expressing </term> pSuper-retro or pSuper-retro Sam68sh by addition of BMP-2 to the culture medium .
+.
+The <termsem="GO:0010467"> expression </term> of OCN and -actin mRNAs was examined by semiquantitative <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR and the Sam68sh - <termsem="GO:0010467"> expressing </term> cells displayed a more pronounced osteoblast phenotype compared with control cells , as assessed by the <termsem="GO:0010467"> expression </term> of OCN ( Figure 8B ) .
+Given the apparent enhancement of <termsem="GO:0031214"> mineralized </term> nodule <termsem="GO:0032502"> formation </term> by Sam68  /  bone marrow stromal cells ex vivo and the phenotype observed with short hairpin RNA ( shRNA ) - treated C3H10T1/2 , we stained sections of bone from 4 - and 12-month-old mice for evidence of changes in marrow adiposity .
+Figure 9 shows sections of undecalcified bone from 4 - and 12-month-old Sam68 + / + and Sam68  /  mice stained with von Kossa and toluidine blue to show <termsem="GO:0031214"> mineralized </term> tissue ( Figure 9A , black ) and marrow adipocytes ( Figure 9B , white ) and left unstained to show fluorochrome labeling of the <termsem="GO:0031214"> mineralization </term> fronts ( Figure 9C ) .
+Twelve-month-old Sam68 + / + mice showed a noticeable decrease in trabecular bone ( Figure 9A ) , which was associated with a significant increase in marrow adiposity ( Figure 9B ) and with the two fluorochrome labels superimposed upon one another ( Figure 9C ) .
+In contrast , the bones of 12-month-old Sam68  /  mice appeared similar to those of the 4-month-old mice of either genotype .
+These data demonstrate that Sam68 <termsem="GO:0065007"> regulates </term> the differentiation of bone marrow mesenchymal cells to <termsem="GO:0048518"> promote </term> adipocyte <termsem="GO:0030154"> differentiation </term> and inhibit osteoblast <termsem="GO:0030154"> differentiation </term> in <termsem="GO:0007568"> aging </term> bone .
+The present study provides evidence that a physiologic role of Sam68 is to <termsem="GO:0065007"> modulate </term> bone marrow mesenchymal stem cells .
+Young Sam68  /  mice <termsem="GO:0032502"> developed </term> normally and contained similar bone mass compared with wild-type littermates .
+<termsem="GO:0007568"> Aged </term> ( 12 months ) Sam68  /  mice displayed a high bone mass phenotype compared with Sam68 + / + littermates .
+The wild-type littermates underwent age-related bone loss that occurs naturally in mammals , while the Sam68  /  animals preserved their bone mass with <termsem="GO:0007568"> aging </term> .
+The differentiation of bone marrow stem cells isolated from Sam68  /  mice and embryonic mesenchymal multipotential progenitor cells C3H10T1/2 treated with Sam68 shRNA resulted in a more pronounced osteoblast <termsem="GO:0030154"> differentiation </term> .
+These findings demonstrate that the loss of Sam68 <termsem="GO:0048518"> enhances </term> osteoblast <termsem="GO:0030154"> differentiation </term> .
+The converse was also true , as MEFs isolated from Sam68  /  animals were impaired in their ability to undergo adipocyte <termsem="GO:0030154"> differentiation </term> compared with Sam68 + / + MEFs .
+These findings suggest that a physiologic role for Sam68 is to <termsem="GO:0065007"> regulate </term> the balance between adipogenic and <termsem="GO:0001503"> osteogenic </term> <termsem="GO:0030154"> differentiation </term> of the bone marrow mesenchymal .
+Sam68 protein <termsem="GO:0010467"> expression </term> was observed throughout the <termsem="GO:0032502"> developing </term> mouse embryo , in keeping with previous reports that identified the Sam68 mRNA to be widely <termsem="GO:0010467"> expressed </term> [ 38 ] .
+We observe Sam68 staining in the brain , heart , and intestine ( see Figure 1 ) as well as liver , skin , and kidney ( unpublished data ) of late-stage embryos .
+This <termsem="GO:0010467"> expression </term> pattern is consistent with previous work that has observed Sam68 in neurons [ 52 ] and as a substrate of the intestinal SIK/breast tumor <termsem="GO:0016301"> <termsem="independent_continuant"> kinase </term> </term> [ 43 ] .
+The <termsem="GO:0010467"> expression </term> of Sam68 was not altered in <termsem="GO:0007568"> aging </term> bone marrow stromal cells or in <termsem="GO:0007569"> senescencing </term> WI-38 cells ( unpublished data ) .
+The presence of Sam68 in chondrocytes , osteoblasts and osteoclasts in <termsem="GO:0032502"> developing </term> cartilage and bone predicted a pivotal role for the protein in <termsem="GO:0001501"> skeletal development </term> .
+The Sam68  /  mice were <termsem="GO:0000003"> generated </term> using a traditional targeting approach where the functional KH domain was deleted and approximately one third of the Sam68  /  mice survived to adulthood with no apparent defects .
+One explanation for this phenomenon is that Sam68 function is sub-served by one or more of its family members during <termsem="GO:0032502"> development </term> such as SLM-1 and SLM-2 [ 47 ] .
+Alternatively , Sam68 is not required during <termsem="GO:0009790"> embryonic development </term> .
+However , two thirds of the Sam68  /  , but not the Sam68 + / - pups , were killed by their Sam68 + / - mothers .
+These findings suggest that the mothers are able to <termsem="GO:0007600"> detect </term> a subtle defect/difference that we can not .
+Adult Sam68  /  mice live a normal life span of approximately two years .
+The Sam68  /  males were sterile and the Sam68  /  females provided inadequate care to their young , but the pups were not scattered and neglected as observed with FosB  /  mice [ 53 ] .
+Serum levels of estrogen decreased in <termsem="GO:0007568"> aging </term> Sam68  /  females as expected ; however , the leptin levels decreased in <termsem="GO:0007568"> aged </term> Sam68  /  females .
+The <termsem="GO:0007568"> aged </term> Sam68  /  females were not obese and actually weighed less than the littermate controls ( see Table 2 ) .
+Moreover , their appetite was not altered with <termsem="GO:0007568"> aging </term> ( N. Torabi and S. Richard , unpublished data ) , suggesting that the observed leptin reduction was not recreating ob/ob-like phenotypes related to weight , appetite and female sterility [ 54 ] .
+The skeletal phenotyping of cohorts of Sam68 + / + and Sam68  /  mice showed that bone mass was preserved in <termsem="GO:0007568"> aged </term> Sam68  /  mice .
+Traditional histology and histomorphometry suggested that the mechanism involved preservation of osteoblast and osteoclast activity .
+The documented role of the Sam68 <termsem="GO:0065007"> regulatory </term> protein , Src , in osteopetrosis led us to investigate the morphology and activity of Sam68  /  osteoclasts ex vivo .
+The Src <termsem="GO:0004713"> <termsem="independent_continuant"> tyrosine kinase </term> </term> was shown to play a role in <termsem="GO:0046849"> bone remodeling </term> when Src  /  mice <termsem="GO:0016265"> died </term> at 6 months of age with an osteopetrotic phenotype [ 48 ] and the defect was attributed to defective osteoclast function [ 55  59 ] .
+We therefore cultured mature osteoclasts harvested from Sam68 + / + and Sam68  /  mice ex vivo on dentin slices to quantify their <termsem="GO:0045453"> resorptive </term> capacity .
+The fact that Sam68  /  osteoclasts looked and acted like Sam68 + / + osteoclasts ex vivo and in vivo made it unlikely that this was the primary source of the difference in bone <termsem="GO:0008152"> metabolism </term> in 12-month-old Sam68  /  mice .
+The fact that the CTX levels were lower in young and old Sam68  /  mice suggested that there is reduced <termsem="GO:0045453"> bone resorption </term> compared with wild-type littermate controls .
+However , this reduction in <termsem="GO:0045453"> bone resorption </term> occurred with normal osteoclast activity , as assessed by in vitro culturing .
+These observations are consistent with the Sam68  /  mice having a youth-like bone phenotype .
+However , it is still possible , that a mild impairment in Sam68  /  mice osteoclast function may manifest itself later in life in overall accumulation of bone and this will require further detailed studies .
+Ex vivo differentiation of primary bone marrow stromal cells , harvested from Sam68 + / + and Sam68  /  mice , down the osteoblast lineage revealed an <termsem="GO:0001503"> osteogenic </term> advantage in the cultures of cells derived from the Sam68  /  mice .
+It will be important to demonstrate that a similar effect is observed using primary bone marrow stromal cells from <termsem="GO:0007568"> aged </term> Sam68  /  mice .
+Similar findings were observed when embryonic mesenchymal multipotential progenitor cells C3H10T1/2 treated with Sam68 shRNA , were <termsem="GO:0030154"> differentiated </term> into osteoblasts with BMP2 .
+Our findings that <termsem="GO:0007568"> aged </term> Sam68  /  mice do not <termsem="GO:0032502"> develop </term> fatty bone marrow and that MEFs derived from Sam68  /  mice have impaired adipocyte <termsem="GO:0030154"> differentiation </term> , indicate that Sam68 <termsem="GO:0065007"> regulates </term> both adipocyte and osteoblast <termsem="GO:0030154"> differentiation </term> .
+These findings identify Sam68 as the first <termsem="GO:0003723"> RNA binding </term> protein to <termsem="GO:0065007"> regulate </term> mesenchymal <termsem="GO:0030154"> cell differentiation </term> and the challenge will be to identify the specific RNA targets that it <termsem="GO:0065007"> regulates </term> during this process .
+The fact that osteoblast function is altered in Src  /  mice [ 60,61 ] raises the possibility that preservation of bone mass in the Sam68  /  mice could be linked with and <termsem="GO:0065007"> regulated </term> by Src .
+The pathway by which leptin <termsem="GO:0065007"> regulates </term> <termsem="GO:0045453"> bone resorption </term> was identified to involve the sympathetic nervous system relaying to the osteoblasts via the -adrenergic pathway leading to the <termsem="GO:0046903"> release </term> of <termsem="GO:0008083"> <termsem="independent_continuant"> <termsem="GO:0040007"> growth </term> factors </term> </term> including RANKL that causes the osteoclasts to thrive [ 8,18 -- 20 ] .
+The lowering of leptin levels in <termsem="GO:0007568"> aged </term> Sam68  /  mice is consistent with these mice having a high bone mass compared with their <termsem="GO:0007568"> aged </term> littermates .
+These data would suggest that the <termsem="GO:0033210"> leptin-sympathetic pathway </term> is unaltered in Sam68  /  mice and that the lowering of leptin may explain the lower levels of CTX in the serum of Sam68  /  mice .
+These findings suggest that Sam68 may be <termsem="GO:0065007"> regulating </term> bone <termsem="GO:0008152"> metabolism </term> at two different levels : ( 1 ) the absence of Sam68 results in lower leptin levels that may reduce <termsem="GO:0045453"> bone resorption </term> via the sympathetic nervous system and ( 2 ) the absence of Sam68 favors osteoblast , rather than adipocyte , <termsem="GO:0030154"> differentiation </term> .
+In conclusion , our data define a physiologic role for Sam68 in bone <termsem="GO:0008152"> metabolism </term> and bone marrow mesenchymal stem <termsem="GO:0030154"> cell differentiation </term> .
+The bone phenotype observed in Sam68  /  mice imply that inhibitors of Sam68 could prevent age-related bone loss .
+Furthermore , the results also suggest that Sam68 <termsem="GO:0010467"> expression </term> levels , hypomorphism , and mutations in humans may influence susceptibility to marrow adipocyte <termsem="GO:0008283"> accumulation </term> and osteoporosis .
+Our findings also identify a new animal model to study <termsem="GO:0007568"> aging </term> bone loss .
+Histologic , immunohistochemical , and histomorphometric analyses .
+All analyses were performed essentially as described previously [ 62,63 ] .
+Briefly , embryonic mice were removed from timed <termsem="GO:0007565"> pregnant </term> dams at E14 .5 and E16 .5 and fixed intact for 36 h in 4 % paraformaldehyde , rinsed thoroughly in PBS , and processed for paraffin embedding .
+Serial 4-m sections were cut on a modified Leica RM 2155 rotary microtome ( Leica Microsystems , Richmond Hill , Ontario , Canada ) , stained with a 1:600 dilution of the AD1 anti-Sam68 antibody [ 46 ] and counterstained with either methyl green or hematoxylin .
+Adult mice were given an intraperitoneal injection of 30 mg/kg calcein at 7 days and 30 mg/kg tetracycline at 2 days prior to sacrifice to label actively <termsem="GO:0031214"> mineralizing </term> surfaces .
+After overnight fixation in 4 % paraformaldehyde and rinsing in PBS , the left femur and tibia were embedded in polymethylmethacrylate ( MMA ) or a mixture of 50 % MMA and 50 % glycolmethacrylate ( GMA ) .
+Serial 4 - to 6-m sections of MMA-embedded tissues were left unstained or stained with von Kossa and toluidine blue or with toluidine blue alone , while 4-m MMA-GMA sections were stained for TRAP and <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> activity .
+Images were captured using a Leica DMR microscope ( Leica Microsystems ) equipped with a Retiga 1300 camera ( Qimaging , Burnaby , British Columbia , Canada ) and the primary histomorphometric data obtained using Bioquant Nova Prime image analysis software ( Bioquant Image Analysis Corp , Nashville , Tennessee , United States ) .
+Nomenclature and abbreviations conform to those recommended by the American Society for Bone and Mineral Research [ 50 ] .
+<termsem="GO:0000003"> Generation </term> of mice with targeted disruption of the sam68 gene .
+A  bacteriophage clone encompassing Sam68 exons 3 to 9 was isolated from a 129/SvJ genomic library using full-length Sam68 cDNA as a probe .
+XbaI - <termsem="GO:0009056"> digested </term> Sam68 genomic DNA fragments of 4 kb ( encompassing exon 4 and part of exon 5 ) and 3kb ( spanning part of exon 5 and exon 6 ) were subcloned in Bluescript SK resulting in pBS4 and pBS3 , respectively .
+A DNA fragment was amplified from pBS4 with the following oligonucleotides ( 5  - AAT GTC TAG AAA CAA CTC ATA TAC AGA C-3  ) and the universal primer .
+The XbaI - <termsem="GO:0009056"> digested </term> 1-kb DNA fragment was subcloned in the XbaI site of pPNT ( a gift from Andrew Karaplis , McGill University , Montral , Quebec , Canada ) .
+The 3-kb fragment from pBS3 was amplified by PCR with ( 5  - GGG ATG CGG CCG CTC TAG AAT TGT CCT ACT TGA ACG G-3 ' ) and ( 5  - CGG TGG CGG CCG CTG TCG ACC TGA GTA ACA TTT CTT A-3  ) and subcloned in the NotI site of pPNT .
+The targeting vector pPNT-Sam68 replaces exon 4 and part of exon 5 with a neomycin-resistant gene cassette .
+An SalI site was introduced at the 3  end of the 3-kb DNA fragment and was used to linearize the plasmid for electroporation into embryonic stem ( ES ) cells .
+Approximately 1,000 ES colonies were screened and two clones were identified that contained the Sam68 mutant allele , as determined by Southern blotting .
+Targeted ES cells were injected into 3.5-day-old BALB/c blastocysts and were transferred into CD-1 foster mothers , and animals classified as chimeras by coat color were <termsem="GO:0007618"> mated </term> with BALB/c mice .
+Germ line transmission was achieved and the mice were maintained in C57BL/6 background .
+The mice used for this study represent mice that were backcrossed in C57BL/6 between three and eight generations ; in addition , we maintained the mice in the 129/SvJ strain and observed a similar phenotype .
+Genotyping and immunoblot analyses .
+All mouse procedures were performed in accordance with McGill University guidelines , which are set by the Canadian Council on Animal Care .
+Genomic DNA was isolated from tail biopsies and analyzed by Southern blotting and genomic PCR analysis .
+The DNA fragment utilized as the probe for the Southern blotting analysis was amplified with the following two oligonucleotides ( 5  - AAG CCT TTA CTG GTT GTG T-3  ) and ( 5  - CTT GAA ACG CAC CGT AGG CT-3  ) .
+The wild-type sam68 allele was identified by genomic PCR using the following oligonucleotides 5  - AAA TCC TAA CCC TCC TCA GTC AG-3  and 5  - GAT ATG ATG GAT GAT ATC TGT CAG-3  .
+The sam68-targeted allele was identified by genomic PCR using the following oligonucleotides 5  - CTT GGG TGG AGA GGC TAT TCG-3  and 5  - GTC GGG CAT GCG CGC CTT GAG C-3  .
+Radiology and serum biochemistry on Sam68 + / + and Sam68  /  mice .
+Radiography , BMD , and micro-CT were performed essentially as described previously [ 63 ] .
+Mice were administered a <termsem="GO:0016265"> lethal </term> dose of anesthetic at the indicated times , exsanguinated , and imaged using a Faxitron MX20 equipped with an FPX-2 Imaging system ( Dalsa Medoptics , Waterloo , Ontario , Canada ) .
+Body fat , BMC , and BMD were evaluated using a Lunar PixiMUS 1.46 ( GE-Lunar , Madison , Wisconsin , United States ) .
+Morphometric parameters were determined on anesthetized mice at the time of sacrifice by direct measurement or from the Faxitron radiograph .
+Micro-CT was performed on the left femur and fourth lumbar vertebra after removal of soft tissues and overnight fixation in 4 % paraformaldehyde .
+The distal metaphysis was scanned with a Skyscan 1072 micro-CT instrument ( Skyscan , Antwerp , Belgium ) .
+Image acquisition was performed at 100 kV and 98 A , with a 0.9  rotation between frames .
+The two-dimensional images were used to generate three-dimensional reconstructions to obtain quantitative data with the 3D Creator software supplied with the instrument .
+Serum biochemistry ( <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> , Ca , PO4 , Mg ) was determined at the Rodent Diagnostics Lab ( McGill University , Montral , Quebec , Canada ) using routine automated techniques .
+Commercial assays were used to determine serum levels of CTX ( RatLaps ELISA , Nordic Bioscience ) , 17 estradiol ( IBL Immuno-Biological , Hamburg , Germany ) , leptin ( R & D Systems , Minneapolis , Minnesota , United States ) , and interleukin-6 ( R & D Systems ) .
+Ex vivo assessment of osteoblast and osteoclast activity .
+Bone marrow was flushed from the tibia and femora of juvenile 4-week-old Sam68 + / + and Sam68  /  mice to obtain stromal cells that were maintained in <termsem="GO:0030154"> differentiation </term> medium for 6 or 18 days as described [ 63 ] .
+Cultures were stained in situ for <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> activity and with von Kossa stain to detect <termsem="GO:0031214"> mineralized </term> nodules .
+Total RNA was harvested from parallel cultures for <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR analysis of osteoblast-related <termsem="GO:0010467"> gene expression </term> over time as described previously [ 63 ] .
+Osteoclasts were isolated from the crushed long bones of juvenile Sam68 + / + and Sam68  /  mice and used for quantitative studies as described [ 64 ] .
+Briefly , cells were plated on glass coverslips or on dentin slices in 24-well cluster plates for assessment of cell number and pit number , respectively .
+Cover slips were immersed in 4 % paraformaldehyde and stained for TRAP activity after 2 h. Dentin slices were left for 28 h before removing the cells with 1 M ammonium hydroxide and air drying before coating with sputter Au-Pd and examination with scanning electron microscopy ( McGill Electron Microscopy Centre ) .
+Light microscope images were captured using a Leica DMR microscope equipped with a Retiga 1300 camera .
+Quantitative analyses were performed using Adobe Photoshop and the data presented as the mean  SD of two or three independent experiments .
+Statistical comparisons were made using the Student 's t test .
+Preparation of mouse embryonic fibroblast and <termsem="GO:0031128"> induction </term> of adipocyte <termsem="GO:0030154"> differentiation </term> .
+MEFs were prepared from 14.5-day-old embryos .
+Only early-passage MEFs were used for the experimental studies , and <termsem="GO:0031128"> induction </term> of adipocyte <termsem="GO:0030154"> differentiation </term> was carried out according to the methods previously described [ 30 ] .
+Cultured cells were stained with Oil Red O as described [ 29 ] .
+RNA preparation and <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR to assess adipogenesis in Sam68  /  MEFs .
+Total cellular RNA was prepared by TRIzol reagent according to the manufacturer 's protocol ( Invitrogen , Carlsbad , California , United States ) .
+Total RNA ( 1 g ) was <termsem="GO:0006410"> reverse-transcribed </term> , and cDNA samples were subjected to PCR .
+<termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR was normalized by the <termsem="GO:0006350"> transcriptional </term> level of <termsem="GO:0004365"> <termsem="independent_continuant"> GAPDH </term> </term> .
+The following 5  and 3  primers were used to evaluate adipogenic <termsem="GO:0030154"> differentiation </term> : KLF5 : 5 ' - AGA CAA GCT GAG ATG CTG C-3  , 5  - GGC AAA CCT CCA GTC GC-3  ; PPAR : 5  - GTG CGA TCA AAG TAG AAC CTG C-3  , 5  - CCT ATC ATA AAT AAG CTT CAA TCG-3  ; -Actin : 5  - TAG GCG GAC TGT TAC TGA GC-3  , 5  - AGC CTT CAT ACA TCA AGT TGG-3  ; and Sam68 : 5  - GTG GAG ACC CCA AAT ATG CCC A-3  and 5  - AAA CTG CTC CTG ACA GAT ATC A-3  .
+Sam68 <termsem="GO:0048519"> down-regulation </term> using Sam68sh .
+To <termsem="GO:0009058"> generate </term> an shRNA , 64-base duplex DNA nucleotides were purchased from Invitrogen .
+This fragment comprised 19 base residues specific to mouse Sam68 ( GATCCCC AAGATGACGAGGAGAATTATTCAAGAGA TAATTCTCCTCGTCATCTT TTTTTGGAAA ) .
+This fragment was cloned into pSUPER retro ( OligoEngine , Seattle , Washington , United States ) .
+<termsem="GO:0009294"> Transfections </term> were performed using LipofectAMINE Plus ( Invitrogen ) with cloned DNA fragment or empty vector .
+At 48 h after <termsem="GO:0009294"> transfection </term> , populations were selected for 2.5 g/ml puromycin and the knockdown observed by immunoblotting with anti-Sam68 ( AD1 ) antibody .
+<termsem="GO:0001503"> Osteogenic </term> <termsem="GO:0030154"> differentiation </term> analysis of C3HT101/2 cells .
+For <termsem="GO:0001503"> osteogenic </term> <termsem="GO:0030154"> differentiation </term> , C3HT101/2 ( ATCC ) cells were incubated in 48-well tissue culture plates at 1.25  104 cells/cm2 .
+After 24-h incubation , the culture media were changed to fresh media containing 300 ng/ml BMP-2 ( Sigma , St. Louis , Missouri , United States ) .
+Total cellular RNA was prepared as described above , and osteocalcin , -actin , and <termsem="GO:0008943"> <termsem="independent_continuant"> GAPDH </term> </term> <termsem="GO:0010467"> gene expression </term> at indicated times after BMP-2 treatment was quantified by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR .
+<termsem="GO:0051179"> Localization </term> of Sam68 in Primary Mouse Osteoblasts and Osteoclasts .
+Click here for additional data file .
+<termsem="GO:0010467"> Gene Expression </term> Profile of Cultured Stromal Cells at Days 6 and 18 of Culture Isolated from Sam68 + / + and Sam68  /  Mice .
+Click here for additional data file .
+Serum Biochemistry and Bone Biomarkers in 4 - and 12-Month-Old Mice .
+Click here for additional data file .
+We acknowledge Jean-Sebastien Binette ( Centre for Bone and Periodontal Research ) and Jacinthe Sirois ( Qubec Transgenic Research Network ) for excellent technical assistance .
+We are grateful to Erique Lukong , Daniel Larocque , and Mark Bedford for helpful discussions .
+This work was supported by grant MT13377 to SR and grant MOP-13419 to JEH from the Canadian Institutes of Health Research ( CIHR ) .
+SR holds an Investigator Award from the CIHR and JEH is a Chercheur Boursier , Senior of the FRSQ .
+<termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> - <termsem="GO:0004035"> <termsem="independent_continuant"> alkaline phosphatase </term> </term> .
+BMC - bone mineral content .
+BMD - bone mineral density .
+BMP-2 - bone <termsem="GO:0009653"> morphogenetic </term> protein-2 .
+CT - computed tomography .
+MEF - mouse embryo fibroblast .
+PPAR - peroxisome proliferator -- activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term>  .
+shRNA - short hairpin RNA .
+TRAP - tartrate-resistant <termsem="GO:0003993"> <termsem="independent_continuant"> acid phosphatase </term> </term> .
+Immunohistochemical <termsem="GO:0051179"> Localization </term> of Sam68 in Embryonic Mice .
+( A ) Embryonic mice were removed from <termsem="GO:0007565"> pregnant </term> dams at E14 .5 and E16 .5 , fixed in 4 % paraformaldehyde , and embedded in paraffin .
+The entire embryo was immunostained with the AD1 anti-Sam68 antibody and counterstained with methyl green , and the image was captured at  1.2 magnification .
+( B ) Embryonic soft tissues from the brain , heart and gut were stained with hematoxylin ( left ) and immunostained with anti-Sam68 antibody ( right ) , and images were captured at  20 magnification .
+( C ) Intense anti-Sam68 immunoreactivity was seen in chondrocytes in the nasal septum ( panels A -- D ) , in <termsem="GO:0032502"> developing </term> vertebra ( panels E -- H ) , and in the femoral epiphysis ( panels I -- K ) , as well as in diaphyseal osteoblasts ( panel L ) .
+Adjacent sections were stained with hematoxylin and eosin ( panels A , E , and I ) or with antibody preadsorbed with the immunizing peptide ( panels B , F , and J ) .
+Sam68 was <termsem="GO:0051179"> localized </term> primarily in the nucleus of cells in a variety of tissues but was also found occasionally in the cytoplasm .
+Magnification at source  20 , except for panels D , H , and L , which were  40 .
+Staining patterns are representative of three to five embryos .
+<termsem="GO:0000003"> Generation </term> of Sam68-Deficient Mice .
+( A ) The genomic organizations of the wild-type and targeted sam68 alleles after homologous <termsem="GO:0006310"> recombination </term> are depicted .
+The location of the DNA fragment used as a probe for the Southern blot analysis is shown , as well as the sizes of the two BglII fragments detected for wild-type and targeted sam68 alleles .
+The targeted allele replaces exon 4 and part of exon 5 of sam68 with a <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> PGK </term> </term> </term> - neomycin cassette .
+( B ) Southern-blot analysis of genomic DNA from wild-type ( + / + ) , heterozygous ( + /  ) , and homozygous (  /  ) mice .
+DNA fragments corresponding to wild-type ( 4.5 kb ) and the targeted ( 5.5 kb ) alleles are illustrated .
+( C ) Western blot analysis of Sam68 <termsem="GO:0010467"> expression </term> .
+Protein extracts from wild-type , heterozygous , and homozygous cells subjected to immunoblot analyses using normal rabbit serum , anti-Sam68 AD1 antibody , the peptide antibody AD1 preabsorbed with the immunogenic peptide corresponding to amino acids 330 -- 348 of mouse Sam68 , anti-Sam68 Sc333 antibody that recognizes the C-terminal 20 amino acids of Sam68 , and anti-actin antibodies as loading control .
+The migration of the molecular mass markers is known on the left in kDa .
+Radiologic Assessment of the Femur of Young and Old Sam68 + / + and Sam68  /  Mice .
+( A ) Mice were given a <termsem="GO:0016265"> lethal </term> dose of anesthetic at the indicated times , and contact radiographs of the distal femora were obtained on a Faxitron MX20 equipped with an FPX-2 Imaging system .
+Representative radiographs of the distal femur of Sam68 + / + ( + / + ) and Sam68  /  (  /  ) mice revealed comparable radiopacity at 4 months ( left ) .
+At 12 months ( right ) , cortical thinning ( arrow ) and radiolucency ( asterisk ) were apparent in the distal femur of + / + mice but not  /  mice .
+( B ) Bones were dissected free of soft tissue and fixed overnight in 4 % paraformaldehyde before scanning on a Skyscan 1072 static instrument equipped with 3D Creator analytical software .
+Representative three-dimensional re-constructions and two-dimensional cross-sectional scans demonstrated similar architecture in the distal femur of Sam68 + / + ( + / + ) and Sam68  /  (  /  ) mice .
+In keeping with the results from Faxitron x-ray , trabecular bone ( asterisk ) and cortical thickness ( arrow ) were reduced in the femur of 12-month-old + / + mice compared with all other groups .
+The images are representative of those from five to seven animals in each group .
+Quantitative Micro-CT of Trabecular Bone Composition and Architecture .
+( A ) Bone volume/tissue volume ( BV/TV ) and structure model index ( SMI ) were calculated on the femur and fourth lumbar vertebra of six or seven mice in each group using 3D Creator software supplied with the Skyscan instrument .
+Results expressed as the mean  SD showed significant differences ( p < 0.01 ) between 4-month-old Sam68 + / + mice ( solid black ) and 12-month-old Sam68 + / + mice ( hatched black ) but not between 4-month-old Sam68  /  mice ( solid white ) and 12-month-old Sam68  /  mice ( stippled white ) .
+( B ) The distance between trabeculae was reflected in a shift to the right of the distribution curves for 12-month-old Sam68 + / + .
+Solid black = 4-month-old Sam68 + / + ; hatched black = 12-month-old Sam68 + / + ; solid red = 4-month-old Sam68  /  ; stippled red = 12-month-old Sam68  /  .
+The asterisks denote p < 0.01 .
+Histologic Analysis of Undecalcified Bone from Sam68 + / + and Sam68  /  Mice .
+Sections of tibia fixed in 4 % paraformaldehyde and embedded in plastic were stained for <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> ( A -- C , E -- G ) activity to identify osteoblasts or for TRAP ( B -- D , F -- H ) activity to identify osteoclasts .
+Staining patterns were similar in 4-month-old Sam68 + / + ( A and B ) , 4-month-old Sam68  /  ( C and D ) , and 12-month-old Sam68  /  ( G and H ) mice compared with 12-month-old Sam68 + / + mice ( E and F ) .
+Magnification at source , left panels  10 and right panels  40 .
+Micrographs are representative of those taken from five to seven sections in each group of animals .
+Ex Vivo Activity of Sam68 + / + and Sam68  /  Osteoblasts and Osteoclasts .
+Marrow stromal cells were isolated from the long bones of juvenile mice and maintained under conditions that <termsem="GO:0048518"> promote </term> osteoblast <termsem="GO:0030154"> differentiation </term> .
+( A ) Cultures were fixed in 4 % paraformaldehyde after 6 or 18 days and stained in situ for <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> activity and with silver nitrate ( von Kossa ) to detect <termsem="GO:0031214"> mineralized </term> nodules .
+Sam68  /  cultures stained more intensely for <termsem="GO:0004035"> <termsem="independent_continuant"> ALP </term> </term> at early and late time points and <termsem="GO:0032502"> produced </term> significantly more <termsem="GO:0031214"> mineralized </term> nodules after 18 days .
+Asterisks represent p < 0.01 .
+( B ) Primary osteoclasts were isolated from the crushed long bones of the same mice and plated on glass coverslips or on dentin slices to quantify numbers and activity , respectively .
+Osteoclasts were identified as cells with three or more nuclei that stained positive for TRAP activity ( upper ) and excavated pits in dentin slices , as demonstrated by SEM ( lower , bar = 20 m ) .
+No statistical differences were observed either in the number of TRAP-positive cells or in their <termsem="GO:0045453"> resorptive </term> activity .
+Ex Vivo Adipogenesis Analysis of Sam68  /  Mouse Embryonic Fibroblasts .
+MEFs were isolated from mouse embryos at embryonic day 14.5 .
+Equal number of MEFs from Sam68 + / + and Sam68  /  was plated on glass cover slips in 24 well-plates .
+Adipocyte <termsem="GO:0030154"> differentiation </term> was carried out at indicated times by the addition of complete media containing the pioglitazone .
+( A ) Cultures were fixed in 4 % paraformaldehyde and stained with Oil Red O to detect the fat droplets stored in adipocytes and photographed ( top ) .
+The cell images were magnified  10 and  20 as indicated .
+( B ) <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR was carried out on total cellular RNA isolated after <termsem="GO:0030154"> differentiation </term> of the MEFs for day 0 , 2 , 4 , 6 , and 12 .
+The DNA fragments were visualized on agarose gels stained with ethidium bromide .
+The <termsem="GO:0010467"> expression </term> of adipogenic markers C/EBP , C/EBP , PPAR , and KLF5 was examined as well as the <termsem="GO:0010467"> expression </term> of controls including Sam68 , -actin , and <termsem="GO:0008943"> <termsem="independent_continuant"> GAPDH </term> </term> .
+<termsem="GO:0048518"> Enhanced </term> <termsem="GO:0001503"> Osteogenic </term> <termsem="GO:0030154"> Differentiation </term> of the C3HT101/2 Embryonic Cell Line Depleted of Endogenous Sam68 .
+( A ) C3HT101/2 cells <termsem="GO:0009294"> transfected </term> with an empty vector ( pSuper-retro ) or a vector containing an shRNA ( Sam68 shRNA ) were selected with puromycin , and knockdown populations depleted of Sam68 were identified .
+The reduction in Sam68 protein was analyzed by immunoblotting with anti-Sam68 ( AD1 ) antibody and anti -- -actin antibodies as loading controls .
+( B ) <termsem="GO:0001503"> Osteogenic </term> <termsem="GO:0030154"> differentiation </term> was carried out with conditioned medium containing BMP-2 for the indicated times .
+To assess the level of <termsem="GO:0001503"> osteogenic </term> differentiation in these cells , <termsem="GO:0010467"> expression </term> of late osteoblast marker , osteocalcin ( OCN ) , was analyzed by <termsem="GO:0003964"> <termsem="GO:0006410"> <termsem="independent_continuant"> RT </term> </term> </term> - PCR and compared with -actin and <termsem="GO:0008943"> <termsem="independent_continuant"> GAPDH </term> </term> controls .
+The DNA fragments were visualized by agarose gel stained with ethidium bromide .
+Old Sam68  /  Mice Are Protected from the Development of Fatty Bone Marrow .
+Sections of undecalcified bone were stained with von Kossa and toluidine blue and images captured at original magnifications of  2 ( A ) ,  40 ( B and C ) to evaluate <termsem="GO:0031214"> mineralized </term> tissue ( A , black ) , marrow adipocytes ( B , white ) , and the <termsem="GO:0031214"> mineralization </term> fronts ( C , yellow and green ) .
+The 12-month-old Sam68 + / + bone demonstrated a significant reduction in bone ( A ) and increase in marrow adipocytes ( B ) and a decrease in the distance between two consecutive fluorochrome labels ( C ) .
+Magnification at source was  40 .
+Micrographs are representative of four to six screened in each group of animals .
+Progeny of Sam68 Heterozygote <termsem="GO:0007618"> Breeding </term> .
+Morphology and Bone Mineral Density in 4 - and 12-Month-Old Female Mice .
+Histomorphometric Analysis of Long Bones from 4 - and 12-Month-Old Mice .
+Competing interests .
+The authors have declared that no competing interests exist .
+Author contributions .
+SR and JEH conceived and designed the experiments .
+SR , NT , GVF , GAT , TC , GV , MM , PC , AFR , SK , WL , AL , and YJG performed the experiments .
+SR and JEH analyzed the data .
+MLT <termsem="GO:0000003"> generated </term> the mice .
+SR and JEH wrote the paper .
+A previous version of this article appeared as an Early Online Release on November 11 , 2005 ( DOI : 10.1371 / journal.pgen .0010074 .
+eor ) .
+Citation : Richard S , Torabi N , Franco GV , Tremblay GA , Chen T , et al. ( 2005 ) Ablation of the Sam68 <termsem="GO:0003723"> RNA binding </term> protein protects mice from age-related bone loss .
+PLoS Genet 1 ( 6 ) : e74 .

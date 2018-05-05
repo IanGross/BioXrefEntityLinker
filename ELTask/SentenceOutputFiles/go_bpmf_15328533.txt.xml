@@ -1,0 +1,201 @@
+<termsem="GO:0065007"> Regulation </term> of Muscle Fiber Type and Running Endurance by PPAR .
+Endurance exercise training can <termsem="GO:0048518"> promote </term> an <termsem="GO:0043500"> adaptive muscle fiber transformation </term> and an increase of mitochondrial <termsem="GO:0022607"> biogenesis </term> by triggering scripted changes in <termsem="GO:0010467"> gene expression </term> .
+However , no <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor </term> </term> has yet been identified that can <termsem="GO:0065007"> direct </term> this process .
+We describe the <termsem="GO:0000003"> engineering </term> of a mouse capable of continuous running of up to twice the distance of a wild-type littermate .
+This was achieved by targeted <termsem="GO:0010467"> expression </term> of an activated form of peroxisome proliferator-activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term>  ( PPAR ) in skeletal muscle , which <termsem="GO:0031128"> induces </term> a switch to <termsem="GO:0032502"> form </term> increased numbers of type I muscle fibers .
+Treatment of wild-type mice with PPAR <termsem="GO:0048018"> <termsem="independent_continuant"> agonist </term> </term> elicits a similar type I fiber <termsem="GO:0010467"> gene expression </term> profile in muscle .
+Moreover , these genetically <termsem="GO:0032502"> generated </term> fibers confer resistance to obesity with improved <termsem="GO:0008152"> metabolic </term> profiles , even in the absence of exercise .
+These results demonstrate that complex physiologic properties such as fatigue , endurance , and running capacity can be molecularly analyzed and manipulated .
+Skeletal muscle fibers are generally classified as type I ( oxidative/slow ) or type II ( <termsem="GO:0006096"> glycolytic </term> / fast ) fibers .
+They display marked differences in respect to <termsem="GO:0006936"> contraction </term> , <termsem="GO:0008152"> metabolism </term> , and susceptibility to fatigue .
+Type I fibers are mitochondria-rich and mainly use <termsem="GO:0045333"> oxidative metabolism </term> for energy production , which provides a stable and long-lasting supply of ATP , and thus are fatigue-resistant .
+Type II fibers comprise three subtypes , IIa , IIx , and IIb .
+Type IIb fibers have the lowest levels of mitochondrial content and oxidative enzymes , rely on <termsem="GO:0006096"> glycolytic metabolism </term> as a major energy source , and are susceptible to fatigue , while the oxidative and <termsem="GO:0006936"> contraction functions </term> of type IIa and IIx lie between type I and IIb ( Booth and Thomason 1991 ; Berchtold et al. 2000 ; Olson and Williams 2000 ) .
+Adult skeletal muscle shows plasticity and can undergo conversion between different fiber types in <termsem="GO:0050896"> response </term> to exercise training or <termsem="GO:0065007"> modulation </term> of motoneuron activity ( Booth and Thomason 1991 , Jarvis et al. 1996 ; Pette 1998 ; Olson and Williams 2000 ; Hood 2001 ) .
+This conversion of muscle fiber from type IIb to type IIa and type I is likely to be mediated by a <termsem="GO:0019722"> calcium signaling pathway </term> that involves calcineurin , <termsem="GO:0004683"> <termsem="independent_continuant"> calmodulin-dependent kinase </term> </term> , and the <termsem="GO:0003712"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> cofactor </term> </term> Peroxisome proliferator-activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> - gamma <termsem="GO:0003713"> <termsem="independent_continuant"> coactivator </term> </term> 1 ( PGC-1 ) ( Naya et al. 2000 ; Olson and Williams 2000 ; Lin et al. 2002 ; Wu et al. 2002 ) .
+However , the targeted <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> factors </term> </term> directly responsible for reprogramming the fiber-specific <termsem="GO:0006936"> contractile </term> and <termsem="GO:0008152"> metabolic </term> genes remain to be identified .
+Muscle fiber <termsem="GO:0007389"> specification </term> appears to be associated with obesity and diabetes .
+For instance , rodents that gain the most weight on high-fat diets possess fewer type I fibers ( Abou et al. 1992 ) .
+In obese patients , skeletal muscle has been observed to have reduced oxidative capacity , increased <termsem="GO:0006096"> glycolytic </term> capacity , and a decreased percentage of type I fibers ( Hickey et al. 1995 ; Tanner et al. 2002 ) .
+Similar observations have been made in type 2 diabetic patients ( Lillioja et al. 1987 ; Hickey et al. 1995 ) .
+Recently , it has been shown that increasing oxidative fibers can lead to improved insulin action and reduced adipocyte size ( Luquet et al. 2003 ; Ryder et al. 2003 ) .
+We have previously established that peroxisome proliferator-activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> ( PPAR )  is a major <termsem="GO:0030528"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> regulator </term> </term> of fat burning in adipose tissue through activation of enzymes associated with long-chain <termsem="GO:0006635"> fatty-acid -oxidation </term> ( Wang et al. 2003 ) .
+Although PPAR is the predominant PPAR isoform present in skeletal muscle , its in vivo function has not been determined .
+Our current study uncovers PPAR as the first <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor </term> </term> able to <termsem="GO:0048518"> drive </term> the formation of functional type I muscle fibers , whose activation entrains complex pathways both <termsem="GO:0048518"> enhancing </term> physical performance and creating a state of obesity resistance .
+Activation of PPAR Leads to Muscle Fiber Transformation .
+A role of PPAR in muscle fiber was suggested by its <termsem="GO:0048518"> enhanced </term> <termsem="GO:0010467"> expression </term> -- at levels 10-fold and 50-fold greater than PPAR and  isoforms , respectively ( unpublished data ) .
+An examination of PPAR in different muscle fibers reveals a significantly higher level in type I muscle ( soleus ) relative to type II -- rich muscle ( extensor digitorum longus ) or type I and type II mixed muscle ( gastrocnemius ) ( Figure 1A ) ; this <termsem="GO:0010467"> expression </term> pattern closely resembles that of PGC-1 ( Lin et al. 2002 ) .
+A similar pattern but with more pronounced differences was found at the protein level ( Figure 1B ) .
+To directly assess the role of activation of PPAR in <termsem="GO:0065007"> control </term> of muscle fiber plasticity and mitochondrial <termsem="GO:0022607"> biogenesis </term> , we <termsem="GO:0000003"> generated </term> mice <termsem="GO:0010467"> expressing </term> a transgene in which the 78-amino-acid VP16 activation domain was fused to the N-terminus of full-length PPAR , under <termsem="GO:0065007"> control </term> of the 2.2-kb human -skeletal actin promoter .
+In agreement with the previous characterization of this promoter ( Brennan and Hardeman 1993 ; Clapham et al. 2000 ) , the VP16-PPAR transgene was selectively <termsem="GO:0010467"> expressed </term> in skeletal muscle , with 10-fold less in the heart ( Figure 1C ) .
+Among different types of muscle fibers , the levels of VP16-PPAR <termsem="GO:0010467"> expression </term> appeared to be similar ( unpublished data ) .
+As shown in Figure 1D for gastrocnemius muscle , VP16-PPAR fusion protein was <termsem="GO:0009058"> produced </term> at a level similar to that of endogenous PPAR in wild-type littermates .
+Interestingly , the level of endogenous muscle PPAR protein in the transgenic mice was much higher than in the control littermates .
+The substantial increase of endogenous PPAR may have been caused by a switch to type I fiber ( see below ) , which intrinsically <termsem="GO:0010467"> expresses </term> higher levels of PPAR ( Figure 1A and 1B ) .
+Type I muscle can be readily distinguished from type II or mixed muscle by its red color , because of its high concentration of myoglobin , a protein typically <termsem="GO:0010467"> expressed </term> in oxidative muscle fibers .
+We found that muscles in the transgenic mice appeared redder ( Figure 2A ) , which is particularly evident in the mixed type I/II fibers of the hindlimb ( Figure 2B ) .
+Indeed , metachromatic staining revealed a substantial muscle fiber transformation ( Figure 2C ) .
+In gastrocnemius muscle , we estimated that there was a 2-fold increase of type I fibers .
+A diagnostic component of oxidative fibers is their high myoglobin and mitochondrial content , which is supported by the mRNA analysis shown in Figure 3A .
+In addition to myoglobin , mitochondrial components for <termsem="GO:0006118"> electron transfer </term> ( cytochrome c and <termsem="GO:0004129"> <termsem="independent_continuant"> cytochrome c oxidase </term> </term> [ <termsem="GO:0004129"> <termsem="independent_continuant"> COX </term> </term> ] II and IV ) and <termsem="GO:0006635"> fatty-acid -oxidation </term> enzymes were elevated ( Figure 3A ; unpublished data ) .
+These effects appear to be direct consequences of PPAR activation , as levels of PGC-1 , a <termsem="GO:0003713"> <termsem="independent_continuant"> coactivator </term> </term> involved in muscle fiber switch and mitochondrial <termsem="GO:0022607"> biogenesis </term> ( Wu et al. 1999 ; Lehman et al. 2000 ; Lin et al. 2002 ) , remained unchanged .
+Southern blot analysis detected a substantially higher copy number of the mitochondrial genome -- encoded COXII DNA in the transgenic mice ( Figure 3B ) .
+Mitochondrial DNA was increased 2.3-fold in gastrocnemius muscle of the transgenic mice ( Figure 3C ) .
+These results reveal a marked stimulation of mitochondrial <termsem="GO:0022607"> biogenesis </term> and further support the idea that there is a muscle fiber switch .
+This conclusion was also confirmed by Western blot analysis .
+As shown in Figure 3D , the characteristic type I fiber proteins , such as myoglobin and cytochrome c and b , were significantly increased .
+More importantly , the specialized <termsem="GO:0006936"> contraction </term> protein troponin I ( slow ) of type I fiber was robustly induced ; this was accompanied by a marked reduction of the specialized <termsem="GO:0006936"> contraction </term> protein troponin I ( fast ) of type II fiber , indicating a high degree of fiber transformation .
+We next examined whether acute activation of endogenous PPAR would induce similar target genes .
+In agreement with the chronic effects in the transgenic mice , we found that , after treatment of wild-type C57B6J mice with the PPAR-specific <termsem="GO:0048018"> <termsem="independent_continuant"> agonist </term> </term> GW501516 for only 10 d , genes for slow fiber <termsem="GO:0006936"> contractile </term> proteins , mitochondrial <termsem="GO:0022607"> biogenesis </term> , and <termsem="GO:0006635"> -oxidation </term> were all <termsem="GO:0048518"> upregulated </term> ( Figure 3E ) .
+This indicates that rapid , systematic , and coordinated changes of muscle fiber properties toward type I can be achieved by activation of the endogenous PPAR pathway .
+Muscle Fiber Switch by PPAR Protects Against Obesity .
+A number of previous studies have shown that obese individuals have fewer oxidative fibers , implying that the presence of oxidative fibers alone may play a part in obesity resistance .
+To test this possibility , we <termsem="GO:0007631"> fed </term> the transgenic mice and their wild-type littermates with a high-fat diet for 97 d. Although the initial body weights of the two groups were very similar , the transgenic mice had gained less than 50 % at day 47 , and only one-third at day 97 , of the weight gained by the wild-type animals ( Figure 4A ) .
+The transgenic mice displayed significantly higher oxygen consumption on the high-fat diet than the control littermates ( unpublished data ) .
+By the end of this experiment , the control littermates became obese , whereas the transgenic mice still maintained a normal body weight and fat mass composition ( Figure 4A ) .
+A histological analysis of inguinal fat pad revealed a much smaller cell size in the transgenic mice ( Figure 4B ) , due to the increased muscle oxidative capacity .
+While there was no significant difference in intramuscular glycogen content , the triglyceride content was much less in the transgenic mice ( Figure 4C and 4D ) , which may explain their improved glucose tolerance ( Figure 4E ) .
+We also placed wild-type C57BJ6 mice on the high-fat diet and treated them with either vehicle or the PPAR <termsem="GO:0048018"> <termsem="independent_continuant"> agonist </term> </term> GW501516 for 2 mo. .
+GW501516 produced a sustained induction of genes for type I muscle fibers ; this , at least in part , resulted in an only 30 % gain in body weight , a dramatically reduced fat mass accumulation , and improved glucose tolerance , compared to the vehicle-treated group ( Figure 5 ) .
+Thus , muscle fiber conversion by stimulation with the PPAR <termsem="GO:0048018"> <termsem="independent_continuant"> agonist </term> </term> or the activated transgene has a protective role against obesity .
+Activation of PPAR <termsem="GO:0048518"> Enhances </term> Physical Performance .
+Muscle oxidative capacity is a crucial factor for determining endurance and fatigue .
+Indeed , type I fibers <termsem="GO:0043500"> adaptively </term> <termsem="GO:0032502"> generated </term> through exercise training are considered to be fatigue resistant .
+However , whether the type I fibers <termsem="GO:0032502"> generated </term> molecularly via PPAR <termsem="GO:0010467"> expression </term> can contribute to <termsem="GO:0048518"> enhanced </term> performance in the absence of previous training is unclear .
+In fact , the consequence of genetically <termsem="GO:0031128"> induced </term> fiber switch on running capacity has to our knowledge never been evaluated .
+We thus compared exercise performance between untrained , body-weight-matched transgenic and wild-type littermates .
+Mice were run on oxygen-infused , enclosed treadmills until exhaustion .
+Strikingly , the running time and distance the transgenic mice were able to sustain were increased by 67 % and 92 % , respectively ( Figure 6A ; also see Videos S1 and S2 ) .
+The transgenic mice ran about 1 h longer than the controls , which translates to nearly a kilometer further .
+No significant differences in muscle mass ( unpublished data ) and daily activity ( total counts of activity per hour : 1618  209 for transgenic versus 1987  301 for wild-type , p > 0.35 , n = 4 ) were observed between the transgenic and control mice .
+Thus , the remarkable increase in endurance is the physiologic manifestation of muscle fiber transformation .
+This suggests that genetically <termsem="GO:0065007"> directed </term> muscle fiber switch is physiologically and functionally relevant .
+In addition , we looked at what effect the absence of PPAR function has on exercise endurance .
+In the treadmill test , the PPAR-null mice could sustain only 38 % of the running time and 34 % of the distance of their age - and weight-matched wild-type counterparts ( Figure 6B ) .
+These results further support a role for PPAR in <termsem="GO:0048518"> enhancement </term> of physical performance .
+Our data reveal that a PPAR-mediated <termsem="GO:0006350"> transcriptional pathway </term> can <termsem="GO:0065007"> regulate </term> muscle fiber <termsem="GO:0007389"> specification </term> , enabling the <termsem="GO:0000003"> generation </term> of a strain of mice with a `` long-distance running '' phenotype .
+We show that targeted <termsem="GO:0010467"> expression </term> of an activated form of PPAR produces profound and coordinated increases in oxidation enzymes , mitochondrial <termsem="GO:0022607"> biogenesis </term> , and production of specialized type I fiber <termsem="GO:0006936"> contractile </term> proteins -- the three hallmarks for muscle fiber type switching ( Figure 6C ) .
+While induction of muscle oxidation enzymes by PPAR has been seen both in vivo and in vitro ( Muoio et al. 2002 ; Dressel et al. 2003 ; Luquet et al. 2003 ; Tanaka et al. 2003 ; Wang et al. 2003 ) , its effects shown here on muscle fiber switching are unexpected .
+These progressive changes in oxidative capacity in conjunction with eventual changes in type I muscle fiber lead to a dramatically improved exercise profile and protection against obesity .
+This does not solely depend on achieving a <termsem="GO:0065007"> directed </term> muscle fiber type switch but also requires all the associated changes in neural innervation , <termsem="GO:0050879"> motor </term> neuron function , and peripheral <termsem="GO:0008152"> metabolic </term> <termsem="GO:0051866"> adaptation </term> to enable a new integrated <termsem="GO:0050896"> physiological response </term> .
+Accordingly , activation of muscle PPAR essentially recapitulates the effects of exercise training even in the absence of training itself .
+To our knowledge , this has not been directly described for any other <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> factor </term> </term> .
+The muscle phenotypes described here are remarkably similar to those of transgenic mice <termsem="GO:0010467"> expressing </term> either calcineurin , <termsem="GO:0004683"> <termsem="independent_continuant"> calmodulin-dependent kinase </term> </term> , or PGC-1 ( Naya et al. 2000 ; Lin et al. 2002 ; Wu et al. 2002 ) , indicating that PPAR could be one of the hypothetical downstream <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factors </term> </term> of these pathways .
+It is important to note that , from our ligand and gain-of-function transgenic studies , PPAR needs to be activated in order to <termsem="GO:0065007"> direct </term> the muscle fiber switch .
+Indeed , in a recent report by Luquet et al. ( 2003 ) , simple overexpression of wild-type PPAR in muscle was found not to be sufficient to <termsem="GO:0048518"> promote </term> a fiber switch or obesity resistance , although certain oxidation enzymes were increased .
+This supports the model in Figure 6C that the activating signal or ligand , but not the <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> , is limiting .
+Thus , PPAR activation , rather than merely an increase of PPAR levels , is an essential element for fiber switching and its associated functional manifestations .
+How might endogenous PPAR become activated naturally by exercise training ?
+First , it is possible that exercise <termsem="GO:0009058"> generates </term> or increases endogenous ligands for PPAR as tissues are undergoing substantial increases in fatty-acid internalization and burning .
+Fatty acids and their metabolites can activate PPAR .
+A second model is that exercise may induce <termsem="GO:0010467"> expression </term> of PGC-1 ( Goto et al. 2000 ) and thereby activate PPAR .
+This is consistent with previous work in which we have shown that PGC-1 physically associates with PPAR in muscle tissue and can powerfully activate it even in the absence of ligands ( Wang et al. 2003 ) .
+Alternatively , PPAR may be activated by a distal upstream <termsem="GO:0007165"> signaling </term> component such as a <termsem="GO:0007243"> <termsem="GO:0016301"> <termsem="independent_continuant"> kinase </term> </term> cascade </term> .
+Further dissecting the interactions between PPAR and its <termsem="GO:0065007"> regulatory </term> components will be necessary to fully understand the molecular basis of muscle fiber determination pertinent to exercise training .
+Skeletal muscle is a major site to <termsem="GO:0065007"> regulate </term> whole-body fatty-acid and <termsem="GO:0006006"> glucose metabolism </term> .
+We show that mice with increased oxidative fibers are resistant to high-fat-induced obesity and glucose intolerance .
+Moreover , ligand studies provide compelling evidence that activation of endogenous PPAR can produce similar effects .
+Might PPAR have any beneficial effects on <termsem="GO:0006006"> glucose metabolism </term> in the lean condition ?
+This has not been explored ; however , insulin resistance in the elderly is confined mostly to skeletal muscle and may be due to reduction of mitochondrial number and/or function ( Petersen et al. 2003 ) .
+The ability of PPAR to stimulate mitochondrial <termsem="GO:0022607"> biogenesis </term> and oxidative function suggests that PPAR could be important for <termsem="GO:0065007"> control </term> of insulin resistance during normal <termsem="GO:0007568"> aging </term> .
+Together , these data indicate that PPAR and its ligands comprise a key molecular switch to <termsem="GO:0065007"> regulate </term> muscle fiber <termsem="GO:0007389"> specification </term> , obesity resistance , insulin sensitivity , and , most surprisingly , physical endurance .
+This work demonstrates that complex physiologic properties such as fatigue , endurance , and running capacity can be genetically manipulated .
+Animals .
+The transactivation domain ( 78 amino acid residues , corresponding to residues 413 -- 490 ) of VP16 was fused in frame with the N-terminus of mouse PPAR .
+The VP16-PPAR fusion cDNA was placed downstream of the human -skeletal actin promoter ( Brennan and Hardeman 1993 ) , and upstream of the SV40 intron/poly ( A ) sequence .
+The transgene was purified and injected into C57BL/6J  CBA F1 zygotes .
+Transgenic mice were backcrossed with C57BL/6J for two generations .
+Wild-type littermates were used as controls throughout the study .
+On normal chow diet , the transgenic mice and control littermates used here had similar body weights .
+PPAR-null mice were previously <termsem="GO:0000003"> generated </term> ( Barak et al. 2002 ) .
+Mice were <termsem="GO:0007631"> fed </term> either a standard chow with 4 % ( w/w ) fat content ( Harlan Teklad , Harlan , Indianapolis , Indiana , United States ) or a high-fat diet containing 35 % ( w/w ) fat content ( product F3282 , Bioserv , Frenchtown , New Jersey , United States ) as indicated .
+For ligand experiments , we <termsem="GO:0009058"> synthesized </term> the GW501516 compound and mice were orally gavaged daily ( 10 mg/kg or vehicle alone ) .
+<termsem="GO:0010467"> Gene expression </term> analysis and physiological studies .
+Mouse EST clones were obtained from ATCC ( Manassas , Virginia , United States ) , verified by sequencing , and used as Northern probes .
+Antibodies were obtained from Santa Cruz Biotechnology ( Santa Cruz , California , United States ) .
+Total muscle protein extracts ( Lin et al. 2002 ) and nuclear proteins ( Wang et al. 2003 ) were prepared as described .
+Prior to the exercise performance test , the mice were accustomed to the treadmill ( Columbus Instruments , Columbus , Ohio , United States ) with a 5-min run at 7 m/min once per day for 2 d .
+The exercise test regimen was 10 m/min for the first 60 min , followed by 1 m/min increment increases at 15-min intervals .
+Exhaustion was defined when mice were unable to avoid repetitive electrical shocks .
+Muscle fiber typing and mitochondrial DNA isolation .
+Muscle fiber typing was essentially performed using metachromatic dye -- <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> methods as described ( Ogilvie and Feeback 1990 ) .
+Muscle mitochondria were isolated ( Scholte et al. 1997 ) .
+Mitochondrial DNA was prepared and analyzed on 1 % agarose gel .
+Number of mice for each group used in experiments is indicated in figure legends .
+Values are presented as mean  SEM .
+A two-tailed Student 's t test was used to calculate p-values .
+Beginning of Running Test .
+This video shows the exercise performance of a representative of the transgenic mice ( right chamber ) and a representative of wild-type control littermates ( left chamber ) on the treadmill 15 min into the exercise challenge .
+( 52.4 MB MOV ) .
+Click here for additional data file .
+Running Test 90 Min Later .
+This video shows the exercise performance of a representative of the transgenic mice ( right chamber ) and a representative of wild-type control littermates ( left chamber ) on the treadmill 90 min into the exercise challenge .
+( 41.7 MB MOV ) .
+Click here for additional data file .
+We thank Dr. M. Downes for providing the -skeletal actin promoter ; Dr. G. D. Barish for comments on the manuscript ; M.A. Lawrence for histology ; Dr. S. Pfaff for the use of microscopes and photographic equipment ; M. Lieberman and K.L. Schnoeker for photography ; J.M. Shelton for advice on fiber staining ; and E. Stevens and E. Ong for administrative assistance .
+YXW was supported by a postdoctoral fellowship from California Tobacco-Related Disease Research Program .
+JH was supported by the BK21 program , Ministry of Education , Korea .
+HK was supported by grant M1 -- 0311-00 -- 0145 from the Molecular and Cellular BioDiscovery Research Program , Ministry of Science and Technology , Korea .
+RME is an Investigator of the Howard Hughes Medical Institute at the Salk Institute for Biological Studies and March of Dimes Chair in Molecular and <termsem="GO:0032502"> Developmental </term> Biology .
+This work was supported by the Howard Hughes Medical Institute and the Hillblom Foundation .
+<termsem="GO:0004129"> <termsem="independent_continuant"> COX </term> </term> - <termsem="GO:0004129"> <termsem="independent_continuant"> cytochrome c oxidase </term> </term> .
+mCPT1 - muscle <termsem="GO:0004095"> <termsem="independent_continuant"> carnitine palmitoyltransferase </term> </term> -1 .
+PGC-1 - Peroxisome proliferator-activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> - gamma <termsem="GO:0003713"> <termsem="independent_continuant"> coactivator </term> </term> 1 .
+PPAR - peroxisome proliferator-activated <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> .
+UCP - uncoupling protein .
+<termsem="GO:0010467"> Expression </term> of Endogenous PPAR and VP16-PPAR Transgene in Muscle .
+( A ) Pooled RNA isolated from various muscles of five wild-type male C57B6 mice was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> with indicated probes .
+EDL , extensor digitorum longus ; Gastro , gastrocnemius .
+( B ) Pooled nuclear proteins ( 15 g/lane ) isolated from muscles of five wild-type male C57B6 were probed with anti-PPAR antibody .
+RNA polymerase II ( Pol II ) is shown as a loading control .
+( C ) <termsem="GO:0010467"> Expression </term> of the VP16-PPAR transgene in various tissues .
+10 g of total RNA from each tissue was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridized </term> </term> with a VP16 cDNA probe .
+Gastrocnemius muscle was used here .
+( D ) Nuclear proteins ( 15 g/lane ) isolated from gastrocnemius muscle of the transgenic mice ( TG ) and the wild-type littermates ( WT ) were probed with indicated antibodies .
+The upper , nonspecific band that cross-reacted with the anti-PPAR antibody serves a loading control .
+Increased Oxidative Type I Fibers in the Transgenic Mice .
+( A and B ) Muscles in transgenic mice ( TG ) are redder than those in wild-type mice ( WT ) .
+( C ) Metachromatic staining of the type II plantaris muscle .
+Type I fibers are stained dark blue .
+Activation of PPAR Induces Genes Typical for Type I Fibers and <termsem="GO:0048518"> Promotes </term> Mitochondrial <termsem="GO:0022607"> Biogenesis </term> .
+( A ) Total RNA ( 10 g/lane ) prepared from gastrocnemius muscle of transgenic ( TG ) and wild-type ( WT ) littermates was probed with indicated probes .
+The fold increase of induction of each gene is shown .
+( B ) Total genomic DNA ( 10 g/lane ) prepared from gastrocnemius muscle was <termsem="GO:0009056"> digested </term> with Nco1 and subjected to Southern analysis with COXII ( mitochondrial genome -- encoded ) and MCIP1 ( nuclear genome -- encoded ) DNA probes .
+( C ) Equal amounts of gastrocnemius muscle were collected from both transgenic mice and control littermates .
+Total mitochondrial DNA was isolated and separated on 1 % agarose gel .
+The relative abundance of mitochondrial DNA in transgenic and wild-type mice is presented .
+( D ) Western blot analysis of muscle fiber markers and mitochondrial components .
+Each lane was loaded with 80 g of total gastrocnemius muscle extracts .
+( E ) Wild-type C57B6 mice were treated with vehicle or PPAR <termsem="GO:0048018"> <termsem="independent_continuant"> agonist </term> </term> GW501516 for 10 d. Total RNA ( 10 g/lane ) prepared from the gastrocnemius muscle was probed with indicated probes .
+Resistance to High-Fat-Induced Obesity in the Transgenic Mice .
+( A ) Seven-week-old transgenic ( TG ) and wild-type ( WT ) littermates ( n = 5 -- 6 for each group ) were <termsem="GO:0007631"> fed </term> with a high-fat diet for 97 d. Left panel shows net body weight gain , which was calculated for individual mice and then averaged .
+Right panel shows the body weights before ( Day 0 ) and after ( Day 97 ) high-fat <termsem="GO:0007631"> feeding </term> .
+( B ) Histology of inguinal fat pad in the transgenic and wild-type littermates under a high-fat diet for 2 mo. ( C and D ) Intramuscular glycogen content ( C ) and triglyceride content ( D ) of mice in ( A ) after high-fat <termsem="GO:0007631"> feeding </term> ( n = 6 ) .
+( E ) Glucose tolerance test .
+Mice in ( A ) after high-fat <termsem="GO:0007631"> feeding </term> were fasted for 6 h and then injected with glucose at a concentration of 1g/kg body weight .
+Then blood glucose levels were measured periodically over 2 h ( n = 6 ) .
+PPAR <termsem="GO:0048018"> <termsem="independent_continuant"> Agonists </term> </term> Counteract Obesity Induced by High-Fat Diet .
+( A ) Eleven-week-old wild-type C57B6 mice were <termsem="GO:0007631"> fed </term> a high-fat diet in combination with vehicle or GW501516 for 57 d. Total RNA ( 10 g/lane ) prepared from the gastrocnemius muscle was probed with indicated probes .
+( B ) Net body weight gain for mice in ( A ) after treatment was calculated for individual mice and averaged .
+Initial body weights were 28.54  1.04 g for vehicle group ( n = 5 ) and 28.86  0.80 g for GW501516 group ( n = 5 ) .
+( C ) Various tissue weights for mice in ( A ) after treatment .
+ifat , inguinal fat ; rdfat , <termsem="GO:0000003"> reproductive </term> fat ; retrofat , retroperitoneal fat .
+( D ) Glucose tolerance test .
+Mice in ( A ) after treatment were fasted for 6 h and then injected with glucose at a concentration of 1g/kg body weight .
+Blood glucose levels were then measured periodically over 2 h. PPAR <termsem="GO:0065007"> Regulates </term> Exercise Endurance .
+( A ) <termsem="GO:0048518"> Enhanced </term> exercise performance in the transgenic mice .
+Fourteen-week-old male transgenic and wild-type littermates with similar body weights ( n = 4 for each group ) were subjected to a forced treadmill exercise test .
+( B ) Compromised exercise performance in PPAR-null mice .
+Two-month-old male PPAR-null mice and wild-type controls with similar body weights ( n = 6 for each group ) were subjected to a forced treadmill exercise test .
+( C ) Functions of PPAR in skeletal muscle .
+Conflicts of interest .
+The authors have declared that no conflicts of interest exist .
+Author contributions .
+YXW and RME conceived and designed the experiments .
+YXW , CLZ , RTY , MCN , and CRBO performed the experiments .
+YXW , CLZ , and RME analyzed the data .
+HKC , JH , and HK contributed reagents/materials/analysis tools .
+YXW and RME wrote the paper .
+Academic Editor : Steve O'Rahilly , University of Cambridge .
+Citation : Wang YX , Zhang CL , Yu RT , Cho HK , Nelson MC , et al. ( 2004 ) <termsem="GO:0065007"> Regulation </term> of muscle fiber type and running endurance by PPAR .
+PLoS Biol 2 ( 10 ) : e294 .

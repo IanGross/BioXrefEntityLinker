@@ -1,0 +1,3018 @@
+# ::snt Identification of collagen-induced arthritis loci in aged multiparous female mice .
+# ::tok Identification of collagen-induced arthritis loci in aged multiparous female mice .
+# ::alignments 9-10|0.1 8-9|0.1.0 7-8|0.2 6-7|0 4-5|0.0 3-4|0.0.0 2-3|0.0.1 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:23.367
+(a / age-01 
+      :ARG0 (l / locus 
+            :mod (a2 / arthritis) 
+            :mod (c / collagen-induc) 
+            :mod-of (i / identification)) 
+      :ARG1 (m / mouse 
+            :mod (f / female)) 
+      :ARG2 (m2 / multiparou))
+
+# ::snt Collagen-induced arthritis in mice is one of the most commonly used autoimmune experimental models , with many similarities to rheumatoid arthritis .
+# ::tok Collagen-induced arthritis in mice is one of the most commonly used autoimmune experimental models , with many similarities to rheumatoid arthritis .
+# ::alignments 20-21|0.0.0.0 19-20|0.0.0.0.0 17-18|0.0.0 16-17|0.0.0.1 13-14|0.0.0.1.0.0 12-13|0.0.0.1.0 11-12|0.0.0.1.0.0.1 10-11|0.0.0.1.0.0.0 9-10|0.0.0.1.0.0.0.0 8-9|0.0.0.1.0.0.0.0.0 3-4|0.0 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:24.405
+(a3 / arthritis 
+      :location (m4 / mouse 
+            :ARG1-of (s / similar-00 
+                  :ARG2 (a / arthritis 
+                        :mod (r / rheumatoid)) 
+                  :quant (m / many 
+                        :ARG1-of (e / experiment-01 
+                              :mod-of (m2 / model 
+                                    :ARG1-of (u / use-01 
+                                          :mod (c / common 
+                                                :degree (m3 / most))) 
+                                    :mod (a2 / autoimmune)))))) 
+      :mod (c2 / collagen-induc))
+
+# ::snt Since collagen-induced arthritis is a complex polygenic disease there is a need for identification of several major disease-controlling genes .
+# ::tok Since collagen-induced arthritis is a complex polygenic disease there is a need for identification of several major disease-controlling genes .
+# ::alignments 18-19|0.0.0.0.0.0 17-18|0.0.0.0.0.0.1 16-17|0.0.0.0.0.0.0 15-16|0.0.0.0.0.0.2 13-14|0.0.0.0.0 11-12|0.0.0.0.0.1 7-8|0.0.0 6-7|0.0.0.0 5-6|0.0.0.1 2-3|0.0 1-2|0 0-1|0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:25.003
+(c2 / collagen-induc 
+      :mod-of (a / arthritis 
+            :domain-of (d2 / disease 
+                  :mod (p / polygenic 
+                        :ARG2-of (i / identify-02 
+                              :ARG1 (g / gene 
+                                    :ARG1-of (m / major-02 
+                                          :ARG2 (s2 / since)) 
+                                    :mod (d / disease-controll) 
+                                    :quant (s / several)) 
+                              :ARG1-of (n / need-01))) 
+                  :mod (c / complex))))
+
+# ::snt Because rheumatoid arthritis particularly affects aged women , we have in the present study identified new genetic regions critical for collagen-induced arthritis by studying aged female mice of a cross between NFR/N and B10.Q ( H-2q haplotype ) .
+# ::tok Because rheumatoid arthritis particularly affects aged women , we have in the present study identified new genetic regions critical for collagen-induced arthritis by studying aged female mice of a cross between NFR/N and B10.Q ( H-2q haplotype ) .
+# ::alignments 36-37|0.0.2.1 33-34|0.2.0.0+0.2.0+0.2 32-33|0 31-32|0.1.1.0+0.1.1+0.1 29-30|0.1.0 26-27|0.0.2.0.0.0.0 25-26|0.0.2.0.0.0.0.0 24-25|0.0.2.0.0.0 23-24|0.0.2.0.0 21-22|0.0.0.0.0 20-21|0.0.0.0.0.0 18-19|0.0.0.0 17-18|0.0.0 16-17|0.0.1.0.1.0.0 15-16|0.0.0.1 14-15|0.0 13-14|0.0.2 12-13|0.0.2.2 8-9|0.0.2.0 6-7|0.0.1.0.1 5-6|0.0.1.0.1.0 4-5|0.0.1.0 3-4|0.0.1.0.2 2-3|0.0.1.0.0 1-2|0.0.1.0.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:26.917
+(a / and 
+      :manner-of (i / identify-01 
+            :ARG1 (r / region 
+                  :ARG1-of (c3 / critical-02 
+                        :beneficiary (a3 / arthritis 
+                              :mod (c2 / collagen-induc))) 
+                  :mod (n3 / new)) 
+            :ARG1-of (c4 / cause-01 
+                  :ARG0 (a5 / affect-01 
+                        :ARG0 (a6 / arthritis 
+                              :mod (r2 / rheumatoid)) 
+                        :ARG1 (w2 / woman 
+                              :ARG1-of (a4 / age-01 
+                                    :ARG0 (g / gene))) 
+                        :manner (p4 / particular))) 
+            :manner (s2 / study-01 
+                  :ARG0 (w / we 
+                        :ARG0-of (s / study-01 
+                              :ARG1 (a2 / age-01 
+                                    :ARG1 (m / mouse 
+                                          :mod (f / female))))) 
+                  :ARG1 (h / haplotype) 
+                  :time (p3 / present))) 
+      :op1 (p2 / person 
+            :ARG0-of (c / cross-02) 
+            :name (n2 / name 
+                  :op1 "NFR/N")) 
+      :op2 (p / person 
+            :name (n / name 
+                  :op1 "B10.Q")))
+
+# ::snt The mice in the present study had different reproductive histories , which did not significantly affect the onset , incidence or severity of the disease .
+# ::tok The mice in the present study had different reproductive histories , which did not significantly affect the onset , incidence or severity of the disease .
+# ::alignments 24-25|0.0.3 21-22|0 20-21|0.0 19-20|0.0.2 17-18|0.0.1 15-16|0.0.0 14-15|0.0.0.2 13-14|0.0.0.3 9-10|0.0.0.0 8-9|0.0.0.0.1 7-8|0.0.0.0.0 5-6|0.0.0.1 4-5|0.0.0.1.0 1-2|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:27.873
+(s / severity 
+      :op3-of (o / or 
+            :ARG1-of (a / affect-01 
+                  :ARG0 (h / history 
+                        :ARG1-of (d2 / differ-02 
+                              :ARG0 (m / mouse)) 
+                        :mod (r / reproductive)) 
+                  :ARG1-of (s3 / study-01 
+                        :time (p / present)) 
+                  :ARG2 (s2 / significant-02) 
+                  :polarity -) 
+            :op1 (o2 / onset) 
+            :op2 (i / incidence) 
+            :poss (d / disease)))
+
+# ::snt A total of 200 female mice were used in a total genome-wide screening with 125 microsatellite markers .
+# ::tok A total of 200 female mice were used in a total genome-wide screening with 125 microsatellite markers .
+# ::alignments 16-17|0.0 15-16|0.0.0 14-15|0.0.1 12-13|0 10-11|0.1 7-8|0.2 5-6|0.2.0.0 4-5|0.2.0.0.0 3-4|0.2.0.1 1-2|0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:27.954
+(s / screen-01 
+      :ARG2 (m / marker 
+            :mod (m2 / microsatellite) 
+            :quant 125) 
+      :ARG2-of (t / total-01) 
+      :ARG2-of (u / use-01 
+            :ARG1 (t2 / total-01 
+                  :ARG1 (m3 / mouse 
+                        :mod (f / female)) 
+                  :ARG2 200)))
+
+# ::snt We found one new significant quantitative trait locus affecting the arthritis incidence , severity and day of onset on chromosome 11 ( denoted Cia40 ) , which colocalizes with a locus controlling pregnancy failure .
+# ::tok We found one new significant quantitative trait locus affecting the arthritis incidence , severity and day of onset on chromosome 11 ( denoted Cia40 ) , which colocalizes with a locus controlling pregnancy failure .
+# ::alignments 33-34|0 32-33|0.2 31-32|0.1 30-31|0.1.0 23-24|0.0.2.0.0.0+0.0.2.0.0+0.0.2.0 22-23|0.0.2 20-21|0.0.1.1.0 19-20|0.0.1.0.1 17-18|0.0.1.0.0.1.0 15-16|0.0.1.0.0.2 14-15|0.0.1.0.0 13-14|0.0.1.0.0.1 11-12|0.0.1.0.0.0 10-11|0.0.1.0.0.0.0 8-9|0.0.1.0 7-8|0.0.1 6-7|0.0.1.3 5-6|0.0.1.4 4-5|0.0.1.1 3-4|0.0.1.2 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:30.177
+(f / fail-01 
+      :ARG1 (f2 / find-01 
+            :ARG0 (w / we) 
+            :ARG1 (l2 / locu 
+                  :ARG0-of (a3 / affect-01 
+                        :ARG1 (a / and 
+                              :op1 (i / incidence 
+                                    :mod (a2 / arthritis)) 
+                              :op2 (s / severity 
+                                    :poss (o / onset)) 
+                              :op3 (d2 / day)) 
+                        :ARG2 (c2 / chromosome)) 
+                  :ARG1-of (s2 / significant-02 
+                        :ARG0 11) 
+                  :mod (n2 / new) 
+                  :mod (t2 / trait) 
+                  :mod (q / quantitative)) 
+            :ARG2-of (d / denote-01 
+                  :ARG1 (t / thing 
+                        :name (n / name 
+                              :op1 "Cia40")))) 
+      :ARG1-of (c / control-01 
+            :ARG0 (l / locu)) 
+      :ARG2 (p / pregnancy))
+
+# ::snt Furthermore , a quantitative trait locus of suggestive significance associated with the incidence , severity and day of onset was identified on chromosome 1 .
+# ::tok Furthermore , a quantitative trait locus of suggestive significance associated with the incidence , severity and day of onset was identified on chromosome 1 .
+# ::alignments 23-24|0.0.0.1 22-23|0.0.1 20-21|0.0 18-19|0 16-17|0.0.0.3.0.0.1 15-16|0.0.0.3.0.0 14-15|0.0.0.3.0.0.0 12-13|0.0.0.3.0.1 9-10|0.0.0.3.0 8-9|0.0.0 7-8|0.0.0.2 5-6|0.0.0.3 4-5|0.0.0.3.1 3-4|0.0.0.3.2 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:30.804
+(o / onset 
+      :ARG0-of (i / identify-01 
+            :ARG1 (s2 / significant-02 
+                  :ARG0 (f / furthermore) 
+                  :ARG1 1 
+                  :mod (s3 / suggestive) 
+                  :mod-of (l / locu 
+                        :ARG1-of (a2 / associate-01 
+                              :ARG0 (a / and 
+                                    :op1 (s / severity) 
+                                    :op2 (d / day)) 
+                              :ARG2 (i2 / incidence)) 
+                        :mod (t / trait) 
+                        :mod (q / quantitative))) 
+            :ARG2 (c / chromosome)))
+
+# ::snt Finally , a suggestively significant quantitative trait locus associated with collagen type II antibody titers was identified on chromosome 13 .
+# ::tok Finally , a suggestively significant quantitative trait locus associated with collagen type II antibody titers was identified on chromosome 13 .
+# ::alignments 19-20|0.0.0.0.0 18-19|0.0.0.1.0 16-17|0.0.0.1 14-15|0.0.0.0.1 13-14|0.0.0.1.0.0.1.0 12-13|0.0.0.1.0.0.1.2+0.0.0.1.0.0.1.1.2+0.0.0.1.0.0.1.1.1+0.0.0.1.0.0.1.1.0+0.0.0.1.0.0.1.1+0.0.0.1.0.0.1 11-12|0.0.0.1.0.0 10-11|0.0.0.1.0.0.0 8-9|0.0.0.0 7-8|0.0.0 6-7|0.0.0.2 5-6|0.0.0.3 4-5|0.0 3-4|0 0-1|0.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:31.118
+(s2 / suggestively 
+      :mod-of (s / significant-02 
+            :ARG1 (l / locu 
+                  :ARG1-of (a2 / associate-01 
+                        :ARG0 13 
+                        :ARG2 (t / titer)) 
+                  :ARG1-of (i / identify-01 
+                        :ARG2 (c / chromosome 
+                              :mod-of (t2 / type 
+                                    :mod (c2 / collagen) 
+                                    :mod (w / war 
+                                          :mod-of (a / antibody) 
+                                          :name (n / name 
+                                                :op1 "World" 
+                                                :op2 "War" 
+                                                :op3 "II") 
+                                          :wiki "World_War_II"))) 
+                        :time (f / final)) 
+                  :mod (t3 / trait) 
+                  :mod (q / quantitative))))
+
+# ::snt This study indicates that several gene loci control arthritis in aged multiparous females , and that at least one of these loci coincides with pregnancy failure .
+# ::tok This study indicates that several gene loci control arthritis in aged multiparous females , and that at least one of these loci coincides with pregnancy failure .
+# ::alignments 25-26|0.2.3.0.0.0 24-25|0.2.3.0.0.0.0 22-23|0.2.3.0 21-22|0.2.3.0.0 20-21|0.2.3.0.0.1 14-15|0.2.3 12-13|0.0 11-12|0.1 10-11|0 8-9|0.2.1 7-8|0.2 6-7|0.2.0 5-6|0.2.0.0 4-5|0.2.0.1 2-3|0.2.2 1-2|0.2.2.0 0-1|0.2.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:31.475
+(a2 / age-01 
+      :ARG1 (f2 / female) 
+      :ARG2 (m / multiparou) 
+      :ARG2-of (c2 / control-01 
+            :ARG0 (l2 / locus 
+                  :mod (g / gene) 
+                  :quant (s / several)) 
+            :ARG1 (a3 / arthritis) 
+            :ARG1-of (i / indicate-01 
+                  :ARG0 (s2 / study-01 
+                        :mod (t2 / this))) 
+            :op1-of (a / and 
+                  :op2 (c / coincide-01 
+                        :ARG0 (l / locus 
+                              :ARG0-of (f / fail-01 
+                                    :ARG2 (p / pregnancy)) 
+                              :mod (t / this))))))
+
+# ::snt The similarities between rheumatoid arthritis ( RA ) in man and collagen-induced arthritis ( CIA ) in mice are well established , although differences in the disease pattern exist [ 1-3 ] .
+# ::tok The similarities between rheumatoid arthritis ( RA ) in man and collagen-induced arthritis ( CIA ) in mice are well established , although differences in the disease pattern exist [ 1-3 ] .
+# ::alignments 28-29|0.2 27-28|0.2.1.1 26-27|0.2.1.1.0 23-24|0.2.1 20-21|0 17-18|0.2.1.0 14-15|0.2.0.1+0.2.0.0.0+0.2.0.0+0.2.0 12-13|0.1.1.0.0 11-12|0.1.1.0.0.0 10-11|0.1.1.0 9-10|0.1.1 6-7|0.0.0.0+0.0.0+0.0 4-5|0.1.0 3-4|0.1.0.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:32.094
+(e2 / establish-01 
+      :ARG0 (o / organization 
+            :name (n2 / name 
+                  :op1 "RA")) 
+      :ARG1 (s / similar-00 
+            :ARG0 (a3 / arthritis 
+                  :mod (r / rheumatoid)) 
+            :ARG1 (m2 / man 
+                  :op1-of (a2 / and 
+                        :op2 (a / arthritis 
+                              :mod (c / collagen-induc))))) 
+      :condition (e / exist-01 
+            :ARG0 (g / government-organization 
+                  :name (n / name 
+                        :op1 "CIA") 
+                  :wiki "Central_Intelligence_Agency") 
+            :ARG1 (d2 / differ-01 
+                  :ARG1 (m / mouse) 
+                  :ARG2 (p / pattern 
+                        :mod (d / disease)))))
+
+# ::snt Characteristic of RA is the fact that women of reproductive age are more susceptible to the disease than men [ 4 ] .
+# ::tok Characteristic of RA is the fact that women of reproductive age are more susceptible to the disease than men [ 4 ] .
+# ::alignments 20-21|0.2 18-19|0.1 16-17|0.4.0.1 13-14|0.4.0 12-13|0.4.0.0 10-11|0 9-10|0.3 7-8|0.4 5-6|0.0 2-3|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:32.251
+(a / age-01 
+      :ARG0 (f / fact 
+            :domain (c / characteristic 
+                  :poss (o / organization 
+                        :name (n / name 
+                              :op1 "RA")))) 
+      :ARG1 (m / man) 
+      :ARG2 4 
+      :mod (r / reproductive) 
+      :time-of (w / woman 
+            :domain-of (s / susceptible 
+                  :degree (m2 / more) 
+                  :op1 (d / disease))))
+
+# ::snt It has also been reported that 75 % of female patients ( 23 out of 31 females ) with RA exhibit clinical remission during the course of pregnancy [ 5 ] .
+# ::tok It has also been reported that 75 % of female patients ( 23 out of 31 females ) with RA exhibit clinical remission during the course of pregnancy [ 5 ] .
+# ::alignments 29-30|0.3.0.1.0 27-28|0.2 22-23|0.1.0 21-22|0.1.0.0 20-21|0 19-20|0.1.1.0+0.1.1+0.1 16-17|0.3.0.0.0 15-16|0.3.0.0.0.0 12-13|0.0 10-11|0.3.0.0.1+0.3.0.0+0.3.0 9-10|0.3 7-8|0.3.0.1 6-7|0.3.0.1.1 4-5|0.4 2-3|0.4.1 0-1|0.4.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:33.338
+(e / exhibit-01 
+      :ARG0 23 
+      :ARG1 (o / organization 
+            :mod-of (r / remission 
+                  :mod (c / clinical)) 
+            :name (n / name 
+                  :op1 "RA")) 
+      :ARG2 (p / pregnancy) 
+      :op1-of (f2 / female 
+            :mod-of (p2 / person 
+                  :ARG0-of (h / have-rel-role-91 
+                        :ARG1 (f / female 
+                              :quant 31) 
+                        :ARG2 (p3 / patient)) 
+                  :quant (p4 / percentage-entity 
+                        :value 5 
+                        :value 75))) 
+      :purpose (r2 / report-01 
+            :ARG1 (i / it) 
+            :mod (a / also)))
+
+# ::snt On the other hand , it has been suggested that the onset of RA is postponed by parity .
+# ::tok On the other hand , it has been suggested that the onset of RA is postponed by parity .
+# ::alignments 17-18|0.0.0 15-16|0.0 13-14|0.0.2.0.0+0.0.2.0+0.0.2 11-12|0.0.1 8-9|0 3-4|0.1 2-3|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:33.531
+(s / suggest-01 
+      :ARG1 (p2 / postpone-01 
+            :ARG0 (p / parity) 
+            :ARG1 (o2 / onset) 
+            :manner (o / organization 
+                  :name (n / name 
+                        :op1 "RA"))) 
+      :location (h / hand 
+            :mod (o3 / other)))
+
+# ::snt The risk of onset is reduced during pregnancy , while in the first year postpartum the chance of onset is increased [ 6,7 ] .
+# ::tok The risk of onset is reduced during pregnancy , while in the first year postpartum the chance of onset is increased [ 6,7 ] .
+# ::alignments 20-21|0.2 18-19|0.2.0.0 16-17|0.2.0 14-15|0.2.1 13-14|0.0 7-8|0.3 5-6|0 3-4|0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:33.646
+(r / reduce-01 
+      :ARG0 (y / year) 
+      :ARG1 (r2 / risk-01 
+            :ARG2 (o2 / onset)) 
+      :purpose (i / increase-01 
+            :ARG1 (c / chance-02 
+                  :ARG1 (o / onset)) 
+            :time (p / postpartum)) 
+      :time (p2 / pregnancy))
+
+# ::snt The results of a recent study of RA in women , however , indicate that pregnancy history does not increase the incidence of the disease later in life [ 8 ] .
+# ::tok The results of a recent study of RA in women , however , indicate that pregnancy history does not increase the incidence of the disease later in life [ 8 ] .
+# ::alignments 29-30|0.0.0.0.2 27-28|0.0.0.0.3 25-26|0.0.0.0.4 24-25|0.1.1.0 21-22|0.1.1 19-20|0.1 18-19|0.1.2 16-17|0.1.0 15-16|0.1.0.0 13-14|0 9-10|0.0.0.0.1 7-8|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 5-6|0.0.0.0 4-5|0.0.0.0.5 1-2|0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:33.997
+(i3 / indicate-01 
+      :ARG0 (t / thing 
+            :ARG2-of (r2 / result-01 
+                  :ARG1 (s / study-01 
+                        :ARG0 (o / organization 
+                              :name (n / name 
+                                    :op1 "RA")) 
+                        :ARG1 (w / woman) 
+                        :op1-of 8 
+                        :op1-of (l / life) 
+                        :op1-of (l2 / late) 
+                        :time (r / recent)))) 
+      :ARG1 (i2 / increase-01 
+            :ARG0 (h / history 
+                  :mod (p / pregnancy)) 
+            :ARG1 (i / incidence 
+                  :poss (d / disease)) 
+            :polarity -))
+
+# ::snt Adequate animal models are useful tools for the identification of genes involved in complex human diseases .
+# ::tok Adequate animal models are useful tools for the identification of genes involved in complex human diseases .
+# ::alignments 15-16|0.1.0.1 14-15|0.1.0.1.0 13-14|0.1.0.1.1 11-12|0.1.0 10-11|0.1.0.0 8-9|0.1.0.0.0 5-6|0 4-5|0.0 2-3|0.1 1-2|0.1.2 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:34.107
+(t / tool 
+      :ARG1-of (u / useful-05) 
+      :domain (m / model 
+            :ARG0-of (i / involve-01 
+                  :ARG1 (g / gene 
+                        :ARG1-of (i2 / identify-02)) 
+                  :ARG2 (d / disease 
+                        :mod (h / human) 
+                        :mod (c / complex))) 
+            :mod (a2 / adequate) 
+            :mod (a / animal)))
+
+# ::snt CIA in mice shares both immunological and pathological characteristics with human RA and is one of the most used models for the identification of genes and mechanisms involved in arthritis .
+# ::tok CIA in mice shares both immunological and pathological characteristics with human RA and is one of the most used models for the identification of genes and mechanisms involved in arthritis .
+# ::alignments 29-30|0.2.0.1 27-28|0.2.0 26-27|0.2 25-26|0 24-25|0.1 22-23|0.0 19-20|0.3 18-19|0.3.0 17-18|0.3.0.1 12-13|0.3.0.0.0.2 11-12|0.3.0.0.0.1.1.0+0.3.0.0.0.1.1+0.3.0.0.0.1 10-11|0.3.0.0.0.1.0 8-9|0.3.0.0.0.0.0+0.3.0.0.0.0 7-8|0.3.0.0.0.2.0.2 6-7|0.3.0.0.0.2.0 5-6|0.3.0.0.0.2.0.1 4-5|0.3.0.0.0.2.0.0 3-4|0.3.0.0.0 2-3|0.2.0.0 0-1|0.3.0.0.2+0.3.0.0.1.0+0.3.0.0.1+0.3.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:36.039
+(a2 / and 
+      :ARG1-of (i2 / identify-02) 
+      :op1 (g / gene) 
+      :op2 (m / mechanism 
+            :ARG1-of (i / involve-01 
+                  :ARG0 (m4 / mouse) 
+                  :ARG2 (a / arthritis))) 
+      :topic-of (m2 / model 
+            :ARG1-of (u / use-01 
+                  :ARG0 (g2 / government-organization 
+                        :ARG0-of (s / share-01 
+                              :ARG1 (t / thing 
+                                    :ARG2-of (c / characteristic-02)) 
+                              :ARG2 (o / organization 
+                                    :mod (h / human) 
+                                    :name (n / name 
+                                          :op1 "RA")) 
+                              :op1-of (a3 / and 
+                                    :manner (a4 / and 
+                                          :mod (b / both) 
+                                          :op1 (i3 / immunological) 
+                                          :op2 (p / pathological)))) 
+                        :name (n2 / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency") 
+                  :degree (m3 / most))))
+
+# ::snt The incidence of CIA is sex dependent , like the incidence in RA , although different species and different variants of the disease could lead to both male and female predominance .
+# ::tok The incidence of CIA is sex dependent , like the incidence in RA , although different species and different variants of the disease could lead to both male and female predominance .
+# ::alignments 30-31|0.4 29-30|0.3 28-29|0 27-28|0.2 26-27|0.0.1.0 24-25|0.1 23-24|0.1.1 22-23|0.1.0.2.1 19-20|0.1.0.2 18-19|0.1.0.2.0 17-18|0.1.0 16-17|0.1.0.1 15-16|0.1.0.0 12-13|0.0.1.1.0.0.0+0.0.1.1.0.0+0.0.1.1.0 10-11|0.0.1.1 8-9|0.0.1 6-7|0.0 5-6|0.0.2 3-4|0.0.1.1.1.1+0.0.1.1.1.0.0+0.0.1.1.1.0+0.0.1.1.1 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:37.191
+(a / and 
+      :ARG1-of (d4 / depend-01 
+            :ARG0 (i2 / incidence) 
+            :ARG1-of (r / resemble-01 
+                  :ARG0 (b / both) 
+                  :ARG2 (i / incidence 
+                        :location (o / organization 
+                              :name (n / name 
+                                    :op1 "RA")) 
+                        :poss (g / government-organization 
+                              :name (n2 / name 
+                                    :op1 "CIA") 
+                              :wiki "Central_Intelligence_Agency"))) 
+            :degree (s2 / sex)) 
+      :ARG2-of (l / lead-03 
+            :ARG0 (a2 / and 
+                  :ARG1-of (d3 / differ-02) 
+                  :op1 (s / species) 
+                  :op2 (v / variant 
+                        :ARG1-of (d2 / differ-02) 
+                        :poss (d / disease))) 
+            :ARG1-of (p2 / possible-01)) 
+      :op1 (m / male) 
+      :op2 (f / female) 
+      :op3 (p / predominance))
+
+# ::snt Male mice are more often affected than females .
+# ::tok Male mice are more often affected than females .
+# ::alignments 7-8|0.1 5-6|0 4-5|0.2 3-4|0.2.0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:37.219
+(a / affect-01 
+      :ARG1 (m2 / mouse 
+            :mod (m3 / male)) 
+      :ARG2 (f / female) 
+      :frequency (o / often 
+            :degree (m / more)))
+
+# ::snt Gender differences in CIA susceptibility are dependent on many factors , including genetic , hormonal and behavioral influences [ 9 ] .
+# ::tok Gender differences in CIA susceptibility are dependent on many factors , including genetic , hormonal and behavioral influences [ 9 ] .
+# ::alignments 19-20|0.1.0 17-18|0.0 16-17|0.4 15-16|0 14-15|0.3 12-13|0.2 9-10|0.1.1.0 8-9|0.1.1.0.0 6-7|0.1.1 4-5|0.1.3 3-4|0.1.3.0.1+0.1.3.0.0.0+0.1.3.0.0+0.1.3.0 1-2|0.1 0-1|0.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:37.374
+(a / and 
+      :mod (i / influence) 
+      :op1 (d2 / differ-01 
+            :ARG0 9 
+            :ARG0-of (d / depend-01 
+                  :ARG1 (f / factor 
+                        :mod (m / many))) 
+            :ARG1 (g3 / gend) 
+            :ARG2 (s / susceptibility 
+                  :mod (g2 / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency"))) 
+      :op2 (g / gene) 
+      :op3 (h / hormonal) 
+      :op4 (b / behavioral))
+
+# ::snt However , isolated factors are remarkably consistent between RA and the different animal models [ 3,9 ] .
+# ::tok However , isolated factors are remarkably consistent between RA and the different animal models [ 3,9 ] .
+# ::alignments 13-14|0.3.0 12-13|0.3.0.1 11-12|0.3.0.0 9-10|0.3 8-9|0.2.0.0+0.2.0+0.2 6-7|0 5-6|0.1 3-4|0.0 2-3|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:37.522
+(c / consistent-01 
+      :ARG1 (f / factor 
+            :ARG1-of (i / isolate-01)) 
+      :ARG1-of (r / remarkable-02) 
+      :ARG2 (o / organization 
+            :name (n / name 
+                  :op1 "RA")) 
+      :op1-of (a2 / and 
+            :op2 (m / model 
+                  :ARG1-of (d / differ-02) 
+                  :mod (a / animal))))
+
+# ::snt Pregnancy in mice , like pregnancy in women , normally causes remission of arthritis [ 5,10 ] , while exacerbation often occurs postpartum [ 7,10,11 ] .
+# ::tok Pregnancy in mice , like pregnancy in women , normally causes remission of arthritis [ 5,10 ] , while exacerbation often occurs postpartum [ 7,10,11 ] .
+# ::alignments 22-23|0.0.0.0 21-22|0.0.0 20-21|0.0.0.1 19-20|0.0 13-14|0.2.0 11-12|0.1 10-11|0 9-10|0.3 7-8|0.2.1.0 5-6|0.2.1 4-5|0.2 2-3|0.4 0-1|0.3.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:37.771
+(c / cause-01 
+      :ARG0 (e / exacerbation 
+            :ARG0-of (o / occur-01 
+                  :ARG1 (p / postpartum) 
+                  :frequency (o2 / often))) 
+      :ARG1 (r / remission) 
+      :ARG1-of (r2 / resemble-01 
+            :ARG0 (a / arthritis) 
+            :ARG2 (p2 / pregnancy 
+                  :location (w / woman))) 
+      :ARG1-of (n / normal-02 
+            :ARG0 (p3 / pregnancy)) 
+      :location (m / mouse))
+
+# ::snt Pregnancy-induced remission of CIA in mice appears to be caused by the increase in estrogen levels , while the postpartum exacerbation can be explained by the dramatic drop in estrogen [ 10 ] , possibly together with increased prolactin levels [ 11 ] .
+# ::tok Pregnancy-induced remission of CIA in mice appears to be caused by the increase in estrogen levels , while the postpartum exacerbation can be explained by the dramatic drop in estrogen [ 10 ] , possibly together with increased prolactin levels [ 11 ] .
+# ::alignments 41-42|0.2.0 39-40|0.1.1.0.0 38-39|0.1.1.0.0.0 37-38|0.1.1.0 35-36|0.1.1.2.0 34-35|0.1.1.2 31-32|0.1.2 29-30|0.2.1.0.0.0 27-28|0.2.1.0.0 26-27|0.2.1.0.0.1 23-24|0.2.1 21-22|0.2 20-21|0.2.1.0 19-20|0.2.1.0.1 15-16|0.1.1.1 14-15|0.2.1.0.2 12-13|0.1.1 9-10|0.1 6-7|0 5-6|0.0 3-4|0.1.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 1-2|0.1.0 0-1|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:40.461
+(a / appear-02 
+      :ARG0 (m / mouse) 
+      :ARG1 (c / cause-01 
+            :ARG0 (r / remission 
+                  :mod (g / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency") 
+                  :mod (p5 / pregnancy-induc)) 
+            :ARG1 (i2 / increase-01 
+                  :ARG0-of (i / increase-01 
+                        :ARG1 (l / level 
+                              :mod (p / prolactin))) 
+                  :ARG1 (l2 / level) 
+                  :ARG2-of (p2 / possible-01 
+                        :ARG1 (t / together))) 
+            :op1-of 10) 
+      :purpose (p3 / possible-01 
+            :ARG0 11 
+            :ARG1 (e2 / explain-01 
+                  :ARG1 (e3 / exacerbation 
+                        :ARG1-of (d / drop-01 
+                              :location (e / estrogen) 
+                              :manner (d2 / dramatic)) 
+                        :mod (p4 / postpartum) 
+                        :name (e4 / estrogen)))))
+
+# ::snt To what extent the pregnancy history ( parity ) affects the incidence of CIA later in life has , to our knowledge , not previously been studied .
+# ::tok To what extent the pregnancy history ( parity ) affects the incidence of CIA later in life has , to our knowledge , not previously been studied .
+# ::alignments 26-27|0.2.1.0.0 24-25|0.2.1.0 23-24|0.2.1 21-22|0.2.1.0.0.1 20-21|0.2.1.0.0.1.0 16-17|0.4 14-15|0.3 13-14|0.1.0.1+0.1.0.0.0+0.1.0.0+0.1.0 11-12|0.1 9-10|0 7-8|0.2.1.0.0.0 5-6|0.0 4-5|0.0.0 2-3|0.2 1-2|0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:40.907
+(a / affect-01 
+      :ARG0 (h / history 
+            :mod (p3 / pregnancy)) 
+      :ARG1 (i / incidence 
+            :mod (g / government-organization 
+                  :name (n / name 
+                        :op1 "CIA") 
+                  :wiki "Central_Intelligence_Agency")) 
+      :degree (e / extent 
+            :mod (a2 / amr-unknown) 
+            :mod-of (- / - 
+                  :polarity-of (p / previous 
+                        :time-of (s / study-01 
+                              :ARG1 (p2 / parity) 
+                              :ARG2 (k / knowledge 
+                                    :poss (w / we)))))) 
+      :time (l2 / late) 
+      :time (l / life))
+
+# ::snt Importantly , RA occurs predominantly in women , many of which have had several children , and it is therefore appropriate to also mimic this situation using animal models .
+# ::tok Importantly , RA occurs predominantly in women , many of which have had several children , and it is therefore appropriate to also mimic this situation using animal models .
+# ::alignments 28-29|0.1.1.1.0.0 27-28|0.1.1.1.0.0.0 26-27|0.1.1.1.0 25-26|0.1.1.1 24-25|0.1.1.1.1 23-24|0.1.1 22-23|0.1.1.2 20-21|0.1 16-17|0 14-15|0.1.0 13-14|0.1.0.0 8-9|0.0.1 6-7|0.0.2 4-5|0.1.1.0 3-4|0.0 2-3|0.0.0.0.0+0.0.0.0+0.0.0 0-1|0.0.3 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:41.629
+(a4 / and 
+      :op1 (o / occur-01 
+            :ARG0 (o2 / organization 
+                  :name (n / name 
+                        :op1 "RA")) 
+            :ARG1 (m3 / many) 
+            :ARG2 (w / woman) 
+            :time (i / importantly)) 
+      :op2 (a3 / appropriate-02 
+            :ARG0 (c / child 
+                  :quant (s2 / several)) 
+            :ARG1 (m2 / mimic-01 
+                  :ARG0 (p / predominant) 
+                  :ARG1 (s / situation 
+                        :ARG0-of (u / use-01 
+                              :ARG1 (m / model 
+                                    :mod (a / animal))) 
+                        :mod (t / this)) 
+                  :mod (a2 / also))))
+
+# ::snt In the present paper we have analyzed female mice that previously had undergone a reproductive study ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R , unpublished data ) .
+# ::tok In the present paper we have analyzed female mice that previously had undergone a reproductive study ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R , unpublished data ) .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:41.632
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt A total of 200 female mice ( ten months of age ) of the N2 backcross between NFR/N and C57BL/B10 .
+# ::tok A total of 200 female mice ( ten months of age ) of the N2 backcross between NFR/N and C57BL/B10 .
+# ::alignments 19-20|0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 18-19|0.0.1 17-18|0.0.0.0+0.0.0+0.0 15-16|0.0.1.0 10-11|0 8-9|0.1.0+0.1 5-6|0.0.1.0.0.0 4-5|0.0.1.0.0.0.0 3-4|0.0.1.0.0.1 1-2|0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:42.180
+(a2 / age-01 
+      :ARG1 (p / person 
+            :name (n2 / name 
+                  :op1 "NFR/N") 
+            :op2-of (a / and 
+                  :op1 (b / backcros 
+                        :ARG1-of (t3 / total-01 
+                              :ARG0 (m2 / mouse 
+                                    :mod (f / female)) 
+                              :ARG2 200)) 
+                  :op3 (t / thing 
+                        :name (n / name 
+                              :op1 "C57BL/B10")))) 
+      :duration (t2 / temporal-quantity 
+            :unit (m / month)))
+
+# ::snt Q ( B10.Q ) were used to analyze the genetic control of CIA in aged females with a multiparous history .
+# ::tok Q ( B10.Q ) were used to analyze the genetic control of CIA in aged females with a multiparous history .
+# ::alignments 19-20|0.0 18-19|0 15-16|0.0.0.0.1.2 14-15|0.0.0.0.1.2.0 12-13|0.0.0.0.1.1.1+0.0.0.0.1.1.0.0+0.0.0.0.1.1.0+0.0.0.0.1.1 10-11|0.0.0.0.1 9-10|0.0.0.0.1.0 7-8|0.0.0.0 5-6|0.0.0 2-3|0.0.0.0.1.2.0.0.0.0+0.0.0.0.1.2.0.0.0+0.0.0.0.1.2.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:42.609
+(m / multiparou 
+      :poss-of (h / history 
+            :ARG1-of (u / use-01 
+                  :ARG2 (a2 / analyze-01 
+                        :ARG0 (q / q) 
+                        :ARG1 (c / control-01 
+                              :ARG0 (g2 / gene) 
+                              :ARG1 (g / government-organization 
+                                    :name (n / name 
+                                          :op1 "CIA") 
+                                    :wiki "Central_Intelligence_Agency") 
+                              :beneficiary (f / female 
+                                    :ARG1-of (a / age-01 
+                                          :ARG0 (p / person 
+                                                :name (n2 / name 
+                                                      :op1 "B10.Q")))))))))
+
+# ::snt Inbred NFR/N mice were originally obtained from the National Institute of Health ( Bethesda , MD , USA ) and the B10.Q mice were originally bought from The Jackson Laboratory ( Bar Harbor , ME , USA ) .
+# ::tok Inbred NFR/N mice were originally obtained from the National Institute of Health ( Bethesda , MD , USA ) and the B10.Q mice were originally bought from The Jackson Laboratory ( Bar Harbor , ME , USA ) .
+# ::alignments 36-37|0.3.1+0.3.0.0+0.3.0+0.3 34-35|0.0.4.1+0.0.4.0.1+0.0.4.0.0+0.0.4.0+0.0.4 31-33|0.2.0.1+0.2.0.0+0.2.0+0.2 28-30|0.1.2.0.1+0.1.2.0.0+0.1.2.0+0.1.2 25-26|0.1 24-25|0.1.3 22-23|0.1.1 19-20|0 17-18|0.0.0.1+0.0.0.0.0+0.0.0.0+0.0.0 15-16|0.1.0.0.0+0.1.0.0+0.1.0 13-14|0.1.2.1.1+0.1.2.1.0.0+0.1.2.1.0+0.1.2.1 8-12|0.0.2.0.3+0.0.2.0.2+0.0.2.0.1+0.0.2.0.0+0.0.2.0+0.0.2 5-6|0.0 4-5|0.0.3 2-3|0.0.1 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:44.461
+(a / and 
+      :op1 (o3 / obtain-01 
+            :ARG0 (c3 / country 
+                  :name (n5 / name 
+                        :op1 "USA") 
+                  :wiki "United_States") 
+            :ARG1 (m2 / mouse 
+                  :mod (i / inbred)) 
+            :ARG2 (o2 / organization 
+                  :name (n8 / name 
+                        :op1 "National" 
+                        :op2 "Institute" 
+                        :op3 "of" 
+                        :op4 "Health")) 
+            :mod (o4 / original) 
+            :op1-of (w / world-region 
+                  :name (n2 / name 
+                        :op1 "Middle" 
+                        :op2 "East") 
+                  :wiki "Middle_East")) 
+      :op2 (b / buy-01 
+            :ARG0 (c4 / country 
+                  :name (n6 / name 
+                        :op1 "MD")) 
+            :ARG1 (m / mouse) 
+            :ARG2 (t / thing 
+                  :name (n4 / name 
+                        :op1 "Jackson" 
+                        :op2 "Laboratory") 
+                  :poss (c5 / city 
+                        :name (n7 / name 
+                              :op1 "Bethesda") 
+                        :wiki "Bethesda,_Maryland")) 
+            :mod (o / original)) 
+      :op3 (c2 / country 
+            :name (n3 / name 
+                  :op1 "Bar" 
+                  :op2 "Harbor")) 
+      :op4 (c / country 
+            :name (n / name 
+                  :op1 "USA") 
+            :wiki "United_States"))
+
+# ::snt ( B10Q  NFR/N ) F1 hybrids and ( B10.Q  NFR/N )  B10.Q N2 mice were bred in individual ventilated cages in the BMC Barrier animal facility and at the animal house of the Department of Pathology , Lund University , Sweden .
+# ::tok ( B10Q  NFR/N ) F1 hybrids and ( B10.Q  NFR/N )  B10.Q N2 mice were bred in individual ventilated cages in the BMC Barrier animal facility and at the animal house of the Department of Pathology , Lund University , Sweden .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:44.464
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt The animals were fed ad libitum with standard rodent chow ( LAB FOR R36 , irradiated breeding food for rats and mice ; Lactamin AB , Stockholm , Sweden ) and water in a photoperiod of 12 hours : 12 hours light : dark .
+# ::tok The animals were fed ad libitum with standard rodent chow ( LAB FOR R36 , irradiated breeding food for rats and mice ; Lactamin AB , Stockholm , Sweden ) and water in a photoperiod of 12 hours : 12 hours light : dark .
+# ::alignments 43-44|0.1.0.1 41-42|0.1.0 40-41|0.1.0.2.1+0.1.0.2 39-40|0.1.0.2.0 37-38|0.1.0.1.1.2+0.1.0.1.1 36-37|0.1.0.1.1.1 34-35|0.1.0.1.1.0 31-32|0.2.1 30-31|0.2 28-29|0.2.0.1.0.0.0.0.1+0.2.0.1.0.0.0.0.0.0+0.2.0.1.0.0.0.0.0+0.2.0.1.0.0.0.0 26-27|0.1.0.1.0.0.0+0.1.0.1.0.0+0.1.0.1.0 23-25|0.4.0.0.1+0.4.0.0.0+0.4.0.0+0.4.0 22-23|0.4 21-22|0.3 20-21|0 19-20|0.1 17-18|0.0.0 16-17|0.0 15-16|0.0.0.0 12-14|0.1.0.0.1.1+0.1.0.0.1.0+0.1.0.0.1+0.1.0.0 11-12|0.1.0.0.0.0.0+0.1.0.0.0.0+0.1.0.0.0 9-10|0.2.0.1.0.0 8-9|0.2.0.1.0 7-8|0.2.0.1.0.0.0 5-6|0.2.0.0 4-5|0.2.0.0.0 3-4|0.2.0 1-2|0.2.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:49.169
+(a3 / and 
+      :ARG2-of (b / breed-01 
+            :ARG1 (f / food 
+                  :ARG1-of (i / irradiate-01))) 
+      :op1 (r / rat-01 
+            :ARG1 (l / light-06 
+                  :ARG0 (t3 / thing 
+                        :mod (o2 / organization 
+                              :name (n5 / name 
+                                    :op1 "LAB")) 
+                        :name (n4 / name 
+                              :op1 (f2 / FOR) 
+                              :op2 (r2 / R36))) 
+                  :ARG1 (d / dark-02 
+                        :ARG0 (c2 / country 
+                              :name (n2 / name 
+                                    :op1 "Stockholm")) 
+                        :ARG1 (t2 / temporal-quantity 
+                              :op1-of (p / photoperiod) 
+                              :quant 12 
+                              :unit (h2 / hour))) 
+                  :ARG2 (t / temporal-quantity 
+                        :quant 12 
+                        :unit (h / hour)))) 
+      :op1-of (a / and 
+            :ARG0-of (f3 / feed-up-03 
+                  :ARG1 (l2 / libitum 
+                        :mod (a4 / ad)) 
+                  :ARG2 (a5 / animal 
+                        :mod-of (r3 / rodent 
+                              :mod-of (c3 / chow 
+                                    :ARG1-of (s / standard-02 
+                                          :ARG0 (c / country 
+                                                :name (n / name 
+                                                      :op1 "Sweden") 
+                                                :wiki "Sweden")))))) 
+            :op2 (w / water)) 
+      :op2 (m / mouse) 
+      :op3 (a2 / and 
+            :op1 (o / organization 
+                  :name (n3 / name 
+                        :op1 "Lactamin" 
+                        :op2 "AB"))))
+
+# ::snt The mice used in the present study had clean health monitoring protocols according to the Federation of European Laboratory Animal Sciences Association recommendations .
+# ::tok The mice used in the present study had clean health monitoring protocols according to the Federation of European Laboratory Animal Sciences Association recommendations .
+# ::alignments 22-23|0.1.0.1 15-22|0.0.0.6+0.0.0.5+0.0.0.4+0.0.0.3+0.0.0.2+0.0.0.1+0.0.0.0+0.0.0+0.0 12-13|0 11-12|0.2 10-11|0.2.0 9-10|0.2.0.0 8-9|0.2.0.0.0 6-7|0.1 5-6|0.1.1 2-3|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:49.595
+(s / say-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "Federation" 
+                  :op2 "of" 
+                  :op3 "European" 
+                  :op4 "Laboratory" 
+                  :op5 "Animal" 
+                  :op6 "Sciences" 
+                  :op7 "Association")) 
+      :ARG0-of (s2 / study-01 
+            :ARG2-of (u / use-01 
+                  :ARG1 (m2 / mouse) 
+                  :ARG1-of (r / recommend-01)) 
+            :time (p2 / present)) 
+      :ARG1 (p / protocol 
+            :ARG0-of (m / monitor-01 
+                  :ARG1 (h / health 
+                        :ARG1-of (c / clean-04)))))
+
+# ::snt Ethical permissions were M125-04 ( embryo transfer ) and M290-03 ( reproduction and arthritis ) .
+# ::tok Ethical permissions were M125-04 ( embryo transfer ) and M290-03 ( reproduction and arthritis ) .
+# ::alignments 13-14|0.0.0.0.0.0.0 12-13|0.0.0.0.0.0 11-12|0.0.0.0.0 9-10|0.2.0.0+0.2.0+0.2 8-9|0 6-7|0.1 5-6|0.1.0 3-4|0.0.0.1+0.0.0+0.0 1-2|0.0.0.0 0-1|0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:49.670
+(a3 / and 
+      :op1 (t2 / thing 
+            :name (n2 / name 
+                  :domain (p2 / permission 
+                        :ARG0-of (r / reproduce-01 
+                              :op1-of (a2 / and 
+                                    :op2 (a / arthritis))) 
+                        :mod (e2 / ethical)) 
+                  :op1 "M125-04")) 
+      :op2 (t / transfer-01 
+            :ARG1 (e / embryo)) 
+      :op3 (p / person 
+            :name (n / name 
+                  :op1 "M290-03")))
+
+# ::snt A total of 200 female mice ( approximately ten months old ) of N2 backcross ( B10.Q  NFR/N )  B10.Q were used .
+# ::tok A total of 200 female mice ( approximately ten months old ) of N2 backcross ( B10.Q  NFR/N )  B10.Q were used .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:49.672
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt The mice had earlier undergone a reproductive study where each animal had four mating opportunities .
+# ::tok The mice had earlier undergone a reproductive study where each animal had four mating opportunities .
+# ::alignments 14-15|0.2.0.0 13-14|0.2.0 12-13|0.1.0 10-11|0.0 9-10|0.0.0 7-8|0.2 6-7|0.2.1 4-5|0 3-4|0.3 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:49.880
+(u / undergo-28 
+      :ARG0 (a / animal 
+            :mod (e / each)) 
+      :ARG1 (m2 / mouse 
+            :poss 4) 
+      :ARG2 (s / study-01 
+            :ARG1 (m / mate-01 
+                  :ARG1 (o / opportunity)) 
+            :location (r / reproductive)) 
+      :time (e2 / early))
+
+# ::snt First , the female mice were allowed to mate twice with B10.RIII males ( allogeneic mating by means of MHC ( major histocompatibility complex ) and finally to mate twice with B10.Q males ( syngeneic mating by means of MHC ) .
+# ::tok First , the female mice were allowed to mate twice with B10.RIII males ( allogeneic mating by means of MHC ( major histocompatibility complex ) and finally to mate twice with B10.Q males ( syngeneic mating by means of MHC ) .
+# ::alignments 37-38|0.1.1.0 35-36|0.1.1 32-33|0.1.1.1.0 31-32|0.1.1.1.1.0+0.1.1.1.1+0.1.1.1 26-27|0.2 25-26|0 23-24|0.1.1.2.0 22-23|0.1.1.2.0.0 21-22|0.1.1.2 19-20|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 17-18|0.1.0 15-16|0.1 14-15|0.1.2 12-13|0.0.0.1 8-9|0.0.0 6-7|0.0 4-5|0.0.0.0 3-4|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:50.485
+(a / and 
+      :ARG0-of (a3 / allow-01 
+            :ARG1 (m8 / mate-01 
+                  :ARG0 (m9 / mouse 
+                        :mod (f2 / female)) 
+                  :ARG2 (m7 / male))) 
+      :op1 (m6 / mate-01 
+            :ARG0 (m5 / mean 
+                  :poss (o / organization 
+                        :name (n2 / name 
+                              :op1 "MHC"))) 
+            :ARG1 (m2 / mate-01 
+                  :ARG0 (m / mean) 
+                  :ARG1 (t / thing 
+                        :mod-of (m3 / male) 
+                        :name (n / name 
+                              :op1 "B10.Q")) 
+                  :purpose-of (m4 / major-02 
+                        :ARG1 (c / complex 
+                              :mod (h / histocompatibility)))) 
+            :mod (a2 / allogeneic)) 
+      :op2 (f / final))
+
+# ::snt After four possible pregnancies CIA was induced to the female mice .
+# ::tok After four possible pregnancies CIA was induced to the female mice .
+# ::alignments 10-11|0.1 9-10|0.1.0 6-7|0 4-5|0.0.1+0.0.0.0+0.0.0+0.0 3-4|0.2.0 2-3|0.2.0.0 1-2|0.1.1 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:50.589
+(i / induce-01 
+      :ARG1 (g / government-organization 
+            :name (n / name 
+                  :op1 "CIA") 
+            :wiki "Central_Intelligence_Agency") 
+      :ARG2 (m / mouse 
+            :mod (f / female) 
+            :mod 4) 
+      :time (a / after 
+            :op1 (p / pregnanci 
+                  :ARG1-of (p2 / possible-01))))
+
+# ::snt Induction and evaluation of CIA .
+# ::tok Induction and evaluation of CIA .
+# ::alignments 4-5|0.1.0.1+0.1.0.0.0+0.1.0.0+0.1.0 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:50.613
+(a / and 
+      :op1 (i / induction) 
+      :op2 (e / evaluate-01 
+            :ARG1 (g / government-organization 
+                  :name (n / name 
+                        :op1 "CIA") 
+                  :wiki "Central_Intelligence_Agency")))
+
+# ::snt To induce CIA , the mice were immunized subcutaneously at the base of the tail with 100 g rat collagen type II ( CII ) emulsified in 0.1 M acetic acid combined with an equal amount of complete Freud 's adjuvant ( Difco Laboratories , Detroit , MI , USA ) .
+# ::tok To induce CIA , the mice were immunized subcutaneously at the base of the tail with 100 g rat collagen type II ( CII ) emulsified in 0.1 M acetic acid combined with an equal amount of complete Freud 's adjuvant ( Difco Laboratories , Detroit , MI , USA ) .
+# ::alignments 49-50|0.0.0.0.2.0.0.0.1+0.0.0.0.2.0.0.0.0.0+0.0.0.0.2.0.0.0.0+0.0.0.0.2.0.0.0 47-48|0.0.0.0.0.1+0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 45-46|0.0.1.0.0.0.1+0.0.1.0.0.0.0.0+0.0.1.0.0.0.0+0.0.1.0.0.0 42-44|0.0.0.0.1.0.0.0.1+0.0.0.0.1.0.0.0.0+0.0.0.0.1.0.0.0+0.0.0.0.1.0.0 40-41|0.0.1 38-39|0.0.1.0.1.0+0.0.1.0.1+0.0.1.0 37-38|0.0.1.0.0 35-36|0.0 34-35|0 31-32|0.0.0 30-31|0.0.0.0.2 29-30|0.0.0.0.2.0 28-29|0.0.0.0.2.0.0.2+0.0.0.0.2.0.0.1.0+0.0.0.0.2.0.0.1+0.0.0.0.2.0.0 27-28|0.0.0.0.1.0.1 25-26|0.0.0.0 23-24|0.0.0.0.1.0.2.0.0.0.0.0.0+0.0.0.0.1.0.2.0.0.0.0.0+0.0.0.0.1.0.2.0.0.0.0 21-22|0.0.0.0.1.4+0.0.0.0.1.2.2+0.0.0.0.1.2.1+0.0.0.0.1.2.0+0.0.0.0.1.2+0.0.0.0.1 20-21|0.0.0.0.1.1 19-20|0.0.0.0.1.1.0 18-19|0.0.0.0.1.1.1 17-18|0.0.0.0.1.1.2 16-17|0.0.0.0.1.3 14-15|0.0.0.0.1.0 11-12|0.0.0.0.1.0.2 8-9|0.0.0.0.1.0.2.0.1 7-8|0.0.0.0.1.0.2.0 5-6|0.0.0.0.1.0.2.0.0 2-3|0.0.0.0.1.0.2.0.0.0.1.1+0.0.0.0.1.0.2.0.0.0.1.0.0+0.0.0.0.1.0.2.0.0.0.1.0+0.0.0.0.1.0.2.0.0.0.1 1-2|0.0.0.0.1.0.2.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:52.487
+(e / equal-01 
+      :ARG1 (a2 / amount 
+            :ARG2-of (c4 / combine-01 
+                  :ARG1 (e2 / emulsify-01 
+                        :ARG0 (o / organization 
+                              :name (n2 / name 
+                                    :op1 "MI6") 
+                              :wiki "Secret_Intelligence_Service") 
+                        :ARG1 (w / war 
+                              :ARG2-of (t2 / tail-01 
+                                    :ARG0 (o2 / organization 
+                                          :name (n4 / name 
+                                                :op1 "Difco" 
+                                                :op2 "Laboratories")) 
+                                    :ARG1 0.1 
+                                    :poss-of (b / base 
+                                          :ARG2-of (i / immunize-01 
+                                                :ARG1 (m / mouse 
+                                                      :ARG1-of (i2 / induce-01 
+                                                            :ARG0 (o3 / organization 
+                                                                  :name (n7 / name 
+                                                                        :op1 "CII")) 
+                                                            :ARG2 (g2 / government-organization 
+                                                                  :name (n9 / name 
+                                                                        :op1 "CIA") 
+                                                                  :wiki "Central_Intelligence_Agency"))) 
+                                                :manner (s / subcutaneously)))) 
+                              :mod (t / type 
+                                    :mod (c5 / collagen) 
+                                    :mod (r / rat) 
+                                    :mod (g / g)) 
+                              :name (n8 / name 
+                                    :op1 "World" 
+                                    :op2 "War" 
+                                    :op3 "II") 
+                              :quant 100 
+                              :wiki "World_War_II") 
+                        :ARG2 (a3 / acid 
+                              :mod (a4 / acetic 
+                                    :mod (v / vehicle 
+                                          :mod (c / country 
+                                                :name (n / name 
+                                                      :op1 "USA") 
+                                                :wiki "United_States") 
+                                          :name (n6 / name 
+                                                :op1 "M1") 
+                                          :wiki "M1_Abrams"))))) 
+            :quant-of (a / adjuvant 
+                  :poss (p / person 
+                        :ARG1-of (c3 / complete-02 
+                              :ARG0 (c2 / city 
+                                    :name (n3 / name 
+                                          :op1 "Detroit") 
+                                    :wiki "Detroit")) 
+                        :name (n5 / name 
+                              :op1 "Freud")))))
+
+# ::snt A booster injection containing 50 g CII emulsified in 0.1 M acetic acid combined with an equal amount of Freud 's incomplete adjuvant ( Difco Laboratories ) was given after 30 days .
+# ::tok A booster injection containing 50 g CII emulsified in 0.1 M acetic acid combined with an equal amount of Freud 's incomplete adjuvant ( Difco Laboratories ) was given after 30 days .
+# ::alignments 31-32|0.0.0.1.1+0.0.0.1 30-31|0.0.0.1.0 29-30|0.0.0.0.0.0.0.0.1.1 28-29|0.0.0.0.0.0.0.0.1 24-26|0.0.0.0.0.0.0.0.1.0.1.1.0.1+0.0.0.0.0.0.0.0.1.0.1.1.0.0+0.0.0.0.0.0.0.0.1.0.1.1.0+0.0.0.0.0.0.0.0.1.0.1.1 22-23|0.0.0.0.0.0.0.0.1.0 21-22|0.0.0.0.0.0.0.0.1.0.0.0+0.0.0.0.0.0.0.0.1.0.0 19-20|0.0.0.0.0.0.0.0.1.0.1.0.0+0.0.0.0.0.0.0.0.1.0.1.0+0.0.0.0.0.0.0.0.1.0.1 17-18|0.0 16-17|0 13-14|0.0.0 12-13|0.0.0.0 11-12|0.0.0.0.1 10-11|0.0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0.0 9-10|0.0.0.0.0.0.0.0.2.0 7-8|0.0.0.0.0 6-7|0.0.0.0.0.0.2.0+0.0.0.0.0.0.2+0.0.0.0.0.0 5-6|0.0.0.0.0.0.1 4-5|0.0.0.0.0.0.3 3-4|0.0.0.0.0.0.0 2-3|0.0.0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:53.267
+(e / equal-01 
+      :ARG1 (a3 / amount 
+            :ARG2-of (c2 / combine-01 
+                  :ARG0 (a4 / acid 
+                        :ARG2-of (e2 / emulsify-01 
+                              :ARG1 (o2 / organization 
+                                    :ARG1-of (c3 / contain-01 
+                                          :ARG0 (i / inject-01 
+                                                :ARG1 (v / vehicle 
+                                                      :name (n3 / name 
+                                                            :op1 "M1") 
+                                                      :wiki "M1_Abrams") 
+                                                :ARG2-of (g / give-01 
+                                                      :ARG1 (a2 / adjuvant 
+                                                            :ARG1-of (c / complete-02 
+                                                                  :polarity -) 
+                                                            :poss (p / person 
+                                                                  :name (n2 / name 
+                                                                        :op1 "Freud") 
+                                                                  :poss-of (o / organization 
+                                                                        :name (n / name 
+                                                                              :op1 "Difco" 
+                                                                              :op2 "Laboratories")))) 
+                                                      :time (a / after)) 
+                                                :mod (b / boost-01 
+                                                      :ARG1 0.1))) 
+                                    :mod (g2 / g) 
+                                    :name (n4 / name 
+                                          :op1 "CII") 
+                                    :quant 50)) 
+                        :mod (a5 / acetic)) 
+                  :ARG1 (t / temporal-quantity 
+                        :quant 30 
+                        :unit (d / day)))))
+
+# ::snt The clinical scoring of arthritis commenced 25 days after the first immunization .
+# ::tok The clinical scoring of arthritis commenced 25 days after the first immunization .
+# ::alignments 11-12|0.1.0 8-9|0.1 7-8|0.1.1.1+0.1.1 6-7|0.1.1.0 5-6|0 4-5|0.0.0 2-3|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:53.317
+(c / commence-01 
+      :ARG1 (s / score-01 
+            :ARG1 (a2 / arthritis) 
+            :mod (c2 / clinical)) 
+      :time (a / after 
+            :op1 (i / immunization) 
+            :quant (t / temporal-quantity 
+                  :quant 25 
+                  :unit (d / day))))
+
+# ::snt Animals were examined for clinical signs of CIA three times per week and were graded on a 12-point scale .
+# ::tok Animals were examined for clinical signs of CIA three times per week and were graded on a 12-point scale .
+# ::alignments 18-19|0.1.0 14-15|0.1 12-13|0 11-12|0.0.1.0 8-9|0.0.0 7-8|0.0.2.0.1+0.0.2.0.0.0+0.0.2.0.0+0.0.2.0 5-6|0.0.2 4-5|0.1.0.0 2-3|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:53.461
+(a / and 
+      :op1 (e / examine-01 
+            :ARG0 3 
+            :ARG1 (a2 / animal 
+                  :mod (w / week)) 
+            :ARG2 (s2 / sign 
+                  :poss (g2 / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency"))) 
+      :op2 (g / grade-01 
+            :ARG1 (s / scale 
+                  :mod (c / clinical))))
+
+# ::snt The arthritis index was assigned to each mouse using the following criteria : 0 = no visible sign of arthritis , 1 = redness and swelling in a single joint , 2 = inflammation in multiple joints , and 3 = severe inflammation in the entire paw and/or anklebone .
+# ::tok The arthritis index was assigned to each mouse using the following criteria : 0 = no visible sign of arthritis , 1 = redness and swelling in a single joint , 2 = inflammation in multiple joints , and 3 = severe inflammation in the entire paw and/or anklebone .
+# ::alignments 48-49|0.1.2.0.2.1 46-47|0.1.2.0.2 45-46|0.1.2.0.2.0 42-43|0.3 41-42|0.3.0 39-40|0.1.2.0.0 38-39|0 36-37|0.2 35-36|0.2.0 33-34|0.4 31-32|0.4.1 29-30|0.1.0.0.1 28-29|0.4.0 25-26|0.1.2.0 24-25|0.1.2 23-24|0.1.2.0.1 21-22|0.1.1.0.0 19-20|0.0.0 17-18|0.0 16-17|0.0.1 15-16|0.1.2.0.2.2 13-14|0.4.0.0 11-12|0.1.1 10-11|0.1.1.0 8-9|0.1 7-8|0.1.0 6-7|0.1.0.1 4-5|0.1.0.0 2-3|0.1.0.0.0 1-2|0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:54.802
+(a2 / and 
+      :ARG0-of (s4 / sign-02 
+            :ARG1 (a4 / arthritis) 
+            :mod (v / visible)) 
+      :op1 (u / use-01 
+            :ARG0 (m2 / mouse 
+                  :ARG2-of (a5 / assign-01 
+                        :ARG1 (i3 / index 
+                              :mod (a6 / arthritis)) 
+                        :op1-of (j2 / joint)) 
+                  :mod (e2 / each)) 
+            :ARG1 (c / criteria 
+                  :ARG1-of (f / follow-01 
+                        :ARG0 1)) 
+            :op1-of (a3 / and 
+                  :op2 (s3 / swell-01 
+                        :ARG0 3 
+                        :ARG1 (r / rednes) 
+                        :ARG2 (p / paw-01 
+                              :ARG0 (e / entire) 
+                              :ARG1 (a / anklebone) 
+                              :op1-of -)))) 
+      :op2 (j / joint 
+            :quant (m / multiple)) 
+      :op3 (i / inflammation 
+            :mod (s / severe)) 
+      :poss (i2 / inflammation 
+            :ARG1-of (s2 / single-02 
+                  :ARG0 0) 
+            :quant 2))
+
+# ::snt Each paw was given the scores 0 -- 3 , with the index being the sum of all four paws .
+# ::tok Each paw was given the scores 0 -- 3 , with the index being the sum of all four paws .
+# ::alignments 19-20|0.0.0 18-19|0.0.0.2.1.0 17-18|0.0.0.2.0 15-16|0.0 12-13|0 8-9|0.0.0.0 6-7|0.0.0.1 5-6|0.0.0.2.1.1 3-4|0.0.0.2.1 1-2|0.0.0.2 0-1|0.0.0.2.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:54.996
+(i / index 
+      :domain-of (s / sum 
+            :topic (p / paw-01 
+                  :ARG0 3 
+                  :ARG1 0 
+                  :purpose (p2 / paw-01 
+                        :ARG1 (a / all) 
+                        :ARG2-of (g / give-01 
+                              :ARG0 4 
+                              :ARG1 (s2 / score)) 
+                        :mod (e / each)))))
+
+# ::snt The severity trait is the maximum score observed in each individual female .
+# ::tok The severity trait is the maximum score observed in each individual female .
+# ::alignments 11-12|0.1.0 10-11|0.1.0.1 9-10|0.1.0.0 7-8|0.1 6-7|0 5-6|0.2 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:55.048
+(s / score-01 
+      :ARG0 (t / trait 
+            :mod (s2 / severity)) 
+      :ARG1-of (o / observe-01 
+            :ARG2 (f / female 
+                  :mod (e / each) 
+                  :mod (i / individual))) 
+      :mod (m / maximum))
+
+# ::snt The onset is the number of days calculated from the first immunization to the first clinical signs of arthritis excluding unaffected animals .
+# ::tok The onset is the number of days calculated from the first immunization to the first clinical signs of arthritis excluding unaffected animals .
+# ::alignments 21-22|0.0 20-21|0.1+0 19-20|0.0.0 18-19|0.0.0.0 16-17|0.0.0.0.0 15-16|0.0.0.1.0.0 11-12|0.0.0.1.0.1 7-8|0.0.0.1.0 6-7|0.0.0.1.1+0.0.0.1 4-5|0.0.0.1.1.0 1-2|0.0.0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:55.286
+(a2 / affect-01 
+      :ARG1 (a / animal 
+            :ARG1-of (e / exclude-01 
+                  :ARG0 (a3 / arthritis 
+                        :topic-of (s / sign)) 
+                  :ARG2 (t / temporal-quantity 
+                        :ARG1-of (c2 / calculate-01 
+                              :ARG0 (c / clinical) 
+                              :ARG2 (i / immunization)) 
+                        :unit (d / day 
+                              :quant (n / number 
+                                    :domain (o / onset)))))) 
+      :polarity -)
+
+# ::snt Microsatellite genotyping and linkage analysis .
+# ::tok Microsatellite genotyping and linkage analysis .
+# ::alignments 4-5|0.0 3-4|0.0.1 2-3|0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:55.301
+(a2 / and 
+      :op1 (a / analyze-01 
+            :ARG1 (g / genotyp) 
+            :manner (l / linkage)))
+
+# ::snt Tail biopsies were collected from all N2 females and the F0 generation .
+# ::tok Tail biopsies were collected from all N2 females and the F0 generation .
+# ::alignments 11-12|0.1.0.0 10-11|0.1.0.0.0.0.0+0.1.0.0.0.0+0.1.0.0.0 8-9|0.1.0 7-8|0.1 5-6|0.1.1 3-4|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:55.368
+(c / collect-01 
+      :ARG1 (b / biopsi 
+            :ARG1-of (t2 / tail-01)) 
+      :ARG2 (f / female 
+            :op1-of (a / and 
+                  :op2 (g / generation 
+                        :mod (t / thing 
+                              :name (n / name 
+                                    :op1 "F0")))) 
+            :quant (a2 / all)))
+
+# ::snt DNA was isolated according to a previously described protocol [ 12 ] .
+# ::tok DNA was isolated according to a previously described protocol [ 12 ] .
+# ::alignments 10-11|0.1.0 8-9|0.0 7-8|0.0.0 6-7|0.0.0.0 3-4|0 2-3|0.1 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:55.456
+(s / say-01 
+      :ARG0 (p / protocol 
+            :ARG1-of (d / describe-01 
+                  :time (p2 / previous))) 
+      :ARG1 (i / isolate-01 
+            :ARG0 12 
+            :ARG1 (d2 / DNA)))
+
+# ::snt After screening of parental DNA with approximately 450 mouse fluorescence-labeled microsatellite markers ( INTERACTIVA , Ulm , Germany ) , 125 informative markers were selected covering the genome .
+# ::tok After screening of parental DNA with approximately 450 mouse fluorescence-labeled microsatellite markers ( INTERACTIVA , Ulm , Germany ) , 125 informative markers were selected covering the genome .
+# ::alignments 27-28|0.3.0.1.0.0 25-26|0.3.0.1.0 24-25|0.3.0 22-23|0.3.0.1 21-22|0.3.0.1.1 20-21|0.3.0.1.2 17-18|0.3.0.2.1+0.3.0.2.0.0+0.3.0.2.0+0.3.0.2 15-16|0.0.0.0+0.0.0+0.0 13-14|0.3.0.0.0.0+0.3.0.0.0+0.3.0.0 11-12|0.2 10-11|0.2.0 9-10|0.2.2 8-9|0.2.1 7-8|0.2.3.0 6-7|0.2.3 4-5|0.1 3-4|0.3.0.3 1-2|0 0-1|0.3 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:56.608
+(s2 / screen-01 
+      :ARG0 (c3 / country 
+            :name (n2 / name 
+                  :op1 "Ulm")) 
+      :ARG1 (d / DNA) 
+      :ARG2 (m2 / marker 
+            :mod (m3 / microsatellite) 
+            :mod (m4 / mouse) 
+            :mod (f / fluorescence-label) 
+            :quant (a / approximately 
+                  :op1 450)) 
+      :op1-of (a2 / after 
+            :time-of (s / select-01 
+                  :ARG0 (o / organization 
+                        :name (n3 / name 
+                              :op1 "INTERACTIVA")) 
+                  :ARG1 (m / marker 
+                        :ARG0-of (c / cover-01 
+                              :ARG1 (g / genome)) 
+                        :ARG1-of (i / inform-01) 
+                        :quant 125) 
+                  :ARG2 (c2 / country 
+                        :name (n / name 
+                              :op1 "Germany") 
+                        :wiki "Germany") 
+                  :op1-of (p / parental))))
+
+# ::snt Two hundred and thirty-seven N2 mice were genotyped with markers covering all chromosomes except for the Y chromosome .
+# ::tok Two hundred and thirty-seven N2 mice were genotyped with markers covering all chromosomes except for the Y chromosome .
+# ::alignments 17-18|0.0 16-17|0 13-14|0.0.0 12-13|0.0.0.1 11-12|0.0.0.1.1 10-11|0.0.0.1.0 9-10|0.0.0.1.0.0 5-6|0.0.0.1.0.1.1 4-5|0.0.0.1.0.1.1.0 3-4|0.0.0.1.0.1.0 2-3|0.0.0.1.0.1 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:00:56.965
+(y / y 
+      :mod-of (c / chromosome 
+            :ARG1-of (e / except-01 
+                  :ARG0 2 
+                  :ARG2 (c2 / chromosom 
+                        :ARG1-of (c3 / cover-01 
+                              :ARG0 (m / marker) 
+                              :op3-of (a2 / and 
+                                    :op1 (t / thirty-seven) 
+                                    :op2 (m2 / mouse 
+                                          :mod (n / N2)))) 
+                        :quant (a / all)))))
+
+# ::snt PCR amplification for the markers was performed in a final volume of 10 l in a 96-well V-bottom microtiter plate using 20 ng DNA , 10 mM KCl , 20 mM Tris -- HCl , 10 mM ( NH4 ) 2SO4 , 2 mM MgCl2 , 0.1 % Triton X-100 , pH 8.8 ( New England BioLabs Inc. , Ipswich , MA , USA ) , 3 M ( 10 pmol ) each primer , 2 mM dNTPs ( Advanced Biotechnologies , Epsom , Surrey , UK ) and 0.25 U Taq DNA Polymerase ( New England BioLabs Inc. ) .
+# ::tok PCR amplification for the markers was performed in a final volume of 10 l in a 96-well V-bottom microtiter plate using 20 ng DNA , 10 mM KCl , 20 mM Tris -- HCl , 10 mM ( NH4 ) 2SO4 , 2 mM MgCl2 , 0.1 % Triton X-100 , pH 8.8 ( New England BioLabs Inc. , Ipswich , MA , USA ) , 3 M ( 10 pmol ) each primer , 2 mM dNTPs ( Advanced Biotechnologies , Epsom , Surrey , UK ) and 0.25 U Taq DNA Polymerase ( New England BioLabs Inc. ) .
+# ::alignments 97-99|0.3.4.0.0.1+0.3.4.0.0.0+0.3.4.0.0+0.3.4.0 96-97|0.3.4.3+0.3.4.2.0+0.3.4.2+0.3.4 93-94|0.2 92-93|0.2.0 90-92|0.1.0.1+0.1.0.0+0.1.0+0.1 88-89|0 86-87|0.3.3.1+0.3.3.0.0+0.3.3.0+0.3.3 84-85|0.3.2.0.0+0.3.2.0+0.3.2 82-83|0.3.1.0.0+0.3.1.0+0.3.1 79-81|0.10.0.1+0.10.0.0+0.10.0+0.10 77-78|0.9 75-76|0.9.0 73-74|0.8 72-73|0.8.0 70-71|0.0.11 69-70|0.0.4 67-68|0.3.4.1.2+0.3.4.1.0.0+0.3.4.1.0+0.3.4.1 66-67|0.3.4.1.1 63-64|0.7.1+0.7.0.0+0.7.0+0.7 61-62|0.6.0.0+0.6.0+0.6 59-60|0.5.0.0+0.5.0+0.5 56-58|0.4.0.0.1+0.4.0.0.0+0.4.0.0+0.4.0 55-56|0.4.2+0.4.1.0+0.4.1+0.4 52-53|0.0.3 51-52|0.0.7 48-50|0.3.5.1+0.3.5.0+0.3.5+0.3 47-48|0.3.0 46-47|0.3.0.0 44-45|0.0.5.1 42-43|0.0.5 35-36|0.0.8 31-32|0.0.10 29-30|0.0.6 27-28|0.0.9.1.0+0.0.9.1+0.0.9 26-27|0.0.9.0 25-26|0.0.2 23-24|0.0.1.1.0.0.0 22-23|0.0.1.1.0.0.0.0 21-22|0.0.12 20-21|0.0.1.1.0.0 19-20|0.0.1.1.0 18-19|0.0.1.1.0.1 17-18|0.0.5.0.0.0+0.0.5.0.0+0.0.5.0 13-14|0.0.1.1 12-13|0.3.0.1 10-11|0.0.1 9-10|0.0.1.0 6-7|0.0 4-5|0.0.1.1.0.0.1 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:02.296
+(a / and 
+      :op1 (p8 / perform-02 
+            :ARG1 (a3 / amplification) 
+            :ARG2 (v2 / volume 
+                  :mod (f / final) 
+                  :mod-of (l / l 
+                        :location (p7 / plate 
+                              :ARG0-of (u2 / use-01 
+                                    :ARG1 (d3 / DNA 
+                                          :mod (n16 / ng)) 
+                                    :ARG3 (m4 / marker)) 
+                              :mod (m3 / microtit)))) 
+            :op1-of 10 
+            :op1-of 8.8 
+            :op1-of 10 
+            :op1-of (22 / 2 
+                  :quant-of (t5 / thing 
+                        :name (n17 / name 
+                              :op1 "V-bottom")) 
+                  :quant-of (m / MgCl2)) 
+            :op1-of 20 
+            :op1-of (p4 / ph) 
+            :op1-of 10 
+            :op1-of (c9 / country 
+                  :mod (m2 / mm) 
+                  :name (n15 / name 
+                        :op1 "KCl")) 
+            :op1-of (t4 / tri) 
+            :op1-of (p3 / pmol) 
+            :op1-of 20) 
+      :op10 (t / thing 
+            :name (n3 / name 
+                  :op1 (u / U) 
+                  :op2 (t2 / Taq))) 
+      :op11 (p / polymerase 
+            :mod (d / DNA)) 
+      :op2 (p5 / person 
+            :mod (p6 / percentage-entity 
+                  :value 0.1 
+                  :value 10) 
+            :mod (c4 / country 
+                  :name (n6 / name 
+                        :op1 "Epsom")) 
+            :mod (c3 / country 
+                  :name (n5 / name 
+                        :op1 "Surrey")) 
+            :mod (c2 / country 
+                  :name (n4 / name 
+                        :op1 "UK") 
+                  :wiki "United_Kingdom") 
+            :mod (c / country 
+                  :mod-of (o / organization 
+                        :name (n / name 
+                              :op1 "BioLabs" 
+                              :op2 "Inc.")) 
+                  :mod-of (v / vehicle 
+                        :name (n8 / name 
+                              :op1 "M1") 
+                        :quant 3 
+                        :wiki "M1_Abrams") 
+                  :name (n2 / name 
+                        :op1 "England") 
+                  :wiki "England") 
+            :name (n14 / name 
+                  :op1 "Triton" 
+                  :op2 "X-100")) 
+      :op3 (c8 / country 
+            :mod-of (o2 / organization 
+                  :name (n12 / name 
+                        :op1 "BioLabs" 
+                        :op2 "Inc.")) 
+            :name (n13 / name 
+                  :op1 "England") 
+            :wiki "England") 
+      :op4 (c7 / country 
+            :name (n11 / name 
+                  :op1 "Ipswich")) 
+      :op5 (c6 / country 
+            :name (n10 / name 
+                  :op1 "MA")) 
+      :op6 (c5 / country 
+            :name (n9 / name 
+                  :op1 "USA") 
+            :wiki "United_States") 
+      :op7 (p2 / primer 
+            :mod (e / each)) 
+      :op8 (d2 / dntp 
+            :quant 2) 
+      :op9 (t3 / thing 
+            :name (n7 / name 
+                  :op1 (a2 / Advanced) 
+                  :op2 (b / Biotechnologies))))
+
+# ::snt The following program was used to amplify the DNA : denaturation at 95 C for 3 minutes , annealing at 56 C for 45 seconds , polymerization at 72 C for 1 minute , 30 cycles of 95 C for 30 seconds , 56 C for 45 seconds and 72 C for 1 minute , and a final extension step of 7 minutes at 72 C .
+# ::tok The following program was used to amplify the DNA : denaturation at 95 C for 3 minutes , annealing at 56 C for 45 seconds , polymerization at 72 C for 1 minute , 30 cycles of 95 C for 30 seconds , 56 C for 45 seconds and 72 C for 1 minute , and a final extension step of 7 minutes at 72 C .
+# ::alignments 65-66|0.0.1.3.1 64-65|0.0.1.3.2 62-63|0.0.1.2.0.0.0.1+0.0.1.2.0.0.0 61-62|0.0.1.2.0.0.0.0 59-60|0.1 58-59|0.1.0 57-58|0.1.1 55-56|0 53-54|0.0.1.3.4.0.0.0.0+0.0.1.3.4.0.0.0 52-53|0.0.1.3.4.0.0 50-51|0.0 49-50|0.0.0 48-49|0.0.1 47-48|0.1.0.0.1+0.1.0.0 46-47|0.1.0.0.0 44-45|0.0.1.4 43-44|0.0.1.4.0 41-42|0.0.1.3.0.1+0.0.1.3.0 40-41|0.0.1.3.0.0 38-39|0.0.1.3.4 37-38|0.0.1.3.4.0 35-36|0.0.1.3 34-35|0.0.1.3.3 32-33|0.0.1.2+0.0.1.2.0 31-32|0.0.1.2.0.0 28-30|0.0.1.1.0.1+0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 24-25|0.0.1.3.4.0.0.1.1+0.0.1.3.4.0.0.1 23-24|0.0.1.3.4.0.0.1.0 21-22|0.0.1.0.0 20-21|0.0.1.0.2.0 16-17|0.0.1.2.0.0.1.1+0.0.1.2.0.0.1 15-16|0.0.1.2.0.0.1.0 13-14|0.0.1.0.1.0.0 12-13|0.0.1.0.1.0.0.0 8-9|0.0.1.0.2.1 6-7|0.0.1.0.2 4-5|0.0.1.0 2-3|0.0.1.0.1 1-2|0.0.1.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:04.270
+(a / and 
+      :op1 (c2 / C 
+            :mod-of 72 
+            :op6-of (a2 / and 
+                  :op1 (u / use-01 
+                        :ARG0 (c7 / C) 
+                        :ARG1 (p / program 
+                              :ARG1-of (f2 / follow-01 
+                                    :ARG0 (c8 / C 
+                                          :mod-of 95))) 
+                        :ARG2 (a3 / amplify-01 
+                              :ARG0 56 
+                              :ARG1 (d / DNA))) 
+                  :op2 (t6 / thing 
+                        :name (n / name 
+                              :op1 72 
+                              :op2 (c6 / C))) 
+                  :op3 (m3 / minute 
+                        :unit-of (t5 / temporal-quantity 
+                              :quant (12 / 1 
+                                    :quant-of (t / temporal-quantity 
+                                          :quant 7 
+                                          :unit (m / minute)) 
+                                    :quant-of (t8 / temporal-quantity 
+                                          :quant 3 
+                                          :unit (m4 / minute))))) 
+                  :op4 (c5 / cycle-02 
+                        :ARG0 (t4 / temporal-quantity 
+                              :quant 30 
+                              :unit (s3 / second)) 
+                        :op1-of (c / C) 
+                        :op1-of 72 
+                        :quant 30 
+                        :quant-of (c4 / C 
+                              :mod-of (9 / 95 
+                                    :mod (1 / 1 
+                                          :quant-of (t2 / temporal-quantity 
+                                                :unit (m2 / minute)) 
+                                          :quant-of (t7 / temporal-quantity 
+                                                :quant 45 
+                                                :unit (s4 / second)))))) 
+                  :op5 (c3 / C 
+                        :mod-of 56))) 
+      :op2 (s / step 
+            :ARG0-of (e / extend-01 
+                  :ARG1 (t3 / temporal-quantity 
+                        :quant 45 
+                        :unit (s2 / second))) 
+            :mod (f / final)))
+
+# ::snt The PCR products were analyzed on a MegaBACE  1000 ( Amersham Pharmacia Biotech Inc Piscataway , NJ , USA ) according to the manufacturer 's protocol .
+# ::tok The PCR products were analyzed on a MegaBACE  1000 ( Amersham Pharmacia Biotech Inc Piscataway , NJ , USA ) according to the manufacturer 's protocol .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:04.272
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Data were analyzed with Genetic Profiler 1.1 ( Amersham Pharmacia Biotech Inc ) .
+# ::tok Data were analyzed with Genetic Profiler 1.1 ( Amersham Pharmacia Biotech Inc ) .
+# ::alignments 8-12|0.0.0.3+0.0.0.2+0.0.0.1+0.0.0.0+0.0.0+0.0 6-7|0.3 4-6|0.2.0.1+0.2.0.0+0.2.0+0.2 2-3|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:04.449
+(a / analyze-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "Amersham" 
+                  :op2 "Pharmacia" 
+                  :op3 "Biotech" 
+                  :op4 "Inc")) 
+      :ARG1 (d / data) 
+      :ARG2 (t / thing 
+            :name (n2 / name 
+                  :op1 "Genetic" 
+                  :op2 "Profiler")) 
+      :time 1.1)
+
+# ::snt Map Manager QTXb20 free software [ 13 ] was used to perform linkage analysis and the permutation test .
+# ::tok Map Manager QTXb20 free software [ 13 ] was used to perform linkage analysis and the permutation test .
+# ::alignments 17-18|0.2.0.0 16-17|0.2.0.0.1 14-15|0.2.0 13-14|0.0 12-13|0.0.0 11-12|0.2 9-10|0 6-7|0.2.0.0.0 4-5|0.1.0.0 3-4|0.1.0 1-3|0.1.0.1.0.1+0.1.0.1.0.0+0.1.0.1.0+0.1.0.1 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:05.169
+(u / use-01 
+      :ARG1 (a2 / analyze-01 
+            :manner (l / linkage)) 
+      :ARG1-of (m2 / map-01 
+            :ARG3-of (f / free-04 
+                  :ARG1 (s / software) 
+                  :ARG2 (t2 / thing 
+                        :name (n / name 
+                              :op1 (m / Manager) 
+                              :op2 (q / QTXb20))))) 
+      :ARG2 (p2 / perform-02 
+            :ARG1 (a / and 
+                  :op1 (t / test-01 
+                        :ARG0 13 
+                        :ARG1 (p / permutation)))))
+
+# ::snt Ninety percent of the mouse genome was within a 20 cM intermarker distance .
+# ::tok Ninety percent of the mouse genome was within a 20 cM intermarker distance .
+# ::alignments 12-13|0.0.0 10-12|0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 9-10|0.0.0.2 5-6|0 4-5|0.0 1-2|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:05.316
+(g / genome 
+      :mod (m / mouse 
+            :ARG1-of (d / distance-01 
+                  :ARG0 (p / percentage-entity 
+                        :value (n2 / ninety)) 
+                  :ARG2 (t / thing 
+                        :name (n / name 
+                              :op1 (c / cM) 
+                              :op2 (i / intermarker))) 
+                  :time 20)))
+
+# ::snt The marker map was generated using the Kosambis map function and 1,000 permutations were performed for every phenotype ( P < 0.05 ) .
+# ::tok The marker map was generated using the Kosambis map function and 1,000 permutations were performed for every phenotype ( P < 0.05 ) .
+# ::alignments 19-20|0.0.0.0.0.0 17-18|0.1.2 16-17|0.1.2.0 14-15|0.1 12-13|0.1.0 10-11|0 9-10|0.1.1 8-9|0.1.1.0 7-8|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 5-6|0.0.0 4-5|0.0 2-3|0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:05.736
+(a / and 
+      :op1 (g / generate-01 
+            :ARG1 (u / use-01 
+                  :ARG0 (m2 / map 
+                        :ARG1-of (m3 / mark-01 
+                              :ARG0 (p / P60))) 
+                  :ARG1 (t / thing 
+                        :name (n / name 
+                              :op1 "Kosambis")))) 
+      :op2 (p3 / perform-02 
+            :ARG1 (p4 / permutation) 
+            :ARG2 (f / function-01 
+                  :ARG1 (m / map)) 
+            :purpose (p2 / phenotype 
+                  :mod (e / every))))
+
+# ::snt The permutation tests were carried out to establish empirical significance thresholds for the interactions .
+# ::tok The permutation tests were carried out to establish empirical significance thresholds for the interactions .
+# ::alignments 13-14|0.1.1 10-11|0.1.0 9-10|0.1.0.0 8-9|0.1.0.0.0 7-8|0.1 4-5|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:05.912
+(c / carry-out-03 
+      :ARG1 (t2 / test-01 
+            :ARG1 (p / permutation)) 
+      :purpose (e2 / establish-01 
+            :ARG1 (t / threshold 
+                  :ARG1-of (s / significant-02 
+                        :ARG0 (e / empirical))) 
+            :duration (i / interaction)))
+
+# ::snt A threshold equal to or above the 37th percentile ( P = 0.63 ) was considered suggestively significant , and the level for the significant threshold was set to the 95th percentile ( P = 0.05 ) .
+# ::tok A threshold equal to or above the 37th percentile ( P = 0.63 ) was considered suggestively significant , and the level for the significant threshold was set to the 95th percentile ( P = 0.05 ) .
+# ::alignments 33-34|0.1.0.0 31-32|0.1.0.1.1.0 30-31|0.1.0.1.1.0.0 25-26|0.3.1 24-25|0.3 21-22|0.1.0.1.0 19-20|0.1.0.1.1 17-18|0.1.0 16-17|0.1.0.2 15-16|0.1.0.1 10-11|0.3.0 8-9|0.2 7-8|0.2.0 5-6|0.0 4-5|0.2.1 2-3|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:06.323
+(e / equal-01 
+      :ARG0 (a2 / above) 
+      :ARG1 (t2 / threshold 
+            :ARG1-of (s2 / significant-02 
+                  :ARG0 (p / P60) 
+                  :ARG1-of (c / consider-01 
+                        :ARG0 (l / level) 
+                        :op1-of (a / and 
+                              :op2 (p2 / percentile 
+                                    :mod 95th))) 
+                  :mod (s3 / suggestively))) 
+      :ARG2 (p4 / percentile 
+            :mod 37th 
+            :op1-of (o / or)) 
+      :ARG2-of (s / significant-02 
+            :ARG0 (p3 / P60) 
+            :ARG1 (t / threshold)))
+
+# ::snt Interval mapping was made with a 2 cM increase under the additive regression model in order to calculate the test statistics .
+# ::tok Interval mapping was made with a 2 cM increase under the additive regression model in order to calculate the test statistics .
+# ::alignments 20-21|0.0.0.0.0 19-20|0.0.0.0.0.0 17-18|0.0.0.0 13-14|0.0.0 12-13|0.0.0.1 11-12|0.0.0.2 8-9|0.0 7-8|0.0.1 6-7|0.0.1.0 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:06.453
+(m2 / map-01 
+      :ARG1-of (i / increase-01 
+            :ARG0 (m / model 
+                  :ARG0-of (c / calculate-01 
+                        :ARG1 (s / statistic 
+                              :ARG1-of (t / test-01))) 
+                  :mod (r / regression) 
+                  :mod (a / additive)) 
+            :ARG2 (c2 / cm 
+                  :quant 2)) 
+      :mod (i2 / interval))
+
+# ::snt The adult female mice were sacrificed at 15 months of age and sera were collected .
+# ::tok The adult female mice were sacrificed at 15 months of age and sera were collected .
+# ::alignments 14-15|0.1 12-13|0.1.0 11-12|0 10-11|0.0.0.0.0 8-9|0.0.1.1+0.0.1 7-8|0.0.1.0 5-6|0.0 3-4|0.0.0 2-3|0.0.0.0 1-2|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:06.542
+(a / and 
+      :op1 (s2 / sacrifice-01 
+            :ARG1 (m2 / mouse 
+                  :mod (f / female 
+                        :ARG1-of (a2 / age-01 
+                              :ARG0 (a3 / adult)))) 
+            :ARG2 (t / temporal-quantity 
+                  :quant 15 
+                  :unit (m / month))) 
+      :op2 (c / collect-01 
+            :ARG1 (s / serum)))
+
+# ::snt Anti-CII antibody titers in sera were analyzed by a sandwich ELISA technique [ 14 ] .
+# ::tok Anti-CII antibody titers in sera were analyzed by a sandwich ELISA technique [ 14 ] .
+# ::alignments 13-14|0.2 11-12|0.0 10-11|0.0.0 9-10|0.0.1 6-7|0 4-5|0.1.0 2-3|0.1 1-2|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:06.622
+(a / analyze-01 
+      :ARG0 (t / technique 
+            :mod (e / elisa) 
+            :mod (s / sandwich)) 
+      :ARG1 (t2 / titer 
+            :location (s2 / serum) 
+            :mod (a2 / antibody)) 
+      :ARG2 14)
+
+# ::snt In brief , CII ( 10 g/ml ) was coupled to immunosorbent plates overnight at 4 C .
+# ::tok In brief , CII ( 10 g/ml ) was coupled to immunosorbent plates overnight at 4 C .
+# ::alignments 16-17|0.0 15-16|0.0.0 13-14|0.2.0 12-13|0.3 9-10|0 5-6|0.0.1 3-4|0.1.0.0+0.1.0+0.1 1-2|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:06.889
+(c2 / couple-01 
+      :ARG0 (c / C 
+            :era-of 4 
+            :poss 10) 
+      :ARG1 (o2 / organization 
+            :name (n / name 
+                  :op1 "CII")) 
+      :ARG2 (b / brief 
+            :poss (o / overnight)) 
+      :manner (p / plate))
+
+# ::snt Bovine serum albumin ( Sigma Chemical St Louis , MO , USA ) was used for blocking , and thereafter different dilutions of control sera ( purified mouse anti-CII antibodies ) , test sera , and positive and negative controls were added .
+# ::tok Bovine serum albumin ( Sigma Chemical St Louis , MO , USA ) was used for blocking , and thereafter different dilutions of control sera ( purified mouse anti-CII antibodies ) , test sera , and positive and negative controls were added .
+# ::alignments 41-42|0 39-40|0.1.2 38-39|0.1.2.2 37-38|0.1.1 36-37|0.1.1.0 35-36|0.1 33-34|0.1.0 32-33|0.1.0.0 29-30|0.0.0.0.1 27-28|0.0.0.0.0 26-27|0.0.0.0 24-25|0.1.2.1 23-24|0.1.2.1.0 21-22|0.0 20-21|0.0.0 19-20|0.0.1 18-19|0.2 16-17|0.2.0.1 14-15|0.2.0 11-12|0.1.2.0.1+0.1.2.0.0.0+0.1.2.0.0+0.1.2.0 9-10|0.1.2.1.0.0.0.0+0.1.2.1.0.0.0+0.1.2.1.0.0 4-8|0.1.2.1.0.2.0.3+0.1.2.1.0.2.0.2+0.1.2.1.0.2.0.1+0.1.2.1.0.2.0.0+0.1.2.1.0.2.0+0.1.2.1.0.2 2-3|0.2.0.0 1-2|0.2.0.0.0 0-1|0.1.2.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:08.639
+(a / add-01 
+      :ARG1 (d / dilution 
+            :ARG1-of (d2 / differ-02 
+                  :ARG2 (p2 / purify-01 
+                        :ARG0 (m / mouse) 
+                        :ARG1 (a4 / antibodi))) 
+            :mod (t2 / thereaft)) 
+      :ARG2 (a3 / and 
+            :op1 (s / serum 
+                  :purpose (t / test-01)) 
+            :op2 (a2 / and 
+                  :op1 (p / positive)) 
+            :op3 (c / control-01 
+                  :ARG0 (c3 / country 
+                        :name (n2 / name 
+                              :op1 "USA") 
+                        :wiki "United_States") 
+                  :ARG1 (s2 / serum 
+                        :mod (c2 / control-01 
+                              :ARG0 (c4 / country 
+                                    :name (n3 / name 
+                                          :op1 "MO")) 
+                              :ARG1 (b2 / bovine) 
+                              :location (c5 / country 
+                                    :name (n4 / name 
+                                          :op1 "Sigma" 
+                                          :op2 "Chemical" 
+                                          :op3 "St" 
+                                          :op4 "Louis")))) 
+                  :mod (n / negative))) 
+      :op2-of (a5 / and 
+            :op1 (u / use-01 
+                  :ARG1 (a6 / albumin 
+                        :mod (s3 / serum)) 
+                  :ARG2 (b / block-01))))
+
+# ::snt The presence of CII-specific IgG was visualized by means of peroxidase-conjugated goat antimouse IgG .
+# ::tok The presence of CII-specific IgG was visualized by means of peroxidase-conjugated goat antimouse IgG .
+# ::alignments 12-14|0.0.0.2.1+0.0.0.2.0+0.0.0.2+0.0.0 11-12|0.0.0.0 10-11|0.0.0.1 8-9|0.0 6-7|0 3-5|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:08.701
+(v / visualize-01 
+      :ARG0 (m / mean 
+            :part-of (t / thing 
+                  :mod (g / goat) 
+                  :mod (p / peroxidase-conjugat) 
+                  :name (n / name 
+                        :op1 (a / antimouse) 
+                        :op2 (i / IgG)))) 
+      :ARG1 (p3 / presence 
+            :poss (p2 / person 
+                  :name (n2 / name 
+                        :op1 "CII-specific" 
+                        :op2 "IgG"))))
+
+# ::snt Statistical comparison between the different experimental groups was performed using the Mann-Whitney U test or Student 's unpaired t test .
+# ::tok Statistical comparison between the different experimental groups was performed using the Mann-Whitney U test or Student 's unpaired t test .
+# ::alignments 19-20|0.2 18-19|0.2.1 17-18|0.2.2 15-16|0.2.0.0+0.2.0 14-15|0 13-14|0.1 11-13|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 9-10|0.0 8-9|0.0.0 6-7|0.0.1.0 5-6|0.0.1.0.1 4-5|0.0.1.0.0 1-2|0.0.1 0-1|0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:09.224
+(o / or 
+      :ARG1-of (u3 / use-01 
+            :ARG1-of (p2 / perform-02) 
+            :ARG2 (c / compare-01 
+                  :ARG0 (g / group 
+                        :ARG1-of (d / differ-02) 
+                        :mod (e / experiment-01)) 
+                  :ARG1 (s2 / statistical))) 
+      :op1 (t3 / test-01 
+            :ARG1 (t4 / thing 
+                  :name (n / name 
+                        :op1 (m / Mann-Whitney) 
+                        :op2 (u2 / U)))) 
+      :op2 (t / test-01 
+            :ARG0 (p / person 
+                  :ARG0-of (s / study-01)) 
+            :ARG1 (t2 / t) 
+            :mod (u / unpair)))
+
+# ::snt NFR/N female mice show delayed onset and lower incidence of CIA compared with B10.Q females .
+# ::tok NFR/N female mice show delayed onset and lower incidence of CIA compared with B10.Q females .
+# ::alignments 14-15|0.1.0.1.0.0 11-12|0.1.0.1.0 10-11|0.1.0.1.2+0.1.0.1.1.0+0.1.0.1.1+0.1.0.1 8-9|0.1.0 7-8|0.1.0.0 6-7|0.1 5-6|0.2 4-5|0.2.0 3-4|0 2-3|0.0 1-2|0.0.0 0-1|0.0.1.0.0+0.0.1.0+0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:10.151
+(s / show-01 
+      :ARG0 (m / mouse 
+            :mod (f2 / female) 
+            :mod (t / thing 
+                  :name (n2 / name 
+                        :op1 "NFR/N"))) 
+      :ARG1 (a / and 
+            :op1 (i / incidence 
+                  :ARG1-of (l / low-04) 
+                  :mod (g / government-organization 
+                        :ARG1-of (c / compare-01 
+                              :ARG2 (f / female)) 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency"))) 
+      :ARG2 (o / onset 
+            :ARG1-of (d / delay-01)))
+
+# ::snt The onset of the disease was significantly delayed in NFR/N mice , which resulted in lower incidence in the initial phase of the disease ( Table 1 and Figure 1 ) .
+# ::tok The onset of the disease was significantly delayed in NFR/N mice , which resulted in lower incidence in the initial phase of the disease ( Table 1 and Figure 1 ) .
+# ::alignments 29-30|0.0.0.1.0.0 28-29|0.0.0.1.0.0.0 27-28|0.2.0 26-27|0.0.0.0.0 25-26|0.0.0.0 23-24|0.2.1.0.0 20-21|0.2.1.0 19-20|0.2.1 16-17|0.0.0.1 15-16|0.0.0.1.0 13-14|0.0.0 10-11|0.0 9-10|0.0.1.0.0+0.0.1.0+0.0.1 7-8|0 6-7|0.2 4-5|0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:10.627
+(d2 / delay-01 
+      :ARG0 (m / mouse 
+            :ARG1-of (r / result-01 
+                  :ARG0 (t / table 
+                        :era 1) 
+                  :ARG2 (i2 / incidence 
+                        :ARG1-of (l / low-04 
+                              :ARG0 (1 / 1 
+                                    :era-of (f / figure))))) 
+            :mod (t2 / thing 
+                  :name (n / name 
+                        :op1 "NFR/N"))) 
+      :ARG1 (o / onset 
+            :poss (d3 / disease)) 
+      :ARG2 (s / significant-02 
+            :ARG0 (a / and) 
+            :ARG1 (i / initial 
+                  :time-of (p / phase 
+                        :mod (d / disease)))))
+
+# ::snt The appearance of the arthritis was slightly different between the two strains , NFR/N mice showing a higher frequency of swelling of the entire paw than B10.Q mice .
+# ::tok The appearance of the arthritis was slightly different between the two strains , NFR/N mice showing a higher frequency of swelling of the entire paw than B10.Q mice .
+# ::alignments 27-28|0.1.0.1.0 24-25|0.1.0 23-24|0.1.0.2 20-21|0.1.0.0 18-19|0.1 17-18|0.1.1 15-16|0 14-15|0.0 13-14|0.0.0.0.0+0.0.0.0+0.0.0 11-12|0.1.0.1.2.0 10-11|0.1.0.1.2.0.0 7-8|0.1.0.1.2 6-7|0.1.0.1.2.1 4-5|0.1.0.1.1 1-2|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:10.981
+(s2 / show-01 
+      :ARG0 (m2 / mouse 
+            :mod (t / thing 
+                  :name (n / name 
+                        :op1 "NFR/N"))) 
+      :ARG1 (f / frequency 
+            :ARG0-of (p / paw-01 
+                  :ARG1-of (s / swell-01) 
+                  :ARG2 (a2 / appear-01 
+                        :ARG0 (m / mouse) 
+                        :ARG1 (a / arthritis) 
+                        :ARG1-of (d / differ-02 
+                              :ARG2 (s3 / strain 
+                                    :quant 2) 
+                              :degree (s4 / slight))) 
+                  :mod (e / entire)) 
+            :ARG1-of (h / high-02)))
+
+# ::snt Later in the disease course the differences in CIA frequency and severity between the strains were less obvious .
+# ::tok Later in the disease course the differences in CIA frequency and severity between the strains were less obvious .
+# ::alignments 17-18|0 16-17|0.2 14-15|0.1.0 11-12|0.1.2.1 10-11|0.1.2 9-10|0.1.1 8-9|0.1.1.0.1+0.1.1.0.0.0+0.1.1.0.0+0.1.1.0 6-7|0.1 3-4|0.0 0-1|0.1.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:11.052
+(o / obvious-01 
+      :ARG0 (d2 / disease) 
+      :ARG1 (d / differ-01 
+            :ARG1 (s / strain) 
+            :ARG2 (f / frequency 
+                  :mod (g / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency")) 
+            :op1-of (a / and 
+                  :mod (l2 / late) 
+                  :op2 (s2 / severity))) 
+      :degree (l / less))
+
+# ::snt However , the anti-CII titers 100 days after primary immunization ( and 70 days after the booster ) differed significantly between NFR/N and B10.Q female mice ( see Table 1 ) .
+# ::tok However , the anti-CII titers 100 days after primary immunization ( and 70 days after the booster ) differed significantly between NFR/N and B10.Q female mice ( see Table 1 ) .
+# ::alignments 29-30|0.0.0.0 28-29|0.0.0 27-28|0.0 25-26|0.1.0.0.4.1.0 24-25|0.1.0.0.4.1 22-23|0.1.0.0.4 21-22|0.1.0.0.4.0.0.0+0.1.0.0.4.0.0+0.1.0.0.4.0 19-20|0.1.0.0.1 18-19|0.1.0.0 16-17|0 14-15|0.1 13-14|0.1.0.2+0.1.0 12-13|0.1.0.1 11-12|0.1.0.0.3 9-10|0.1.0.0.0 8-9|0.1.0.0.0.0 7-8|0.1.0.0.2 6-7|0.1.0.0.2.0.1+0.1.0.0.2.0 5-6|0.1.0.0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:11.504
+(b / boost-01 
+      :ARG1 (s / see-01 
+            :ARG1 (t / table 
+                  :mod 1)) 
+      :op1-of (a2 / after 
+            :quant (t3 / temporal-quantity 
+                  :ARG0-of (d / differ-01 
+                        :ARG1 (i / immunization 
+                              :mod (p / primary)) 
+                        :ARG2 (s2 / significant-02) 
+                        :op1-of (a4 / after 
+                              :quant (t4 / temporal-quantity 
+                                    :quant 100 
+                                    :unit (d3 / day))) 
+                        :op1-of (a3 / and) 
+                        :op1-of (a / and 
+                              :op2 (t2 / thing 
+                                    :name (n / name 
+                                          :op1 "NFR/N")) 
+                              :op3 (f / female 
+                                    :mod-of (m / mouse)))) 
+                  :quant 70 
+                  :unit (d2 / day))))
+
+# ::snt Pregnancy history does not significantly affect incidence or severity of CIA in female mice of mixed genetic background .
+# ::tok Pregnancy history does not significantly affect incidence or severity of CIA in female mice of mixed genetic background .
+# ::alignments 17-18|0.2.0.1 16-17|0.2.0.1.0 15-16|0.2.0 13-14|0.2.0.1.1 12-13|0.2.0.1.1.0 10-11|0.1.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 8-9|0.1.1 7-8|0.1 6-7|0.1.0 5-6|0 4-5|0.2 3-4|0.3 1-2|0.0 0-1|0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.216
+(a / affect-01 
+      :ARG0 (h / history) 
+      :ARG1 (o / or 
+            :op1 (i / incidence 
+                  :op1 (g2 / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency")) 
+            :op2 (s / severity)) 
+      :ARG2 (s2 / significant-02 
+            :ARG1 (m / mix-01 
+                  :ARG0 (p / pregnancy) 
+                  :ARG3 (b / background 
+                        :mod (g / gene) 
+                        :poss-of (m2 / mouse 
+                              :mod (f / female))))) 
+      :polarity -)
+
+# ::snt Table 2 presents the results of arthritic incidence , arthritis onset and maximum arthritic score for the female mice of the N2 generation , ( NFR/N  B10.Q )  B10.Q , grouped according to the number of pregnancies they had experienced prior to immunization with CII .
+# ::tok Table 2 presents the results of arthritic incidence , arthritis onset and maximum arthritic score for the female mice of the N2 generation , ( NFR/N  B10.Q )  B10.Q , grouped according to the number of pregnancies they had experienced prior to immunization with CII .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.219
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt There was no significant difference in the incidence or severity of arthritis depending on the number of pregnancies that had been passed prior to the induction of the disease .
+# ::tok There was no significant difference in the incidence or severity of arthritis depending on the number of pregnancies that had been passed prior to the induction of the disease .
+# ::alignments 28-29|0.0.0.0.0.0 25-26|0.0.0.0.0 22-23|0.0.0.0.0.1.1 21-22|0.0.0.0.0.1 17-18|0.0.0.0.0.1.0 15-16|0.0.0.0.0.1.0.0 12-13|0 11-12|0.0 9-10|0.0.0.2 8-9|0.0.0 7-8|0.0.0.1 4-5|0.0.0.0 3-4|0.0.0.0.1 2-3|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.437
+(d2 / depend-01 
+      :ARG1 (a / arthritis 
+            :op4-of (o / or 
+                  :op1 (d3 / differ-02 
+                        :ARG1 (i / induct-02 
+                              :ARG1 (d / disease) 
+                              :destination-of (p2 / pass-01 
+                                    :ARG1 (p3 / pregnanci 
+                                          :quant (n / number)) 
+                                    :ARG4 (p / prior))) 
+                        :ARG1-of (s2 / significant-02)) 
+                  :op2 (i2 / incidence) 
+                  :op3 (s / severity))) 
+      :polarity -)
+
+# ::snt We observed a trend towards lower severity in multiparous mice compared with mice with a history of zero to two pregnancies .
+# ::tok We observed a trend towards lower severity in multiparous mice compared with mice with a history of zero to two pregnancies .
+# ::alignments 20-21|0 19-20|0.0 17-18|0.0.0.0 15-16|0.0.0.1.0.0.1.0 12-13|0.0.0.1.0.0.1 10-11|0.0.0.1.0.0 9-10|0.0.0.1.0.0.0 8-9|0.0.0.1.0.0.0.0 6-7|0.0.0.2 5-6|0.0.0.2.0 3-4|0.0.0 1-2|0.0.0.1 0-1|0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.578
+(p / pregnanci 
+      :quant (2 / 2 
+            :ARG1-of (t / trend-01 
+                  :ARG0 (z / zero) 
+                  :ARG1-of (o / observe-01 
+                        :ARG0 (w / we 
+                              :ARG0-of (c / compare-01 
+                                    :ARG1 (m2 / mouse 
+                                          :mod (m3 / multiparou)) 
+                                    :ARG2 (m / mouse 
+                                          :topic (h / history))))) 
+                  :ARG2 (s / severity 
+                        :ARG1-of (l / low-04)))))
+
+# ::snt The onset of diseases , however , was earlier in mice that had passed more than one pregnancy .
+# ::tok The onset of diseases , however , was earlier in mice that had passed more than one pregnancy .
+# ::alignments 17-18|0.0.0.0.1 14-15|0.0.0.0.0 13-14|0.0.0.0 10-11|0.0.0 8-9|0.0.0.1 3-4|0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.678
+(o / onset 
+      :quant-of (d / disease 
+            :mod (m2 / mouse 
+                  :ARG0-of (p2 / pass-01 
+                        :ARG1 (m / more) 
+                        :ARG2 (p / pregnancy)) 
+                  :op1-of (e / early))))
+
+# ::snt There was no difference in the development of the disease between female mice that have only been pregnant with MHC mismatched males ( B10.RIII ) and female mice that only have been pregnant with MHC matched males ( B10.Q ) .
+# ::tok There was no difference in the development of the disease between female mice that have only been pregnant with MHC mismatched males ( B10.RIII ) and female mice that only have been pregnant with MHC matched males ( B10.Q ) .
+# ::alignments 36-37|0.1.2.1 35-36|0.1.2 32-33|0.0 29-30|0.0.0 27-28|0.4 26-27|0.3 25-26|0 21-22|0.2 20-21|0.2.1 19-20|0.2.0.0.0+0.2.0.0+0.2.0 17-18|0.2.2 15-16|0.2.2.0 12-13|0.1.1.0 11-12|0.1.1.0.0 9-10|0.1.0 6-7|0.1 3-4|0.1.1 2-3|0.1.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.918
+(a / and 
+      :mod (p / pregnant 
+            :mod (o / only)) 
+      :op1 (d2 / develop-02 
+            :ARG1 (d / disease) 
+            :ARG1-of (d3 / differ-02 
+                  :location (m6 / mouse 
+                        :mod (f2 / female))) 
+            :purpose (m2 / match-01 
+                  :ARG0 - 
+                  :ARG1 (m / male))) 
+      :op2 (m4 / male 
+            :mod (o2 / organization 
+                  :name (n / name 
+                        :op1 "MHC")) 
+            :mod (m5 / mismatch) 
+            :prep-with-of (p2 / pregnant 
+                  :mod (o3 / only))) 
+      :op3 (f / female) 
+      :op4 (m3 / mouse))
+
+# ::snt New loci associated with CIA in identified old female mice .
+# ::tok New loci associated with CIA in identified old female mice .
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 7-8|0.1.0.1 6-7|0.1 4-5|0.2.1+0.2.0.0+0.2.0+0.2 2-3|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:12.953
+(a / associate-01 
+      :ARG0 (l / locus) 
+      :ARG1 (i / identify-01 
+            :ARG1 (m / mouse 
+                  :mod (f / female) 
+                  :mod (o / old))) 
+      :ARG2 (g / government-organization 
+            :name (n / name 
+                  :op1 "CIA") 
+            :wiki "Central_Intelligence_Agency"))
+
+# ::snt The genetic linkage analysis revealed one significant quantitative trait locus ( QTL ) located at 64 -- 70 cM on chromosome 11 ( Table 3 and Figure 2 ) .
+# ::tok The genetic linkage analysis revealed one significant quantitative trait locus ( QTL ) located at 64 -- 70 cM on chromosome 11 ( Table 3 and Figure 2 ) .
+# ::alignments 27-28|0.2.0 26-27|0.2 25-26|0.0.5 24-25|0.0.4.0 23-24|0.0.4 21-22|0.1.1.0 20-21|0.0.2 18-19|0.0.2.0 17-18|0.0.2.0.0 15-16|0.0.0 13-14|0.1.0 9-10|0.1 8-9|0.1.2 7-8|0.1.3 6-7|0.1.1 4-5|0 3-4|0.0 2-3|0.0.1 1-2|0.0.3 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:13.312
+(r / reveal-01 
+      :ARG0 (a2 / analyze-01 
+            :ARG0 64 
+            :ARG1 (l3 / linkage) 
+            :ARG2 (c / chromosome 
+                  :location-of (c2 / cm 
+                        :quant 70)) 
+            :manner (g / gene) 
+            :op1-of (t / table 
+                  :era 3) 
+            :op1-of (a / and)) 
+      :ARG1 (l2 / locu 
+            :ARG1-of (l / locate-01) 
+            :ARG1-of (s / significant-02 
+                  :ARG0 11) 
+            :mod (t2 / trait) 
+            :mod (q / quantitative)) 
+      :ARG2 (f / figure 
+            :era 2))
+
+# ::snt This locus ( denoted Cia40 ) gave significant LOD scores for the traits incidence ( LOD = 4.1 ) and ` day of onset ' ( LOD = 4.0 ) , and a suggestive LOD score for the trait ` arthritis score ' ( LOD = 3.3 ) .
+# ::tok This locus ( denoted Cia40 ) gave significant LOD scores for the traits incidence ( LOD = 4.1 ) and ` day of onset ' ( LOD = 4.0 ) , and a suggestive LOD score for the trait ` arthritis score ' ( LOD = 3.3 ) .
+# ::alignments 41-42|0.2.0.0 40-41|0.2.0.0.1 38-39|0.1.0.0 35-36|0.2.0 33-34|0.2.0.2 31-32|0.2 23-24|0.3.2 21-22|0.3.1 19-20|0.3 17-18|0.2.0.0.0 13-14|0.3.0 12-13|0.3.0.0 9-10|0.1 7-8|0.1.0 6-7|0 4-5|0.2.0.1.0 3-4|0.2.0.1 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:13.980
+(g / give-01 
+      :ARG0 (l / locu 
+            :mod (t3 / this)) 
+      :ARG1 (s4 / score 
+            :ARG1-of (s5 / significant-02 
+                  :ARG0 (t / trait))) 
+      :ARG2 (a2 / and 
+            :op1 (s2 / score-01 
+                  :ARG1 (s / score-01 
+                        :ARG0 4.1 
+                        :ARG1 (a / arthritis)) 
+                  :ARG2-of (d2 / denote-01 
+                        :ARG1 (c / Cia40)) 
+                  :mod (s3 / suggestive))) 
+      :purpose (a3 / and 
+            :op1 (i / incidence 
+                  :mod (t2 / trait)) 
+            :op2 (d / day) 
+            :op3 (o / onset)))
+
+# ::snt Another QTL of suggestive significance for the incidence of disease was identified around 27 cM on chromosome 1 ( Figure 2 ) .
+# ::tok Another QTL of suggestive significance for the incidence of disease was identified around 27 cM on chromosome 1 ( Figure 2 ) .
+# ::alignments 20-21|0.0.3 19-20|0.0.4 17-18|0.0.0 16-17|0.1 14-15|0.2.0 13-14|0.2.0.0 12-13|0.2 11-12|0 9-10|0.0.1.0 7-8|0.0.1 4-5|0.0 3-4|0.0.2 0-1|0.0.3.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:14.195
+(i / identify-01 
+      :ARG1 (s / significant-02 
+            :ARG0 1 
+            :ARG1 (i2 / incidence 
+                  :poss (d / disease)) 
+            :mod (s2 / suggestive) 
+            :op1-of (2 / 2 
+                  :poss-of (a2 / another)) 
+            :op1-of (f / figure)) 
+      :ARG2 (c / chromosome) 
+      :location (a / around 
+            :op1 (c2 / cm 
+                  :quant 27)))
+
+# ::snt Finally , a suggestive QTL for the trait anti-CII antibody titer was identified on chromosome 13 ( Figure 2 ) .
+# ::tok Finally , a suggestive QTL for the trait anti-CII antibody titer was identified on chromosome 13 ( Figure 2 ) .
+# ::alignments 18-19|0.0.0.2.0 17-18|0.0.0.2.0.0.0 15-16|0.0.0.2.0.0.1 14-15|0.0.0.1 12-13|0.0.0 10-11|0.0 9-10|0 7-8|0.0.0.0 3-4|0.0.0.2.0.0 0-1|0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:14.346
+(a / antibody 
+      :mod-of (t / tit 
+            :ARG1-of (i / identify-01 
+                  :ARG0 (t2 / trait) 
+                  :ARG2 (c / chromosome) 
+                  :time (f2 / final 
+                        :poss-of (2 / 2 
+                              :mod (s / suggestive 
+                                    :mod-of (f / figure) 
+                                    :poss 13))))))
+
+# ::snt Although carrying the same CIA-susceptible MHC region , the NFR/N and B10.Q mice are different in several respects .
+# ::tok Although carrying the same CIA-susceptible MHC region , the NFR/N and B10.Q mice are different in several respects .
+# ::alignments 17-18|0.0.1.1 16-17|0.0.1.1.0 14-15|0 12-13|0.0 10-11|0.0.1 9-10|0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 6-7|0.0.0.0 5-6|0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 3-4|0.0.0.0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:14.744
+(d / differ-02 
+      :ARG1 (m / mouse 
+            :ARG0-of (c / carry-01 
+                  :ARG1 (r2 / region 
+                        :ARG1-of (s2 / same-01) 
+                        :mod (o / organization 
+                              :name (n2 / name 
+                                    :op1 "MHC")))) 
+            :op2-of (a / and 
+                  :op1 (t / thing 
+                        :name (n / name 
+                              :op1 "NFR/N")) 
+                  :op3 (r / respect-01 
+                        :quant (s / several)))))
+
+# ::snt The NFR/N mouse , which is an inbred NMRI mouse of the H-2q haplotype , is larger in size than the B10.Q mouse and is also known for its extraordinarily good breeding properties .
+# ::tok The NFR/N mouse , which is an inbred NMRI mouse of the H-2q haplotype , is larger in size than the B10.Q mouse and is also known for its extraordinarily good breeding properties .
+# ::alignments 32-33|0.0.0.0 31-32|0.0.0 30-31|0.0.0.0.1 29-30|0.0.0.0.1.0 26-27|0.0.0.0.0 25-26|0.0.0.0.0.1 23-24|0.0.0.0.0.2 22-23|0.0.0.0.0.2.1.0.0 21-22|0.0.0.0.0.2.1.0.1.0+0.0.0.0.0.2.1.0.1+0.0.0.0.0.2.1.0 18-19|0.0.0.0.0.2.1 16-17|0.0.0.0.0.2.0 13-14|0.0.1 12-13|0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 9-10|0.0 7-8|0 2-3|0.0.0.0.0.0 1-2|0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0+0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:15.138
+(i / inbred 
+      :mod-of (m2 / mouse 
+            :ARG0-of (b / breed-01 
+                  :ARG1 (p / property 
+                        :ARG1-of (k / know-02 
+                              :ARG0 (m3 / mouse 
+                                    :mod (t3 / thing 
+                                          :name (n3 / name 
+                                                :op1 "NFR/N"))) 
+                              :mod (a / also) 
+                              :op2-of (a2 / and 
+                                    :op1 (l / large) 
+                                    :prep-with-of (s / size 
+                                          :location (t / thing 
+                                                :mod-of (m / mouse) 
+                                                :name (n / name 
+                                                      :op1 "B10.Q"))))) 
+                        :mod (g / good 
+                              :mod (e / extraordinary)))) 
+            :poss (h / haplotype 
+                  :mod (t2 / thing 
+                        :name (n2 / name 
+                              :op1 "H-2q")))))
+
+# ::snt The mice used in the present study , ( NFR/N  B10.Q )  B10.Q females , first underwent a genetic study of reproduction , in which a number of loci associated with breeding performance were identified ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R ; unpublished data ) .
+# ::tok The mice used in the present study , ( NFR/N  B10.Q )  B10.Q females , first underwent a genetic study of reproduction , in which a number of loci associated with breeding performance were identified ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R ; unpublished data ) .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:15.140
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Since the parental strains differ in susceptibility to CIA , in spite of both having the MHC class II A beta genes [ 15 ] , we wanted to test the susceptibility to inflammatory disease in mice from this cross .
+# ::tok Since the parental strains differ in susceptibility to CIA , in spite of both having the MHC class II A beta genes [ 15 ] , we wanted to test the susceptibility to inflammatory disease in mice from this cross .
+# ::alignments 39-40|0.0.4.0.1.1 38-39|0.0.4.0.1.1.1 36-37|0.0.4.0.1.0.1 34-35|0.0.4.0.1.0 33-34|0.0.4.0.1.0.0 31-32|0 29-30|0.0.4.0.1 27-28|0.0.4.0 26-27|0.0.4.0.0 23-24|0.0.4.0.1.1.3 21-22|0.0.0 20-21|0.0.0.0 18-19|0.0.4.0.1.1.0.1+0.0.4.0.1.1.0.0.2+0.0.4.0.1.1.0.0.1+0.0.4.0.1.1.0.0.0+0.0.4.0.1.1.0.0+0.0.4.0.1.1.0 17-18|0.0.4.0.1.1.4 16-17|0.0.4.0.1.1.4.0.0.0+0.0.4.0.1.1.4.0.0+0.0.4.0.1.1.4.0 13-14|0.0.4.0.1.1.2 11-12|0.0.4.0.1.0.0.0 8-9|0.0.2.1+0.0.2.0.0+0.0.2.0+0.0.2 6-7|0.0.3 4-5|0.0 3-4|0.0.1 2-3|0.0.1.0 0-1|0.0.4 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:16.033
+(s / susceptibility 
+      :op1 (d2 / differ-02 
+            :ARG0 (g / gene 
+                  :part-of (b / beta)) 
+            :ARG1 (s4 / strain 
+                  :mod (p / parental)) 
+            :ARG2 (g2 / government-organization 
+                  :name (n3 / name 
+                        :op1 "CIA") 
+                  :wiki "Central_Intelligence_Agency") 
+            :manner (s3 / susceptibility) 
+            :op1-of (s5 / since 
+                  :time-of (w / want-01 
+                        :ARG0 (w2 / we) 
+                        :ARG1 (t2 / test-01 
+                              :ARG1 (d / disease 
+                                    :ARG0-of (i / inflame-01 
+                                          :ARG2 (s2 / spite)) 
+                                    :location (m / mouse)) 
+                              :ARG2 (c / cross-02 
+                                    :ARG2 (w3 / war 
+                                          :name (n / name 
+                                                :op1 "World" 
+                                                :op2 "War" 
+                                                :op3 "II") 
+                                          :wiki "World_War_II") 
+                                    :mod (t / this) 
+                                    :op1-of (b2 / both) 
+                                    :op1-of 15 
+                                    :op1-of (c2 / class 
+                                          :mod (o / organization 
+                                                :name (n2 / name 
+                                                      :op1 "MHC")))) 
+                              :ARG0 w2)))))
+
+# ::snt In fact , this situation gave an opportunity to study the genetic control of arthritis in aged multiparous females , a common situation in human RA .
+# ::tok In fact , this situation gave an opportunity to study the genetic control of arthritis in aged multiparous females , a common situation in human RA .
+# ::alignments 25-26|0.0.0.0.3.2.0+0.0.0.0.3.2+0.0.0.0.3 24-25|0.0.0.0.3.0 22-23|0.0.0.0.3.1 21-22|0.0.0.0.3.1.0 18-19|0.0.0 17-18|0.0 16-17|0 14-15|0.0.0.0.1.0.0.0 12-13|0.0.0.0.1.0.0 11-12|0.0.0.0.0.1 9-10|0.0.0.0.1.0 7-8|0.0.0.0.1 5-6|0.0.0.0 4-5|0.0.0.0.0 3-4|0.0.0.0.0.0 1-2|0.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:16.585
+(a / age-01 
+      :ARG1 (m / multiparou 
+            :mod-of (f / female 
+                  :ARG1-of (g2 / give-01 
+                        :ARG0 (s3 / situation 
+                              :mod (t / this) 
+                              :mod (g / gene)) 
+                        :ARG2 (o2 / opportunity 
+                              :purpose (s2 / study-01 
+                                    :ARG1 (c2 / control-01 
+                                          :ARG1 (a2 / arthritis)))) 
+                        :prep-in (f2 / fact) 
+                        :time (o / organization 
+                              :mod (h / human) 
+                              :mod-of (s / situation 
+                                    :mod (c / common)) 
+                              :name (n / name 
+                                    :op1 "RA"))))))
+
+# ::snt This susceptibility was important to investigate for various reasons .
+# ::tok This susceptibility was important to investigate for various reasons .
+# ::alignments 8-9|0.0.0.0 7-8|0.0.0.0.0 5-6|0.0.0 3-4|0 1-2|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:16.608
+(i2 / important 
+      :domain (s / susceptibility 
+            :ARG0-of (i / investigate-01 
+                  :ARG3 (r / reason 
+                        :mod (v / various))) 
+            :mod (t / this)))
+
+# ::snt The fact that the mice differed in their reproductive history made it possible to analyze whether this would significantly affect the incidence or severity of CIA .
+# ::tok The fact that the mice differed in their reproductive history made it possible to analyze whether this would significantly affect the incidence or severity of CIA .
+# ::alignments 25-26|0.0.0.1.0.0.1+0.0.0.1.0.0.0.0+0.0.0.1.0.0.0+0.0.0.1.0.0 23-24|0.0.0.1.1 22-23|0.0.0.1 21-22|0.0.0.1.0 19-20|0.0.0 18-19|0.0 16-17|0.0.0.0 14-15|0.0.0.2 12-13|0.0.0.2.1 9-10|0.0.0.2.0.0.1 8-9|0 5-6|0.0.0.2.0.0 4-5|0.0.0.2.0.0.0 1-2|0.0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:17.441
+(r / reproductive 
+      :ARG1-of (s2 / significant-02 
+            :ARG2-of (a / affect-01 
+                  :ARG0 (t / this) 
+                  :ARG1 (o / or 
+                        :op1 (i / incidence 
+                              :op1 (g / government-organization 
+                                    :name (n / name 
+                                          :op1 "CIA") 
+                                    :wiki "Central_Intelligence_Agency")) 
+                        :op2 (s / severity)) 
+                  :ARG1-of (a2 / analyze-01 
+                        :ARG0 (f / fact 
+                              :prep-in-of (d / differ-01 
+                                    :ARG0 (m / mouse) 
+                                    :ARG1 (h / history))) 
+                        :ARG1-of (p / possible-01)))))
+
+# ::snt Second , almost all the linkage analyses performed for detection of CIA-associated loci in mice have been carried out with male mice .
+# ::tok Second , almost all the linkage analyses performed for detection of CIA-associated loci in mice have been carried out with male mice .
+# ::alignments 21-22|0.0.1.0.0.0.0.0 20-21|0.0.1.0.0.0.0 17-18|0.0.1 14-15|0 12-13|0.0.0 11-12|0.0.1.0.0.0.1.0.0+0.0.1.0.0.0.1.0+0.0.1.0.0.0.1 9-10|0.0 7-8|0.0.1.0.0 6-7|0.0.1.0 5-6|0.0.1.0.1 3-4|0.0.1.0.2 2-3|0.0.1.0.2.0 0-1|0.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:17.721
+(m3 / mouse 
+      :location-of (d / detect-01 
+            :ARG1 (l / locus) 
+            :ARG1-of (c / carry-out-03 
+                  :ARG0 (a / analysis 
+                        :ARG0-of (p / perform-02 
+                              :ARG1 (s / second-01 
+                                    :ARG0 (m2 / male 
+                                          :mod-of (m / mouse)) 
+                                    :ARG1 (t / thing 
+                                          :name (n / name 
+                                                :op1 "CIA-associated")))) 
+                        :mod (l2 / linkage) 
+                        :quant (a2 / all 
+                              :degree (a3 / almost))))))
+
+# ::snt Another reason is that the use of old multiparous mice mimicked the RA situation ( older women is the major risk group ) .
+# ::tok Another reason is that the use of old multiparous mice mimicked the RA situation ( older women is the major risk group ) .
+# ::alignments 21-22|0.0 20-21|0 19-20|0.0.0 16-17|0.0.1 15-16|0.0.1.0 13-14|0.1.1.0 12-13|0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 10-11|0.1.1 9-10|0.1.2 8-9|0.1.2.0 7-8|0.1.1.0.1 5-6|0.1 1-2|0.1.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:17.887
+(r / risk-01 
+      :ARG0 (g / group 
+            :ARG1-of (m / major-02) 
+            :domain (w / woman 
+                  :mod (o / old))) 
+      :ARG2 (u / use-01 
+            :ARG0 (r2 / reason 
+                  :mod (a / another)) 
+            :ARG0-of (m2 / mimic-01 
+                  :ARG1 (s / situation 
+                        :mod (o2 / organization 
+                              :name (n / name 
+                                    :op1 "RA")) 
+                        :poss (o3 / old))) 
+            :ARG1 (m3 / mouse 
+                  :mod (m4 / multiparou))))
+
+# ::snt Finally , the NFR/N strain had not previously been used in linkage analyses for detection of CIA-associated loci , which opened ( up ) the possibility of detecting new polymorphic genes of importance in this disease .
+# ::tok Finally , the NFR/N strain had not previously been used in linkage analyses for detection of CIA-associated loci , which opened ( up ) the possibility of detecting new polymorphic genes of importance in this disease .
+# ::alignments 35-36|0.0 34-35|0.0.1 32-33|0.0.0 30-31|0.1.1 29-30|0.1.1.1 28-29|0.1.1.0 27-28|0.1 25-26|0 20-21|0.2 17-18|0.2.0 16-17|0.1.0.0.0+0.1.0.0+0.1.0 14-15|0.2.0.0 12-13|0.2.0.1.1 11-12|0.2.0.1.1.0 9-10|0.2.0.1 7-8|0.2.0.1.3 6-7|0.2.0.1.2 4-5|0.2.0.1.0.1+0.2.0.1.0 3-4|0.2.0.1.0.0.0.0+0.2.0.1.0.0.0+0.2.0.1.0.0 0-1|0.2.0.1.4 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:18.907
+(p2 / possible-01 
+      :ARG0 (d / disease 
+            :location-of (i / important) 
+            :mod (t / this)) 
+      :ARG1 (d2 / detect-01 
+            :ARG0 (t2 / thing 
+                  :name (n2 / name 
+                        :op1 "CIA-associated")) 
+            :ARG1 (g / gene 
+                  :mod (n / new) 
+                  :part-of (p / polymorphic))) 
+      :ARG1-of (o / open-01 
+            :ARG0 (l / locus 
+                  :ARG1-of (d3 / detect-01) 
+                  :manner-of (u / use-01 
+                        :ARG1 (s / strain 
+                              :mod (t3 / thing 
+                                    :name (n3 / name 
+                                          :op1 "NFR/N")) 
+                              :wiki "Influenza_A_virus_subtype_H5N1") 
+                        :ARG2 (a / analysis 
+                              :mod (l2 / linkage)) 
+                        :polarity - 
+                        :time (p3 / previous) 
+                        :time (f / final)))))
+
+# ::snt The first conclusion from the present paper is that multiparity does not negatively influence the incidence or severity of CIA induced later in life ( Table 2 ) .
+# ::tok The first conclusion from the present paper is that multiparity does not negatively influence the incidence or severity of CIA induced later in life ( Table 2 ) .
+# ::alignments 26-27|0.1.1.3.0 25-26|0.1.1.3 23-24|0.1.1.0.2 21-22|0.1.1.0.1 20-21|0.1.1.0 19-20|0.1.1.0.0.1+0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 17-18|0.1.1.2 16-17|0.1.1 15-16|0.1.1.1 13-14|0.1 12-13|0.1.2 11-12|0.1.3 9-10|0.1.0 6-7|0.0 5-6|0.0.0 2-3|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:19.078
+(c / conclude-01 
+      :ARG0 (p / paper 
+            :mod (p2 / present)) 
+      :ARG1 (i3 / influence-01 
+            :ARG0 (m / multiparity) 
+            :ARG1 (o / or 
+                  :ARG1-of (i / induce-01 
+                        :ARG0 (g / government-organization 
+                              :name (n / name 
+                                    :op1 "CIA") 
+                              :wiki "Central_Intelligence_Agency") 
+                        :time (l2 / late) 
+                        :time (l / life)) 
+                  :op1 (i2 / incidence) 
+                  :op2 (s / severity) 
+                  :op3 (t / table 
+                        :mod 2)) 
+            :manner (n2 / negatively) 
+            :polarity -))
+
+# ::snt This is in agreement with results from a recent study of RA in women , which similarly indicates that previous experience of pregnancy does not negatively affect the incidence or severity of RA later in life [ 8 ] .
+# ::tok This is in agreement with results from a recent study of RA in women , which similarly indicates that previous experience of pregnancy does not negatively affect the incidence or severity of RA later in life [ 8 ] .
+# ::alignments 37-38|0.0.0.3.0 35-36|0.1.0.0.0 33-34|0.1.1.2 30-31|0.1.1.1 29-30|0.1.1 28-29|0.1.1.0 26-27|0.1 25-26|0.1.2 24-25|0.1.3 22-23|0.1.0.0.1 20-21|0.1.0.0 19-20|0.1.0 17-18|0 16-17|0.2 13-14|0.0 11-12|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 9-10|0.0.0 8-9|0.0.0.2 5-6|0.0.0.1+0.0.0.1.0 3-4|0.0.0.3 0-1|0.0.0.3.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:20.633
+(i2 / indicate-01 
+      :ARG0 (w / woman 
+            :ARG1-of (s3 / study-01 
+                  :ARG0 (o2 / organization 
+                        :name (n2 / name 
+                              :op1 "RA")) 
+                  :ARG0-of (r2 / result-01 
+                        :ARG2 (t / thing)) 
+                  :time (r / recent) 
+                  :topic-of (a2 / agree-01 
+                        :ARG0 8 
+                        :ARG1 (t2 / this)))) 
+      :ARG1 (a / affect-01 
+            :ARG0 (p2 / previous 
+                  :time-of (e / experience-01 
+                        :ARG0 (l / life) 
+                        :ARG1 (p / pregnancy))) 
+            :ARG1 (o / or 
+                  :op1 (i / incidence) 
+                  :op2 (s / severity) 
+                  :op3 (l2 / late)) 
+            :manner (n / negatively) 
+            :polarity -) 
+      :manner (s2 / similarly))
+
+# ::snt It is worth noting that the situation is quite different if pregnancy is entered during ongoing arthritis .
+# ::tok It is worth noting that the situation is quite different if pregnancy is entered during ongoing arthritis .
+# ::alignments 16-17|0.1.1.0.1 15-16|0.1.1.0.1.0 13-14|0.1.1.0 11-12|0.1.1.0.0 9-10|0.1 8-9|0.1.2 6-7|0.1.1 3-4|0 2-3|0.0 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:20.991
+(n / note-01 
+      :ARG0 (w / worth) 
+      :ARG1 (d / differ-02 
+            :ARG0 (i / it) 
+            :ARG1 (s / situation 
+                  :ARG0-of (e / enter-01 
+                        :ARG1 (p / pregnancy) 
+                        :time (a / arthritis 
+                              :mod (o / ongo)))) 
+            :degree (q / quite)))
+
+# ::snt This will normally lead to a temporary remission of the disease in both mice and humans , followed by an exacerbation phase after delivery [ 7,10,11 ] .
+# ::tok This will normally lead to a temporary remission of the disease in both mice and humans , followed by an exacerbation phase after delivery [ 7,10,11 ] .
+# ::alignments 23-24|0.0.0.0 22-23|0.0.0 21-22|0 20-21|0.1 17-18|0.0 15-16|0.0.0.0.0.1.1 14-15|0.0.0.0.0.1 13-14|0.0.0.0.0 12-13|0.0.0.0.0.1.0 10-11|0.0.0.0.0.0 7-8|0.0.0.0.0.0.0 6-7|0.0.0.0.0.0.0.1 3-4|0.0.0.0.0.0.0.0 2-3|0.0.0.0.0.0.0.0.1 0-1|0.0.0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:21.300
+(p / phase 
+      :ARG1-of (f / follow-01 
+            :time (a / after 
+                  :op1 (d / deliver-01 
+                        :ARG0 (m / mouse 
+                              :location-of (d2 / disease 
+                                    :poss-of (r / remission 
+                                          :ARG2-of (l / lead-03 
+                                                :ARG0 (t2 / this) 
+                                                :ARG1-of (n / normal-02)) 
+                                          :duration (t / temporary))) 
+                              :op1-of (a2 / and 
+                                    :mod (b / both) 
+                                    :op2 (h / human)))))) 
+      :mod (e / exacerbation))
+
+# ::snt The second conclusion from this study is that loci of possible importance for CIA have been detected , two associated with arthritis susceptibility ( chromosomes 1 and 11 ) and one associated with anti-CII titers ( chromosome 13 ) .
+# ::tok The second conclusion from this study is that loci of possible importance for CIA have been detected , two associated with arthritis susceptibility ( chromosomes 1 and 11 ) and one associated with anti-CII titers ( chromosome 13 ) .
+# ::alignments 37-38|0.0.1.0 36-37|0.4.0 34-35|0.4.1 31-32|0.4 29-30|0 27-28|0.3.0.0 26-27|0.3 25-26|0.0.1.1.1 24-25|0.2 22-23|0.1 21-22|0.0.2 19-20|0.0 18-19|0.0.0 16-17|0.0.1 13-14|0.3.0.1.0.1+0.3.0.1.0.0.0+0.3.0.1.0.0+0.3.0.1.0 11-12|0.3.0.1 10-11|0.3.0 8-9|0.3.0.1.1 5-6|0.0.1.1.0 4-5|0.0.1.1.0.0 2-3|0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:22.225
+(a2 / and 
+      :ARG0-of (a5 / associate-01 
+            :ARG1 2 
+            :ARG1-of (d / detect-01 
+                  :ARG0 13 
+                  :ARG1-of (c3 / conclude-01 
+                        :ARG0 (s2 / study-01 
+                              :mod (t2 / this)) 
+                        :ARG2 1)) 
+            :ARG2 (a4 / arthritis)) 
+      :op1 (s / susceptibility) 
+      :op2 (c2 / chromosom) 
+      :op3 (a3 / and 
+            :op1 (p / possible-01 
+                  :ARG0 11 
+                  :ARG1 (i / important 
+                        :beneficiary (g / government-organization 
+                              :name (n / name 
+                                    :op1 "CIA") 
+                              :wiki "Central_Intelligence_Agency") 
+                        :mod-of (l / locus)))) 
+      :op4 (a / associate-01 
+            :ARG1 (c / chromosome) 
+            :ARG2 (t / titer)))
+
+# ::snt Some arthritis loci have previously been identified on chromosome 1 : Cia15 at 8 cM [ 16 ] , Cia20 at 44 cM [ 16 ] and Cia9 at 92 cM [ 17 ] .
+# ::tok Some arthritis loci have previously been identified on chromosome 1 : Cia15 at 8 cM [ 16 ] , Cia20 at 44 cM [ 16 ] and Cia9 at 92 cM [ 17 ] .
+# ::alignments 32-33|0.0.1.1 29-30|0.0.1.0 27-28|0.2 26-27|0 24-25|0.0.0.1 21-22|0.0.0.2.1 19-20|0.1 16-17|0.0.0.2.0 14-15|0.0.2.0 13-14|0.0.2 11-12|0.0.1.1.0.0 9-10|0.0.1.1.0 8-9|0.0.1 6-7|0.0 4-5|0.0.3 2-3|0.0.0 1-2|0.0.0.0 0-1|0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:22.475
+(a / and 
+      :op1 (i / identify-01 
+            :ARG1 (l / locus 
+                  :mod (a2 / arthritis) 
+                  :mod-of 16 
+                  :quant (s / some 
+                        :mod-of 16 
+                        :mod-of 44)) 
+            :ARG2 (c5 / chromosome 
+                  :mod 92 
+                  :mod (1 / 17 
+                        :mod-of (14 / 1 
+                              :quant-of (c4 / Cia15)))) 
+            :manner (8 / 8 
+                  :quant-of (c3 / cm)) 
+            :time (p / previous)) 
+      :op2 (c2 / Cia20) 
+      :op3 (c / Cia9))
+
+# ::snt However , none of these loci appears to be close to the locus found on chromosome 1 in the present study .
+# ::tok However , none of these loci appears to be close to the locus found on chromosome 1 in the present study .
+# ::alignments 20-21|0.1 19-20|0.1.2 16-17|0.1.0 15-16|0.1.1.1 13-14|0.1.1 12-13|0.1.1.0 6-7|0 5-6|0.0 4-5|0.0.0 2-3|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:22.618
+(a / appear-02 
+      :ARG0 (l2 / locus 
+            :mod (t / this) 
+            :quant (n / none)) 
+      :ARG1 (s / study-01 
+            :ARG1 1 
+            :location-of (f / find-01 
+                  :ARG0 (l / locu) 
+                  :ARG1 (c / chromosome)) 
+            :time (p / present)))
+
+# ::snt The newly identified Cia40 locus includes the Ctla4 ( CD152 ) gene , which is a strong candidate associated with spontaneous diabetes identified in crosses between C57Bl and nonobese diabetic strains [ 18 ] .
+# ::tok The newly identified Cia40 locus includes the Ctla4 ( CD152 ) gene , which is a strong candidate associated with spontaneous diabetes identified in crosses between C57Bl and nonobese diabetic strains [ 18 ] .
+# ::alignments 32-33|0.1.1.0.2 30-31|0.2.0.0 29-30|0.2.0.0.0 27-28|0 26-27|0.2.1.0+0.2.1+0.2 24-25|0.2.0 22-23|0.1.0 21-22|0.1 20-21|0.1.2 18-19|0.1.1 17-18|0.1.1.0 16-17|0.1.1.0.0 11-12|0.1.1.0.1 7-8|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 5-6|0.1.1.0.1.0 4-5|0.1.1.0.1.0.0 3-4|0.0.0.0+0.0.0+0.0 2-3|0.1.1.0.1.0.0.0 1-2|0.1.1.0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:23.090
+(a / and 
+      :op1 (t2 / thing 
+            :name (n3 / name 
+                  :op1 "Cia40")) 
+      :op2 (d2 / diabetes 
+            :ARG1-of (i / identify-01 
+                  :ARG0 (t / thing 
+                        :name (n2 / name 
+                              :op1 "Ctla4"))) 
+            :ARG2-of (a2 / associate-01 
+                  :ARG1 (c3 / candidate 
+                        :ARG1-of (s3 / strong-02) 
+                        :mod-of (g / gene 
+                              :ARG1-of (i2 / include-01 
+                                    :ARG2 (l / locu 
+                                          :ARG1-of (i3 / identify-01 
+                                                :manner (n4 / newly))))) 
+                        :quant 18)) 
+            :mod (s2 / spontaneous)) 
+      :op3 (c / country 
+            :ARG0-of (c2 / cross-01 
+                  :ARG1 (s / strain 
+                        :mod (d / diabetic))) 
+            :name (n / name 
+                  :op1 "C57Bl")))
+
+# ::snt Analyses of CIA in crosses of the same backgrounds , however , did not identify a linkage to this locus , suggesting that the polymorphism underlying Cia40 differs from the genes associated with diabetes [ 18 ] .
+# ::tok Analyses of CIA in crosses of the same backgrounds , however , did not identify a linkage to this locus , suggesting that the polymorphism underlying Cia40 differs from the genes associated with diabetes [ 18 ] .
+# ::alignments 35-36|0.0.0.0.1.1.0 33-34|0 31-32|0.0 30-31|0.0.0 27-28|0.0.0.0 26-27|0.0.0.0.0.2.0+0.0.0.0.0.2+0.0.0.0.0 25-26|0.0.0.0.0.0 24-25|0.0.0.0.0.0.0 21-22|0.0.0.0.1 19-20|0.0.0.0.1.1.2 18-19|0.0.0.0.1.1.2.0 16-17|0.0.0.0.1.1.1 14-15|0.0.0.0.1.1 13-14|0.0.0.0.1.1.3 8-9|0.0.0.0.0.1.0 7-8|0.0.0.0.0.1 4-5|0.0.0.0.0.1.0.0 2-3|0.0.0.0.1.0.0.1+0.0.0.0.1.0.0.0.0+0.0.0.0.1.0.0.0+0.0.0.0.1.0.0 0-1|0.0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:23.672
+(d / diabetes 
+      :ARG2-of (a / associate-01 
+            :ARG1 (g / gene 
+                  :ARG1-of (d2 / differ-01 
+                        :ARG0 (t / thing 
+                              :ARG1-of (u / underlie-01 
+                                    :ARG0 (p / polymorphism)) 
+                              :ARG2-of (s2 / same-01 
+                                    :ARG1 (b / background 
+                                          :ARG1-of (c / cross-01))) 
+                              :name (n / name 
+                                    :op1 "Cia40")) 
+                        :ARG1-of (s / suggest-01 
+                              :ARG0 (a2 / analyse 
+                                    :mod (g2 / government-organization 
+                                          :name (n2 / name 
+                                                :op1 "CIA") 
+                                          :wiki "Central_Intelligence_Agency")) 
+                              :purpose-of (i / identify-01 
+                                    :ARG0 18 
+                                    :ARG1 (l2 / linkage) 
+                                    :ARG2 (l / locu 
+                                          :mod (t2 / this)) 
+                                    :polarity -))))))
+
+# ::snt Interestingly , Bauer and colleagues previously identified a locus ( Cia28 ) associated with anti-CII antibody production at 53 cM on chromosome 13 [ 19 ] , which is approximately at the same position as where we find the linkage for this trait in the present study .
+# ::tok Interestingly , Bauer and colleagues previously identified a locus ( Cia28 ) associated with anti-CII antibody production at 53 cM on chromosome 13 [ 19 ] , which is approximately at the same position as where we find the linkage for this trait in the present study .
+# ::alignments 46-47|0.0.1.0.2.0.0 45-46|0.0.1.0.2.0.0.2 42-43|0.0.1.0.2.2 41-42|0.0.1.0.2.2.0 39-40|0.0.1.0.2.1 37-38|0.0.1.0.2 36-37|0.0.1.0.2.0 33-34|0.0.0 32-33|0.0 29-30|0.0.1.0.0.1 24-25|0.0.1.0.2.0.0.0 22-23|0.0.1.0.2.0.0.1 21-22|0 19-20|0.0.1.2 18-19|0.0.1.1.0.2 16-17|0.0.1.1.0.1.0 15-16|0.0.1.1.0.1 12-13|0.0.1.1.0 8-9|0.0.1.1 6-7|0.0.1 5-6|0.0.1.3 4-5|0.0.1.0.1 3-4|0.0.1.0 2-3|0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 0-1|0.0.1.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:24.980
+(c / chromosome 
+      :ARG0-of (s2 / same-01 
+            :ARG1 (p2 / position) 
+            :ARG2 (i / identify-01 
+                  :ARG0 (a4 / and 
+                        :op1 (p5 / person 
+                              :name (n / name 
+                                    :op1 "Bauer") 
+                              :quant (a / approximately)) 
+                        :op2 (c3 / colleagu) 
+                        :op3 (f / find-01 
+                              :ARG0 (w / we 
+                                    :ARG0-of (s / study-01 
+                                          :ARG1 19 
+                                          :op1-of 13 
+                                          :time (p / present))) 
+                              :ARG1 (l / linkage) 
+                              :beneficiary (t / trait 
+                                    :mod (t2 / this)))) 
+                  :ARG1 (l2 / locu 
+                        :ARG1-of (a3 / associate-01 
+                              :ARG0 (i2 / interesting) 
+                              :ARG2 (a2 / antibody 
+                                    :ARG1-of (p3 / produce-01)) 
+                              :time 53)) 
+                  :ARG2 (c2 / cm) 
+                  :time (p4 / previous))))
+
+# ::snt It is therefore most likely that the QTL we have identified on chromosome 13 is the same as Cia28 .
+# ::tok It is therefore most likely that the QTL we have identified on chromosome 13 is the same as Cia28 .
+# ::alignments 16-17|0.1 13-14|0.1.0 12-13|0.0.1 10-11|0.0 8-9|0.0.0 7-8|0 4-5|0.1.1 3-4|0.1.1.1 0-1|0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:25.138
+(q / QTL 
+      :ARG1-of (i / identify-01 
+            :ARG0 (w / we) 
+            :ARG2 (c / chromosome)) 
+      :ARG1-of (s / same-01 
+            :ARG0 13 
+            :ARG1-of (l / likely-01 
+                  :ARG0 (i2 / it) 
+                  :degree (m / most))))
+
+# ::snt Since the possible new locus of potential interest on chromosome 1 was of suggestive significance , and since the locus identified on chromosome 13 probably is Cia28 , we are now paying special attention to the significant QTL for CIA incidence detected at 60 -- 70 cM on chromosome 11 ( denoted Cia40 ) .
+# ::tok Since the possible new locus of potential interest on chromosome 1 was of suggestive significance , and since the locus identified on chromosome 13 probably is Cia28 , we are now paying special attention to the significant QTL for CIA incidence detected at 60 -- 70 cM on chromosome 11 ( denoted Cia40 ) .
+# ::alignments 52-53|0.0.1.2.0.3.0.0.0.0+0.0.1.2.0.3.0.0.0+0.0.1.2.0.3.0.0 51-52|0.0.1.2.0.3.0 49-50|0.0.1.2.0.0 48-49|0.0.1.2.0.1.0.0 46-47|0.0.1.2.0.1.0.0.0 45-46|0.0.1.2.0.1.0.0.0.0 43-44|0.0.1.2.0.1.1.1.0 41-42|0.0.1.2.0.1.1 40-41|0.0.1.2.0.1.1.0 39-40|0.0.1.2.0.1.1.0.0.1+0.0.1.2.0.1.1.0.0.0.0+0.0.1.2.0.1.1.0.0.0+0.0.1.2.0.1.1.0.0 37-38|0.0.1.2.0.1 36-37|0.0.1.2.0.1.0 33-34|0.0.1.2.0 32-33|0.0.1.2.0.3 31-32|0.0.1.2.0.2 30-31|0.0.1.2.0.2.2 28-29|0.0.1.2.0.2.0 26-27|0.0.1.2.0.1.1.1.1.0 24-25|0 23-24|0.0.1.0.0 22-23|0.0.1.2.0.1.1.1.2 20-21|0.0.1.2.0.1.1.1 19-20|0.0.1.2.0.1.1.1.1 17-18|0.0.1.2.0.1.0.1.0 16-17|0.0.1.2.0.1.1.1.3 14-15|0.0.1.2.0.1.0.1 13-14|0.0.1.2.0.1.0.1.1 10-11|0.0.1.2.0.2.1 9-10|0.0.0 7-8|0.0 6-7|0.0.2 4-5|0.0.1 3-4|0.0.1.1 2-3|0.0.1.0 0-1|0.0.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:27.214
+(p2 / probable 
+      :ARG0-of (i3 / interest-01 
+            :ARG1 (c5 / chromosome) 
+            :ARG2 (l2 / locu 
+                  :ARG1-of (p4 / possible-01 
+                        :ARG0 13) 
+                  :mod (n4 / new) 
+                  :op1-of (s6 / since 
+                        :time-of (a / attend-02 
+                              :ARG0 11 
+                              :ARG1 (q / QTL 
+                                    :ARG1-of (s / significant-02 
+                                          :ARG0 (c / chromosome 
+                                                :location-of (c2 / cm 
+                                                      :quant 70)) 
+                                          :ARG2 (s4 / significant-02 
+                                                :ARG0 (s3 / since) 
+                                                :mod (s5 / suggestive))) 
+                                    :ARG1-of (d2 / detect-01 
+                                          :ARG0 (i / incidence 
+                                                :mod (g / government-organization 
+                                                      :name (n2 / name 
+                                                            :op1 "CIA") 
+                                                      :wiki "Central_Intelligence_Agency")) 
+                                          :ARG2 (i2 / identify-01 
+                                                :ARG0 60 
+                                                :ARG1 (l / locu 
+                                                      :domain-of (c3 / Cia28)) 
+                                                :ARG2 (c4 / chromosome) 
+                                                :op1-of (a2 / and)))) 
+                              :ARG1-of (p / pay-01 
+                                    :ARG0 (w / we) 
+                                    :ARG2 1 
+                                    :time (n3 / now)) 
+                              :ARG1-of (s2 / special-02 
+                                    :ARG2-of (d / denote-01 
+                                          :ARG1 (t / thing 
+                                                :name (n / name 
+                                                      :op1 "Cia40"))))))) 
+            :mod (p3 / potential)))
+
+# ::snt No other CIA genes have previously been typed in this region , but the central part of chromosome 11 is known to contain a number of inflammation loci , such as Eae22 , Eae6b , Eae23 and Eae7 [ 20-22 ] .
+# ::tok No other CIA genes have previously been typed in this region , but the central part of chromosome 11 is known to contain a number of inflammation loci , such as Eae22 , Eae6b , Eae23 and Eae7 [ 20-22 ] .
+# ::alignments 37-38|0.2.0.2.3 36-37|0.2.0.2 35-36|0.2.0.2.2 33-34|0.2.0.2.1 31-32|0.2.0.2.0 29-30|0.1.1 27-28|0.2.0.1.0 26-27|0.2.0.1.0.0 24-25|0.2.0.1 22-23|0.2.0 20-21|0.2 18-19|0.0 17-18|0.1.2.1 14-15|0.2.0.2.2.0 12-13|0 10-11|0.1.2 9-10|0.1.2.0 7-8|0.1 5-6|0.1.3 3-4|0.1.0 2-3|0.1.0.0.1+0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 1-2|0.2.0.0 0-1|0.2.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:27.955
+(c4 / contrast-01 
+      :ARG0 11 
+      :ARG1 (t2 / type-01 
+            :ARG1 (g / gene 
+                  :mod (g2 / government-organization 
+                        :name (n2 / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency")) 
+            :ARG2 (s / such) 
+            :location (r / region 
+                  :mod (t / this) 
+                  :mod (c2 / chromosome)) 
+            :time (p / previous)) 
+      :ARG2 (k / know-02 
+            :ARG1 (c / contain-01 
+                  :ARG0 (o / other) 
+                  :ARG1 (n / number 
+                        :quant-of (l / locus 
+                              :mod (i / inflammation))) 
+                  :op1-of (a / and 
+                        :op2 (e4 / Eae22) 
+                        :op3 (e3 / Eae6b) 
+                        :op4 (e2 / Eae23 
+                              :mod-of (c3 / central)) 
+                        :op5 (e / Eae7))) 
+            :polarity -))
+
+# ::snt One QTL for proteoglycan-induced arthritis , which was female specific for disease onset , have also been found on chromosome 11 .
+# ::tok One QTL for proteoglycan-induced arthritis , which was female specific for disease onset , have also been found on chromosome 11 .
+# ::alignments 20-21|0.0.1 19-20|0.0.2.1 17-18|0.0.2 15-16|0.0.2.2 12-13|0 11-12|0.1 9-10|0.0 8-9|0.0.3 4-5|0.0.2.0.0 3-4|0.0.2.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.142
+(o / onset 
+      :ARG1-of (s / specific-02 
+            :ARG0 1 
+            :ARG2 11 
+            :ARG2-of (f / find-01 
+                  :ARG0 (p / proteoglycan-induc 
+                        :mod-of (a2 / arthritis)) 
+                  :location (c / chromosome) 
+                  :mod (a / also)) 
+            :mod (f2 / female)) 
+      :mod (d / disease))
+
+# ::snt Although this locus ( Pgia28 ) is not located in the vicinity of Cia40 , it is worth noting [ 23 ] .
+# ::tok Although this locus ( Pgia28 ) is not located in the vicinity of Cia40 , it is worth noting [ 23 ] .
+# ::alignments 20-21|0.1.0 18-19|0 17-18|0.2 13-14|0.1.2.0.0.0+0.1.2.0.0+0.1.2.0 11-12|0.1.2 8-9|0.1 7-8|0.1.3 4-5|0.0 2-3|0.1.1 1-2|0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.230
+(n / note-01 
+      :ARG0 (p / Pgia28) 
+      :ARG1 (l / locate-01 
+            :ARG0 23 
+            :ARG1 (l2 / locu 
+                  :mod (t2 / this)) 
+            :location (v / vicinity 
+                  :poss (t / thing 
+                        :name (n2 / name 
+                              :op1 "Cia40"))) 
+            :polarity -) 
+      :domain-of (w / worth))
+
+# ::snt The mouse chromosome 11 contains several genes that are highly conserved with human chromosome 17 .
+# ::tok The mouse chromosome 11 contains several genes that are highly conserved with human chromosome 17 .
+# ::alignments 14-15|0.2 13-14|0.1.0.2 12-13|0.1.0.2.0 10-11|0.1.0 9-10|0.1.0.3 6-7|0.1 5-6|0.1.1 4-5|0 3-4|0.1.0.1 2-3|0.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.411
+(c3 / contain-01 
+      :ARG0 (c4 / chromosome) 
+      :ARG1 (g / gene 
+            :mod (c2 / conserve-01 
+                  :ARG0 (m / mouse) 
+                  :ARG1 11 
+                  :beneficiary (c / chromosome 
+                        :mod (h / human)) 
+                  :degree (h2 / high)) 
+            :quant (s / several)) 
+      :ARG2 17)
+
+# ::snt Linkages for human RA have been found in this particular region [ 24 ] .
+# ::tok Linkages for human RA have been found in this particular region [ 24 ] .
+# ::alignments 12-13|0.0.0.1.0 10-11|0.0.0.0 9-10|0.0.0.0.0 8-9|0.0.0.0.1 6-7|0 3-4|0.0.0.2.0+0.0.0.2+0.0.0 2-3|0.0.0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.483
+(f / find-01 
+      :ARG1 (l / linkag 
+            :beneficiary (o / organization 
+                  :domain-of (r / region 
+                        :mod (p / particular) 
+                        :mod (t / this)) 
+                  :mod (h / human 
+                        :mod-of 24) 
+                  :name (n / name 
+                        :op1 "RA"))))
+
+# ::snt Another interesting locus is Cia5 on the homolog rat chromosome 10 , which regulates the severity of CIA and pristane-induced arthritis [ 25 ] .
+# ::tok Another interesting locus is Cia5 on the homolog rat chromosome 10 , which regulates the severity of CIA and pristane-induced arthritis [ 25 ] .
+# ::alignments 22-23|0.0.3.2 20-21|0.0.2 19-20|0.0.3.3 18-19|0 17-18|0.0.1.0.1+0.0.1.0.0.0+0.0.1.0.0+0.0.1.0 15-16|0.0.1 13-14|0.0 10-11|0.0.3.0 9-10|0.0.0 8-9|0.0.0.0 4-5|0.0.3.1.0 2-3|0.0.3.1 1-2|0.0.3 0-1|0.0.3.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.881
+(a2 / and 
+      :op1 (r / regulate-01 
+            :ARG0 (c / chromosome 
+                  :time-of (r2 / rat)) 
+            :ARG1 (s / severity 
+                  :mod (g / government-organization 
+                        :name (n / name 
+                              :op1 "CIA") 
+                        :wiki "Central_Intelligence_Agency")) 
+            :manner (a / arthritis) 
+            :purpose (i / interest-01 
+                  :ARG0 10 
+                  :ARG2 (l / locu 
+                        :domain-of (c2 / Cia5) 
+                        :mod (a3 / another)) 
+                  :op1-of 25 
+                  :op1-of (p / pristane-induc))))
+
+# ::snt Interestingly , from studies with the same cross , we have previously detected a significant QTL denoted Pregq2 for the trait ` pregnancy frequency ' in the very same region as Cia40 ( peak at 64 -- 70 cM on chromosome 11 ) ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R , unpublished data ) .
+# ::tok Interestingly , from studies with the same cross , we have previously detected a significant QTL denoted Pregq2 for the trait ` pregnancy frequency ' in the very same region as Cia40 ( peak at 64 -- 70 cM on chromosome 11 ) ( Liljander M , Sllstrm MA , Andersson S , Wernhoff P , Andersson  , Holmdahl R , Mattsson R , unpublished data ) .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:28.888
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt This means that this region contains genes affecting the CIA incidence in multiparous mice in addition to the rate of successful deliveries in female mice .
+# ::tok This means that this region contains genes affecting the CIA incidence in multiparous mice in addition to the rate of successful deliveries in female mice .
+# ::alignments 24-25|0.1.1.0.0.0.1 23-24|0.1.1.0.0.0.1.1 21-22|0.1.1.0.0.0.1.0 20-21|0.1.1.0.0.0.1.0.0 18-19|0.1.1.0.0.0.2 15-16|0.1.2 13-14|0.1.2.0 12-13|0.1.2.0.0 10-11|0.1.1.0.0 9-10|0.1.1.0.0.0.3+0.1.1.0.0.0.0.0+0.1.1.0.0.0.0+0.1.1.0.0.0 7-8|0.1.1.0 6-7|0.1.1 5-6|0.1 4-5|0.1.0 3-4|0.1.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:29.277
+(m4 / mean-01 
+      :ARG1 (t2 / this) 
+      :ARG2 (c / contain-01 
+            :ARG0 (r2 / region 
+                  :mod (t / this)) 
+            :ARG1 (g2 / gene 
+                  :ARG0-of (a2 / affect-01 
+                        :ARG1 (i / incidence 
+                              :mod (g / government-organization 
+                                    :name (n / name 
+                                          :op1 "CIA") 
+                                    :part (m / mouse 
+                                          :ARG1-of (d / deliver-01 
+                                                :ARG1-of (s / succeed-01)) 
+                                          :mod (f / female)) 
+                                    :part (r / rate) 
+                                    :wiki "Central_Intelligence_Agency")))) 
+            :ARG2 (a / addition 
+                  :location-of (m2 / mouse 
+                        :mod (m3 / multiparou)))))
+
+# ::snt The ` pregnancy rate ' in mice is defined as successful pregnancies per detected vaginal plug , a phenotype associated with early pregnancy failure , which in turn possibly could have an inflammatory cause .
+# ::tok The ` pregnancy rate ' in mice is defined as successful pregnancies per detected vaginal plug , a phenotype associated with early pregnancy failure , which in turn possibly could have an inflammatory cause .
+# ::alignments 33-34|0.2 32-33|0.2.0 29-30|0.2.1 28-29|0.2.1.0 27-28|0.1.0.0 23-24|0 22-23|0.3 21-22|0.3.0 19-20|0.4 18-19|0.4.0 15-16|0.0 14-15|0.0.2 13-14|0.0.1 11-12|0.1.0 10-11|0.1 8-9|0.1.0.1 6-7|0.0.0 3-4|0.1.0.1.0 2-3|0.1.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:30.153
+(f / fail-01 
+      :ARG0 (p5 / plug-in-03 
+            :ARG1 (m / mouse) 
+            :ARG1-of (d / detect-01) 
+            :mod (v / vaginal)) 
+      :ARG1 (s / succeed-01 
+            :ARG1 (p6 / pregnanci 
+                  :ARG1-of (t / turn-01) 
+                  :ARG2-of (d2 / define-01 
+                        :ARG1 (r / rate 
+                              :mod (p7 / pregnancy))))) 
+      :ARG1-of (c / cause-01 
+            :ARG1-of (i / inflame-01) 
+            :ARG1-of (p / possible-01 
+                  :ARG1-of (p2 / possible-01))) 
+      :ARG2 (p3 / pregnancy 
+            :mod (e / early)) 
+      :ARG2-of (a / associate-01 
+            :ARG1 (p4 / phenotype)))
+
+# ::snt We can not exclude that the same gene ( s ) are affecting both these traits .
+# ::tok We can not exclude that the same gene ( s ) are affecting both these traits .
+# ::alignments 15-16|0.0.1.0 14-15|0.0.1.0.0 13-14|0.0.1.0.1 12-13|0.0.1 7-8|0.0.1.1.0 6-7|0.0.1.1 3-4|0.0 2-3|0.1 1-2|0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:30.213
+(p / possible-01 
+      :ARG1 (e / exclude-01 
+            :ARG0 (w / we) 
+            :ARG1 (a / affect-01 
+                  :ARG1 (t / trait 
+                        :mod (t2 / this) 
+                        :mod (b / both)) 
+                  :ARG2-of (s / same-01 
+                        :ARG1 (g / gene)))) 
+      :polarity -)
+
+# ::snt Our results show that multiparity does not negatively influence the incidence or severity of CIA induced later in life .
+# ::tok Our results show that multiparity does not negatively influence the incidence or severity of CIA induced later in life .
+# ::alignments 18-19|0.1.1.0.2 16-17|0.1.1.0.1 15-16|0.1.1.0 14-15|0.1.1.0.0.1+0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 12-13|0.1.1.2 11-12|0.1.1 10-11|0.1.1.1 8-9|0.1 7-8|0.1.2 6-7|0.1.3 4-5|0.1.0 2-3|0 1-2|0.0.0+0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:30.363
+(s2 / show-01 
+      :ARG0 (t / thing 
+            :ARG2-of (r / result-01 
+                  :ARG1 (w / we))) 
+      :ARG1 (i3 / influence-01 
+            :ARG0 (m / multiparity) 
+            :ARG1 (o / or 
+                  :ARG1-of (i / induce-01 
+                        :ARG0 (g / government-organization 
+                              :name (n / name 
+                                    :op1 "CIA") 
+                              :wiki "Central_Intelligence_Agency") 
+                        :time (l2 / late) 
+                        :time (l / life)) 
+                  :op1 (i2 / incidence) 
+                  :op2 (s / severity)) 
+            :manner (n2 / negatively) 
+            :polarity -))
+
+# ::snt Furthermore , two new loci linked to CIA susceptibility were detected on chromosome 11 ( Cia40 ) and on chromosome 1 .
+# ::tok Furthermore , two new loci linked to CIA susceptibility were detected on chromosome 11 ( Cia40 ) and on chromosome 1 .
+# ::alignments 20-21|0.0.2 19-20|0.0.3 17-18|0.0.1.0.0 15-16|0.0.1.0.1.0.0+0.0.1.0.1.0+0.0.1.0.1 13-14|0.0.0 12-13|0.0.4 10-11|0.0.1.0 8-9|0 7-8|0.1.1+0.1.0.0+0.1.0+0.1 5-6|0.0 4-5|0.0.1 3-4|0.0.1.1 2-3|0.0.1.2 0-1|0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:30.661
+(s / susceptibility 
+      :ARG2-of (l / link-01 
+            :ARG0 11 
+            :ARG1 (l2 / locus 
+                  :ARG1-of (d / detect-01 
+                        :ARG0 (a / and) 
+                        :ARG2 (t / thing 
+                              :name (n / name 
+                                    :op1 "Cia40"))) 
+                  :mod (n3 / new) 
+                  :quant 2) 
+            :op1-of (1 / 1 
+                  :poss (f / furthermore)) 
+            :op1-of (c / chromosome) 
+            :op1-of (c2 / chromosome)) 
+      :mod (g / government-organization 
+            :name (n2 / name 
+                  :op1 "CIA") 
+            :wiki "Central_Intelligence_Agency"))
+
+# ::snt We detected on chromosome 13 a locus associated with anti-CII titers , which probably is the same as the recently reported Cia28 [ 19 ] .
+# ::tok We detected on chromosome 13 a locus associated with anti-CII titers , which probably is the same as the recently reported Cia28 [ 19 ] .
+# ::alignments 23-24|0.0.0.0.0.0.1 20-21|0.0.0.0.0.1 19-20|0.0.0.0.0.1.1 16-17|0.0 13-14|0 10-11|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.1 4-5|0.0.0.0.0.1.0 3-4|0.0.0.0.0.0.0 1-2|0.0.0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:30.882
+(p / probable 
+      :extent-of (s / same-01 
+            :ARG1 (t / titer 
+                  :ARG2-of (a / associate-01 
+                        :ARG0 (w / we 
+                              :ARG0-of (d / detect-01 
+                                    :ARG1 (c / chromosome) 
+                                    :ARG2 19) 
+                              :ARG0-of (r / report-01 
+                                    :ARG1 13 
+                                    :time (r2 / recent))) 
+                        :ARG1 (l / locu)))))
+
+# ::snt CIA = collagen-induced arthritis ; CII = collagen type II ; LOD = logarithm of the odds ; MHC = major histocompatibility complex ; PCR = polymerase chain reaction ; QTL = quantitative trait locus ; RA = rheumatoid arthritis .
+# ::tok CIA = collagen-induced arthritis ; CII = collagen type II ; LOD = logarithm of the odds ; MHC = major histocompatibility complex ; PCR = polymerase chain reaction ; QTL = quantitative trait locus ; RA = rheumatoid arthritis .
+# ::alignments 39-40|0.0.1.1.1.0 38-39|0.0.1.1.1.0.0 36-37|0.0.1.1.1.1.0+0.0.1.1.1.1+0.0.1.1.1 34-35|0.0.0.0 33-34|0.0.0.0.0 32-33|0.0.0.0.1 28-29|0.0.1.1.0.0 27-28|0.0.1.1.0.0.1 26-27|0.0.1.1.0.0.2 22-23|0.0 21-22|0 20-21|0.0.0 18-19|0.0.1.0.0+0.0.1.0+0.0.1 16-17|0.0.1.1.0.3.0 13-14|0.0.1.1.0.3 9-10|0.0.1.1.0.0.0.1+0.0.1.1.0.0.0.0.2+0.0.1.1.0.0.0.0.1+0.0.1.1.0.0.0.0.0+0.0.1.1.0.0.0.0+0.0.1.1.0.0.0 8-9|0.0.1.1.0.1 7-8|0.0.1.1.0.1.0 4-5|0.0.1.1 3-4|0.0.1.1.0.2 2-3|0.0.1.1.0.2.0 0-1|0.0.1.1.0.5+0.0.1.1.0.4.0+0.0.1.1.0.4+0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:31.404
+(h / histocompatibility 
+      :mod-of (c2 / complex 
+            :ARG1-of (m / major-02 
+                  :ARG0 (l / locu 
+                        :mod (t / trait) 
+                        :mod (q / quantitative))) 
+            :domain (o2 / organization 
+                  :name (n2 / name 
+                        :op1 "MHC") 
+                  :op1-of (a2 / and 
+                        :domain (g / government-organization 
+                              :ARG1-of (r2 / react-01 
+                                    :ARG0 (w / war 
+                                          :name (n3 / name 
+                                                :op1 "World" 
+                                                :op2 "War" 
+                                                :op3 "II") 
+                                          :wiki "World_War_II") 
+                                    :mod (c / chain) 
+                                    :mod (p / polymerase)) 
+                              :domain-of (t2 / type 
+                                    :mod (c3 / collagen)) 
+                              :domain-of (a3 / arthritis 
+                                    :mod (c4 / collagen-induc)) 
+                              :domain-of (l2 / logarithm 
+                                    :poss (o3 / odds)) 
+                              :name (n4 / name 
+                                    :op1 "CIA") 
+                              :wiki "Central_Intelligence_Agency") 
+                        :op2 (o / organization 
+                              :domain-of (a / arthritis 
+                                    :mod (r / rheumatoid)) 
+                              :name (n / name 
+                                    :op1 "RA"))))))
+
+# ::snt The authors declare that they have no competing interest .
+# ::tok The authors declare that they have no competing interest .
+# ::alignments 8-9|0.1 7-8|0.1.1 6-7|0.1.2 4-5|0.1.0 2-3|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:31.510
+(d / declare-02 
+      :ARG0 (a / author-01) 
+      :ARG1 (i / interest-01 
+            :ARG1 (t / they) 
+            :ARG1-of (c / compete-02) 
+            :polarity -))
+
+# ::snt ML is responsible for genotyping , phenotyping , analyses and , together with RM , for interpretation and for writing the manuscript .
+# ::tok ML is responsible for genotyping , phenotyping , analyses and , together with RM , for interpretation and for writing the manuscript .
+# ::alignments 21-22|0.2.0 19-20|0.2 17-18|0 16-17|0.1 13-14|0.1.0.0.0+0.1.0.0+0.1.0 11-12|0.0.1 9-10|0.0 8-9|0.0.4 6-7|0.0.3 4-5|0.0.2 2-3|0.0.0 0-1|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:31.781
+(a / and 
+      :op1 (a2 / and 
+            :ARG1-of (r / responsible-01 
+                  :ARG0 (o2 / organization 
+                        :name (n2 / name 
+                              :op1 "ML"))) 
+            :mod (t / together) 
+            :op1 (g / genotyp) 
+            :op2 (p / phenotyp) 
+            :op3 (a3 / analysis)) 
+      :op2 (i / interpret-01 
+            :ARG1 (o / organization 
+                  :name (n / name 
+                        :op1 "RM"))) 
+      :op3 (w / write-01 
+            :ARG1 (m / manuscript)))
+
+# ::snt M-AS and SA have contributed to collection of phenotype data .
+# ::tok M-AS and SA have contributed to collection of phenotype data .
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 6-7|0.1 4-5|0 2-3|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 1-2|0.0 0-1|0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:31.827
+(c2 / contribute-01 
+      :ARG0 (a / and 
+            :op1 (t / thing 
+                  :name (n2 / name 
+                        :op1 "M-AS")) 
+            :op2 (c3 / country 
+                  :name (n / name 
+                        :op1 "SA") 
+                  :wiki "South_Africa")) 
+      :ARG2 (c / collect-01 
+            :ARG1 (d / data 
+                  :source (p / phenotype))))
+
+# ::snt RM , A , RH and ML designed the study .
+# ::tok RM , A , RH and ML designed the study .
+# ::alignments 9-10|0.1 7-8|0 6-7|0.0.2.0.0+0.0.2.0+0.0.2 5-6|0.0 4-5|0.0.1 0-1|0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:31.956
+(d / design-01 
+      :ARG0 (a / and 
+            :op1 (o2 / organization 
+                  :name (n2 / name 
+                        :op1 "RM")) 
+            :op2 (r / rh) 
+            :op3 (o / organization 
+                  :name (n / name 
+                        :op1 "ML"))) 
+      :ARG1 (s / study-01))
+
+# ::snt All authors read and approved the final manuscript .
+# ::tok All authors read and approved the final manuscript .
+# ::alignments 7-8|0.1.0.0 6-7|0.1.0.0.0 4-5|0.1.0 3-4|0.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:32.025
+(r / read-01 
+      :ARG1 (a3 / author-01 
+            :mod (a4 / all)) 
+      :op1-of (a2 / and 
+            :ARG0-of (a / approve-01 
+                  :ARG1 (m / manuscript 
+                        :mod (f / final)))))
+
+# ::snt This study was supported by sterlund 's fund , Crafoord 's fund , the Gustav V 80 Year Foundation , the Royal Physiographic Society in Lund and by Swegene .
+# ::tok This study was supported by sterlund 's fund , Crafoord 's fund , the Gustav V 80 Year Foundation , the Royal Physiographic Society in Lund and by Swegene .
+# ::alignments 28-29|0.0.1.1.0.0+0.0.1.1.0+0.0.1.1 26-27|0.0.1 25-26|0.0.1.0.2.0+0.0.1.0.2+0.0.1.0 21-24|0.0.1.0.1.0.2+0.0.1.0.1.0.1+0.0.1.0.1.0.0+0.0.1.0.1.0+0.0.1.0.1 18-19|0.1.0.0 17-18|0.1.0.0.0 16-17|0.1.0.0.0.0 14-16|0.1.0.1.1+0.1.0.1.0+0.1.0.1+0.1.0 11-12|0.0.1.0.0 7-8|0.0 5-6|0.0.0 3-4|0 1-2|0.1 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:32.713
+(s2 / support-01 
+      :ARG0 (f3 / fund-01 
+            :ARG0 (s / sterlund) 
+            :ARG1 (a / and 
+                  :op1 (c / country 
+                        :ARG0-of (f2 / fund-01) 
+                        :location-of (o2 / organization 
+                              :name (n3 / name 
+                                    :op1 "Royal" 
+                                    :op2 "Physiographic" 
+                                    :op3 "Society")) 
+                        :name (n2 / name 
+                              :op1 "Lund")) 
+                  :op2 (o / organization 
+                        :name (n / name 
+                              :op1 "Swegene")))) 
+      :ARG1 (s3 / study-01 
+            :ARG0 (p / person 
+                  :mod-of (f / foundation 
+                        :mod (y / year 
+                              :quant 80)) 
+                  :name (n4 / name 
+                        :op1 "Gustav" 
+                        :op2 "V")) 
+            :mod (t / this)))
+
+# ::snt The accumulated incidence of arthritis in the parental strains ( NFR/N and B10.Q ) of female mice .
+# ::tok The accumulated incidence of arthritis in the parental strains ( NFR/N and B10.Q ) of female mice .
+# ::alignments 16-17|0.0.0.0.0.0 15-16|0.0.0.0.0 12-13|0.2.0.0+0.2.0+0.2 11-12|0 10-11|0.1.0.0+0.1.0+0.1 8-9|0.0 7-8|0.0.1 4-5|0.0.0.1 2-3|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:32.817
+(a / and 
+      :op1 (s / strain 
+            :location-of (i / incidence 
+                  :ARG1-of (a3 / accumulate-01 
+                        :ARG0 (f / female 
+                              :mod-of (m / mouse))) 
+                  :mod (a2 / arthritis)) 
+            :mod (p / parental)) 
+      :op2 (t2 / thing 
+            :name (n2 / name 
+                  :op1 "NFR/N")) 
+      :op3 (t / thing 
+            :name (n / name 
+                  :op1 "B10.Q")))
+
+# ::snt Chromosomal locations of the quantitative trait loci ( QTL ) for collagen-induced arthritis incidence on chromosomes 1 and 11 .
+# ::tok Chromosomal locations of the quantitative trait loci ( QTL ) for collagen-induced arthritis incidence on chromosomes 1 and 11 .
+# ::alignments 18-19|0.0.0.1.0 17-18|0 16-17|0.0.1.0 15-16|0.0.2 12-13|0.1 11-12|0.1.0 6-7|0.0.0 5-6|0.0.0.0 4-5|0.0.0.1 1-2|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:32.880
+(a / and 
+      :op1 (l2 / location 
+            :location-of (l / locus 
+                  :mod (t / trait) 
+                  :mod (q / quantitative 
+                        :mod-of 11)) 
+            :mod (c3 / chromosomal 
+                  :mod-of 1) 
+            :poss-of (c / chromosom)) 
+      :op2 (a2 / arthritis 
+            :mod (c2 / collagen-induc)))
+
+# ::snt QTL for collagen type II ( CII ) antibody titers are illustrated on chromosome 13 .
+# ::tok QTL for collagen type II ( CII ) antibody titers are illustrated on chromosome 13 .
+# ::alignments 14-15|0.0.0.0 13-14|0.2 11-12|0 9-10|0.1 8-9|0.1.0 4-5|0.0.0.0.0.1+0.0.0.0.0.0.2+0.0.0.0.0.0.1+0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 3-4|0.0 2-3|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.031
+(i / illustrate-01 
+      :ARG0 (t2 / type 
+            :mod (c2 / collagen 
+                  :poss (1 / 13 
+                        :mod-of (w / war 
+                              :name (n / name 
+                                    :op1 "World" 
+                                    :op2 "War" 
+                                    :op3 "II") 
+                              :wiki "World_War_II")))) 
+      :ARG1 (t / titer 
+            :mod (a / antibody)) 
+      :ARG2 (c / chromosome))
+
+# ::snt * Suggestive level threshold ( P = 0.63 ) according to the permutation test ( n = 1,000 ) .
+# ::tok * Suggestive level threshold ( P = 0.63 ) according to the permutation test ( n = 1,000 ) .
+# ::alignments 13-14|0.0 12-13|0.0.1 9-10|0 5-6|0.0.0 3-4|0.1.1 2-3|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.088
+(s / say-01 
+      :ARG0 (t / test-01 
+            :ARG0 (p2 / P60) 
+            :ARG1 (p / permutation)) 
+      :ARG1 (l / level 
+            :mod (s2 / suggestive) 
+            :mod-of (t2 / threshold)))
+
+# ::snt ** Significance level threshold ( P = 0.05 ) according to the permutation test ( n = 1,000 ) .
+# ::tok ** Significance level threshold ( P = 0.05 ) according to the permutation test ( n = 1,000 ) .
+# ::alignments 13-14|0.0 12-13|0.0.1 9-10|0 5-6|0.0.0 3-4|0.1.1 2-3|0.1 1-2|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.155
+(s / say-01 
+      :ARG0 (t / test-01 
+            :ARG0 (p2 / P60) 
+            :ARG1 (p / permutation)) 
+      :ARG1 (l / level 
+            :mod (s2 / significance) 
+            :mod-of (t2 / threshold)))
+
+# ::snt Severity of arthritis and anti-collagen type II ( anti-CII ) titers in ( NFR/N  B10.Q )  B10.Q female mice and parental strains .
+# ::tok Severity of arthritis and anti-collagen type II ( anti-CII ) titers in ( NFR/N  B10.Q )  B10.Q female mice and parental strains .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.157
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt aMedian value on the days of onset when calculated in all arthritic mice in the group on day 100 ( maximum -- minimum values in the series ) .
+# ::tok aMedian value on the days of onset when calculated in all arthritic mice in the group on day 100 ( maximum -- minimum values in the series ) .
+# ::alignments 26-27|0.2.0.2.0.0 23-24|0.2.0.2.0 22-23|0.2.0.2 20-21|0.2.0.0.0 18-19|0.0 17-18|0.2.0.1.0.0 15-16|0.2.0.1.0 12-13|0.2.0.1 11-12|0.2.0.1.1 10-11|0.2.0.1.2 8-9|0.2.0 6-7|0.2.0.0 4-5|0.2.1+0.2 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.470
+(v2 / value-01 
+      :ARG0 100 
+      :ARG1 (a3 / aMedian) 
+      :ARG3 (t / temporal-quantity 
+            :ARG1-of (c / calculate-01 
+                  :ARG0 (o / onset 
+                        :mod (m2 / maximum)) 
+                  :location (m3 / mouse 
+                        :location (g / group 
+                              :location (d / day)) 
+                        :mod (a / arthritic) 
+                        :quant (a2 / all)) 
+                  :op1-of (m / minimum 
+                        :mod-of (v / value 
+                              :location (s / series)))) 
+            :unit (d2 / day)))
+
+# ::snt bMean  standard error of the maximum score from all arthritic mice in the respective group .
+# ::tok bMean  standard error of the maximum score from all arthritic mice in the respective group .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.471
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt cSignificantly higher than in B10.Q mice ( P = 0.02 in Student 's unpaired t test ) .
+# ::tok cSignificantly higher than in B10.Q mice ( P = 0.02 in Student 's unpaired t test ) .
+# ::alignments 15-16|0.0.1.0.0 14-15|0.0.1.0.0.0 13-14|0.0.1.0.0.1 11-12|0.0.1+0.0.1.0 7-8|0.0.0 5-6|0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.559
+(m / mouse 
+      :ARG1-of (h / high-02 
+            :ARG0 (p2 / P60) 
+            :ARG1-of (s / study-01 
+                  :ARG0 (p / person 
+                        :ARG0-of (t / test-01 
+                              :ARG1 (t2 / t) 
+                              :mod (u / unpair))))))
+
+# ::snt Incidence , onset and maximum score in ( NFR/N  B10.Q )  B10.Q female mice .
+# ::tok Incidence , onset and maximum score in ( NFR/N  B10.Q )  B10.Q female mice .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.560
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt aMedian value on the days of onset when calculated in all arthritic mice in the group ( maximum -- minimum values in the series ) .
+# ::tok aMedian value on the days of onset when calculated in all arthritic mice in the group ( maximum -- minimum values in the series ) .
+# ::alignments 23-24|0.1.0.1 20-21|0.1.0.1.0 19-20|0.1.0.1.0.0 17-18|0.1.0.1.0.0.0 15-16|0.1.0.2.0 12-13|0.1.0.2 11-12|0.1.0.2.1 10-11|0.1.0.2.2 8-9|0.1.0 6-7|0.1.0.0 4-5|0.1.1+0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.775
+(v2 / value-01 
+      :ARG1 (a3 / aMedian) 
+      :ARG3 (t / temporal-quantity 
+            :ARG1-of (c / calculate-01 
+                  :ARG0 (o / onset) 
+                  :ARG2 (s / series 
+                        :location-of (v / value 
+                              :mod (m / minimum 
+                                    :degree (m2 / maximum)))) 
+                  :location (m3 / mouse 
+                        :location (g / group) 
+                        :mod (a / arthritic) 
+                        :quant (a2 / all))) 
+            :unit (d / day)))
+
+# ::snt bMean (  standard error ) of the maximum score from all arthritic mice in the respective group on day 100 .
+# ::tok bMean (  standard error ) of the maximum score from all arthritic mice in the respective group on day 100 .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:33.776
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Distribution of genotypes between affected and unaffected N2 mice at different loci linked to clinical phenotypes of collagen-induced arthritis .
+# ::tok Distribution of genotypes between affected and unaffected N2 mice at different loci linked to clinical phenotypes of collagen-induced arthritis .
+# ::alignments 18-19|0.0.0.1.1 17-18|0.0.0.1.1.0 15-16|0.0.0.1 14-15|0.0.0.1.0 12-13|0.0.0 11-12|0.0.0.0 10-11|0.0.0.0.0 8-9|0.0.1.0 7-8|0.0.1.0.0 6-7|0.1+0 5-6|0.0 4-5|0.0.1 2-3|0.0.3 0-1|0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:34.319
+(a2 / affect-01 
+      :op2-of (a3 / and 
+            :ARG0-of (l / link-01 
+                  :ARG1 (l2 / locus 
+                        :ARG1-of (d / differ-02)) 
+                  :ARG2 (p / phenotyp 
+                        :mod (c2 / clinical) 
+                        :mod (a / arthritis 
+                              :mod (c / collagen-induc)))) 
+            :op1 (a4 / affect-01 
+                  :ARG1 (m / mouse 
+                        :mod (n / N2))) 
+            :prep-at-of (d2 / distribution) 
+            :quant (g / genotyp)) 
+      :polarity -)
+
+# ::snt * Suggestive significance , ** significant .
+# ::tok * Suggestive significance , ** significant .
+# ::alignments 5-6|0.0.0 2-3|0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T04:01:34.329
+(s3 / suggestive 
+      :ARG1-of (s2 / significant-02 
+            :ARG1-of (s / significant-02)))
+

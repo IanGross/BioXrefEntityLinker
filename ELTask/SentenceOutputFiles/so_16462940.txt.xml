@@ -1,0 +1,350 @@
+<termsem="SO:0000704"> Genetic </term> and <termsem="SO:0001026"> Genomic </term> Analysis of a Fat Mass Trait with Complex Inheritance Reveals Marked Sex Specificity .
+The integration of expression profiling with linkage analysis has increasingly been used to identify <termsem="SO:0000704"> genes </term> underlying complex phenotypes .
+The effects of gender on the regulation of many physiological traits are well documented ; however , `` <termsem="SO:0000704"> genetical </term> <termsem="SO:0001026"> genomic </term> '' analyses have not yet addressed the degree to which their conclusions are affected by sex .
+We constructed and densely genotyped a large F2 intercross derived from the inbred mouse strains C57BL/6J and C3H/HeJ on an apolipoprotein E null ( ApoE  /  ) background .
+This BXH.ApoE  /  population recapitulates several `` metabolic syndrome '' phenotypes .
+The cross consists of 334 animals of both sexes , allowing us to specifically test for the dependence of linkage on sex .
+We detected several thousand liver <termsem="SO:0000704"> gene </term> expression <termsem="SO:0000771"> quantitative trait loci </term> , a significant proportion of which are sex-biased .
+We used these analyses to dissect the genetics of gonadal fat mass , a complex trait with sex-specific regulation .
+We present evidence for a remarkably high degree of sex-dependence on both the cis and trans regulation of <termsem="SO:0000704"> gene </term> expression .
+We demonstrate how these analyses can be applied to the study of the genetics underlying gonadal fat mass , a complex trait showing significantly female-biased heritability .
+These data have implications on the potential effects of sex on the <termsem="SO:0000704"> genetic </term> regulation of other complex traits .
+Although their <termsem="SO:0001026"> genomes </term> are nearly identical , the males and females of a species exhibit striking differences in many traits , including complex traits such as obesity .
+This study combines <termsem="SO:0000704"> genetic </term> and <termsem="SO:0001026"> genomic </term> tools to identify in parallel <termsem="SO:0000771"> quantitative trait loci </term> ( <termsem="SO:0000771"> QTLs </term> ) for a measure of gonadal fat mass and for expression of <termsem="SO:0000673"> transcripts </term> in the liver .
+The results are used to explore the relationship between <termsem="SO:0000704"> genetic </term> variation , sexual differentiation , and obesity in the mouse model .
+Using over 300 intercross progeny of two inbred mouse strains , five <termsem="SO:0000001"> loci </term> in the <termsem="SO:0001026"> genome </term> were found to be highly correlated with abdominal fat mass .
+Four of the five <termsem="SO:0000001"> loci </term> exhibited opposite effects on obesity in the two sexes , a phenomenon known as sexual antagonism .
+To identify candidate <termsem="SO:0000704"> genes </term> that may be involved in obesity through their expression in the liver , global <termsem="SO:0000704"> gene </term> expression analysis was employed using microarrays .
+Many of these expression <termsem="SO:0000771"> QTLs </term> also show sex-specific effects on transcription .
+A hotspot for trans-acting <termsem="SO:0000771"> QTLs </term> regulating the expression of <termsem="SO:0000673"> transcripts </term> whose abundance is correlated with gonadal fat mass was identified on <termsem="SO:0000340"> Chromosome </term> 19 .
+This <termsem="SO:0000001"> region </term> of the <termsem="SO:0001026"> genome </term> colocalizes with a clinical <termsem="SO:0000771"> QTL </term> for gonadal fat mass , suggesting that it harbors a good candidate <termsem="SO:0000704"> gene </term> for obesity .
+Females and males share nearly identical <termsem="SO:0000704"> genetic </term> information , but vary widely with respect to disease susceptibility [ 1,2 ] .
+Apart from the obvious gender-specific diseases such as cervical or prostate cancer , sex influences susceptibility to nearly all highly prevalent diseases that affect both women and men , including atherosclerosis and diabetes and their precursor conditions of hyperlipidemia , obesity , and insulin resistance .
+These are multifactorial in their pathogenesis , encompassing environmental and behavioral aspects , as well as significant <termsem="SO:0000704"> genetic </term> determination , on which these other factors interact .
+The <termsem="SO:0000704"> genetic </term> component is multigenic , with the heritability embedded in the <termsem="SO:0000704"> genetic </term> variation intrinsic to our population .
+Although the sex differences in disease susceptibility are recognized , the interplay between sex and <termsem="SO:0000704"> gene </term> expression that is at the basis of these differences is not well understood .
+Females and males inherit ( on average ) the same <termsem="SO:0000704"> genes </term> that may be risk factors , but their expression and effect on disease risk varies significantly .
+An understanding and recognition of the significance of specific disease-associated <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> / <termsem="SO:0001059"> mutations </term> in the context of sex is therefore of critical clinical importance .
+We have utilized the mouse as a model system to study the genetics of metabolic and vascular diseases [ 3 -- 5 ] .
+Rather than focus initially on <termsem="SO:0000782"> natural </term> or induced <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> of single <termsem="SO:0000704"> genes </term> , we utilize the complex endogenous <termsem="SO:0000704"> genetic </term> variation between strains in <termsem="SO:0000704"> genetic </term> crosses to identify causative <termsem="SO:0000704"> genetic loci </term> and ultimately the underlying <termsem="SO:0001059"> variations </term> responsible for trait differences [ 6 ] .
+This design more closely reflects the situation faced when studying human populations .
+The <termsem="SO:0000704"> genetic </term> composition of each individual mouse is restricted to that of the two parental strains and is defined at every <termsem="SO:0000001"> locus </term> across the <termsem="SO:0001026"> genome </term> .
+The application of <termsem="SO:0000771"> quantitative trait locus </term> ( <termsem="SO:0000771"> QTL </term> ) analysis allows the identification of those <termsem="SO:0000830"> <termsem="SO:0000340"> chromosomal </term> regions </term> that contain a <termsem="SO:0000704"> genetic </term> variation that influences trait expression ( for a comprehensive review on <termsem="SO:0000771"> QTLs </term> see [ 7 ] ) .
+We [ 5,8 ] , and others [ 9 -- 17 ] , have recently extended the power of this approach by incorporating <termsem="SO:0001026"> genome </term> - wide <termsem="SO:0000704"> gene </term> expression array analysis , which allows us to model the `` genetics of <termsem="SO:0000704"> gene </term> expression '' using similar methods .
+An immediate extension of this approach is toward dissecting the <termsem="SO:0000704"> genetic </term> regulation of complex phenotypes , which would greatly improve the progression from candidate <termsem="SO:0000001"> locus </term> to candidate <termsem="SO:0000704"> gene </term> .
+Here we report the application of this integrated approach to study the significance of sex on the <termsem="SO:0000704"> genetic </term> determinants of obesity and the associated regulation of liver <termsem="SO:0000704"> gene </term> expression in an F2 intercross derived from the inbred strains C57BL/6J ( B6 ) and C3H/HeJ ( C3H ) on an apolipoprotein E null ( ApoE  /  ) background .
+The BXH.ApoE  /  population was designed to recapitulate several of the phenotypes associated with the so-called metabolic syndrome .
+The cross consists of 334 animals of both sexes , allowing us to specifically test for the dependence of <termsem="SO:0000771"> QTLs </term> on sex .
+We detected several thousand <termsem="SO:0000704"> gene </term> expression <termsem="SO:0000771"> QTLs </term> ( eQTLs ) , a significant proportion of which were sex-biased .
+We used these analyses to dissect the <termsem="SO:0000704"> genetic </term> regulation of the gonadal fat mass trait and to identify <termsem="SO:0000704"> genes </term> associated with the trait .
+<termsem="SO:0000771"> QTLs </term> Associated with Gonadal Fat Mass. .
+Characteristics of the B6.ApoE  /  and C3H.ApoE  /  parents and the F2 BXH.ApoE  /  generation on a Western diet are summarized in Table 1 .
+Gonadal fat mass differed significantly between the sexes in F2 ( p < 10  4 ) and in the parental C3H.ApoE  /  ( p < 0.05 ) , but not in B6.ApoE  /  mice .
+Gonadal fat mass was the fat pad collection that represented the most animals and the most accurate collections and was thus chosen for further analysis .
+Broad sense heritability ( h2 ) calculated as ( 2Total  2Parental ) / 2Total for the gonadal fat mass trait was 54 % for females and 36 % for males , which is in close agreement with previous reports [ 18,19 ] and demonstrates significant heritability of gonadal fat mass .
+A total of 334 F2 mice were genotyped at an average 1.5 cM density using 1,032 <termsem="SO:0000694"> single <termsem="SO:0001236"> nucleotide </term> polymorphisms </term> ( <termsem="SO:0000694"> SNPs </term> ) spanning all 19 autosomes .
+<termsem="SO:0000771"> QTL </term> analysis for several clinical traits ( clinical <termsem="SO:0000771"> QTLs </term> [ cQTLs ] ) , including the unadjusted raw values for gonadal fat mass , was performed using a single marker regression approach ( justified by the high-density of markers , making <termsem="SO:0000001"> interval </term> mapping unnecessary ) .
+In order to test specifically for sex effects of linkage , we included additive , dominant , sex , sex-additive , and sex-dominant parameters in our calculations ( see Materials and Methods ) .
+A stepwise regression procedure was used to determine whether the addition of the final two terms significantly improved the linear regression model , conditional on realizing a significant additive <termsem="SO:0000771"> QTL </term> effect .
+We performed permutation analyses over all <termsem="SO:0000704"> gene </term> expression traits , estimating false discovery rates ( FDRs ) at different logarithm of odds ( LOD ) score thresholds and assessing the overall rate of <termsem="SO:0000771"> QTL </term> detection .
+From these analyses we constructed receiver operating characteristic ( ROC ) - like curves to demonstrate that our straightforward method has significantly increased power to detect <termsem="SO:0000771"> QTLs </term> compared to <termsem="SO:0000771"> QTL </term> mapping methods that do not incorporate sex and <termsem="SO:0001027"> genotype </term> -- sex interactions ( Figure S1 ) .
+It is clear from the ROC curves that the sex and sex-interaction terms add significantly to the detection of <termsem="SO:0000771"> QTL </term> for the <termsem="SO:0000704"> gene </term> expression traits .
+Using previously described conventions [ 20 ] , <termsem="SO:0000771"> QTL </term> models without the final two interaction terms ( sex * add and sex * dom ) have a suggestive threshold of 3.0 ( p < 1  10  3 ) and a significant threshold of 4.3 ( p < 5  10  5 , <termsem="SO:0001026"> genome </term> - wide p < 0.05 ) .
+<termsem="SO:0000771"> QTL </term> models incorporating only the sex * add interaction term in addition to the additive terms have one extra degree of freedom that leads to a corresponding increase in the LOD score thresholds to 3.5 ( suggestive ) and 4.9 ( significant ) for the 0.001 and 0.00005 p-value thresholds , respectively .
+<termsem="SO:0000771"> QTL </term> models incorporating both sex * add and sex * dom interaction terms possess two extra degrees of freedom , with a corresponding increase in LOD score thresholds to 4.0 ( suggestive ) and 5.4 ( significant ) for the 0.001 and 0.00005 p-value thresholds , respectively .
+One suggestive ( <termsem="SO:0000340"> Chromosome </term> 1 ) and four significant ( <termsem="SO:0000340"> Chromosomes </term> 3 , 5 , 11 , and 19 ) cQTLs for the gonadal fat mass trait were identified ( Figure 1A ; Table 2 ) .
+Four out of the five cQTLs showed statistically significant better fits with the full model incorporating the interaction terms sex * add and sex * dom , compared to the model including only the additive terms .
+Interestingly , the cQTL over <termsem="SO:0000340"> Chromosome </term> 11 did not improve , suggesting that the additional terms did not contribute to improved detection of this <termsem="SO:0000001"> locus </term> .
+Table 2 summarizes the position and LOD score of maximal linkage for each cQTL .
+While the focus of this study was the gonadal fat mass trait , it is noted that a <termsem="SO:0001026"> genome </term> scan for the adiposity trait resulted in cQTLs at the same locations , with very similar LOD scores and sex dependence ( unpublished data ) .
+Results from the various regression models used to determine linkage for the <termsem="SO:0000340"> Chromosome </term> 5 cQTL are depicted in Figure 1B .
+Analysis of all animals with and without sex as a covariate failed to demonstrate evidence of linkage on <termsem="SO:0000340"> Chromosome </term> 5 .
+When females were analyzed alone , a suggestive LOD score of 3.7 was realized ( p = 2  10  4 ) ; males analyzed alone did not demonstrate evidence for linkage .
+However , using all 334 animals and adding the interaction terms to the <termsem="SO:0000771"> QTL </term> model significantly improved sensitivity , and a cQTL with a maximum LOD of 7.56 ( p = 1.7  10  6 ) was realized .
+Given the improved detection of four of the five cQTLs when sex-additive and sex-dominant interaction terms were considered , we hypothesized that the main <termsem="SO:0001027"> genotype </term> effect of these cQTLs on the gonadal fat mass trait would differ between the sexes ( Figure 2 ) .
+Indeed , cQTLs located on <termsem="SO:0000340"> Chromosomes </term> 1 , 3 , and 5 showed opposing effects on fat mass , or sex antagonism .
+The effect of the cQTL on <termsem="SO:0000340"> Chromosome </term> 11 was in the same direction in both males and females , but was sex-biased toward a larger effect in females ( R2 = 0.091 in females versus R2 = 0.046 in males ) , confirming the minimal sex specificity of this cQTL .
+The cQTL on <termsem="SO:0000340"> Chromosome </term> 19 showed a sex-specific effect in females , with no effect in males .
+Overall , all five cQTLs for gonadal fat mass were biased toward a larger effect in females .
+Assuming purely additive effects of each <termsem="SO:0001027"> genotype </term> , these cQTLs account for approximately 42 % of the variation in female F2 mice and 13 % in males , consistent with the narrow sense heritability estimates for this trait and again demonstrating significant differences in the regulation and heritability of the gonadal fat trait between the sexes .
+Livers from 312 F2 animals ( 156 female , 156 male ) were profiled using <termsem="SO:0000696"> oligonucleotide </term> microarrays manufactured by Agilent Technologies ( Palo Alto , California , United States ) , which included <termsem="SO:0000051"> probes </term> for 23,574 mouse <termsem="SO:0000673"> transcripts </term> .
+Individual <termsem="SO:0000673"> transcript </term> intensities were corrected for experimental variation and normalized and are reported as the mean log10 ratio ( mlratio ) of an individual experiment relative to a pool composed of 150 mice randomly selected from the F2 population [ 21 ] .
+Each measurement was fitted to an error model and assigned a significance measurement ( type I error ) .
+A heat map of the 2,320 <termsem="SO:0000673"> transcripts </term> most differentially expressed ( p < 0.05 in 10 % or more of animals ) relative to the pool is depicted in Figure 3 .
+This selection of <termsem="SO:0000704"> genes </term> was not biased on a priori known differential expression between the sexes , linkage , or correlation with a clinical phenotype .
+This is noteworthy because hierarchical clustering of these <termsem="SO:0000673"> transcripts </term> against the 312 F2 mice shows an almost perfect clustering into male and female subgroups , emphasizing striking effects of sex on liver <termsem="SO:0000704"> gene </term> expression levels and suggesting that sex is controlling more variance in these <termsem="SO:0000673"> transcripts </term> ' expression than any other parameter .
+The expression values of the 23,574 <termsem="SO:0000673"> transcripts </term> were treated as quantitative traits and fitted to the same linear regression models used to compute LOD scores for clinical traits ( eQTLs ) .
+The FDR at each threshold was determined by permuting the data 100 times and taking the mean number of <termsem="SO:0000771"> QTLs </term> detected over all of the permuted datasets at a given threshold , and dividing this count by the number of <termsem="SO:0000771"> QTLs </term> detected at the same threshold in the observed data .
+At the threshold for significant linkage ( p < 5  10  5 , <termsem="SO:0001026"> genome </term> - wide p < 0.05 , based on a single trait ) , the FDR was estimated at 3.4 % for the standard <termsem="SO:0000771"> QTL </term> model not accounting for any sex terms , 3.1 % for the <termsem="SO:0000771"> QTL </term> model accounting for additive sex effects , and 3.2 % for the <termsem="SO:0000771"> QTL </term> model accounting for additive sex effects and allowing for the sex interaction terms to enter the model .
+A list of all detected suggestive ( p < 1  10  3 ) and significant eQTLs ( p < 5  10  5 ) detected in the BXH.ApoE  /  intercross is provided in Table S1 .
+Characteristics of the eQTLs at different significance levels are summarized in Table 3 and shown graphically in Figure 4 .
+We detected 6,676 eQTLs representing 4,998 <termsem="SO:0000673"> transcripts </term> at the 5  10  5 significant level .
+Of these , 2,118 eQTLs were located within 20 Mb ( roughly 10 cM ) of the corresponding <termsem="SO:0000704"> gene </term> , likely representing eQTLs regulated by cis-acting variation within the <termsem="SO:0000704"> gene </term> itself .
+Of the 6,676 significant eQTLs , 1,166 ( 17 % ) demonstrated a sex bias and were subsequently significantly improved with the addition of the sex-additive and sex-dominant terms .
+The distribution of all 6,676 significant eQTLs ( p < 5  10  5 ) across the <termsem="SO:0001026"> genome </term> in 2 cM bins is shown in Figure 4A .
+Evidence for eQTL hotspots is clear on <termsem="SO:0000340"> Chromosomes </term> 1 , 2 , 4 , 5 , 6 , and 7 where significant fractions of the 6,676 eQTLs colocalize within 2 cM regions on each <termsem="SO:0000340"> chromosome </term> .
+Approximately 67 % of eQTLs at this threshold are trans , and these eQTL hotspots consist primarily of trans-acting effects on transcriptional variation .
+Distribution of the 1,166 eQTLs with significant sex effects , of which 852 ( 73 % ) are trans , showed enrichment on <termsem="SO:0000340"> Chromosome </term> 5 at approximately 49 cM ( Figure 4B ) as assessed using the Fisher exact test ( p = 8.7  10  25 after Bonferroni correction ) .
+At this <termsem="SO:0000001"> locus </term> there were 250 eQTLs , 140 of which exhibited <termsem="SO:0001027"> genotype </term> -- sex interactions .
+At increasing thresholds for linkage , a higher fraction of detected eQTLs were cis-acting ( Figure 4C ) .
+The increased proportion of cis-eQTLs with increasing LOD score thresholds has been reported before [ 5,15 ] and confirms what is likely to be our increased power to detect first-order cis-acting <termsem="SO:0001059"> variations </term> affecting transcription .
+The proportion of eQTLs with significant sex effects remained relatively constant at all thresholds ( Figure 4C ) .
+Furthermore , the majority of these sex-specific eQTLs ( 73 % ) are acting in trans on a given <termsem="SO:0000704"> gene </term> 's expression ( Figure 4D ) , and similar proportions of sex-specific eQTLs ( 26 % ) are cis compared to the proportion of all liver cis-eQTLs ( 32 % ) .
+These data demonstrate the profound effects of sex on the <termsem="SO:0000704"> genetic </term> regulation of <termsem="SO:0000704"> gene </term> expression .
+Cis-eQTLs Are Candidate <termsem="SO:0000704"> Genes </term> for the Gonadal Fat Mass Trait .
+Given the marked effects of sex on liver <termsem="SO:0000704"> gene </term> expression and the <termsem="SO:0000704"> genetic </term> regulation of gonadal fat mass , we reasoned that cis-eQTLs with significant `` sex-additive '' and `` sex-dominant '' interactions would be potential candidate <termsem="SO:0000704"> genes </term> for our trait .
+Of the 2,118 significant cis-eQTLs , 304 ( 14 % ) were improved by the sex-interaction terms .
+Cis-eQTLs <termsem="SO:0000068"> overlapping </term> the confidence interval for the fat mass cQTL are candidate <termsem="SO:0000704"> genes </term> for the trait .
+Those <termsem="SO:0000704"> genes </term> with significant sex interactions receive increased consideration as potential candidates ( Tables 4 and 5 ) .
+Thousands of <termsem="SO:0000704"> Genes </term> Show a Sex-Specific Correlation with Gonadal Fat Mass. .
+For each of the 23,574 <termsem="SO:0000696"> oligonucleotides </term> represented on the array , we computed a linear regression analysis to test for association between the trait `` gonadal fat mass '' and each <termsem="SO:0000673"> transcript </term> abundance measure , incorporating the terms `` <termsem="SO:0000704"> gene </term> , '' `` sex , '' and `` <termsem="SO:0000704"> gene </term> - by-sex , '' where the `` <termsem="SO:0000704"> gene </term> - by-sex '' parameter tests for sex-specific correlation between a <termsem="SO:0000704"> gene </term> and the trait .
+As before , a stepwise regression procedure was used to determine if the addition of the interaction term significantly improved the model fit ( see Materials and Methods ) .
+Multiple testing was addressed by controlling for the FDR .
+Distribution of the p-values obtained from these 23,574 correlations is shown in Figure 5A .
+At FDR = 0.01 , 4,613 <termsem="SO:0000704"> genes </term> were significantly correlated with gonadal fat mass .
+Of these <termsem="SO:0000704"> genes </term> , 4,524 ( 98 % ) showed significant `` <termsem="SO:0000704"> gene </term> - by-sex '' effects , supporting the high degree of sex specificity in the <termsem="SO:0000704"> genetic </term> regulation of this trait .
+A complete list of all <termsem="SO:0000704"> genes </term> correlated with gonadal fat mass is provided in Table S2 .
+Of the 4,613 <termsem="SO:0000704"> genes </term> correlated with gonadal fat mass , 1,130 generate 1,478 significant eQTLs ( Figure 5B ) .
+The colocalization of eQTLs for these correlated <termsem="SO:0000704"> genes </term> with the cQTL for the fat mass trait provides useful implications for the possible role of these <termsem="SO:0000704"> genes </term> .
+Whether the eQTLs are cis or trans determines what that role may be .
+<termsem="SO:0000704"> Genes </term> that show significant correlation with the gonadal fat mass trait and that have cis-eQTLs coincident with the fat mass cQTLs are potential candidate <termsem="SO:0000704"> genes </term> for the trait ( i.e. , they may contain a <termsem="SO:0000704"> genetic </term> <termsem="SO:0001059"> variation </term> in that <termsem="SO:0000704"> gene </term> that is the cause of the trait cQTL ) .
+Table 5 summarizes the <termsem="SO:0000704"> genes </term> that possess these <termsem="SO:0000110"> properties </term> for each cQTL , increasing evidence for these <termsem="SO:0000704"> genes </term> as potential candidates .
+As addressed below , given the complex multiorgan regulation of adipose tissue mass , it is unlikely that the <termsem="SO:0000704"> genetic </term> regulation of all five <termsem="SO:0000001"> loci </term> resides in the liver .
+However , some may involve the liver , and even for those that do not , the liver transcriptional variation may reflect that of the relevant tissue .
+<termsem="SO:0000704"> Genes </term> that show significant correlation with gonadal fat mass and have trans-eQTLs coincident with the fat mass cQTL can not be candidates directly responsible for the trait , as they are physically located elsewhere in the <termsem="SO:0001026"> genome </term> .
+However , they are potentially involved in the pathway ( s ) leading from the causative <termsem="SO:0000704"> gene </term> to the expression of the fat mass trait ( i.e. , their transcription is closely regulated by the causative <termsem="SO:0000704"> gene </term> at the <termsem="SO:0000001"> locus </term> ) .
+All of the five fat mass cQTLs have colocalizing trans-eQTLs for correlated <termsem="SO:0000704"> genes </term> .
+However , for a trait such as fat mass that is regulated by multiple tissues and organs , it is unlikely that all five fat mass cQTLs are primarily driven by liver <termsem="SO:0000704"> gene </term> expression .
+As an approach to this problem , we hypothesized that those cQTLs that are most closely associated with liver <termsem="SO:0000704"> gene </term> expression would show an overrepresentation of colocalized eQTL for correlated <termsem="SO:0000704"> genes </term> , while those <termsem="SO:0000001"> loci </term> primarily controlled by other tissues would not have shown this pattern .
+To assess this , we first determined the distribution of these 1,478 eQTLs across the <termsem="SO:0001026"> genome </term> in 2-cM bins as shown in Figure 5C .
+In order to see if there exist any hotspots for these eQTLs , we tested eQTLs with p < 0.001 for enrichment along the <termsem="SO:0001026"> genome </term> in <termsem="SO:0000068"> overlapping </term> 2-cM bins against the distribution of all liver eQTLs ( Figure 4A ) using a Fisher exact test .
+Figure 5D shows the significance of enrichment reported as  log10 of the enrichment p-value across the <termsem="SO:0001026"> genome </term> .
+One <termsem="SO:0000830"> locus on <termsem="SO:0000340"> Chromosome </term> </term> 19 was significantly enriched for eQTLs of <termsem="SO:0000673"> transcripts </term> correlated with the gonadal fat mass trait .
+As anticipated , there was an overlap of a correlated eQTL hotspot and a fat mass cQTL , specifically <termsem="SO:0000340"> Chromosome </term> 19 at 40 cM .
+This suggests that the <termsem="SO:0000704"> genetic </term> regulation of fat mass for the <termsem="SO:0000340"> Chromosome </term> 19 locus is more closely tied to liver <termsem="SO:0000704"> gene </term> expression than are the other four fat mass cQTLs .
+The effect of the trans-eQTLs at the <termsem="SO:0000340"> Chromosome </term> 19 locus on <termsem="SO:0000704"> gene </term> expression is summarized in Figure 6 .
+Twenty-nine trans-eQTLs colocalize to <termsem="SO:0000340"> Chromosome </term> 9 at 40 cM , suggesting that 29 <termsem="SO:0000704"> genes </term> correlated with gonadal fat mass are regulated in trans by a <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphism </term> </term> at this <termsem="SO:0000001"> position </term> .
+The proportion of <termsem="SO:0000704"> gene </term> expression levels controlled by this <termsem="SO:0000001"> locus </term> ( approximated as the coefficients of determination R2 ) differs between males and females for the majority of the <termsem="SO:0000673"> transcripts </term> ( as in Figure 6A ) , and for <termsem="SO:0000340"> Chromosome </term> 19 ( Figure 6B ) , females demonstrated greater <termsem="SO:0000704"> genetic </term> regulation of <termsem="SO:0000704"> gene </term> expression than males .
+This substantial female bias is significantly higher than would be expected to arise by chance for the <termsem="SO:0000340"> Chromosome </term> 19 locus ( p < 0.001 by 2 ) .
+This <termsem="SO:0000001"> locus </term> corresponds to one of the four sex-biased cQTLs for gonadal fat mass reported in this study , and the significant sex specificity of both the cis and trans <termsem="SO:0000704"> genetic </term> regulation of liver <termsem="SO:0000704"> genes </term> correlated with fat mass supports the functional significance of this <termsem="SO:0000001"> locus </term> in this organ .
+In this study , we described a large , densely mapped , segregating F2 mouse population designed to study the <termsem="SO:0000704"> genetic </term> regulation of several traits associated with the so-called metabolic syndrome .
+Several groups , including ours , have reported the advantage of combining traditional genetics with <termsem="SO:0001026"> genome </term> - wide <termsem="SO:0000704"> gene </term> expression analysis for the dissection of complex traits .
+This study improved on past models by including over 300 animals ( three times the size of previous studies ) of both sexes , allowing for the incorporation of sex-specific effects on underlying <termsem="SO:0000704"> genetic </term> regulation .
+Significant Sex Bias in the Regulation of Both Complex Traits and <termsem="SO:0000704"> Gene </term> Expression .
+Given the known dichotomy between females and males in the susceptibility and control of obesity , this study was designed to sufficiently power the detection of significant <termsem="SO:0000771"> QTLs </term> for this and other traits with sex-dependent effects .
+Note , however , that these effects can extend to traits without overall mean differences between the sexes .
+Previous studies have described the advantages of performing <termsem="SO:0000771"> QTL </term> analysis both with and without sex as an interactive covariate [ 22 -- 25 ] .
+Analyzing the sexes separately is suboptimal since it reduces sample size in both groups , thus reducing power to detect main <termsem="SO:0000771"> QTL </term> effects , as demonstrated by our <termsem="SO:0001026"> genome </term> scan of <termsem="SO:0000340"> Chromosome </term> 5 ( Figure 1B ) .
+Furthermore , separate analyses would not allow for the detection of <termsem="SO:0000771"> QTLs </term> that have opposing , or sex-antagonistic , effects in females and males and would hinder the detection of <termsem="SO:0000771"> QTLs </term> specific to one sex .
+Accordingly , we detected five cQTLs for the gonadal fat mass trait on <termsem="SO:0000340"> Chromosomes </term> 1 , 3 , 5 , 11 , and 19 .
+The detection of all five cQTLs was `` driven '' by the larger effect in females , with significant improvement by the incorporation of sex * additive and sex * dominant parameters .
+<termsem="SO:0000771"> QTLs </term> associated with obesity , gonadal fat , and abdominal fat have been reported before <termsem="SO:0000068"> overlapping </term> with cQTLs on <termsem="SO:0000340"> Chromosomes </term> 1 [ 26 -- 28 ] , 5 [ 26,29 ] , and 11 [ 19,29 ] reported here , whereas the cQTL on <termsem="SO:0000340"> Chromosome </term> 3 represents a novel <termsem="SO:0000771"> QTL </term> for this trait .
+The <termsem="SO:0000340"> Chromosome </term> 19 cQTL for fat mass was recently reported by us [ 5 ] in the BXD intercross F2 progeny from the strains B6 and DBA ( which shares the same <termsem="SO:0001024"> haplotype </term> at this <termsem="SO:0000001"> region </term> as the C3H strain used in this study ) .
+Interestingly , significant heritability and <termsem="SO:0000704"> genetic </term> regulation was seen in this F2 population despite the hyperlipidemic , proinflammatory ApoE  /  background and the high-fat Western diet .
+This background possesses several advantages , such as allowing the modeling of human-like disease states .
+The predominantly female-driven effects of the five cQTLs likely reflect the significant effect of differential gonadal hormone secretions on the <termsem="SO:0000704"> genetic </term> regulation of this complex trait .
+The identification of <termsem="SO:0000704"> genes </term> underlying cQTLs remains a challenge .
+The widespread availability of <termsem="SO:0001026"> genome </term> - wide expression analysis has begun to address this by providing a snapshot of transcription in relevant organs and thus providing initial information for which <termsem="SO:0000704"> genes </term> can differentiate a given trait .
+Furthermore , by treating <termsem="SO:0000673"> transcript </term> levels as quantitative traits , we can map the <termsem="SO:0000704"> genetic </term> regulation underlying differential <termsem="SO:0000704"> gene </term> expression ( eQTLs ) .
+Those eQTLs that have cis-acting <termsem="SO:0001059"> variations </term> affecting their transcription are potential candidate <termsem="SO:0000704"> genes </term> for the trait .
+At a single trait , <termsem="SO:0001026"> genome </term> - wide significance level of 0.05 , we detected 6,676 eQTLs representing 4,998 <termsem="SO:0000704"> genes </term> , of which 2,118 were cis-acting .
+At increased thresholds , the proportion of cis-eQTLs increased , which is in good agreement with previous studies [ 5,15 ] and likely reflects the increased power to detect cis-acting <termsem="SO:0001059"> variations </term> affecting transcription .
+Of all 6,676 significant eQTLs , 1,166 possessed significant sex interactions .
+Of these , 304 were cis and 852 were trans , suggesting that only a minority of the sex-specific effects on the regulation of <termsem="SO:0000704"> gene </term> expression occur through <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> within the <termsem="SO:0000704"> gene </term> itself .
+Rather , underlying <termsem="SO:0000704"> genetic </term> regulation of most <termsem="SO:0000673"> transcripts </term> is the result of interactions between trans <termsem="SO:0000001"> loci </term> and sex-specific factors ( e.g. , hormones ) .
+As with cQTLs , sex bias in the predominantly trans <termsem="SO:0000704"> genetic </term> regulation of <termsem="SO:0000704"> gene </term> expression is likely secondary to different sex hormone profiles .
+Recently , using a similar dataset , our group demonstrated that significant cis-eQTLs ( p < 5  10  5 ) largely represent true positives [ 30 ] and are enriched for highly <termsem="SO:0001025"> <termsem="SO:0000694"> polymorphic </term> regions </term> over the mouse <termsem="SO:0001026"> genome </term> .
+The cis-eQTLs presented in Table 5 overlap with one of the gonadal fat mass cQTLs and should be considered potential candidates .
+Given the sex effects in the gonadal fat mass cQTLs , we reasoned that the cis-eQTLs with significant sex * additive and sex * dominant effects should receive priority consideration .
+The use of eQTLs to dissect cQTLs is a method still in its infancy , with uncertain efficacy and applicability .
+Nevertheless , application of this analysis to this dataset provides some tantalizingly attractive candidate <termsem="SO:0000704"> genes </term> .
+One shortcoming of this approach , however , is that candidate <termsem="SO:0000704"> genes </term> are limited to those whose <termsem="SO:0000673"> transcript </term> expression levels vary in association with a nearby <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphism </term> </term> that differs between the parental strains -- in other words , <termsem="SO:0000704"> genes </term> with significant and detectable cis-eQTLs .
+However , it is not strictly necessary for candidate <termsem="SO:0000704"> genes </term> to have evidence of such linkage : <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> underlying a trait cQTL can affect <termsem="SO:0000704"> gene </term> function or posttranslational <termsem="SO:0001059"> modifications </term> .
+Nevertheless , several phenotypes are known to be regulated , at least partly , at the level of transcription or <termsem="SO:0000234"> mRNA </term> stability , which is exactly what our methods are designed to detect .
+A separate problem is that organ-specific <termsem="SO:0000704"> gene </term> expression differences may preclude one from detecting the relevant causative <termsem="SO:0000704"> gene </term> if the tissue arrayed is not the tissue where the control is exerted .
+This is particularly relevant for a trait such as adipose tissue mass , which is controlled by multiple tissues .
+We propose that analysis of correlated <termsem="SO:0000704"> genes </term> can provide guidance as discussed below .
+<termsem="SO:0000704"> Genes </term> Correlated with Gonadal Fat Mass Illustrate Tissue-Specific Regulation of the Trait .
+In an effort to identify <termsem="SO:0000704"> genes </term> associated with the fat mass trait , but not necessarily candidate <termsem="SO:0000704"> genes </term> underlying the trait cQTLs , we fitted linear models to assess the degree of association between <termsem="SO:0000673"> transcripts </term> and gonadal fat mass .
+As with <termsem="SO:0000771"> QTLs </term> , sex-specific correlations were modeled .
+At an FDR of 1 % , 4,613 <termsem="SO:0000704"> genes </term> were found to be significantly correlated with gonadal fat mass , of which 4,254 ( 98 % ) showed sex-biased correlation .
+As indicated in Tables 4 and 5 , several <termsem="SO:0000704"> genes </term> with detectable cis-eQTLs are also significantly correlated with the trait and are even further prioritized as candidate <termsem="SO:0000704"> genes </term> .
+Thus far , studies that have examined the `` genetics of <termsem="SO:0000704"> gene </term> expression '' are in good agreement regarding the increased power to detect cis-eQTLs relative to trans [ 5,9,15,16,31 ] .
+It is unclear at this time , however , what exactly is the significance of trans-eQTLs and the nature of the underlying <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> associated with them .
+Furthermore , the eQTL hotspots reported in this and previous studies [ 5,9,10 ] largely represent trans-eQTLs .
+This localization suggests some functional significance to these <termsem="SO:0000001"> regions </term> .
+Of the 4,613 <termsem="SO:0000704"> genes </term> correlated with gonadal fat mass , 1,130 generate 1,478 significant eQTLs , of which 1,023 ( 69 % ) are trans-acting .
+These eQTLs are significantly enriched at one <termsem="SO:0000001"> locus </term> ( <termsem="SO:0000340"> Chromosome </term> 19 ) .
+Interestingly , this hotspot was coincident with a cQTL associated with fat mass reported in this study .
+Since these <termsem="SO:0000673"> transcripts </term> represent those significantly correlated with gonadal fat mass , the localization of their eQTLs to these <termsem="SO:0000001"> regions </term> strongly supports the notion that the <termsem="SO:0000704"> genes </term> with trans-eQTLs represent downstream targets of candidate regulatory <termsem="SO:0000704"> genes </term> located at the <termsem="SO:0000001"> position </term> of significant linkage .
+This means that the <termsem="SO:0000704"> genes </term> may be causal but downstream of the <termsem="SO:0000704"> gene </term> responsible for the cQTLs , or they may be reacting to the increased gonadal fat mass and associated metabolic changes .
+These data also suggest that identifying such <termsem="SO:0000001"> loci </term> that show overrepresentation of highly correlated <termsem="SO:0000704"> genes </term> is a means to identify which of the trait cQTLs are more likely controlled by the tissue arrayed .
+As expected , the <termsem="SO:0000340"> Chromosome </term> 19 locus was enriched for trans-eQTLs with substantially greater effects in females .
+Functional and <termsem="SO:0000167"> promoter </term> analysis of <termsem="SO:0000704"> genes </term> with a common trans-eQTL may prove enlightening .
+Furthermore , <termsem="SO:0000704"> gene </term> expression network construction and analysis may be improved by the incorporation of experimentally demonstrated cis versus trans regulation .
+The integration of traditional genetics with <termsem="SO:0001026"> genome </term> - wide expression analysis was first proposed by Jansen and Nap 4 y ago [ 32 ] .
+Advances in <termsem="SO:0001026"> genomic </term> technology and bioinformatic resources since then have vastly improved the applicability of these methods to the dissection of complex traits .
+Taking into account sex-specific effects will similarly improve the sensitivity to detect underlying <termsem="SO:0000704"> genetic </term> regulation , especially for phenotypes known to be affected by sex .
+Furthermore , network analyses are increasingly being applied to complex phenotypes [ 11,33 ] .
+Regardless of which variables are used in the construction of these networks , whether they measure <termsem="SO:0000704"> gene </term> expression or protein interactions , accounting for sex specificity , hormonal status , or construction of different networks for females and males would likely more accurately represent the complexity associated with these phenotypes .
+We reported here on the initial <termsem="SO:0000704"> genetic </term> and <termsem="SO:0001026"> genomic </term> analysis of an F2 intercross population designed to recapitulate several traits associated with human metabolic syndrome .
+Using 334 mice of both sexes genotyped at high density , this is the largest study of its kind to date designed , and it is strongly powered to detect subtle effects of <termsem="SO:0000704"> genetic </term> regulation and sex specificity .
+We identified five cQTLs for the gonadal fat mass trait , all with greater effects in females .
+We also detected several thousand significant liver eQTLs , a significant fraction of which are sex-biased , demonstrating how meaningful effects of sex on <termsem="SO:0000704"> gene </term> expression extend beyond overall mean differences .
+We demonstrated the application of linkage and correlation methods to identify candidate <termsem="SO:0000704"> genes </term> .
+Finally , we showed that localization of a subset of liver <termsem="SO:0000704"> genes </term> linked in trans to a cQTL <termsem="SO:0000001"> region </term> can identify relative tissue contributions to the <termsem="SO:0000704"> genetic </term> regulation of a complex trait .
+We anticipate that the application of these and similar methods would significantly improve the elucidation of the <termsem="SO:0000704"> genetic </term> regulation underlying complex phenotypes .
+Animals and tissue collection .
+C57BL/6J ApoE  /  ( B6.ApoE  /  ) were purchased from Jackson Laboratory ( Bar Harbor , Maine , United States ) .
+C3H/HeJ ApoE  /  ( C3H.ApoE  /  ) were generated by backcrossing B6.ApoE  /  to C3H for ten generations .
+F1 mice were generated from reciprocal intercrossing between B6.ApoE  /  and C3H.ApoE  /  , and F2 mice were subsequently bred by intercrossing F1 mice .
+A total of 334 mice ( 169 female , 165 male ) were produced .
+All mice were fed Purina Chow containing 4 % fat until 8 wk of age and then transferred to a `` Western '' diet containing 42 % fat and 0.15 % cholesterol for 16 wk .
+Mice were sacrificed at 24 wk of age .
+At death , livers were immediately collected and flash-frozen in liquid N2 , and gonadal fat pads were extracted and weighed .
+<termsem="SO:0000356"> RNA </term> sample preparation , microarray hybridization , and expression analysis .
+<termsem="SO:0000356"> RNA </term> preparation and array hybridizations were performed at Rosetta Inpharmatics ( Seattle , Washington , United States ) .
+The custom ink-jet microarrays used in this study ( Agilent Technologies , previously described [ 21,34 ] ) contain 2,186 control <termsem="SO:0000051"> probes </term> and 23,574 noncontrol <termsem="SO:0000696"> oligonucleotides </term> extracted from mouse UniGene clusters and combined with RefSeq <termsem="SO:0000001"> sequences </term> and RIKEN full-length <termsem="SO:0000151"> clones </term> .
+Mouse livers were homogenized and total <termsem="SO:0000356"> RNA </term> extracted using TRIzol reagent ( Invitrogen , Carlsbad , California , United States ) according to manufacturer 's protocol .
+Three micrograms of total <termsem="SO:0000356"> RNA </term> was reverse transcribed and labeled with either Cy3 or Cy5 fluorochrome .
+Purified Cy3 or Cy5 complementary <termsem="SO:0000356"> RNA </term> was hybridized to at least two microarray slides with fluor reversal for 24 h in a hybridization chamber , washed , and scanned using a laser confocal scanner .
+Arrays were quantified on the basis of spot intensity relative to background , adjusted for experimental variation between arrays using average intensity over multiple channels , and fitted to an error model to determine significance ( type I error ) .
+<termsem="SO:0000704"> Gene </term> expression is reported as the mlratio relative to the pool derived from 150 mice randomly selected from the F2 population .
+For subsequent analyses , mlratio data are assumed to be normally distributed , a valid assumption as previously demonstrated [ 21,30 ] .
+The error model used to assess whether a given <termsem="SO:0000704"> gene </term> is significantly differentially expressed in a single sample relative to a pool comprised of a randomly selected subset of 150 samples has been extensively described and tested in a number of publications [ 35,36 ] .
+Genotyping and linkage statistics .
+<termsem="SO:0000991"> <termsem="SO:0001026"> Genomic </term> DNA </term> was isolated from kidney by phenol-chloroform extraction .
+An examination of existing databases identified over 1,300 <termsem="SO:0000694"> SNPs </term> that showed variation between the B6 and C3H strains , and a complete linkage <termsem="SO:0001248"> map </term> for all 19 autosomes was constructed using 1,032 of these <termsem="SO:0000694"> SNPs </term> at an average density of 1.5 cM .
+Genotyping was conducted by ParAllele ( South San Francisco , California , United States ) using the molecular-inversion <termsem="SO:0000051"> probe </term> ( MIB ) multiplex technique [ 37 ] .
+Testing for linkage of both clinical traits and <termsem="SO:0000704"> gene </term> expression ( using mlratio ) was conducted using a linear model .
+Consider a phenotype denoted by y .
+The linear model that relates variation in y to <termsem="SO:0000771"> QTLs </term> and other covariates ( e.g. , sex ) is given by the general form .
+where  is the trait mean , X  a vector of covariates ,  being the associated vector of regression coefficients , and e the residual error .
+Linkage was computed for over 20 clinical traits as well as 23,574 liver <termsem="SO:0000673"> transcripts </term> .
+Standard <termsem="SO:0001026"> genome </term> scans calculate linkage by comparing the linear model .
+to the null model .
+where 1 and 2 are the regression coefficients of the additive and dominant parameters , respectively .
+The LOD score represents the difference in the log10 of the likelihood of the above two equations , where the individual model likelihoods are maximized with respect to the model parameters , given the marker <termsem="SO:0001027"> genotype </term> and phenotype data .
+If a trait y differs on average between the two sexes but the <termsem="SO:0000771"> QTL </term> has the same effect in both males and females , we can model this interaction by including sex as an additive covariate in the above models , resulting in the new model .
+which is then compared to the null model .
+where 3 is the regression coefficient of the sex parameter .
+The effect of a <termsem="SO:0000771"> QTL </term> may be dependent on the state of a covariate ; for instance , a <termsem="SO:0000771"> QTL </term> may have an effect specific to one sex , or may have opposite effects in the two sexes .
+This interaction can be modeled using a full model , which accounts for all additive covariates , as well as interactions between the covariates : which is compared to the above null model ( Equation 5 ) .
+The full model ( Equation 6 ) allows us to model all heritable and sex-specific interactions in a single equation and maximally powers us to detect significant <termsem="SO:0000771"> QTLs </term> when the sex and sex-interaction terms are significant , given all 334 animals are included in the analysis .
+Furthermore , using the full model obviates the need for modeling <termsem="SO:0000771"> QTLs </term> in one sex only , a procedure that could decrease our power by halving the sample size , rendering it impossible to detect interactions between <termsem="SO:0000771"> QTLs </term> and sex .
+However , because the full model contains two more parameters than the model that treats sex as an additive covariate ( Equation 4 ) , the LOD score threshold for significant linkage is higher ( using the convention of Lander and Kruglyak [ 20 ] ) , with <termsem="SO:0000771"> QTL </term> - specific significance levels of 2  10  3 and 5  10  5 equivalent to LOD scores of 4.0 ( suggestive linkage ) and 5.4 ( significant linkage , equivalent to <termsem="SO:0001026"> genome </term> - wide p < 0.05 ) , respectively .
+As a result , if there are no significant sex-additive or sex-dominant interactions , the full model will actually reduce power to detect linkage .
+To minimize the loss in power of fitting the full model when the sex-interaction terms are not significant , we employed a model selection procedure that introduces sex-interaction terms only if they add significantly to the overall <termsem="SO:0000771"> QTL </term> model .
+The model selection procedure makes use of forward stepwise regression techniques to determine whether it is beneficial to include the sex-interaction terms , conditional on realizing a significant additive effect ( p < 0.001 ) .
+That is , the data are fitted to Equation 4 for a given marker , and if the add term is significant at the 0.001 significance level , then we attempt to add the sex * add term into the model .
+The sex * add term is retained in the model if the Bayesian information criterion ( BIC ) for this model is smaller than the BIC for Equation 4 .
+If sex * add is included in the model as a result of this procedure , then we again use BIC to consider including the sex * dom term in the model .
+To determine which of the four models ( Equations 2 , 4 , 6 , and the model selection ) is optimal , we empirically estimated the FDR for each model over a set of 3,000 <termsem="SO:0000704"> genes </term> randomly selected from the set of all <termsem="SO:0000704"> genes </term> detected as expressed in the liver samples .
+For each <termsem="SO:0000704"> gene </term> and for each marker we fitted each of the four models to the data .
+We performed this same analysis on ten separate permutation sets in which each of the 3,000 <termsem="SO:0000704"> gene </term> expression trait vectors was permuted such that the correlation structure among the <termsem="SO:0000704"> genes </term> was preserved .
+The FDR for a given LOD score threshold was then computed as the ratio of the mean number of <termsem="SO:0000771"> QTL </term> detected in the permuted datasets ( the mean taken over the ten permuted datasets ) and the total number of <termsem="SO:0000771"> QTL </term> detected in the observed 3,000 - <termsem="SO:0000704"> gene </term> dataset .
+We then generated ROC-like curves by varying the LOD score threshold , resulting in a range of FDRs ( from 0 % to more than 50 % ) .
+To simplify this type of summary , we considered no more than one <termsem="SO:0000771"> QTL </term> per <termsem="SO:0000340"> chromosome </term> per <termsem="SO:0000704"> gene </term> expression trait by considering only the <termsem="SO:0000771"> QTL </term> with the max LOD score on each <termsem="SO:0000340"> chromosome </term> for each trait .
+The ROC curves for each of the four models are shown in Figure S1 , with the black curve corresponding to Equation 2 , the blue curve corresponding to Equation 4 , the red curve corresponding to Equation 6 , and the green curve corresponding to the model selection procedure .
+It is clear from the ROC curves that the sex and sex-interaction terms are significant in the <termsem="SO:0000704"> gene </term> expression dataset .
+For example , at an FDR of 5 % we note that 800 <termsem="SO:0000771"> QTLs </term> were detected in the set of 3,000 <termsem="SO:0000704"> genes </term> for model 1 , while 968 ( 21 % increase ) and 1,159 ( 45 % increase ) <termsem="SO:0000771"> QTLs </term> were detected for Equations 4 and 6 , respectively .
+These results demonstrate significantly increased power to detect <termsem="SO:0000771"> QTLs </term> when sex is taken into account .
+We further note that the stepwise selection procedure captures more information than Equation 4 , indicating a significant interaction signature in this dataset and also demonstrating that this simple statistical procedure is capable of identifying significant interaction events even at conservative FDR thresholds .
+Finally , it is of particular note that Equation 4 performed better than Equation 6 , the model that incorporated the interaction terms at all times .
+That is , despite there being a significant interaction signature , the signature was not large enough to justify including interaction terms for every expression trait and at every marker tested .
+This fact motivated the need to employ the forward regression procedure , and these results further motivate the need to explore sex effects by employing even more sophisticated <termsem="SO:0000771"> QTL </term> detection methods , such as that recently described by Yi et al. [ 38 ] .
+Additional statistics .
+For each 23,574 <termsem="SO:0000696"> oligonucleotides </term> represented on the array , we computed a linear regression analysis to test for a correlation between the trait `` gonadal fat mass '' and each <termsem="SO:0000673"> transcript </term> .
+Similar to our method of calculating linkage , we employed a stepwise linear regression procedure using equations of the form .
+compared to the null model .
+where 0 is the intercept , and 1 , 2 , and 3 represent the regression coefficients of their respective terms .
+As before , the parameter `` sex * <termsem="SO:0000704"> gene </term> '' is only retained if it significantly improves the fit of the model .
+The p-value threshold for significant correlation is calculated by an F test , which compares the appropriate model ( Equation 7 or 8 ) to the null model ( Equation 9 ) .
+As before , multiple testing was addressed with use of the FDR , ranking the p-values obtained from the above F tests and setting  = 0.01 .
+<termsem="SO:0000704"> Genes </term> correlated with the gonadal fat mass trait generated several significant eQTLs .
+In order to determine if eQTLs generated by these <termsem="SO:0000704"> genes </term> were enriched in any <termsem="SO:0000001"> locus </term> or if they were distributed randomly , we compared the distribution of these eQTLs against the distribution of all liver eQTLs in <termsem="SO:0000068"> overlapping </term> 6-cM bins across the <termsem="SO:0001026"> genome </term> using the Fisher exact test .
+This test is based on exact probabilities from a specific distribution ( hypergeometric distribution ) .
+p-Values obtained from this test were corrected for multiple comparisons using a simple Bonferonni correction ( given that we performed 772 tests across the <termsem="SO:0001026"> genome </term> , 0.05 / 772 ) .
+<termsem="SO:0000001"> Loci </term> with p < 6.5  10  5 by Fisher exact test were considered significantly enriched for eQTLs correlated with gonadal fat mass .
+ROC Curves for Each of the Four Models .
+Click here for additional data file .
+Suggestive and Significant eQTLs .
+Click here for additional data file .
+<termsem="SO:0000673"> Transcripts </term> Significantly Correlated with Gonadal Fat Mass. .
+Click here for additional data file .
+The authors wish to thank Steve Horvath , Desmond Smith , Xia Yang , Sudheer Doss , Anatole Ghazalpour , Pek Lum , and John Lamb for valuable discussions and insights .
+We thank Leslie Ingram-Drake for work on data preparation .
+Initial work on construction of the BXH.ApoE  /  cross was done by Weibin Shi .
+ApoE  /  - apolipoprotein E null .
+cQTL - clinical <termsem="SO:0000771"> QTL </term> .
+eQTL - <termsem="SO:0000704"> gene </term> expression <termsem="SO:0000771"> QTL </term> .
+FDR - false discovery rate .
+LOD - logarithm of odds .
+mlratio - mean log10 ratio .
+<termsem="SO:0000771"> QTL </term> - <termsem="SO:0000771"> quantitative trait locus </term> .
+ROC - receiver operating characteristic .
+<termsem="SO:0000694"> SNP </term> - <termsem="SO:0000694"> single <termsem="SO:0001236"> nucleotide </term> polymorphism </term> .
+<termsem="SO:0001026"> Genome </term> Scan for Gonadal Fat Mass. ( A ) Animals were genotyped at an average 1.5 cM density using 1,032 <termsem="SO:0000694"> SNPs </term> <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphic </term> </term> between the parental strains .
+LOD scores computed using sex as an additive covariate ( black ) failed to detect significant linkage .
+A <termsem="SO:0001026"> genome </term> scan accounting for interactions between sex and <termsem="SO:0000771"> QTL </term> ( red ) showed evidence for suggestive linkage on <termsem="SO:0000340"> Chromosome </term> 1 and significant linkage on <termsem="SO:0000340"> Chromosomes </term> 3 , 5 , 11 , and 19 .
+Dashed and solid lines are thresholds for suggestive ( p < 1  10  3 ) and significant linkage ( p < 5  10  5 ) , respectively .
+( B ) <termsem="SO:0001026"> Genome </term> scans for gonadal fat mass using different models over mouse <termsem="SO:0000340"> Chromosome </term> 5 .
+Scans for fat mass using all animals with ( black ) and without ( green ) sex as an additive covariate failed to detect significant linkage .
+Females analyzed alone ( magenta ) showed evidence for suggestive linkage ( p < 2  10  4 ) .
+When both sexes were analyzed to account for sex effects ( red ) , a significant <termsem="SO:0000771"> QTL </term> was realized ( p < 10  6 ) .
+For clarity , only the model incorporating both the `` sex * add '' and `` sex * dom '' terms is shown in red , although additional models incorporating the terms separately were also computed .
+Effect of <termsem="SO:0001027"> Genotype </term> on Fat Mass. .
+Homozygous B6 ( BB ) , C3H ( CC ) , or heterozygous ( BC ) <termsem="SO:0001027"> genotype </term> at all five <termsem="SO:0000771"> QTL positions </term> , separated by sex , are shown .
+The underlying <termsem="SO:0001027"> genotypic </term> effects of the <termsem="SO:0000771"> QTLs </term> on fat mass differ between the sexes .
+Coefficients of determination ( R2 ) are shown along with associated ANOVAs * p < 0.05 , ** p < 0.01 , *** p < 0.001 .
+Heat Map of Liver <termsem="SO:0000704"> Gene </term> Expression .
+Over 2,300 of the most differentially expressed <termsem="SO:0000704"> genes </term> in liver hierarchically clustered by animals ( x-axis ) against <termsem="SO:0000673"> transcript </term> levels ( y-axis ) .
+Expression is reported as mlratio of individual experiment against a common pool .
+Red is over - and green underrepresented relative to pool .
+<termsem="SO:0000110"> Properties </term> of All Liver eQTLs .
+( A ) Distribution of all significant liver eQTLs across the <termsem="SO:0001026"> genome </term> in 2-cM bins .
+A total of 6,676 significant eQTLs were realized , representing 4,998 liver <termsem="SO:0000673"> transcripts </term> .
+Hotspots of nonrandom eQTL colocalization are clearly evident .
+( B ) Distribution of eQTLs with significant sex-specific effects .
+A total of 1,166 eQTLs representing 1,044 <termsem="SO:0000673"> transcripts </term> show an eQTL hotspot on <termsem="SO:0000340"> Chromosome </term> 5 .
+( C ) <termsem="SO:0000110"> Properties </term> of eQTLs at increasing significance levels .
+As the threshold for significant linkage increases ( p-value decreases , or LOD score increases ) , the proportion of cis-eQTLs ( black ) increases .
+The fraction of all eQTLs with sex effects ( red ) and cis-eQTLs with sex effects ( blue ) remains relatively constant at increasing thresholds .
+The dashed line indicates the <termsem="SO:0001026"> genome </term> - wide significance threshold ( p < 5  10  5 ; <termsem="SO:0001026"> genome </term> - wide p < 0.05 ) .
+( D ) <termsem="SO:0000110"> Properties </term> of sex-specific eQTLs at increasing significance levels .
+For eQTLs with significant sex effects , as with all eQTLs , the proportion of cis-eQTLs ( black ) increases and trans ( blue ) decreases as the threshold for significance increases .
+At the <termsem="SO:0001026"> genome </term> - wide threshold for significance ( dashed line ) , over 70 % of eQTLs with significant sex effects are trans .
+<termsem="SO:0000110"> Properties </term> of <termsem="SO:0000673"> Transcripts </term> Significantly Correlated with Gonadal Fat Mass. ( A ) Distribution of p-values for trait -- <termsem="SO:0000704"> gene </term> correlations between <termsem="SO:0000673"> transcripts </term> and gonadal fat mass .
+At FDR = 0.01 , 4,613 <termsem="SO:0000673"> transcripts </term> are significantly correlated with the trait .
+( B ) Number of eQTLs generated by the 4,613 <termsem="SO:0000704"> genes </term> significantly correlated with gonadal fat mass .
+Of these , 1,130 <termsem="SO:0000704"> genes </term> possessed at least one significant eQTL .
+( C ) Distribution of 1,478 eQTLs significantly correlated with gonadal fat mass across the <termsem="SO:0001026"> genome </term> in 2-cM bins .
+( D ) Identification of <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> regions </term> enriched for eQTLs correlated with gonadal fat mass .
+The x-axis represents <termsem="SO:0001026"> genome </term> <termsem="SO:0000001"> position </term> in 2-cM bins , and the y-axis represents the  log10 Fisher exact test p-value for enrichment of eQTLs in <termsem="SO:0000068"> overlapping </term> 6-cM bins .
+The dashed line corresponds to p = 0.05 after correction for multiple comparisons .
+One significantly enriched <termsem="SO:0000830"> region on <termsem="SO:0000340"> Chromosome </term> </term> 19 is shown .
+The <termsem="SO:0000340"> Chromosome </term> 19 ( 40-cM ) hotspot is coincident with a cQTL for gonadal fat mass and is highlighted in red .
+The Effects of Sex on Trans-eQTL Correlated with Gonadal Fat Mass. ( A ) Example of the effect of <termsem="SO:0001027"> genotype </term> at a trans <termsem="SO:0000001"> locus </term> on <termsem="SO:0000704"> gene </term> expression .
+Presence of homozygous B6 ( BB ) , C3H ( CC ) , or heterozygous ( BC ) <termsem="SO:0001027"> genotype </term> at a trans <termsem="SO:0000001"> locus </term> affects <termsem="SO:0000673"> transcript </term> MMT00016118 levels ( reported as mlratio ) in a sex-specific manner , with effects detectable only in females .
+Coefficients of determination ( R2 , or proportion variance explained ) are shown along with associated ANOVA p-values .
+Several trans-eQTLs correlated with gonadal fat mass localize to <termsem="SO:0000001"> regions </term> <termsem="SO:0000068"> overlapping </term> with cQTLs for this trait , specifically , to <termsem="SO:0000340"> Chromosome </term> 19 , 40 cM .
+( B ) For <termsem="SO:0000340"> Chromosome </term> 19 , the vast majority of these correlated trans-eQTLs are biased toward larger effects on <termsem="SO:0000704"> gene </term> expression in females ( red lines ) .
+The effect of any given trans-eQTL is approximated as R2 determined in a manner similar to that depicted in ( A ) .
+Characteristics of the BXH.ApoE  /  Cross .
+cQTLs for Gonadal Fat Mass. .
+Characteristics of Liver eQTLs .
+<termsem="SO:0000110"> Properties </term> of <termsem="SO:0000704"> Genes </term> Coincident with the Gonadal Fat Mass cQTL .
+<termsem="SO:0000673"> Transcripts </term> Coincident with cQTLs with Significant Sex Effects and Correlated with Gonadal Fat Mass Are Strong Candidate <termsem="SO:0000704"> Genes </term> for the Trait .
+Author contributions .
+SW , TAD , and AJL conceived and designed the experiments .
+SW , NY , and EES performed the experiments .
+SW , NY , HW , and TAD analyzed the data .
+EES and HW contributed reagents/materials/analysis tools .
+HW designed script and code to analyze data .
+SW , NY , EES , TAD , and AJL wrote the paper .
+Funding .
+Work was supported in part by National Institutes of Health grants HL-30568 and HL-28481 to AJL , Public Health Services Training Grant HD07228 -- 24 to SW , the Iris Cantor-UCLA Women 's Health Center , UCLA National Center for Excellence in Women 's Health Grant to TAD , and by an American Heart Association Medical Student Research Grant to NY .
+Competing interests .
+The authors have declared that no competing interests exist .
+Citation : Wang S , Yehya N , Schadt EE , Wang H , Drake TA , et al. ( 2006 ) <termsem="SO:0000704"> Genetic </term> and <termsem="SO:0001026"> genomic </term> analysis of a fat mass trait with complex inheritance reveals marked sex specificity .
+PLoS Genet 2 ( 2 ) : e15 .

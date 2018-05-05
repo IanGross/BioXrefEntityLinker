@@ -1,0 +1,409 @@
+Loss of Atrx Affects Trophoblast <termsem="GO:0032502"> Development </term> and the Pattern of <termsem="GO:0009048"> X-Inactivation </term> in Extraembryonic Tissues .
+ATRX is an X-encoded member of the SNF2 family of <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> / <termsem="GO:0004386"> <termsem="independent_continuant"> helicase </term> </term> proteins thought to <termsem="GO:0065007"> regulate </term> <termsem="GO:0010467"> gene expression </term> by modifying chromatin at target loci .
+Mutations in ATRX provided the first example of a human genetic disease associated with defects in such proteins .
+To better understand the role of ATRX in <termsem="GO:0032502"> development </term> and the associated abnormalities in the ATR-X ( alpha thalassemia mental retardation , X-linked ) syndrome , we conditionally inactivated the homolog in mice , Atrx , at the 8 - to 16-cell stage of <termsem="GO:0032502"> development </term> .
+The protein , Atrx , was ubiquitously <termsem="GO:0010467"> expressed </term> , and male embryos null for Atrx <termsem="GO:0007566"> implanted </term> and <termsem="GO:0007369"> gastrulated </term> normally but did not survive beyond 9.5 days postcoitus due to a defect in <termsem="GO:0032502"> formation </term> of the extraembryonic trophoblast , one of the first terminally <termsem="GO:0030154"> differentiated </term> lineages in the <termsem="GO:0032502"> developing </term> embryo .
+Carrier female mice that inherit a maternal null allele should be affected , since the paternal X chromosome is normally inactivated in extraembryonic tissues .
+Surprisingly , however , some carrier females <termsem="GO:0032502"> established </term> a normal placenta and appeared to escape the usual pattern of <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> in these tissues .
+Together these findings demonstrate an unexpected , specific , and essential role for Atrx in the <termsem="GO:0032502"> development </term> of the murine trophoblast and present an example of escape from <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X chromosome inactivation </term> .
+ATRX belongs to a class of proteins that may modify how DNA is <termsem="GO:0006323"> packaged </term> into chromatin , altering the accessibility of other proteins in the nucleus to DNA .
+In this way , ATRX is thought to influence <termsem="GO:0010467"> gene expression </term> .
+Mutations in the ATRX gene , which is located on the female sex chromosome ( X ) , provided the first example of a human disease ( ATR-X syndrome ) associated with defects in such proteins .
+Affected males ( XMUTY ) have multiple <termsem="GO:0032502"> developmental </term> abnormalities in a wide variety of systems .
+Currently , it is not understood how proteins like ATRX influence cell biology .
+To address this question , the authors deleted the version of the gene in mice , Atrx .
+Although affected male mice ( XMUTY ) started to <termsem="GO:0032502"> develop </term> normally , they <termsem="GO:0016265"> died </term> early in <termsem="GO:0032502"> development </term> because they failed to <termsem="GO:0032502"> form </term> a normal placenta .
+In the placenta , female mice normally inactivate the X chromosome that they inherit from their fathers ( Xp ) , so if females inherit from their mother an X chromosome ( Xm ) that bears the abnormal copy of Atrx ( XmMUTXp ) , one would predict that , like affected males , they would fail to <termsem="GO:0032502"> form </term> a normal placenta .
+The authors unexpectedly found this not to be so .
+They showed , instead , that in such females the normal , paternally derived Atrx gene is active .
+This study has therefore demonstrated an important facet of X-chromosome <termsem="GO:0006349"> imprinting </term> .
+ATR-X syndrome is a severe , nonprogressive form of X-linked mental retardation that is frequently associated with multiple congenital abnormalities [ 1 ] .
+It is usually associated with a mild form of -thalassaemia , caused by reduced expression of structurally intact -globin genes , and characterised by the presence of -globin tetramers ( haemoglobin H inclusion bodies ) in peripheral red blood cells .
+Carrier females occasionally manifest haemoglobin H inclusions , but are otherwise intellectually and physically normal .
+Studies of <termsem="GO:0009048"> X-chromosome inactivation </term> in carrier females have demonstrated preferential inactivation of the chromosome bearing the abnormal allele in a variety of tissues [ 2 ] , and this skewing of <termsem="GO:0009048"> X-inactivation </term> is thought to explain the mild phenotype observed in carriers .
+The ATR-X syndrome is caused by mutations in a gene ( ATRX ) that comprises 36 exons spanning 300 kb of genomic DNA at Chromosome Xq13 .3 [ 3 ] .
+This gene encodes two dominant protein isoforms ( Figure 1 ) .
+As well as the full-length ATRX protein of ~ 280 kDa , which is encoded by a transcript of ~ 10 kb , we recently demonstrated that a truncated isoform called ATRXt ( ~ 200 kDa ) is <termsem="GO:0009058"> produced </term> from a transcript of around 7 kb , which <termsem="GO:0009058"> arises </term> when intron 11 fails to be <termsem="GO:0008380"> spliced </term> from the primary transcript and an alternative intronic poly ( A ) signal is used [ 4 ] .
+The mouse homolog of the ATRX gene , Atrx , is also situated on the X chromosome , and also gives rise to full-length ( Atrx , ~ 280 kDa ) and truncated ( Atrxt , ~ 200 kDa ) isoforms [ 4,5 ] .
+Disease-causing missense mutations are clustered in two regions of the gene : a PHD-like zinc finger domain and a SNF2-like <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> domain ( Figure 1 ) [ 6 ] .
+The former motif is thought to be involved in protein-protein interactions in chromatin [ 7 ] , and the latter is a feature of <termsem="GO:0006338"> chromatin-remodelling </term> proteins , and the presence of disease-causing mutations indicates the functional importance of these domains .
+ATRX has been shown to <termsem="GO:0006338"> remodel </term> chromatin [ 8 ] .
+It also interacts with HP1 at heterochromatin [ 9 ] and is <termsem="GO:0051234"> recruited </term> to promyelocytic leukemia nuclear bodies via an interaction with Daxx [ 10 ] .
+Furthermore , disruption of ATRX leads to diverse changes in <termsem="GO:0006306"> DNA methylation </term> [ 11 ] .
+Nevertheless , the role ATRX plays in <termsem="GO:0010467"> gene expression </term> remains unclear .
+The consistent core of clinical and haematological features observed in ATR-X patients suggests that , like the SWI2/SNF2 <termsem="GO:0006338"> chromatin-remodelling </term> protein , ATRX probably <termsem="GO:0065007"> regulates </term> <termsem="GO:0006350"> transcription </term> of a discrete set of target genes .
+However , although there are clearly others to be found , at present the -globin genes remain the only confirmed targets for <termsem="GO:0045449"> <termsem="GO:0006350"> transcriptional </term> regulation </term> by ATRX .
+Little is currently known about the precise role of the ATRX protein during mammalian <termsem="GO:0032502"> development </term> .
+To investigate the role of this protein during mouse <termsem="GO:0032502"> development </term> , we <termsem="GO:0009058"> generated </term> a conditionally deleted allele of the Atrx gene in mouse embryonic stem ( ES ) cells , and used these cells to examine the effect of ablating <termsem="GO:0010467"> expression </term> of the full-length Atrx protein in ES cells and in mouse embryos .
+Generation of ES Cells Lacking Full-Length Atrx .
+Like the human gene , the mouse Atrx gene is also X-linked , such that a direct disruption of the single Atrx allele in male ES cells would immediately give rise to the null state .
+No targeted clones were recovered after attempted homologous <termsem="GO:0006310"> recombination </term> in male E14TG2a ES cells using two different vectors that removed exon 18 of the Atrx gene .
+Exon 18 encodes the first of the seven motifs composing the conserved SNF2-like domain of Atrx ( Figure 1 ) ; mutation of the corresponding motif of the yeast SNF2 protein has been shown to severely impair SWI/SNF-dependent <termsem="GO:0010467"> gene expression </term> [ 12 ] .
+The failure to recover targeted clones with these vectors suggested that Atrx may be important for normal ES <termsem="GO:0016049"> cell growth </term> and expansion and that direct targeting of the single locus may not be possible .
+We therefore adopted a conditional strategy for targeting exon 18 ( Figure 2 ) and recovered two clones in which exon 18 has been flanked by loxP recognition sites for the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> ( Atrxflox allele in Figure 2A ) ( Figure 2B ) .
+This allele also contains a loxP-flanked MC1-neor cassette in intron 17 ( Figure 2A ) .
+Northern and Western blot analyses ( Figure 2D and 2E ) confirmed that the Atrxflox clones continued to <termsem="GO:0010467"> express </term> both full-length Atrx protein and the truncated Atrxt isoform .
+To generate the full deletion in ES cells , the Atrxflox clones ( 1/F12 and 1/G11 ) were transiently <termsem="GO:0009294"> transfected </term> with a Cre - <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> <termsem="GO:0010467"> expression </term> plasmid ( pCAGGS-Cre-IRESpuro ) , and subclones were recovered bearing an allele ( Atrx18neo in Figure 2A ) in which both exon 18 and the neor cassette had been deleted by the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> ( resulting from the <termsem="GO:0006310"> recombination event </term> labelled `` C '' in the Atrxflox allele shown in Figure 2A ) ( Figure 2C ) .
+Northern and Western blot analyses ( Figure 2D and 2E ) revealed that the full-length Atrx transcript and protein is completely abolished in the Atrx18neo <termsem="GO:0006310"> recombinant </term> clones , suggesting that deletion of this region has a highly <termsem="GO:0050779"> destabilising </term> effect on the full-length transcript .
+As expected , the truncated Atrxt isoform , the transcript of which is <termsem="GO:0006353"> terminated </term> within intron 11 [ 4 ] , is unaffected by the deletion of exon 18 ( Figure 2E ) .
+While the function of Atrxt is not yet clear , this isoform , which contains the PHD-like domain but not the SWI/SNF motifs ( Figure 1 ) , is unlikely to be functionally equivalent to the full-length protein .
+Thus , a conditional knockout strategy allowed the isolation of ES cells that are null for full-length Atrx .
+Perturbed <termsem="GO:0040007"> Growth </term> and <termsem="GO:0032259"> Methylation </term> Defects in Atrxnull ES Cells .
+Atrxnull ES cells could be maintained in culture but were generally slower <termsem="GO:0040007"> growing </term> than Atrx + ES clones , and appeared to undergo higher rates of spontaneous <termsem="GO:0030154"> differentiation </term> .
+We investigated directly the effect of Atrx on ES <termsem="GO:0016049"> cell growth </term> by comparing Atrx + and Atrxnull ES cell clones in <termsem="GO:0035212"> competition </term> cultures .
+Equal numbers of Atrx + ( bearing either an AtrxWT or an Atrxflox allele ) and Atrxnull ( bearing an Atrx18neo allele ) ES cells were inoculated into cultures and the mixed cultures were passaged ( 1:3 split ) every 2 d for 8 -- 10 d .
+The relative abundance of the different alleles in the culture at each time point was analysed by Southern blotting ( Figure 3A ) .
+The clone containing the Atrx18neo allele was rapidly outgrown by both AtrxWT ES cells and cells bearing the Atrxflox allele .
+In a control <termsem="GO:0035212"> competition </term> experiment between different clones bearing functional Atrx alleles ( AtrxWT and Atrxflox ) , both clones continued to be equally represented after 8 d of cocultivation .
+Thus , although Atrxnull ES cells could be recovered and maintained in culture by a conditional targeting approach , these cocultivation experiments suggested that the absence of Atrx does negatively impact upon normal ES <termsem="GO:0016049"> cell growth </term> .
+To investigate a possible <termsem="GO:0007049"> cell-cycle </term> defect in the absence of Atrx , we analysed the <termsem="GO:0007049"> cell cycle </term> distribution of bromodeoxyuridine ( BrdU ) - pulsed ES cells by flow cytometry ( Figure S1A ) .
+Surprisingly , both Atrxnull ES cell clones exhibited a <termsem="GO:0007049"> cell cycle </term> profile that was indistinguishable from ES cells bearing a functional Atrx allele ( AtrxWT or Atrxflox ) .
+We also specifically quantitated the <termsem="GO:0007067"> mitotic </term> index within each population by flow cytometry after staining ES cells for <termsem="GO:0016310"> phosphorylated </term> ( Ser10 ) histone H3 , a specific marker of <termsem="GO:0007067"> mitosis </term> ( Figure S1B ) [ 13 ] .
+Consistent with the normal <termsem="GO:0007049"> cell-cycle </term> profile observed above , there was no depletion in the size of the <termsem="GO:0007067"> mitotic </term> population in the Atrxnull ES clones , despite their slow <termsem="GO:0040007"> growth </term> .
+Finally , we investigated whether the <termsem="GO:0040007"> growth </term> defect in the Atrxnull ES cells was due to an <termsem="GO:0043065"> up-regulation of <termsem="GO:0006915"> apoptosis </term> </term> by staining cells with Annexin V ( Figure S2 ) and found that the proportion of <termsem="GO:0006915"> apoptotic </term> cells was not significantly affected by the absence of full-length Atrx .
+Thus , the <termsem="GO:0040007"> growth </term> defect observed in ES cells lacking Atrx is not due to a specific <termsem="GO:0007050"> <termsem="GO:0007049"> cell cycle </term> block </term> or significant induction of <termsem="GO:0008219"> cell death </term> .
+While the cause of the <termsem="GO:0008283"> proliferative </term> delay is not yet clear , since Atrxnull ES cells appear to undergo higher rates of spontaneous <termsem="GO:0030154"> differentiation </term> ( unpublished data ) , it seems likely that the observed <termsem="GO:0040007"> growth </term> defect reflects the spontaneous transition from fast-cycling , undifferentiated ES cells into more slowly cycling , <termsem="GO:0030154"> differentiated </term> cell types in these cultures .
+It has been shown that disease-causing mutations in the human ATRX gene give rise to changes in the normal pattern of <termsem="GO:0006306"> DNA methylation </term> at several repetitive sequences within the human genome [ 11 ] .
+Notably , the <termsem="GO:0006350"> transcribed </term> region of the ribosomal DNA ( rDNA ) repeat was found to be significantly hypomethylated in ATR-X patients relative to normal individuals .
+Using <termsem="GO:0032259"> methylation </term> - sensitive <termsem="GO:0015666"> <termsem="independent_continuant"> restriction enzymes </term> </term> , we also observed significant hypomethylation at several sites tested within the mouse rDNA repeats in Atrxnull ES cells and 12-d embryoid bodies relative to ES cells and embryoid bodies bearing a functional Atrx allele ( AtrxWT or Atrxflox ) ( Figure 3B and 3C ) .
+The observation that rDNA is hypomethylated in the absence of Atrx , even in ES cells , is consistent with the finding that hypomethylation of the human rDNA repeats is detectable from an early <termsem="GO:0032502"> developmental </term> stage in ATR-X patients .
+Other mouse repetitive sequence elements surveyed in ES cell DNA include the heterochromatic major satellite ( assayed with MaeII ) and minor satellite ( assayed with HpaII ) repeats , as well as interspersed retroviral repeats of the intracisternal A particle ( IAP ) type and the Line 1 and Sine B1 families ( all assayed with HpaII ) .
+These repeats were found to be moderately ( Line 1 and Sine B1 ) or highly ( IAP , major satellite , minor satellite ) <termsem="GO:0032259"> methylated </term> in wild-type ES cells , and this <termsem="GO:0032259"> methylation </term> was not detectably perturbed by the absence of Atrx ( Figure S3 and unpublished data ) .
+Taken together , these data indicate that the subtle interplay between the ATRX protein and <termsem="GO:0006306"> DNA methylation </term> observed in human patients is also present in mouse cells .
+Early Embryonic Lethality in Atrxnull Male Mice .
+To investigate the role of the Atrx protein during mouse <termsem="GO:0032502"> development </term> , we initially <termsem="GO:0000003"> established </term> lines of mice bearing the Atrxflox allele .
+Two independently targeted Atrxflox ES cell clones with normal male karyotype were injected into C57BL/6 blastocysts to <termsem="GO:0000003"> produce </term> chimaeric mice , which were then used to obtain germline transmission .
+Intercrosses between males hemizygous ( Atrxflox/Y ) and females heterozygous ( AtrxWT/flox ) for the floxed allele were also carried out to <termsem="GO:0000003"> generate </term> homozygous females ( Atrxflox/flox ) .
+Males hemizygous and females heterozygous or homozygous for the Atrxflox allele were viable , appeared healthy , and <termsem="GO:0000003"> <termsem="GO:0007618"> bred </term> </term> normally , suggesting that , as expected , the Atrxflox allele was functionally normal .
+To <termsem="GO:0000003"> generate </term> Atrxnull mice by Cre-mediated <termsem="GO:0006310"> recombination </term> , the Atrxflox mice were crossed with mice harboring a transgene in which the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> is <termsem="GO:0010467"> expressed </term> under the <termsem="GO:0065007"> control </term> of the <termsem="GO:0065007"> regulatory </term> elements of the mouse GATA-1 gene ( GATA1-cre ) [ 14 ] .
+Widespread <termsem="GO:0010467"> expression </term> of the GATA1-cre transgene has been demonstrated during early <termsem="GO:0009790"> embryogenesis </term> [ 14 ] .
+We more accurately defined the onset of GATA1-cre <termsem="GO:0010467"> expression </term> using a ROSA26 reporter strain , in which a <termsem="GO:0004565"> <termsem="independent_continuant"> -galactosidase </term> </term> / neor fusion reporter gene is <termsem="GO:0010467"> expressed </term> only after Cre-mediated excision of loxP-flanked <termsem="GO:0006350"> transcription </term> and <termsem="GO:0006415"> <termsem="GO:0006412"> translation </term> termination </term> signals [ 14 ] .
+We found that the GATA1-cre transgene was already active at the 16-cell morula stage of <termsem="GO:0032502"> development </term> ( 0.5 days postcoitus [ dpc ] ) ( Figure 4A ) .
+To <termsem="GO:0000003"> generate </term> Atrxnull mice , heterozygous floxed females ( AtrxWT/flox ) were <termsem="GO:0007618"> mated </term> with homozygous GATA1-cre transgenic males ( AtrxWT/Y ; GATA1-cre + / + ) .
+No Atrxnull males ( Atrxnull/Y ; GATA1-cre + /  ) were recovered at <termsem="GO:0007567"> birth </term> , indicating that the absence of Atrx results in embryonic lethality .
+This finding was unexpected , since human ATR-X patients clearly survive to adulthood ( see Discussion ) .
+Embryos were dissected at 7.5 , 8.5 , and 9.5 dpc and genotyped by PCR analysis of DNA extracted from yolk sac or total embryo ( Figure 4B and Protocol S1 ) .
+Atrxnull males were present at expected mendelian ratios ( ~ 25 % ) at both 7.5 dpc and 8.5 dpc ( Table 1 ) .
+However , by 9.5 dpc , depletion was observed both in the number of Atrxnull males ( 7 % ) and in the total number of males recovered ( 31 % ) .
+No Atrxnull males were recovered after 9.5 dpc .
+Thus the absence of Atrx gives rise to embryonic lethality in mice before 9.5 dpc .
+To investigate the morphology of Atrxnull embryos prior to <termsem="GO:0016265"> death </term> , embryos from the above crosses were initially dissected in their deciduas at 7.5 dpc , and paraffin sections were stained with haematoxylin ( Figure 5A ) or with an anti-ATRX antibody ( Figure 5B -- 5E ) .
+Immunohistochemical staining revealed that Atrx was widely <termsem="GO:0010467"> expressed </term> in wild-type 7.5 dpc embryos ( Figure 5B ) .
+<termsem="GO:0010467"> Expression </term> was highest in the embryonic region ( Figure 5C ) and the chorion ( Figure 5D ) .
+Detectable but lower levels of <termsem="GO:0010467"> expression </term> were observed in the ectoplacental cone ( Figure 5D ) and surrounding decidual tissue .
+We also observed very high levels of Atrx <termsem="GO:0010467"> expression </term> in trophoblast giant cells ( TGCs ) surrounding the Reichert 's membrane ( Figure 5E ) .
+Within the large nuclei of these TGCs , the typical nuclear association of Atrx with blocks of pericentromeric heterochromatin [ 15 ] was clearly observable .
+Only background staining was seen in the corresponding Atrxnull embryonic tissues ( Figure 5B -- 5D ) , while <termsem="GO:0010467"> expression </term> in the surrounding decidual tissue ( of maternal origin ) was normal and served as an antibody staining control ( unpublished data ) .
+Morphologically , 7.5 dpc Atrxnull embryos were dramatically reduced in size and appeared <termsem="GO:0032502"> developmentally </term> retarded relative to stage-matched wild-type embryos ( Figure 5A and 5B ) .
+However , despite their reduced size , the general morphology and <termsem="GO:0048532"> organisation </term> of embryonic structures in Atrxnull conceptuses appeared grossly normal .
+The amnion and chorion were clearly present and the amniotic , exocoelomic , and ectoplacental cavities were distinguishable , as were all three embryonic germ layers ( Figure 5A -- 5C ) .
+At 8.5 dpc , embryos were dissected free of deciduas , and observed in whole mount .
+Individual conceptuses were genotyped by PCR using DNA isolated from yolk sac as described in Protocol S1 .
+Consistent with observations at 7.5 dpc , the general morphology of the embryo proper of Atrxnull conceptuses also appeared grossly normal at 8.5 dpc .
+The head fold had clearly <termsem="GO:0032502"> formed </term> , and <termsem="GO:0010467"> expression </term> of the early mesoderm marker brachyury ( T ) [ 16 ] was detected in the primitive streak and emerging notochord by whole-mount in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> ( WMISH ) ( Figure 5F ) , indicating that Atrxnull embryos had <termsem="GO:0007369"> gastrulated </term> .
+To investigate whether the reduced size of the Atrxnull embryos was due to an increase in <termsem="GO:0006915"> apoptosis </term> , we analysed sections of paraffin-embedded 7.5 dpc embryos by TdT-mediated dUTP nick end labeling ( TUNEL ) assay ( Figure 6A ) .
+Very few <termsem="GO:0006915"> apoptotic </term> cells were detected in wild-type 7.5 dpc embryos .
+In Atrxnull embryos , a slight increase in the <termsem="GO:0006915"> apoptotic </term> population was evident .
+However , consistent with our observation of a grossly normal <termsem="GO:0006915"> apoptotic </term> index in Atrxnull ES cells ( Figure S2 ) , the <termsem="GO:0006915"> apoptotic </term> <termsem="GO:0050896"> response </term> observed in Atrxnull embryos was also not uniform , but was restricted to a low number of scattered TUNEL-positive cells .
+Since this small <termsem="GO:0006915"> apoptotic </term> <termsem="GO:0050896"> response </term> is unlikely to account fully for the dramatic size deficit observed in Atrxnull embryos , a possible <termsem="GO:0008283"> proliferation </term> defect was also investigated by immunohistochemical staining of 7.5 dpc embryo sections for the <termsem="GO:0007067"> mitosis </term> marker <termsem="GO:0016310"> phosphorylated </term> ( Ser10 ) histone H3 [ 13 ] .
+Relative to the very high <termsem="GO:0007067"> mitotic </term> index observed in wild-type embryos , the proportion of <termsem="GO:0007067"> mitotic </term> cells observed in Atrxnull embryos at 7.5 dpc was dramatically reduced ( Figure 6B ) .
+Taken together , these results suggest that the size deficit observed in Atrxnull embryos prior to lethality largely reflects a <termsem="GO:0008283"> proliferative </term> defect , with a minor but indirect contribution from increased <termsem="GO:0006915"> apoptosis </term> .
+Although a <termsem="GO:0040007"> growth </term> defect was also observed in Atrxnull ES cells ( Figure 3A ) , in contrast to the Atrxnull embryos , the <termsem="GO:0007067"> mitotic </term> index of the ES cell population ( as measured with the same antibody ) was not depleted ( Figure S1B ) .
+These observations suggest that the <termsem="GO:0007067"> mitotic </term> defect observed in embryos is unlikely to be a direct , cell-autonomous effect of the absence of Atrx , and is more likely to be a secondary effect resulting from the failure to <termsem="GO:0032502"> develop </term> a normal trophoblast ( see below ) .
+Trophectoderm Failure in Atrxnull Embryos .
+Whole-mount observation of 8.5 dpc embryos revealed that , in contrast to the basically normal although delayed morphology of the embryo itself , the extraembryonic tissues of Atrxnull conceptuses appeared highly disorganised .
+When embryos were removed from deciduas , the surrounding trophectoderm layer appeared dramatically reduced in Atrxnull embryos relative to wild-type littermates , and the underlying ectoplacental cone appeared reduced and abnormally shaped ( Figure 7A ) .
+Vacated deciduas surrounding 8.5 dpc wild-type and Atrxnull embryos were bisected and analysed by WMISH for <termsem="GO:0010467"> expression </term> of placental lactogen-1 ( Pl-1 ) , a marker of terminally <termsem="GO:0030154"> differentiated </term> TGCs .
+The number of Pl-1 - <termsem="GO:0010467"> expressing </term> cells <termsem="GO:0022610"> attached </term> to the decidual wall after removal of the embryo is an indication of the density of trophoblast cells surrounding each <termsem="GO:0007566"> implantation </term> site [ 17 ] .
+We found that the population of Pl-1 - <termsem="GO:0010467"> expressing </term> cells was depleted in the decidual <termsem="GO:0007566"> implantation </term> sites containing Atrxnull embryos relative to those containing wild-type littermates ( Figure 7B ) ; this was also apparent at 7.5 dpc , as determined by immunohistochemical staining of paraffin sections of embryos in deciduas with an anti-Pl-1 antibody ( Figure 7C ) .
+A TGC deficiency in the absence of Atrx is consistent with the observation that Atrx is highly <termsem="GO:0010467"> expressed </term> in giant cells surrounding wild-type 7.5 dpc embryos ( Figure 5E ) .
+To investigate whether the trophoblast defect was restricted to the <termsem="GO:0032502"> production </term> of secondary TGCs ( <termsem="GO:0032502"> produced </term> by diploid precursors in the ectoplacental cone and derived originally from the polar trophectoderm overlying the inner cell mass of the blastocyst ) or also affected the <termsem="GO:0032502"> production </term> of primary TGCs ( resulting from <termsem="GO:0030154"> differentiation </term> of the mural trophectoderm of the blastocyst ) , blastocysts ( 3.5 dpc ) from crosses between AtrxWT/flox females and GATA1-Cre homozygous transgenic males ( AtrxWT/Y ; GATA1-Cre + / + ) were cultured in vitro for 5 d to monitor outgrowth of the primary trophoblast .
+After 5 d , individual blastocyst cultures were scored for the extent of primary trophoblast outgrowth , and the Atrx genotype and sex of the blastocyst were determined by PCR .
+Most blastocysts hatched from the zona pellucida within 24 h , and trophoblast cells spreading out from the inner cell mass could usually be detected within 48 h of culture .
+No difference was observed in the rate or extent of trophoblast outgrowth over 5 d of culture between Atrxnull blastocysts ( Atrxnull/Y , n = 6 ) and blastocysts bearing an AtrxWT allele ( AtrxWT/WT , n = 6 ; AtrxWT/null , n = 6 ; AtrxWT/Y , n = 6 ) ( examples shown in Figure 7D ) , suggesting that the defect specifically involves the secondary giant cell compartment .
+This is consistent with the observation that Atrxnull conceptuses <termsem="GO:0007566"> implant </term> successfully and survive to <termsem="GO:0007369"> gastrulation </term> .
+Taken together , these data suggest that loss of Atrx results in a defect in <termsem="GO:0032502"> formation </term> of the secondary trophoblast that is apparent from 7.5 dpc .
+Despite initiating normal <termsem="GO:0048532"> organisation </term> in the embryo proper , Atrxnull conceptuses exhibit a <termsem="GO:0008283"> proliferative </term> defect by 7.5 dpc and <termsem="GO:0016265"> die </term> by around 9.5 dpc , probably due to a nutritional deficit resulting from failure to <termsem="GO:0032502"> develop </term> a normal trophoblast .
+Escape from <termsem="GO:0006349"> Imprinted </term> Inactivation of the Paternally Inherited AtrxWT Allele in Extraembryonic Tissues of Carrier Female Mice .
+Female mice carrying an Atrxnull allele ( AtrxWT/null ; GATA1-cre + /  ) were detected at 9.5 dpc ( Table 1 ) and recovered at <termsem="GO:0007567"> birth </term> ( unpublished data ) , although at both time points the number of carrier females was lower than that of wild-type ( AtrxWT/WT ; GATA1-cre + /  ) females , suggesting that a proportion of carrier female embryos <termsem="GO:0016265"> died </term> in utero .
+Surviving adult carrier female mice were not phenotypically normal and exhibited mild <termsem="GO:0007610"> behavioural </term> abnormalities , although some could <termsem="GO:0000003"> reproduce </term> .
+For all AtrxWT/null carrier female embryos presented in Table 1 , the AtrxWT allele was paternally derived , while the Atrxnull allele was maternally derived .
+In the mouse , <termsem="GO:0009048"> X chromosome inactivation </term> is subject to parental <termsem="GO:0006349"> imprinting </term> in the trophectoderm and primitive endoderm lineages that give rise to the extraembryonic tissues , resulting in inactivation of the paternal X chromosome ( Xp ) [ 18 ] .
+In contrast , in tissues of the embryo proper ( derived from the inner cell mass of the blastocyst ) <termsem="GO:0009048"> X-inactivation </term> is random [ 19 ] .
+Thus , in the extraembryonic compartment of AtrxWT/null carrier females , normal <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> would be expected to result in <termsem="GO:0016458"> silencing </term> of the paternally derived AtrxWT allele , leaving only the Atrxnull allele on the active maternal X ( Xm ) and thereby render the extraembryonic tissues null for full-length Atrx protein .
+However , the absence of Atrx in the extraembryonic compartment is <termsem="GO:0016265"> lethal </term> in Atrxnull/Y males .
+This suggested the possibility of an escape from <termsem="GO:0006349"> imprinted </term> inactivation of the paternally derived AtrxWT allele in the extraembryonic compartment of a proportion of carrier female embryos .
+To investigate further , we crossed homozygous Atrxflox/flox females and homozygous GATA1-cre transgenic males ( AtrxWT/Y ; GATA1-cre + / + ) , which would be expected to <termsem="GO:0000003"> yield </term> only Atrxnull males ( Atrxnull/Y ; GATA1-cre + /  ) and carrier females ( AtrxWT/null ; GATA1-cre + /  ) .
+In these carrier females , the AtrxWT allele is paternally inherited .
+Embryos were dissected in their deciduas at 7.5 dpc , and paraffin sections were stained with anti-ATRX antibody , along with sections from a wild-type 7.5 dpc embryo for comparison ( Figure 8 ) .
+As described above , Atrx <termsem="GO:0010467"> expression </term> was detected in every cell in the epiblast ( embryo proper ) region of wild-type 7.5 dpc embryos ( Figure 8B ) .
+In contrast , the epiblast region of carrier female embryos was composed of a mosaic of small clusters of Atrx-positive cells ( in which the Atrxnull allele on Xm had been inactivated ) and Atrx-negative cells ( in which the AtrxWT allele on Xp had been inactivated ) , indicating that the Atrx gene was subject to normal random <termsem="GO:0009048"> X-inactivation </term> in the epiblast .
+Remarkably , clear Atrx <termsem="GO:0010467"> expression </term> could also be detected in the extraembryonic tissues of carrier females , as shown in the extraembryonic-derived chorionic ectoderm ( Figure 8C ) .
+Atrx <termsem="GO:0010467"> expression </term> could be detected in almost all cells of the chorionic ectoderm .
+Atrx <termsem="GO:0010467"> expression </term> was also clearly detected in other extraembryonic structures , including TGCs ( unpublished data ) .
+Escape from <termsem="GO:0016458"> silencing </term> of an Xp-inherited AtrxWT allele was also observed in the chorionic ectoderm of carrier females at 8.5 dpc ( Figure S4 ) .
+Thus , although random <termsem="GO:0009048"> X-inactivation </term> occurs normally within the epiblast , the AtrxWT allele ( inherited on the Xp chromosome ) escaped the normal <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> in the extraembryonic compartment of some carrier females .
+We investigated the role of the Atrx protein in mouse <termsem="GO:0032502"> development </term> .
+By using a conditional knockout approach , we ablated the full-length Atrx protein first in ES cells and embryoid bodies , and then in <termsem="GO:0032502"> developing </term> mouse embryos .
+Atrx in ES Cells .
+Atrxnull ES cells could not be recovered by direct targeting and were eventually <termsem="GO:0032502"> generated </term> by adopting a conditional targeting approach .
+This is consistent with our observation that Atrx is highly <termsem="GO:0010467"> expressed </term> in ES cells , and that the absence of full-length Atrx imparts a <termsem="GO:0040007"> growth </term> disadvantage relative to cells bearing a functional Atrx allele .
+At present , the cause of the <termsem="GO:0008283"> proliferative </term> delay in Atrxnull ES cells is not known .
+Interestingly , we demonstrated that <termsem="GO:0006915"> apoptosis </term> is not significantly <termsem="GO:0048518"> up-regulated </term> in ES cells lacking Atrx and is only mildly elevated in Atrxnull 7.5 dpc mouse embryos .
+In contrast , it was recently shown that the loss of Atrx markedly increased the <termsem="GO:0006915"> apoptotic </term> population in the <termsem="GO:0030154"> differentiating </term> cells of the embryonic cortex and postnatal hippocampus , when Atrx <termsem="GO:0010467"> expression </term> was ablated in the <termsem="GO:0032502"> developing </term> mouse forebrain using the Atrxflox allele described here [ 20 ] .
+The human ATRX protein has been shown to associate in a complex with Daxx [ 8 ] , a protein that has been implicated in multiple pathways for the <termsem="GO:0042981"> regulation of <termsem="GO:0006915"> apoptosis </term> </term> [ 21 ] .
+It is possible that disruption of the mouse Atrx-Daxx complex ( by ablation of the Atrx protein ) could have triggered a universal <termsem="GO:0043065"> proapoptotic </term> <termsem="GO:0050896"> response </term> .
+However , our observations in ES cells demonstrate that the <termsem="GO:0006917"> induction of <termsem="GO:0006915"> apoptosis </term> </term> is not an automatic <termsem="GO:0050896"> response </term> triggered by the removal of Atrx in all cell types , and suggest that the inappropriate <termsem="GO:0006915"> apoptosis </term> observed in the Atrx-mutant forebrain may reflect a requirement for Atrx during terminal <termsem="GO:0030154"> differentiation </term> .
+An Unexpected Role for Atrx in <termsem="GO:0032502"> Development </term> of the Mouse Trophoblast .
+We show that Atrxnull male mice are not viable and embryos <termsem="GO:0016265"> die </term> by around 9.5 dpc .
+Before <termsem="GO:0016265"> death </term> , Atrxnull embryos exhibit a markedly reduced <termsem="GO:0007067"> mitotic </term> index , suggesting a <termsem="GO:0008283"> proliferative </term> defect .
+Although the embryonic compartment of the conceptus appears initially normal , by 7.5 dpc Atrxnull embryos display abnormalities in <termsem="GO:0032502"> development </term> of the trophoblast , including a depletion in the population of TGCs surrounding the conceptus and a reduction in the size of the ectoplacental cone , which contains the diploid giant cell precursors [ 22 ] .
+TGCs are highly <termsem="GO:0030154"> differentiated </term> , postmitotic cells that ultimately <termsem="GO:0032502"> form </term> an epithelial layer at the periphery of the placenta , which interfaces with the maternal cells of the decidua [ 23 ] .
+These highly invasive cells are important for mediating initial invasion of the uterine tissue , but are also involved in <termsem="GO:0048771"> remodelling </term> the maternal decidua after <termsem="GO:0007566"> implantation </term> and in <termsem="GO:0046903"> secreting </term> <termsem="GO:0005179"> <termsem="independent_continuant"> hormones </term> </term> that <termsem="GO:0065007"> regulate </term> fetal and maternal <termsem="GO:0040007"> growth </term> [ 24 ] .
+Since Atrxnull embryos appear to <termsem="GO:0007566"> implant </term> normally , lethality is likely to arise due to a failure of TGC function later during <termsem="GO:0032502"> development </term> .
+Embryonic lethality in mice in the absence of Atrx was a surprising finding , as there had been no suggestion of foetal loss in the human ATR-X syndrome .
+It is possible that the role of Atrx in the trophoblast is specific to mice and that ATRX has no role or is redundant in the human trophoblast .
+Indeed , the <termsem="GO:0007567"> birth </term> weight of babies with ATR-X syndrome is usually normal .
+An alternative explanation for the unexpectedly severe phenotype we observed in mice is that the Atrx18neo deletion generated by Cre <termsem="GO:0006310"> recombination </term> completely ablates full-length Atrx protein ( Figure 2E ) .
+In contrast , all disease-causing mutations characterised in human ATR-X pedigrees appear to give rise to hypomorphic alleles .
+Some full-length ATRX protein is detected in cases predicted to have truncating mutations ( RJG , unpublished data ) , and residual <termsem="GO:0016887"> <termsem="independent_continuant"> ATPase </term> </term> activity in ATRX immunoprecipitates can be detected in Epstein-Barr virus - <termsem="GO:0009294"> transformed </term> lymphocytes of all human patients analysed to date ( A. Argentaro and M. Mitson , unpublished data ) .
+The failure to observe a truly null ATRX allele among human patients strongly suggests that , as in the mouse , the complete absence of ATRX protein is incompatible with human fetal survival .
+While this study has revealed an unexpected role for Atrx in the murine trophectoderm , as a result of the early lethality observed in Atrxnull embryos it is not possible to rule out other roles for Atrx at later <termsem="GO:0032502"> developmental </term> stages in tissues of the embryo proper .
+Indeed , we show that Atrx is highly <termsem="GO:0010467"> expressed </term> throughout the entire <termsem="GO:0032502"> developing </term> embryo at 7.5 dpc ( Figure 5B ) , and it is likely that Atrx function will turn out to be important for other <termsem="GO:0030154"> differentiating </term> tissues .
+Tetraploid aggregation experiments ( in which mutant embryos are rescued with wild-type extraembryonic tissues ) might shed more light on the role of Atrx during later mouse <termsem="GO:0032502"> development </term> , but these issues can be more subtly dissected by combining the conditional Atrxflox allele that we have <termsem="GO:0009058"> generated </term> with different tissue-specific Cre transgenes .
+As mentioned above , this approach has already revealed a critical role for Atrx during neuronal <termsem="GO:0030154"> differentiation </term> in adult mice [ 20 ] .
+Further evidence that Atrx is also required at later stages of mouse <termsem="GO:0032502"> development </term> is provided by the observed dramatic skewing against Atrx-negative cells in some somatic tissues of carrier female mice , whose tissues initially comprise a mosaic of Atrx-positive and Atrx-negative cells as a result of random <termsem="GO:0009048"> X-inactivation </term> ( M. Muers , personal communication ) .
+Atrx joins an expanding list of mouse genes for which targeted disruption results in peri - <termsem="GO:0007566"> implantation </term> lethality as a result of trophoblast or placental abnormalities ( reviewed in [ 25 ] ) .
+Comparison with other phenotypes might provide some insight into the role of Atrx in trophoblast <termsem="GO:0032502"> development </term> .
+Atrx-mutant embryos progress further than embryos nullizygous for factors involved in the initial specification of trophoblast stem cells ( such as Cdx2 ) or in <termsem="GO:0019827"> stem cell maintenance </term> and proliferation ( such as Eomes ) .
+Cdx2-mutant embryos fail to <termsem="GO:0007566"> implant </term> and <termsem="GO:0016265"> die </term> between 3.5 and 5.5 dpc [ 26 ] , while Eomes-mutant blastocysts <termsem="GO:0007566"> implant </term> into the uterus , but arrest soon after <termsem="GO:0007566"> implantation </term> without <termsem="GO:0032502"> forming </term> <termsem="GO:0048532"> organised </term> embryonic or extraembryonic structures [ 27 ] .
+In contrast , Atrx-mutant embryos <termsem="GO:0007566"> implant </term> successfully and <termsem="GO:0032502"> establish </term> <termsem="GO:0048532"> organised </term> embryonic structures by 7.5 dpc .
+The Atrx-mutant phenotype closely resembles that observed in mice nullizygous for the basic helix-loop-helix <termsem="GO:0003700"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcription </term> factor </term> </term> Hand1 .
+Hand1-mutant conceptuses arrest at around 7.5 dpc and display a normal embryonic compartment , but , like Atrx-mutant embryos , ablation of Hand1 causes a reduction in the size of the ectoplacental cone and density of TGCs [ 28 ] .
+As with Atrx mutants , only arrested or resorbed Hand1-mutant conceptuses were recovered after 8.5 dpc .
+Also like Atrx , disruption of Hand1 specifically affects secondary giant <termsem="GO:0048468"> cell formation </term> , and primary trophoblast outgrowths from blastocysts appeared normal .
+Hand1 is required for terminal <termsem="GO:0030154"> differentiation </term> of secondary TGCs , and in its absence trophoblast cells <termsem="GO:0007050"> arrest </term> at a precursor stage in the ectoplacental cone [ 17,28 ] .
+Given the similarity of the Atrx - and Hand1-mutant phenotypes and the likelihood that Atrx acts as a <termsem="GO:0030528"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> regulator </term> </term> by modifying chromatin structure , it will be of interest to determine whether Atrx is itself a regulator of Hand1 <termsem="GO:0010467"> expression </term> , or alternatively whether it acts as a co-regulator of one or more of the downstream <termsem="GO:0006350"> transcriptional </term> targets of Hand1 .
+It is noteworthy that , in the brain-specific Atrx knockout mice , the defect was observed in terminally <termsem="GO:0030154"> differentiating </term> neurons [ 20 ] .
+The secondary TGCs affected in the universal Atrx knockout reported here represent one of the first terminally <termsem="GO:0030154"> differentiated </term> tissues in the <termsem="GO:0032502"> developing </term> mouse , and this may point to the requirement for Atrx in the high-level expression of some tissue-specific genes during the final stages of <termsem="GO:0030154"> differentiation </term> .
+Interestingly , the -globin genes , the only confirmed <termsem="GO:0006350"> transcriptional </term> targets of <termsem="GO:0065007"> regulation </term> by human ATRX , are also highly <termsem="GO:0010467"> expressed </term> specifically during terminal <termsem="GO:0030154"> differentiation </term> within the erythroid lineage .
+Atrx Escapes <termsem="GO:0006349"> Imprinted </term> <termsem="GO:0009048"> X-Inactivation </term> in Extraembryonic Tissues of Carrier Female Mice .
+Another surprising finding of this study is that , in carrier female embryos , a paternally inherited AtrxWT allele appears to escape the process of <termsem="GO:0006349"> imprinted </term> X-inactivation , which ordinarily <termsem="GO:0016458"> silences </term> the Xp chromosome in the extraembryonic compartment of female murine tissues [ 18 ] .
+<termsem="GO:0016458"> Silencing </term> of the AtrxWT allele on Xp should render these females null for Atrx in the extraembryonic tissues , since the normally active Xm chromosome carries the Atrx18neo allele .
+Although not phenotypically normal , some Atrx carrier females <termsem="GO:0032502"> developed </term> to term and went on to <termsem="GO:0000003"> reproduce </term> .
+Thus , the failure to correctly <termsem="GO:0016458"> silence </term> the paternally derived AtrxWT allele in the extraembryonic tissues of carrier females is consistent with our observations that in Atrxnull males , the Atrx protein plays an essential role in the <termsem="GO:0032502"> development </term> of the trophoblast and is necessary for survival in utero in the mouse .
+The survival of Atrx carrier females contrasts with the phenotypes seen in carriers of mutations of other murine X-linked genes known to be essential in the extraembryonic compartment .
+For example , targeted disruption of the dyskerin ( Dkc1 ) , <termsem="GO:0004345"> <termsem="independent_continuant"> glucose 6-phosphate dehydrogenase </term> </term> ( <termsem="GO:0004345"> <termsem="independent_continuant"> G6PD </term> </term> ) , and choroideremia ( Chm ) genes cause embryonic lethality in null male embryos through defects of the extraembryonic-derived tissues [ 29 -- 31 ] .
+Female mice carrying mutations of these genes on the maternally inherited X chromosome also <termsem="GO:0016265"> die </term> in utero , whereas females that inherit the mutation on the Xp chromosome survive .
+Thus , unlike Atrx , these genes and/or their effects on <termsem="GO:0016049"> cell growth </term> are unable to circumvent the processes that ultimately cause all cells in the extraembryonic tissues to <termsem="GO:0010467"> express </term> only the maternally derived X chromosome .
+How might <termsem="GO:0010467"> expression </term> of the paternal AtrxWT allele be maintained in the extraembryonic tissues of the Atrx carrier females ?
+One possibility is that , like some other X-linked genes , silencing of the Atrx gene on Xp is incomplete , such that there is always a low-level , leaky output of Atrx from a normally inactivated Xp chromosome in extraembryonic tissues .
+However , it was recently demonstrated that the paternal Atrx ( called Xnp ) allele is completely <termsem="GO:0016458"> silenced </term> in a normal mouse trophoblast stem cell line [ 32 ] , suggesting that Atrx does not normally escape <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> in the extraembryonic tissues of wild-type females .
+Thus , the <termsem="GO:0010467"> expression </term> of the Xp-linked AtrxWT allele that we observed is unique to female carriers of the Atrxnull allele .
+Perhaps a more likely explanation for this phenomenon stems from experimental observations suggesting that <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> is not imposed on all precursors of the mouse extraembryonic tissues : A subpopulation of cells may escape this process and make a random `` choice '' of which X chromosome will be inactivated .
+On average , 50 % of the cells in this randomly inactivating subpopulation would be expected to maintain an active Xp chromosome .
+In support of this hypothesis , it has been demonstrated that <termsem="GO:0010467"> expression </term> of paternally transmitted X-linked lacZ [ 33,34 ] and GFP [ 35 ] transgenes failed to be <termsem="GO:0016458"> silenced </term> in a small subpopulation of extraembryonic cells .
+Further , it has been shown that in a subpopulation of extraembryonic cells , it is the Xm rather than the Xp that undergoes late <termsem="GO:0006260"> replication </term> , a molecular correlate of the inactive state [ 18,36 ] .
+Although initially small and quickly diluted in normal embryos , the cellular subpopulation that inactivates the Xm chromosome could rapidly <termsem="GO:0008283"> expand </term> to replace the normally <termsem="GO:0006349"> imprinted </term> cells in extraembryonic lineages if the normal <termsem="GO:0016458"> silencing </term> of Xp compromises <termsem="GO:0016049"> cell growth </term> or differentiation .
+Interestingly , it has been suggested that the size of the population that initially escapes <termsem="GO:0006349"> imprinting </term> may range widely ( from 0 % to 30 % ) , even between genetically identical embryos [ 37 ] , and this may account for the variable phenotype observed among females bearing Xm-linked mutant alleles of genes essential for normal extraembryonic <termsem="GO:0032502"> development </term> [ 38 ] .
+Put simply , carrier females bearing a small initial population of escaping cells would be more severely affected than those bearing a larger population .
+This could explain why we have observed significant phenotypic variation among Atrx carrier females , with some carriers <termsem="GO:0016265"> dying </term> in utero by 9.5 dpc ( Table 1 ) and others <termsem="GO:0032502"> developing </term> to term .
+Another possible mechanism is that inactivation of the paternal X proceeds normally in all cells , but subsequently the Atrx gene within individual cells is reactivated .
+Alternatively , in the absence of Atrx , the paternal allele may partially escape the normal <termsem="GO:0016458"> process of silencing </term> .
+In both of these cases , other genes on the paternal X chromosome must be inactivated and remain so , since blocking inactivation of the entire Xp chromosome causes embryonic lethality due to biallelic expression of X-linked genes in the trophoblast [ 39 ] .
+ATR-X syndrome is the first human genetic disease known to be caused by mutations in a <termsem="GO:0006338"> chromatin remodelling </term> factor .
+At present we do not know how ATRX influences <termsem="GO:0010467"> gene expression </term> or what effect it has on <termsem="GO:0051716"> cell behaviour </term> .
+Nevertheless , we have previously noted that none of the natural mutations causing ATR-X syndrome are nulls , which suggests that it plays a critical role in normal <termsem="GO:0032502"> development </term> .
+Results of conditional inactivation of Atrx in the <termsem="GO:0032502"> developing </term> mouse forebrain , based on the Atrxflox allele described here , shows that Atrx exerts a major effect on terminally <termsem="GO:0030154"> differentiating </term> neurons .
+Conditional inactivation of Atrx in other tissues is underway .
+Here we have shown that animal-wide disruption of the Atrx gene causes a severe embryonic - <termsem="GO:0016265"> lethal </term> phenotype , revealing an essential role for Atrx in the <termsem="GO:0032502"> formation </term> of the murine trophoblast .
+In addition , Atrx appears to escape <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-chromosome inactivation </term> in the extraembryonic tissues of some carrier female mice .
+Generation of ES cells bearing the Atrxflox allele .
+Briefly , the targeting vector ( shown in Figure 2A ) places a loxP site within intron 18 and a loxP-flanked MC1neopA selection cassette in intron 17 of the Atrx gene .
+A detailed description of the targeting construct is provided in [ 20 ] .
+Linearised plasmid ( 150 g ) was electroporated into 1  108 E14Tg2a ES cells , and colonies resistant to G418 and ganciclovir were isolated .
+Homologous targeting events were identified by Southern blot of EcoRI - <termsem="GO:0009056"> digested </term> DNA and <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> with a 5  probe ( <termsem="GO:0009058"> generated </term> with primers PPS1 .20 and PPS1 .27 ) and a 3  probe ( a 0.9-kb HaeIII fragment ) as shown in Figure 2A and 2B .
+DNA from correctly targeted clones was also <termsem="GO:0009056"> digested </term> with SacI and analysed by Southern blot and <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> with a probe from within intron 17 ( a PCR product <termsem="GO:0009058"> generated </term> with primers PPS1 .15 and Xnp46 ) to confirm that the loxP site within intron 18 had been included within the <termsem="GO:0007131"> crossed-over </term> region ( Figure 2A and 2C ) .
+Sequences of primers are shown in Table S1 .
+Cre - <termsem="GO:0006310"> recombination </term> and characterisation of Atrxnull ES cells and embryoid bodies .
+ES cell clones bearing the Atrxflox allele ( 1  107 cells ) were transiently <termsem="GO:0009294"> transfected </term> with 50 g of uncut Cre <termsem="GO:0010467"> expression </term> plasmid ( pCAGGS-Cre-IRESpuro ) [ 40 ] .
+Following <termsem="GO:0009294"> transfection </term> , cells were plated at a range of clonal densities in complete medium without G418 , and isolated subclones were picked after 7 d. Subclones were <termsem="GO:0008283"> expanded </term> and analysed for the presence of a <termsem="GO:0006310"> recombinant </term> locus initially by PCR , to detect deletion of the MC1neopA cassette , and then by Southern blot and <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> with the intron 17 probe described above ( Figure 2A and 2C ) .
+Northern blots were carried out according to standard techniques using 20 g of total RNA isolated using TRI Reagent ( Sigma-Aldrich , St. Louis , Missouri , United States ) .
+The blot was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with a probe from within exon 10 of the Atrx gene ( <termsem="GO:0009058"> generated </term> with primers Mxnp4 and Mxnp28 [ Table S1 ] ) .
+After it was stripped , the membrane was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with a -actin cDNA probe ( Clontech , Palo Alto , California , United States ) .
+Protein extraction and detection of Atrx by Western blotting was performed as described previously [ 4 ] , using the mouse monoclonal anti-ATRX antibody 23C [ 15 ] .
+Analyses of <termsem="GO:0007049"> cell cycle </term> and <termsem="GO:0006915"> apoptosis </term> are described in Protocol S1 .
+<termsem="GO:0032259"> Methylation </term> of rDNA was analysed in DNA from ES cell clones or from embryoid bodies recovered after 7 d of in vitro <termsem="GO:0030154"> differentiation </term> as described previously [ 41 ] .
+Genomic DNA was <termsem="GO:0009056"> digested </term> with <termsem="GO:0032259"> methylation </term> - sensitive <termsem="GO:0015666"> <termsem="independent_continuant"> restriction enzymes </term> </term> as described and analysed by Southern blotting .
+The RIB3 and RIB4 probes ( which were amplified from human DNA , but cross-react with the mouse rDNA repeat ) have been described previously [ 11 ] .
+Oligonucleotide probes to detect Line 1 and Sine B1 repeats have been described previously [ 42 ] .
+The minor satellite probe was a 27-mer oligonucleotide ( mCENT2 ) .
+The major satellite probe was a 27-mer oligonucleotide ( DG27 ) .
+The IAP probe was an ~ 400 bp PCR product ( primers 14A and 13K ) amplified from an IAP inserted into the mouse agouti gene [ 43 ] and was a gift from Peter Warnecke and Tim Bestor .
+The PCR product included the entire 5  LTR of the IAP .
+All oligonucleotide sequences are shown in Table S1 .
+<termsem="GO:0000003"> Generation </term> of chimeras , floxed mice , and mutant mice .
+Targeted Atrxflox ES cell clones were injected into C57BL/6 blastocysts and transferred into 2.5 dpc pseudopregnant recipients by standard techniques .
+Resulting chimeras were <termsem="GO:0007618"> mated </term> with C57BL/6 to establish germline transmission .
+Offspring with the Atrxflox allele were identified by Southern blotting of SacI - <termsem="GO:0009056"> digested </term> tail DNA using the intron 17 probe as shown in Figure 2A and 2C .
+For Cre - <termsem="GO:0006310"> recombination </term> , Atrxflox mice were crossed with GATA1-Cre transgenic mice as described in the text .
+<termsem="GO:0006310"> Recombinant </term> alleles were detected by Southern blotting as described above or by PCR as described in Protocol S1 .
+Immunohistochemistry , in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> , and TUNEL assay .
+7.5 dpc decidual swellings were dissected away from maternal tissue and fixed in 4 % paraformaldehyde/PBS overnight at 4 C .
+After embryos were washed thoroughly in PBS , they were dehydrated through an ethanol series and xylene , embedded in paraffin , and sectioned at 5 m .
+Sections were processed for immunohistochemistry using the ABC Staining System ( Santa Cruz Biotechnology , Santa Cruz , California , United States ) according to the manufacturer 's instructions .
+Sections were stained with rabbit polyclonal antibodies against ATRX ( H-300 , Santa Cruz Biotechnology ) , Placental lactogen-I ( AB1288 , Chemicon International , Temecula , California , United States ) and phospho ( Ser10 ) - histone H3 ( 06 -- 570 , Upstate Biotechnology , Waltham , Massachusetts , United States ) .
+Where appropriate , adjacent sections were stained with haematoxylin .
+In some cases , adjacent sections were also analysed to detect <termsem="GO:0006915"> apoptotic </term> cells by TUNEL using the in situ <termsem="GO:0008219"> cell death </term> detection kit ( Roche , Basel , Switzerland ) .
+After labelling , these slides were mounted in Vectashield containing DAPI ( Vector Laboratories , Burlingame , California , United States ) and visualised by fluorescence microscopy .
+Whole-mount in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisations </term> </term> were performed on 8.5 dpc embryos ( dissected away from maternal and extraembryonic tissues ) using a brachyury ( T ) riboprobe [ 16 ] and on bisected decidual <termsem="GO:0007566"> implantation </term> sites from which embryos ( 8.5 dpc ) had been removed using a placental lactogen-1 ( Pl-1 ) riboprobe ( see Protocol S1 for details ) .
+Blastocyst outgrowth cultures .
+Superovulated heterozygous female mice ( AtrxWT/flox ) were <termsem="GO:0007618"> mated </term> to homozygous GATA1-cre + / + transgenic males , and blastocysts were flushed from uterine horns with M2 medium ( Sigma ) at 3.5 dpc .
+Individual blastocysts were cultured in multiwell tissue cultures plates as described previously [ 44 ] .
+Cultures were inspected and photographed daily and the extent of outgrowth scored .
+After 7 d , cultures were harvested and DNA extracted .
+The Atrx genotype and sex of each culture was determined by PCR as described in Protocol S1 .
+<termsem="GO:0007049"> Cell Cycle </term> Analysis of Atrx-Positive and Atrxnull ES Cells .
+( A ) Representative FACS profiles of BrdU-pulsed ES cells bearing either functional ( AtrxWT or Atrxflox ) or null ( Atrx18neo ) Atrx alleles showing BrdU-FITC ( y-axis , logarithmic scale ) against propidium iodide ( x-axis , linear scale ) .
+The gated populations show cells in G1 ( PIlow , BrdU-negative ) ( R1 ) , S ( BrdU-positive ) ( R2 ) , and <termsem="GO:0051319"> G2 </term> / <termsem="GO:0000279"> M </term> ( PIhi , BrdU-negative ) ( R3 ) phases of the <termsem="GO:0007049"> cell cycle </term> .
+Below is shown the quantitation of gated populations , indicating the percentage of cells in G1 , S , and <termsem="GO:0000086"> <termsem="GO:0051319"> G2 </term> / <termsem="GO:0000279"> M </term> <termsem="GO:0007049"> cell-cycle </term> phases </term> in each culture .
+( B ) FACS profiles of ES cells bearing either functional ( AtrxWT or Atrxflox ) or null ( Atrx18neo ) Atrx alleles stained for the <termsem="GO:0007067"> mitosis </term> marker <termsem="GO:0016310"> phosphorylated </term> ( Ser10 ) histone H3 ( FITC , y-axis , logarithmic scale ) against propidium iodide ( x-axis , linear scale ) .
+The size of the <termsem="GO:0007067"> mitotic </term> population ( phosphoH3S10-positive , PIhi ) ( gate R3 ) is indicated for each profile .
+The ES cell clone analysed in each trace is indicated .
+Click here for additional data file .
+Analysis of Apoptosis in Atrx-Positive and Atrxnull ES Cells .
+FACS analysis of ES cells bearing different Atrx alleles as shown , after costaining for Annexin V ( FITC , x-axis , logarithmic scale ) and propidium iodide ( y-axis , logarithmic scale ) .
+The size of the early <termsem="GO:0006915"> apoptotic </term> ( Annexin-positive , PIlow ) and late <termsem="GO:0006915"> apoptotic </term> or necrotic ( Annexin-positive , PIhi ) populations is indicated for each genotype .
+Click here for additional data file .
+Normal <termsem="GO:0006306"> DNA Methylation </term> at Mouse Repetitive Elements in Atrxnull ES Cells .
+DNA from Atrx-positive ( bearing either an AtrxWT or Atrxflox allele ) or Atrxnull ( bearing the Atrx18neo allele ) ES cells was <termsem="GO:0009056"> digested </term> with either a <termsem="GO:0010424"> CpG-methylation </term> - sensitive enzyme HpaII ( H ) or its <termsem="GO:0032259"> methylation </term> - insensitive isoschizomer MspI ( M ) as indicated , and <termsem="GO:0009056"> digested </term> DNA was analysed by Southern blotting .
+Membranes were <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with probes specific for the mouse Line 1 ( A ) , Sine B1 ( B ) , minor satellite ( C ) , and IAP ( D ) repeat elements .
+No significant loss of <termsem="GO:0010424"> CpG-methylation </term> was observed at any of these repetitive elements in Atrxnull ES cells .
+As a positive control for loss of <termsem="GO:0032259"> methylation </term> , DNA from ES cells lacking either the Dnmt1 ( Dnmt1  /  ) or both the Dnmt3a and Dnmt3b ( Dnmt3a3b  /  ) <termsem="GO:0009008"> <termsem="independent_continuant"> DNA methyltransferases </term> </term> was included in the analysis of Line 1 and Sine B1 repeats .
+Loss of <termsem="GO:0010424"> CpG-methylation </term> was clearly observed at these repetitive elements in these cell lines .
+Click here for additional data file .
+Escape from <termsem="GO:0006349"> Imprinted </term> Inactivation in 8.5 dpc Carrier Female Embryo .
+A cross was carried out between a carrier female ( AtrxWT/null ) and wild-type male ( AtrxWT/Y ) , and embryos were dissected in their deciduas at 8.5 dpc .
+Any carrier female progeny of this cross will carry an AtrxWT allele on the Xp chromosome and an Atrxnull allele on the Xm chromosome .
+Transverse paraffin sections were stained with the anti-ATRX antibody ( H-300 ) .
+( A ) High-magnification image ( 400  ) of the neural fold region ( nf ) ( embryo proper ) of a carrier female ( AtrxWT/null ) embryo .
+This tissue is clearly comprised of a mosaic of Atrx-positive and Atrx-negative cells due to random <termsem="GO:0009048"> X-inactivation </term> .
+This section was counterstained with haematoxylin .
+( B ) High-magnification image ( 400  ) of the same embryo depicted in ( A ) , showing the extraembryonic derived-chorionic ectoderm ( ce ) and visceral endoderm ( ve ) , two tissues that undergo <termsem="GO:0006349"> imprinted </term> <termsem="GO:0009048"> X-inactivation </term> .
+Although Atrx is poorly <termsem="GO:0010467"> expressed </term> in the visceral endoderm ( even in wild-type females [ unpublished data ] ) , strong <termsem="GO:0010467"> expression </term> of Atrx can be seen in the chorionic ectoderm , indicating that the paternally-derived AtrxWT allele had escaped inactivation in this tissue .
+Click here for additional data file .
+Click here for additional data file .
+Primers Used in This Study .
+Click here for additional data file .
+The Online Mendelian Inheritance in Man ( http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=OMIM ) accession number for ATR-X syndrome is 301040 .
+The GeneID ( www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene ) for human ATRX is 546 and for mouse Atrx is 22589 .
+The GenBank ( http://www.ncbi.nlm.nih.gov/ ) accession number for the minor satellite probe mCENT2 is X14470 ( nucleotides 75 -- 101 ) , for the major satellite probe DG27 is M25032 ( nucleotides 146 -- 172 ) , and for the IAP probe is L33247 .
+We would like to thank Stu Orkin for providing access to the GATA1-Cre transgenic mice , Gillian Morriss-Kay for advice , Peter Warnecke and Tim Bestor for the IAP probe , En Li for the Dnmt knockout ES cells , Frank Talamantes for the pRSV-mPL-1 plasmid , Ann Atzberger for assistance with flow cytometry , and Deb Bogani and Terry Hacker for assistance with whole-mount in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> analyses and embryo sectioning .
+dpc - days postcoitus .
+ES cells - embryonic stem cells .
+IAP - intracisternal A particle .
+rDNA - ribosomal DNA .
+TGC - trophoblast giant cell .
+TUNEL - TdT-mediated dUTP nick end labeling .
+WMISH - whole-mount in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridisation </term> </term> .
+Schematic Representation of the ATRX Isoforms .
+Shown at the top is the human ATRX cDNA .
+The boxes represent the 36 exons .
+The introns are not to scale .
+The <termsem="GO:0000380"> alternative splicing </term> of exons 6 and 7 is indicated .
+Shown underneath are the two ATRX protein isoforms .
+Full-length ATRX ( ~ 280 kDa ) is encoded by the largest open reading frame .
+The positions of the principal features ( the PHD-like domain and the seven SWI/SNF-like motifs ) are indicated .
+Above full-length ATRX is shown the truncated ATRXt isoform ( apparent molecular weight of ~ 200 kDa ) that <termsem="GO:0009058"> arises </term> through the failure to <termsem="GO:0008380"> splice </term> intron 11 and the use of an intronic poly ( A ) signal .
+The intron-encoded region of ATRXt is indicated as a filled grey box .
+Locations of <termsem="GO:0006310"> recombinant </term> proteins ( A2 , FXNP5 , and H-300 ) used to <termsem="GO:0009058"> generate </term> antibodies are shown .
+The scale bar represents 200 amino acids .
+Cre-Mediated Ablation of Full-Length Atrx Protein in ES Cells .
+( A ) Strategy for targeted deletion of exon 18 of the Atrx gene .
+The top line shows the wild-type allele ( AtrxWT ) at the region surrounding exon 18 .
+Below is shown the targeting vector and the targeted allele ( Atrxflox ) resulting from homologous <termsem="GO:0006310"> recombination </term> .
+The loxP target sites of the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> are shown as black triangles , and the three possible <termsem="GO:0006310"> recombination events </term> that can be mediated by the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> are indicated ( labelled A , B , and C in the Atrxflox allele ) .
+At bottom is shown the Cre - <termsem="GO:0006310"> recombined </term> allele ( Atrx18neo ) ( resulting from <termsem="GO:0006310"> recombination event </term> C ) in which both exon 18 and the MC1neopA selection cassette have been deleted .
+EcoRI ( labelled E ) and SacI ( labelled S ) sites present on the targeted 129 strain X chromosome are indicated .
+Black bars indicate the positions of the probes used in Southern blots .
+( B ) Southern blot analysis of EcoRI - <termsem="GO:0009056"> digested </term> DNA from either wild-type ES cells ( E14 ) or targeted ES cell clones bearing the Atrxflox allele ( 1/F12 and 1/G11 ) <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with either the 20/27 ( left blot ) or Hae0 .9 ( right blot ) probes .
+The EcoRI fragment of the AtrxWT allele ( 18.5 kb ) has been replaced with the expected fragments of 11.2 kb ( 20/27 probe ) or 8.5 kb ( Hae0 .9 probe ) .
+( C ) Southern blot analysis of SacI - <termsem="GO:0009056"> digested </term> DNA from either wild-type ES cells ( E14 ) or targeted ES cell clones bearing the Atrxflox allele ( 1/F12 and 1/G11 ) or Cre - <termsem="GO:0006310"> recombinant </term> clones derived from these ( 1/F12B1F12 and 1/G11D5 ) .
+The membrane was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with the intron 17 probe indicated in ( A ) .
+The expected bands of 6.2 ( AtrxWT ) , 5.0 ( Atrxflox ) , and 2.8 ( Atrx18neo ) kb were observed .
+( D ) Northern blot analysis of RNA from ES cells shown in ( C ) .
+The membrane was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> first to a probe from exon 10 of the Atrx gene ( top blot ) and subsequently to a -actin cDNA probe as loading control ( bottom blot ) .
+The transcripts responsible for full-length Atrx ( ~ 10 kb ) and the truncated Atrxt isoforms ( ~ 7 kb ) are indicated .
+( E ) Western blot analysis of whole-cell extracts from the clones shown in ( C ) using an anti-ATRX monoclonal antibody ( 23C , <termsem="GO:0009058"> raised </term> against peptide A2 of the human ATRX protein shown in Figure 1 ) .
+The full-length and truncated Atrx isoforms are indicated .
+<termsem="GO:0040007"> Growth </term> and <termsem="GO:0032259"> Methylation </term> Defects in Atrxnull ES Cells .
+( A ) Cultures were inoculated with equivalent numbers of ES cells bearing different Atrx alleles as indicated , and were serially passaged .
+After the indicated days of coculture , DNA extracted from a sample of cells was analysed by Southern blot to detect the Atrx alleles .
+DNA was <termsem="GO:0009056"> digested </term> with SpeI , and the membrane was <termsem="GO:0000739"> <termsem="GO:0033592"> hybridised </term> </term> with the 20/27 probe shown in Figure 2A .
+The expected sizes of the different alleles are indicated .
+( B ) Schematic diagram of the <termsem="GO:0006350"> transcribed </term> portion of the mouse rDNA repeat with the 18S , 5.8 S , and 28S genes indicated .
+The positions of the limit - <termsem="GO:0009056"> digesting </term> enzymes BamH ( labelled B ) and EcoRI ( labelled E ) and the probes ( RIB3 and RIB4 ) used in the Southern blots shown in ( C ) are indicated .
+Below are shown the locations of the <termsem="GO:0032259"> methylation </term> - sensitive enzymes ( SmaI , PvuI , and MluI ) whose <termsem="GO:0032259"> methylation </term> status has been analysed in the Southern blots shown in ( C ) .
+( C ) DNA from Atrx-positive ( Atrx + , bearing either an AtrxWT or Atrxflox allele ) or Atrxnull ( bearing the Atrx18neo allele ) ES cells and 7-d embryoid bodies were <termsem="GO:0009056"> digested </term> with the enzymes shown and analysed by Southern blotting using the probes indicated .
+Arrows indicate the fully <termsem="GO:0032259"> methylated </term> copies ( cut by only the limit - <termsem="GO:0009056"> digesting </term> enzyme ) .
+Phosphorimager quantitation of the blots are shown below .
+The y-axis shows the percentage of copies that are undigested by the <termsem="GO:0032259"> methylation </term> - sensitive enzyme as a percentage of the total signal from cut and uncut rDNA .
+Mean values are indicated by horizontal lines , and the significance of the differences between the Atrx-positive and Atrxnull populations are shown for each enzyme .
+Timing of Onset of GATA1-Cre <termsem="GO:0010467"> Expression </term> and PCR Genotyping of Atrx Alleles .
+( A ) GATA1-cre + / + transgenic males were crossed to females of the ROSA26 reporter strain ( ROSA26 + /  ) , and embryos were recovered at 0.5 dpc ( ~ 16-cell morula stage ) and stained with X-gal .
+Cre-mediated activation of the ROSA26 <termsem="GO:0004565"> <termsem="independent_continuant"> -galactosidase </term> </term> reporter allele was detected in all cells in embryos in which both alleles are coinherited .
+( B ) Top gel : PCR genotyping of Atrx alleles in embryos using primers PPS1 .15 ( exon 17 ) and Mxnp30 ( exon 20 ) as described in Protocol S1 .
+The sizes of PCR products from the different alleles are indicated .
+Both the Atrx18 ( resulting from <termsem="GO:0006310"> recombination event </term> B in Figure 2A ) and the Atrx18neo allele ( resulting from <termsem="GO:0006310"> recombination event </term> C in Figure 2A ) are null for full-length Atrx protein .
+The bottom gel shows products from a PCR reaction ( primers DG52/DG53 ) used to sex embryos as described in Protocol S1 .
+A 450-bp PCR product is amplified from a mouse Y chromosome-specific satellite repeat .
+Morphology of Atrxnull Embryos at 7.5 dpc and 8.5 dpc .
+Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos ( dissected in their deciduas ) were stained with haematoxylin ( A ) or with an anti-ATRX antibody ( H-300 , Figure 1 ) ( B -- E ) .
+Photomicrographs C -- E show higher magnification images ( 200  ) of the stained sections shown in ( B ) ( 40  ) .
+Scale bars represent 200 m ( 40  magnification ) or 40 m ( 200  magnification ) .
+a , amnion ; ac , amniotic cavity ; c , chorion ; e , epiblast ; ec , ectoplacental cavity ; ecc , exocoelomic cavity ; ep , ectoplacental cone ; ne , neural ectoderm ; rm , Reichert 's membrane ; tgc , trophoblast giant cell .
+( F ) Detection of brachyury ( T ) <termsem="GO:0010467"> expression </term> in Atrxnull 8.5 dpc embryo ( head fold stage ) by WMISH .
+The genotype was determined by PCR ( as shown in Protocol S1 ) using DNA extracted from yolk sac .
+hf , head fold ; n , emerging notochord ; ps , primitive streak .
+Analysis of <termsem="GO:0006915"> Apoptosis </term> and <termsem="GO:0007067"> Mitosis </term> in Atrxnull Embryos .
+( A ) Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos ( dissected in their deciduas ) were analysed by TUNEL assay and <termsem="GO:0006915"> apoptotic </term> cells labelled with fluorescein-dUTP .
+Sections were counterstained with DAPI .
+( B ) Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos were stained with an antibody against the <termsem="GO:0007067"> mitosis </term> marker <termsem="GO:0016310"> phosphorylated </term> ( Ser10 ) histone H3 .
+Sections were counterstained with haematoxylin .
+For both ( A ) and ( B ) , the presence or absence of Atrx in each embryo was determined by staining adjacent sections with the anti-ATRX antibody ( H-300 ) as in Figure 5 ( unpublished data ) .
+Trophectoderm Defect in Atrxnull Embryos .
+( A ) 8.5 dpc embryos were dissected from surrounding decidual tissue and observed in whole mount .
+The genotype of each ( indicated above ) was determined by PCR using DNA extracted from whole embryos after photography .
+In the left image , the wild-type female ( three-somite stage , left ) is surrounded by trophoblast ( t ) while the trophoblast component surrounding the Atrxnull males ( at headfold/presomite [ middle ] and two-somite stages [ right ] , respectively ) is severely depleted .
+In the right image , the trophoblast has been dissected away from the embryonic region of the wild-type embryo , to reveal the small , abnormally shaped ectoplacental cone ( epc ) of the mutant littermates .
+( B ) WMISH to detect <termsem="GO:0010467"> expression </term> of Pl-1 ( a marker of TGCs ) at the <termsem="GO:0007566"> implantation </term> sites in vacated deciduas that had contained 8.5 dpc wild-type ( AtrxWT/WT ) or Atrxnull ( Atrx18neo/Y ) embryos .
+The genotype was determined by PCR using DNA extracted from whole embryos .
+TGCs are stained with Pl-1 .
+( C ) Paraffin sections of wild-type or Atrxnull 7.5 dpc embryos ( dissected in their deciduas ) were stained with an anti-Pl-1 antibody .
+The presence or absence of Atrx in each embryo was determined by staining adjacent sections with the anti-ATRX antibody ( H-300 ) as in Figure 5 ( unpublished data ) .
+( D ) Examples of 5-d blastocyst outgrowth cultures .
+Extensive trophoblast outgrowing from the inner cell mass ( icm ) was observed in all genotypes .
+The Atrx genotype and sex of the blastocyst indicated were determined by PCR .
+Escape from <termsem="GO:0006349"> Imprinted </term> Inactivation of the Paternally Inherited AtrxWT Allele in Carrier Females .
+Paraffin sections of wild-type ( AtrxWT/Y ) and carrier female ( AtrxWT/null ) 7.5 dpc embryos ( dissected in their deciduas ) were stained with the anti-ATRX antibody ( H-300 ) .
+Scale bars represent 200 m ( 40  magnification ) or 20 m ( 400  magnification ) .
+( A ) Stained sections showing whole embryos at 40  magnification .
+a , amnion ; c , chorion ; e , epiblast ; ep , ectoplacental cone .
+( B ) Higher-magnification image ( 400  ) of the epiblast regions of the stained sections shown in ( A ) .
+( C ) Higher-magnification image ( 400  ) showing the extraembryonic derived-chorionic ectoderm of the stained sections shown in ( A ) .
+ce , chorionic ectoderm ; cm , chorionic mesoderm .
+Distribution of Atrx Genotypes in Timed <termsem="GO:0007618"> Matings </term> .
+Author contributions .
+DG , AJHS , WGW , DRH , and RJG conceived and designed the experiments .
+DG , JAS , RA , and RJG performed the experiments .
+DG , RA , WGW , DRH , and RJG analysed the data .
+LD contributed reagents/materials/analysis tools .
+LD provided technical assistance .
+DG wrote the paper .
+Competing interests .
+The authors have declared that no competing interests exist .
+Funding .
+This work was supported by the Medical Research Council of the United Kingdom .
+Citation : Garrick D , Sharpe JA , Arkell R , Dobbie L , Smith AJH , et al. ( 2006 ) Loss of Atrx affects trophoblast <termsem="GO:0032502"> development </term> and the pattern of <termsem="GO:0009048"> X-inactivation </term> in extraembryonic tissues .
+PLoS Genet 2 ( 4 ) : e58 .
+DOI : 10.1371 / journal.pgen .0020058 .

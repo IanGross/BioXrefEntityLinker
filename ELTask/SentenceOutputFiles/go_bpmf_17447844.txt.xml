@@ -1,0 +1,435 @@
+A Mammal-Specific Doublesex Homolog Associates with Male Sex Chromatin and Is Required for <termsem="GO:0007140"> Male Meiosis </term> .
+<termsem="GO:0007276"> Gametogenesis </term> is a sexually dimorphic process requiring profound differences in germ <termsem="GO:0030154"> cell differentiation </term> between the sexes .
+In mammals , the presence of heteromorphic sex chromosomes in males creates additional sex-specific challenges , including incomplete X and Y <termsem="GO:0007129"> pairing </term> during <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> .
+This triggers formation of a heterochromatin domain , the XY body .
+The XY body <termsem="GO:0022411"> disassembles </term> after <termsem="GO:0051324"> prophase </term> , but specialized sex chromatin persists , with further modification , through <termsem="GO:0007126"> meiosis </term> .
+Here , we investigate the function of DMRT7 , a mammal-specific protein related to the invertebrate sexual regulators Doublesex and MAB-3 .
+We find that DMRT7 preferentially <termsem="GO:0051179"> localizes </term> to the XY body in the <termsem="GO:0000239"> pachytene stage </term> of <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> and is required for <termsem="GO:0007140"> male meiosis </term> .
+In Dmrt7 mutants , <termsem="GO:0007129"> <termsem="GO:0007126"> meiotic </term> pairing </term> and recombination appear normal , and a <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptionally </term> silenced </term> XY body with appropriate chromatin marks is <termsem="GO:0022607"> formed </term> , but most germ cells undergo <termsem="GO:0006915"> apoptosis </term> during <termsem="GO:0000239"> pachynema </term> .
+A minority of mutant cells can progress to <termsem="GO:0000240"> diplonema </term> , but many of these escaping cells have abnormal sex chromatin lacking histone H3K9 di - and <termsem="GO:0018023"> trimethylation </term> and heterochromatin protein 1 accumulation , modifications that normally occur between <termsem="GO:0000239"> pachynema </term> and <termsem="GO:0000240"> diplonema </term> .
+Based on the <termsem="GO:0051179"> localization </term> of DMRT7 to the XY body and the sex chromatin defects observed in Dmrt7 mutants , we conclude that DMRT7 plays a role in the sex <termsem="GO:0016568"> chromatin transformation </term> that occurs between <termsem="GO:0000239"> pachynema </term> and <termsem="GO:0000240"> diplonema </term> .
+We suggest that DMRT7 may help <termsem="GO:0065007"> control </term> the transition from <termsem="GO:0007126"> meiotic </term> sex chromosome inactivation to postmeiotic sex chromatin in males .
+In addition , because it is found in all branches of mammals , but not in other vertebrates , Dmrt7 may shed light on evolution of <termsem="GO:0007126"> meiosis </term> and of sex chromatin .
+Genes related to the sexual regulator Doublesex of Drosophila have been found to <termsem="GO:0065007"> control </term> sexual <termsem="GO:0032502"> development </term> in a wide variety of animals , ranging from roundworms to mammals .
+In this paper , we investigate the function of the Dmrt7 gene , one of seven related genes in the mouse .
+Female mammals are XX and males are XY , a chromosomal difference that presents specific challenges during the <termsem="GO:0007126"> meiotic phase </term> of male <termsem="GO:0007281"> germ cell development </term> .
+Some of these are thought to be overcome by incorporating the X and Y chromosomes into a specialized structure called the XY body .
+We find that DMRT7 protein is present in germ cells , <termsem="GO:0051179"> localizes </term> to the male XY body during <termsem="GO:0007126"> meiosis </term> , and is essential for male but not female fertility .
+The XY body normally is altered by recruitment of additional proteins and by specific <termsem="GO:0016570"> modifications to histone proteins </term> between the pachytene and <termsem="GO:0000240"> diplotene stages </term> of <termsem="GO:0007126"> meiosis </term> , but modification of the `` sex chromatin '' in Dmrt7 mutant cells is abnormal during this period .
+Because Dmrt7 is found in all branches of mammals , but not in other vertebrates , these results may indicate some commonality in <termsem="GO:0065007"> regulation </term> of sex chromatin among the mammals .
+<termsem="GO:0007548"> Sexual differentiation </term> <termsem="GO:0032502"> generates </term> anatomical , physiological , and <termsem="GO:0007610"> behavioral </term> dimorphisms that are essential for <termsem="GO:0019953"> sexual reproduction </term> .
+Many of these dimorphisms affect somatic cells , but the sexual dimorphisms that most directly mediate <termsem="GO:0019953"> sexual reproduction </term> are those of the gametes themselves .
+Gametes differ between the sexes in size and morphology , sometimes dramatically so , reflecting their very different roles in <termsem="GO:0009566"> zygote formation </term> .
+Indeed , the morphology of the gametes is what defines sex : females are the sex that <termsem="GO:0007276"> produces </term> the larger gametes and males <termsem="GO:0007276"> produce </term> the smaller ones .
+Mammalian <termsem="GO:0007126"> meiosis </term> is <termsem="GO:0065007"> regulated </term> sex-specifically starting in <termsem="GO:0009790"> embryogenesis </term> and continuing through much of adult life ( reviewed in [ 1 ] ) .
+For example , the timing and synchrony of <termsem="GO:0007126"> meiosis </term> are very different in the two sexes .
+In females , germ cells synchronously initiate <termsem="GO:0007126"> meiosis </term> in the embryo and <termsem="GO:0007050"> arrest </term> during <termsem="GO:0007128"> <termsem="GO:0007126"> meiotic </term> prophase I </term> .
+After puberty , oocytes are selectively recruited for <termsem="GO:0030728"> ovulation </term> , when they proceed to <termsem="GO:0007137"> metaphase II </term> and then complete <termsem="GO:0007126"> meiosis </term> after <termsem="GO:0009566"> fertilization </term> occurs [ 2 ] .
+In contrast , <termsem="GO:0007140"> male meiosis </term> occurs entirely postnatally , without the <termsem="GO:0007050"> arrest periods </term> found in females .
+In females , each <termsem="GO:0007126"> meiosis </term> can <termsem="GO:0032502"> produce </term> a single haploid oocyte ( and two extruded polar bodies ) , whereas each <termsem="GO:0007140"> male meiosis </term> can <termsem="GO:0032502"> produce </term> four haploid spermatocytes .
+Other <termsem="GO:0007126"> meiotic </term> processes , such as <termsem="GO:0006310"> recombination </term> and <termsem="GO:0007129"> chromosome pairing </term> ( <termsem="GO:0007129"> synapsis </term> ) , occur in both sexes but operate somewhat differently .
+For example , there is a higher failure rate for <termsem="GO:0007143"> meiosis in females </term> , with human oocyte aneuploidy rates up to 25 % versus about 2 % in human sperm [ 3 ] , and this may indicate that the <termsem="GO:0000075"> checkpoints </term> <termsem="GO:0065007"> controlling </term> and <termsem="GO:0065007"> monitoring </term> the events of <termsem="GO:0007126"> meiotic </term> progression in males are more stringent .
+Consistent with this idea , genetic analysis of a number of <termsem="GO:0040020"> <termsem="GO:0007126"> meiotic </term> regulatory </term> genes in the mouse has demonstrated a much stronger requirement in males than in females [ 1,4 ] .
+The existence of heteromorphic sex chromosomes , such as the XX/XY system of mammals , creates sex-specific challenges .
+One is the need for mechanisms to balance expression of sex-linked genes between the sexes , which in mammals is accomplished by <termsem="GO:0009048"> X chromosome inactivation </term> in females [ 5,6 ] .
+In male germ cells there is another sex-specific consideration during <termsem="GO:0007126"> meiosis </term> .
+In <termsem="GO:0007128"> prophase I </term> , when the homologous chromosomes <termsem="GO:0007129"> synapse </term> and homologous <termsem="GO:0006310"> recombination </term> occurs , X and Y <termsem="GO:0007129"> chromosome pairing </term> is limited to a region termed the pseudoautosomal region , leaving large portions of each chromosome unpaired .
+In eutherian and marsupial mammals , these unpaired chromosome regions are associated with a specialized chromatin domain termed the XY body or sex body .
+The function of the XY body is uncertain [ 7 -- 11 ] , but there is evidence that it is essential for <termsem="GO:0007140"> male meiotic </term> progression [ 12 ] .
+Several proteins are reported to <termsem="GO:0051179"> localize </term> to the XY body , including BRCA1 , ATR , the histone variant H3 .3 , and <termsem="GO:0043412"> modified </term> histones such as <termsem="GO:0016567"> ubiquitinated </term> H2A ( <termsem="GO:0016567"> Ub </term> - H2A ) and <termsem="GO:0016310"> phosphorylated </term> H2AX ( H2AX ) [ 12 -- 15 ] .
+In the XY body , the sex chromosomes are <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptionally </term> silenced </term> in a process termed <termsem="GO:0007126"> meiotic </term> sex chromosome inactivation ( MSCI ) .
+The XY body disappears after <termsem="GO:0000239"> pachynema </term> ; however , many sex-linked genes remain <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptionally </term> silent </term> into <termsem="GO:0007286"> spermiogenesis </term> [ 16 ] .
+This maintenance of <termsem="GO:0016458"> silencing </term> is associated with a distinct set of chromatin marks that define a sex chromatin domain termed postmeiotic sex chromatin ( PMSC ) [ 16,17 ] .
+Regulators of <termsem="GO:0007548"> sexual differentiation </term> have been identified in a number of organisms , but in contrast to many other <termsem="GO:0032502"> developmental processes </term> , such as <termsem="GO:0009955"> axial patterning </term> or <termsem="GO:0032502"> development </term> of many body parts , the molecular mechanisms that <termsem="GO:0065007"> regulate </term> <termsem="GO:0007548"> sexual differentiation </term> are highly variable between phyla .
+A notable exception involves genes related to doublesex ( dsx ) of Drosophila , which share a Doublesex/MAB -3 <termsem="GO:0003677"> DNA-binding </term> motif called the DM domain [ 18,19 ] .
+DM domain -- encoding genes have been shown to <termsem="GO:0065007"> regulate </term> various aspects of <termsem="GO:0007548"> sexual differentiation </term> in insects , nematodes , and mammals [ 20 ] .
+The mab-3 gene of Caenorhabditis elegans has been shown to function analogously to DSX in several respects and can be functionally replaced by the male isoform of DSX , suggesting that the similarity in the sequence of these genes may stem from conservation of an ancestral DM domain sexual regulator [ 18,21,22 ] .
+Vertebrates also have DM domain genes , and analysis to date , although limited , has shown that these genes also <termsem="GO:0065007"> control </term> <termsem="GO:0007548"> sexual differentiation </term> .
+Mammals have seven DM domain genes ( Dmrt genes ) , several of which exhibit sexually dimorphic mRNA <termsem="GO:0010467"> expression </term> [ 23,24 ] .
+The best studied of these genes , Dmrt1 , is <termsem="GO:0010467"> expressed </term> in the <termsem="GO:0030154"> differentiating </term> male genital ridges and adult testis of mammals , birds , fish , and reptiles , and a recently duplicated Dmrt1 gene functions as the Y-linked <termsem="GO:0030238"> testis-determining </term> gene in the Medaka fish [ 25 -- 29 ] .
+Human DMRT1 maps to an autosomal locus , which , when hemizygous , is associated with defective testicular <termsem="GO:0032502"> development </term> and consequent XY feminization [ 30 ] .
+Similarly , mice homozygous for a null mutation in Dmrt1 have severe defects in testis <termsem="GO:0030154"> differentiation </term> involving both germ cells and Sertoli cells [ 31 ] .
+Female mice mutant in Dmrt4 have polyovular follicles , indicating that this gene also plays a role in <termsem="GO:0008406"> gonadal development </term> [ 32 ] .
+It appears from these studies that the involvement of DM domain genes in <termsem="GO:0007548"> sexual differentiation </term> is ancient and conserved .
+However , vertebrate Dmrt gene function is not limited to <termsem="GO:0007548"> sexual differentiation </term> : Dmrt2 is required in both sexes for <termsem="GO:0035282"> segmentation </term> in mice and fish [ 33 -- 35 ] .
+Here , we have investigated the expression and function of the Dmrt7 gene in the mouse .
+Dmrt7 is <termsem="GO:0010467"> expressed </term> only in the gonad , and , unlike the other Dmrt genes , appears to be present exclusively in mammals and not in nonmammalian vertebrates [ 23,36 ] .
+We find that DMRT7 protein is <termsem="GO:0010467"> expressed </term> only in germ cells and is selectively <termsem="GO:0051179"> localized </term> to the XY body of male <termsem="GO:0000239"> pachytene </term> germ cells .
+To test its function , we generated a conditional null mutation of Dmrt7 in the mouse .
+We find that Dmrt7 is required in males for progression beyond the <termsem="GO:0000239"> pachytene stage </term> of <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> but is not required in females .
+In rare mutant cells that survive to <termsem="GO:0000240"> diplonema </term> , we observed sex chromatin abnormalities .
+Based on these observations , we suggest that Dmrt7 plays a critical role in a male-specific chromatin transition between <termsem="GO:0000239"> pachynema </term> and <termsem="GO:0000240"> diplonema </term> during <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> .
+<termsem="GO:0010467"> Expression </term> of DMRT7 Proteins in Testis .
+Our previous mRNA <termsem="GO:0010467"> expression </term> analysis suggested a possible <termsem="GO:0007126"> meiotic </term> function for Dmrt7 , based on the <termsem="GO:0010467"> expression </term> of Dmrt7 mRNA in the fetal gonads of the two sexes [ 23 ] .
+In the fetal ovary , Dmrt7 mRNA was detected primarily from E13 .5 to E15 .5 , the time during which <termsem="GO:0007126"> meiosis </term> progresses from <termsem="GO:0006279"> pre - <termsem="GO:0007126"> meiotic </term> replication </term> to the <termsem="GO:0000239"> pachytene stage </term> [ 4 ] , whereas Dmrt7 <termsem="GO:0010467"> expression </term> in the non - <termsem="GO:0007126"> meiotic </term> fetal testis was very low .
+Because this earlier work did not examine adult Dmrt7 <termsem="GO:0010467"> expression </term> , we first performed <termsem="GO:0003964"> <termsem="independent_continuant"> reverse transcriptase </term> </term> ( <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> ) - PCR on mRNA from ten adult organs and detected strong Dmrt7 mRNA <termsem="GO:0010467"> expression </term> in the testis and a trace of <termsem="GO:0010467"> expression </term> in heart , but not in any other tissue tested ( Figure 1A ) .
+We examined the timing of Dmrt7 mRNA <termsem="GO:0010467"> expression </term> during postnatal testis <termsem="GO:0032502"> development </term> and detected strong <termsem="GO:0010467"> expression </term> beginning at 2 wk , which roughly coincides with the onset of the <termsem="GO:0000239"> pachytene stage </term> during the first synchronous wave of <termsem="GO:0007283"> spermatogenesis </term> ( Figure 1B ) [ 37 ] .
+<termsem="GO:0010467"> Expression </term> of Dmrt7 mRNA and Protein .
+( A ) <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR analysis of Dmrt7 mRNA from ten organs of adult mouse .
+cDNA from each organ was amplified with primers specific for Dmrt7 ( top row ) and -actin ( bottom row ) .
+( B ) Dmrt7 mRNA <termsem="GO:0010467"> expression </term> during the first round of <termsem="GO:0007283"> spermatogenesis </term> .
+cDNAs obtained from testis at the indicated days after <termsem="GO:0007567"> birth </term> were amplified as in ( A ) .
+( C ) DMRT7 protein <termsem="GO:0010467"> expression </term> .
+Immunofluorescence of testis sections from 6-wk-old male stained with antibody to DMRT7 ( green ) and DAPI ( blue ) .
+( D ) DMRT7 <termsem="GO:0051641"> subcellular localization </term> to XY body .
+Testis sections from 6-wk-old male stained with antibodies to DMRT7 ( red ) and SUMO-1 ( green ) .
+SUMO-1 is <termsem="GO:0051179"> localized </term> to the XY body .
+Right-most panel shows merge of other two panels .
+Inserts show higher magnification of <termsem="GO:0000239"> pachytene </term> spermatocytes with XY bodies .
+To investigate DMRT7 protein <termsem="GO:0010467"> expression </term> , we <termsem="GO:0009058"> generated </term> an antibody against the C-terminal portion of the protein .
+The antibody was <termsem="GO:0009058"> raised </term> against a unique region lacking the DM domain in order to avoid cross-reaction with other DM domain proteins .
+Immunofluorescent staining with purified DMRT7 antisera showed that DMRT7 protein is <termsem="GO:0010467"> expressed </term> predominantly in mid - to late - <termsem="GO:0000239"> pachytene </term> spermatocytes ( Figure 1C ) , as well as in sperm , and is not detectable in other germ cell types including spermatogonia and round spermatids .
+We did not detect DMRT7 protein in somatic cells such as Sertoli cells , peritubular myoid cells , or Leydig cells .
+To more precisely determine the <termsem="GO:0000239"> pachytene stages </term> of DMRT7 <termsem="GO:0010467"> expression </term> , we double-stained with an antibody to GATA1 , which is <termsem="GO:0010467"> expressed </term> in Sertoli cells from stages VII to IX [ 38 ] .
+This confirmed that DMRT7 is <termsem="GO:0010467"> expressed </term> in mid - to late - <termsem="GO:0000239"> pachytene </term> spermatocytes , starting slightly earlier than stage VII and extending through stage IX ( unpublished data ) .
+Within <termsem="GO:0000239"> pachytene </term> spermatocytes , DMRT7 is concentrated in the XY body , or sex body , a densely staining chromatin domain that harbors the sex chromosomes .
+These undergo <termsem="GO:0006350"> transcriptional </term> inactivation and <termsem="GO:0031507"> heterochromatinization </term> as a result of their incomplete <termsem="GO:0007129"> pairing </term> during <termsem="GO:0051324"> prophase </term> of mammalian <termsem="GO:0007140"> male meiosis </term> [ 17 ] .
+To verify DMRT7 protein <termsem="GO:0010467"> expression </term> in the XY body , we double-stained mouse testis sections for DMRT7 and small ubiquitin-related modifier 1 ( SUMO-1 ) , which is concentrated in the XY body during <termsem="GO:0000239"> pachynema </term> [ 39,40 ] .
+DMRT7 and SUMO-1 were colocalized , confirming that DMRT7 protein is preferentially <termsem="GO:0051179"> localized </term> to the XY body ( Figure 1D ) .
+We also confirmed XY body <termsem="GO:0051179"> localization </term> of DMRT7 by double staining for other markers including <termsem="GO:0016567"> Ub </term> - H2A and H2AX ( unpublished data ) .
+DMRT7 is not preferentially <termsem="GO:0051179"> localized </term> to the XY body at all <termsem="GO:0022403"> stages </term> but instead is dynamic .
+Based on epithelial staging , it appears that DMRT7 <termsem="GO:0051179"> localizes </term> to the XY body from mid - to late - <termsem="GO:0000239"> pachynema </term> , becomes diffusely <termsem="GO:0051179"> distributed </term> in late - <termsem="GO:0000239"> pachynema </term> , and disappears in <termsem="GO:0000240"> diplonema </term> ( unpublished data ) .
+This <termsem="GO:0051179"> localization </term> was confirmed by staining of <termsem="GO:0007126"> meiotic </term> spreads ( Figure S1 ) .
+DMRT7 also is specifically <termsem="GO:0051179"> localized </term> in sperm , with antibody staining mainly in the perinuclear ring of the sperm head manchette .
+This staining coincided with the epithelial stages in which DMRT7 <termsem="GO:0051179"> localizes </term> to the XY body in spermatocytes ( Figure 1C and 1D ) .
+Targeted Deletion of Dmrt7 .
+To establish the functional requirement for Dmrt7 , we <termsem="GO:0000003"> generated </term> Dmrt7  /  mice by targeted disruption in embryonic stem ( ES ) cells using a strategy diagrammed in Figure S2A .
+The Dmrt7 gene has nine exons with the DM domain encoded by the second and third exons .
+Because the DM domain is essential for function of other genes , including mab-3 , mab-23 , and dsx [ 18,19,41 ] , we <termsem="GO:0009058"> generated </term> a conditionally targeted `` floxed '' allele in which the DM domain -- containing exons of Dmrt7 are flanked by recognition sites for the Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> ( loxP sites ) .
+The targeting vector also contained a neomycin resistance cassette ( <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> ) flanked by Flpe recognition sites .
+The removal of these sequences by Cre-mediated <termsem="GO:0006310"> recombination </term> eliminates the DM domain and the <termsem="GO:0006413"> <termsem="GO:0006412"> translational </term> start </term> site , thus <termsem="GO:0009058"> generating </term> a putative null allele .
+We identified three homologously targeted ES cell clones by Southern blotting ( Figure S2B ) and injected cells from two clones into C57BL/6 blastocysts .
+Chimeric animals from both cell lines transmitted the targeted allele through the germ line .
+Targeted animals were <termsem="GO:0007618"> bred </term> to -actin Cre mice to delete the DM domain -- encoding exons , <termsem="GO:0009058"> generating </term> the Dmrt7  allele , or to Flpe transgenic mice to delete the <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> cassette , <termsem="GO:0009058"> generating </term> the Dmrt7flox allele .
+Dmrt7 + /  mice were interbred to <termsem="GO:0000003"> generate </term> Dmrt7  /  mice .
+To confirm the lack of functional DMRT7 protein in Dmrt7  /  testes , we stained <termsem="GO:0007126"> meiotic </term> spreads from Dmrt7 mutants ( Figure S1 ) and sections from mutant testes ( Figure S2C ) and carried out western blot analysis ( unpublished data ) .
+In each case , we detected no DMRT7 protein in the mutant testes .
+Dmrt7 Is Required for Male but Not <termsem="GO:0007292"> Female Gametogenesis </term> .
+<termsem="GO:0007618"> Breeding </term> of Dmrt7 heterozygotes <termsem="GO:0000003"> produced </term> homozygous mutant progeny of both sexes at the expected frequency ( 63/264 ; 23 % ) .
+Male and female homozygous mutants were viable , <termsem="GO:0040007"> grew </term> to adulthood normally , and exhibited normal <termsem="GO:0007617"> sexual behavior </term> .
+Female homozygotes were fertile , <termsem="GO:0000003"> produced </term> litters of normal size , and had no obvious ovarian abnormalities as judged by histological analysis ( unpublished data ) .
+In contrast , Dmrt7 homozygous mutant males were completely infertile and had testes about one-third the weight of those of heterozygous or wild-type adult littermates ( Figure 2 ) .
+To determine when defective testis <termsem="GO:0032502"> development </term> begins in Dmrt7 mutants , we compared the testes of wild-type and mutant littermates during the first wave of <termsem="GO:0007283"> spermatogenesis </term> .
+Prior to postnatal day 14 ( P14 ) , mutant testes appeared histologically normal and the testis weights were similar to those of heterozygous and wild-type littermates , indicating that spermatogonia and early <termsem="GO:0007126"> meiotic </term> germ cells <termsem="GO:0032502"> form </term> normally ( Figure 2B ; unpublished data ) .
+Thereafter , the testes of the Dmrt7 mutant mice ceased to <termsem="GO:0040007"> grow </term> and the weight difference was significant .
+Microscopic examination of P21 and P42 Dmrt7 mutant testes revealed that germ cells <termsem="GO:0007050"> arrest </term> in <termsem="GO:0000239"> pachynema </term> , and later stages of germ cells are largely missing ( Figure 2C and 2D ) .
+Dmrt7 mutant mice are deficient in postmeiotic spermatids and lack epididymal spermatozoa , although a few cells <termsem="GO:0032502"> develop </term> to the round spermatid stage .
+These <termsem="GO:0007126"> meiotic </term> defects are in agreement with a recent preliminary analysis of another Dmrt7 mutation [ 42 ] .
+While some Dmrt7 mutant tubules are highly vacuolated and contain primarily Sertoli cells and spermatogonia , others have abundant primary spermatocytes .
+In addition , some tubules contain multinucleated cells and cells with darkly stained nuclei that are typical of <termsem="GO:0006915"> apoptotic </term> cells ( Figure 2D ) .
+Reduced Testis Size and Germ <termsem="GO:0006915"> Cell Apoptosis </term> in Mice with Targeted Deletion in Dmrt7 .
+( A ) Testes from a 6-wk-old wild-type ( + / + ) mouse and a homozygous (  /  ) Dmrt7 mutant littermate .
+( B -- D ) Sections of testes from 14-d-old ( B ) , 21-d-old ( C ) , and 42-d-old mice ( D ) stained with hematoxylin and eosin .
+Wild-type is in left column and mutant in right .
+No significant difference is observed at 14 d ( B ) , but by 21 d some tubules are lacking abundant spermatocytes ( C , asterisk ) or cells with typical <termsem="GO:0006915"> apoptotic </term> morphology are present ( open arrowhead , C and D ) .
+Mutant tubules contain multinucleate cells ( closed arrowhead , D ) .
+( E and F ) TUNEL labeling of Dmrt7-deficient mouse testes .
+Testes from wild-type and homozygous mutant littermates were analyzed by TUNEL labeling to detect <termsem="GO:0006915"> apoptotic </term> cells .
+Testis sections from 21-d-old ( E ) and 6-wk-old mice ( F ) .
+<termsem="GO:0006915"> Apoptotic </term> cells ( brown ) are much more abundant in seminiferous tubules of homozygous Dmrt7 mutant mice relative to wild-type .
+Bars in ( B -- F ) represent 100 m .
+Since Dmrt7 mutant testes lack most post - <termsem="GO:0000239"> pachytene </term> cells , we used TUNEL analysis to test whether the missing cells are <termsem="GO:0012501"> eliminated </term> by <termsem="GO:0006915"> apoptosis </term> .
+At 3 wk , Dmrt7 mutant testes contain significantly more <termsem="GO:0006915"> apoptotic </term> cells than those of wild-type controls .
+The percentage of tubule sections with five or more <termsem="GO:0006915"> apoptotic </term> nuclei was about three times higher in Dmrt7 mutants compared with wild-type ( 20 % versus 7 % ; Figure 2E ) .
+A similar elevation of <termsem="GO:0006915"> apoptosis </term> was apparent in mutant testes at 7 wk ( Figure 2F ) .
+In mutants , many <termsem="GO:0006915"> apoptotic </term> cells were in the middle of the tubules , whereas the <termsem="GO:0006915"> apoptotic </term> cells in wild-type occur mainly near the seminiferous tubule periphery .
+The numbers of Sertoli cells were not significantly different between wild-type and mutant testes , and we observed no difference in somatic <termsem="GO:0006915"> cell apoptosis </term> in mutants ( unpublished data ) .
+From these results , we conclude that loss of Dmrt7 causes a block in <termsem="GO:0007126"> meiotic </term> progression , mainly in <termsem="GO:0000239"> pachynema </term> , leading to the elimination , by <termsem="GO:0006915"> apoptosis </term> , of the <termsem="GO:0007050"> arrested </term> cells .
+<termsem="GO:0000239"> Pachytene </term> Arrest of Dmrt7 Mutant Germ Cells .
+To better define the <termsem="GO:0007283"> spermatogenic </term> <termsem="GO:0022403"> stage </term> at which Dmrt7  /  male germ cells <termsem="GO:0007050"> arrest </term> and <termsem="GO:0016265"> die </term> , we used antibodies against several <termsem="GO:0022403"> stage </term> - specific germ cell markers .
+TRA98 is <termsem="GO:0010467"> expressed </term> in PGCs and spermatogonia [ 43 ] .
+In the wild-type adult testis , strongly staining TRA98-positive cells <termsem="GO:0032502"> form </term> a layer one cell deep ; however , in the mutant TRA98 , strongly positive cells were abnormally <termsem="GO:0048532"> organized </term> , and some tubules had a layer several cells deep ( Figure 3A ) .
+The BC7 antibody recognizes spermatocytes in the leptotene to early - <termsem="GO:0000239"> pachytene stages </term> [ 44 ] .
+Dmrt7 mutant testes had BC7-positive cells in approximately normal numbers , but again abnormally <termsem="GO:0048532"> organized </term> , with many positive cells in the center rather than the periphery of the tubules ( Figure 3B ) .
+The TRA369 antibody recognizes a calmegin protein <termsem="GO:0010467"> expressed </term> in <termsem="GO:0000239"> pachytene </term> spermatocytes through elongated spermatids [ 45 ] .
+In contrast to the earlier <termsem="GO:0022403"> stages </term> , far fewer TRA369-positive cells were present in mutant testes relative to wild-type ( Figure 3C ) .
+We also quantitated the number of cells at each <termsem="GO:0007126"> meiotic </term> <termsem="GO:0022403"> stage </term> using spermatocyte spreads , assaying <termsem="GO:0007129"> chromosome-pairing </term> status by staining for SYCP3 , a component of the synaptonemal complex ( Figure 4 ) .
+We found that Dmrt7 mutants accumulate <termsem="GO:0000239"> pachytene </term> cells but have greatly reduced numbers of cells in late - <termsem="GO:0000239"> pachynema </term> and beyond .
+Together , these results confirm that the <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> in Dmrt7 mutants occurs primarily during <termsem="GO:0000239"> pachynema </term> and results in efficient elimination of <termsem="GO:0007050"> arrested </term> cells .
+<termsem="GO:0007128"> Prophase I </term> Arrest of Dmrt7 Mutant Germ Cells .
+Testis sections from 6-wk-old wild-type ( + / + ) and Dmrt7 mutant (  /  ) littermates stained with <termsem="GO:0022403"> stage </term> - specific antibodies specific to <termsem="GO:0007283"> spermatogenic </term> cells .
+( A ) TRA98 antibody strongly stains spermatogonia , which are present in wild-type and mutant .
+( B ) BC7 antibody stains spermatocytes , which are present in wild-type and mutant .
+( C ) TRA369 antibody stains <termsem="GO:0000239"> pachytene </term> and later germ cells , which are severely deficient in the mutant testis .
+Profile of <termsem="GO:0007126"> Meiotic </term> <termsem="GO:0007050"> Arrest </term> in Dmrt7 Mutant Testis .
+Graph of distribution of <termsem="GO:0007126"> meiotic </term> stages of germ cells from heterozygous ( n = 1,970 ) and homozygous mutant ( n = 2,084 ) P26 testes , spread and stained for the synaptonemal complex protein SYCP3 to permit precise staging , which was performed as described [ 64,65 ] .
+Normal <termsem="GO:0007126"> Meiotic </term> <termsem="GO:0051324"> Prophase </term> in Dmrt7 Mutant Germ Cells .
+Defects in chromosome pairing , <termsem="GO:0007129"> synapsis </term> , or <termsem="GO:0006310"> recombination </term> can trigger <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> and <termsem="GO:0006915"> apoptosis </term> [ 46 ] .
+We therefore examined these events in Dmrt7 mutant testes .
+To assess homolog <termsem="GO:0007129"> synapsis </term> , we used antibodies to SYCP1 , a synaptonemal complex transverse element component , and SYCP3 , a component of the axial element , which <termsem="GO:0051235"> remains </term> on the desynapsed axes during <termsem="GO:0000240"> diplonema </term> [ 47,48 ] .
+<termsem="GO:0007130"> Formation of synaptonemal complexes </term> in the mutant was indistinguishable from that in wild-type , as indicated by the proper accumulation of SYCP1 ( unpublished data ) and SYCP3 ( Figure 5A ) .
+Likewise , the Dmrt7 mutant <termsem="GO:0000238"> zygotene </term> spermatocytes showed normal accumulation of the early <termsem="GO:0000725"> recombination repair </term> marker RAD51 , suggesting that early <termsem="GO:0007131"> <termsem="GO:0007126"> meiotic </term> recombination </term> is not significantly affected ( Figure 5B ) .
+Dmrt7 mutant spermatocytes exhibited the expected decline in the presence of RAD51 foci associated with the autosomal synaptonemal complexes ( Figure 5B ; unpublished data ) [ 49 ] .
+The few surviving cells that progressed beyond <termsem="GO:0000239"> pachynema </term> also underwent apparently normal desynapsis during <termsem="GO:0000240"> diplonema </term> ( Figure 5A ) .
+From these results , we conclude that chromosomal pairing , <termsem="GO:0007129"> synapsis </term> , <termsem="GO:0006310"> recombination </term> , and desynapsis during <termsem="GO:0007128"> prophase I </term> in Dmrt7 mutant males are grossly normal .
+Normal <termsem="GO:0007129"> Synapsis </term> and <termsem="GO:0006310"> Recombination </term> in Dmrt7 Mutant Germ Cells .
+( A ) Testicular cells from Dmrt7 heterozygous ( + /  ) or homozygous (  /  ) mutant mice were spread and stained with antibody to SYCP3 ( red ) .
+The <termsem="GO:0022403"> developmental stages </term> of <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> based on SYCP3 organization are indicated in each panel .
+By <termsem="GO:0000239"> pachynema </term> , all autosomes are fully <termsem="GO:0007129"> synapsed </term> , and the XY bivalent is <termsem="GO:0007129"> synapsed </term> only at the pseudoautosomal region in both wild-type and mutant cells .
+( B ) Testicular cells in <termsem="GO:0000238"> zygonema </term> and <termsem="GO:0000239"> pachynema </term> spread and stained with antibodies to RAD51 ( green ) and SYCP3 ( red ) .
+Size and <termsem="GO:0051179"> distribution </term> of RAD51 foci are similar between wild-type and mutant spermatocytes .
+Abnormal Cellular <termsem="GO:0048532"> Organization </term> and the Role of Sertoli Cells .
+Sertoli cells interact with germ cells during <termsem="GO:0007283"> spermatogenesis </term> and the interaction is critical for germ <termsem="GO:0048469"> cell maturation </term> [ 50 ] .
+Although we did not detect DMRT7 <termsem="GO:0010467"> expression </term> in Sertoli cells by antibody staining , we nevertheless considered the possibility that Sertoli cell defects might contribute to the male-specific germ line failure of Dmrt7 mutants .
+To characterize Sertoli <termsem="GO:0030154"> cell differentiation </term> , we examined <termsem="GO:0010467"> expression </term> of the Sertoli cell markers GATA4 ( a marker of immature postnatal Sertoli cells ) and GATA1 ( a mature Sertoli cell marker ) .
+The levels of these proteins appeared normal relative to wild-type at P14 and P42 ( Figure 6A -- 6C ) , as did the <termsem="GO:0004882"> <termsem="independent_continuant"> androgen receptor </term> </term> ( Figure S3 ; unpublished data ) .
+However , the <termsem="GO:0048532"> organization </term> of Sertoli cells in Dmrt7 mutant testes was abnormal : in some tubules GATA1-positive Sertoli cell nuclei were displaced from their usual close apposition with the basement membrane ( Figure 6C ) .
+In such tubules , nuclei of pre - <termsem="GO:0007126"> meiotic </term> germ cells and spermatocytes were packed close to the basal membrane and few germ cells were found in the adlumenal region .
+Abnormal Sertoli Cell <termsem="GO:0048532"> Organization </term> in Dmrt7 Mutant Testes .
+( A ) Testes from P14 wild-type and Dmrt7 mutant mice were sectioned and stained with antibody to GATA4 .
+( B ) P14 testis sections stained with antibody to GATA1 .
+At P14 , GATA4 and GATA1 levels are similar in wild-type and mutant Sertoli cell .
+( C ) Wild-type and mutant testis sections double-stained with antibody to GATA1 ( red ) and DAPI ( blue ) .
+Most Sertoli cell nuclei were adjacent to the basal membrane in wild-type , but mutant Sertoli cells were displaced in some tubules ( arrowhead ) .
+White dotted line indicates position of basal membranes .
+( D ) Testis sections from 10-wk-old wild-type and Sertoli cell-specific Dmrt7 mutant ( SC-Dmrt7KO ) mice stained with hematoxylin and eosin .
+<termsem="GO:0007283"> Spermatogenesis </term> and <termsem="GO:0007286"> spermiogenesis </term> are normal in SC-Dmrt7KO testis .
+( E ) Testis sections from 10-wk-old wild-type and SC-Dmrt7KO mice stained with antibodies to GATA1 ( red ) and smooth muscle actin ( to outline seminiferous tubules ; green ) .
+Sertoli cell nuclei are <termsem="GO:0051179"> positioned </term> normally near the basal membrane in SC-Dmrt7KO mice .
+The aberrant Sertoli cell <termsem="GO:0048532"> organization </term> in Dmrt7 mutant testes raised the possibility that the germ cell phenotype might indirectly result from defects in Sertoli <termsem="GO:0009987"> cell function </term> .
+To test this possibility , we deleted Dmrt7 just in the Sertoli cell lineage by crossing mice carrying the floxed Dmrt7 allele with Dhh-Cre transgenic mice [ 51 ] .
+The Desert hedgehog ( Dhh ) promoter is active starting at about E12 .5 in pre-Sertoli cells but not in germ cells , allowing deletion of Dmrt7 in Sertoli cells well before any likely requirement for its function [ 52 ] .
+Testicular size in Sertoli-targeted ( SC-Dmrt7KO ) animals was slightly reduced from that of wild-type , but histological analysis revealed no obvious difference between wild-type and SC-Dmrt7KO testes ( Figure 6D ) .
+<termsem="GO:0007283"> Spermatogenesis </term> appeared normal , mature sperm were present , and SC-Dmrt7KO mice were fertile .
+In addition , GATA1 staining showed that Sertoli cell nuclei were located adjacent to the basement membrane as in wild-type ( Figure 6E ) .
+These results suggest the germ cell defects of Dmrt7 mutants are not caused by lack of Dmrt7 in Sertoli cells .
+Rather , the abnormal <termsem="GO:0048532"> organization </term> of Sertoli cells appears to result from lack of Dmrt7 in the germ line .
+XY Bodies <termsem="GO:0022607"> Form </term> Normally in Dmrt7 Mutant Cells .
+The data presented so far indicate that Dmrt7 mutant germ cells undergo apparently normal early <termsem="GO:0007126"> meiosis </term> and then <termsem="GO:0007050"> arrest </term> during <termsem="GO:0000239"> pachynema </term> due to a strict requirement for Dmrt7 in the germ line .
+To better understand the basis of the <termsem="GO:0007126"> meiotic </term> <termsem="GO:0007050"> arrest </term> , we more closely examined <termsem="GO:0007126"> meiotic </term> germ cells in the mutant .
+We focused on the XY body , which is thought to be essential for <termsem="GO:0007126"> meiotic </term> progression and is the site of preferential DMRT7 <termsem="GO:0051179"> localization </term> .
+Condensation of the X and Y chromosomes begins in late - <termsem="GO:0000238"> zygotene </term> cells , and , by mid - <termsem="GO:0000239"> pachynema </term> ( when homologous chromosome pairs are fully aligned ) the sex chromatin <termsem="GO:0022607"> forms </term> a microscopically visible spherical structure near the nuclear periphery [ 53 ] .
+We first asked whether DMRT7 is required for XY body <termsem="GO:0022607"> formation </term> by evaluating several characteristic XY body chromatin features .
+First , we tested H2AX <termsem="GO:0010467"> expression </term> by immunofluorescent staining .
+H2AX is a variant of H2A that is crucial for XY body <termsem="GO:0022607"> formation </term> and MSCI [ 12 ] .
+H2AX <termsem="GO:0051179"> localized </term> normally to the XY body of DMRT7 mutant cells in <termsem="GO:0007126"> meiotic </term> spreads ( Figure 7A ) , and many H2AX-positive puncta were present in germ cells of Dmrt7 mutant testes ( Figure 7B ) .
+Next , we examined SUMO-1 <termsem="GO:0051179"> localization </term> in the mutant testis .
+SUMO-1 <termsem="GO:0010467"> expression </term> normally increases in the XY body of early - to mid - <termsem="GO:0000239"> pachytene </term> spermatocytes at the time of sex <termsem="GO:0030261"> chromosome condensation </term> .
+Prior to the completion of the <termsem="GO:0007127"> first <termsem="GO:0007126"> meiotic </term> </term> <termsem="GO:0051301"> division </term> , SUMO-1 disappears from the XY body as the X and Y chromosomes desynapse [ 40 ] .
+Punctate SUMO-1 <termsem="GO:0051179"> localization </term> was present in Dmrt7 mutant germ cells , again consistent with <termsem="GO:0022607"> formation </term> of a correctly marked XY body ( Figure 7C ) .
+However , some tubules in mutants had multiple layers of cells with SUMO-1-condensed spots ( Figure 7C ) , rather than the normal single layer of cells .
+This accumulation of XY body -- containing cells also was apparent with H2AX staining and is consistent with a <termsem="GO:0032502"> developmental </term> arrest of mutant cells in mid - to late - <termsem="GO:0000239"> pachytene </term> .
+We also examined <termsem="GO:0016567"> Ub </term> - H2A <termsem="GO:0051179"> localization </term> in Dmrt7 mutant testes .
+In early - <termsem="GO:0000239"> pachytene </term> , <termsem="GO:0016567"> Ub </term> - H2A is concentrated in the XY body ; by mid - <termsem="GO:0000239"> pachytene </term> <termsem="GO:0016567"> Ub </term> - H2A is observed throughout the entire nucleus , but it again becomes limited to the XY body in late - <termsem="GO:0000239"> pachytene </term> spermatocytes [ 13 ] .
+Analysis of nuclear spreads revealed that <termsem="GO:0016567"> Ub </term> - H2A <termsem="GO:0051179"> localizes </term> normally to the XY body in Dmrt7 mutants ( Figure S4 ) .
+Collectively , these results indicate that Dmrt7 mutant germ cells can <termsem="GO:0022607"> establish </term> an XY body with at least some of the normal chromatin marks .
+XY Body <termsem="GO:0022607"> Forms </term> Normally during <termsem="GO:0000239"> Pachynema </term> in Dmrt7 Mutant Mice .
+( A ) Testicular cells spread and stained with antibodies to H2AX ( red ) and SYCP3 ( green ) .
+In <termsem="GO:0000239"> pachytene </term> cells , H2AX is concentrated in the XY body both in wild-type and Dmrt7 mutant .
+( B ) Testes from 6-wk-old mice sectioned and stained with antibody to H2AX ( red ) .
+( C ) Testes from 6-wk-old mice sectioned and stained with antibody to SUMO-1 ( green ) .
+Abundant <termsem="GO:0000239"> pachytene </term> cells with XY bodies are present in wild-type and mutant testes .
+Abnormal Sex Chromatin in Dmrt7 Mutant Germ Cells .
+Although the XY body can <termsem="GO:0022607"> form </term> during <termsem="GO:0000239"> pachynema </term> in Dmrt7 mutants , we considered the possibility that <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptional </term> silencing </term> might not be properly established .
+This would be consistent with the Dmrt7 phenotype : <termsem="GO:0000239"> pachytene </term> cells that escape from MSCI normally are <termsem="GO:0012501"> eliminated </term> prior to late - <termsem="GO:0000239"> pachytene </term> [ 17 ] .
+Recently , MSCI has been shown to continue into <termsem="GO:0007135"> meiosis II </term> and <termsem="GO:0007286"> spermiogenesis </term> , apparently mediated by a distinct chromatin compartment termed postmeiotic sex chromatin ( PMSC ) that is <termsem="GO:0022607"> established </term> starting in <termsem="GO:0000240"> diplonema </term> [ 16 ] .
+We therefore asked whether the <termsem="GO:0000239"> pachytene </term> germ <termsem="GO:0008219"> cell death </term> in Dmrt7 mutants is associated with a failure either to initiate or to maintain sex chromosome inactivation .
+First , we examined the mid - <termsem="GO:0000239"> pachytene </term> XY body .
+To examine XY <termsem="GO:0006350"> transcriptional </term> status , we carried out Cot-1 RNA fluorescence in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> ( FISH ) to detect nascent <termsem="GO:0006366"> RNA polymerase II transcription </term> , combined with DAPI staining to locate the XY body on spreads of seminiferous tubules ( Figure 8A and 8B ) .
+In Dmrt7 mutants , the XY body was <termsem="GO:0022607"> formed </term> and excluded Cot-1 <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> ( Figure 8B ) , indicating that <termsem="GO:0006342"> <termsem="GO:0006350"> transcriptional </term> silencing </term> is established normally in mutant <termsem="GO:0000239"> pachytene </term> cells .
+We also examined expression of the Y-linked gene Rbmy , which normally is inactivated during <termsem="GO:0000239"> pachytene </term> and reactivated after <termsem="GO:0007135"> secondary meiosis </term> begins [ 54,55 ] .
+Rbmy was inactivated normally in <termsem="GO:0000239"> pachytene </term> cells of Dmrt7 mutants , based on immunofluorescent staining with an anti-RBMY antibody ( Figure S5 ) .
+We also examined heterochromatin protein 1 beta ( HP1 ) , which normally <termsem="GO:0051179"> localizes </term> to the X centromere at mid - <termsem="GO:0000239"> pachynema </term> and then spreads through the XY body as it internalizes during <termsem="GO:0000240"> diplonema </term> [ 56 ] .
+We found that HP1 <termsem="GO:0051179"> localization </term> is normal in DMRT7 mutant cells in mid - <termsem="GO:0000239"> pachynema </term> ( Figure 8C and 8D ) .
+These results suggest that XY body <termsem="GO:0022607"> formation </term> and initiation of MSCI both occur normally in Dmrt7 mutant germ cells .
+Chromatin Abnormalities in Dmrt7 Mutant <termsem="GO:0000240"> Diplotene </term> Germ Cells .
+( A and B ) MSCI occurs normally in mid - <termsem="GO:0000239"> pachytene </term> spermatocyte of Dmrt7 mutant .
+Arrows indicate XY body in all panels .
+Cot-1 RNA FISH ( red ) reveals normal silencing of sex chromosome <termsem="GO:0006350"> transcription </term> in XY body .
+This is consistent with wild-type mid - <termsem="GO:0000239"> pachynema </term> as described previously [ 16 ] .
+( C and D ) HP1 <termsem="GO:0051179"> localization </term> in mid - <termsem="GO:0000239"> pachytene </term> spermatocytes .
+HP1 <termsem="GO:0051179"> localizes </term> to X chromosome centromere ( arrowhead ) in wild-type ( C ) and mutant ( D ) .
+( E and F ) Cot-1 <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> in <termsem="GO:0000240"> diplotene </term> .
+Presumptive XY body , based on DAPI and H2AX <termsem="GO:0051179"> localization </term> , is indicated by arrow in ( F ) .
+( G and H ) HP1 in <termsem="GO:0000240"> diplotene </term> .
+Wild-type cell ( E ) has HP1 throughout XY body , whereas mutant cell ( H ) only has <termsem="GO:0051179"> localization </term> to X chromosome centromere ( arrowhead ) .
+( I and J ) H3-2meK9 localization in <termsem="GO:0000240"> diplotene </term> cells .
+Mutant cell ( J ) lacks strong concentration of this mark to the XY body seen in wild-type ( I ) .
+( K and L ) H3-3meK9 localization in <termsem="GO:0000240"> diplotene </term> cells .
+Mutant cell ( L ) has no <termsem="GO:0051179"> localization </term> of this mark to the XY body .
+H2AX <termsem="GO:0051179"> localizes </term> to autosomes in mutant cell , possibly indicating onset of <termsem="GO:0006915"> apoptosis </term> .
+( M ) Example of mutant <termsem="GO:0000240"> diplotene </term> cell with normal HP1 accumulation to the XY body .
+All images except those in ( M ) are single Z sections .
+We next considered the possibility that sex chromatin is <termsem="GO:0022607"> established </term> normally but is not properly modified as cells exit <termsem="GO:0000239"> pachynema </term> and begin to <termsem="GO:0022607"> form </term> PMSC .
+Although most Dmrt7 mutant cells are <termsem="GO:0012501"> eliminated </term> by <termsem="GO:0006915"> apoptosis </term> prior to <termsem="GO:0000240"> diplonema </term> , we were able to examine epigenetic markers of PMSC in rare Dmrt7 mutant spermatocytes that escaped <termsem="GO:0000239"> pachytene </term> <termsem="GO:0007050"> arrest </term> and progressed into <termsem="GO:0000240"> diplonema </term> .
+First , we examined nascent <termsem="GO:0006350"> transcription </term> by Cot-1 <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+Although heterochromatic regions generally showed lower Cot-1 signal than euchromatic regions ( Figure 8E and 8F ) , in some mutant cells the sex chromatin appeared to be incompletely <termsem="GO:0016458"> silenced </term> relative to wild-type ( Figure 8F ) .
+We also examined three epigenetic signatures of PMSC : histone H3 <termsem="GO:0018027"> dimethylated </term> or <termsem="GO:0018023"> trimethylated </term> at lysine-9 ( H3-2meK9 , H3-3meK9 ) and spreading of HP1 through the XY body [ 16,57,58 ] ( S. H. Namekawa , unpublished data ) .
+We observed defects in sex chromatin <termsem="GO:0051179"> localization </term> of all three markers in Dmrt7 <termsem="GO:0000240"> diplotene </term> cells .
+Although HP1 <termsem="GO:0051179"> localization </term> to the X chromosome centromere initially appeared normal at mid - <termsem="GO:0000239"> pachynema </term> , we observed Dmrt7 mutant <termsem="GO:0000240"> diplotene </term> cells that failed to show spreading of HP1 to the entire XY body ( Figure 8G and 8H ) .
+Similarly , we found Dmrt7 mutant <termsem="GO:0000240"> diplotene </term> cells lacking accumulation of H3-2meK9 and H3-3meK9 marks onto the sex chromatin ( Figure 8I -- 8L ) .
+Not all Dmrt7 mutant <termsem="GO:0000240"> diplotene </term> cells showed abnormal <termsem="GO:0051179"> localization </term> of HP1 to the sex chromatin ( Figure 8M ) .
+In one experiment , 11/27 mutant cells in <termsem="GO:0000240"> diplonema </term> lacked HP1 on the XY body , as compared with 2/22 wild-type cells .
+We hypothesize that the mutant cells with normal HP1 may be those that can complete <termsem="GO:0007126"> meiosis </term> ( Figures 4 and 5 ) .
+Some of the mutant <termsem="GO:0000240"> diplotene </term> cells showing abnormal sex chromatin also had abnormal autosomal H2AX staining ( Figure 8L ) .
+H2AX <termsem="GO:0051179"> localizes </term> to double-strand DNA breaks , so this staining may indicate that some <termsem="GO:0000240"> diplotene </term> mutant cells are approaching or entering <termsem="GO:0006915"> apoptosis </term> [ 59 ] .
+We did not observe sex chromatin defects prior to <termsem="GO:0000240"> diplonema </term> , but we can not exclude the possibility that earlier defects exist and the affected cells are rapidly <termsem="GO:0012501"> eliminated </term> .
+In the preceding experiments , we staged cells based on XY body internalization .
+Because this process could be abnormal in the mutant cells , we also staged mutant cells by chromosome morphology using an antibody to SYCP3 ( Figure 9 ) .
+This independently identified Dmrt7 mutant <termsem="GO:0000240"> diplotene </term> cells lacking HP1 accumulation in the XY body , such as the example in Figure 9B .
+From these results , we conclude that Dmrt7 mutant cells <termsem="GO:0022607"> establish </term> a normal XY body in mid - <termsem="GO:0000239"> pachynema </term> , but then have multiple epigenetic defects in the sex chromatin transition from <termsem="GO:0000239"> pachynema </term> to <termsem="GO:0000240"> diplonema </term> .
+Abnormal Sex Chromatin in Cells Staged by <termsem="GO:0007129"> Chromosome Pairing </term> Status .
+( A ) Spread of wild-type germ cell stained with DAPI , anti-SYCP3 , and anti-HP1 showing chromosome morphology typical of <termsem="GO:0000240"> diplonema </term> and internalized XY body with HP1 accumulation .
+( B ) Spread of Dmrt7 mutant germ cell showing normal <termsem="GO:0000240"> diplotene </term> chromosome morphology and internalized XY body , but no HP1 accumulation in the XY body .
+XY chromosome pairs are indicated by arrow .
+In this study , we find that the DM domain protein DMRT7 is required for male germ cells to complete <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> but is dispensable in the female germ line .
+In males , DMRT7 <termsem="GO:0010467"> expression </term> is highest in <termsem="GO:0000239"> pachytene </term> spermatocytes , and the protein preferentially <termsem="GO:0051179"> localizes </term> to the XY body .
+Consistent with this <termsem="GO:0010467"> expression </term> , we found that most mutant male germ cells <termsem="GO:0007050"> arrest </term> in <termsem="GO:0000239"> pachynema </term> and undergo <termsem="GO:0006915"> apoptosis </term> , although a small proportion can progress to <termsem="GO:0000240"> diplonema </term> and sometimes beyond .
+Examination of chromatin and nascent <termsem="GO:0006350"> transcription </term> in mutant cells that progressed to <termsem="GO:0000240"> diplonema </term> revealed sex chromatin abnormalities , as discussed below .
+The <termsem="GO:0000239"> pachytene stage </term> of <termsem="GO:0051324"> prophase </term> involves tremendous chromosomal changes as the homologs align , <termsem="GO:0007129"> synapse </term> , and <termsem="GO:0006310"> recombine </term> .
+During this period , at least one <termsem="GO:0051598"> <termsem="GO:0000239"> pachytene </term> surveillance </term> system exists to <termsem="GO:0065007"> monitor </term> key events of <termsem="GO:0007126"> meiotic </term> progression .
+Cells in which any of these events is anomalous are efficiently <termsem="GO:0012501"> eliminated </term> by <termsem="GO:0006915"> apoptosis </term> [ 46 ] .
+Another key event of <termsem="GO:0000239"> pachynema </term> in male mammals is the <termsem="GO:0006323"> packaging </term> of the sex chromosomes into the XY body and the establishment of MSCI .
+Examination of <termsem="GO:0007140"> male meiosis </term> in XYY mice and mice carrying a sex-chromosome-to-autosome translocation showed that cells in which a sex chromosome escapes MSCI are <termsem="GO:0012501"> eliminated </term> prior to late - <termsem="GO:0000239"> pachynema </term> [ 17 ] .
+This indicates that the establishment of MSCI also is subject to <termsem="GO:0065007"> surveillance </term> .
+Since the <termsem="GO:0007050"> arrest </term> and <termsem="GO:0006915"> apoptosis </term> of Dmrt7 mutant spermatocytes could result from perturbation of any of the critical <termsem="GO:0000239"> pachytene </term> events mentioned above , we tested whether they occur abnormally in the mutant cells .
+We found that <termsem="GO:0007129"> chromosomal synapsis </term> and <termsem="GO:0006310"> recombination </term> appear normal in Dmrt7 mutant cells .
+We therefore focused on the XY body , the most prominent site of DMRT7 accumulation .
+First , we tested whether the XY body <termsem="GO:0022607"> forms </term> and MSCI is established in Dmrt7 mutant cells .
+Surprisingly , we found that these cells <termsem="GO:0022607"> form </term> an XY body with normal morphology and proper accumulation of all the chromatin marks we examined .
+Moreover , Cot-1 <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> and analysis of RBMY <termsem="GO:0010467"> expression </term> demonstrated that MSCI initiates normally in the XY body of mid - <termsem="GO:0000239"> pachytene </term> Dmrt7 mutant cells .
+We did , however , observe three specific defects in the sex chromatin of Dmrt7 mutant germ cells that avoided <termsem="GO:0007050"> arrest </term> in <termsem="GO:0000239"> pachynema </term> and were able to enter <termsem="GO:0000240"> diplonema </term> .
+Normally cells accumulate H3-2meK9 and H3-3meK9 marks and HP1 protein on the sex chromatin as they progress to <termsem="GO:0000240"> diplonema </term> , but we observed mutant <termsem="GO:0000240"> diplotene </term> cells lacking these features .
+Thus , although a minority of Dmrt7 mutant germ cells can progress from <termsem="GO:0000239"> pachynema </term> to <termsem="GO:0000240"> diplonema </term> , there are defects in sex <termsem="GO:0016568"> chromatin modification </term> during the transition .
+A function in male sex chromatin can reconcile the findings that DMRT7 is required for <termsem="GO:0007126"> meiosis </term> , but only in males , and is present only in mammals .
+A proportion of mutant <termsem="GO:0000240"> diplotene </term> cells have apparently normal sex chromatin ( for example , Figure 8M ) ; these are likely to be the cells that can progress beyond <termsem="GO:0000240"> diplonema </term> .
+Because most Dmrt7 mutant germ cells are <termsem="GO:0012501"> eliminated </term> by <termsem="GO:0006915"> apoptosis </term> around the time at which we observed sex chromatin defects , a simple model is that the <termsem="GO:0006915"> apoptosis </term> is a consequence of the sex chromatin defects .
+The reciprocal situation ( sex chromatin defects caused by <termsem="GO:0006915"> apoptosis </term> ) is possible , but seems unlikely , because we observed mutant cells with sex chromatin defects but no indications of <termsem="GO:0006915"> apoptosis </term> .
+Alternatively , <termsem="GO:0006915"> apoptosis </term> and abnormal sex chromatin may be two independent consequences of Dmrt7 loss .
+This question can not be answered definitively until we know the detailed molecular mechanism of DMRT7 .
+A number of other proteins have been identified that interact with the XY body , including histone variants and <termsem="GO:0043412"> modified </term> histones , a testis-specific <termsem="GO:0042054"> <termsem="independent_continuant"> histone methyl transferase </term> </term> , chromobox proteins , an orphan <termsem="GO:0004872"> <termsem="independent_continuant"> receptor </term> </term> germ-cell nuclear factor , and <termsem="GO:0006310"> recombination </term> - related proteins [ 60 ] .
+A common feature of these proteins is involvement with heterochromatin and/or <termsem="GO:0016481"> <termsem="GO:0006350"> transcriptional </term> repression </term> .
+DMRT7 is unusual among XY body proteins in being related to highly site-specific <termsem="GO:0030528"> <termsem="independent_continuant"> <termsem="GO:0006350"> transcriptional </term> regulators </term> </term> .
+An attractive speculation is that DMRT7 may provide sequence specificity in <termsem="GO:0051234"> recruiting </term> other proteins , such as chromatin modifiers , to the XY body as part of the transition to PMSC .
+Chromatin <termsem="GO:0065007"> regulation </term> may be a common mechanism for DM domain proteins , as we find that other DM domain proteins associate with <termsem="GO:0016568"> chromatin modifying </term> complexes ( M. W. Murphy , D. Zarkower , and V. J. Bardwell , unpublished data ) .
+The finding that Dmrt7 is essential for mammalian <termsem="GO:0007126"> meiosis </term> expands the known functions of this gene family .
+Invertebrate DM domain genes so far have only been found to function in somatic cells .
+Two other DM domain genes , Dmrt1 and Dmrt4 , do affect <termsem="GO:0007281"> germ cell development </term> in the mouse .
+Dmrt1 is required in pre - <termsem="GO:0007126"> meiotic </term> male germ cells for <termsem="GO:0030154"> differentiation </term> of gonocytes into spermatogonia , as well as in Sertoli cells , but it is not <termsem="GO:0010467"> expressed </term> in <termsem="GO:0007126"> meiotic </term> cells [ 31 ] ( S. Kim and D. Zarkower , unpublished data ) .
+The requirement for DMRT1 in pre - <termsem="GO:0007126"> meiotic </term> germ cells and DMRT7 in <termsem="GO:0007126"> meiotic </term> germ cells demonstrates that DM domain proteins act at multiple critical points of male <termsem="GO:0007281"> germ cell development </term> .
+Ovaries of Dmrt4 mutant females have polyovular follicles ( follicles containing multiple oocytes ) , but it is unknown whether this reflects a defect in the germ line or the soma .
+It is notable that at least three mammalian DM domain genes affect <termsem="GO:0008406"> gonadal development </term> only in one sex , given the similar roles of related proteins in <termsem="GO:0065007"> directing </term> <termsem="GO:0007546"> sex-specific somatic development </term> in other phyla .
+Strikingly , Dmrt7 is present , not only in placental mammals , but also in marsupials and a monotreme ( egg-laying mammal ) , the platypus , which has a clear Dmrt7 ortholog [ 36 ] .
+However , no close Dmrt7 ortholog has been reported in nonmammalian vertebrates , and our database searches did not reveal one .
+Thus , Dmrt7 likely <termsem="GO:0009058"> arose </term> , presumably by duplication and divergence of another Dmrt gene , shortly before or coincident with the mammalian radiation .
+Monotremes have five X and five Y chromosomes , which <termsem="GO:0022607"> form </term> an extended <termsem="GO:0007129"> pairing </term> chain during <termsem="GO:0007126"> meiosis </term> and appear unrelated to the sex chromosomes of the other mammals [ 61 ] .
+The presence of Dmrt7 in both lineages may support a common origin for either the sex chromosomes or the sex chromatin of monotremes and other mammals .
+A plausible model is that Dmrt7 evolved during the establishment of mammalian sex determination to help cope with ancestral differences in gene dosage , <termsem="GO:0007129"> chromosome pairing </term> , <termsem="GO:0006310"> recombination </term> , or other <termsem="GO:0007126"> meiotic </term> issues arising from sex chromosome heteromorphy .
+In this regard , we speculate that the recruitment of Dmrt7 during mammalian evolution may be analogous to the recruitment of chromatin <termsem="GO:0065007"> regulatory </term> complexes to achieve somatic <termsem="GO:0007549"> dosage compensation </term> during evolution of heteromorphic sex chromosomes in several phyla ( reviewed in [ 62 ] ) .
+It will be of interest to determine whether DMRT7 <termsem="GO:0051179"> localizes </term> to sex chromosomes during monotreme <termsem="GO:0007126"> meiosis </term> .
+In summary , we have found that the mammal-specific DM domain protein DMRT7 is essential for <termsem="GO:0007126"> meiotic </term> <termsem="GO:0051324"> prophase </term> progression in males .
+DMRT7 <termsem="GO:0051179"> localizes </term> to the sex chromosomes after they are <termsem="GO:0022607"> assembled </term> into specialized heterochromatin , and many Dmrt7 mutant cells have epigenetic defects in the modification of the sex chromatin between <termsem="GO:0000239"> pachytene </term> and <termsem="GO:0000240"> diplotene </term> .
+Although Dmrt7 belongs to an ancient and conserved gene family , it is found only in mammals , and to our knowledge DMRT7 is the only example of a mammal-specific protein that is essential for <termsem="GO:0007126"> meiosis </term> .
+It will be important to determine the precise mechanism by which DMRT7 affects sex chromatin <termsem="GO:0065007"> regulation </term> during <termsem="GO:0007140"> male meiosis </term> .
+<termsem="GO:0000003"> Generation </term> of Dmrt7 mice .
+A mouse Dmrt7 cDNA fragment containing sequences from exon 8 was used to screen a mouse BAC library from the 129/SvJ strain ( Stratagene , http://www.stratagene.com ) , and clones containing promoter sequences were isolated and sequenced to obtain Dmrt7 genomic sequence .
+The targeting vector pDZ169 ( diagrammed in Figure S2 ) was <termsem="GO:0009058"> constructed </term> by the following scheme : The vector pDZ157 was used as a backbone vector [ 31 ] .
+3  to <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> Pgk </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> and the loxP site , we inserted , as a XmaI/XmaI DNA fragment , the third intron of Dmrt7 ( from 366 bp to 2,773 bp downstream of exon 3 ) <termsem="GO:0009058"> generated </term> by PCR .
+5  to <termsem="GO:0004618"> <termsem="GO:0050191"> <termsem="independent_continuant"> Pgk </term> </term> </term> - <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> , we inserted an EcoRI/NotI PCR fragment extending from 4,107 bp to 336 bp 5  of the Dmrt7 <termsem="GO:0006412"> translational </term> start .
+Finally , we inserted a loxP site and NotI site 336 bp 5  of the Dmrt7 <termsem="GO:0006412"> translational </term> start .
+In the resulting vector , the second and third exons of Dmrt7 are flanked by loxP sites ( floxed ) .
+The Dmrt7-containing portions of pDZ169 were completely sequenced .
+pDZ169 was linearized with PmeI and electroporated into CJ7 ES cells ( originally derived from the 129S1 strain ) .
+Three homologous recombinants were identified from 296 G418-resistant colonies by Southern <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> by use of a DNA probe from the sequences upstream of exon 1 to screen genomic DNA <termsem="GO:0009056"> digested </term> with EcoRI .
+Homologous <termsem="GO:0006310"> recombination </term> was confirmed on both ends of the targeted region by Southern <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+Probes for Southern <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> were <termsem="GO:0009058"> made </term> by PCR using primers DM5S10/DM5S11 ( 5  probe ) and DM5PR1/DM5PR2 ( 3  probe ) , listed below .
+Two targeted ES cell clones containing the floxed allele Dmrt7neo were injected into C57Bl/6 blastocysts to <termsem="GO:0000003"> generate </term> chimeras .
+Chimeric males were <termsem="GO:0007618"> bred </term> with C57Bl/6 females to <termsem="GO:0000003"> generate </term> heterozygotes carrying Dmrt7neo .
+Dmrt7 + / Dmrt7neo females were <termsem="GO:0007618"> bred </term> with male -actin-Cre transgenic mice to delete the floxed sequences and <termsem="GO:0000003"> generate </term> heterozygous Dmrt7  / + deletion mutants , which were interbred to <termsem="GO:0000003"> generate </term> homozygous Dmrt7  /  mutants .
+Genotyping and <termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR .
+For genotyping , tail-clip DNA was amplified for 35 cycles .
+Chromosomal sex was determined by PCR with primers to the Y chromosome gene Zfy ( below ) .
+The wild-type Dmrt7 allele Dmrt7 + was detected by PCR with DM5S4/DM5S5 , with an <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> temperature of 60 C .
+The Dmrt7flox allele was detected by PCR with DM5S5F/DM7KO7R with an <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> temperature of 62 C .
+The deleted Dmrt7 allele Dmrt7  was detected with DM5S3/DM7KO7R with an <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> temperature of 62 C .
+<termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR for Dmrt7 <termsem="GO:0010467"> expression </term> analysis was as described [ 23 ] using primers SK111/SK112 with an <termsem="GO:0000739"> <termsem="GO:0033592"> annealing </term> </term> temperature of 62 C .
+Primers .
+Histological analysis and TUNEL assay .
+Dissected testes were fixed in Bouin 's fixative or phosphate-buffered formalin overnight at 4 C , progressively dehydrated in a graded ethanol series , and embedded in paraffin wax .
+Sections ( 6 m ) were deparaffinized , rehydrated , and stained with hematoxylin and eosin .
+For TUNEL analyses , deparaffinized sections were treated with <termsem="GO:0008233"> <termsem="independent_continuant"> proteinase </term> </term> K for 15 min and quenched in 3.0 % hydrogen peroxide in PBS for 5 min at room temperature .
+Subsequently , nuclear staining in <termsem="GO:0006915"> apoptotic </term> cells was detected using ApopTag kit ( Chemicon , http://www.chemicon.com ) according to the manufacturer 's instructions .
+Tissue immunofluorescent staining .
+Slides with paraffin sections were washed in PBT ( 0.1 % Tween 20 in PBS ) and autoclaved in 10 mM citric acid ( pH 6.0 ) to retrieve antigenicity .
+Slides were blocked in 5 % serum ( matched to the species of the secondary antibody ) in PBS for 1 h at room temperature and incubated with primary antibodies overnight at 4 C prior to detection with secondary antibodies .
+Antibodies .
+Rabbit polyclonal antibodies to DMRT7 were <termsem="GO:0009058"> raised </term> against a purified fusion protein containing <termsem="GO:0004364"> <termsem="independent_continuant"> glutathione-S-transferase </term> </term> ( <termsem="GO:0004364"> <termsem="independent_continuant"> GST </term> </term> ) fused to the C-terminal 279 amino acids of DMRT7 .
+Antibodies to <termsem="GO:0004364"> <termsem="independent_continuant"> GST </term> </term> were removed by <termsem="GO:0004364"> <termsem="independent_continuant"> GST </term> </term> - affigel 10 chromatography and the antiserum was then purified by <termsem="GO:0004364"> <termsem="independent_continuant"> GST </term> </term> - DMRT7-affigel 15 chromatography .
+DMRT7 antibody was used at 1:200 dilution with a goat anti-rabbit secondary antibody ( Molecular Probes , http://www.invitrogen.com ) at 1:200 dilution .
+Other primary antibodies used for immunofluorescence were rat anti-GATA1 ( 1:200 , Santa Cruz Biotechnology , http://www.scbt.com , sc-265 ) , goat anti-GATA4 ( 1:200 , Santa Cruz Biotechnology , sc-1237 ) , rat anti-TRA98 ( 1:200 , gift of H. Tanaka and Y. Nishimune ) , rat anti-BC7 ( 1:50 , gift of H. Tanaka and Y. Nishimune ) , rat anti-TRA369 ( 1:200 , gift of H. Tanaka and Y. Nishimune ) , rabbit anti-RAD51 ( 1:600 Calbiochem , http://www.calbiochem.com , PC130 ) , mouse anti-GMP-1 / SUMO-1 ( 1:200 , Zymed , http://invitrogen.com , 33 -- 2400 ) , rabbit anti-phospho-H2AX ( Ser139 ) ( 1:200 , Upstate , http://www.millipore.com , 01 -- 164 ) , mouse anti-phospho-H2AX ( 1:200 , Upstate , 05 -- 636 ) , mouse anti-SYCP3 ( 1:200 , Abcam , http://www.abcam.com , ab12452 ) , rabbit anti-HP1 ( 1:100 , Abcam , ab10478 ) , rabbit anti-H3-2meK9 ( 1:100 , Upstate , 07 -- 441 ) , rabbit anti-H3-3meK9 ( 1:200 , Upstate , 07 -- 442 ) , rabbit anti- <termsem="GO:0004882"> <termsem="independent_continuant"> AR </term> </term> ( N-20 ) ( 1:200 , Santa Cruz Biotechnology , sc-816 ) , and mouse anti-SMA clone 1A4 ( 1:800 , Sigma , http://www.sigmaaldrich.com , A2547 ) .
+Secondary antibodies used were goat anti-rabbit Alexa 488 , goat anti-rabbit Alexa 594 , goat anti-rat Alexa 594 , and goat anti-mouse Alexa 488 ( Molecular Probes ) used at 1:250 .
+Donkey anti-goat FITC ( Jackson ImmunoResearch Laboratories , http://www.jacksonimmuno.com ) and donkey anti-rabbit Texas Red ( Jackson ) were used at 1:50 according to the manufacturer 's instructions .
+<termsem="GO:0007126"> Meiotic </term> chromosome spread preparations and FISH .
+<termsem="GO:0007126"> Meiotic </term> chromosome spread preparations were made from 3-wk-old mice , prepared as described by Reinholdt et al. [ 63 ] .
+For analysis of PMSC and Cot-1 RNA FISH , <termsem="GO:0007126"> meiotic </term> slides were prepared as previously described [ 16 ] .
+Slides containing chromosome spreads or <termsem="GO:0007126"> meiotic </term> spermatocytes were subjected to immunofluorescent staining or RNA FISH , as previously described [ 16,63 ] .
+For combined RNA FISH/immunostaining , we carried out RNA FISH first , followed by immunofluorescence .
+DNA FISH was performed using chromosome painting ( Cambio , http://www.cambio.co.uk ) .
+Z-sections were captured by Zeiss Axioplan microscope ( Zeiss , http://www.zeiss.com ) and processed by Openlab ( Improvision , http://www.improvision.com ) .
+Wild-Type and Dmrt7 Mutant <termsem="GO:0007126"> Meiotic </term> Spreads .
+Arrows indicate the location of XY body .
+SYCP3 antibody staining ( green ) shows normal <termsem="GO:0007129"> synapsis </term> of homologous chromosome synapse in Dmrt7 mutant cell .
+DMRT7 protein ( red ) is <termsem="GO:0051179"> localized </term> to the XY body in wild-type ( top row ) and is not detected in Dmrt7 mutant ( bottom row ) .
+Click here for additional data file .
+Targeted Disruption of Dmrt7 .
+( A ) Diagram of targeting strategy .
+Homologous <termsem="GO:0006310"> recombination </term> of the targeting vector with the wild-type Dmrt7 allele ( Dmrt7 + ) resulted in the targeted allele Dmrtneo .
+This allele contains loxP sites flanking the <termsem="GO:0006412"> translational </term> start and the second and third exons ( containing the DM domain , gray ) , as well as a neomycine-resistance cassette flanked by Flp <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> recognition sites ( frt sites ) .
+Mice heterozygous for the Dmrt1neo allele were <termsem="GO:0007618"> mated </term> with transgenic mice <termsem="GO:0010467"> expressing </term> Cre <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> , resulting in deletion of the sequence between the two loxP sites , including the <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> cassette .
+The resulting deletion allele is called Dmrt7  .
+<termsem="GO:0007618"> Mating </term> of Dmrt7neo mice with transgenic mice <termsem="GO:0010467"> expressing </term> the Flpe <termsem="GO:0000150"> <termsem="GO:0009009"> <termsem="independent_continuant"> recombinase </term> </term> </term> excised the <termsem="GO:0008910"> <termsem="independent_continuant"> neo </term> </term> cassette , <termsem="GO:0009058"> generating </term> the Dmrt7flox allele .
+( B ) Southern blots of targeted and wild-type ES cell clones .
+Genomic DNAs from ES cell clones were <termsem="GO:0009056"> digested </term> with NsiI/NotI and EcoRI .
+The 5  external probe <termsem="GO:0000739"> <termsem="GO:0033592"> hybridizes </term> </term> to 14.2-kb ( wild-type ) and 6-kb ( targeted ) NsiI/NotI fragments .
+The 3  probe <termsem="GO:0000739"> <termsem="GO:0033592"> hybridizes </term> </term> to 14.6-kb ( wild-type ) and 4.7-kb ( targeted ) EcoRI fragments .
+( C ) Testis sections from adult mice .
+SUMO-1 ( green ) on XY body is detected in both wild-type ( top ) and Dmrt7 mutant ( bottom ) section .
+DMRT7 is detected in wild-type but not detected in Dmrt7 mutant in SUMO-1-positive cells .
+( Wild-type images are the same as in Figure 1D . )
+Click here for additional data file .
+Normal <termsem="GO:0004882"> <termsem="independent_continuant"> Androgen Receptor </term> </term> <termsem="GO:0010467"> Expression </term> in Dmrt7 Mutant Sertoli Cells .
+Testis sections from adult mice stained with antibody to <termsem="GO:0004882"> <termsem="independent_continuant"> androgen receptor </term> </term> ( red ) and counterstained with DAPI ( blue ) .
+In both wild-type ( top ) and mutant ( bottom ) testis sections , <termsem="GO:0004882"> <termsem="independent_continuant"> androgen receptor </term> </term> protein is <termsem="GO:0010467"> expressed </term> in Sertoli cell and peritubular myoid cell .
+Mutant testis section shows abnormal localization of Sertoli cell nuclei , which are displaced from basement membrane .
+<termsem="GO:0004882"> <termsem="independent_continuant"> AR </term> </term> , <termsem="GO:0004882"> <termsem="independent_continuant"> androgen receptor </term> </term> .
+Click here for additional data file .
+<termsem="GO:0016567"> Ub </term> - H2A <termsem="GO:0051179"> Localization </term> to XY Body in Dmrt7 Mutant Spermatocyte .
+Spread <termsem="GO:0000239"> pachytene </term> spermatocytes from wild-type ( top ) and Dmrt7 mutant ( bottom ) mice , stained with antibody to <termsem="GO:0016567"> Ub </term> - H2A ( green ) and DAPI ( blue ) .
+Arrows indicate XY body .
+Both wild-type and mutant <termsem="GO:0000239"> pachytene </term> cells have <termsem="GO:0016567"> Ub </term> - H2A properly <termsem="GO:0051179"> localized </term> to XY body .
+Click here for additional data file .
+RBMY <termsem="GO:0016458"> Silencing </term> in Dmrt7 Mutant Spermatocytes .
+( A ) SYCP3 ( green ) and RBMY ( red ) immunostaining of spread wild-type and Dmrt7 mutant testicular cells .
+In wild-type and mutant cells , RBMY is <termsem="GO:0010467"> expressed </term> at low levels in <termsem="GO:0000237"> leptotene stage </term> .
+In <termsem="GO:0000239"> pachytene </term> spermatocytes , RBMY has fallen to background levels in both wild-type and mutant .
+( B ) SUMO-1 ( green ) and RBMY ( red ) immunostaining of adult testis sections from wild-type and Dmrt7 mutant .
+Pre - <termsem="GO:0007126"> meiotic </term> cells near the basal membrane <termsem="GO:0010467"> express </term> high level of RBMY whereas SUMO-1-positive <termsem="GO:0000239"> pachytene </term> cells do not <termsem="GO:0010467"> express </term> RBMY , in both wild-type and mutant , indicating proper <termsem="GO:0016458"> silencing </term> .
+Click here for additional data file .
+We thank members of the Zarkower and Bardwell labs for many helpful discussions ; Dan Camerini-Otero , John Logsdon , and Scott Hawley for insights into evolution of <termsem="GO:0007126"> meiotic </term> regulators ; Hiromitsu Tanaka , Yoshitake Nishimune , and David Elliot for generously sharing antibodies ; and Dies Meijer for sharing Dhh-Cre mice .
+We thank the University of Minnesota Mouse Genetics Laboratory for ES cell injection .
+Some images were obtained using the Middlebury Biology Imaging Facility , equipped in part through the National Science Foundation ( Course , Curriculum , and Laboratory Improvement , 0088412 ) .
+SHN is a research fellow of the Japan Society for Promotion of Science .
+DM - Doublesex/MAB -3 domain .
+ES - embryonic stem .
+FISH - fluorescence in situ <termsem="GO:0000739"> <termsem="GO:0033592"> hybridization </term> </term> .
+<termsem="GO:0004364"> <termsem="independent_continuant"> GST </term> </term> - <termsem="GO:0004364"> <termsem="independent_continuant"> glutathione-S-transferase </term> </term> .
+HP1 - heterochromatin protein 1 beta .
+H2AX - <termsem="GO:0016310"> phosphorylated </term> H2AX .
+MSCI - <termsem="GO:0007126"> meiotic </term> sex chromosome inactivation .
+P14 - postnatal day 14 .
+PMSC - postmeiotic sex chromatin .
+<termsem="GO:0003964"> <termsem="independent_continuant"> RT </term> </term> - PCR - <termsem="GO:0003964"> <termsem="independent_continuant"> reverse transcriptase </term> </term> - PCR .
+SUMO-1 - small ubiquitin-related modifier 1 .
+<termsem="GO:0016567"> Ub </term> - H2A - <termsem="GO:0016567"> ubiquitinated </term> H2A .
+Competing interests .
+The authors have declared that no competing interests exist .
+A previous version of this article appeared as an Early Online Release on March 7 , 2007 ( doi : 10.1371 / journal.pgen .0030062 .
+eor ) .
+Author contributions .
+All authors conceived and designed the experiments and analyzed the data .
+SK , SHN , LMN , and JOW performed the experiments .
+JOW contributed reagents/materials/analysis tools .
+SK , SHN , JOW , JTL , VJB , and DZ wrote the paper .
+Funding .
+This work was supported by the US National Institutes of Health ( GM059152 ) and the Minnesota Medical Foundation .
+LMN was supported by the Bicentennial Fund of Middlebury College .

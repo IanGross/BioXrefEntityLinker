@@ -1,0 +1,3439 @@
+# ::snt Identification and targeted disruption of the mouse gene encoding ESG1 ( PH34/ECAT2/DPPA5 ) .
+# ::tok Identification and targeted disruption of the mouse gene encoding ESG1 ( PH34/ECAT2/DPPA5 ) .
+# ::alignments 9-10|0.0.1.0+0.0.1+0.0 8-9|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.0 3-4|0.1.1 2-3|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:12.266
+(t / target-01 
+      :ARG1 (p / person 
+            :ARG1-of (e / encode-01 
+                  :ARG0 (g / gene 
+                        :mod (m / mouse))) 
+            :name (n / name 
+                  :op1 "ESG1")) 
+      :op2-of (a / and 
+            :op1 (i / identification) 
+            :op3 (d / disruption)))
+
+# ::snt Embryonic stem cell-specific gene ( ESG ) 1 , which encodes a KH-domain containing protein , is specifically expressed in early embryos , germ cells , and embryonic stem ( ES ) cells .
+# ::tok Embryonic stem cell-specific gene ( ESG ) 1 , which encodes a KH-domain containing protein , is specifically expressed in early embryos , germ cells , and embryonic stem ( ES ) cells .
+# ::alignments 32-33|0.1.0.3 30-31|0.1.0.0.2.0 28-29|0.1.0.3.0 27-28|0.0.0 26-27|0.1.0 24-25|0.1.0.2 23-24|0.1.0.2.0 21-22|0.1.0.0.1 20-21|0.1.0.0.3 18-19|0.1.0.0 17-18|0.1.0.0.2 14-15|0 13-14|0.1 10-11|0.0 7-8|0.1.0.3.0.0 5-6|0.1.0.1.0.0+0.1.0.1.0+0.1.0.1 3-4|0.1.0.0.0.0.0 1-2|0.1.0.0.0.0 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:13.433
+(p / protein 
+      :ARG1-of (e6 / encode-01 
+            :ARG0 (e2 / embryonic)) 
+      :ARG1-of (c3 / contain-01 
+            :ARG0 (a / and 
+                  :ARG1-of (e5 / express-01 
+                        :ARG0 (e7 / embryonic 
+                              :ARG0-of (s3 / stem-01 
+                                    :ARG1 (g2 / gene))) 
+                        :ARG2 (e3 / embryo) 
+                        :manner (s2 / specific-02 
+                              :ARG1 (e / e)) 
+                        :time (e4 / early)) 
+                  :op1 (o / organization 
+                        :name (n / name 
+                              :op1 "ESG")) 
+                  :op2 (c2 / cell 
+                        :mod (g / germ)) 
+                  :op3 (c / cell 
+                        :mod (s / stem 
+                              :mod 1)))))
+
+# ::snt Previous studies identified genomic clones containing the mouse ESG1 gene and five pseudogenes .
+# ::tok Previous studies identified genomic clones containing the mouse ESG1 gene and five pseudogenes .
+# ::alignments 12-13|0.1.0.1.0 11-12|0.1.1 10-11|0.1.0.1 9-10|0.1.0.0 7-8|0.0.1 5-6|0.1.0 4-5|0.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:14.035
+(i / identify-01 
+      :ARG0 (s / study-01 
+            :mod (p2 / previou) 
+            :op1-of (m / mouse)) 
+      :ARG1 (c2 / clone-01 
+            :ARG0-of (c / contain-01 
+                  :ARG1 (g / gene) 
+                  :op1-of (a / and 
+                        :op2 (p / pseudogen))) 
+            :ARG1 5))
+
+# ::snt However , their chromosomal localizations or physiological functions have not been determined .
+# ::tok However , their chromosomal localizations or physiological functions have not been determined .
+# ::alignments 11-12|0 9-10|0.1 7-8|0.0 6-7|0.0.1.1 5-6|0.0.1 4-5|0.0.1.0 3-4|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:14.107
+(d / determined-02 
+      :ARG0 (f / function-01 
+            :ARG1 (c / chromosomal) 
+            :op3-of (o / or 
+                  :op1 (l / localization) 
+                  :op2 (p / physiological))) 
+      :polarity -)
+
+# ::snt A Blast search of mouse genomic databases failed to locate the ESG1 gene .
+# ::tok A Blast search of mouse genomic databases failed to locate the ESG1 gene .
+# ::alignments 12-13|0.1.0 11-12|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 9-10|0.1 7-8|0 6-7|0.0.0 4-5|0.0.0.0 2-3|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:14.653
+(f / fail-01 
+      :ARG1 (s / search-01 
+            :ARG1 (d / database 
+                  :mod (m / mouse)) 
+            :ARG1-of (b / blast-01)) 
+      :ARG2 (l / locate-02 
+            :ARG1 (g / gene 
+                  :mod (p / person 
+                        :name (n / name 
+                              :op1 "ESG1")))))
+
+# ::snt We identified several bacterial artificial clones containing the mouse ESG1 gene and an additional ESG1-like sequence with a similar gene structure from chromosome 9 .
+# ::tok We identified several bacterial artificial clones containing the mouse ESG1 gene and an additional ESG1-like sequence with a similar gene structure from chromosome 9 .
+# ::alignments 23-24|0.0.1.1.0.0.0.1 22-23|0.0.2 20-21|0.0 19-20|0.0.0 18-19|0 15-16|0.0.1 13-14|0.0.1.0 11-12|0.0.1.1 10-11|0.0.1.1.0.1 9-10|0.0.1.1.1.1.0+0.0.1.1.1.1+0.0.1.1.1 8-9|0.0.1.1.1.0 6-7|0.0.1.1.0 5-6|0.0.1.1.0.0 4-5|0.0.1.1.0.0.1 3-4|0.0.1.1.0.0.2 2-3|0.0.1.1.0.0.3 1-2|0.0.1.1.0.0.0 0-1|0.0.1.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:16.000
+(r / resemble-01 
+      :ARG1 (s / structure 
+            :mod (g / gene) 
+            :prep-with-of (s2 / sequence 
+                  :mod (a / additional) 
+                  :op2-of (a2 / and 
+                        :ARG1-of (c2 / contain-01 
+                              :ARG0 (c3 / clone-01 
+                                    :ARG1-of (i / identify-01 
+                                          :ARG0 (w / we) 
+                                          :ARG2 9) 
+                                    :mod (a3 / artificial) 
+                                    :mod (b / bacterial) 
+                                    :quant (s3 / several)) 
+                              :ARG2 (g2 / gene)) 
+                        :op1 (p / person 
+                              :mod (m / mouse) 
+                              :name (n / name 
+                                    :op1 "ESG1")))) 
+            :source (c / chromosome)))
+
+# ::snt The ESG1-like sequence contained a multiple critical mutations , indicating that it was a duplicated pseudogene .
+# ::tok The ESG1-like sequence contained a multiple critical mutations , indicating that it was a duplicated pseudogene .
+# ::alignments 15-16|0.0.0.0 14-15|0.0.0.0.0 9-10|0.0.0 7-8|0.1 6-7|0.1.0 5-6|0.1.1 3-4|0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:16.069
+(c2 / contain-01 
+      :ARG0 (s / sequence 
+            :ARG0-of (i / indicate-01 
+                  :ARG1 (p / pseudogene 
+                        :ARG1-of (d / duplicate-01)))) 
+      :ARG1 (m / mutate-01 
+            :ARG1-of (c / critical-02) 
+            :quant (m2 / multiple)))
+
+# ::snt The 5 ' flanking region of the ESG1 gene , but not that of the pseudogene , exhibited strong enhancer and promoter activity in undifferentiated ES cells by luciferase reporter assay .
+# ::tok The 5 ' flanking region of the ESG1 gene , but not that of the pseudogene , exhibited strong enhancer and promoter activity in undifferentiated ES cells by luciferase reporter assay .
+# ::alignments 30-31|0.0.1.0 29-30|0.0.0.1.0.0 26-27|0.0.0.1.0 25-26|0.0.0.1.0.1 24-25|0.0.0.1.0.2 22-23|0.0.1 21-22|0.0.1.1 20-21|0.0 19-20|0.0.0.1 18-19|0.0.0.1.1 17-18|0.0.0 15-16|0.0.1.1.1 12-13|0.0.1.1.1.0 11-12|0.0.1.1.0 10-11|0 8-9|0.1 7-8|0.1.0.0.0+0.1.0.0+0.1.0 4-5|0.0.0.0 3-4|0.0.0.0.0 1-2|0.0.0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:18.765
+(c2 / contrast-01 
+      :ARG1 (a3 / and 
+            :ARG1-of (e3 / exhibit-01 
+                  :ARG0 (r2 / region 
+                        :ARG1-of (f / flank-01)) 
+                  :ARG2 (e2 / enhance-01 
+                        :ARG1 (c / cell 
+                              :ARG1-of (r / report-01 
+                                    :ARG0 5) 
+                              :mod (e / e) 
+                              :mod (u / undifferentiat)) 
+                        :ARG1-of (s / strong-02))) 
+            :op1 (a2 / activity-06 
+                  :ARG0 (a / assay) 
+                  :ARG1 (p / promote-01 
+                        :ARG0 - 
+                        :ARG1 (p2 / pseudogene 
+                              :mod (t / that))))) 
+      :ARG2 (g / gene 
+            :mod (p3 / person 
+                  :name (n / name 
+                        :op1 "ESG1"))))
+
+# ::snt To study the physiological functions of the ESG1 gene , we replaced this sequence in ES cells with a -geo cassette by homologous recombination .
+# ::tok To study the physiological functions of the ESG1 gene , we replaced this sequence in ES cells with a -geo cassette by homologous recombination .
+# ::alignments 23-24|0.0.0.1.2 22-23|0 20-21|0.0.0.1.0 16-17|0.0.0.1.3 15-16|0.0.0.1.3.0 13-14|0.0.0.1.1 12-13|0.0.0.1.1.0 11-12|0.0.0.1 10-11|0.0.0 8-9|0.0.0.0.0 7-8|0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 4-5|0.0.0.0 3-4|0.0.0.0.1 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:19.164
+(h / homologou 
+      :ARG0-of (s2 / study-01 
+            :ARG1 (w / we 
+                  :ARG0-of (f / function-01 
+                        :ARG1 (g / gene 
+                              :mod (p / person 
+                                    :name (n / name 
+                                          :op1 "ESG1"))) 
+                        :mod (p2 / physiological)) 
+                  :ARG0-of (r2 / replace-01 
+                        :ARG1 (c / cassette) 
+                        :ARG2 (s / sequence 
+                              :mod (t / this)) 
+                        :destination (r / recombination) 
+                        :location (c2 / cell 
+                              :mod (e / e))))))
+
+# ::snt Despite specific expression in early embryos and germ cells , ESG1 - / - mice developed normally and were fertile .
+# ::tok Despite specific expression in early embryos and germ cells , ESG1 - / - mice developed normally and were fertile .
+# ::alignments 19-20|0.2 17-18|0 16-17|0.1.2 15-16|0.1 14-15|0.1.0 12-13|0.0 8-9|0.1.1.0.1 7-8|0.1.1.0.1.0 6-7|0.1.1.0 5-6|0.1.1.0.0 4-5|0.1.1.0.0.0 2-3|0.1.1 1-2|0.1.1.1 0-1|0.1.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:19.314
+(a / and 
+      :op1 (s / slash) 
+      :op2 (d / develop-02 
+            :ARG0 (m / mouse) 
+            :ARG1 (e3 / express-01 
+                  :ARG1 (a2 / and 
+                        :op1 (e / embryo 
+                              :mod (e2 / early)) 
+                        :op2 (c / cell 
+                              :mod (g / germ))) 
+                  :ARG1-of (s2 / specific-02) 
+                  :op1-of (d2 / despite)) 
+            :ARG1-of (n / normal-02)) 
+      :op3 (f / fertile))
+
+# ::snt We also generated ESG1 - / - ES cells both by a second independent homologous recombination and directly from blastocysts derived from heterozygous intercrosses .
+# ::tok We also generated ESG1 - / - ES cells both by a second independent homologous recombination and directly from blastocysts derived from heterozygous intercrosses .
+# ::alignments 23-24|0.0 22-23|0 20-21|0.0.0 19-20|0.0.0.1 17-18|0.0.0.1.0 16-17|0.0.0.2.0.1 15-16|0.0.0.2.0 14-15|0.0.0.2.0.0 13-14|0.0.0.2.1+0.0.0.2 9-10|0.0.0.0 8-9|0.0.0.2.0.1.0.1 7-8|0.0.0.2.0.1.0.1.0 5-6|0.0.0.1.0.0 2-3|0.0.0.2.0.1.0 1-2|0.0.0.2.0.1.0.2 0-1|0.0.0.2.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:20.414
+(h / heterozygou 
+      :mod-of (i / intercross 
+            :ARG2-of (d / derive-01 
+                  :ARG0 (b2 / both) 
+                  :ARG1 (b / blastocyst 
+                        :ARG2-of (d2 / direct-02 
+                              :ARG1 (s / slash))) 
+                  :ARG1-of (d3 / depend-01 
+                        :ARG0 (r / recombination 
+                              :mod (h2 / homologou) 
+                              :op1-of (a / and 
+                                    :ARG2-of (g / generate-01 
+                                          :ARG0 (w / we) 
+                                          :ARG1 (c / cell 
+                                                :mod (e / e)) 
+                                          :mod (a2 / also)))) 
+                        :polarity -))))
+
+# ::snt Northern blot and western blot analyses confirmed the absence of ESG1 in these cells .
+# ::tok Northern blot and western blot analyses confirmed the absence of ESG1 in these cells .
+# ::alignments 13-14|0.1.1 12-13|0.1.1.0 10-11|0.1.0.0.0+0.1.0.0+0.1.0 8-9|0.1 6-7|0 5-6|0.0.2 4-5|0.0.2.0 3-4|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 2-3|0.0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:20.520
+(c2 / confirm-01 
+      :ARG0 (a3 / and 
+            :op1 (b2 / blot-01 
+                  :mod "Northern_Ireland") 
+            :op2 (w / world-region 
+                  :name (n2 / name 
+                        :op1 "West") 
+                  :wiki "Western_world") 
+            :op3 (a2 / analysis 
+                  :ARG1-of (b / blot-01))) 
+      :ARG1 (a / absent-01 
+            :ARG1 (p / person 
+                  :name (n / name 
+                        :op1 "ESG1")) 
+            :location (c / cell 
+                  :mod (t / this))))
+
+# ::snt These ES cells demonstrated normal morphology , proliferation , and differentiation .
+# ::tok These ES cells demonstrated normal morphology , proliferation , and differentiation .
+# ::alignments 10-11|0.2.1 9-10|0.2 7-8|0.2.0 5-6|0.1 4-5|0.1.0 3-4|0 2-3|0.0 1-2|0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:20.958
+(d2 / demonstrate-01 
+      :ARG0 (c / cell 
+            :mod (t / this) 
+            :mod (e / e)) 
+      :ARG1 (m / morphology 
+            :ARG1-of (n / normal-02)) 
+      :op1-of (a / and 
+            :op2 (p / proliferate-01) 
+            :op3 (d / differentiation)))
+
+# ::snt The mouse ESG1 gene , together with a duplicated pseudogene , is located on chromosome 9 .
+# ::tok The mouse ESG1 gene , together with a duplicated pseudogene , is located on chromosome 9 .
+# ::alignments 15-16|0.0 14-15|0.2.2 12-13|0.2 9-10|0.1 8-9|0 5-6|0.2.0 3-4|0.2.1 2-3|0.2.1.0.1.0+0.2.1.0.1+0.2.1.0 1-2|0.2.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:21.447
+(d / duplicate-01 
+      :ARG0 9 
+      :ARG1 (p / pseudogene) 
+      :ARG2 (l / locate-01 
+            :ARG0 (t / together) 
+            :ARG1 (g / gene 
+                  :mod (p2 / person 
+                        :mod (m / mouse) 
+                        :name (n / name 
+                              :op1 "ESG1"))) 
+            :location (c / chromosome)))
+
+# ::snt Despite its specific expression in pluripotent cells and germ cells , ESG1 is dispensable for self-renewal of ES cells and establishment of germcells .
+# ::tok Despite its specific expression in pluripotent cells and germ cells , ESG1 is dispensable for self-renewal of ES cells and establishment of germcells .
+# ::alignments 22-23|0.0.0.0.0 20-21|0.0.0.0 19-20|0.0.0.3 18-19|0.0.0.3.0 17-18|0.0.0.3.0.1 15-16|0.0.0.3.0.0 13-14|0.0.0.1 11-12|0.0.0.2.0+0.0.0.2+0.0.0 9-10|0.0.3.0 8-9|0.0.3.0.0 7-8|0.0.3 6-7|0.0.1 5-6|0.0.1.0 3-4|0.0 2-3|0.0.2 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:21.638
+(d2 / despite 
+      :op1 (e3 / express-01 
+            :ARG0 (p / person 
+                  :ARG0-of (e / establish-01 
+                        :location (g / germcell)) 
+                  :domain-of (d / dispensable) 
+                  :name (n / name 
+                        :op1 "ESG1") 
+                  :op1-of (a / and 
+                        :op2 (c / cell 
+                              :domain-of (s / self-renewal) 
+                              :mod (e2 / e)))) 
+            :ARG1 (c3 / cell 
+                  :mod (p2 / pluripotent)) 
+            :ARG1-of (s2 / specific-02) 
+            :location (a2 / and 
+                  :op1 (c2 / cell 
+                        :mod (g2 / germ)))))
+
+# ::snt Embryonic stem ( ES ) cells were first derived from the blastocysts of mice in 1981 [ 1,2 ] and humans in 1998 [ 3 ] .
+# ::tok Embryonic stem ( ES ) cells were first derived from the blastocysts of mice in 1981 [ 1,2 ] and humans in 1998 [ 3 ] .
+# ::alignments 24-25|0.0 22-23|0.0.0.3.0+0.0.0.3 20-21|0.0.0.2.0 19-20|0.0.0.2 15-16|0.0.0.1.1.0+0.0.0.1.1 13-14|0.0.0.1.0 11-12|0.0.0.1 8-9|0.0.0 5-6|0.0.0.0 3-4|0 1-2|0.0.0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:22.031
+(e / e 
+      :mod (3 / 3 
+            :op1 (d3 / derive-01 
+                  :ARG1 (c / cell 
+                        :mod (s / stem 
+                              :mod (e2 / embryonic))) 
+                  :ARG2 (b / blastocyst 
+                        :mod (m / mouse) 
+                        :time (d2 / date-entity 
+                              :year 1981)) 
+                  :duration (a / and 
+                        :op1 (h / human)) 
+                  :op1-of (d / date-entity 
+                        :year 1998))))
+
+# ::snt ES cells have two important properties : theability to maintain pluripotency , which is the ability to differentiate into a wide variety of cells , and rapid proliferation .
+# ::tok ES cells have two important properties : theability to maintain pluripotency , which is the ability to differentiate into a wide variety of cells , and rapid proliferation .
+# ::alignments 27-28|0.0.0.0 26-27|0.0.0.0.0 25-26|0.0.0 23-24|0.2 21-22|0 20-21|0.1 17-18|0.0 15-16|0.0.1 10-11|0.0.0.1.1 9-10|0.0.0.1 5-6|0.0.0.2 4-5|0.0.0.2.0 3-4|0.0.0.2.1 1-2|0.0.0.1.0 0-1|0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:23.047
+(v / variety 
+      :ARG1-of (d / differentiate-01 
+            :ARG0 (a / and 
+                  :ARG0-of (p / proliferate-01 
+                        :manner (r / rapid)) 
+                  :ARG1-of (m / maintain-01 
+                        :ARG0 (c2 / cell 
+                              :mod (e / e)) 
+                        :ARG2 (p2 / pluripotency)) 
+                  :op1 (p3 / property 
+                        :mod (i / important) 
+                        :quant 2)) 
+            :purpose-of (a2 / ability)) 
+      :ARG1-of (w / wide-02) 
+      :domain (c / cell))
+
+# ::snt These characteristics make mouse ES cells an essential component of gene targeting technology .
+# ::tok These characteristics make mouse ES cells an essential component of gene targeting technology .
+# ::alignments 12-13|0.0.0.0.1 11-12|0.0.0.0 10-11|0.0.0.0.0 8-9|0.0.0 7-8|0.0.0.1 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 1-2|0+0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:23.442
+(c3 / characteristic-02 
+      :ARG1 (c2 / cell 
+            :domain-of (c / component 
+                  :ARG2-of (t2 / target-01 
+                        :ARG0 (g / gene) 
+                        :ARG1 (t / technology)) 
+                  :mod (e / essential)) 
+            :mod (e2 / e 
+                  :mod (m / mouse))) 
+      :ARG2 (t3 / thing 
+            :mod (t4 / this)))
+
+# ::snt These qualitiesalso make human ES cells attractive sources for cell transplantation therapy to treat various diseases , including spinal cord injuries and juvenile diabetes .
+# ::tok These qualitiesalso make human ES cells attractive sources for cell transplantation therapy to treat various diseases , including spinal cord injuries and juvenile diabetes .
+# ::alignments 23-24|0.2 22-23|0.2.0 21-22|0 20-21|0.1 19-20|0.1.1 18-19|0.1.2 15-16|0.0.0.0.1 14-15|0.0.0.0.1.0 13-14|0.0.0.0 11-12|0.0.0.0.2 10-11|0.0.0.0.2.0 9-10|0.0.0.0.2.0.0 7-8|0.0.0 6-7|0.0 5-6|0.0.1 3-4|0.1.0 1-2|0.0.0.0.0 0-1|0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:24.599
+(a / and 
+      :op1 (a2 / attract-01 
+            :ARG0 (s2 / source 
+                  :location-of (t / treat-01 
+                        :ARG0 (q / qualitiesalso 
+                              :mod (t4 / this)) 
+                        :ARG1 (d2 / disease 
+                              :mod (v / various)) 
+                        :ARG2 (t2 / therapy 
+                              :mod (t3 / transplantation 
+                                    :mod (c2 / cell))))) 
+            :ARG1 (c3 / cell)) 
+      :op2 (i / injure-01 
+            :ARG0 (h / human) 
+            :ARG1 (c / cord) 
+            :mod (s / spinal)) 
+      :op3 (d / diabetes 
+            :mod (j / juvenile)))
+
+# ::snt The molecular mechanisms underlying the pluripotency and rapid proliferation of ES cells are currently a major focus of the field of stem cell biology [ 4-6 ] .
+# ::tok The molecular mechanisms underlying the pluripotency and rapid proliferation of ES cells are currently a major focus of the field of stem cell biology [ 4-6 ] .
+# ::alignments 23-24|0.0.1.0.0.1.1 22-23|0.0.1.0.0.1 21-22|0.0.1.0.0.1.0 19-20|0.0.1.0.0.0 16-17|0.0.1.0.0 15-16|0.0.1.0.0.2 13-14|0.0.1.0.0.3 11-12|0.0.0 10-11|0.0.0.0 8-9|0.0 7-8|0.0.2 6-7|0 3-4|0.0.1 2-3|0.0.1.0 1-2|0.0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:25.102
+(a / and 
+      :op1 (p / proliferate-01 
+            :ARG0 (c3 / cell 
+                  :mod (e / e)) 
+            :ARG1-of (u / underlie-01 
+                  :ARG0 (m2 / mechanism 
+                        :ARG2-of (f2 / focus-01 
+                              :ARG0 (f / field) 
+                              :ARG1 (c / cell 
+                                    :mod (s / stem) 
+                                    :mod-of (b / biology)) 
+                              :ARG1-of (m / major-02) 
+                              :time (c2 / current)) 
+                        :mod (m3 / molecule))) 
+            :manner (r / rapid)))
+
+# ::snt To identify molecules essential in ES cells for these properties , several groups have utilized transcriptome analyses to identify genes specifically expressed in ES cells and early embryos .
+# ::tok To identify molecules essential in ES cells for these properties , several groups have utilized transcriptome analyses to identify genes specifically expressed in ES cells and early embryos .
+# ::alignments 27-28|0.3 26-27|0.2 25-26|0 24-25|0.1 21-22|0.0 20-21|0.0.1 19-20|0.0.0 18-19|0.0.0.0 16-17|0.0.0.0.0.0.0 14-15|0.0.0.0.0.0 12-13|0.0.0.0.0 11-12|0.0.0.0.0.2 9-10|0.0.1.0.0 8-9|0.0.1.0 6-7|0.0.0.0.0.1.0.0.0 5-6|0.0.0.0.0.1.0.0.0.0 3-4|0.0.0.0.0.1.0.0 2-3|0.0.0.0.0.1.0 1-2|0.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:25.539
+(a / and 
+      :ARG2-of (e3 / express-01 
+            :ARG1 (g / gene 
+                  :ARG1-of (i / identify-01 
+                        :ARG0 (g2 / group 
+                              :ARG0-of (u / utilize-01 
+                                    :ARG1 (a2 / analysis)) 
+                              :ARG0-of (i2 / identify-01 
+                                    :ARG1 (m / molecule 
+                                          :mod (e5 / essential 
+                                                :location (c2 / cell 
+                                                      :mod (e4 / e))))) 
+                              :quant (s2 / several)))) 
+            :manner (s / specific-02 
+                  :ARG1 (t / this 
+                        :mod-of (p / property)))) 
+      :op1 (c / cell) 
+      :op2 (e2 / early) 
+      :op3 (e / embryo))
+
+# ::snt These analyses , including DNA microarray analyses [ 7 ] and expressed sequence tag analyses [ 8-12 ] , identified several common transcripts , including ESG1 that was also designated dppa5 or ECAT2 .
+# ::tok These analyses , including DNA microarray analyses [ 7 ] and expressed sequence tag analyses [ 8-12 ] , identified several common transcripts , including ESG1 that was also designated dppa5 or ECAT2 .
+# ::alignments 31-32|0.1 29-30|0.4.0 28-29|0.4.0.1 25-26|0.4.1.0+0.4.1+0.4 22-23|0.3.1 21-22|0.3.1.0 20-21|0.3.1.1 19-20|0.3 14-15|0.2.1 13-14|0.2.1.0 12-13|0.2.1.0.0 11-12|0.2 10-11|0 8-9|0.4.0.0 6-7|0.2.0 5-6|0.2.0.0 4-5|0.3.0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:26.377
+(a3 / and 
+      :op1 (a5 / analysis 
+            :mod (t3 / this)) 
+      :op1-of (o / or) 
+      :op2 (e / express-01 
+            :ARG0 (a4 / analysis 
+                  :mod (m / microarray)) 
+            :ARG1 (a2 / analysis 
+                  :ARG0-of (t2 / tag-01 
+                        :ARG1 (s2 / sequence)))) 
+      :op3 (i / identify-01 
+            :ARG0 (d2 / DNA) 
+            :ARG1 (t / transcript 
+                  :mod (c / common) 
+                  :quant (s / several))) 
+      :op4 (p / person 
+            :ARG1-of (d / designate-01 
+                  :ARG2 7 
+                  :mod (a / also)) 
+            :name (n / name 
+                  :op1 "ESG1")))
+
+# ::snt ESG1 was originally identified as a transcript Ph34 that was down-regulated by retinoic acid in embryonic carcinoma cells [ 13 ] .
+# ::tok ESG1 was originally identified as a transcript Ph34 that was down-regulated by retinoic acid in embryonic carcinoma cells [ 13 ] .
+# ::alignments 19-20|0.0 17-18|0.2.0.0.0 16-17|0.2.0.0 15-16|0.2.0.0.0.0 13-14|0.2.0 7-8|0.2 6-7|0.2.1.0+0.2.1 3-4|0 2-3|0.3 0-1|0.1.0.0+0.1.0+0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:26.502
+(i / identify-01 
+      :ARG0 13 
+      :ARG1 (p2 / person 
+            :name (n / name 
+                  :op1 "ESG1")) 
+      :ARG2 (p / Ph34 
+            :location (a / acid 
+                  :source (c2 / carcinoma 
+                        :mod-of (c / cell 
+                              :mod (e / embryonic)))) 
+            :mod (t / thing 
+                  :ARG1-of (t2 / transcribe-01))) 
+      :time (o / original))
+
+# ::snt The expression of this gene was confined in mice to early embryos and germ cells [ 14 ] .
+# ::tok The expression of this gene was confined in mice to early embryos and germ cells [ 14 ] .
+# ::alignments 16-17|0.0 14-15|0.1.0.0 13-14|0.1.0 12-13|0.2.1 11-12|0.2 10-11|0.2.0 8-9|0.3 6-7|0 4-5|0.1.1 3-4|0.1.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:26.655
+(c2 / confine-01 
+      :ARG0 14 
+      :ARG1 (e3 / express-01 
+            :ARG0 (g / germ 
+                  :mod-of (c / cell)) 
+            :ARG1 (g2 / gene 
+                  :mod (t / this))) 
+      :ARG2 (e / embryo 
+            :mod (e2 / early) 
+            :op1-of (a / and)) 
+      :location (m / mouse))
+
+# ::snt It is also expressed in pluripotent cells , including ES cells , embryonic germ cells , and multipotent germline stem cells [ 15 ] .
+# ::tok It is also expressed in pluripotent cells , including ES cells , embryonic germ cells , and multipotent germline stem cells [ 15 ] .
+# ::alignments 22-23|0.0 20-21|0.4.0.1 19-20|0.4.0 18-19|0.4.0.0 17-18|0.4.0.0.0 16-17|0.4 14-15|0.4.0.2.0 13-14|0.4.0.2.0.0 12-13|0.4.0.2 10-11|0.4.0.1.0.0 9-10|0.4.0.1.0 6-7|0.2 3-4|0 2-3|0.3 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:26.900
+(e3 / express-01 
+      :ARG0 15 
+      :ARG1 (i / it) 
+      :manner (c4 / cell) 
+      :mod (a2 / also) 
+      :op1-of (a / and 
+            :op2 (s / stem-01 
+                  :ARG0 (g / germline 
+                        :mod (m / multipotent)) 
+                  :ARG1 (c / cell 
+                        :topic (e2 / e 
+                              :mod-of (c3 / cell))) 
+                  :ARG2 (e / embryonic 
+                        :mod-of (c2 / cell 
+                              :mod (g2 / germ))))))
+
+# ::snt ESG1 encodes a polypeptide of 118 amino acids that contains a single KH domain , which is an RNA-binding domain [ 16 ] .
+# ::tok ESG1 encodes a polypeptide of 118 amino acids that contains a single KH domain , which is an RNA-binding domain [ 16 ] .
+# ::alignments 21-22|0.0.3 19-20|0.0.2 18-19|0 13-14|0.0.0.0.0 12-13|0.0.0.0.0.1.0.0+0.0.0.0.0.1.0+0.0.0.0.0.1 11-12|0.0.0.0.0.0 9-10|0.0.0.0 7-8|0.0.0.0.0.2 6-7|0.0.0.0.0.2.0 3-4|0.0.1 1-2|0.0 0-1|0.0.0.1.0+0.0.0.1+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:27.114
+(r / rna-bind 
+      :op1 (e / encode-01 
+            :ARG0 (p2 / person 
+                  :ARG0-of (c / contain-01 
+                        :ARG1 (d2 / domain 
+                              :ARG1-of (s / single-02) 
+                              :mod (t / thing 
+                                    :name (n / name 
+                                          :op1 "KH")) 
+                              :mod-of (a / acid 
+                                    :mod (a2 / amino)))) 
+                  :name (n2 / name 
+                        :op1 "ESG1")) 
+            :ARG1 (p / polypeptide) 
+            :ARG2 (d / domain) 
+            :op1-of 16))
+
+# ::snt It remains unclear , however , if ESG1 functions as an RNA-binding protein or the roles it plays in ES cells and mice .
+# ::tok It remains unclear , however , if ESG1 functions as an RNA-binding protein or the roles it plays in ES cells and mice .
+# ::alignments 22-23|0.3 21-22|0 20-21|0.2 19-20|0.2.0 17-18|0.1 15-16|0.1.0 13-14|0.1.0.0 12-13|0.1.0.0.1 11-12|0.1.0.0.1.0 8-9|0.1.0.0.0 2-3|0.0.1+0.0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:27.255
+(a / and 
+      :ARG1-of (c2 / clear-06 
+            :ARG3-of (r3 / remain-01 
+                  :ARG1 (i / it)) 
+            :polarity -) 
+      :ARG2-of (p / play-02 
+            :ARG1 (r / role 
+                  :op2-of (o / or 
+                        :ARG1-of (f / function-01) 
+                        :op1 (p2 / protein 
+                              :mod (r2 / rna-bind))))) 
+      :op1 (c / cell 
+            :mod (e / e)) 
+      :op2 (m / mouse))
+
+# ::snt Previous genomic library screening by identified genomic clones containing the mouse ESG1 gene and seven pseudogenes [ 17 ] .
+# ::tok Previous genomic library screening by identified genomic clones containing the mouse ESG1 gene and seven pseudogenes [ 17 ] .
+# ::alignments 17-18|0.0.0.0.1 15-16|0.0.0.0.0.0.0 14-15|0.0.0.0.0.0.0.0 13-14|0.0.0.1 12-13|0.0.0.0.0.0 11-12|0.0.0.0.0.0.1.0.0+0.0.0.0.0.0.1.0+0.0.0.0.0.0.1 10-11|0.1 8-9|0.0.0.0.0 7-8|0.0.0.0 5-6|0.0.0 3-4|0 2-3|0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:27.919
+(s / screen-01 
+      :ARG0 (l / library 
+            :ARG0-of (i / identify-01 
+                  :ARG1 (c2 / clone-01 
+                        :ARG0-of (c / contain-01 
+                              :ARG1 (g / gene 
+                                    :location-of (p / pseudogen 
+                                          :quant 7) 
+                                    :mod (p2 / person 
+                                          :name (n / name 
+                                                :op1 "ESG1")))) 
+                        :ARG1 17) 
+                  :op1-of (a / and)) 
+            :mod (p3 / previou)) 
+      :ARG1 (m / mouse))
+
+# ::snt Two of these pseudogenes exhibit a similar exon-intron structure as the ESG1 gene , indicating their generation by gene duplication .
+# ::tok Two of these pseudogenes exhibit a similar exon-intron structure as the ESG1 gene , indicating their generation by gene duplication .
+# ::alignments 19-20|0.3.0 18-19|0.3.0.0 16-17|0.3.1 14-15|0.3 12-13|0.2 11-12|0.2.0.0.0+0.2.0.0+0.2.0 8-9|0.1 6-7|0.1.0 4-5|0 3-4|0.0 2-3|0.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:28.143
+(e / exhibit-01 
+      :ARG0 (p2 / pseudogen 
+            :mod (t / this) 
+            :quant 2) 
+      :ARG1 (s / structure 
+            :ARG1-of (r / resemble-01)) 
+      :ARG3 (g3 / gene 
+            :mod (p / person 
+                  :name (n / name 
+                        :op1 "ESG1"))) 
+      :purpose (i / indicate-01 
+            :ARG0 (d / duplication 
+                  :mod (g / gene)) 
+            :ARG1 (g2 / generation)))
+
+# ::snt The five remaining pseudogenes did not contain any introns , indicating that these were generated by retrotransposition of ESG1 transcripts .
+# ::tok The five remaining pseudogenes did not contain any introns , indicating that these were generated by retrotransposition of ESG1 transcripts .
+# ::alignments 19-20|0.0.0.0.0.0 16-17|0.0.0.0.0 14-15|0.0.0.0 12-13|0.0.0.0.1 10-11|0.0.0 8-9|0.1 7-8|0.1.0 6-7|0 5-6|0.2 3-4|0.0 2-3|0.0.1 1-2|0.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:28.395
+(c / contain-01 
+      :ARG0 (p / pseudogen 
+            :ARG0-of (i / indicate-01 
+                  :ARG1 (g / generate-01 
+                        :ARG0 (r / retrotransposition 
+                              :mod (t / transcript)) 
+                        :ARG1 (t2 / this) 
+                        :ARG2 5)) 
+            :ARG1-of (r2 / remain-01)) 
+      :ARG1 (i2 / intron 
+            :mod (a / any)) 
+      :polarity -)
+
+# ::snt The chromosomal localizations of the mouse ESG1 gene and pseudogenes , however , have not been reported .
+# ::tok The chromosomal localizations of the mouse ESG1 gene and pseudogenes , however , have not been reported .
+# ::alignments 16-17|0 14-15|0.1 9-10|0.0.3 8-9|0.0 7-8|0.0.2 6-7|0.0.1.0.0+0.0.1.0+0.0.1 5-6|0.0.2.0 2-3|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:28.586
+(r / report-01 
+      :ARG1 (a / and 
+            :op1 (l / localization 
+                  :mod (c / chromosomal)) 
+            :op2 (p2 / person 
+                  :name (n / name 
+                        :op1 "ESG1")) 
+            :op3 (g / gene 
+                  :mod (m / mouse)) 
+            :op4 (p / pseudogen)) 
+      :polarity -)
+
+# ::snt In this study , we determined the structure of the mouse gene encoding this protein and related pseudogenes .
+# ::tok In this study , we determined the structure of the mouse gene encoding this protein and related pseudogenes .
+# ::alignments 17-18|0.0.0.0.0.1.0 16-17|0.0.0.0.0.1.0.0 15-16|0.0.0.0.0.1 14-15|0.0.0.0 13-14|0.0.0.0.1 12-13|0.0.0.0.0 11-12|0.0.0.0.0.0 10-11|0.0.0.0.0.0.0 7-8|0.1 5-6|0 4-5|0.0 2-3|0.0.0 1-2|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:29.745
+(d / determine-01 
+      :ARG0 (w / we 
+            :ARG0-of (s2 / study-01 
+                  :ARG1 (p2 / protein 
+                        :ARG1-of (e / encode-01 
+                              :ARG0 (g / gene 
+                                    :mod (m / mouse)) 
+                              :op1-of (a / and 
+                                    :op2 (p / pseudogen 
+                                          :ARG1-of (r / relate-01)))) 
+                        :mod (t / this)) 
+                  :mod (t2 / this))) 
+      :ARG1 (s / structure))
+
+# ::snt We also performed gene targeting to determine the physiological function of ESG1 .
+# ::tok We also performed gene targeting to determine the physiological function of ESG1 .
+# ::alignments 11-12|0.0.0.0.0+0.0.0.0+0.0.0 9-10|0.0 8-9|0.0.1 6-7|0 4-5|0.1 3-4|0.1.0 2-3|0.1.0.0 1-2|0.1.0.0.1 0-1|0.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:29.861
+(d / determine-01 
+      :ARG1 (f / function-01 
+            :ARG0 (p / person 
+                  :name (n / name 
+                        :op1 "ESG1")) 
+            :ARG1 (p2 / physiological)) 
+      :ARG1-of (t / target-01 
+            :ARG0 (g / gene 
+                  :ARG1-of (p3 / perform-02 
+                        :ARG0 (w / we) 
+                        :mod (a / also)))))
+
+# ::snt Chromosomal localization and structures of mouse ESG1 gene and psedogenes .
+# ::tok Chromosomal localization and structures of mouse ESG1 gene and psedogenes .
+# ::alignments 9-10|0.0.1.1 8-9|0.0.1 7-8|0.0.1.0 5-6|0.0.1.0.0 3-4|0.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:29.908
+(a2 / and 
+      :op1 (l / localization 
+            :mod (c / chromosomal) 
+            :op1-of (a / and 
+                  :op2 (g / gene 
+                        :mod (m / mouse)) 
+                  :op3 (p / psedogen))) 
+      :op2 (s / structure))
+
+# ::snt To determine the chromosomal localizations of the mouse ESG1 gene and pseudogenes , we performed a Blast analysis of the mouse genomic database with the ESG1 cDNA sequence as a query .
+# ::tok To determine the chromosomal localizations of the mouse ESG1 gene and pseudogenes , we performed a Blast analysis of the mouse genomic database with the ESG1 cDNA sequence as a query .
+# ::alignments 30-31|0.0.0.0.0 27-28|0.0.0.0.1.0.0.1 26-27|0.0.0.0.1.0.0.1.0 22-23|0.0.0.0.1.0.0 20-21|0.0.0.0.1.0.0.0 17-18|0.0.0.0.1.0 16-17|0.0.0.0.1.0.1 14-15|0.0.0.0.1 13-14|0.0.0.0 11-12|0 10-11|0.0 9-10|0.0.2 8-9|0.0.1.0.0+0.0.1.0+0.0.1 7-8|0.0.0.0.0.0 4-5|0.0.0.1 3-4|0.0.0.1.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:31.339
+(p2 / pseudogen 
+      :op4-of (a2 / and 
+            :op1 (d2 / determine-01 
+                  :ARG0 (w / we 
+                        :ARG0-of (q / query-01 
+                              :ARG1 (m2 / mouse)) 
+                        :ARG0-of (p / perform-02 
+                              :ARG1 (a / analyze-01 
+                                    :ARG1 (d / database 
+                                          :mod (m / mouse) 
+                                          :poss (s / sequence 
+                                                :mod (c / cdna))) 
+                                    :ARG2 (b / blast-01)))) 
+                  :ARG1 (l / localization 
+                        :mod (c2 / chromosomal))) 
+            :op2 (p3 / person 
+                  :name (n / name 
+                        :op1 "ESG1")) 
+            :op3 (g / gene)))
+
+# ::snt We identified several putative pseudogenes without introns on chromosomes 1 , 5 , 11 , 12 , 14 , 16 , 17 , and X ( Figure 1 ) .
+# ::tok We identified several putative pseudogenes without introns on chromosomes 1 , 5 , 11 , 12 , 14 , 16 , 17 , and X ( Figure 1 ) .
+# ::alignments 27-28|0.0.1.1 26-27|0.0.1.2.0 24-25|0.0.1.0.0 23-24|0 21-22|0.0.5 19-20|0.0.8 17-18|0.0.4 15-16|0.0.6 13-14|0.0.7 11-12|0.0.3 9-10|0.0.1.1.0 8-9|0.1 6-7|0.0.2 4-5|0.0.1 3-4|0.0.1.0 2-3|0.0.1.2 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:31.979
+(a / and 
+      :op1 (i2 / identify-01 
+            :ARG0 (w / we) 
+            :ARG1 (p / pseudogen 
+                  :mod (p2 / putative 
+                        :mod (x / x)) 
+                  :mod (1 / 1 
+                        :mod-of 1) 
+                  :quant (s / several 
+                        :quant-of (f / figure))) 
+            :manner (i / intron) 
+            :op1-of 5 
+            :op1-of 14 
+            :op1-of 17 
+            :op1-of 12 
+            :op1-of 11 
+            :op1-of 16) 
+      :op2 (c / chromosom))
+
+# ::snt In addition , two intron-less pseudogenes were identified in DNA fragments for which the chromosomal localization remained unmapped .
+# ::tok In addition , two intron-less pseudogenes were identified in DNA fragments for which the chromosomal localization remained unmapped .
+# ::alignments 17-18|0 16-17|0.0 15-16|0.0.1 14-15|0.0.1.0 10-11|0.0.0 9-10|0.0.0.0 7-8|0.0.0.1 5-6|0.0.0.1.0 4-5|0.0.0.1.0.0 3-4|0.0.0.1.0.1 1-2|0.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:32.305
+(u / unmapp 
+      :ARG2-of (r / remain-01 
+            :ARG0-of (f / fragment-01 
+                  :ARG1 (d / DNA) 
+                  :ARG2-of (i / identify-01 
+                        :ARG1 (p / pseudogen 
+                              :mod (i2 / intron-les) 
+                              :quant 2) 
+                        :time (a / addition))) 
+            :ARG1 (l / localization 
+                  :mod (c / chromosomal))))
+
+# ::snt While these pseudodgenes have significant homology to ESG1 cDNA , they could not produce functional proteins , because of critical mutations .
+# ::tok While these pseudodgenes have significant homology to ESG1 cDNA , they could not produce functional proteins , because of critical mutations .
+# ::alignments 20-21|0.0.2.0 19-20|0.0.2.0.1 17-18|0.0.2 15-16|0.0.1 14-15|0.0.1.0 13-14|0.0 12-13|0.2 11-12|0 10-11|0.0.0 8-9|0.0.2.0.0.0 7-8|0.0.2.0.0 5-6|0.0.0.0 4-5|0.0.0.0.0 2-3|0.1.0 1-2|0.1.0.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.010
+(p3 / possible-01 
+      :ARG1 (p2 / produce-01 
+            :ARG0 (t / they 
+                  :poss-of (h / homology 
+                        :ARG1-of (s / significant-02))) 
+            :ARG1 (p / protein 
+                  :mod (f / functional)) 
+            :ARG1-of (c2 / cause-01 
+                  :ARG0 (m / mutate-01 
+                        :ARG1 (e / ESG1 
+                              :mod-of (c3 / cdna)) 
+                        :ARG1-of (c / critical-02)))) 
+      :ARG1-of (w / while-01 
+            :ARG0 (p4 / pseudodgen 
+                  :mod (t2 / this))) 
+      :polarity -)
+
+# ::snt This result suggests that there are a larger number of intron-less pseudogenes than previously anticipated .
+# ::tok This result suggests that there are a larger number of intron-less pseudogenes than previously anticipated .
+# ::alignments 14-15|0.1.0 13-14|0.1.0.0 11-12|0.1.2 10-11|0.1.2.0 8-9|0.1 7-8|0.1.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.056
+(s / suggest-01 
+      :ARG0 (r / result-01 
+            :mod (t / this)) 
+      :ARG1 (n / number 
+            :ARG1-of (a / anticipate-01 
+                  :time (p / previous)) 
+            :mod (l / large) 
+            :quant-of (p2 / pseudogen 
+                  :mod (i / intron-les))))
+
+# ::snt Existence of multiple retropseudogenes is a hallmark of pluripotent cell-specific genes [ 18 ] .
+# ::tok Existence of multiple retropseudogenes is a hallmark of pluripotent cell-specific genes [ 18 ] .
+# ::alignments 12-13|0.0.1 10-11|0.1 6-7|0 3-4|0.0.0 2-3|0.0.0.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.088
+(h / hallmark 
+      :domain (e / existence 
+            :mod (r / retropseudogen 
+                  :quant (m / multiple)) 
+            :poss-of 18) 
+      :poss (g / gene))
+
+# ::snt ESG1pseudogenes identified by a Blast search of mouse genomic databases .
+# ::tok ESG1pseudogenes identified by a Blast search of mouse genomic databases .
+# ::alignments 9-10|0.0 7-8|0 5-6|0.0.0 4-5|0.0.0.1 1-2|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.118
+(m / mouse 
+      :mod-of (d / database 
+            :ARG1-of (s / search-01 
+                  :manner-of (i / identify-01 
+                        :ARG1 (e / esg1pseudogen)) 
+                  :medium (b / blast-01))))
+
+# ::snt Substitution mutations are indicated by black lines .
+# ::tok Substitution mutations are indicated by black lines .
+# ::alignments 6-7|0.0 5-6|0.0.0 3-4|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.137
+(i / indicate-01 
+      :ARG0 (l / line 
+            :ARG1-of (b / black-04)) 
+      :ARG1 (m / mutate-01 
+            :mod (s / substitution)))
+
+# ::snt Intron-like gap sequences are indicated with triangles .
+# ::tok Intron-like gap sequences are indicated with triangles .
+# ::alignments 6-7|0.1 4-5|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.189
+(i / indicate-01 
+      :ARG1 (s / sequence 
+            :mod (g / gap)) 
+      :ARG2 (t / triangl))
+
+# ::snt Chromosomal localizations are shown on the right .
+# ::tok Chromosomal localizations are shown on the right .
+# ::alignments 6-7|0.1 3-4|0 0-2|0.0.0.1+0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.287
+(s / show-01 
+      :ARG1 (t / thing 
+            :name (n / name 
+                  :op1 (c / Chromosomal) 
+                  :op2 (l / localizations))) 
+      :ARG2 (r / right-05))
+
+# ::snt On chromosome 9 , we identified a DNA fragment similar to the ESG1 gene that included two putative introns .
+# ::tok On chromosome 9 , we identified a DNA fragment similar to the ESG1 gene that included two putative introns .
+# ::alignments 18-19|0.1 17-18|0.1.0 16-17|0.1.1 15-16|0 13-14|0.0 9-10|0.0.0 8-9|0.0.0.1 7-8|0.0.0.1.0 5-6|0.0.0.1.1 4-5|0.0.0.1.1.0 2-3|0.0.0.0 1-2|0.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:33.496
+(i2 / include-01 
+      :ARG0 (g / gene 
+            :ARG2-of (r / resemble-01 
+                  :ARG0 9 
+                  :ARG1 (f / fragment-01 
+                        :ARG1 (d / DNA) 
+                        :ARG1-of (i3 / identify-01 
+                              :ARG0 (w / we) 
+                              :ARG2 (c / chromosome))))) 
+      :ARG1 (i / intron 
+            :mod (p / putative) 
+            :quant 2))
+
+# ::snt These putative first and second exons , however , contained ( 4 ) multiple mutations of the ESG1 cDNA sequence .
+# ::tok These putative first and second exons , however , contained ( 4 ) multiple mutations of the ESG1 cDNA sequence .
+# ::alignments 19-20|0.2.0 18-19|0.2.0.0 17-18|0.2.0.0.0 14-15|0.2 13-14|0.2.2 11-12|0.2.1 9-10|0 5-6|0.0 3-4|0.1 1-2|0.0.0 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:34.133
+(c2 / contain-01 
+      :ARG0 (e2 / exon 
+            :mod (p / putative)) 
+      :ARG1 (a / and 
+            :mod (t / this)) 
+      :ARG2 (m / mutate-01 
+            :ARG0 (s / sequence 
+                  :mod (c / cdna 
+                        :mod (e / ESG1))) 
+            :ARG1 4 
+            :quant (m2 / multiple)))
+
+# ::snt The putative third exon was identical to that of the previously reported ESG1 gene .
+# ::tok The putative third exon was identical to that of the previously reported ESG1 gene .
+# ::alignments 13-14|0.0 11-12|0 10-11|0.2 7-8|0.1.1 5-6|0.1 3-4|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:34.217
+(r / report-01 
+      :ARG1 (g / gene) 
+      :purpose-of (i / identical-01 
+            :ARG1 (e / exon 
+                  :mod (p2 / putative)) 
+            :ARG2 (t / that)) 
+      :time (p / previous))
+
+# ::snt Also on chromosome 9 , we identified another DNA fragment that was similar , but not identical , to the third exon of the ESG1 gene .
+# ::tok Also on chromosome 9 , we identified another DNA fragment that was similar , but not identical , to the third exon of the ESG1 gene .
+# ::alignments 25-26|0.1.1.0 21-22|0.1.1 16-17|0.2 15-16|0.2.1 14-15|0 12-13|0.1 9-10|0.1.0 8-9|0.1.0.0 7-8|0.1.0.2 6-7|0.1.0.1 5-6|0.1.0.1.0 3-4|0.2.0 2-3|0.1.0.1.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:34.439
+(c / contrast-01 
+      :ARG0 (a2 / also) 
+      :ARG1 (r / resemble-01 
+            :ARG1 (f / fragment-01 
+                  :ARG1 (d / DNA) 
+                  :ARG1-of (i2 / identify-01 
+                        :ARG0 (w / we) 
+                        :ARG2 (c2 / chromosome)) 
+                  :mod (a / another)) 
+            :ARG2 (e / exon 
+                  :poss (g / gene))) 
+      :ARG2 (i / identical-01 
+            :ARG1 9 
+            :polarity -))
+
+# ::snt These findings suggest that these ESG1-like sequences on chromosome 9 have not been correctly assembled .
+# ::tok These findings suggest that these ESG1-like sequences on chromosome 9 have not been correctly assembled .
+# ::alignments 14-15|0.1 13-14|0.1.2 11-12|0.1.3 9-10|0.1.2.0 8-9|0.1.1.0 6-7|0.1.1 4-5|0.1.0 2-3|0 1-2|0.0.0+0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:34.549
+(s2 / suggest-01 
+      :ARG0 (t2 / thing 
+            :ARG1-of (f / find-01) 
+            :mod (t3 / this)) 
+      :ARG1 (a / assemble-01 
+            :ARG0 (t / this) 
+            :ARG1 (s / sequence 
+                  :location (c2 / chromosome)) 
+            :ARG1-of (c / correct-02 
+                  :ARG0 9) 
+            :polarity -))
+
+# ::snt To obtain DNA fragments containing the ESG1 gene , we screened the bacterial artificial chromosome ( BAC ) DNA pool by PCR using primer pairs that would only amplify the real gene , not the pseudogenes .
+# ::tok To obtain DNA fragments containing the ESG1 gene , we screened the bacterial artificial chromosome ( BAC ) DNA pool by PCR using primer pairs that would only amplify the real gene , not the pseudogenes .
+# ::alignments 35-36|0.0.0.0.0.0 33-34|0.0.0.0.0 31-32|0.0.1.0.1.0 30-31|0.0.1.0.1.0.0 28-29|0.0.1.0.1 27-28|0.0.1.0.1.1 24-25|0.0.1.0 23-24|0.0.1.0.2 22-23|0.0.1 19-20|0.0.1.0.3.0 18-19|0.0.1.0.3 16-17|0.0.1.0.0.0.0+0.0.1.0.0.0+0.0.1.0.0 14-15|0.1 13-14|0.1.0 12-13|0.1.1 10-11|0 9-10|0.0 7-8|0.0.0.0.1.0 4-5|0.0.0.0.1 3-4|0.0.0.0 2-3|0.0.0.0.2 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:35.339
+(s / screen-01 
+      :ARG0 (w / we 
+            :ARG0-of (o3 / obtain-01 
+                  :ARG1 (f / fragment-01 
+                        :ARG0 (- / - 
+                              :polarity-of (p / pseudogen)) 
+                        :ARG0-of (c2 / contain-01 
+                              :ARG1 (g2 / gene)) 
+                        :ARG1 (d2 / DNA))) 
+            :ARG0-of (u / use-01 
+                  :ARG1 (p2 / pair-01 
+                        :ARG0 (o2 / organization 
+                              :name (n / name 
+                                    :op1 "BAC")) 
+                        :ARG0-of (a / amplify-01 
+                              :ARG1 (g / gene 
+                                    :mod (r / real)) 
+                              :mod (o / only)) 
+                        :ARG1 (p3 / primer) 
+                        :ARG2 (d / DNA 
+                              :mod-of (p4 / pool))))) 
+      :ARG1 (c / chromosome 
+            :mod (a2 / artificial) 
+            :mod (b / bacterial)))
+
+# ::snt We obtained two independent , but overlapping BAC clones .
+# ::tok We obtained two independent , but overlapping BAC clones .
+# ::alignments 8-9|0.1 7-8|0.1.0.0.0+0.1.0.0+0.1.0 6-7|0.1.2 5-6|0 3-4|0.0.1+0.0 2-3|0.0.0 1-2|0.1.1 0-1|0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:35.426
+(c2 / contrast-01 
+      :ARG1 (d / depend-01 
+            :ARG1 2 
+            :polarity -) 
+      :ARG2 (c / clone-01 
+            :ARG0 (o / organization 
+                  :name (n / name 
+                        :op1 "BAC")) 
+            :ARG1 (o3 / obtain-01 
+                  :ARG0 (w / we)) 
+            :ARG1-of (o2 / overlap-01)))
+
+# ::snt Southern blot analyses and sequencing demonstrated that these clones contained a sequence exhibiting complete identity with ESG1 cDNA that was interrupted by two putative introns ( Figure 2A ) .
+# ::tok Southern blot analyses and sequencing demonstrated that these clones contained a sequence exhibiting complete identity with ESG1 cDNA that was interrupted by two putative introns ( Figure 2A ) .
+# ::alignments 26-27|0.1.0.0 24-25|0.0.2.0.0.0 23-24|0.0.2.0.0.0.0 22-23|0.0.2.0.0.0.1 20-21|0.0.2.0.0 17-18|0.0.2.0 16-17|0.0.2.1.0+0.0.2.1+0.0.2 14-15|0.1.1.0.0 13-14|0.1.1.0.0.0 12-13|0.1.1.0 11-12|0.1.1 9-10|0.1 8-9|0.1.0 7-8|0.1.0.1 5-6|0 4-5|0.0.1 3-4|0.0 2-3|0.0.0 1-2|0.0.0.0 0-1|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:36.782
+(d / demonstrate-01 
+      :ARG0 (a / and 
+            :op1 (a2 / analysis 
+                  :ARG1-of (b / blot-01 
+                        :ARG0 (t2 / thing 
+                              :name (n2 / name 
+                                    :op1 "Southern")))) 
+            :op2 (s2 / sequence) 
+            :op3 (p2 / person 
+                  :mod-of (c / cdna 
+                        :ARG1-of (i2 / interrupt-01 
+                              :ARG0 (i / intron 
+                                    :mod (p / putative) 
+                                    :quant 2))) 
+                  :name (n / name 
+                        :op1 "ESG1"))) 
+      :ARG1 (c3 / contain-01 
+            :ARG0 (c4 / clone-01 
+                  :ARG1 (f / figure) 
+                  :mod (t / this)) 
+            :ARG1 (s / sequence 
+                  :ARG0-of (e / exhibit-01 
+                        :ARG1 (i3 / identity 
+                              :ARG1-of (c2 / complete-02))))))
+
+# ::snt The two intron sequences begin with GT and terminate with AG , fulfilling the GT-AG rule of exon-intron junctions [ 19 ] .
+# ::tok The two intron sequences begin with GT and terminate with AG , fulfilling the GT-AG rule of exon-intron junctions [ 19 ] .
+# ::alignments 20-21|0.1.0 18-19|0.1.1.0.0.0 15-16|0.1.1.0.0 14-15|0.1.1.0.0.1.0.0+0.1.1.0.0.1.0+0.1.1.0.0.1 12-13|0.1.1.0 10-11|0.2 8-9|0.1 7-8|0 6-7|0.0.0.0.0+0.0.0.0+0.0.0 4-5|0.0 3-4|0.1.1 2-3|0.1.1.1 1-2|0.1.1.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:36.951
+(a2 / and 
+      :op1 (b / begin-01 
+            :ARG1 (o / organization 
+                  :name (n2 / name 
+                        :op1 "GT"))) 
+      :op2 (t2 / terminate-01 
+            :ARG0 19 
+            :ARG1 (s / sequence 
+                  :ARG0-of (f / fulfill-01 
+                        :ARG1 (r / rule-03 
+                              :ARG0 (j / junction) 
+                              :ARG1 (t / thing 
+                                    :name (n / name 
+                                          :op1 "GT-AG")))) 
+                  :mod (i / intron) 
+                  :quant 2)) 
+      :op3 (a / ag))
+
+# ::snt The 5 ' flanking region of this DNA fragment exhibited strong promoter/enhancer activity by luciferase reporter assays in undifferentiated ES cells , but not in somatic cells ( Figure 3 ) .
+# ::tok The 5 ' flanking region of this DNA fragment exhibited strong promoter/enhancer activity by luciferase reporter assays in undifferentiated ES cells , but not in somatic cells ( Figure 3 ) .
+# ::alignments 29-30|0.0 28-29|0.1.2.0.1 26-27|0.1.0.0.0.0 25-26|0.1.0.0.0 23-24|0.1.3.1 22-23|0 20-21|0.1.3.0.0 19-20|0.1.3.0.0.0 18-19|0.1.3.0.0.1 16-17|0.1.3.0 15-16|0.1.2.0 12-13|0.1 11-12|0.1.1 10-11|0.1.2 9-10|0.1.3 8-9|0.1.2.0.2 7-8|0.1.2.0.2.0 6-7|0.1.2.0.2.1 4-5|0.1.0 3-4|0.1.0.0 1-2|0.1.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:37.637
+(c2 / contrast-01 
+      :ARG1 3 
+      :ARG2-of (a2 / activity-06 
+            :ARG0 (r2 / region 
+                  :ARG1-of (f3 / flank-01 
+                        :ARG0 (s / somatic 
+                              :mod-of (c / cell)))) 
+            :ARG1 (p / promoter/enhanc) 
+            :ARG1-of (s2 / strong-02 
+                  :ARG2 (r / report-01 
+                        :ARG0 5 
+                        :ARG1 (f / figure) 
+                        :ARG2 (f2 / fragment-01 
+                              :ARG1 (d / DNA) 
+                              :mod (t / this)))) 
+            :ARG1-of (e2 / exhibit-01 
+                  :ARG0 (a / assay 
+                        :location (c3 / cell 
+                              :mod (e / e) 
+                              :mod (u / undifferentiat))) 
+                  :ARG2 -)))
+
+# ::snt The same fragment showed much weaker activity after induction of differentiation by retinoic acid .
+# ::tok The same fragment showed much weaker activity after induction of differentiation by retinoic acid .
+# ::alignments 13-14|0.1.1 10-11|0.2.0.1 8-9|0.2.0 7-8|0.2 6-7|0.1 5-6|0.1.0 4-5|0.2.0.0 3-4|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:37.744
+(s / show-01 
+      :ARG0 (f / fragment-01 
+            :ARG1-of (s2 / same-01)) 
+      :ARG1 (a3 / activity-06 
+            :ARG1 (w / weak) 
+            :ARG2 (a / acid)) 
+      :time (a2 / after 
+            :op1 (i / induct-02 
+                  :ARG0 (m / much) 
+                  :ARG1 (d / differentiation))))
+
+# ::snt We concluded that this sequence is the ESG1 gene .
+# ::tok We concluded that this sequence is the ESG1 gene .
+# ::alignments 8-9|0.1 4-5|0.1.0 3-4|0.1.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:37.776
+(c / conclude-01 
+      :ARG0 (w / we) 
+      :ARG1 (g / gene 
+            :domain (s / sequence 
+                  :mod (t / this))))
+
+# ::snt BAC clones containing the ESG1 gene and a duplication pseudogene ( PS ) .
+# ::tok BAC clones containing the ESG1 gene and a duplication pseudogene ( PS ) .
+# ::alignments 11-12|0.1.0.0.0.0 9-10|0.1.0.0 8-9|0.1.0.0.0 6-7|0.1.0 5-6|0.1.1 2-3|0.1 1-2|0 0-1|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.080
+(c2 / clone-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "BAC")) 
+      :ARG0-of (c / contain-01 
+            :ARG1 (a / and 
+                  :op1 (p2 / pseudogene 
+                        :mod (d / duplication 
+                              :op1 (p / p)))) 
+            :ARG2 (g / gene)))
+
+# ::snt A ) Localization of the gene and PS on chromosome 9 .
+# ::tok A ) Localization of the gene and PS on chromosome 9 .
+# ::alignments 10-11|0.0 9-10|0.1.0.0 7-8|0.1.0.1 6-7|0.1.0 5-6|0.1 2-3|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.115
+(l / localization 
+      :mod-of 9 
+      :op1 (g / gene 
+            :op1-of (a / and 
+                  :location (c / chromosome) 
+                  :op2 (p / p))))
+
+# ::snt B ) Sequence comparison of the gene and PS revealed that these are homologous from eight base pairs upstream of the first exon to 675 bp downstream of the third exon .
+# ::tok B ) Sequence comparison of the gene and PS revealed that these are homologous from eight base pairs upstream of the first exon to 675 bp downstream of the third exon .
+# ::alignments 30-31|0.3 26-27|0.3.1 22-23|0.3.0.1 17-18|0.3.0 16-17|0.0.0.2 15-16|0.3.0.0.0 11-12|0.0.0.1 9-10|0.0 8-9|0.2 7-8|0 6-7|0.0.0.0 3-4|0.0.0 2-3|0.3.0.0 0-1|0.1.1+0.1.0.0+0.1.0+0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.746
+(a / and 
+      :ARG1-of (r / reveal-01 
+            :ARG0 (c / compare-01 
+                  :ARG0 (g / gene) 
+                  :ARG1 (t / this) 
+                  :ARG2 (b / base))) 
+      :op1 (l / location 
+            :name (n / name 
+                  :op1 "B") 
+            :wiki -) 
+      :op2 (p2 / p) 
+      :op3 (e / exon 
+            :op1 (p / pair-01 
+                  :ARG1 (s / sequence 
+                        :poss-of 8) 
+                  :domain-of (e2 / exon)) 
+            :topic-of (d / downstream)))
+
+# ::snt Substitution mutations are indicated by black lines .
+# ::tok Substitution mutations are indicated by black lines .
+# ::alignments 6-7|0.0 5-6|0.0.0 3-4|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.773
+(i / indicate-01 
+      :ARG0 (l / line 
+            :ARG1-of (b / black-04)) 
+      :ARG1 (m / mutate-01 
+            :mod (s / substitution)))
+
+# ::snt The insertion is indicated by an open triangle .
+# ::tok The insertion is indicated by an open triangle .
+# ::alignments 7-8|0.0 6-7|0.0.0 3-4|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.794
+(i / indicate-01 
+      :ARG0 (t / triangle 
+            :ARG1-of (o / open-04)) 
+      :ARG1 (i2 / insert-01))
+
+# ::snt Promoter/enhancer activity of the ESG1 gene and pseudogene .
+# ::tok Promoter/enhancer activity of the ESG1 gene and pseudogene .
+# ::alignments 7-8|0.0.0 6-7|0.0 5-6|0.1 4-5|0.1.0 1-2|0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:38.830
+(a2 / activity-06 
+      :ARG0 (a / and 
+            :op1 (p / pseudogene)) 
+      :ARG1 (g / gene 
+            :mod (e / ESG1)) 
+      :mod (p2 / promoter/enhanc))
+
+# ::snt DNA fragments of ~ 6 kbp isolated from the 5 ' flanking regions of the gene and PS were transferred into luciferase reporter plasmids .
+# ::tok DNA fragments of ~ 6 kbp isolated from the 5 ' flanking regions of the gene and PS were transferred into luciferase reporter plasmids .
+# ::alignments 23-24|0.2.1 22-23|0.0.1.1 19-20|0.2 17-18|0.2.0 16-17|0 15-16|0.1 12-13|0.0.2 11-12|0.0.2.0 9-10|0.0.2.0.0 6-7|0.0 5-6|0.0.0 4-5|0.0.1.1.0 1-2|0.0.1 0-1|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:39.132
+(a / and 
+      :op1 (i / isolate-01 
+            :ARG0 (k / kbp) 
+            :ARG1 (f2 / fragment-01 
+                  :ARG1 (d / DNA) 
+                  :ARG2-of (r / report-01 
+                        :ARG0 6)) 
+            :ARG2 (r2 / region 
+                  :ARG1-of (f / flank-01 
+                        :ARG0 5))) 
+      :op2 (g / gene) 
+      :op3 (t / transfer-01 
+            :ARG1 (p2 / p) 
+            :ARG2 (p / plasmid)))
+
+# ::snt We introduced the reporter genes into undifferentiated ES cells ( open columns ) , retinoic acid-treated ES cells ( grey columns ) , and NIH3T3 cells ( closed columns ) .
+# ::tok We introduced the reporter genes into undifferentiated ES cells ( open columns ) , retinoic acid-treated ES cells ( grey columns ) , and NIH3T3 cells ( closed columns ) .
+# ::alignments 28-29|0.3.0 27-28|0.3.0.0 25-26|0.3.2 24-25|0.3.2.0 23-24|0.3 20-21|0.2.0.0.0 19-20|0.2.0.0.0.0 17-18|0.3.1 15-16|0.3.1.0 11-12|0.2.0.0.1.0 10-11|0.2.0.0.1 8-9|0.2 7-8|0.2.0 6-7|0.2.1 4-5|0.1 3-4|0.2.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:39.665
+(i / introduce-02 
+      :ARG0 (w / we) 
+      :ARG1 (g2 / gene) 
+      :ARG2 (c7 / cell 
+            :mod (e / e 
+                  :ARG3-of (r / report-01 
+                        :ARG0 (c4 / column 
+                              :mod (g / grey)) 
+                        :ARG1 (o / open-04 
+                              :ARG1 (c6 / column)))) 
+            :mod (u / undifferentiat)) 
+      :destination (a / and 
+            :domain (c / column 
+                  :ARG1-of (c2 / close-01)) 
+            :op1 (c5 / cell 
+                  :mod (a2 / acid-treat)) 
+            :op2 (c3 / cell 
+                  :mod (n / NIH3T3))))
+
+# ::snt Data represent the averages and standard deviations of three independent experiments .
+# ::tok Data represent the averages and standard deviations of three independent experiments .
+# ::alignments 10-11|0.1.0.0 9-10|0.1.0.0.0.0+0.1.0.0.0 8-9|0.1.0.0.1 6-7|0.1.1 5-6|0.1.1.0 4-5|0.1 3-4|0.1.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:39.950
+(r / represent-01 
+      :ARG0 (d3 / data) 
+      :ARG1 (a / and 
+            :op1 (a2 / average-01 
+                  :ARG1 (e / experiment-01 
+                        :ARG0-of (d / depend-01 
+                              :polarity -) 
+                        :quant 3)) 
+            :op2 (d2 / deviation 
+                  :ARG1-of (s / standard-02))))
+
+# ::snt We also found that the two BAC clones contained another ESG1-like sequence ( Figure 2A ) .
+# ::tok We also found that the two BAC clones contained another ESG1-like sequence ( Figure 2A ) .
+# ::alignments 13-14|0.1.1.0.0 11-12|0.1.1 9-10|0.1.1.0 8-9|0.1 7-8|0.1.0 6-7|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 5-6|0.1.0.1 2-3|0 1-2|0.2 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:40.009
+(f2 / find-01 
+      :ARG0 (w / we) 
+      :ARG1 (c / contain-01 
+            :ARG0 (c2 / clone-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "BAC")) 
+                  :quant 2) 
+            :ARG1 (s / sequence 
+                  :mod (a / another 
+                        :mod-of (f / figure)))) 
+      :mod (a2 / also))
+
+# ::snt The two sequences , separated by a 68 kbp intergenic sequence , were oriented in opposite directions .
+# ::tok The two sequences , separated by a 68 kbp intergenic sequence , were oriented in opposite directions .
+# ::alignments 16-17|0.0.0.1 15-16|0.0.0.1.0 13-14|0.0.0 10-11|0 7-8|0.0.0.1.0.0 4-5|0.0 2-3|0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:40.079
+(s / sequence 
+      :ARG0-of (s2 / separate-01 
+            :ARG1 (o2 / orient-01 
+                  :ARG1 (s3 / sequence 
+                        :quant 2) 
+                  :ARG3 (d / direction 
+                        :ARG1-of (o / opposite-01 
+                              :ARG0 68)))))
+
+# ::snt The ESG1-like sequence exhibited greater than 95 % identity to the exons and introns of the ESG1 gene .
+# ::tok The ESG1-like sequence exhibited greater than 95 % identity to the exons and introns of the ESG1 gene .
+# ::alignments 17-18|0.2.0.0 13-14|0.2.1 12-13|0.2 11-12|0.2.0 8-9|0.1 7-8|0.1.0 6-7|0.3.0 4-5|0.3 3-4|0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:40.236
+(e2 / exhibit-01 
+      :ARG0 (s / sequence) 
+      :ARG1 (i2 / identity 
+            :mod (p / percentage-entity)) 
+      :ARG2 (a / and 
+            :op1 (e / exon 
+                  :poss (g / gene)) 
+            :op2 (i / intron)) 
+      :degree (g2 / great 
+            :op1 95))
+
+# ::snt This sequence , however , contained critical nucleotide substitutions in all of the exons and one nucleotide insertion in exon 2 ( Figure 2B ) .
+# ::tok This sequence , however , contained critical nucleotide substitutions in all of the exons and one nucleotide insertion in exon 2 ( Figure 2B ) .
+# ::alignments 22-23|0.2 20-21|0.1.0.0 19-20|0.3.1.1 17-18|0.3.1 16-17|0.3.1.0 14-15|0.3 13-14|0.3.0 10-11|0.3.0.0 8-9|0.1 7-8|0.1.1 6-7|0.1.0 5-6|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:40.484
+(c2 / contain-01 
+      :ARG0 (s2 / sequence 
+            :mod (t / this)) 
+      :ARG1 (s / substitution 
+            :ARG1-of (c / critical-02 
+                  :ARG0 2) 
+            :mod (n2 / nucleotide)) 
+      :ARG2 (f / figure) 
+      :manner (a / and 
+            :op1 (e2 / exon 
+                  :quant (a2 / all)) 
+            :op2 (i / insert-01 
+                  :ARG1 (n / nucleotide) 
+                  :location (e / exon))))
+
+# ::snt Although 675 base pairs of the 3 ' flanking regions were conserved between the ESG1 gene and the pseudogene , only five base pairs of the 5 ' flanking region were identical .
+# ::tok Although 675 base pairs of the 3 ' flanking regions were conserved between the ESG1 gene and the pseudogene , only five base pairs of the 5 ' flanking region were identical .
+# ::alignments 31-32|0.0.0.1.0.2 29-30|0.0.0.1.0.1 28-29|0.0.0.1.0.1.0 26-27|0.0.0.2 23-24|0.0.0.1.0 22-23|0.0.0.1.0.4 21-22|0.0.0.0.0.0 20-21|0.0.0.1.0.3 18-19|0 16-17|0.0 15-16|0.0.1 11-12|0.0.0.1 9-10|0.0.0.0 8-9|0.0.0.0.0 6-7|0.0.0.0.1 3-4|0.0.0 2-3|0.0.0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:40.969
+(p2 / pseudogene 
+      :op2-of (a / and 
+            :ARG0-of (p3 / pair-01 
+                  :ARG1 (r2 / region 
+                        :ARG1-of (f2 / flank-01 
+                              :ARG0 5) 
+                        :poss 3) 
+                  :ARG1-of (c / conserve-01 
+                        :ARG0 (p / pair-01 
+                              :ARG0 (b2 / base) 
+                              :ARG1 (r / region 
+                                    :ARG1-of (f / flank-01)) 
+                              :ARG1-of (i / identical-01) 
+                              :ARG2 (o / only) 
+                              :mod (b / base))) 
+                  :ARG2 5) 
+            :op1 (g / gene)))
+
+# ::snt This 5 ' flanking region ( ~ 6 kbp ) did not possess any promoter/enhancer activity in luciferase reporter assays ( Figure 3 ) .
+# ::tok This 5 ' flanking region ( ~ 6 kbp ) did not possess any promoter/enhancer activity in luciferase reporter assays ( Figure 3 ) .
+# ::alignments 22-23|0.0.0.0 21-22|0.0.0.1.1.1 19-20|0.1.1 18-19|0.0.0.1 17-18|0.0.0.1.0 15-16|0.1 14-15|0.1.0 13-14|0.1.2 12-13|0 11-12|0.3 8-9|0.2 7-8|0.0.0.1.2 4-5|0.0 3-4|0.0.0 1-2|0.0.0.1.1.0 0-1|0.0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.323
+(p2 / possess-01 
+      :ARG0 (r2 / region 
+            :ARG1-of (f2 / flank-01 
+                  :ARG2 3 
+                  :purpose-of (r / report-01 
+                        :ARG0 (l / luciferase) 
+                        :ARG1 (t / this 
+                              :mod-of 5 
+                              :mod-of (f / figure)) 
+                        :ARG2 6))) 
+      :ARG1 (a2 / activity-06 
+            :ARG0 (p / promoter/enhanc) 
+            :ARG1 (a / assay) 
+            :mod (a3 / any)) 
+      :ARG2 (k / kbp) 
+      :polarity -)
+
+# ::snt It is thus unlikely that this sequence is transcribed or translated into a functional protein .
+# ::tok It is thus unlikely that this sequence is transcribed or translated into a functional protein .
+# ::alignments 14-15|0.1.1 13-14|0.1.1.0 10-11|0.1 9-10|0 8-9|0.1.0.0 6-7|0.1.0 5-6|0.1.0.1 3-4|0.0.2+0.0 2-3|0.0.1 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.450
+(o / or 
+      :ARG1-of (l / likely-01 
+            :ARG0 (i / it) 
+            :degree (t4 / thus-far) 
+            :polarity -) 
+      :op1 (t / translate-01 
+            :ARG1 (s / sequence 
+                  :ARG1-of (t2 / transcribe-01) 
+                  :mod (t3 / this)) 
+            :ARG2 (p / protein 
+                  :mod (f / functional))))
+
+# ::snt This sequence likely represents a duplication pseudogene .
+# ::tok This sequence likely represents a duplication pseudogene .
+# ::alignments 6-7|0.1 5-6|0.1.0 3-4|0 2-3|0.2 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.472
+(r / represent-01 
+      :ARG0 (s / sequence 
+            :mod (t / this)) 
+      :ARG1 (p / pseudogene 
+            :mod (d / duplication)) 
+      :ARG1-of (l / likely-01))
+
+# ::snt Bierbaum previously reported the existence of two pseudogenes with similar exon-intron organization as the ESG1 gene [ 17 ] .
+# ::tok Bierbaum previously reported the existence of two pseudogenes with similar exon-intron organization as the ESG1 gene [ 17 ] .
+# ::alignments 17-18|0.0 15-16|0.1.0 11-12|0.1.1 9-10|0.1.1.0 7-8|0.1.1.1 6-7|0.1.1.1.0 4-5|0.1 2-3|0 1-2|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.539
+(r2 / report-01 
+      :ARG0 17 
+      :ARG1 (e / exist-01 
+            :ARG0 (g / gene) 
+            :ARG1 (o / organization 
+                  :ARG1-of (r / resemble-01) 
+                  :poss-of (p / pseudogen 
+                        :quant 2))) 
+      :time (p2 / previous))
+
+# ::snt We could not determine which of these two pseudogenes corresponds to the one we identified or the location of the remaining pseudogene .
+# ::tok We could not determine which of these two pseudogenes corresponds to the one we identified or the location of the remaining pseudogene .
+# ::alignments 21-22|0.1.1.2.0 20-21|0.1.1.2.0.0 17-18|0.1.1.2 15-16|0.1.1 14-15|0.1.1.1 13-14|0.1.1.1.0 12-13|0.1.1.0 9-10|0.1 8-9|0.1.0 7-8|0.1.0.0 6-7|0.1.1.1.1 3-4|0 2-3|0.2.0 1-2|0.2 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.653
+(d / determine-01 
+      :ARG0 (w2 / we) 
+      :ARG1 (c / correspond-01 
+            :ARG1 (p2 / pseudogen 
+                  :quant 2) 
+            :ARG2 (o / or 
+                  :op1 (o2 / one) 
+                  :op2 (i / identify-01 
+                        :ARG0 (w / we) 
+                        :ARG1 (t / this)) 
+                  :op3 (l / location 
+                        :location-of (p / pseudogene 
+                              :ARG1-of (r / remain-01))))) 
+      :ARG1-of (p3 / possible-01 
+            :polarity -))
+
+# ::snt Targeted disruption of the mouse ESG1 gene .
+# ::tok Targeted disruption of the mouse ESG1 gene .
+# ::alignments 6-7|0.0.0 4-5|0.0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.666
+(t / target-01 
+      :ARG1 (d / disruption 
+            :mod (g / gene 
+                  :mod (m / mouse))))
+
+# ::snt To study the function of ESG1 , we deleted the gene by homologous recombination in mouse ES cells .
+# ::tok To study the function of ESG1 , we deleted the gene by homologous recombination in mouse ES cells .
+# ::alignments 17-18|0.1.0 16-17|0.1.0.0 15-16|0.0.0.0.0 13-14|0.2 12-13|0.2.0 10-11|0.1 8-9|0 7-8|0.0 3-4|0.0.0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:41.810
+(d / delete-01 
+      :ARG0 (w / we 
+            :ARG0-of (s / study-01 
+                  :ARG1 (f / function-01 
+                        :op1-of (m / mouse)))) 
+      :ARG1 (g / gene 
+            :location (c / cell 
+                  :mod (e / e))) 
+      :topic-of (r / recombination 
+            :mod (h / homologou)))
+
+# ::snt We replaced the three exons with either a fusion of the neomycin-resistance and -galactosidase genes ( -geo ) or the hygromycin resistant gene ( HygR ) using two targeting vectors ( Figure 4A ) introduced into RF8 ES cells by electroporation .
+# ::tok We replaced the three exons with either a fusion of the neomycin-resistance and -galactosidase genes ( -geo ) or the hygromycin resistant gene ( HygR ) using two targeting vectors ( Figure 4A ) introduced into RF8 ES cells by electroporation .
+# ::alignments 40-41|0.2.0 38-39|0.1 36-38|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 34-35|0 31-32|0.0 29-30|0.2.1 28-29|0.2.1.0 27-28|0.2.1.1 26-27|0.2 24-25|0.2.3.1.0.0+0.2.3.1.0+0.2.3.1 22-23|0.2.2 21-22|0.2.2.0 20-21|0.2.3.0.0.1 18-19|0.2.3.0.0 14-15|0.2.3.0 12-13|0.2.3 8-9|0.2.3.2 6-7|0.2.3.0.0.0 4-5|0.2.3.2.0.1 3-4|0.2.3.2.0.1.0 1-2|0.2.3.2.0 0-1|0.2.3.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.159
+(i / introduce-02 
+      :ARG1 (f / figure) 
+      :ARG2 (c / cell 
+            :mod (t / thing 
+                  :name (n / name 
+                        :op1 (r / RF8) 
+                        :op2 (e2 / ES)))) 
+      :ARG2-of (u / use-01 
+            :ARG0 (e / electroporation) 
+            :ARG1 (v / vector 
+                  :ARG1-of (t2 / target-01) 
+                  :quant 2) 
+            :instrument (g / gene 
+                  :ARG1-of (r2 / resist-01)) 
+            :op3-of (a / and 
+                  :op1 (g2 / gene 
+                        :op1-of (o2 / or 
+                              :mod (e3 / either) 
+                              :op2 (h / hygromycin))) 
+                  :op2 (o / organization 
+                        :name (n2 / name 
+                              :op1 "HygR")) 
+                  :quant (f2 / fusion 
+                        :prep-with-of (r3 / replace-01 
+                              :ARG0 (w / we) 
+                              :ARG1 (e4 / exon 
+                                    :quant 3))))))
+
+# ::snt We obtained eight ES cell clones with correct homologous recombination of the -geo targeting vector , which was confirmed by Southern blot analysis ( Figure 4B ) .
+# ::tok We obtained eight ES cell clones with correct homologous recombination of the -geo targeting vector , which was confirmed by Southern blot analysis ( Figure 4B ) .
+# ::alignments 24-25|0.1.0.0.1.0.0 22-23|0.1 21-22|0 20-21|0.1.1.0.0+0.1.1.0+0.1.1 18-19|0.1.0 14-15|0.1.0.0 13-14|0.1.0.0.0 9-10|0.1.0.0.1 8-9|0.1.0.0.1.2 7-8|0.1.0.0.1.0 5-6|0.1.0.0.1.1.1 4-5|0.1.0.0.1.1.1.0 3-4|0.1.0.0.1.1.1.0.0 2-3|0.0 1-2|0.1.0.0.1.1 0-1|0.1.0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.456
+(b / blot-01 
+      :ARG1 8 
+      :ARG1-of (a / analyze-01 
+            :ARG0-of (c / confirm-01 
+                  :ARG1 (v / vector 
+                        :ARG1-of (t2 / target-01) 
+                        :poss-of (r / recombination 
+                              :ARG1-of (c2 / correct-02 
+                                    :ARG0 (f / figure)) 
+                              :ARG2-of (o / obtain-01 
+                                    :ARG0 (w / we) 
+                                    :ARG1 (c3 / clone-01 
+                                          :ARG1 (c4 / cell 
+                                                :mod (e / e)))) 
+                              :mod (h / homologou)))) 
+            :manner (t / thing 
+                  :name (n / name 
+                        :op1 "Southern"))))
+
+# ::snt We obtained only one clone with correct homologous recombination of the HygR targeting vector .
+# ::tok We obtained only one clone with correct homologous recombination of the HygR targeting vector .
+# ::alignments 13-14|0.1.1 12-13|0.1 11-12|0.1.0.0.0+0.1.0.0+0.1.0 8-9|0.2 7-8|0.2.1 6-7|0.2.0 4-5|0.0.0 2-3|0.0.0.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.561
+(o3 / obtain-01 
+      :ARG0 (w / we 
+            :poss-of (c2 / clone 
+                  :mod (o2 / only))) 
+      :ARG1 (t / target-01 
+            :ARG0 (o / organization 
+                  :name (n / name 
+                        :op1 "HygR")) 
+            :ARG1 (v / vector)) 
+      :manner (r / recombination 
+            :ARG1-of (c / correct-02) 
+            :mod (h / homologou)))
+
+# ::snt Targeted disruption of the mouse ESG1 gene .
+# ::tok Targeted disruption of the mouse ESG1 gene .
+# ::alignments 6-7|0.0.0 4-5|0.0.0.0 1-2|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.576
+(t / target-01 
+      :ARG1 (d / disruption 
+            :mod (g / gene 
+                  :mod (m / mouse))))
+
+# ::snt A ) Targeting strategy .
+# ::tok A ) Targeting strategy .
+# ::alignments 3-4|0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.587
+(s / strategy 
+      :ARG1-of (t / target-01))
+
+# ::snt Homologous regions are indicated by thick lines .
+# ::tok Homologous regions are indicated by thick lines .
+# ::alignments 6-7|0.0 5-6|0.0.0 3-4|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.606
+(i / indicate-01 
+      :ARG0 (l / line 
+            :mod (t / thick-03)) 
+      :ARG1 (r / region 
+            :mod (h / homologou)))
+
+# ::snt Recognition sites of PstI ( P ) and SpeI ( S ) , which were used for Southern blot analyses , are shown .
+# ::tok Recognition sites of PstI ( P ) and SpeI ( S ) , which were used for Southern blot analyses , are shown .
+# ::alignments 22-23|0 19-20|0.1.0.0.1 18-19|0.1.0.0.1.0 17-18|0.1.0.0.1.0.0.0.0+0.1.0.0.1.0.0.0+0.1.0.0.1.0.0 15-16|0.1.0.0 10-11|0.1.0.0.0.1.0+0.1.0.0.0.1 7-8|0.1 5-6|0.0 3-4|0.1.0.1.0+0.1.0.1+0.1.0 1-2|0.1.0.0.0 0-1|0.1.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:43.807
+(s / show-01 
+      :ARG0 (p / P60) 
+      :ARG1 (a2 / and 
+            :op1 (t2 / thing 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (s2 / site 
+                              :location-of (r / recognition) 
+                              :name (n2 / name 
+                                    :op1 "S-400")) 
+                        :ARG2 (a / analysis 
+                              :ARG1-of (b / blot-01 
+                                    :ARG0 (t / thing 
+                                          :name (n / name 
+                                                :op1 "Southern"))))) 
+                  :name (n3 / name 
+                        :op1 "PstI"))))
+
+# ::snt The gene encoding diphtheria toxin A ( DTA ) was inserted at the 3 ' end of the targeting vectors to facilitate negative selection .
+# ::tok The gene encoding diphtheria toxin A ( DTA ) was inserted at the 3 ' end of the targeting vectors to facilitate negative selection .
+# ::alignments 23-24|0.0.0.0 22-23|0.0.0.0.1 21-22|0.0.0 19-20|0.1.1 18-19|0.1.1.0 15-16|0.1 13-14|0.1.0 10-11|0 7-8|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 4-5|0.0 3-4|0.0.1 2-3|0.0.2.0 1-2|0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.098
+(i / insert-01 
+      :ARG1 (t2 / toxin 
+            :ARG0-of (f / facilitate-01 
+                  :ARG1 (s / select-01 
+                        :ARG1 (o / organization 
+                              :name (n2 / name 
+                                    :op1 "DTA")) 
+                        :mod (n / negative))) 
+            :mod (d / diphtheria) 
+            :mod (g / gene 
+                  :ARG1-of (e2 / encode-01))) 
+      :time (e / end-01 
+            :ARG0 3 
+            :ARG1 (v / vector 
+                  :ARG1-of (t / target-01))))
+
+# ::snt B ) Southern blot analyses confirming homologous recombination .
+# ::tok B ) Southern blot analyses confirming homologous recombination .
+# ::alignments 7-8|0.0 6-7|0 5-6|0.0.0 4-5|0.0.0.1 3-4|0.0.0.0 2-3|0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 0-1|0.0.0.0.0.1+0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.163
+(h / homologou 
+      :mod-of (r / recombination 
+            :ARG1-of (c / confirm-01 
+                  :ARG0 (b / blot-01 
+                        :ARG0 (l / location 
+                              :name (n2 / name 
+                                    :op1 "B") 
+                              :wiki -) 
+                        :ARG1 (t / thing 
+                              :name (n / name 
+                                    :op1 "Southern"))) 
+                  :manner-of (a / analysis))))
+
+# ::snt WT , wild-type ES cells ;  , -geo + / - ES cells ; H , HygR + / - ES cells ; - / - , ESG1-null ES cells .
+# ::tok WT , wild-type ES cells ;  , -geo + / - ES cells ; H , HygR + / - ES cells ; - / - , ESG1-null ES cells .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.166
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Numbers indicate clone numbers .
+# ::tok Numbers indicate clone numbers .
+# ::alignments 3-4|0.0 2-3|0.0.0 1-2|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.219
+(i / indicate-01 
+      :ARG0 (n / number 
+            :mod (c / clone)) 
+      :ARG1 (n2 / number-01))
+
+# ::snt C ) Northern blot ( upper ) and western blot ( lower ) analyses of wild-type ES cells ( WT ) , ESG1-null ES cells ( - / - , three clones ) and heterozygous ES cells ( + / - ) .
+# ::tok C ) Northern blot ( upper ) and western blot ( lower ) analyses of wild-type ES cells ( WT ) , ESG1-null ES cells ( - / - , three clones ) and heterozygous ES cells ( + / - ) .
+# ::alignments 39-40|0.0.0.2.3.0 36-37|0.2 33-34|0 31-32|0.0.0.2.2 30-31|0.0.0.2.0 27-28|0.0.0.1.0 24-25|0.1 17-18|0.0.1 16-17|0.0.1.0 13-14|0.0 11-12|0.0.0.2.3 9-10|0.0.0.2 8-9|0.0.0.2.1.1+0.0.0.2.1.0.0+0.0.0.2.1.0+0.0.0.2.1 7-8|0.0.0 5-6|0.0.0.2.2.0 3-4|0.0.0.1 2-3|0.0.0.1.1 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.497
+(a / and 
+      :op1 (a2 / analysis 
+            :domain (a3 / and 
+                  :domain-of (c5 / C) 
+                  :op1 (b2 / blot-01 
+                        :ARG1 (s2 / slash) 
+                        :mod "Northern_Ireland") 
+                  :op2 (b / blot-01 
+                        :ARG0 3 
+                        :ARG1 (w / world-region 
+                              :name (n / name 
+                                    :op1 "West") 
+                              :wiki "Western_world") 
+                        :ARG1-of (c2 / clone-01 
+                              :ARG0 (u / upper)) 
+                        :ARG1-of (l / low-04 
+                              :ARG0 (s / slash)))) 
+            :mod (c4 / cell 
+                  :mod (e / e))) 
+      :op2 (c3 / cell) 
+      :op3 (c / cell))
+
+# ::snt Northern blot was performed as previously described [ 20 ] .
+# ::tok Northern blot was performed as previously described [ 20 ] .
+# ::alignments 8-9|0.0.0.0 6-7|0 5-6|0.1 3-4|0.0 1-2|0.0.0 0-1|0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.625
+(d / describe-01 
+      :ARG1 (p2 / perform-02 
+            :ARG1 (b / blot-01 
+                  :ARG1 20 
+                  :mod "Northern_Ireland")) 
+      :time (p / previous))
+
+# ::snt To confirm the loading of equal amounts of RNA , ethidium bromide staining of ribosomal RNA is also shown ( middle ) .
+# ::tok To confirm the loading of equal amounts of RNA , ethidium bromide staining of ribosomal RNA is also shown ( middle ) .
+# ::alignments 20-21|0.0.2 18-19|0 17-18|0.2 15-16|0.0.1 12-13|0.0 11-12|0.0.0 10-11|0.0.0.0 8-9|0.1.0.0.1 6-7|0.1.0.0 5-6|0.1.0.0.0 3-4|0.1.0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.796
+(s / show-01 
+      :ARG1 (s2 / stain-01 
+            :ARG0 (b / bromide 
+                  :mod (e / ethidium)) 
+            :ARG1 (r / rna) 
+            :time (m / middle)) 
+      :condition (c / confirm-01 
+            :ARG1 (l / load-01 
+                  :ARG1 (a2 / amount 
+                        :ARG1-of (e2 / equal-01) 
+                        :quant-of (r2 / rna)))) 
+      :mod (a / also))
+
+# ::snt To obtain homozygous mutant ES cells , we introduced the -geo vector into HygR heterozygous ES cells .
+# ::tok To obtain homozygous mutant ES cells , we introduced the -geo vector into HygR heterozygous ES cells .
+# ::alignments 16-17|0.2 14-16|0.2.1.0.1+0.2.1.0.0+0.2.1.0+0.2.1 13-14|0.2.0.0.0+0.2.0.0+0.2.0 11-12|0.1 8-9|0 7-8|0.0 5-6|0.3.0 4-5|0.3.0.0 3-4|0.3.0.2 2-3|0.3.0.1 1-2|0.3 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.890
+(i / introduce-02 
+      :ARG0 (w / we) 
+      :ARG1 (v / vector) 
+      :ARG2 (c / cell 
+            :location (o / organization 
+                  :name (n2 / name 
+                        :op1 "HygR")) 
+            :mod (t / thing 
+                  :name (n / name 
+                        :op1 (h / heterozygous) 
+                        :op2 (e / ES)))) 
+      :time (o2 / obtain-01 
+            :ARG1 (c2 / cell 
+                  :mod (e2 / e) 
+                  :mod (h2 / homozygou) 
+                  :mod (m / mutant))))
+
+# ::snt Of 105 G418-resistant colonies tested , 49 were homozygous for ESG1 deletion .
+# ::tok Of 105 G418-resistant colonies tested , 49 were homozygous for ESG1 deletion .
+# ::alignments 11-12|0.0 10-11|0.0.1 8-9|0 6-7|0.0.0.1 4-5|0.0.0 3-4|0.0.0.0 1-2|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:44.934
+(h / homozygou 
+      :beneficiary (d / deletion 
+            :ARG0-of (t / test-01 
+                  :ARG1 (c / colony 
+                        :quant 105) 
+                  :op1-of 49) 
+            :mod (e / ESG1)))
+
+# ::snt Northern blot and western blot analyses confirmed the absence of ESG1 in these cells ( Figure 4C ) .
+# ::tok Northern blot and western blot analyses confirmed the absence of ESG1 in these cells ( Figure 4C ) .
+# ::alignments 15-16|0.1.0 13-14|0.1.1.0 12-13|0.1.1.0.0 10-11|0.1.1 8-9|0.1 6-7|0 5-6|0.0.2 4-5|0.0.2.0 3-4|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 2-3|0.0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.015
+(c2 / confirm-01 
+      :ARG0 (a3 / and 
+            :op1 (b2 / blot-01 
+                  :mod "Northern_Ireland") 
+            :op2 (w / world-region 
+                  :name (n / name 
+                        :op1 "West") 
+                  :wiki "Western_world") 
+            :op3 (a2 / analysis 
+                  :ARG1-of (b / blot-01))) 
+      :ARG1 (a / absent-01 
+            :ARG0 (f / figure) 
+            :ARG1 (e / ESG1 
+                  :location (c / cell 
+                        :mod (t / this)))))
+
+# ::snt In 29 clones , the -geo vector had replaced the HygR vector , such that the cells remained heterozygous .
+# ::tok In 29 clones , the -geo vector had replaced the HygR vector , such that the cells remained heterozygous .
+# ::alignments 18-19|0 17-18|0.1 16-17|0.1.0 13-14|0.1.1 11-12|0.0.0.1 10-11|0.0.0.1.0.0.0+0.0.0.1.0.0+0.0.0.1.0 8-9|0.0.0 6-7|0.0.0.0 2-3|0.0 1-2|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.170
+(h / heterozygou 
+      :ARG1-of (c2 / clone-01 
+            :ARG1-of (r2 / replace-01 
+                  :ARG0 (v2 / vector) 
+                  :ARG2 (v / vector 
+                        :mod (o / organization 
+                              :name (n / name 
+                                    :op1 "HygR")))) 
+            :quant 29) 
+      :ARG2-of (r / remain-01 
+            :ARG1 (c / cell) 
+            :mod (s / such)))
+
+# ::snt In the remaining 27 clones , the -geo vector was integrated at non-homologous sites .
+# ::tok In the remaining 27 clones , the -geo vector was integrated at non-homologous sites .
+# ::alignments 13-14|0.1 12-13|0.1.0 10-11|0 8-9|0.0 4-5|0.0.0 3-4|0.0.0.1 2-3|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.290
+(i / integrate-01 
+      :ARG1 (v / vector 
+            :ARG1-of (c / clone-01 
+                  :ARG1-of (r / remain-01) 
+                  :quant 27)) 
+      :ARG2 (s / site 
+            :mod (n / non-homologou)))
+
+# ::snt ESG1 - / - ES cells exhibited normal morphology ( Figure 5A ) .
+# ::tok ESG1 - / - ES cells exhibited normal morphology ( Figure 5A ) .
+# ::alignments 10-11|0.1.0.0 8-9|0.1 7-8|0.1.0 6-7|0 5-6|0.0 4-5|0.0.0 2-3|0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.407
+(e / exhibit-01 
+      :ARG0 (c / cell 
+            :mod (e2 / e)) 
+      :ARG1 (m / morphology 
+            :ARG1-of (n / normal-02 
+                  :ARG0 (f / figure) 
+                  :ARG2 (s / slash))))
+
+# ::snt These cells also proliferated at a speed comparable to that of the control ( heterozygous and wild-type ) cells ( Figure 5B ) .
+# ::tok These cells also proliferated at a speed comparable to that of the control ( heterozygous and wild-type ) cells ( Figure 5B ) .
+# ::alignments 20-21|0.0.2 18-19|0.0.1.1 15-16|0 14-15|0.1 12-13|0.0.1.1.0 9-10|0.0.1.0.0 7-8|0.0.1.0 6-7|0.0.1 3-4|0.0 2-3|0.0.3 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.597
+(a / and 
+      :op1 (p / proliferate-01 
+            :ARG0 (c4 / cell 
+                  :mod (t2 / this)) 
+            :ARG1 (s / speed 
+                  :mod (c3 / comparable-03 
+                        :ARG1 (t / that)) 
+                  :poss (c / cell 
+                        :ARG1-of (c2 / control-01))) 
+            :ARG2 (f / figure) 
+            :mod (a2 / also)) 
+      :op2 (h / heterozygou))
+
+# ::snt ESG1 - / - cells differentiated normally after the removal of leukemia inhibitory factor ( Figure 5B ) or retinoic acid treatment ( not shown ) .
+# ::tok ESG1 - / - cells differentiated normally after the removal of leukemia inhibitory factor ( Figure 5B ) or retinoic acid treatment ( not shown ) .
+# ::alignments 24-25|0 23-24|0.2 21-22|0.1 20-21|0.1.0 18-19|0.1.1 15-16|0.1.1.2 13-14|0.1.1.1 12-13|0.1.1.1.0.0 11-12|0.1.1.1.0.2+0.1.1.1.0.1.0+0.1.1.1.0.1+0.1.1.1.0 9-10|0.1.1.0 7-8|0.1.1.0.0 6-7|0.1.1.0.0.0.1 5-6|0.1.1.0.0.0 4-5|0.1.1.0.0.0.0 2-3|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:45.896
+(s / show-01 
+      :ARG1 (s2 / slash) 
+      :ARG1-of (t / treat-03 
+            :ARG2 (a / acid) 
+            :op3-of (o / or 
+                  :ARG1-of (r / remove-01 
+                        :op1-of (a2 / after 
+                              :time-of (d2 / differentiate-01 
+                                    :ARG1 (c / cell) 
+                                    :ARG1-of (n2 / normal-02)))) 
+                  :op1 (f2 / factor 
+                        :mod (d / disease 
+                              :mod-of (i / inhibitory) 
+                              :name (n / name 
+                                    :op1 "Leukemia") 
+                              :wiki "Leukemia")) 
+                  :op2 (f / figure))) 
+      :polarity -)
+
+# ::snt When transplanted into hind flanks of nude mice , these cells produced teratomas , tumors containing components of all three germ layers ( Figure 5C ) .
+# ::tok When transplanted into hind flanks of nude mice , these cells produced teratomas , tumors containing components of all three germ layers ( Figure 5C ) .
+# ::alignments 23-24|0.0.1.0.1.0 21-22|0.0 20-21|0 19-20|0.0.1 18-19|0.0.0 16-17|0.0.1.0.0.0.1.1 15-16|0.0.1.0.0.0.1 14-15|0.0.1.0.0.0.1.0 12-13|0.0.1.0.0.0.0 11-12|0.0.1.0.0.0 10-11|0.0.1.0.0 9-10|0.0.1.0.0.1 7-8|0.0.1.0.1.1 6-7|0.0.1.0.1.1.0 4-5|0.0.1.0.1 3-4|0.0.1.0.1.2 1-2|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.097
+(g / germ 
+      :mod-of (l / layer 
+            :mod (a / all) 
+            :quant (3 / 3 
+                  :ARG1-of (t4 / transplant-01 
+                        :ARG0 (c3 / cell 
+                              :ARG0-of (p / produce-01 
+                                    :ARG1 (t2 / teratoma) 
+                                    :condition (c2 / contain-01 
+                                          :ARG0 (t / tumor) 
+                                          :ARG1 (c / component))) 
+                              :mod (t3 / this)) 
+                        :ARG2 (f2 / flank-01 
+                              :ARG0 (f / figure) 
+                              :ARG1 (m / mouse 
+                                    :mod (n / nude)) 
+                              :mod (h / hind))))))
+
+# ::snt These results indicate that ESG1 is dispensable for the self-renewal properties and pluripotency of ES cells .
+# ::tok These results indicate that ESG1 is dispensable for the self-renewal properties and pluripotency of ES cells .
+# ::alignments 15-16|0.1.0.0.0 14-15|0.1.0.0.0.0 12-13|0.1.0.1 11-12|0.1.0 10-11|0.1.0.0 9-10|0.1.0.0.1 6-7|0.1 2-3|0 1-2|0.0.0+0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.156
+(i / indicate-01 
+      :ARG0 (t / thing 
+            :ARG2-of (r / result-01) 
+            :mod (t2 / this)) 
+      :ARG1 (d / dispensable 
+            :poss (a / and 
+                  :op1 (p2 / property 
+                        :domain (c / cell 
+                              :mod (e / e)) 
+                        :mod (s / self-renewal)) 
+                  :op2 (p / pluripotency))))
+
+# ::snt Analyses of ESG1-null ES cells .
+# ::tok Analyses of ESG1-null ES cells .
+# ::alignments 4-5|0.0.0 3-4|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.166
+(a / analyse 
+      :topic (e / e 
+            :mod-of (c / cell)))
+
+# ::snt A ) The morphology of ESG1-null ES cell colonies grown on STO feeder cells .
+# ::tok A ) The morphology of ESG1-null ES cell colonies grown on STO feeder cells .
+# ::alignments 13-14|0.0.0.0.1.0 12-13|0.0.0.0.1 9-10|0.0.0.0 8-9|0.0.0 7-8|0.0 6-7|0 3-4|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.218
+(e / e 
+      :mod-of (c3 / cell 
+            :mod-of (c2 / colony 
+                  :ARG1-of (g / grow-03 
+                        :ARG0 (m / morphology) 
+                        :ARG0-of (f / feed-01 
+                              :ARG1 (c / cell))))))
+
+# ::snt B ) Growth curve of wild-type ( WT ) , ESG1-null ( - / - ) and heterozygous ( + / - ) ES cells .
+# ::tok B ) Growth curve of wild-type ( WT ) , ESG1-null ( - / - ) and heterozygous ( + / - ) ES cells .
+# ::alignments 24-25|0.0.1.0.1 20-21|0.0.2 17-18|0.0.1 16-17|0.0.1.0 13-14|0.0.1.0.0 3-4|0.0 2-3|0.0.0 0-1|0.2+0.1.0+0.1+0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.402
+(l / location 
+      :ARG1-of (c2 / curve-01 
+            :ARG0 (g / growth) 
+            :ARG2 (h / heterozygou 
+                  :op2-of (a / and 
+                        :op1 (s2 / slash) 
+                        :poss-of (c / cell))) 
+            :op1-of (s / slash)) 
+      :name (n / name 
+            :op1 "B") 
+      :wiki -)
+
+# ::snt Each clone ( 1  104 cells/well ) was plated in 24-well plates .
+# ::tok Each clone ( 1  104 cells/well ) was plated in 24-well plates .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.403
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Cell numbers were determined with a Coulter counter at 2 , 4 , and 6 days .
+# ::tok Cell numbers were determined with a Coulter counter at 2 , 4 , and 6 days .
+# ::alignments 15-16|0.0.0.0.0.0+0.0.0.0.0 14-15|0.0.0.0 13-14|0.1.1 11-12|0.2.1 9-10|0.2.0 7-8|0.2 6-7|0.1.0.0+0.1.0+0.1 3-4|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.721
+(d2 / determined-02 
+      :ARG0 (n2 / number 
+            :mod (c2 / cell 
+                  :mod-of (6 / 6 
+                        :quant-of (t / temporal-quantity 
+                              :unit (d / day))))) 
+      :ARG1 (p / person 
+            :name (n / name 
+                  :op1 "Coulter") 
+            :op1-of (a / and)) 
+      :ARG2-of (c / counter-01 
+            :ARG0 2 
+            :ARG1 4))
+
+# ::snt Data of + / - and - / - cells are shown as averages and standard deviations of three independent clones .
+# ::tok Data of + / - and - / - cells are shown as averages and standard deviations of three independent clones .
+# ::alignments 20-21|0.2.0.0.0.0.0 19-20|0.2.0.0.0.0.1+0.2.0.0.0.0 18-19|0.2.0.0.0.0.0.0 16-17|0.0.0 15-16|0.0.0.0 14-15|0.0 13-14|0.2 11-12|0 9-10|0.2.0 7-8|0.2.0.0.0.1 5-6|0.2.0.0.0 3-4|0.2.0.0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:46.912
+(s2 / show-01 
+      :ARG0 (a / and 
+            :op1 (d2 / deviation 
+                  :ARG1-of (s / standard-02))) 
+      :ARG1 (d3 / data) 
+      :ARG2 (a2 / average-01 
+            :ARG1 (c2 / cell 
+                  :mod (s4 / slash 
+                        :op1-of (a3 / and 
+                              :ARG1-of (d / depend-01 
+                                    :ARG0 (c / clone-01 
+                                          :quant 3) 
+                                    :polarity -) 
+                              :op2 (s3 / slash))))))
+
+# ::snt C ) A section of teratoma derived from ESG1-null ES cells ( hematoxylin & eosin staining ) .
+# ::tok C ) A section of teratoma derived from ESG1-null ES cells ( hematoxylin & eosin staining ) .
+# ::alignments 15-16|0.0 14-15|0 12-13|0.0.1 10-11|0.0.0.0.1 9-10|0.0.0.0.1.0 6-7|0.0.0.0 5-6|0.0.0.1 3-4|0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:47.002
+(e / eosin 
+      :ARG1-of (s / stain-01 
+            :ARG0 (s2 / section 
+                  :ARG0-of (d / derive-01 
+                        :ARG1 (c2 / C) 
+                        :ARG2 (c / cell 
+                              :mod (e2 / e))) 
+                  :part-of (t / teratoma)) 
+            :mod (h / hematoxylin)))
+
+# ::snt We examined the gene expression profiles of ESG1 - / - ES cells using oligonucleotide-based DNA microarrays representing ~ 20,000 genes .
+# ::tok We examined the gene expression profiles of ESG1 - / - ES cells using oligonucleotide-based DNA microarrays representing ~ 20,000 genes .
+# ::alignments 20-21|0.0.0.1.1.1.0 17-18|0 16-17|0.0 15-16|0.0.1 14-15|0.0.2 13-14|0.0.0 12-13|0.0.0.0 11-12|0.0.0.0.0 9-10|0.0.0.1.1.3 7-8|0.0.0.1.1.0 5-6|0.0.0.1.1 4-5|0.0.0.1.1.1 3-4|0.0.0.1.1.2 1-2|0.0.0.1 0-1|0.0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:47.597
+(r / represent-01 
+      :ARG1 (m / microarray 
+            :ARG1-of (u / use-01 
+                  :ARG0 (c / cell 
+                        :mod (e / e)) 
+                  :ARG2 (e4 / examine-01 
+                        :ARG0 (w / we) 
+                        :ARG1 (p / profile-01 
+                              :ARG1 (e2 / ESG1) 
+                              :ARG2 (e3 / express-01 
+                                    :ARG1 (g / gene)) 
+                              :mod (g2 / gene) 
+                              :purpose (s / slash)))) 
+            :mod (d / DNA) 
+            :mod (o / oligonucleotide-bas)))
+
+# ::snt In comparison to control ES cells , ESG1 was identified as the gene reduced to the greatest extent in ESG1 - / - ES cells ( Figure 6A ) .
+# ::tok In comparison to control ES cells , ESG1 was identified as the gene reduced to the greatest extent in ESG1 - / - ES cells ( Figure 6A ) .
+# ::alignments 26-27|0.2.1 24-25|0.2.0 21-22|0.0 17-18|0.1.0.0 16-17|0.1.0.0.0.0+0.1.0.0.0 13-14|0.1.0 12-13|0.1 9-10|0 5-6|0.2.2.0 4-5|0.2.2.0.0 3-4|0.2.2 1-2|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:47.894
+(i / identify-01 
+      :ARG1 (s / slash) 
+      :ARG2 (g2 / gene 
+            :ARG1-of (r / reduce-01 
+                  :ARG4 (e / extent 
+                        :mod (g / great 
+                              :degree (m / most))))) 
+      :manner (c4 / compare-01 
+            :ARG0 (c / cell) 
+            :ARG1 (f / figure) 
+            :ARG2 (c3 / control-01 
+                  :ARG1 (c2 / cell 
+                        :mod (e2 / e)))))
+
+# ::snt The expression of ES cell marker genes , such as Nanog and Oct3/4 , was normal in ESG1 - / - ES cells .
+# ::tok The expression of ES cell marker genes , such as Nanog and Oct3/4 , was normal in ESG1 - / - ES cells .
+# ::alignments 22-23|0.0.0.0.0 19-20|0.0.1.0 15-16|0.0.1 11-12|0 8-9|0.1 6-7|0.0.0 5-6|0.0.0.0 4-5|0.0.0.0.1 3-4|0.0.0.0.1.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.001
+(a / and 
+      :example-of (e2 / express-01 
+            :ARG1 (g / gene 
+                  :ARG1-of (m / mark-01 
+                        :ARG0 (c / cell) 
+                        :mod (c2 / cell 
+                              :mod (e / e)))) 
+            :ARG1-of (n / normal-02 
+                  :ARG0 (s / slash))) 
+      :op1 (s2 / such))
+
+# ::snt We confirmed normal Oct3/4 expression at protein levels by Western blot ( Figure 6B ) .
+# ::tok We confirmed normal Oct3/4 expression at protein levels by Western blot ( Figure 6B ) .
+# ::alignments 12-13|0.1.0 10-11|0.1.3 9-10|0.1.3.0.1+0.1.3.0.0.0+0.1.3.0.0+0.1.3.0 7-8|0.1.1 6-7|0.1.1.0 4-5|0.1 2-3|0.1.2 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.161
+(c / confirm-01 
+      :ARG0 (w2 / we) 
+      :ARG1 (e / express-01 
+            :ARG0 (f / figure) 
+            :ARG1 (l / level 
+                  :mod (p / protein)) 
+            :ARG1-of (n2 / normal-02) 
+            :ARG2 (b / blot-01 
+                  :mod (w / world-region 
+                        :name (n / name 
+                              :op1 "West") 
+                        :wiki "Western_world"))))
+
+# ::snt The overall gene expression profiles were similar between control ES cells and ESG1 - / - ES cells .
+# ::tok The overall gene expression profiles were similar between control ES cells and ESG1 - / - ES cells .
+# ::alignments 17-18|0.0.0.0 14-15|0.0.0.1 12-13|0.0.1.0.0.0.0 11-12|0.0.1.0.0.0 10-11|0.0.1.0.0 9-10|0.0.1.0 8-9|0.0.1 6-7|0 4-5|0.0 3-4|0.0.0 2-3|0.0.3 1-2|0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.284
+(r / resemble-01 
+      :ARG1 (p / profile-01 
+            :ARG1 (e3 / express-01 
+                  :ARG0 (c / cell) 
+                  :ARG1 (s / slash)) 
+            :ARG1-of (c3 / control-01 
+                  :mod-of (e2 / e 
+                        :mod-of (c2 / cell 
+                              :op1-of (a / and 
+                                    :op2 (e / ESG1))))) 
+            :mod (o / overall) 
+            :mod (g / gene)))
+
+# ::snt Several genes exhibited a greater than two-fold reduction in ESG1 - / - cells , including Krt1-8 , Pem , Ctgf , Ptgs2 , Igf2 and Inhba .
+# ::tok Several genes exhibited a greater than two-fold reduction in ESG1 - / - cells , including Krt1-8 , Pem , Ctgf , Ptgs2 , Igf2 and Inhba .
+# ::alignments 26-27|0.6.1.0+0.6.1+0.6 25-26|0 24-25|0.5.0.0+0.5.0+0.5 22-23|0.4.0.0+0.4.0+0.4 20-21|0.3.0.0+0.3.0+0.3 18-19|0.2.0.0+0.2.0+0.2 16-17|0.1.0.0+0.1.0+0.1 13-14|0.0.0.1 11-12|0.6.2 7-8|0.0.0 6-7|0.0.0.2 4-5|0.6.0 2-3|0.0 1-2|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.847
+(a / and 
+      :op1 (e / exhibit-01 
+            :ARG1 (r / reduce-01 
+                  :ARG0 (g2 / gene 
+                        :part-of (s2 / several)) 
+                  :ARG1 (c / cell) 
+                  :mod (t2 / two-fold))) 
+      :op2 (t / thing 
+            :name (n6 / name 
+                  :op1 "Krt1-8")) 
+      :op3 (p5 / person 
+            :name (n5 / name 
+                  :op1 "Pem")) 
+      :op4 (p4 / person 
+            :name (n4 / name 
+                  :op1 "Ctgf")) 
+      :op5 (p3 / person 
+            :name (n3 / name 
+                  :op1 "Ptgs2")) 
+      :op6 (p2 / person 
+            :name (n2 / name 
+                  :op1 "Igf2")) 
+      :op7 (p / person 
+            :mod (g / great) 
+            :name (n / name 
+                  :op1 "Inhba") 
+            :op1-of (s / slash)))
+
+# ::snt These genes might be regulated directly or indirectly by ESG1 .
+# ::tok These genes might be regulated directly or indirectly by ESG1 .
+# ::alignments 7-8|0.0.2.0 6-7|0.0.2 5-6|0.0.1 4-5|0.0 2-3|0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.879
+(p / possible-01 
+      :ARG1 (r / regulate-01 
+            :ARG1 (g / gene 
+                  :mod (t / this)) 
+            :ARG1-of (d2 / direct-02) 
+            :op1-of (o / or 
+                  :op2 (d / direct-02))))
+
+# ::snt Since ESG1 contains a KH-type RNA-binding domain , it may stabilize mRNA of these genes .
+# ::tok Since ESG1 contains a KH-type RNA-binding domain , it may stabilize mRNA of these genes .
+# ::alignments 14-15|0.0.0.0 13-14|0.0.0.0.0 11-12|0.0.0 10-11|0.0 9-10|0 6-7|0.0.1.0.1 5-6|0.0.1.0.1.0 2-3|0.0.1.0 1-2|0.0.1.0.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:48.942
+(p / possible-01 
+      :ARG1 (s / stabilize-01 
+            :ARG1 (m / mrna 
+                  :poss (g / gene 
+                        :mod (t / this))) 
+            :time (s2 / since 
+                  :op1 (c / contain-01 
+                        :ARG0 (e / ESG1) 
+                        :ARG1 (d / domain 
+                              :mod (r / rna-bind))))))
+
+# ::snt Further studied are required to clarify this possibility .
+# ::tok Further studied are required to clarify this possibility .
+# ::alignments 7-8|0.2.0 6-7|0.2.0.0 5-6|0.2 3-4|0 1-2|0.1 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.027
+(r / require-01 
+      :ARG0 (f / further) 
+      :ARG1-of (s / study-01) 
+      :ARG2 (c / clarify-10 
+            :ARG1 (p / possible-01 
+                  :mod (t / this))))
+
+# ::snt Gene expression analyses of ESG1-null ES cells .
+# ::tok Gene expression analyses of ESG1-null ES cells .
+# ::alignments 6-7|0.1 5-6|0.1.0 2-3|0 1-2|0.0 0-1|0.0.0.0.0+0.0.0.0+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.051
+(a / analysis 
+      :ARG1-of (e2 / express-01 
+            :ARG0 (p / person 
+                  :name (n / name 
+                        :op1 "Gene"))) 
+      :poss (c / cell 
+            :mod (e / e)))
+
+# ::snt A ) DNA microarray analyses .
+# ::tok A ) DNA microarray analyses .
+# ::alignments 4-5|0.0 2-3|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.063
+(d / DNA 
+      :domain-of (a / analysis))
+
+# ::snt Total RNA from wild-type ES cells and ESG1-null ES cells were labeled with Cy3 and Cy5 , respectively .
+# ::tok Total RNA from wild-type ES cells and ESG1-null ES cells were labeled with Cy3 and Cy5 , respectively .
+# ::alignments 17-18|0.0.0.0.0.2 15-16|0.0.0.0.0.1.1 14-15|0.0.0.0.0.1 13-14|0.0.0.0.0.1.0.0.0+0.0.0.0.0.1.0.0+0.0.0.0.0.1.0 11-12|0.0.0.0.0 9-10|0.0.0.0.0.0 6-7|0.0.0.0 5-6|0.0 4-5|0 1-2|0.0.0 0-1|0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.224
+(e / e 
+      :mod-of (c3 / cell 
+            :source-of (r2 / rna 
+                  :op1-of (a2 / and 
+                        :ARG0-of (l / label-01 
+                              :ARG1 (c2 / cell 
+                                    :ARG1-of (t / total-01)) 
+                              :ARG2 (a / and 
+                                    :op1 (p / person 
+                                          :name (n / name 
+                                                :op1 "Cy3")) 
+                                    :op2 (c / Cy5)) 
+                              :mod (r / respective))))))
+
+# ::snt Samples were hybridized to Agilent Mouse Developmental Microarrays .
+# ::tok Samples were hybridized to Agilent Mouse Developmental Microarrays .
+# ::alignments 4-8|0.1.0.3+0.1.0.2+0.1.0.1+0.1.0.0+0.1.0+0.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.315
+(h / hybridize-01 
+      :ARG1 (s / sample-01) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 "Agilent" 
+                  :op2 "Mouse" 
+                  :op3 "Developmental" 
+                  :op4 "Microarrays")))
+
+# ::snt The averages of two independent clones are shown .
+# ::tok The averages of two independent clones are shown .
+# ::alignments 7-8|0 5-6|0.0.0 4-5|0.0.0.0.0+0.0.0.0 3-4|0.0.0.1 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.335
+(s / show-01 
+      :ARG1 (a / average-01 
+            :ARG1 (c / clone-01 
+                  :ARG0-of (d / depend-01 
+                        :polarity -) 
+                  :quant 2)))
+
+# ::snt B ) Western blot analyses .
+# ::tok B ) Western blot analyses .
+# ::alignments 4-5|0.0 3-4|0.0.0 2-3|0.0.1.1+0.0.1.0.0+0.0.1.0+0.0.1 0-1|0.2+0.1.0+0.1+0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.355
+(l / location 
+      :mod (a / analysis 
+            :ARG1-of (b / blot-01) 
+            :mod (w / world-region 
+                  :name (n / name 
+                        :op1 "West") 
+                  :wiki "Western_world")) 
+      :name (n2 / name 
+            :op1 "B") 
+      :wiki -)
+
+# ::snt Cell lysates from ESG1 + / - and ESG1 - / - cells were examined for expression of ESG1 , Oct3/4 and CDK4 with immunoblotting .
+# ::tok Cell lysates from ESG1 + / - and ESG1 - / - cells were examined for expression of ESG1 , Oct3/4 and CDK4 with immunoblotting .
+# ::alignments 24-25|0.0.1 21-22|0 16-17|0.0 14-15|0.0.2 12-13|0.0.2.0 10-11|0.0.2.0.0 7-8|0.1 5-6|0.0.0 1-2|0.0.0.0 0-1|0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.600
+(a / and 
+      :ARG1-of (e / express-01 
+            :ARG0 (s2 / slash 
+                  :source-of (l / lysat 
+                        :mod (c2 / cell))) 
+            :ARG2 (i / immunoblott) 
+            :purpose-of (e2 / examine-01 
+                  :ARG1 (c / cell 
+                        :op1-of (s / slash)))) 
+      :op1 (a2 / and))
+
+# ::snt To generate ESG1-knockout mice , we injected -geo-ESG1 + / - ES cell clones into the blastocysts of C57BL6 mice .
+# ::tok To generate ESG1-knockout mice , we injected -geo-ESG1 + / - ES cell clones into the blastocysts of C57BL6 mice .
+# ::alignments 19-20|0.0 18-19|0 16-17|0.0.1 13-14|0.0.0 12-13|0.0.0.1 9-10|0.0.0.0.0.0.0.0 6-7|0.0.0.0.0 5-6|0.0.0.0 3-4|0.0.0.0.0.0 1-2|0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.680
+(c / C57BL6 
+      :mod-of (m / mouse 
+            :ARG1-of (c2 / clone-01 
+                  :ARG0 (w / we 
+                        :ARG0-of (i / inject-01 
+                              :ARG1 (m2 / mouse 
+                                    :ARG1-of (g / generate-01 
+                                          :ARG0 (s / slash))))) 
+                  :mod (c3 / cell)) 
+            :mod-of (b / blastocyst)))
+
+# ::snt We obtained germline transmission from three clones .
+# ::tok We obtained germline transmission from three clones .
+# ::alignments 6-7|0.0.0 5-6|0.0.0.0 3-4|0.1 2-3|0.1.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:49.701
+(o / obtain-01 
+      :ARG0 (w / we 
+            :ARG0-of (c / clone-01 
+                  :quant 3)) 
+      :ARG1 (t / transmission 
+            :mod (g / germline)))
+
+# ::snt We obtained ESG1 - / - mice at the Mendelian ratios ( 36 wild-type , 69 ESG1 + / - , and 45 ESG1 - / - ) from intercrosses of ESG1 + / - mice .
+# ::tok We obtained ESG1 - / - mice at the Mendelian ratios ( 36 wild-type , 69 ESG1 + / - , and 45 ESG1 - / - ) from intercrosses of ESG1 + / - mice .
+# ::alignments 35-36|0 33-34|0.0.0.0.0 29-30|0.0.0.0 25-26|0.0.3 22-23|0.0.5 21-22|0.0.0.0.0.2 18-19|0.0.4 15-16|0.0.6 12-13|0.0.0.0.0.0 10-11|0.0.2 9-10|0.0.0.0.0.1.0.0+0.0.0.0.0.1.0+0.0.0.0.0.1 6-7|0.0.1 4-5|0.0.0.0.0.2.0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:50.453
+(m / mouse 
+      :op1 (o / obtain-01 
+            :ARG0 (w / we 
+                  :poss-of (i / intercross 
+                        :beneficiary (s / slash 
+                              :mod 36 
+                              :op1 (t / thing 
+                                    :name (n / name 
+                                          :op1 "Mendelian")) 
+                              :op2-of (a / and 
+                                    :op1 (s4 / slash))))) 
+            :ARG1 (m2 / mouse) 
+            :manner (r / ratio) 
+            :op1-of (s2 / slash) 
+            :op1-of (s3 / slash) 
+            :op1-of 45 
+            :op1-of 69))
+
+# ::snt These animals exhibited normal development , gross appearance , and fertility ( not shown ) .
+# ::tok These animals exhibited normal development , gross appearance , and fertility ( not shown ) .
+# ::alignments 13-14|0.0.2.0 12-13|0.0.2.0.0 10-11|0.0.2.1.0 9-10|0.0.2 7-8|0.0.2.1 6-7|0.0.2.1.1 4-5|0.0 3-4|0.0.1 2-3|0 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:50.935
+(e / exhibit-01 
+      :ARG1 (d / develop-02 
+            :ARG0 (a3 / animal 
+                  :mod (t / this)) 
+            :ARG1-of (n / normal-02) 
+            :op1-of (a / and 
+                  :ARG1-of (s / show-01 
+                        :polarity -) 
+                  :op2 (a2 / appear-01 
+                        :ARG1 (f / fertility) 
+                        :ARG1-of (g / gross-03)))))
+
+# ::snt Histological examination of testis and ovary could not identify any abnormalities ( not shown ) .
+# ::tok Histological examination of testis and ovary could not identify any abnormalities ( not shown ) .
+# ::alignments 13-14|0.0.1.0 12-13|0.0.1.0.0 10-11|0.0.1 9-10|0.0.1.1 8-9|0.0 7-8|0.1 6-7|0 5-6|0.0.0.2.0 4-5|0.0.0.2 3-4|0.0.0.1 1-2|0.0.0 0-1|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:51.303
+(p / possible-01 
+      :ARG1 (i / identify-01 
+            :ARG0 (e / examine-01 
+                  :ARG0 (h / histological) 
+                  :ARG1 (t / testi) 
+                  :op1-of (a3 / and 
+                        :op2 (o / ovary))) 
+            :ARG1 (a / abnormaliti 
+                  :ARG1-of (s / show-01 
+                        :polarity -) 
+                  :mod (a2 / any))) 
+      :polarity -)
+
+# ::snt These data demonstrated that ESG1 is dispensable for both mouse development and germ cell formation .
+# ::tok These data demonstrated that ESG1 is dispensable for both mouse development and germ cell formation .
+# ::alignments 14-15|0 13-14|0.1 12-13|0.1.0 11-12|0.0 10-11|0.0.1 9-10|0.0.1.0 8-9|0.0.0 6-7|0.0.1.1 2-3|0.0.1.1.0 1-2|0.0.1.1.0.0 0-1|0.0.1.1.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:51.408
+(f / form-01 
+      :ARG1 (a / and 
+            :mod (b / both) 
+            :op1 (d / develop-02 
+                  :ARG1 (m / mouse) 
+                  :prep-for-of (d2 / dispensable 
+                        :ARG1-of (d3 / demonstrate-01 
+                              :ARG0 (d4 / data 
+                                    :mod (t / this)))))) 
+      :mod (c / cell 
+            :mod (g / germ)))
+
+# ::snt We also generated ES cells from blastocysts obtained by intercrosses of ESG1 + / - males and ESG1 - / - females .
+# ::tok We also generated ES cells from blastocysts obtained by intercrosses of ESG1 + / - males and ESG1 - / - females .
+# ::alignments 21-22|0.0.1 19-20|0.2 16-17|0 15-16|0.1 13-14|0.0 9-10|0.0.0 7-8|0.0.0.0 6-7|0.0.0.0.0 4-5|0.0.0.0.0.0.1 3-4|0.0.0.0.0.0.1.0 2-3|0.0.0.0.0.0 1-2|0.0.0.0.0.0.1.1 0-1|0.0.0.0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:51.684
+(a / and 
+      :example-of (s2 / slash 
+            :beneficiary-of (i / intercross 
+                  :ARG0-of (o / obtain-01 
+                        :ARG1 (b / blastocyst 
+                              :ARG2-of (g / generate-01 
+                                    :ARG0 (w / we) 
+                                    :ARG1 (c / cell 
+                                          :mod (e / e) 
+                                          :mod (a2 / also)))))) 
+            :mod-of (f / female)) 
+      :op1 (m / male) 
+      :op2 (s / slash))
+
+# ::snt Of the eight ES cell lines established , two clones were ESG1 - / - .
+# ::tok Of the eight ES cell lines established , two clones were ESG1 - / - .
+# ::alignments 13-14|0.0.0.0.0 11-12|0 9-10|0.0 8-9|0.0.1 6-7|0.0.0.0 5-6|0.0.0 4-5|0.0.0.1 3-4|0.0.0.1.0 2-3|0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:51.752
+(e / ESG1 
+      :ARG1-of (c / clone-01 
+            :ARG0 (l / line 
+                  :ARG1-of (e2 / establish-01 
+                        :ARG0 (s / slash)) 
+                  :mod (c2 / cell 
+                        :mod (e3 / e)) 
+                  :quant 8) 
+            :quant 2))
+
+# ::snt These ESG1-null ES cells demonstrated normal morphology , proliferation , and differentiation ( not shown ) , confirming that ESG1 is dispensable in ES cells .
+# ::tok These ESG1-null ES cells demonstrated normal morphology , proliferation , and differentiation ( not shown ) , confirming that ESG1 is dispensable in ES cells .
+# ::alignments 24-25|0.0.0.0.0 21-22|0.0.0.0 17-18|0.0.0 14-15|0.2.1.0 13-14|0.2.1.0.0 11-12|0.2.1 10-11|0.2 8-9|0.2.0 6-7|0.1 5-6|0.1.0 4-5|0 3-4|0.0 2-3|0.0.2 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:52.521
+(d3 / demonstrate-01 
+      :ARG0 (c3 / cell 
+            :ARG0-of (c2 / confirm-01 
+                  :ARG1 (d / dispensable 
+                        :location (c / cell))) 
+            :mod (t / this) 
+            :mod (e / e)) 
+      :ARG1 (m / morphology 
+            :ARG1-of (n / normal-02)) 
+      :op1-of (a / and 
+            :op2 (p / proliferate-01) 
+            :op3 (d2 / differentiation 
+                  :ARG1-of (s / show-01 
+                        :polarity -))))
+
+# ::snt To analyze the physiological roles of ESG1 , we identified the mouse gene on chromosome 9 and deleted it by homologous recombination in ES cells .
+# ::tok To analyze the physiological roles of ESG1 , we identified the mouse gene on chromosome 9 and deleted it by homologous recombination in ES cells .
+# ::alignments 24-25|0.0.1.0 23-24|0.0.1.0.0 21-22|0.0.1 20-21|0.0.2 17-18|0.0 16-17|0 15-16|0.0.0.0.2.0 14-15|0.0.0.0.1 12-13|0.0.0.0.0 11-12|0.0.0.0.0.0 9-10|0.0.0.0 8-9|0.0.0 4-5|0.0.0.0.2.1 3-4|0.0.0.0.2.1.0 1-2|0.0.0.0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:53.019
+(a / and 
+      :op1 (d / delete-01 
+            :ARG0 (w / we 
+                  :ARG0-of (i / identify-01 
+                        :ARG1 (g / gene 
+                              :mod (m / mouse)) 
+                        :ARG2 (c2 / chromosome) 
+                        :condition (a2 / analyze-01 
+                              :ARG0 9 
+                              :ARG1 (r2 / role 
+                                    :mod (p / physiological))))) 
+            :ARG1 (r / recombination 
+                  :location (c / cell 
+                        :mod (e / e))) 
+            :ARG2 (h / homologou)))
+
+# ::snt Despite specific expression in early embryos , germ cells , and pluripotent cells , our data demonstrated that ESG1 is dispensable for mouse development , germ cell formation , and ES cell self-renewal .
+# ::tok Despite specific expression in early embryos , germ cells , and pluripotent cells , our data demonstrated that ESG1 is dispensable for mouse development , germ cell formation , and ES cell self-renewal .
+# ::alignments 32-33|0.1.1 31-32|0.1.1.0 30-31|0.1.1.0.0 29-30|0.1 27-28|0 26-27|0.0 25-26|0.0.0 23-24|0.1.0 22-23|0.1.0.0 20-21|0.1.0.2 16-17|0.1.0.2.0 15-16|0.1.0.2.0.0 14-15|0.1.0.2.0.0.0 12-13|0.1.0.1.3 11-12|0.1.0.1.3.0 10-11|0.1.0.1 8-9|0.1.0.1.2 7-8|0.1.0.1.2.0 5-6|0.1.0.1.1 4-5|0.1.0.1.1.0 2-3|0.1.0.1.0 1-2|0.1.0.1.0.0 0-1|0.1.0.1.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:54.396
+(f / form-01 
+      :ARG1 (c2 / cell 
+            :mod (g / germ)) 
+      :op2-of (a / and 
+            :op1 (d / develop-02 
+                  :ARG1 (m / mouse) 
+                  :op4-of (a2 / and 
+                        :ARG1-of (e4 / express-01 
+                              :ARG1-of (s2 / specific-02) 
+                              :op1-of (d5 / despite)) 
+                        :op1 (e2 / embryo 
+                              :mod (e3 / early)) 
+                        :op2 (c4 / cell 
+                              :mod (g2 / germ)) 
+                        :op3 (c3 / cell 
+                              :mod (p / pluripotent))) 
+                  :purpose-of (d2 / dispensable 
+                        :ARG1-of (d3 / demonstrate-01 
+                              :ARG0 (d4 / data 
+                                    :poss (w / we))))) 
+            :op3 (s / self-renewal 
+                  :mod (c / cell 
+                        :mod (e / e)))))
+
+# ::snt Identification and analyses of BAC clones containing the mouse ESG1 gene .
+# ::tok Identification and analyses of BAC clones containing the mouse ESG1 gene .
+# ::alignments 10-11|0.0.0.1.0 9-10|0.0.0.1.0.0 8-9|0.0.0.1.0.0.0 6-7|0.0.0.1 5-6|0.0.0 4-5|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 2-3|0.1 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:54.927
+(a2 / and 
+      :op1 (i / identification 
+            :op1 (c2 / clone-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "BAC")) 
+                  :ARG0-of (c / contain-01 
+                        :ARG2 (g / gene 
+                              :mod (e / ESG1 
+                                    :mod (m / mouse)))))) 
+      :op2 (a / analysis))
+
+# ::snt To identify bacterial artificial chromosome ( BAC ) clones containing mouse ESG1 gene , we performed PCR-based screening of mouse BAC library DNA pools ( Research Genetics ) using the pH34-u38 ( 5 ' - GAAGTCTGGTTCCTTGGCAGG-3 ' ) and pH34-L394 ( 5 ' - ACTCGATACACTGGCCTAGC-3 ' ) primers .
+# ::tok To identify bacterial artificial chromosome ( BAC ) clones containing mouse ESG1 gene , we performed PCR-based screening of mouse BAC library DNA pools ( Research Genetics ) using the pH34-u38 ( 5 ' - GAAGTCTGGTTCCTTGGCAGG-3 ' ) and pH34-L394 ( 5 ' - ACTCGATACACTGGCCTAGC-3 ' ) primers .
+# ::alignments 47-48|0.2.0.1.0.2 43-45|0.2.0.1.0.0.1+0.2.0.1.0.0.0+0.2.0.1.0.0+0.2.0.1.0 41-42|0.2.0.1.0.1 38-39|0.2.0.0.0.1.1.2 32-33|0.2.0.0.0.0 28-29|0.2.0.1 26-27|0.2.0.0.0.1.1.1 25-26|0.2.0.0.0.1.1 23-24|0.1 22-23|0.1.0 21-22|0.1.1 19-20|0.2.0.0.0.2 17-18|0 16-17|0.0.0.0+0.0.0+0.0 15-16|0.2 14-15|0.2.0 12-13|0.2.0.0.0.1.0 11-12|0.2.0.0.0.1.0.0 10-11|0.2.0.0.0.1.0.0.0 9-10|0.2.0.0.0.1 8-9|0.2.0.0.0 6-7|0.2.0.0.0.1.2.0.0+0.2.0.0.0.1.2.0+0.2.0.0.0.1.2 4-5|0.2.0.0.0.3 3-4|0.2.0.0.0.4 2-3|0.2.0.0.0.1.1.0 1-2|0.2.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:57.410
+(s / screen-01 
+      :ARG0 (t2 / thing 
+            :name (n2 / name 
+                  :op1 "PCR-based")) 
+      :ARG1 (p2 / pool 
+            :mod (d / DNA) 
+            :mod (l / library)) 
+      :ARG1-of (p3 / perform-02 
+            :ARG0 (w / we 
+                  :ARG0-of (i / identify-01 
+                        :ARG1 (c2 / clone-01 
+                              :ARG0 5 
+                              :ARG0-of (c / contain-01 
+                                    :ARG1 (g2 / gene 
+                                          :mod (e / ESG1 
+                                                :mod (m2 / mouse))) 
+                                    :ARG1-of (r / research-01 
+                                          :ARG0 (b / bacterial) 
+                                          :mod-of (g / genetic) 
+                                          :op1-of (a2 / and)) 
+                                    :ARG2 (o / organization 
+                                          :name (n3 / name 
+                                                :op1 "BAC"))) 
+                              :ARG1 (m / mouse) 
+                              :mod (c3 / chromosome) 
+                              :mod (a3 / artificial))) 
+                  :ARG0-of (u / use-01 
+                        :ARG1 (t / thing 
+                              :name (n / name 
+                                    :op1 - 
+                                    :op2 (a / ACTCGATACACTGGCCTAGC-3)) 
+                              :poss 5 
+                              :poss-of (p / primer))))))
+
+# ::snt Following restriction enzyme digestion , we performed Southern blot analyses of BAC clones as described [ 20 ] using the pH34-U258 ( 5 ' - CTCGAGTGTACAGTCAAGTGGTTGCTGGGA-3 ' ) , pH34-U65 ( 5 ' - GTGACCCTCGTGACCCGTAA-3 ' ) , pH34-intron1L ( 5 ' - CTGCGTGAGAGAAACACCAAACAGGC-3 ' ) , pH34-L545 ( 5 ' - TGTGAATGGGAAGGTTACCACTCT-3 ' ) and pH34-SCL1 ( 5 ' - GCCCTCTTCTGGTTTGTCTCGAAAT-3 ' ) probes .
+# ::tok Following restriction enzyme digestion , we performed Southern blot analyses of BAC clones as described [ 20 ] using the pH34-U258 ( 5 ' - CTCGAGTGTACAGTCAAGTGGTTGCTGGGA-3 ' ) , pH34-U65 ( 5 ' - GTGACCCTCGTGACCCGTAA-3 ' ) , pH34-intron1L ( 5 ' - CTGCGTGAGAGAAACACCAAACAGGC-3 ' ) , pH34-L545 ( 5 ' - TGTGAATGGGAAGGTTACCACTCT-3 ' ) and pH34-SCL1 ( 5 ' - GCCCTCTTCTGGTTTGTCTCGAAAT-3 ' ) probes .
+# ::alignments 64-65|0.1 60-62|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 58-59|0.1.0.1 55-56|0 49-50|0.0.1.1 40-41|0.0.0.0.0 31-32|0.0.1.0.0.0.0.1 22-23|0.0.1.0.0.1.0 18-19|0.0 16-17|0.0.1.0.0.1.1.0.0 14-15|0.0.1 12-13|0.0.0.0 11-12|0.0.0.1.0+0.0.0.1+0.0.0 9-10|0.0.1.0.0.0 8-9|0.0.1.0.0.0.0 7-8|0.0.1.0.0.0.0.0.0.0+0.0.1.0.0.0.0.0.0+0.0.1.0.0.0.0.0 6-7|0.0.1.0.0 5-6|0.0.1.0 3-4|0.0.1.0.0.1.1 2-3|0.0.1.0.0.1.1.1 1-2|0.0.1.0.0.1.1.0 0-1|0.0.1.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:59.434
+(a / and 
+      :ARG1-of (u / use-01 
+            :ARG0 (o / organization 
+                  :ARG0-of (c / clone-01 
+                        :ARG1 5) 
+                  :name (n2 / name 
+                        :op1 "BAC")) 
+            :ARG2-of (d / describe-01 
+                  :ARG1 (w / we 
+                        :ARG0-of (p2 / perform-02 
+                              :ARG1 (a2 / analysis 
+                                    :ARG1-of (b / blot-01 
+                                          :ARG0 (t2 / thing 
+                                                :name (n3 / name 
+                                                      :op1 "Southern")) 
+                                          :ARG2 5)) 
+                              :ARG1-of (f / follow-01 
+                                    :ARG0 5 
+                                    :ARG2 (d2 / digestion 
+                                          :ARG1-of (r / restrict-01 
+                                                :ARG0 20) 
+                                          :mod (e / enzyme))))) 
+                  :op1-of 5)) 
+      :op1 (p / probe 
+            :poss (t / thing 
+                  :name (n / name 
+                        :op1 - 
+                        :op2 (g / GCCCTCTTCTGGTTTGTCTCGAAAT-3)) 
+                  :poss 5)))
+
+# ::snt Hybridization with these probes revealed bands containing either the ESG1 gene or pseudogenes .
+# ::tok Hybridization with these probes revealed bands containing either the ESG1 gene or pseudogenes .
+# ::alignments 12-13|0.1.0.0.2 11-12|0.1.0.0 10-11|0.1.0.0.1 7-8|0.1.0.0.0 6-7|0.1.0 5-6|0.1 4-5|0 3-4|0.2 2-3|0.2.0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:56:59.765
+(r / reveal-01 
+      :ARG0 (h / hybridization) 
+      :ARG1 (b / band 
+            :ARG0-of (c / contain-01 
+                  :ARG1 (o / or 
+                        :mod (e / either) 
+                        :op1 (g / gene) 
+                        :op2 (p / pseudogen)))) 
+      :manner (p2 / probe 
+            :mod (t / this)))
+
+# ::snt To sequence the region containing the mouse ESG1 gene and the 3 ' flanking region , we subcloned a ~ 15 kbp XhoI-SalI fragment into the pZERO-2 vector ( Invitrogen ) .
+# ::tok To sequence the region containing the mouse ESG1 gene and the 3 ' flanking region , we subcloned a ~ 15 kbp XhoI-SalI fragment into the pZERO-2 vector ( Invitrogen ) .
+# ::alignments 29-30|0.1.0.0+0.1.0+0.1 27-28|0.0.0.1.1 23-24|0.0.0.1.0 22-23|0.0.0.1.0.0.0.0+0.0.0.1.0.0.0+0.0.0.1.0.0 21-22|0.0.0.1.0.3 20-21|0.0.0.1.0.2.0 16-17|0.0.0.1 14-15|0.0.0.1.0.2.1 13-14|0.0.0.1.0.2 11-12|0.0.0.1.0.2.1.0 9-10|0 8-9|0.0.1 6-7|0.0.0.1.0.1 4-5|0.0 3-4|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:01.026
+(a / and 
+      :op1 (c / contain-01 
+            :ARG0 (r2 / region 
+                  :op1-of (s / sequence) 
+                  :poss (w / we 
+                        :ARG0-of (f / fragment-01 
+                              :ARG1 (t / thing 
+                                    :name (n2 / name 
+                                          :op1 "XhoI-SalI")) 
+                              :ARG2 (m / mouse) 
+                              :ARG2-of (f2 / flank-01 
+                                    :ARG0 15 
+                                    :ARG1 (r / region 
+                                          :part-of 3)) 
+                              :mod (k / kbp)) 
+                        :poss-of (v / vector))) 
+            :ARG1 (g / gene)) 
+      :op2 (o / organization 
+            :name (n / name 
+                  :op1 "Invitrogen")))
+
+# ::snt HindIII - or EcoRI-digested fragments of this vector were then cloned into pBluescript KS ( - ) for sequencing .
+# ::tok HindIII - or EcoRI-digested fragments of this vector were then cloned into pBluescript KS ( - ) for sequencing .
+# ::alignments 18-19|0.2 12-14|0.1.0.1+0.1.0.0+0.1.0+0.1 10-11|0 9-10|0.3 7-8|0.0.0 6-7|0.0.0.0 4-5|0.0 3-4|0.0.1.0 2-3|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:01.153
+(c / clone-01 
+      :ARG1 (f / fragment-01 
+            :ARG1 (v / vector 
+                  :mod (t3 / this)) 
+            :op2-of (o / or 
+                  :op1 (e / ecori-digest))) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 (p / pBluescript) 
+                  :op2 (k / KS))) 
+      :purpose (s / sequence) 
+      :time (t2 / then))
+
+# ::snt To sequence the ESG1 pseudogene and the 3 ' flanking region , an 8 kbp NotI/XhoI fragment was cloned into pBluescript KS ( - ) .
+# ::tok To sequence the ESG1 pseudogene and the 3 ' flanking region , an 8 kbp NotI/XhoI fragment was cloned into pBluescript KS ( - ) .
+# ::alignments 20-22|0.1.0.0.0.1.0.1+0.1.0.0.0.1.0.0+0.1.0.0.0.1.0+0.1.0.0.0.1 18-19|0.1.0.0.0 16-17|0.1.0.0.0.0 15-16|0.1.0.0.0.0.0.0.0+0.1.0.0.0.0.0.0+0.1.0.0.0.0.0 13-14|0.1.0.0.0.0.1 10-11|0.1 9-10|0 7-8|0.0 5-6|0.1.0 4-5|0.1.0.1 3-4|0.1.0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:01.505
+(f2 / flank-01 
+      :ARG0 3 
+      :ARG1 (r / region 
+            :op3-of (a / and 
+                  :op1 (s / sequence 
+                        :ARG0-of (c / clone-01 
+                              :ARG1 (f / fragment-01 
+                                    :ARG1 (c2 / country 
+                                          :name (n2 / name 
+                                                :op1 "NotI/XhoI")) 
+                                    :quant 8) 
+                              :ARG2 (t / thing 
+                                    :name (n / name 
+                                          :op1 (p / pBluescript) 
+                                          :op2 (k / KS))))) 
+                  :op2 (p2 / pseudogene 
+                        :mod (e / ESG1)))))
+
+# ::snt BamHI - or PstI - fragments of this vector were also cloned into pBluescript KS ( - ) .
+# ::tok BamHI - or PstI - fragments of this vector were also cloned into pBluescript KS ( - ) .
+# ::alignments 13-15|0.1.0.1+0.1.0.0+0.1.0+0.1 11-12|0 10-11|0.2 8-9|0.0.0 7-8|0.0.0.0 5-6|0.0 2-3|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:01.620
+(c / clone-01 
+      :ARG1 (f / fragment-01 
+            :ARG1 (v / vector 
+                  :mod (t2 / this))) 
+      :ARG2 (t / thing 
+            :name (n / name 
+                  :op1 (p / pBluescript) 
+                  :op2 (k / KS)) 
+            :op1-of (o / or)) 
+      :mod (a / also))
+
+# ::snt To identify the sequence containing the 5 ' flanking regions of the ESG1 gene and the related pseudogenes , we used a TOPO walker kit ( Invitrogen ) with the pH34-T2L ( 5 ' - ACTAGTCGCAGCAGGGATCCAGGAATATCT-3 ' ) and pH34-L394 primers .
+# ::tok To identify the sequence containing the 5 ' flanking regions of the ESG1 gene and the related pseudogenes , we used a TOPO walker kit ( Invitrogen ) with the pH34-T2L ( 5 ' - ACTAGTCGCAGCAGGGATCCAGGAATATCT-3 ' ) and pH34-L394 primers .
+# ::alignments 40-41|0.0.0.0.0.0.1.0 38-39|0.0.0.0.0.0.1 32-33|0.0.1.0.0 26-27|0.0.2.0.0+0.0.2.0+0.0.2 24-25|0.0.0.0.0.0.0 23-24|0.0.0.0.0.0.0.0 20-21|0.0.0.0.0.0 19-20|0.0.0.0.0 17-18|0.2 16-17|0.2.0 14-15|0 13-14|0.1 9-10|0.0.1 8-9|0.0.1.0 6-7|0.0.0.0.0.0.0.0.0 4-5|0.0 3-4|0.0.0 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:02.907
+(a2 / and 
+      :op1 (c / contain-01 
+            :ARG0 (s / sequence 
+                  :ARG1-of (i / identify-01 
+                        :ARG0 (w2 / we 
+                              :ARG0-of (u / use-01 
+                                    :ARG1 (k / kit 
+                                          :mod (w / walk-01 
+                                                :ARG0 5)) 
+                                    :ARG2 (a / and 
+                                          :op1 (p / primer)))))) 
+            :ARG1 (r2 / region 
+                  :ARG1-of (f / flank-01 
+                        :ARG0 5)) 
+            :ARG2 (o / organization 
+                  :name (n / name 
+                        :op1 "Invitrogen"))) 
+      :op2 (g / gene) 
+      :op3 (p2 / pseudogen 
+            :ARG1-of (r / relate-01)))
+
+# ::snt The resulting sequence was cloned into pCR2 .1 ( Invitrogen ) .
+# ::tok The resulting sequence was cloned into pCR2 .1 ( Invitrogen ) .
+# ::alignments 9-10|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 4-5|0 2-3|0.0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:02.941
+(c / clone-01 
+      :ARG1 (s / sequence 
+            :ARG1-of (r / result-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "Invitrogen")))))
+
+# ::snt We obtained a ~ 6 kbp band from the NsiI-digensted library ; XbaI - , SpeI - , EcoRI - , and PstI-digested fragments of this band were cloned into pBluescript KS ( - ) for sequencing .
+# ::tok We obtained a ~ 6 kbp band from the NsiI-digensted library ; XbaI - , SpeI - , EcoRI - , and PstI-digested fragments of this band were cloned into pBluescript KS ( - ) for sequencing .
+# ::alignments 36-37|0.1.1.3 30-32|0.1.1.2.0.1+0.1.1.2.0.0+0.1.1.2.0+0.1.1.2 28-29|0.1.1 26-27|0.1.1.1.1 25-26|0.1.1.1.1.0 23-24|0.1.1.1 22-23|0.1.1.1.0.0.0+0.1.1.1.0.0+0.1.1.1.0 21-22|0.1 11-12|0 10-11|0.0 9-10|0.0.0 6-7|0.1.0.1 5-6|0.1.1.0 4-5|0.1.1.1.1.0.0 1-2|0.1.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:04.293
+(a2 / and 
+      :op1 (l / library 
+            :mod (n3 / nsii-digenst)) 
+      :op2 (a / and 
+            :op1 (o / obtain-01 
+                  :ARG0 (w / we) 
+                  :ARG1 (b2 / band)) 
+            :op2 (c / clone-01 
+                  :ARG0 (k2 / kbp) 
+                  :ARG1 (f / fragment-01 
+                        :ARG1 (t3 / thing 
+                              :name (n2 / name 
+                                    :op1 "PstI-digested")) 
+                        :ARG2 (b / band 
+                              :mod (t2 / this 
+                                    :mod-of 6))) 
+                  :ARG2 (t / thing 
+                        :name (n / name 
+                              :op1 (p / pBluescript) 
+                              :op2 (k / KS))) 
+                  :purpose (s / sequence))))
+
+# ::snt This fragment contained the 5 ' flanking region of the ESG1 gene .
+# ::tok This fragment contained the 5 ' flanking region of the ESG1 gene .
+# ::alignments 11-12|0.1.1 7-8|0.1 6-7|0.1.0 4-5|0.1.0.0 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:04.379
+(c / contain-01 
+      :ARG0 (f2 / fragment-01 
+            :mod (t / this)) 
+      :ARG1 (r / region 
+            :ARG1-of (f / flank-01 
+                  :ARG0 5) 
+            :poss (g / gene)))
+
+# ::snt A ~ 3 kbp fragment , obtained from the SacI-digested library , was cloned into pCR2 .1 for sequencing .
+# ::tok A ~ 3 kbp fragment , obtained from the SacI-digested library , was cloned into pCR2 .1 for sequencing .
+# ::alignments 18-19|0.1 13-14|0 10-11|0.0.0.0.0 9-10|0.0.0.0.0.0.0.0+0.0.0.0.0.0.0+0.0.0.0.0.0 6-7|0.0.0.0 4-5|0.0 3-4|0.0.0 2-3|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:04.516
+(c / clone-01 
+      :ARG1 (f / fragment-01 
+            :ARG1 (k / kbp 
+                  :ARG1-of (o / obtain-01 
+                        :ARG2 (l / library 
+                              :mod (t / thing 
+                                    :name (n / name 
+                                          :op1 "SacI-digested"))))) 
+            :quant 3) 
+      :purpose (s / sequence))
+
+# ::snt This fragment was contained the 5 ' region flanking the pseudogene .
+# ::tok This fragment was contained the 5 ' region flanking the pseudogene .
+# ::alignments 8-9|0.0.0 7-8|0.0 5-6|0.0.1 3-4|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:04.662
+(c / contain-01 
+      :ARG1 (r / region 
+            :ARG1-of (f / flank-01) 
+            :poss 5) 
+      :ARG2 (f2 / fragment-01 
+            :mod (t / this)))
+
+# ::snt Construction of ESG1 targeting vectors .
+# ::tok Construction of ESG1 targeting vectors .
+# ::alignments 4-5|0.1 3-4|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:04.709
+(t / target-01 
+      :ARG1 (c / construct-01) 
+      :ARG2 (v / vector))
+
+# ::snt We replaced all of the ESG1 exons with two targeting vectors containing either an IRES--geo cassette [ 21 ] or an IRES-HygR cassette by promoter trap selection .
+# ::tok We replaced all of the ESG1 exons with two targeting vectors containing either an IRES--geo cassette [ 21 ] or an IRES-HygR cassette by promoter trap selection .
+# ::alignments 26-27|0.1.1.0.0.0.1 25-26|0.1.1.0.0.0 24-25|0.1.1.0.0.0.0 22-23|0.1.1.0.0.3 19-20|0.1.1.0.0 17-18|0.1.1.0.0.0.0.0 15-16|0.1.1.0.0.0.1.0 14-15|0.1.1.0.0.2.0.0+0.1.1.0.0.2.0+0.1.1.0.0.2 12-13|0.1.1.0.0.1 11-12|0.1.1.0 10-11|0.1.1 9-10|0.1.1.1 8-9|0.1.1.2 6-7|0 2-3|0.0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:05.545
+(e2 / exon 
+      :quant (a / all) 
+      :time-of (r / replace-01 
+            :ARG0 (w / we) 
+            :ARG1 (v / vector 
+                  :ARG0-of (c3 / contain-01 
+                        :ARG1 (o / or 
+                              :ARG0-of (t / trap-01 
+                                    :ARG1 (p / promote-01 
+                                          :ARG1 21) 
+                                    :ARG1-of (s / select-01 
+                                          :ARG0 (c2 / cassette))) 
+                              :mod (e / either) 
+                              :op1 (t2 / thing 
+                                    :name (n / name 
+                                          :op1 "IRES--geo")) 
+                              :op2 (c / cassette))) 
+                  :ARG1-of (t3 / target-01) 
+                  :quant 2)))
+
+# ::snt We amplified the 5 ' arm ( 1.8 kbp ) using KOD plus ( TOYOBO ) with the pH34-targetpair5-U ( 5 ' - CCGCGGAAAGTCAAGAGATTGGGTGG-3 ' ) and pH34-targetpair5-L ( 5 ' - GCGGCCGCCTTTACGGGTCACGAGGGTCAC-3 ' ) primers .
+# ::tok We amplified the 5 ' arm ( 1.8 kbp ) using KOD plus ( TOYOBO ) with the pH34-targetpair5-U ( 5 ' - CCGCGGAAAGTCAAGAGATTGGGTGG-3 ' ) and pH34-targetpair5-L ( 5 ' - GCGGCCGCCTTTACGGGTCACGAGGGTCAC-3 ' ) primers .
+# ::alignments 35-36|0.2 29-30|0.0.0.0.2 26-27|0 20-21|0.0.0.0.1 14-15|0.1.0.0+0.1.0+0.1 12-13|0.0.2 11-12|0.0.1.0.0+0.0.1.0+0.0.1 10-11|0.0 7-8|0.0.0.0.2.0 5-6|0.0.0.0.0 3-4|0.0.0.0.0.0 1-2|0.0.0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.063
+(a / and 
+      :ARG2-of (u / use-01 
+            :ARG0 (w / we 
+                  :ARG0-of (a3 / amplify-01 
+                        :ARG1 (a2 / arm 
+                              :poss 5) 
+                        :ARG2 5 
+                        :op1-of (5 / 5 
+                              :mod-of 1.8))) 
+            :ARG1 (o2 / organization 
+                  :name (n2 / name 
+                        :op1 "KOD")) 
+            :ARG3 (p2 / plus)) 
+      :op1 (o / organization 
+            :name (n / name 
+                  :op1 "TOYOBO")) 
+      :op2 (p / primer))
+
+# ::snt The 3 ' arm ( 5.8 kbp ) was amplified using the pH34-targetpair3-U ( 5 ' - TGTGGCCAGTGTTTGGTTCTGGCGGG-3 ' ) and pH34-targetpair3-L ( 5 ' - CTCGAGGACTCGCCATTCTAGCCAAG-3 ' ) primers .
+# ::tok The 3 ' arm ( 5.8 kbp ) was amplified using the pH34-targetpair3-U ( 5 ' - TGTGGCCAGTGTTTGGTTCTGGCGGG-3 ' ) and pH34-targetpair3-L ( 5 ' - CTCGAGGACTCGCCATTCTAGCCAAG-3 ' ) primers .
+# ::alignments 29-30|0.0.0.1 25-27|0+0.0.1+0.0+0.0.0 23-24|0.0.0.0 20-21|0.0.0.0.0.1.0 14-15|0.0.0.0.0.0 10-11|0.0.0.0.0.1 9-10|0.0.0.0.0 6-7|0.0.0.1.0 3-4|0.0.0.0.0.1.1 1-2|0.0.0.0.0.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.314
+(c / CTCGAGGACTCGCCATTCTAGCCAAG-3 
+      :op2-of (n / name 
+            :name-of (t / thing 
+                  :poss (5 / 5 
+                        :op1 (a2 / amplify-01 
+                              :ARG0 5 
+                              :ARG1 (u / use-01 
+                                    :ARG1 (a / and) 
+                                    :ARG2 (a3 / arm 
+                                          :part-of 3)))) 
+                  :poss-of (p / primer 
+                        :mod (k / kbp))) 
+            :op1 -))
+
+# ::snt The IRES -geo or IRES HygR cassettes were ligated in between the two PCR fragments .
+# ::tok The IRES -geo or IRES HygR cassettes were ligated in between the two PCR fragments .
+# ::alignments 14-15|0.0.0.0 12-13|0.0.0.0.0 8-9|0.0 6-7|0.1.0 4-6|0.1.1.1+0.1.1.0+0.1.1+0.1 3-4|0 1-2|0.0.0.1.0+0.0.0.1+0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.555
+(o / or 
+      :ARG0-of (l / ligate-01 
+            :ARG1 (o2 / organization 
+                  :ARG1-of (f / fragment-01 
+                        :quant 2) 
+                  :name (n2 / name 
+                        :op1 "IRES"))) 
+      :op1 (t / thing 
+            :mod-of (c / cassett) 
+            :name (n / name 
+                  :op1 (i / IRES) 
+                  :op2 (h / HygR))))
+
+# ::snt The diphtheria toxin A cassette was placed downstream of the 3 ' arm .
+# ::tok The diphtheria toxin A cassette was placed downstream of the 3 ' arm .
+# ::alignments 12-13|0.0.0 10-11|0.0.0.0 7-8|0.0 6-7|0 4-5|0.1 2-3|0.1.0 1-2|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.781
+(p / place-01 
+      :ARG1 (d / downstream 
+            :poss (a / arm 
+                  :quant 3)) 
+      :ARG2 (c / cassette 
+            :mod (t / toxin 
+                  :mod (d2 / diphtheria))))
+
+# ::snt After linearization with SacII , these targeting vectors were electroporated into 2.0  107 RF8 ES cells [ 22 ] using a Gene pulser ( BIORAD ) .
+# ::tok After linearization with SacII , these targeting vectors were electroporated into 2.0  107 RF8 ES cells [ 22 ] using a Gene pulser ( BIORAD ) .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.783
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt Transfected cells were selected with 250 g/mL G418 or 100 g/mL hygromycin B , respectively .
+# ::tok Transfected cells were selected with 250 g/mL G418 or 100 g/mL hygromycin B , respectively .
+# ::alignments 14-15|0.0 12-13|0.2.2.2+0.2.2.0.0+0.2.2.0+0.2.2 11-12|0.2.1.0 9-10|0.2.2.1 8-9|0.2 7-8|0.2.1 5-6|0.2.0 3-4|0 1-2|0.1 0-1|0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:07.927
+(s / select-01 
+      :ARG0 (r / respective) 
+      :ARG1 (c / cell 
+            :mod (t / transfect)) 
+      :ARG2 (o / or 
+            :domain-of 250 
+            :op1 (g / G418 
+                  :part (h / hygromycin)) 
+            :op2 (l / location 
+                  :name (n / name 
+                        :op1 "B") 
+                  :quant 100 
+                  :wiki -)))
+
+# ::snt Genomic DNA from G418 - or hygromycin B-resistant colonies was screened for homologous recombination by Southern blotting .
+# ::tok Genomic DNA from G418 - or hygromycin B-resistant colonies was screened for homologous recombination by Southern blotting .
+# ::alignments 16-17|0.0 15-16|0.0.0.0.0+0.0.0.0+0.0.0 13-14|0.3 12-13|0.3.0 10-11|0 8-9|0.2.0 5-6|0.2 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:08.237
+(s / screen-01 
+      :ARG0 (b / blot-01 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 "Southern"))) 
+      :ARG1 (d / DNA) 
+      :ARG2 (o / or 
+            :op1 (c / colony)) 
+      :ARG3 (r / recombination 
+            :mod (h / homologou)))
+
+# ::snt Southern blot screening for homologous recombination .
+# ::tok Southern blot screening for homologous recombination .
+# ::alignments 5-6|0.0 4-5|0.0.0 2-3|0 1-2|0.2 0-1|0.1.0.0+0.1.0+0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:08.364
+(s / screen-01 
+      :ARG0 (r / recombination 
+            :mod (h / homologou)) 
+      :ARG1 (t / thing 
+            :name (n / name 
+                  :op1 "Southern")) 
+      :ARG1-of (b / blot-01))
+
+# ::snt ES cells genomic DNA was extracted with PUREGENE  Cell Lysis Solution ( Gentra systems ) .
+# ::tok ES cells genomic DNA was extracted with PUREGENE  Cell Lysis Solution ( Gentra systems ) .
+# ::alignments 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:08.366
+# THERE WAS AN EXCEPTION IN THE PARSER.  Returning an empty graph.
+# java.lang.AssertionError: assertion failed
+# 	at scala.Predef$.assert(Predef.scala:165)
+# 	at edu.cmu.lti.nlp.amr.Annotation$$anonfun$makeLeftRight$1.apply$mcVI$sp(Annotation.scala:86)
+# 	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+# 	at edu.cmu.lti.nlp.amr.Annotation.makeLeftRight(Annotation.scala:67)
+# 	at edu.cmu.lti.nlp.amr.Annotation.<init>(Annotation.scala:18)
+# 	at edu.cmu.lti.nlp.amr.Input.<init>(Input.scala:24)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply$mcV$sp(AMRParser.scala:220)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3$$anonfun$apply$1.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.time(AMRParser.scala:93)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:214)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$$anonfun$main$3.apply(AMRParser.scala:212)
+# 	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:772)
+# 	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+# 	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+# 	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:771)
+# 	at edu.cmu.lti.nlp.amr.AMRParser$.main(AMRParser.scala:212)
+# 	at edu.cmu.lti.nlp.amr.AMRParser.main(AMRParser.scala)
+(a / amr-empty)
+
+# ::snt For 5 ' Southern blot analysis , genomic DNA was first digested with PstI , then separated on an 0.8 % agarose gel and transferred to a nylon membrane as described [ 20 ] .
+# ::tok For 5 ' Southern blot analysis , genomic DNA was first digested with PstI , then separated on an 0.8 % agarose gel and transferred to a nylon membrane as described [ 20 ] .
+# ::alignments 32-33|0.1.1 30-31|0.2.2 28-29|0.2.1 27-28|0.2.0 24-25|0.2 23-24|0 22-23|0.1.0 21-22|0.1.0.0 20-21|0.1.0.0.0 19-20|0.1.0.0.0.0 16-17|0.1 15-16|0.1.2 11-12|0.0 8-9|0.0.0 5-6|0.0.1 4-5|0.0.1.1 3-4|0.0.1.1.0.0.0+0.0.1.1.0.0+0.0.1.1.0 1-2|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:09.200
+(a / and 
+      :op1 (d2 / digest-01 
+            :ARG1 (d3 / DNA) 
+            :purpose (a3 / analyze-01 
+                  :ARG0 5 
+                  :ARG1 (b / blot-01 
+                        :ARG1 (t3 / thing 
+                              :name (n2 / name 
+                                    :op1 "Southern"))))) 
+      :op2 (s / separate-01 
+            :ARG0 (g / gel 
+                  :mod (a2 / agarose 
+                        :mod (p / percentage-entity 
+                              :value 0.8))) 
+            :ARG1 20 
+            :time (t2 / then)) 
+      :op3 (t / transfer-01 
+            :ARG1 (n / nylon) 
+            :ARG2 (m / membrane) 
+            :condition (d / describe-01)))
+
+# ::snt A 560 bp 5 ' probe was amplified using the ESG1S5 ( 5 ' - GATGGTGGTGGTGACTCAGAG -3 ' ) and ESG1AS5 as ( 5 ' - CCTCCATTGCCTCTATATCAG -3 ' ) primers .
+# ::tok A 560 bp 5 ' probe was amplified using the ESG1S5 ( 5 ' - GATGGTGGTGGTGACTCAGAG -3 ' ) and ESG1AS5 as ( 5 ' - CCTCCATTGCCTCTATATCAG -3 ' ) primers .
+# ::alignments 23-24|0.0 20-21|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 19-20|0.1.0 12-13|0.1.2.2 10-11|0.1.1.0.0+0.1.1.0+0.1.1 8-9|0.1 7-8|0 5-6|0.1.2 3-4|0.1.2.1 1-3|0.1.2.0.0.1+0.1.2.0.0.0+0.1.2.0.0+0.1.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:10.017
+(a2 / amplify-01 
+      :ARG0 5 
+      :ARG1 (u / use-01 
+            :ARG0 (a / and 
+                  :op1 (o / organization 
+                        :name (n / name 
+                              :op1 "ESG1AS5"))) 
+            :ARG1 (t / thing 
+                  :name (n2 / name 
+                        :op1 "ESG1S5")) 
+            :ARG2 (p / probe-01 
+                  :ARG0 (t2 / thing 
+                        :name (n3 / name 
+                              :op1 560 
+                              :op2 (b / bp))) 
+                  :ARG1 5 
+                  :ARG2 5)))
+
+# ::snt The probe specifically labeled an 18 kbp band from the wild-type locus , a 15 kbp band from the -geo locus , and a 12 kbp band from the HygR locus .
+# ::tok The probe specifically labeled an 18 kbp band from the wild-type locus , a 15 kbp band from the -geo locus , and a 12 kbp band from the HygR locus .
+# ::alignments 30-31|0.2.0 26-27|0.2 24-25|0.0.0.0.0 22-23|0 20-21|0.0.0.0.1 16-17|0.1 14-15|0.1.0 11-12|0.0.0.1 7-8|0.0 6-7|0.0.0.2.0.0 5-6|0.0.0.2.0 3-4|0.0.0 2-3|0.0.0.2 1-2|0.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:10.742
+(a / and 
+      :op1 (b3 / band 
+            :ARG1-of (l4 / label-01 
+                  :ARG0 (p / probe-01 
+                        :ARG0 12 
+                        :ARG1 (l2 / locu)) 
+                  :ARG2 (l3 / locu) 
+                  :manner (s / specific-02 
+                        :ARG1 (13 / 18 
+                              :quant-of (k / kbp))))) 
+      :op2 (b2 / band 
+            :quant 15) 
+      :op3 (b / band 
+            :source (l / locu)))
+
+# ::snt Genomic DNA was also digested with SpeI for 3 ' Southern blot analysis .
+# ::tok Genomic DNA was also digested with SpeI for 3 ' Southern blot analysis .
+# ::alignments 12-13|0.2 11-12|0.2.2 10-11|0.2.1.0.0+0.2.1.0+0.2.1 8-9|0.2.0 4-5|0 3-4|0.1 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:10.779
+(d / digest-01 
+      :ARG1 (d2 / DNA) 
+      :mod (a2 / also) 
+      :purpose (a / analyze-01 
+            :ARG0 3 
+            :ARG1 (t / thing 
+                  :name (n / name 
+                        :op1 "Southern")) 
+            :ARG1-of (b / blot-01)))
+
+# ::snt A 1,010 bp 3 ' probe was amplified with the pH34U-8000 ( 5 ' - CCAACCAGCCAGAGTTTCAGTTAT -3 ' ) and pH34L-9000 ( 5 ' - GATAAGCTGCTGCCAAAAGACAAG -3 ' ) primers .
+# ::tok A 1,010 bp 3 ' probe was amplified with the pH34U-8000 ( 5 ' - CCAACCAGCCAGAGTTTCAGTTAT -3 ' ) and pH34L-9000 ( 5 ' - GATAAGCTGCTGCCAAAAGACAAG -3 ' ) primers .
+# ::alignments 29-30|0.1 25-27|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 22-23|0.0.0 19-20|0 12-13|0.0.1.0 7-8|0.0 5-6|0.0.1 3-4|0.0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:10.917
+(a / and 
+      :op1 (a2 / amplify-01 
+            :ARG0 5 
+            :ARG1 (p2 / probe-01 
+                  :ARG0 5 
+                  :ARG1 3)) 
+      :op2 (p / primer 
+            :poss (t / thing 
+                  :name (n / name 
+                        :op1 (g / GATAAGCTGCTGCCAAAAGACAAG) 
+                        :op2 -3))))
+
+# ::snt The probe hybridized to an 11.5 kbp band from the wild-type locus , a 12.5 kbp band from the -geo locus , and a 9.5 kbp band from the HygR locus .
+# ::tok The probe hybridized to an 11.5 kbp band from the wild-type locus , a 12.5 kbp band from the -geo locus , and a 9.5 kbp band from the HygR locus .
+# ::alignments 30-31|0.1.0 26-27|0.0.2 22-23|0.0 20-21|0.1.1 16-17|0.0.1 11-12|0.0.0 7-8|0.2 6-7|0.0.2.0.0 5-6|0.0.2.0 2-3|0 1-2|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.053
+(h / hybridize-01 
+      :ARG0 (a / and 
+            :op1 (l3 / locu) 
+            :op2 (b2 / band) 
+            :op3 (b / band 
+                  :mod (1 / 11.5 
+                        :value-of (k / kbp)))) 
+      :ARG1 (p / probe-01 
+            :ARG0 (l / locu) 
+            :ARG1 (l2 / locu)) 
+      :ARG2 (b3 / band))
+
+# ::snt Generation of anti-ESG1 polyclonal antibodies .
+# ::tok Generation of anti-ESG1 polyclonal antibodies .
+# ::alignments 4-5|0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.060
+(g / generation 
+      :mod (a / antibodi))
+
+# ::snt The coding sequence of Esg1 was amplified by PCR with the pH34-gw-s ( 5 ' - AAAAAGCAGGCTGGATGATGGTGACCCTCGTGA-3 ' ) and pH34-gw-as ( 5 ' - AGAAAGCTGGGTCTGCATCCAGGTCGGAGACA-3 ' ) primers .
+# ::tok The coding sequence of Esg1 was amplified by PCR with the pH34-gw-s ( 5 ' - AAAAAGCAGGCTGGATGATGGTGACCCTCGTGA-3 ' ) and pH34-gw-as ( 5 ' - AGAAAGCTGGGTCTGCATCCAGGTCGGAGACA-3 ' ) primers .
+# ::alignments 28-29|0.3 22-23|0.0.0 20-21|0.2 19-20|0 13-14|0.0.1.0.0 11-12|0.1 6-7|0.0 4-5|0.0.1.1 2-3|0.0.1 1-2|0.0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.227
+(a / and 
+      :op1 (a2 / amplify-01 
+            :ARG0 5 
+            :ARG1 (s / sequence 
+                  :mod (c / code-01 
+                        :ARG0 5) 
+                  :mod (e / Esg1))) 
+      :op2 (p3 / ph34-gw-) 
+      :op3 (p2 / ph34-gw-a) 
+      :op4 (p / primer))
+
+# ::snt To construct pDONR-pH34 , the resulting PCR product was subcloned into pDONR201 ( Invitrogen ) .
+# ::tok To construct pDONR-pH34 , the resulting PCR product was subcloned into pDONR201 ( Invitrogen ) .
+# ::alignments 13-14|0.2.0.0+0.2.0+0.2 11-12|0.0.0.0 7-8|0.0 6-7|0.1 5-6|0 1-2|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.328
+(r / result-01 
+      :ARG0 (p2 / product 
+            :ARG1-of (c / construct-01 
+                  :ARG0 (p / pDONR201))) 
+      :ARG1 (p3 / PCR) 
+      :ARG2 (o / organization 
+            :name (n / name 
+                  :op1 "Invitrogen")))
+
+# ::snt pDONR-pH34 was interacted with pDEST17 ( Invitrogen ) by LR recombination .
+# ::tok pDONR-pH34 was interacted with pDEST17 ( Invitrogen ) by LR recombination .
+# ::alignments 10-11|0.0 9-10|0.0.0 6-7|0.2.0.0+0.2.0+0.2 4-5|0.1 2-3|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.372
+(i / interact-01 
+      :ARG0 (r / recombination 
+            :mod (l / lr)) 
+      :ARG1 (p / pDEST17) 
+      :ARG2 (o / organization 
+            :name (n / name 
+                  :op1 "Invitrogen")))
+
+# ::snt After introduction of the resulting expression vector pDEST17-pH34 into BL21-AI E. coli ( Invitrogen ) , recombinant protein production was induced according to the manufacture 's protocol .
+# ::tok After introduction of the resulting expression vector pDEST17-pH34 into BL21-AI E. coli ( Invitrogen ) , recombinant protein production was induced according to the manufacture 's protocol .
+# ::alignments 26-27|0.0 24-25|0.0.0 21-22|0 20-21|0.1 18-19|0.1.0 17-18|0.1.0.0 16-17|0.1.1.0.1.1.0 13-14|0.1.1.0.0.0.0+0.1.1.0.0.0+0.1.1.0.0 10-12|0.1.1.0.1.0.1+0.1.1.0.1.0.0.1+0.1.1.0.1.0.0.0+0.1.1.0.1.0.0+0.1.1.0.1.0 6-7|0.1.1.0.2 5-6|0.1.1.0.1 4-5|0.1.1.0.1.1 1-2|0.1.1.0 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:11.794
+(s / say-01 
+      :ARG0 (p / protocol 
+            :ARG0-of (m / manufacture-01)) 
+      :ARG1 (i / induce-01 
+            :ARG1 (p2 / produce-01 
+                  :ARG1 (p3 / protein)) 
+            :time (a / after 
+                  :op1 (i2 / introduce-02 
+                        :ARG0 (o / organization 
+                              :name (n / name 
+                                    :op1 "Invitrogen")) 
+                        :ARG0-of (e / express-01 
+                              :ARG1 (d / disease 
+                                    :name (n2 / name 
+                                          :op1 "E." 
+                                          :op2 "coli") 
+                                    :wiki "Escherichia_coli") 
+                              :ARG1-of (r2 / result-01 
+                                    :ARG0 (r / recombinant))) 
+                        :ARG1 (v / vector)))))
+
+# ::snt Histidine-tagged ESG1 was purified using Ni-nitrilotriacetic acid agarose ( Qiagen ) under denaturing conditions in the presence of 8 M urea .
+# ::tok Histidine-tagged ESG1 was purified using Ni-nitrilotriacetic acid agarose ( Qiagen ) under denaturing conditions in the presence of 8 M urea .
+# ::alignments 20-21|0.1.2.0 19-20|0.1.2.0.0.1+0.1.2.0.0.0.0+0.1.2.0.0.0+0.1.2.0.0 18-19|0.1.2 16-17|0.0 13-14|0.0.0 12-13|0.0.0.0 9-10|0.0.0.0.0.0.0+0.0.0.0.0.0+0.0.0.0.0 7-8|0.1.1 6-7|0.1.1.1 5-6|0.1.1.0.0.0+0.1.1.0.0+0.1.1.0 4-5|0.1 3-4|0 0-2|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:12.850
+(p2 / purify-01 
+      :ARG0 (p / presence 
+            :location-of (c / condition 
+                  :mod (d / denature 
+                        :op1 (o / organization 
+                              :name (n2 / name 
+                                    :op1 "Qiagen"))))) 
+      :ARG1 (u2 / use-01 
+            :ARG0 (t2 / thing 
+                  :name (n4 / name 
+                        :op1 (h / Histidine-tagged) 
+                        :op2 (e / ESG1))) 
+            :ARG1 (a / agarose 
+                  :mod (t / thing 
+                        :name (n3 / name 
+                              :op1 "Ni-nitrilotriacetic")) 
+                  :mod (a2 / acid)) 
+            :op1-of (8 / 8 
+                  :quant-of (u / urea 
+                        :mod (v / vehicle 
+                              :name (n / name 
+                                    :op1 "M1") 
+                              :wiki "M1_Abrams")))))
+
+# ::snt After dialysis against 6 M urea , the recombinant proteins were injected into New Zealand White rabbits to generate anti-ESG1 polyclonal antibodies .
+# ::tok After dialysis against 6 M urea , the recombinant proteins were injected into New Zealand White rabbits to generate anti-ESG1 polyclonal antibodies .
+# ::alignments 21-22|0.0.0.0 18-19|0.0.0 16-17|0.0.0.1 15-16|0.0.0.1.0.0 13-15|0.0.0.1.0.2+0.0.0.1.0.1.1+0.0.0.1.0.1.0+0.0.0.1.0.1+0.0.0.1.0 11-12|0.0 9-10|0 8-9|0.1 5-6|0.2.0 4-5|0.2.3+0.2.1.0+0.2.1+0.2 3-4|0.2.2 1-2|0.0.1.0 0-1|0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:13.315
+(p / protein 
+      :ARG2-of (i / inject-01 
+            :ARG1 (g / generate-01 
+                  :ARG1 (a / antibodi) 
+                  :ARG2-of (r / rabbit-01 
+                        :ARG0 (c / country 
+                              :mod-of (w / white) 
+                              :name (n / name 
+                                    :op1 "New" 
+                                    :op2 "Zealand") 
+                              :wiki "New_Zealand"))) 
+            :time (a2 / after 
+                  :op1 (d / dialysis))) 
+      :mod (r2 / recombinant) 
+      :mod (v / vehicle 
+            :mod-of (u / urea) 
+            :name (n2 / name 
+                  :op1 "M1") 
+            :quant 6 
+            :wiki "M1_Abrams"))
+
+# ::snt After preparation of ES cell extracts with M-Per ( Pierce ) , cellular proteins were separated on sodium dodecyl sulfate ( SDS ) -14 % polyacrylamide gels and transferred to nitrocellulose membranes ( Millipore ) .
+# ::tok After preparation of ES cell extracts with M-Per ( Pierce ) , cellular proteins were separated on sodium dodecyl sulfate ( SDS ) -14 % polyacrylamide gels and transferred to nitrocellulose membranes ( Millipore ) .
+# ::alignments 33-34|0.2.1.0.0.0+0.2.1.0.0+0.2.1.0 31-32|0.1.2 30-31|0.1.2.0 28-29|0.1 27-28|0 26-27|0.1.1 24-25|0.2.0.0 21-22|0.1.0.0.0+0.1.0.0+0.1.0 19-20|0.2.0.2 17-18|0.2.0.2.0 15-16|0.2.1 13-14|0.2.1.1 12-13|0.2.1.1.0 9-10|0.0.0.0+0.0.0+0.0 7-8|0.2.0.1.0.0.0.0+0.2.0.1.0.0.0+0.2.0.1.0.0 5-6|0.2.0.1.0+0.2.0.1 4-5|0.2.0.1.0.1 3-4|0.2.0.1.0.1.0 1-2|0.2.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:15.045
+(a / and 
+      :op1 (p3 / person 
+            :name (n4 / name 
+                  :op1 "Pierce")) 
+      :op2 (t / transfer-01 
+            :ARG0 (o2 / organization 
+                  :name (n3 / name 
+                        :op1 "SDS")) 
+            :ARG1 (g / gel) 
+            :ARG2 (m / membran 
+                  :mod (n2 / nitrocellulose))) 
+      :time (a2 / after 
+            :op1 (p5 / prepare-02 
+                  :ARG0 (p / percentage-entity) 
+                  :ARG1 (t2 / thing 
+                        :ARG1-of (e / extract-01 
+                              :ARG2 (p4 / person 
+                                    :name (n5 / name 
+                                          :op1 "M-Per")) 
+                              :mod (c2 / cell 
+                                    :mod (e2 / e)))) 
+                  :ARG2 (s / sulfate 
+                        :mod (s2 / sodium))) 
+            :time-of (s3 / separate-01 
+                  :ARG0 (o / organization 
+                        :name (n / name 
+                              :op1 "Millipore")) 
+                  :ARG1 (p2 / protein 
+                        :mod (c / cell)))))
+
+# ::snt Membranes were incubated with anti-ESG1 ( 1/500 dilution ) , anti-Oct3 / 4 ( 1/500 ; Santa Cruz Biotechnology ) , anti-CDK4 ( 1/200 ; Santa Cruz Biotechnology ) , and anti-GFP ( 1/1000 ; MBL ) primary antibodies .
+# ::tok Membranes were incubated with anti-ESG1 ( 1/500 dilution ) , anti-Oct3 / 4 ( 1/500 ; Santa Cruz Biotechnology ) , anti-CDK4 ( 1/200 ; Santa Cruz Biotechnology ) , and anti-GFP ( 1/1000 ; MBL ) primary antibodies .
+# ::alignments 38-39|0.1.0 37-38|0.1.0.1 30-31|0.1 25-28|0.1.0.1.0.1.0.2+0.1.0.1.0.1.0.1+0.1.0.1.0.1.0.0+0.1.0.1.0.1.0+0.1.0.1.0.1 16-19|0.0.0.2+0.0.0.1+0.0.0.0+0.0.0+0.0 15-16|0 12-13|0.1.0.1.0.0 11-12|0.1.0.1.0 7-8|0.1.0.0.0.0 2-3|0.1.0.0.0 0-1|0.1.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:15.785
+(a3 / and 
+      :op1 (o2 / organization 
+            :name (n2 / name 
+                  :op1 "Santa" 
+                  :op2 "Cruz" 
+                  :op3 "Biotechnology")) 
+      :op2 (a2 / and 
+            :op1 (a / antibodi 
+                  :domain (m / membran 
+                        :ARG1-of (i / incubate-01 
+                              :ARG0 (d / dilution))) 
+                  :mod (p / primary 
+                        :mod-of (s / slash 
+                              :op1 4 
+                              :op2 (o / organization 
+                                    :name (n / name 
+                                          :op1 "Santa" 
+                                          :op2 "Cruz" 
+                                          :op3 "Biotechnology")))))))
+
+# ::snt Horseradish peroxidase-conjugated anti-rabbit and anti-mouse immunoglobulins ( 1/5000 ; Cell Signaling ) were used to detect antibody binding .
+# ::tok Horseradish peroxidase-conjugated anti-rabbit and anti-mouse immunoglobulins ( 1/5000 ; Cell Signaling ) were used to detect antibody binding .
+# ::alignments 17-18|0.0.1 16-17|0.0.1.0 15-16|0.0.1.0.0.0 13-14|0.0.1.0.0 10-11|0.0 9-10|0.0.0 8-9|0 5-6|0.0.1.0.0.0.0 3-4|0.0.1.0.0.0.1 1-2|0.0.1.0.0.0.0.0 0-1|0.0.1.0.0.0.0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:16.129
+(a2 / and 
+      :op1 (s / signal-01 
+            :ARG1 (c / cell) 
+            :ARG2-of (b / binding-07 
+                  :ARG0 (a / antibody 
+                        :ARG1-of (u / use-01 
+                              :ARG2 (d / detect-01 
+                                    :ARG0 (i / immunoglobulin 
+                                          :mod (p / peroxidase-conjugat) 
+                                          :mod (h / horseradish)) 
+                                    :ARG1 (a3 / and)))))))
+
+# ::snt We visualized bound antibody with an ECL Western Blotting Detection System ( Amersham ) .
+# ::tok We visualized bound antibody with an ECL Western Blotting Detection System ( Amersham ) .
+# ::alignments 12-13|0.1.0.0.0.0+0.1.0.0.0+0.1.0.0 6-11|0.2.0.4+0.2.0.3+0.2.0.2+0.2.0.1+0.2.0.0+0.2.0+0.2 3-4|0.1 2-3|0.1.0 1-2|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:16.241
+(v / visualize-01 
+      :ARG0 (w / we) 
+      :ARG1 (a / antibody 
+            :ARG1-of (b / bind-01 
+                  :op1-of (o / organization 
+                        :name (n / name 
+                              :op1 "Amersham")))) 
+      :ARG2 (o2 / organization 
+            :name (n2 / name 
+                  :op1 "ECL" 
+                  :op2 "Western" 
+                  :op3 "Blotting" 
+                  :op4 "Detection" 
+                  :op5 "System")))
+
+# ::snt Derivation of ESG1-deficient ES cells from blastocysts .
+# ::tok Derivation of ESG1-deficient ES cells from blastocysts .
+# ::alignments 6-7|0.0.1 4-5|0.0 3-4|0.0.0 0-1|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:16.259
+(d / derivation 
+      :mod (c / cell 
+            :mod (e / e) 
+            :source (b / blastocyst)))
+
+# ::snt Esg1 + / - or ESG1 - / - mutant female mice were injected with Tamoxifen ( 10 g ) and Depo-provera ( 1 mg ) subcutaneously on the third day of pregnancy .
+# ::tok Esg1 + / - or ESG1 - / - mutant female mice were injected with Tamoxifen ( 10 g ) and Depo-provera ( 1 mg ) subcutaneously on the third day of pregnancy .
+# ::alignments 32-33|0.0.0.2.0 30-31|0.0.0.2 26-27|0.2 24-25|0.0.0.0 23-24|0.0.0.0.0 21-22|0.1.0.0+0.1.0+0.1 20-21|0 17-18|0.0.0.1.1.0.1 15-16|0.0.1.0+0.0.1+0.0 13-14|0.0.0 11-12|0.0.0.1 10-11|0.0.0.1.0 9-10|0.0.0.1.1 7-8|0.0.0.1.1.0.0 4-5|0.0.0.1.1.0 2-3|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:16.664
+(a / and 
+      :op1 (p3 / person 
+            :ARG2-of (i / inject-01 
+                  :ARG0 (m / mg 
+                        :quant 1) 
+                  :ARG1 (m2 / mouse 
+                        :mod (f / female) 
+                        :mod (m3 / mutant 
+                              :op2-of (o / or 
+                                    :op1 (s2 / slash) 
+                                    :poss 10))) 
+                  :time (d / day 
+                        :time-of (p / pregnancy))) 
+            :name (n2 / name 
+                  :op1 "Tamoxifen")) 
+      :op2 (p2 / person 
+            :name (n / name 
+                  :op1 "Depo-provera") 
+            :op1-of (s3 / slash)) 
+      :op3 (s / subcutaneously))
+
+# ::snt Four days later , embryos in diapause were flushed out of the uterus and cultured on STO feeder cells in four-well plates in Dulbecco 's Modified Eagle Medium ( DMEM ) supplemented with 20 % Fetal Bovine Serum ( Hyclone ) , 0.1 mM Non-Essential Amino Acids ( Invitrogen ) , 2 mM L-glutamine ( Invitrogen ) , 50 U/ml Penicillin-Streptomysin ( Invitrogen ) , and 0.11 mM 2-mercaptoethanol ( Invitrogen ) .
+# ::tok Four days later , embryos in diapause were flushed out of the uterus and cultured on STO feeder cells in four-well plates in Dulbecco 's Modified Eagle Medium ( DMEM ) supplemented with 20 % Fetal Bovine Serum ( Hyclone ) , 0.1 mM Non-Essential Amino Acids ( Invitrogen ) , 2 mM L-glutamine ( Invitrogen ) , 50 U/ml Penicillin-Streptomysin ( Invitrogen ) , and 0.11 mM 2-mercaptoethanol ( Invitrogen ) .
+# ::alignments 65-66|0 59-61|0.4.0.1+0.4.0.0+0.4.0+0.4 58-59|0.4.1 53-54|0.3.0.0+0.3.0+0.3 51-52|0.3.2 48-49|0.2.0.0+0.2.0+0.2 44-47|0.1.1.2+0.1.1.1+0.1.1.0+0.1.1+0.1 43-44|0.1.0 42-43|0.3.1.1.0 36-38|0.0.2.1+0.0.2.0+0.0.2+0.0 35-36|0.0.1 34-35|0.0.1.0 33-34|0.3.1.0.0 31-32|0.0.0 29-30|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 25-28|0.0.0.0.0.2+0.0.0.0.0.1+0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 23-24|0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 21-22|0.3.1.1.3 18-19|0.3.1.1.2 17-18|0.3.1.1.2.0 16-17|0.3.1.1.2.0.1.0.0+0.3.1.1.2.0.1.0+0.3.1.1.2.0.1 14-15|0.3.1.1 13-14|0.3.1 12-13|0.3.1.0.1 8-9|0.3.1.0 6-7|0.3.1.1.2.0.0 4-5|0.3.1.1.1 2-3|0.3.1.0.2 1-2|0.3.1.0.2.0+0.3.1.0.2.0.0 0-1|0.3.1.0.2.0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:18.930
+(a / and 
+      :op1 (t / thing 
+            :ARG2-of (s2 / supplement-01 
+                  :ARG0 (o4 / organization 
+                        :name (n7 / name 
+                              :op1 "Modified" 
+                              :op2 "Eagle" 
+                              :op3 "Medium") 
+                        :poss (c / country 
+                              :name (n8 / name 
+                                    :op1 "Dulbecco"))) 
+                  :ARG1 (o3 / organization 
+                        :name (n6 / name 
+                              :op1 "DMEM"))) 
+            :mod (f / fetal 
+                  :mod (p3 / percentage-entity)) 
+            :name (n5 / name 
+                  :op1 (b / Bovine) 
+                  :op2 (s / Serum))) 
+      :op2 (o2 / organization 
+            :mod (m / mm) 
+            :name (n4 / name 
+                  :op1 "Non-Essential" 
+                  :op2 "Amino" 
+                  :op3 "Acids")) 
+      :op3 (o / organization 
+            :name (n3 / name 
+                  :op1 "Invitrogen")) 
+      :op4 (p2 / person 
+            :name (n2 / name 
+                  :op1 "L-glutamine") 
+            :op3-of (a2 / and 
+                  :op1 (f3 / flush-01 
+                        :ARG0 20 
+                        :ARG1 (u / uteru) 
+                        :time (l / late 
+                              :time-of (d2 / day 
+                                    :unit-of (t2 / temporal-quantity 
+                                          :quant 4)))) 
+                  :op2 (c3 / culture-01 
+                        :ARG0 0.1 
+                        :ARG1 (e / embryo) 
+                        :ARG2 (c2 / cell 
+                              :mod (f2 / feed-01 
+                                    :ARG0 (d / diapause) 
+                                    :ARG1 (o5 / organization 
+                                          :name (n9 / name 
+                                                :op1 "STO")))) 
+                        :time (p4 / plate))) 
+            :quant 2) 
+      :op5 (p / person 
+            :name (n / name 
+                  :op1 "U/ml" 
+                  :op2 "Penicillin-Streptomysin") 
+            :quant 50))
+
+# ::snt After six days , the central mass of each explant was harvested , rinsed in PBS , and placed in a drop of trypsin for a few minutes .
+# ::tok After six days , the central mass of each explant was harvested , rinsed in PBS , and placed in a drop of trypsin for a few minutes .
+# ::alignments 27-28|0.1.2.1.0+0.1.2.1 26-27|0.1.2 23-24|0.1.1.0 21-22|0.1.1 18-19|0.1 17-18|0 15-16|0.0.1 13-14|0.0 11-12|0.2.0 9-10|0.1.0 8-9|0.1.0.0 6-7|0.0.0 5-6|0.0.0.0 2-3|0.1.2.0.1+0.1.2.0 1-2|0.1.2.0.0 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:19.217
+(a / and 
+      :op1 (r / rinse-01 
+            :ARG1 (m2 / mass 
+                  :mod (c / central)) 
+            :location (p2 / pb)) 
+      :op2 (p / place-01 
+            :ARG1 (e / explant 
+                  :mod (e2 / each)) 
+            :ARG2 (d / drop-01 
+                  :ARG1 (t2 / trypsin)) 
+            :duration (f / few 
+                  :op1 (t3 / temporal-quantity 
+                        :quant 6 
+                        :unit (d2 / day)) 
+                  :op2 (t / temporal-quantity 
+                        :unit (m / minute)))) 
+      :time (a2 / after 
+            :time-of (h / harvest-01)))
+
+# ::snt The cell mass was collected with a finely drawn-out Pasteur pipette preloaded with medium , ensuring minimal carryover of the trypsin .
+# ::tok The cell mass was collected with a finely drawn-out Pasteur pipette preloaded with medium , ensuring minimal carryover of the trypsin .
+# ::alignments 20-21|0.1.0.0.1 17-18|0.1.0.0 16-17|0.1.0.0.0 15-16|0.1.0 13-14|0.0 11-12|0.2 10-11|0.2.0 9-10|0.2.1 8-9|0.1.0.0.0.0 7-8|0.1.0.0.0.0.0 4-5|0 2-3|0.1 1-2|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:19.563
+(c2 / collect-01 
+      :ARG0 (m2 / medium) 
+      :ARG1 (m3 / mass 
+            :ARG0-of (e / ensure-01 
+                  :ARG1 (c / carryov 
+                        :ARG1-of (m / minimal-02 
+                              :ARG0 (d / drawn-out 
+                                    :mod (f / finely))) 
+                        :poss (t / trypsin))) 
+            :mod (c3 / cell)) 
+      :ARG2 (p / preload 
+            :mod (p2 / pipette) 
+            :mod (p3 / pasteur)))
+
+# ::snt The cells were gently transfered into a fresh well with 20 % FBS-containing medium .
+# ::tok The cells were gently transfered into a fresh well with 20 % FBS-containing medium .
+# ::alignments 13-14|0.1 12-13|0.1.1 11-12|0.1.2 10-11|0.1.0.0 7-8|0.1.0 4-5|0 3-4|0.2 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:19.643
+(t / transfer-01 
+      :ARG1 (c / cell) 
+      :ARG2 (m / medium 
+            :ARG1-of (f2 / fresh-04 
+                  :ARG0 20) 
+            :mod (f / fbs-contain) 
+            :mod (p / percentage-entity)) 
+      :manner (g / gently))
+
+# ::snt The resulting primary ES cell colonies were individually passaged into wells of four-well plates containing STO feeder cell layers .
+# ::tok The resulting primary ES cell colonies were individually passaged into wells of four-well plates containing STO feeder cell layers .
+# ::alignments 18-19|0.0.0.0.0 17-18|0.0.0.0 16-17|0.0.0 15-16|0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 14-15|0.0.0.0.0.0 13-14|0.0.0.0.0.0.0 10-11|0.0.0.0.0.0.0.0 7-8|0.0.0.0.0.0.1 5-6|0.0 4-5|0.0.1 3-4|0.0.1.0 2-3|0.0.1.0.0 1-2|0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.007
+(r / result-01 
+      :ARG1 (c3 / colony 
+            :ARG2-of (f / feed-01 
+                  :ARG0 (c / cell 
+                        :mod-of (l / layer 
+                              :ARG1-of (c2 / contain-01 
+                                    :ARG0 (p / plate 
+                                          :mod-of (w / well)) 
+                                    :ARG2 (i / individual)))) 
+                  :ARG1 (o / organization 
+                        :name (n / name 
+                              :op1 "STO"))) 
+            :mod (c4 / cell 
+                  :mod (e / e 
+                        :mod (p2 / primary)))))
+
+# ::snt Thereafter , cells were expanded by trypsinization of the entire culture .
+# ::tok Thereafter , cells were expanded by trypsinization of the entire culture .
+# ::alignments 10-11|0.0 9-10|0.0.0 4-5|0 2-3|0.1 0-1|0.2 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.031
+(e2 / expand-01 
+      :ARG0 (c / culture 
+            :mod (e / entire)) 
+      :ARG1 (c2 / cell) 
+      :location (t / thereaft))
+
+# ::snt Total RNA from wild-type ES cells and ESG1 - / - ES cells was labeled with Cy3 and Cy5 , respectively .
+# ::tok Total RNA from wild-type ES cells and ESG1 - / - ES cells was labeled with Cy3 and Cy5 , respectively .
+# ::alignments 20-21|0.2.1.0.2 18-19|0.2.1.2 17-18|0.2.1 16-17|0.2.0.0+0.2.0+0.2 14-15|0.2.1.0 12-13|0.2.1.0.1 9-10|0.2.1.0.0 7-8|0.1 6-7|0 5-6|0.0 4-5|0.0.0 1-2|0.2.1.1 0-1|0.2.1.1.0.0+0.2.1.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.300
+(a2 / and 
+      :op1 (c3 / cell 
+            :mod (e2 / e)) 
+      :op2 (e / ESG1) 
+      :op3 (p / person 
+            :name (n / name 
+                  :op1 "Cy3") 
+            :op2-of (a / and 
+                  :ARG2-of (l / label-01 
+                        :ARG0 (s / slash) 
+                        :ARG1 (c2 / cell) 
+                        :mod (r / respective)) 
+                  :op1 (r2 / rna 
+                        :mod (n2 / name 
+                              :op1 "Total")) 
+                  :op3 (c / Cy5))))
+
+# ::snt The samples were hybridized to a Mouse Development Microarray ( Algilent ) according to the manufacturer 's protocol .
+# ::tok The samples were hybridized to a Mouse Development Microarray ( Algilent ) according to the manufacturer 's protocol .
+# ::alignments 17-18|0.0 15-16|0.0.0 12-13|0 10-11|0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 6-9|0.1.1.0.2+0.1.1.0.1+0.1.1.0.0+0.1.1.0+0.1.1 3-4|0.1 1-2|0.1.0.0+0.1.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.362
+(s / say-01 
+      :ARG0 (p / protocol 
+            :poss (m / manufacture-01 
+                  :ARG1 (o / organization 
+                        :name (n / name 
+                              :op1 "Algilent")))) 
+      :ARG1 (h / hybridize-01 
+            :ARG1 (t / thing 
+                  :ARG1-of (s2 / sample-01)) 
+            :ARG2 (o2 / organization 
+                  :name (n2 / name 
+                        :op1 "Mouse" 
+                        :op2 "Development" 
+                        :op3 "Microarray"))))
+
+# ::snt Arrays were scanned with a G2565BA Microarray Scanner System ( Agilent ) .
+# ::tok Arrays were scanned with a G2565BA Microarray Scanner System ( Agilent ) .
+# ::alignments 10-11|0.0.0.0.0+0.0.0.0+0.0.0 5-9|0.1.0.3+0.1.0.2+0.1.0.1+0.1.0.0+0.1.0+0.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.464
+(s / scan-01 
+      :ARG1 (a / array-01 
+            :ARG1 (o / organization 
+                  :name (n / name 
+                        :op1 "Agilent"))) 
+      :ARG2 (o2 / organization 
+            :name (n2 / name 
+                  :op1 "G2565BA" 
+                  :op2 "Microarray" 
+                  :op3 "Scanner" 
+                  :op4 "System")))
+
+# ::snt Hybridization was repeated with two independent clones .
+# ::tok Hybridization was repeated with two independent clones .
+# ::alignments 6-7|0.1 5-6|0.1.0.0+0.1.0 4-5|0.1.1 2-3|0 0-1|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.520
+(r / repeat-01 
+      :ARG1 (h / hybridization) 
+      :time (c / clone-01 
+            :ARG0-of (d / depend-01 
+                  :polarity -) 
+            :quant 2))
+
+# ::snt Data were analyzed with GeneSprings software ( Silico Genetics ) .
+# ::tok Data were analyzed with GeneSprings software ( Silico Genetics ) .
+# ::alignments 7-9|0.0.0.1+0.0.0.0+0.0.0+0.0 5-6|0.2 4-5|0.2.0.0.0+0.2.0.0+0.2.0 2-3|0 0-1|0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.572
+(a / analyze-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "Silico" 
+                  :op2 "Genetics")) 
+      :ARG1 (d / data) 
+      :ARG2 (s / software 
+            :mod (t / thing 
+                  :name (n2 / name 
+                        :op1 "GeneSprings"))))
+
+# ::snt HA carried out the phenotypic studies of ESG1 knockout mice .
+# ::tok HA carried out the phenotypic studies of ESG1 knockout mice .
+# ::alignments 9-10|0.1.0 8-9|0.1.0.0 5-6|0.1 4-5|0.1.1 1-2|0 0-1|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.628
+(c / carry-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "HA")) 
+      :ARG1 (s / study-01 
+            :ARG1 (m / mouse 
+                  :mod (k / knockout)) 
+            :mod (p / phenotypic)))
+
+# ::snt KI determined the chromosomal localizations of the ESG1 gene and pseudogenes and constructed the targeting vector .
+# ::tok KI determined the chromosomal localizations of the ESG1 gene and pseudogenes and constructed the targeting vector .
+# ::alignments 15-16|0.0.0.0 14-15|0.0.0.0.0 12-13|0.0.0 11-12|0.0.0.1 10-11|0.0.0.2.0 9-10|0.0.0.2 8-9|0.0.0.1.0 4-5|0.1 3-4|0.1.0 1-2|0 0-1|0.0.1.0+0.0.1+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.729
+(d / determine-01 
+      :ARG0 (o / organization 
+            :ARG0-of (c / construct-01 
+                  :ARG1 (v / vector 
+                        :ARG1-of (t / target-01)) 
+                  :op2-of (a / and 
+                        :op1 (g / gene)) 
+                  :op2-of (a2 / and 
+                        :op1 (p / pseudogen))) 
+            :name (n / name 
+                  :op1 "KI")) 
+      :ARG1 (l / localization 
+            :mod (c2 / chromosomal)))
+
+# ::snt TI carried out mouse embryo manipulation .
+# ::tok TI carried out mouse embryo manipulation .
+# ::alignments 5-6|0.1 4-5|0.1.1 3-4|0.1.0 1-2|0 0-1|0.0.0.0+0.0.0+0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.750
+(c / carry-01 
+      :ARG0 (o / organization 
+            :name (n / name 
+                  :op1 "TI")) 
+      :ARG1 (m / manipulate-01 
+            :ARG1 (m2 / mouse) 
+            :mod (e / embryo)))
+
+# ::snt MM and MN carried out ES cell culture .
+# ::tok MM and MN carried out ES cell culture .
+# ::alignments 7-8|0.1 6-7|0.1.0 5-6|0.1.1 3-4|0 2-3|0.0.0.0.0+0.0.0.0+0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.778
+(c3 / carry-01 
+      :ARG0 (a / and 
+            :op1 (c4 / country 
+                  :name (n / name 
+                        :op1 "MN"))) 
+      :ARG1 (c / culture 
+            :mod (c2 / cell) 
+            :mod (e / e)))
+
+# ::snt SY conceived of the study , and participated in its design and coordination and helped to draft the manuscript .
+# ::tok SY conceived of the study , and participated in its design and coordination and helped to draft the manuscript .
+# ::alignments 18-19|0.2.0.0.0 16-17|0.2.0.0 14-15|0.2.0 13-14|0.2 12-13|0.2.0.1.0 11-12|0.2.0.1 10-11|0.1.0 7-8|0.1 6-7|0 4-5|0.0.0 1-2|0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.844
+(a3 / and 
+      :ARG0-of (c2 / conceive-01 
+            :ARG1 (s / study-01)) 
+      :op1 (p / participate-01 
+            :ARG1 (d2 / design-01)) 
+      :op2 (a / and 
+            :op1 (h / help-01 
+                  :ARG1 (d / draft-01 
+                        :ARG1 (m / manuscript)) 
+                  :op2-of (a2 / and 
+                        :op1 (c / coordinate-01)))))
+
+# ::snt All authors read and approved the final manuscript .
+# ::tok All authors read and approved the final manuscript .
+# ::alignments 7-8|0.1.0.0 6-7|0.1.0.0.0 4-5|0.1.0 3-4|0.1 2-3|0 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:20.912
+(r / read-01 
+      :ARG1 (a3 / author-01 
+            :mod (a4 / all)) 
+      :op1-of (a2 / and 
+            :ARG0-of (a / approve-01 
+                  :ARG1 (m / manuscript 
+                        :mod (f / final)))))
+
+# ::snt We thank Chihiro Takigawa , Junko Iida , Masako Shirasaka , Yumi Ohuchi , and Megumi Narita for their technical and administrative assistance .
+# ::tok We thank Chihiro Takigawa , Junko Iida , Masako Shirasaka , Yumi Ohuchi , and Megumi Narita for their technical and administrative assistance .
+# ::alignments 22-23|0.2 21-22|0.2.0 20-21|0 19-20|0.1 15-17|0.0.1.1.3.0.1+0.0.1.1.3.0.0+0.0.1.1.3.0+0.0.1.1.3 14-15|0.0.1.1 11-13|0.0.1.1.2.0.1+0.0.1.1.2.0.0+0.0.1.1.2.0+0.0.1.1.2 8-10|0.0.1.1.1.0.1+0.0.1.1.1.0.0+0.0.1.1.1.0+0.0.1.1.1 5-7|0.0.1.1.0.0.1+0.0.1.1.0.0.0+0.0.1.1.0.0+0.0.1.1.0 2-4|0.0.1.0.1+0.0.1.0.0+0.0.1.0+0.0.1 1-2|0.0 0-1|0.0.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:21.619
+(a3 / and 
+      :op1 (t2 / thank-01 
+            :ARG0 (w / we) 
+            :ARG1 (p5 / person 
+                  :name (n5 / name 
+                        :op1 "Chihiro" 
+                        :op2 "Takigawa") 
+                  :op1-of (a4 / and 
+                        :op2 (p4 / person 
+                              :name (n4 / name 
+                                    :op1 "Junko" 
+                                    :op2 "Iida")) 
+                        :op3 (p3 / person 
+                              :name (n3 / name 
+                                    :op1 "Masako" 
+                                    :op2 "Shirasaka")) 
+                        :op4 (p2 / person 
+                              :name (n2 / name 
+                                    :op1 "Yumi" 
+                                    :op2 "Ohuchi")) 
+                        :op5 (p / person 
+                              :name (n / name 
+                                    :op1 "Megumi" 
+                                    :op2 "Narita"))))) 
+      :op2 (t / technical) 
+      :op3 (a / assist-01 
+            :ARG1-of (a2 / administrate-01)))
+
+# ::snt We are grateful to Drs. Minoru Ko and Azim Surani for sharing helpful data prior to publication , Dr. Hitoshi Niwa for generously providing various vectors , and Dr. Robert Farese Jr. for his kind gift of the RF8 ES cells .
+# ::tok We are grateful to Drs. Minoru Ko and Azim Surani for sharing helpful data prior to publication , Dr. Hitoshi Niwa for generously providing various vectors , and Dr. Robert Farese Jr. for his kind gift of the RF8 ES cells .
+# ::alignments 40-41|0.2.0.1.0.0 38-40|0.2.0.1.0.0.0.0.1+0.2.0.1.0.0.0.0.0+0.2.0.1.0.0.0.0+0.2.0.1.0.0.0 35-36|0.2.0.1.0+0.2.0.1 34-35|0.2.0.1.1 31-32|0.3.0 28-31|0.3.1.2+0.3.1.1+0.3.1.0+0.3.1+0.3 27-28|0 25-26|0.2.0.0 24-25|0.2.0.0.0 23-24|0.2.0 22-23|0.2.0.2 19-21|0.2.2.1+0.2.2.0+0.2.2+0.2 18-19|0.2.1 16-17|0.1.0+0.1 14-15|0.0.2 13-14|0.0.1 12-13|0.0.1.0 11-12|0.0 8-10|0.0.0.1.0.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 7-8|0.0.0 5-7|0.0.0.0.0.1+0.0.0.0.0.0+0.0.0.0.0+0.0.0.0 2-3|0.0.0.2 0-1|0.0.0.2.0 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:27.851
+(a / and 
+      :ARG2-of (s / share-01 
+            :ARG0 (a3 / and 
+                  :op1 (t6 / thing 
+                        :name (n6 / name 
+                              :op1 (m / Minoru) 
+                              :op2 (k2 / Ko))) 
+                  :op2 (t5 / thing 
+                        :name (n5 / name 
+                              :op1 (a2 / Azim) 
+                              :op2 (s2 / Surani))) 
+                  :prep-to-of (g3 / grateful 
+                        :domain (w / we))) 
+            :ARG1 (d3 / data 
+                  :ARG1-of (h2 / helpful-04)) 
+            :ARG4 (p3 / prior)) 
+      :op1 (p2 / publication 
+            :wiki -) 
+      :op2 (t4 / thing 
+            :beneficiary (p / provide-01 
+                  :ARG1 (v / vector 
+                        :mod (v2 / various)) 
+                  :ARG2 (t2 / thing 
+                        :ARG1-of (g / gift-01 
+                              :ARG0 (c / cell 
+                                    :mod (t / thing 
+                                          :name (n / name 
+                                                :op1 (r / RF8) 
+                                                :op2 (e / ES))))) 
+                        :mod (k / kind)) 
+                  :manner (g2 / generosity)) 
+            :mod (d2 / dr.) 
+            :name (n3 / name 
+                  :op1 (h / Hitoshi) 
+                  :op2 (n4 / Niwa))) 
+      :op3 (t3 / thing 
+            :mod-of (j / jr.) 
+            :name (n2 / name 
+                  :op1 (d / Dr.) 
+                  :op2 (r2 / Robert) 
+                  :op3 (f / Farese))))
+
+# ::snt This work was supported in part by research grants from the Ministry of Education , Culture , Sports , Science , and Technology of Japan , the Uehara Memorial Foundation , the Naito Foundation , the Sumitomo Research Foundation , the Mitsubishi Foundation .
+# ::tok This work was supported in part by research grants from the Ministry of Education , Culture , Sports , Science , and Technology of Japan , the Uehara Memorial Foundation , the Naito Foundation , the Sumitomo Research Foundation , the Mitsubishi Foundation .
+# ::alignments 41-43|0.0.0.0.2.0.1+0.0.0.0.2.0.0+0.0.0.0.2.0+0.0.0.0.2 36-39|0.0.0.0.1.0.2+0.0.0.0.1.0.1+0.0.0.0.1.0.0+0.0.0.0.1.0+0.0.0.0.1 32-34|0.0.0.0.0.1.0.0.1+0.0.0.0.0.1.0.0.0+0.0.0.0.0.1.0.0+0.0.0.0.0.1.0 27-30|0.0.0.0.0.0.0.0.2+0.0.0.0.0.0.0.0.1+0.0.0.0.0.0.0.0.0+0.0.0.0.0.0.0.0+0.0.0.0.0.0.0 24-25|0.0.0.1.1+0.0.0.1.0.0+0.0.0.1.0+0.0.0.1 22-24|0.1.0.0.1+0.1.0.0.0+0.1.0.0+0.1.0 21-22|0.0.0.0.0 19-20|0.0.0.0.0.2 17-18|0.0.0.0.0.1 15-16|0.0.0.0.0.0 13-14|0.0.0.0 11-12|0.0.0 8-9|0.0 7-8|0.0.1 3-4|0 1-2|0.1 0-1|0.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:28.676
+(s3 / support-01 
+      :ARG0 (g / grant-01 
+            :ARG0 (m / ministry 
+                  :mod (e / education 
+                        :op1-of (a / and 
+                              :op2 (c3 / culture-01 
+                                    :ARG1 (o4 / organization 
+                                          :name (n4 / name 
+                                                :op1 "Uehara" 
+                                                :op2 "Memorial" 
+                                                :op3 "Foundation"))) 
+                              :op3 (s2 / sport-01 
+                                    :ARG1 (o3 / organization 
+                                          :name (n3 / name 
+                                                :op1 "Naito" 
+                                                :op2 "Foundation"))) 
+                              :op4 (s / science)) 
+                        :poss (o2 / organization 
+                              :name (n2 / name 
+                                    :op1 "Sumitomo" 
+                                    :op2 "Research" 
+                                    :op3 "Foundation")) 
+                        :poss (o / organization 
+                              :name (n / name 
+                                    :op1 "Mitsubishi" 
+                                    :op2 "Foundation"))) 
+                  :poss (c / country 
+                        :name (n5 / name 
+                              :op1 "Japan") 
+                        :wiki "Japan")) 
+            :ARG1 (r / research-01)) 
+      :ARG1 (w / work-01 
+            :ARG0 (c2 / country 
+                  :name (n6 / name 
+                        :op1 "Technology" 
+                        :op2 "of")) 
+            :mod (t / this)))
+
+# ::snt S.Y. was supported by a Toray Science and Technology Grant ( to S.Y. ) .
+# ::tok S.Y. was supported by a Toray Science and Technology Grant ( to S.Y. ) .
+# ::alignments 8-10|0.2.0.0.1+0.2.0.0.0+0.2.0.0+0.2.0 7-8|0.2 5-7|0.0.0.1+0.0.0.0+0.0.0+0.0 2-3|0 0-1|0.1.0.0+0.1.0+0.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:29.114
+(s / support-01 
+      :ARG0 (o2 / organization 
+            :name (n2 / name 
+                  :op1 "Toray" 
+                  :op2 "Science")) 
+      :ARG1 (o3 / organization 
+            :name (n3 / name 
+                  :op1 "S.Y.")) 
+      :manner (a / and 
+            :op1 (o / organization 
+                  :name (n / name 
+                        :op1 "Technology" 
+                        :op2 "Grant"))))
+
+# ::snt This work was also supported in part by a Grant-in-Aid for 21st Century COE ( Center of Excellence ) Research from the Ministry of Education , Culture , Sports , Science , and Technology .
+# ::tok This work was also supported in part by a Grant-in-Aid for 21st Century COE ( Center of Excellence ) Research from the Ministry of Education , Culture , Sports , Science , and Technology .
+# ::alignments 33-34|0.0.0.0.3 32-33|0.0.0.0 30-31|0.0.0.0.0.0 28-29|0.0.0 26-27|0.0.0.0.2 24-25|0.0.0.0.1 22-23|0.0.0.0.1.0 19-20|0.0.0.0.0 17-18|0 15-16|0.0 12-14|0.0.0.0.2.0.0.1+0.0.0.0.2.0.0.0+0.0.0.0.2.0.0+0.0.0.0.2.0 11-12|0.0.0.0.0.1.1.0 9-10|0.0.0.0.0.1.0 4-5|0.0.0.0.0.1 3-4|0.0.0.0.0.1.2 1-2|0.0.0.0.0.1.1 0-1|0.0.0.0.0.1.1.1 ::annotator JAMR dev v0.3 ::date 2018-04-22T03:57:29.494
+(e2 / excellence 
+      :mod-of (c2 / center 
+            :ARG1-of (s2 / sport-01 
+                  :op4-of (a / and 
+                        :op1 (r / research-01 
+                              :ARG1 (s / science) 
+                              :time-of (s3 / support-01 
+                                    :ARG0 (g / grant-in-aid) 
+                                    :ARG1 (w / work-01 
+                                          :ARG1 21st 
+                                          :mod (t3 / this)) 
+                                    :mod (a2 / also))) 
+                        :op2 (e / education 
+                              :mod-of (m / ministry)) 
+                        :op3 (c / culture-01 
+                              :ARG1 (t2 / thing 
+                                    :name (n / name 
+                                          :op1 (c3 / Century) 
+                                          :op2 (c4 / COE)))) 
+                        :op5 (t / technology)))))
+

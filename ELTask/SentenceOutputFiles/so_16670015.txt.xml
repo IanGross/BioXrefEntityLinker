@@ -1,0 +1,416 @@
+<termsem="SO:0001026"> Genome </term> - wide isolation of growth and obesity <termsem="SO:0000771"> QTL </term> using mouse speed congenic strains .
+High growth ( hg ) modifier and background independent <termsem="SO:0000771"> quantitative trait loci </term> ( <termsem="SO:0000771"> QTL </term> ) affecting growth , adiposity and carcass composition were previously identified on mouse <termsem="SO:0000340"> chromosomes </term> ( MMU ) 1 , 2 , 5 , 8 , 9 , 11 and 17 .
+To confirm and further characterize each <termsem="SO:0000771"> QTL </term> , two panels of speed congenic strains were developed by introgressing CAST/EiJ ( CAST ) <termsem="SO:0000771"> QTL </term> <termsem="SO:0001023"> alleles </term> onto either <termsem="SO:0001059"> <termsem="independent_continuant"> mutant </term> </term> C57Bl/6J-hg/hg ( HG ) or <termsem="SO:0000817"> <termsem="independent_continuant"> wild type </term> </term> C57Bl/6J ( B6 ) <termsem="SO:0000704"> genetic </term> backgrounds .
+The first speed congenic panel was developed by introgressing four <termsem="SO:0000068"> overlapping </term> donor <termsem="SO:0000001"> regions </term> spanning MMU2 in its entirety onto both HG and B6 backgrounds , for a total of eight strains .
+Phenotypic characterization of the MMU2 panel confirmed the segregation of multiple growth and obesity <termsem="SO:0000771"> QTL </term> and strongly suggested that a subset of these <termsem="SO:0000001"> loci </term> modify the effects of the hg <termsem="SO:0000159"> deletion </term> .
+The second panel consisted of individual donor <termsem="SO:0000001"> regions </term> on an HG background for each <termsem="SO:0000771"> QTL </term> on MMU1 , 5 , 8 , 9 , 11 and 17 .
+Of the six developed strains , five were successfully characterized and displayed significant differences in growth and/or obesity as compared to controls .
+All five displayed phenotypes similar to those originally attributed to each <termsem="SO:0000771"> QTL </term> , however , novel phenotypes were unmasked in several of the strains including sex-specific effects .
+The speed congenic strains developed herein constitute an invaluable <termsem="SO:0001026"> genomic </term> resource and provide the foundation to identify the specific nature of <termsem="SO:0000704"> genetic </term> variation influencing growth and obesity .
+The use of mouse models has provided valuable insight into the etiology of monogenic syndromes caused by single <termsem="SO:0000704"> gene </term> <termsem="SO:0001059"> mutations </term> .
+However , such models do not mimic the <termsem="SO:0000704"> genetic </term> complexity of disease traits commonly seen in the human population .
+Complex traits , such as polygenic growth and obesity are influenced by the small to moderate direct effects of <termsem="SO:0000771"> quantitative trait loci </term> ( <termsem="SO:0000771"> QTL </term> ) , epistasis between <termsem="SO:0000771"> QTL </term> <termsem="SO:0001023"> alleles </term> , environmental perturbations and <termsem="SO:0000771"> QTL </term> - environment interactions .
+To date numerous mouse growth and obesity <termsem="SO:0000771"> QTL </term> have been localized [ 1,2 ] , however , little progress has been made in determining the specific nature of the underlying <termsem="SO:0000704"> genetic </term> <termsem="SO:0001060"> variants </term> .
+One resource used to fine map <termsem="SO:0000771"> QTL </term> are congenic strains which are designed to convert a complex polygenic trait into one that is mono - or oligogenic .
+This is accomplished by eliminating segregating <termsem="SO:0000704"> genetic </term> variation outside the <termsem="SO:0000001"> locus </term> of interest and reducing the environmental variation influencing a trait by characterizing large numbers of <termsem="SO:0000704"> genetically </term> identical mice .
+The Complex Trait Consortium ( CTC ) considers congenic analysis an excellent method to confirm and subsequently fine map <termsem="SO:0000771"> QTL </term> [ 3 ] .
+Traditionally , congenic strains are developed by introgressing <termsem="SO:0000771"> QTL </term> <termsem="SO:0001023"> alleles </term> from a donor strain , whose <termsem="SO:0000699"> boundaries </term> are defined by <termsem="SO:0000704"> genetic </term> markers , on the <termsem="SO:0000704"> genetic </term> background of a recipient strain via 10 backcrosses [ 4 ] .
+While technically straightforward this is a time consuming endeavor taking over three years to construct a single strain .
+The speed congenic approach is an alternative to this lengthy process and can reduce the number of required backcrosses from 10 to five [ 5,6 ] .
+This strategy uses marker-assisted selection to identify male mice inheriting fewer donor <termsem="SO:0001023"> alleles </term> , than expected on average , during each backcross .
+Numerous traditionally developed and speed congenics have been used to successfully isolate mouse <termsem="SO:0000771"> QTL </term> for a wide array of traits , including growth and obesity [ 7-13 ] .
+The C57Bl/6J-hg/hg ( HG ) mouse is a model of systemic overgrowth resulting from a spontaneous <termsem="SO:0000159"> deletion </term> on MMU10 , which eliminates expression of the Socs2 ( suppressor of cytokine signaling 2 ) <termsem="SO:0000704"> gene </term> [ 14-16 ] .
+The role of Socs2 in the HG phenotype was confirmed by an independently engineered Socs2 - / - knockout mouse which shared a number of phenotypes in common with HG , including gigantism [ 17 ] .
+<termsem="SO:0000771"> QTL </term> which alter the phenotypic effects of another <termsem="SO:0000001"> locus </term> are referred to as modifier <termsem="SO:0000771"> QTL </term> [ 18 ] .
+Modifier <termsem="SO:0000771"> QTL </term> have been mapped for numerous traits and in these studies the modified <termsem="SO:0000001"> locus </term> is typically a <termsem="SO:0000906"> known </term> <termsem="SO:0000704"> gene </term> containing a spontaneously arisen or engineered <termsem="SO:0001059"> mutation </term> with major phenotypic effects , such as hg [ 11,19-21 ] .
+Epistasis forms the basis of these interactions , implying that the <termsem="SO:0000906"> known </term> <termsem="SO:0000704"> gene </term> and its modifiers are members of the same biochemical or metabolic pathway .
+Different <termsem="SO:0000704"> genetic </term> backgrounds have been shown to modify the growth-enhancing effects of hg [ 15,22 ] .
+Since the primary function of Socs2 is to negatively regulate growth hormone ( Gh ) [ 23 ] , it is likely these background effects are the result of polymorphism influencing interactions between members of the Gh signaling pathway .
+Thus , identification of hg modifiers has the potential to uncover novel members of metabolically important pathways or previously unknown convergences between pathways .
+As an initial step , growth and carcass composition <termsem="SO:0000771"> QTL </term> were identified in a cross between CAST/EiJ ( CAST ) and HG [ 24 ] .
+In the F2 , mice homozygous for the hg <termsem="SO:0000159"> deletion </term> ( hg/hg ) and <termsem="SO:0000817"> <termsem="independent_continuant"> wild type </term> </term> ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) were assayed and hg modifier <termsem="SO:0000771"> QTL </term> were defined as those either absent in <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> mice and segregating in hg/hg or <termsem="SO:0000001"> loci </term> with altered <termsem="SO:0000704"> gene </term> action dependent on background .
+Four hg modifier <termsem="SO:0000771"> QTL </term> ( Wg2 on MMU2 , Carfhg2 on MMU9 , Carp2 on MMU11 and Feml3 on MMU17 ) were identified , along with 12 additional <termsem="SO:0000771"> QTL </term> ( Q1Ucd1 on MMU1 ( which only reached a suggestive level of statistical significance ) , Wg1 , Carp1 , Cara1 and Feml1 on MMU2 , Carfhg1 on MMU5 , Wg3 on MMU8 , Feml2 on MMU9 , Wg4 and Cara2 on MMU11 and Carp3 and Cara3 on MMU17 ) whose expression was independent of the hg <termsem="SO:0000001"> locus </term> .
+In the current study we have developed speed congenic strains to isolate all the aforementioned <termsem="SO:0000771"> QTL </term> .
+Single strains on an HG background were created for each <termsem="SO:0000830"> <termsem="SO:0000340"> chromosomal </term> region </term> outside of MMU2 , while a comprehensive panel of <termsem="SO:0000068"> overlapping </term> strains with identical donor <termsem="SO:0000001"> regions </term> on both B6 and HG backgrounds were developed for MMU2 .
+The MMU2 panel was developed to confirm the presence of multiple <termsem="SO:0000771"> QTL </term> and test for <termsem="SO:0000771"> QTL </term> - hg interactions .
+Additionally , based on the knowledge of potential <termsem="SO:0000771"> QTL </term> - hg interactions , <termsem="SO:0000704"> genes </term> involved in Gh signaling , whose <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> location </term> overlapped hg modifier <termsem="SO:0000771"> QTL </term> on MMU2 , 9 , 11 and 17 , were sequenced .
+Speed congenic strain development .
+Two speed congenic panels were created , the first comprehensively dissected MMU2 while the second isolated <termsem="SO:0000771"> QTL </term> on MMU1 , 5 , 8 , 9 , 11 and 17 ( Table 1 ) .
+The MMU2 panel consisted of eight congenic strains developed by introgressing four <termsem="SO:0000068"> overlapping </term> donor <termsem="SO:0000001"> regions </term> onto both B6 and HG <termsem="SO:0000704"> genetic </term> backgrounds ( Table 1 ) .
+Single donor <termsem="SO:0000001"> regions </term> bred onto an HG background were created to isolate the remaining <termsem="SO:0000771"> QTL </term> on MMU1 , 5 , 8 , 9 , 11 and 17 .
+Implementation of a speed congenic approach using marker-assisted breeding with 79 <termsem="SO:0001026"> genome </term> - wide <termsem="SO:0000289"> microsatellite markers </term> accelerated production of all strains [ 5,6 ] ( Additional File 1 and Figure 1 ) .
+Strain abbreviations and <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> region </term> isolated by each strain are listed in Table 1 .
+In addition to both congenic panels , two control strains homozygous B6 ( B6.CASTC ; B6C ) or HG ( HG.CASTC ; HGC ) for all <termsem="SO:0001026"> genome </term> - wide markers genotyped were developed from the same cross ( see Methods ) and served as the basis for strain comparisons .
+After stabilizing each congenic , 12 of 14 were phenotypically characterized for growth and adiposity .
+The HG2D and HG5 strains were not characterized due to reproductive problems .
+The recombinant end points for all strains were refined using <termsem="SO:0000289"> microsatellite markers </term> flanking each donor <termsem="SO:0000001"> region </term> ( Additional File 2 ) .
+MMU2 speed congenic strain characterization .
+Due to the <termsem="SO:0000068"> overlapping </term> nature of the MMU2 congenics , five distinct <termsem="SO:0000830"> <termsem="SO:0000340"> chromosomal </term> regions </term> ( <termsem="SO:0000001"> Regions </term> I -- V ) were queried for the presence of <termsem="SO:0000771"> QTL </term> ( Figure 2 ) .
+As a separate analysis we also tested for interactions between each donor <termsem="SO:0000001"> region </term> and the two distinct <termsem="SO:0000704"> genetic </term> backgrounds .
+The following sections describe the phenotypes for each B6.CAST and HG.CAST speed congenic strain as well as the results of the interaction analysis .
+B6.CAST MMU2 speed congenic strains .
+The B62D strain exhibited the largest ( P < 0.0001 ) decreases in body weight of any B6.CAST congenic ( Additional File 3 ) .
+Both sexes had reductions in weight at 2 ( 2WK ) , 3 ( 3WK ) , 6 ( 6WK ) and 9 ( 9WK ) weeks of age compared to control B6C mice ( Figure 3 ) .
+Despite large decreases in body weight , no differences in growth rates ( G26 , weight gain from 2 to 6 weeks and G29 , weight gain from 2 to 9 weeks ) were observed ( Additional File 3 ) .
+Therefore , the B62D unique <termsem="SO:0000001"> region </term> ( <termsem="SO:0000001"> Region </term> V ) harbors either an early-growth <termsem="SO:0000771"> QTL </term> or maternal <termsem="SO:0001027"> genotype </term> effect which produces a distinct decrease in body weight prior to 2WK .
+These effects are evident in the growth curves for both sexes of each strain ( Figure 3 ) .
+Additionally , B62D mice displayed significantly shorter tail lengths despite no difference in naso-anal length ( NA ) ( Table 2 ) .
+In contrast , B62M mice displayed small decreases in body weights and growth ( male 9WK was significant , female 6WK and 9WK were suggestive at P < 0.05 ) and significant decreases in NA ( male P = 0.0152 ) and tail length ( Additional File 3 and Table 2 ) .
+The decrease in NA in B62M mice is surprising since the 2M donor <termsem="SO:0000001"> region </term> is entirely nested within the 2D donor <termsem="SO:0000001"> region </term> and B62D mice showed no difference in NA ( Figure 2 ) .
+These data indicate the presence of three <termsem="SO:0000771"> QTL </term> with the 2D unique <termsem="SO:0000001"> region </term> .
+Two of which are disjoined by the B62M and B62D strains and additively decrease body weight and tail length , but not NA .
+The third <termsem="SO:0000771"> QTL </term> , located within the B62D unique <termsem="SO:0000001"> region </term> ( <termsem="SO:0000001"> Region </term> V ) , increases NA canceling the effects of the B62M <termsem="SO:0000771"> QTL </term> ( <termsem="SO:0000001"> Region </term> IV ) decreasing NA .
+B62PM females had decreases in all growth-related traits except 2WK and 3WK , while no differences were seen in males ( Additional File 3 ) .
+Similarly , only B62P females and not males showed significant decreases in 9WK , G26 and G29 ( Additional File 3 ) , indicating these two strains share a female specific growth <termsem="SO:0000771"> QTL </term> ( <termsem="SO:0000001"> Region </term> II ) .
+In the original <termsem="SO:0001026"> genome </term> scan body fat percentage as determined by chemical compositional analysis was not linked to markers on MMU2 [ 24 ] .
+However , since numerous obesity <termsem="SO:0000771"> QTL </term> have been found on MMU2 [ 2 ] , some of which were discovered in B6 by CAST crosses [ 9,25 ] , we chose to measure dissected fat pad weights as a more sensitive measure of adiposity .
+Table 2 lists the weights of gonadal ( GFP ) , femoral ( FFP ) , mesenteric ( MFP ) and retroperitoneal ( RFP ) fat pads , along with total fat pad weight ( sum of the four fat pads ) , adiposity index ( AI = TF/weight at sacrifice ( WSAC ) ) and body mass index ( BMI = WSAC/NA2 * 100 ) for each MMU2 congenic strain .
+Similar to large differences in body weight the B62D strain displayed highly significant decreases in adiposity .
+B62D was the only strain where both sexes had significant decreases in TF , AI and BMI .
+Interestingly , no difference in adiposity was seen in B62M mice .
+This discordance indicates the leanness promoting <termsem="SO:0000771"> QTL </term> is located in the B62D unique <termsem="SO:0000001"> region </term> ( <termsem="SO:0000001"> Region </term> V ) .
+Only minor differences in various fat pad weights were observed for the B62P and B62PM strains ( Table 2 ) .
+HG.CAST MMU2 speed congenic panel .
+HG2P and HG2PM mice of both sexes displayed significant decreases in post-weaning body weights and growth rates ( Additional Table 3 ) .
+In addition , the HG2M strain displayed highly significant decreases in length , similar to B62M mice ( Table 2 ) .
+These results indicate <termsem="SO:0000771"> QTL </term> within <termsem="SO:0000001"> Region </term> II shared between the HG2P and HG2PM strains decrease body size , weight gain and NA ( only in females ) , while a <termsem="SO:0000771"> QTL </term> in the HG2M <termsem="SO:0000001"> region </term> significantly decreases tail length .
+Similar to growth traits a general decrease in GFP , MFP , RFP , TF and AI were seen in HG2P and HG2PM mice ( <termsem="SO:0000001"> Region </term> II ) ( Table 2 ) .
+These differences in adiposity are likely pleiotropic effects of the growth <termsem="SO:0000771"> QTL </term> shared between these two strains .
+Surprisingly , HG2M mice displayed striking sex differences in adiposity .
+Males exhibited an increase in AI ( P = 0.0256 ) with a decrease in BMI ( P = 0.0462 ) and the exact opposite was seen in females ( AI , P < 0.0001 ; BMI , P = 0.0425 ) ( Table 2 ) .
+Therefore , the obesity <termsem="SO:0000771"> QTL </term> in the HG2M unique <termsem="SO:0000001"> region </term> ( <termsem="SO:0000001"> Region </term> IV ) is profoundly impacted by the presence of hg .
+Confirmation of <termsem="SO:0000771"> QTL </term> - hg interactions .
+An important feature of our experimental design was the ability to test for interactions between <termsem="SO:0000771"> QTL </term> in each MMU2 donor <termsem="SO:0000001"> region </term> and <termsem="SO:0001027"> genotype </term> at the HG <termsem="SO:0000001"> locus </term> , since identical donor <termsem="SO:0000001"> regions </term> were introgressed on two <termsem="SO:0000704"> genetic </term> backgrounds , B6 ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) and HG ( hg/hg ) .
+Significant interactions between donor <termsem="SO:0000001"> region </term> and HG <termsem="SO:0001027"> genotype </term> were viewed as strong evidence that hg modifier <termsem="SO:0000771"> QTL </term> reside within that unique <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> region </term> .
+In the original linkage analysis the mode of <termsem="SO:0000704"> gene </term> action and peak <termsem="SO:0000001"> location </term> of Wg2 were dependent on the presence of hg [ 24 ] ( Table 1 ) .
+In the present study , only homozygous congenic mice were characterized , thus , the overdominant effects of Wg2 were not tested .
+However , since its original peak <termsem="SO:0000001"> location </term> differed dependent on background we hypothesized that Wg2 represents a <termsem="SO:0000018"> set of linked <termsem="SO:0000771"> QTL </term> </term> between 74.9 and 181.8 Mbp within the 2M and 2D donor <termsem="SO:0000001"> regions </term> ( <termsem="SO:0000001"> Region </term> III -- V ) , some of which interact with hg .
+Following this logic we expected one or both of these strains would exhibit donor <termsem="SO:0000001"> region </term> by HG <termsem="SO:0001027"> genotype </term> interactions .
+Unfortunately , we were unable to characterize HG2D mice .
+However , as noted above , strong sex-specific effects were seen in HG2M mice .
+Significant 2M donor <termsem="SO:0000001"> region </term> by HG <termsem="SO:0001027"> genotype </term> by sex three-way interactions for AI ( P = 0.0004 ; Figure 4 ) and TF were identified ( Table 3 ) .
+The basis of these interactions was a decrease in HG2M female and an increase in HG2M male adiposity , with no differences in fat accumulation across B62M sexes .
+Significant 2PM donor <termsem="SO:0000001"> region </term> by HG <termsem="SO:0001027"> genotype </term> two-way and 2PM donor <termsem="SO:0000001"> region </term> by HG <termsem="SO:0001027"> genotype </term> by sex three-way interactions were also seen for TF and AI ( Table 3 ) .
+In addition , significant 2P donor <termsem="SO:0000001"> region </term>  HG <termsem="SO:0001027"> genotype </term> interactions were observed for all traits listed , although some traits did reached significance at the critical P < 0.0071 ( Table 3 ) .
+The basis for each interaction was a decrease in phenotype in HG2P compared to HGC and no difference between B62P and B6C .
+Together these data confirm that MMU2 <termsem="SO:0000771"> QTL </term> modify the effects of the hg <termsem="SO:0000159"> deletion </term> .
+Speed congenic strains for <termsem="SO:0000771"> QTL </term> on MMU1 , 8 , 9 , 11 and 17 .
+Q1Ucd1 affecting G26 was the least significant of any <termsem="SO:0000771"> QTL </term> identified in the original intercross and only reached a suggestive level of significance ( LOD = 2.46 , P < 0.05 ) [ 26 ] .
+In accordance , HG1 mice had small differences in all growth and length traits .
+NA in both sexes and 2WK , 3WK , 6WK and tail length in females was significant at a critical P < 0.005 ( Table 4 ) .
+The only difference in adiposity was a significant decrease in male MFP ( Table 5 ) .
+The successful capture and confirmation of the small effect Q1Ucd1-w26 <termsem="SO:0000771"> QTL </term> adds support to pursuing <termsem="SO:0000771"> QTL </term> identified at suggestive levels of statistical confidence from <termsem="SO:0001026"> genome </term> scans .
+Markers on MMU8 were linked with G29 in the original intercross [ 24 ] .
+This <termsem="SO:0000771"> QTL </term> was small , only accounting for 4.3 % of the phenotypic variance .
+Interestingly , in HG8 mice no differences in growth were detected ; however , they were significantly leaner than controls ( Table 5 ) .
+In males a general decrease in fat pad mass , TF and AI was detected ; however , only MFP was significant at a critical P < 0.005 .
+Male AI was nearly significant at a nominal P = 0.0082 .
+Larger decreases in fat mass were seen in HG8 females , with significant decreases detected for GFP , MFP and AI .
+Additionally , RFP and TF were nearly significant with nominal P values of 0.0208 and 0.0153 , respectively .
+HG8 mice represent a lean congenic model in which CAST <termsem="SO:0001023"> alleles </term> protect against fat accumulation .
+CAST <termsem="SO:0001023"> alleles </term> in the proximal <termsem="SO:0000001"> region </term> of MMU9 were previously found to be linked with an increase in body fat percentage and a decrease in femur length [ 24 ] .
+The effects appeared to be the result of two linked <termsem="SO:0000771"> QTL </term> , Carfhg2 at 10 cM and Feml2 at 20 cM , instead of one pleiotropically impacting both traits ( Table 1 ) .
+In support of this , the increase in fat was dependent on hg ; however , differences in femur length were not [ 24 ] .
+In confirmation of Carfhg2 all measures of adiposity in HG9 mice were increased relative to control mice ; except MFP in both sexes and BMI in males ( Table 5 ) .
+In males , GFP , RFP , FFP and AI were increased by 29.0 % , 51.2 % , 42.9 % and 30.0 % , respectively .
+In females these increases were much larger .
+The same measurements were increased by 68.8 % , 99.4 % , 69.7 % and 57.3 % , relative to HGC females .
+A 2.9 % and 3.6 % reduction in male and female NA , respectively , was also detected .
+This was expected since NA was previously found to be an excellent indicator of femur length ( R2 = 0.88 ) in HG mice [ 27 ] and as noted above this <termsem="SO:0000001"> region </term> contains the Feml2 <termsem="SO:0000771"> QTL </term> [ 24 ] .
+These data confirm the effects of Carfhg2 on adiposity and Feml2 on length and indicate the isolated effects of Carfhg2 are more significant than originally observed .
+In the original intercross CAST <termsem="SO:0001023"> alleles </term> near 50 cM on MMU11 were linked with a reduction in G29 , carcass ash ( ASH ) and carcass protein ( PROT ) [ 24 ] .
+Therefore , we measured each carcass component using chemical compositional analysis in the HGC , HG11 and HG17 strains .
+Originally , Carp2 was dependent on the presence of hg and no significant sex effects were detected [ 24 ] .
+In contrast to those results , HG11 mice displayed significant differences in growth and obesity between the sexes .
+In general , males demonstrated a 5 % increase and females a 5 % decrease in all growth-related traits ( Table 4 ) .
+Most of these differences , however , were not significant at a critical P < 0.005 , although almost all were at a nominal P < 0.05 .
+Following the same trend , males displayed an increase in tail length and a small suggestive increase in NA ( P = 0.06 ) , while females displayed significant decreases in NA .
+In support of the sex-specific <termsem="SO:0000771"> QTL </term> effects strain by sex interactions ( P < 0.04 ) were seen for the following growth traits : 3WK , 6WK , 9WK , G26 , G29 and NA ( data not shown ) .
+The basis of each interaction was an increase in the males and a decrease in females .
+In our analysis of the HGC , HG11 and HG17 strains , concordant results were observed measuring adiposity using chemical lipid extraction and weighing fat pad mass .
+The phenotypic correlation between carcass fat ( FAT ) as a percent of the empty carcass weight ( ECW ; weight of total body ( including organs ) minus the head and gastrointestinal tract ) ( % FAT ) determined by chemical analysis and AI , using data from all three lines ( HGC , HG11 and HG17 ) , was 0.92 .
+These data suggest that individual fat pad dissection is an excellent proxy for measuring whole body adiposity and provides a much more sensitive technique to measure fat accumulation in specific body regions .
+HG11 females displayed slight increases in all fat pads ( except MFP ) and AI , although , only the 16.5 % increase in AI was significant ( Table 5 ) .
+In contrast , HG11 males did not show a difference in fat mass leading to a significant strain by sex interaction ( P = 0.008 ) for AI ( data not shown ) .
+Identical to the results obtained using fat pad weights ; female HG11 carcasses displayed an increase in % FAT ( Table 6 ) .
+HG11 male carcasses had higher levels carcass ash ( ASH ) as a percent of ECW ( % ASH ) and female carcasses displayed lower levels of H2O and ASH ( Table 6 ) .
+Strains by sex interactions ( P < 0.005 ) were identified for H2O , % H2O , % FAT , ASH and PROT ( data not shown ) .
+If the aggregate phenotype in HG11 is due to a single <termsem="SO:0000001"> locus </term> , its function may be to disrupt energy partitioning by decreasing the deposition of lean tissue and increasing lipid accumulation in females , while having the opposite action in males .
+However , it may also be due to distinct sex-specific <termsem="SO:0000771"> QTL </term> with opposing action .
+In the original intercross CAST <termsem="SO:0001023"> alleles </term> at MMU17 markers were associated with decreases in femur length , ASH and PROT [ 24 ] and similar results were seen in HG17 mice .
+Interestingly , both sexes were heavier at 2WK ( males , P = 0.0045 ; females , P = 0.0342 ) , but lighter at 9WK , leading to substantially lower G26 and G29 ( Table 4 ) .
+In general growth differences ranged between 5 % and 15 % lower in congenic mice .
+Both sexes had significant reductions in length traits relative to control mice .
+NA was reduced by 2.7 % ( P = 0.0186 ) and 3.4 % in males and females , respectively ( Table 4 ) .
+In addition , tail was reduced by approximately 6 % in both sexes ( Table 4 ) .
+In general , HG17 mice displayed increases in all fat pads ( except MFP ) , TF and AI ( Table 5 ) .
+However , none of these differences were significant at critical P < 0.005 .
+In addition , HG17 male carcasses possessed lower levels of H2O and ASH , while female carcasses contained lower levels of % H2O , ASH , % ASH and % PROT ( Table 6 ) .
+MMU2 , 9 , 11 and 17 hg modifier candidate <termsem="SO:0000704"> gene </term> sequencing .
+The HG phenotype is due to the <termsem="SO:0000045"> deletion </term> of Socs2 , therefore we reasoned that <termsem="SO:0000771"> QTL </term> on MMU2 , 9 , 11 and 17 interacting with hg possibly represent variation within <termsem="SO:0000704"> genes </term> participating in various aspects of Gh function .
+To select candidate <termsem="SO:0000704"> genes </term> for sequencing we identified <termsem="SO:0000704"> genes </term> known to be or potentially involved in Gh signaling , are responsive to Gh or that propagate downstream Gh functions .
+Forty-four hg modifier candidate <termsem="SO:0000704"> genes </term> were identified from primary literature , reviews and book chapters and coordinated using the GenMAPP ( <termsem="SO:0000704"> Gene </term> MicroArray Pathway Profiler ) pathway building software ( Figure 5 ) .
+The <termsem="SO:0000316"> coding region </term> of each <termsem="SO:0000704"> gene </term> was sequenced from the CAST strain and compared to the publicly available B6 <termsem="SO:0000001"> sequence </term> to identify <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> ( Additional File 4 ) .
+A total of 94.492 kbp was sequenced ( 75.378 kbp <termsem="SO:0000316"> CDS </term> and 19.114 Kbp 5 ' and <termsem="SO:0000205"> 3 ' untranslated region </term> ( UTR ) ) , representing 25,083 <termsem="SO:0001237"> amino acids </term> .
+Comparison with the public B6 <termsem="SO:0001248"> assembly </term> ( May 2004 University of California , Santa Cruz ( UCSC [ 28 ] ) mm5 <termsem="SO:0001026"> genome </term> <termsem="SO:0001248"> assembly </term> , National Center for Biotechnology Information ( NCBI ) Build 33 ) identified 307 <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> between CAST and B6 .
+Of these , 295 were <termsem="SO:0000694"> single <termsem="SO:0001236"> nucleotide </term> polymorphisms </term> ( <termsem="SO:0000694"> SNP </term> ) and 12 were <termsem="SO:0000667"> insertions </term> or <termsem="SO:0000159"> deletions </term> in CAST ( Additional File 4 ) .
+All 12 <termsem="SO:0000667"> insertions </term> or <termsem="SO:0000159"> deletions </term> were located within 5 ' and <termsem="SO:0000205"> 3 ' UTRs </term> .
+Fifty-six nonsynonomous <termsem="SO:0000694"> SNP </term> ( nsSNP ) were identified in 14 different <termsem="SO:0000704"> genes </term> ( Additional File 4 ) .
+PolyPhen [ 29 ] and SIFT [ 30 ] are software programs designed to identify nsSNP which potentially alter protein function by evaluating <termsem="SO:0000857"> evolutionary conservation </term> at specific <termsem="SO:0001237"> amino acid residues </term> using a multiple <termsem="SO:0000001"> sequence </term> alignment of protein <termsem="SO:0000001"> sequences </term> <termsem="SO:0000857"> homologous </term> to the query .
+When applied to our data set PolyPhen , SIFT or both programs predicted that 15 of the 56 nsSNP in 9 different <termsem="SO:0000704"> genes </term> would possibly alter protein function ( Table 7 ) .
+Speed congenic strains provide a powerful approach to confirm and physically confine <termsem="SO:0000771"> QTL </term> within <termsem="SO:0000001"> intervals </term> defined by molecular markers .
+In the current study , approximately 20 % of the CAST <termsem="SO:0001026"> genome </term> harboring all previously detected growth and carcass composition <termsem="SO:0000771"> QTL </term> was isolated on an HG or B6 background through the development of 14 speed congenic strains .
+Two distinct speed congenic panels were developed , the first provided a comprehensive isolation of all MMU2 <termsem="SO:0000771"> QTL </term> between the B6 , HG and CAST strains and the second targeted all <termsem="SO:0000771"> QTL </term> outside of MMU2 .
+Each successfully characterized strain exhibited phenotypic differences relative to control mice .
+These strains represent important resources and provide the <termsem="SO:0000704"> genetic </term> resource to positionally clone numerous <termsem="SO:0000771"> quantitative trait <termsem="SO:0000704"> genes </term> </term> .
+One criticism of the speed congenic approach is the potential for <termsem="SO:0000771"> QTL </term> to reside among unwanted donor <termsem="SO:0001023"> alleles </term> not <termsem="SO:0000045"> eliminated </term> during backcrossing .
+In this case differences between the congenic and control strains would be due in part or whole to these contaminating <termsem="SO:0001023"> alleles </term> .
+We took several precautions to reduce the probability of this occurrence .
+First , our control strains were developed from mice undergoing the same selection as all of the other congenics .
+Therefore , it is possible that any unwanted <termsem="SO:0000771"> QTL </term> or <termsem="SO:0001059"> mutations </term> arising during congenic construction are shared between all strains .
+More importantly , we have knowledge of all large previously detected growth and obesity <termsem="SO:0000771"> QTL </term> in the current cross [ 24 ] .
+Using this information we increased the density of markers in each <termsem="SO:0000771"> QTL region </term> ( MMU1 , 2 , 5 , 8 , 9 , 11 and 17 ; Table 1 and Additional File 1 ) , ensuring the absence of CAST <termsem="SO:0001023"> alleles </term> at each of these <termsem="SO:0000771"> QTL </term> .
+This approach , termed '' <termsem="SO:0000771"> QTL </term> - Marker-Assisted Counter Selection '' or QMACS , has been previously used to characterize <termsem="SO:0000771"> QTL </term> for hypnotic sensitivity to ethanol [ 31 ] .
+In that study , only markers flanking <termsem="SO:0000771"> QTL </term> were typed , not <termsem="SO:0001026"> genome </term> - wide markers .
+In contrast , we selected not only against <termsem="SO:0000906"> known </term> <termsem="SO:0000771"> QTL </term> , we also screened for <termsem="SO:0001026"> genome </term> wide heterozygosity increasing the probability that effects observed are due to <termsem="SO:0000704"> genetic </term> variation within each donor <termsem="SO:0000001"> region </term> .
+Although great effort was put forth to eliminate non-donor <termsem="SO:0000001"> region </term> direct <termsem="SO:0000704"> genetic </term> effects , other factors such as maternal <termsem="SO:0001027"> genotype </term> ( maternal <termsem="SO:0001027"> genotype </term> for each congenic versus control dams differed ) and environmental effects could confound our results .
+Maternal <termsem="SO:0001027"> genotype </term> effects on growth and obesity have been observed in a number of mouse crosses [ 8,32-35 ] and their existence in the current cross can not be discounted .
+However , our congenics provide the ideal foundation <termsem="SO:0001026"> genomic </term> resource to test for the influence of any of these possible effects .
+Future fine mapping experiments can be designed to randomize the influences of any contaminating donor <termsem="SO:0001023"> alleles </term> and environmental differences , as well as test for maternal <termsem="SO:0001027"> genotype </term> effects .
+MMU2 is a hotspot for growth and obesity <termsem="SO:0000771"> QTL </term> .
+Over 30 <termsem="SO:0000771"> QTL </term> have been identified in various experiments [ 1,2 ] .
+Several previously reported or novel MMU2 <termsem="SO:0000771"> QTL </term> have been isolated and characterized using congenic strains [ 7,9-11,36 ] .
+Our findings are no different and indicate that MMU2 is highly complex with regards to <termsem="SO:0000704"> genes </term> affecting growth and obesity .
+The <termsem="SO:0000068"> overlapping </term> nature of our MMU2 strains allowed us to parse the <termsem="SO:0000340"> chromosome </term> into five <termsem="SO:0000001"> regions </term> ( <termsem="SO:0000001"> Regions </term> I -- V ) ( Figure 2 ) .
+The data support the presence of at least one <termsem="SO:0000771"> QTL </term> in each of the five <termsem="SO:0000001"> regions </term> ( Figure 2 ) .
+Each of the five pleiotropically impact both growth and obesity , although to varying degrees .
+In addition to the large number of MMU2 <termsem="SO:0000771"> QTL </term> , the presence of hg adds complexity by either eliciting interactions with the same <termsem="SO:0000771"> QTL </term> or by inducing the expression of novel <termsem="SO:0000771"> QTL </term> .
+The 2P unique <termsem="SO:0000001"> region </term> ( <termsem="SO:0000001"> Region </term> I ) contains an hg modifier with large effects on growth and smaller effects on obesity ( Table 3 ) .
+In contrast , interactions between 2PM/2M <termsem="SO:0000771"> QTL </term> and hg primarily affect fat deposition ( Table 3 ) .
+As illustrated in Figure 4 the 2M donor <termsem="SO:0000001"> region </term> exhibits strong sex effects on the rate of lipid storage , dependent on background .
+In control mice , HGC females have a higher AI than males , while the opposite is seen in B6C mice .
+Interestingly , the 2M hg modifier <termsem="SO:0000771"> QTL </term> abolished the hg induced sexual dimorphism in adiposity ( Figure 4 ) .
+Although these results provide insight into the nature of hg modifier <termsem="SO:0000771"> QTL </term> , it should be noted , that the actual number and precise <termsem="SO:0000001"> location of loci </term> is still unclear .
+In addition to MMU2 , three other congenics ( HG9 , HG11 and HG17 ) captured hg modifier <termsem="SO:0000771"> QTL </term> .
+In classical terms , they are <termsem="SO:0000771"> QTL </term> which modify the expressivity of growth and obesity in HG mice [ 18 ] .
+These <termsem="SO:0000771"> QTL </term> are novel since they represent epistasis between hg and the modifier <termsem="SO:0000704"> gene </term> .
+<termsem="SO:0000771"> QTL </term> - hg epistasis implies that Socs2 and the hg modifiers are in the same biological pathway .
+Therefore , these <termsem="SO:0000771"> QTL </term> are likely due to polymorphism in <termsem="SO:0000704"> genes </term> interacting with Gh , responsive to Gh or which in some way modulate Gh function .
+This information will significantly aid <termsem="SO:0000771"> QTL </term> cloning by providing another filter to screen candidates .
+Cloning these <termsem="SO:0000771"> QTL </term> has major implications to improve our understanding of Gh and its regulation of growth and adiposity and in the administration of human Gh therapeutics .
+HG1 mice displayed differences only in growth traits .
+Originally , Q1Ucd1 had small effects and these results illustrate the power of congenic strain analysis to isolate small effect <termsem="SO:0000771"> QTL </term> , although it is likely this <termsem="SO:0000771"> QTL </term> represents the lower boundary of detection using only 20 -- 30 congenic mice .
+The most notable candidate <termsem="SO:0000704"> genes </term> located within the HG1 <termsem="SO:0000001"> interval </term> are the signal transducer and activator of transcription 1 ( Stat1 ) and Stat4 .
+Two of the congenics had major alterations in the deposition of adipose tissue , HG8 and HG9 .
+The HG8 donor <termsem="SO:0000001"> region </term> promotes leanness .
+Congenic females displayed a reduction of over 25 % in AI .
+In contrast , the HG9 strain is an obese mouse model .
+The strain is quite novel for two reasons .
+First , the effect size is large ; AI was 57 % higher in HG9 females and 30 % higher in males .
+Secondly , it is dependent on hg for its expression .
+The HG9 strain represents a major epistasis-based obese mouse model and promises to aid in the understanding of obesity and specifically the modulation of adipose tissue deposition by Gh .
+Studies are currently underway to identify the causative <termsem="SO:0001059"> mutation </term> and to characterize the effects of age and diet on obesity in this strain as well as testing for other physiological consequences such as alterations in food intake and insulin sensitivity .
+The HG11 strain is of particular interest for a number of reasons .
+First , HG11 congenic mice demonstrated significant strain by sex interactions for a number of traits .
+Males were generally larger , faster growing and longer and the converse was seen in females .
+The confounding effects of sex are likely the reason for the discrepancies between the congenic and <termsem="SO:0001026"> genome </term> scan results , where both sexes were analyzed together .
+Secondly , Carp2 was found to interact with hg and MMU11 is saturated with <termsem="SO:0000704"> genes </term> involved in the central Gh intracellular signaling pathway , such as Gh , Stat5b and Stat5a .
+Thirdly , MMU11 growth <termsem="SO:0000771"> QTL </term> <termsem="SO:0000068"> overlapping </term> HG11 have been identified in a number of crosses using different mouse strains [ 37-41 ] .
+Given the well documented sexually dimorphic nature of Gh secretion and Gh induced <termsem="SO:0000704"> gene </term> expression [ 42,43 ] , it is probable that the underlying <termsem="SO:0001059"> mutation </term> in the HG11 congenic may reside in a <termsem="SO:0000704"> gene </term> enhancing Gh induced sex-specific effects .
+The structural Gh <termsem="SO:0000704"> gene </term> itself and Stat5b are excellent candidates .
+The potential role of Gh would include polymorphism that alters protein function in the absence of Socs2 or that causes transcriptional deregulation of Gh .
+Additionally , functional variation in Stat5b may explain the sex-specific phenotypes in HG11 mice since it is the primary transcription factor responsible for Gh induced sex-specific liver <termsem="SO:0000704"> gene </term> expression [ 44 ] .
+Future studies aimed at identifying the HG11 QTG , will certainly include a thorough characterization of Gh and Stat5b <termsem="SO:0000001"> sequence </term> and expression patterns in congenic mice .
+The hg modifier <termsem="SO:0000771"> QTL </term> located within the HG17 strain had large effects on growth , body length and carcass components .
+The most intriguing candidate <termsem="SO:0000704"> gene </term> located in the congenic is Sstr5 .
+Somatostatin is a potent inhibitor of Gh and Sstr5 is one of five receptors which mediate these effects [ 45,46 ] .
+Ubiquitous and pancreatic beta cell specific knockout of Sstr5 leads to alterations in insulin secretion and glucose homeostasis [ 47,48 ] .
+We sequenced candidate hg modifier <termsem="SO:0000704"> genes </term> to complement the characterization of the speed congenics on MMU2 , 9 , 11 and 17 .
+A limited number of studies have identified variation within CAST <termsem="SO:0000316"> coding sequence </term> ; so sequencing candidates gave us the opportunity to estimate the <termsem="SO:0000694"> SNP </term> frequency in <termsem="SO:0000316"> coding sequence </term> relative to B6 .
+This information will be vital to future fine mapping studies , which will include <termsem="SO:0000704"> gene </term> expression analysis .
+The high <termsem="SO:0000694"> SNP </term> frequency ( 0.312 % ; 295 <termsem="SO:0000694"> SNP </term> in 94.492 kbp ) in CAST <termsem="SO:0000704"> genes </term> may lead to a higher rate of false positives using <termsem="SO:0000352"> DNA </term> microarrays or quantitative real-time PCR assays , most of which are based on B6 <termsem="SO:0000001"> sequence </term> .
+Therefore , these <termsem="SO:0000001"> sequence </term> data can be used to guide the development of <termsem="SO:0000704"> gene </term> expression assays to confirm differential expression for candidates and suggests that <termsem="SO:0000704"> genes </term> identified by downstream experiments should also be sequenced .
+More importantly , sequencing hg modifier candidates allowed us to identify nonsynonomous polymorphism , which may underlie <termsem="SO:0000771"> QTL </term> .
+SIFT and/or PolyPhen <termsem="SO:0000732"> predicted </term> alterations in protein function for 15 of the 56 total nsSNP ( 27 % ) in nine of the 44 total <termsem="SO:0000704"> genes </term> ( 20 % ) ( Table 7 ) .
+It has been shown that predicting function based on <termsem="SO:0000857"> evolutionary conservation </term> using programs such as SIFT and PolyPhen is very accurate [ 49 ] .
+Four of the nine <termsem="SO:0000704"> genes </term> ( Ubr1 , Ptpns1 , Ubce7ip5 and Mmp9 ; all of which are on MMU2 ) are of particular interest .
+It has been suggested the Socs2 may rely on ubiquitination dependent proteasomal degradation to inhibit Gh signaling [ 23 ] .
+Ubr1 and Ubce7ip5 are both involved in protein ubiquitination and Ubr1 knockout mice show an 20 % decrease in body weight partly due to a reduction in adipose tissue [ 50,51 ] .
+Ptpns1 knockout mice displayed a 10 % reduction in body weight [ 52 ] and Mmp9 knockout mice show a reduction in size and drastically reduced bone length [ 53 ] .
+All of these <termsem="SO:0000704"> genes </term> are excellent functional and <termsem="SO:0000001"> positional </term> hg modifier candidate <termsem="SO:0000704"> genes </term> and this information can be incorporated into future fine mapping studies .
+The speed congenic strains developed herein confirm previously identified <termsem="SO:0001026"> genome </term> - wide <termsem="SO:0000771"> QTL </term> affecting growth , obesity and carcass composition .
+Our novel congenic development approach on MMU2 provided confirmation of <termsem="SO:0000771"> QTL </term> - hg interactions , which will significantly aid in future fine mapping experiments .
+The identification of the molecular mediators of <termsem="SO:0000771"> QTL </term> - hg epistasis as well as the QTG for the remaining congenics will provide essential information on the molecular <termsem="SO:0000704"> genetic </term> architecture of growth and obesity .
+Mouse strains and husbandry .
+CAST/EiJ ( stock # 000928 ) mice were purchased from the Jackson Laboratory .
+The hg <termsem="SO:0001059"> mutation </term> was originally identified in a selected outcross line [ 22 ] and has been introgressed onto a B6 background via nine backcrosses to create the HG strain .
+HG mice used in this experiment were from the 17th or later generation of inbreeding .
+Mice were housed in polycarbonate cages under controlled conditions of temperature ( 21 C  2 C ) , humidity ( 40 -- 70 % ) and lighting ( 14 h light , 10 h dark , lights on at 7 AM ) , and managed according to the guidelines of the American Association for Accreditation of Laboratory Animal Care ( AAALAC ) .
+<termsem="SO:0000352"> DNA </term> for genotyping was isolated from 1.0 -- 2.0 mm tail clips by digesting with Proteinase K ( Fisher ) at 55 C in a buffer composed of 0.45 % NP40 ( Sigma ) , 0.45 % Tween 20 ( Fisher ) and 1X PCR buffer ( Promega ) .
+The product of this digestion was diluted ( 1:10 ) in sterile H2O and used for genotyping without further purification .
+<termsem="SO:0000289"> Microsatellite </term> genotyping was performed using standard PCR and gel electrophoresis protocols .
+Reaction conditions for each marker are listed in Additional File 1 and 2 .
+MMU2 congenic mice were genotyped for hg using a two <termsem="SO:0000112"> primer </term> genotyping assay .
+One <termsem="SO:0000112"> primer </term> set ( HG - <termsem="SO:0001030"> F </term> , ctcctgtctgggctgtgag and HG - <termsem="SO:0001031"> R </term> , caaaggcagaagtggggtaa ) spanned the hg <termsem="SO:0000159"> deletion </term> producing a 447 <termsem="SO:0000028"> bp </term> <termsem="SO:0000006"> product </term> in hg/hg and <termsem="SO:0000817"> + </term> / hg mice .
+The other set ( CRADD3a .
+<termsem="SO:0001030"> F </term> , gtccatcagcattcctgaaa and CRADD3 .
+<termsem="SO:0001031"> R </term> , tgtccagcaacagcattgtc ) amplified a 232 <termsem="SO:0000028"> bp </term> Cradd amplicon ( located within the hg <termsem="SO:0000159"> deletion </term> ) in <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> and <termsem="SO:0000817"> + </term> / hg mice [ 54 ] .
+The PCR annealing temperature was 55 C and the MgCl2 concentration was 1.5 mM .
+Development of B6.CAST and HG.CAST MMU2 speed congenic strains .
+All speed congenic strains were developed starting with an initial cross between a CAST male and HG females ( Figure 1 ) [ 5,6 ] .
+Male F1 mice were then backcrossed to HG females .
+All agouti ( the dominant nonagouti ( a ) <termsem="SO:0000001"> locus </term> is located at 154.8 Mbp on MMU2 ) N2 males were genotyped for 79 <termsem="SO:0000289"> microsatellite markers </term> ( Additional File 1 ) .
+These markers were evenly spaced across the <termsem="SO:0001026"> genome </term> , except in <termsem="SO:0000001"> regions </term> previously identified as harboring <termsem="SO:0000771"> QTL </term> [ 1 ] , which were more densely screened .
+The `` best '' N2 agouti male with the lowest level of <termsem="SO:0001026"> genome </term> - wide unwanted heterozygosity while maintaining CAST <termsem="SO:0001023"> alleles </term> for all MMU2 markers was selected for breeding .
+This selection scheme was used at each generation until a N4 male was identified as homozygous HG for all markers typed outside MMU2 .
+After an additional backcross to HG females , recombinant males were identified providing the foundation for the four <termsem="SO:0000068"> overlapping </term> donor <termsem="SO:0000001"> regions </term> .
+Selected recombinant males were then backcrossed to both B6 and HG females to create strains , which were B6 ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) or HG ( hg/hg ) and heterozygous congenic .
+These mice were intermated to produce homozygous founders for each strain .
+This novel breeding scheme created four identical founder congenics on two backgrounds B6 ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) and HG ( hg/hg ) , which formed the basis for our examination of interactions caused by the presence of the hg <termsem="SO:0000159"> deletion </term> .
+MMU2 speed congenic strains were maintained through brother-sister mating .
+Once each congenic was stabilized , 20 additional <termsem="SO:0000289"> microsatellite markers </term> were used to refine the <termsem="SO:0000001"> position </term> of each congenic recombinant end point ( Additional File 2 ) .
+Development of HG.CAST speed congenic strains for MMU1 , 5 , 8 , 9 , 11 and 17 .
+All black N2 males from the first two crosses described above were genotyped for 12 markers ( D1Mit432 , -480 , D5Mit353 , -311 , D9Mit60 , -262 , D11Mit5 , -67 , D8Mit234 , -211 and D17Mit28 and -142 ) , two spanning each of the six <termsem="SO:0000771"> QTL </term> harboring <termsem="SO:0000001"> regions </term> ( MMU1 , 5 , 8 , 9 , 11 and 17 ; Table 1 and Additional File 1 ) .
+Markers were selected to capture , at a minimum , the 2-LOD support <termsem="SO:0000001"> interval </term> .
+Two N2 males were selected to propagate the N3 generation ; one heterozygous for <termsem="SO:0000771"> QTL </term> on MMU1 and 9 and the other heterozygous for <termsem="SO:0000771"> QTL </term> on MMU5 , 8 , 11 and 17 ( Figure 1 ) .
+Both males were homozygous for HG <termsem="SO:0001023"> alleles </term> at all other <termsem="SO:0000906"> known </term> <termsem="SO:0000771"> QTL </term> .
+These males were backcrossed to HG females and two of the resulting N3 males inheriting the same sets of <termsem="SO:0000771"> QTL </term> as their sire were selected for breeding .
+These males were subsequently backcrossed to HG females and three N4 males were identified heterozygous for the following <termsem="SO:0000001"> regions </term> : 1 ) MMU1 and 9 ; 2 ) MMU5 and 11 ; 3 ) MMU8 , 11 and 17 ( Figure 1 ) .
+Starting at N4 and continuing through N6 , the `` best '' male with the lowest percent of unwanted donor <termsem="SO:0001023"> alleles </term> was selected after performing a <termsem="SO:0001026"> genome </term> scan using the remaining 67 <termsem="SO:0001026"> genome </term> - wide markers ( 79 total markers minus the 12 markers genotyped in the first two backcrosses spanning the <termsem="SO:0000906"> know </term> <termsem="SO:0000771"> QTL intervals </term> ) .
+At N5 a distinct strain was created for each of the six individual donor <termsem="SO:0000001"> regions </term> and heterozygous mice were intermated ( Figure 1 ) .
+Homozygous HG.CAST speed congenic strains were maintained through brother-sister mating .
+Once each congenic was stabilized , 19 additional <termsem="SO:0000289"> microsatellite markers </term> were used to refine the <termsem="SO:0000001"> position </term> of each congenic recombinant end point ( Additional File 2 ) .
+Development of B6.CASTC and HG.CASTC control strains .
+HG is a strain in which the hg <termsem="SO:0000159"> deletion </term> has been introgressed onto a B6 background , therefore the only <termsem="SO:0000704"> genetic </term> differences between the strains would be the hg <termsem="SO:0000001"> locus </term> , tightly linked <termsem="SO:0001023"> alleles </term> from the outbred strain on which hg arose and contaminating <termsem="SO:0001023"> alleles </term> remaining after the nine backcrosses and fixed during inbreeding .
+Instead of using parental B6 and HG strains as controls for phenotypic comparisons with each speed congenic , we choose to develop independent control strains originating from the same cross as the congenic panels .
+Separate B6.CAST control ( B6C ) and HG.CAST control ( HGC ) strains were developed using mice from the MMU2 experiment .
+Mice from the last backcross inheriting only B6 or HG MMU2 <termsem="SO:0001023"> alleles </term> at markers spanning MMU2 were intermated to serve as the basis for each control .
+Both control strains were subsequently maintained through brother-sister mating .
+The control strains were coisogenic with the parental B6 or HG strain with the exception of <termsem="SO:0001059"> mutations </term> that arose during congenic construction and a small percentage of contaminating donor <termsem="SO:0001023"> alleles </term> missed after 6 backcrosses .
+Therefore , since the congenics and controls were developed through the same selection scheme and possibly share common contaminating <termsem="SO:0000001"> regions </term> , the B6C and HGC strains are the most ideal control to compare each congenic .
+Trait data were collected on approximately 40 mice ( 20 of each sex ) from each congenic and control strain .
+To eliminate parity and reduce litter size effects only progeny from uniparous dams were characterized and all litters were standardized to 5 -- 7 pups/litter .
+Mice were weaned at 3 weeks of age .
+Feed ( Purina 5008 ; 23.5 % protein , 6.5 % fat , 3.3 Kcal/g ) and water were offered ad libitum .
+Mice were weighed to the nearest 0.1 g at 2WK , 3WK , 6WK , and 9WK of age .
+At 9WK (  5 days ) mice were anesthetized under isoflurane and nasal-anal length ( NA ) and nasal-tail ( NT ) were measured to the nearest mm .
+Tail length was calculated as NA minus NT .
+Anesthetized mice were then sacrificed by decapitation and exsanguinated .
+Femoral fat pad ( FFP ) , gonadal fat pad ( GFP ) , mesenteric fat pad ( MFP ) and retroperitoneal fat pad ( RFP ) were removed and weighed to the nearest mg .
+Chemical compositional analysis was performed for HGC , HG11 and HG17 carcasses as previously described with slight modifications [ 24 ] .
+Briefly , after weighing each fat pad was returned to the carcass .
+The entire gastrointestinal ( GI ) tract was subsequently removed and carcasses were again weighed .
+This represented the empty carcass weight ( ECW ) .
+Carcasses were labeled and secured in two layers of cheesecloth ( Fisher ) and frozen at -20 C until analysis .
+At this time , carcasses were freeze-dried for seven days and water content was determined by subtracting the freeze-dried weight from ECW .
+FAT was then extracted with ether for 7 days , followed by acetone for an additional 7 days in a Soxhlet apparatus .
+Carcass ash ( ASH ) was determined measuring the remains after a 16 hour incineration at 575 C .
+Carcass protein ( PROT ) was calculated as the remaining portion after carcass fat ( FAT ) and ASH were subtracted from ECW .
+The MEANS and UNIVARIATE procedures of SAS were used to generate descriptive statistics and test normality assumptions for each trait [ 55 ] .
+All data were then analyzed using the GLM procedure of SAS [ 55 ] with a linear model that included the fixed effects of strain , sex and strain by sex interaction ; dam 's weight at breeding by strain was used as a covariate .
+A second linear model was used to test for strain by hg <termsem="SO:0001027"> genotype </term> ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> or hg/hg ) interactions .
+This model included the fixed effects of donor <termsem="SO:0000001"> region </term> , sex and HG <termsem="SO:0001027"> genotype </term> and all possible two and three-way interactions .
+Choosing a nominal P value of 0.05 and applying the Bonferroni correction for multiple comparisons established significant differences in the ANOVA 's .
+The critical P values used are indicated in each table .
+Identification of candidate <termsem="SO:0000704"> genes </term> .
+<termsem="SO:0000704"> Genes </term> were identified by manual data mining of primary literature , reviews and book chapters .
+To organize and collate <termsem="SO:0001026"> genomic </term> and functional information for each <termsem="SO:0000704"> gene </term> we created a custom Gh signaling <termsem="SO:0000704"> Gene </term> Map Annotator and Pathway Profiler ( GenMAPP ) pathway [ 56 ] ( Figure 5 ) .
+Visualization and color-coding of <termsem="SO:0000704"> genes </term> using GenMAPP aided the selection of candidate <termsem="SO:0000704"> genes </term> mapping within <termsem="SO:0000771"> QTL regions </term> on MMU2 , 9 , 11 and 17 .
+Candidate <termsem="SO:0000704"> gene </term> sequencing .
+PCR amplicons covering the <termsem="SO:0000316"> coding sequence </term> and partial 5 ' and <termsem="SO:0000205"> 3 ' untranslated regions </term> for each selected candidate <termsem="SO:0000704"> gene </term> were amplified , purified and sequenced from the CAST strain using protocols outlined in [ 57 ] with slight modifications .
+Total <termsem="SO:0000356"> RNA </term> from brain , liver , spleen , lung and testis was isolated from an adult CAST male mouse using Trizol ( Ambion ) .
+<termsem="SO:0000756"> cDNA </term> was produced from total <termsem="SO:0000356"> RNA </term> using standard procedures .
+PCR <termsem="SO:0000112"> primer </term> sets for each <termsem="SO:0000704"> gene </term> were designed using Primer3 [ 58 ] ( Additional File 5 ) .
+The initial amplification was performed in 10 l PCR reactions using the Invitrogen Platinum TaqPCRx amplification system ( Invitrogen ) .
+The reactions contained 1X PCR buffer , 1X Enhancer solution , 1.5 mM MgSO4 , 0.17 mM dNTPs , 1 M each <termsem="SO:0000112"> primer </term> , 0.1 unit of Platinum Taq ( Invitrogen ) and approximately 25 ng of <termsem="SO:0000756"> cDNA </term> .
+Reactions were incubated for 5 min at 95 C , then cycled for 45 s at 95 C , 45 s at 55 C , 1 min at 72 C for 35 cycles with a final 72 C extension for 10 min on a MJ Research PTC-200 .
+The <termsem="SO:0000006"> products </term> were visualized on 1.5 % agarose gels containing 0.06 g/ml EtBr .
+Bands of the correct size were excised and incubated in 100 l of sterile H2O at 80 C for 10 min to elute <termsem="SO:0000352"> DNA </term> .
+Reamplification reactions consisted of 1X PCR buffer , 1.5 mM MgCl2 , 0.17 mM dNTPs , 1 M each <termsem="SO:0000112"> primer </term> , 0.1 unit of Taq ( Promega ) and 10 l of eluate in a total volume of 50 l .
+The same cycling parameters were used for reamplification reactions .
+<termsem="SO:0000006"> Products </term> were visualized on 1 % 0.5 X TBE agarose gels containing 0.06 g/ml EtBr , excised and purfied using PCR purification columns ( Promega ) .
+To quantity each <termsem="SO:0000731"> fragment </term> 1 l of each purified <termsem="SO:0000006"> product </term> was run on a 1.0 % agarose gel containing 0.06 g/ml EtBr , along with a <termsem="SO:0000352"> DNA </term> mass ladder ( Invitrogen ) .
+In a 96 well plate , 15 ng of each <termsem="SO:0000006"> PCR product </term> was added to 5 pM of <termsem="SO:0000112"> primer </term> for sequencing .
+The College of Agriculture and Environmental Sciences ( CAES ) Genomics Facility at the University of California , Davis , performed bidirectional sequencing of each amplicon .
+B6 <termsem="SO:0000234"> <termsem="SO:0000234"> mRNA </term> sequences </term> for each <termsem="SO:0000704"> gene </term> were downloaded from the May 2004 ( mm5 ) UCSC ( NCBI Build 33 ) <termsem="SO:0001026"> genome </term> <termsem="SO:0001248"> assembly </term> [ 28 ] .
+These <termsem="SO:0000001"> sequences </term> were imported along with all CAST <termsem="SO:0000001"> sequence </term> traces into the SeqMan <termsem="SO:0000353"> sequence assembly </term> program ( DNASTAR ) and manually curated for quality .
+Poor quality reads were resequenced .
+Individual <termsem="SO:0000149"> contigs </term> were created for each <termsem="SO:0000704"> gene </term> and <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphisms </term> </term> were detected and curated by manual inspection .
+CRF and JFM conceived the study .
+CRF developed and characterized each speed congenic strain , assisted with phenotypic data analysis and drafted the manuscript .
+PMC assisted with experimental design and phenotypic data analysis .
+JFM assisted in the evaluation of experimental results and the manuscript and provided coordination of the project .
+All authors read and approved the final manuscript .
+Table of <termsem="SO:0000289"> microsatellite markers </term> used in the construction of B6.CAST and HG.CAST speed congenic strains .
+Click here for file .
+Table of <termsem="SO:0000289"> microsatellite markers </term> used to position the recombinant ends of each speed congenic strain .
+Click here for file .
+Table of body weight and growth rate phenotypes of B6.CAST and HG.CAST MMU2 speed congenic strains .
+Click here for file .
+Table of results of <termsem="SO:0000001"> sequence </term> comparisons between CAST and B6 for MMU2 hg modifier candidate <termsem="SO:0000704"> genes </term> .
+Click here for file .
+Table of PCR <termsem="SO:0000112"> primers </term> used to sequence MMU2 , 9 , 11 and 17 hg modifier candidate <termsem="SO:0000704"> genes </term> .
+Click here for file .
+We thank Vince De Vera for mouse care and Alma Islas-Trejo , Kerri Morimoto , Gonzalo Rincon , Ricardo Verdugo , Karina Guevara , James Chitwood , Lee Nguyen , Galen Williams and Emily Farber for assistance with mouse phenotyping .
+We also thank Scott Taylor and Dr. Ed DePeters for assistance and use of the UCD Animal Science Nutrition Laboratory for carcass composition analysis .
+This work was supported by the National Research Initiative of the USDA Cooperative State Research , Education and Extension Service , grant number 2005 -- 35205 -- 15453 .
+CRF was supported by the Austin Eugene Lyons fellowship .
+Outline of the speed congenic approach used to capture <termsem="SO:0001026"> genome </term> - wide growth and obesity <termsem="SO:0000771"> QTL </term> .
+Details of the congenic matings are outlined in `` Methods '' .
+The matings used to construct the MMU2 speed congenic panel are listed on the left of the figure , along with the expected and observed % heterozygosity at each generation .
+% heterozygosity is defined as the number of markers heterozygous B6 ( or HG ) / CAST as a percent of the total number of markers typed ( N = 79 ) .
+The right side of the illustration lists the matings used to construct the MMU1 , 5 , 8 , 9 , 11 and 17 speed congenic strains , along with the expected and observed % heterozygosity at each generation .
+<termsem="SO:0001026"> Genome </term> - wide speed congenic strains and summary of <termsem="SO:0000771"> QTL </term> effects .
+White bars indicate the <termsem="SO:0000699"> boundaries </term> of CAST donor <termsem="SO:0000001"> regions </term> and hatched bars indicate <termsem="SO:0000001"> intervals </term> of unknown <termsem="SO:0001027"> genotype </term> .
+The minimum physical <termsem="SO:0000001"> intervals </term> ( Mbp ) of each donor <termsem="SO:0000001"> region </term> are listed in Table 1 .
+To provide a general summary of the results , MMU2 is divided into five <termsem="SO:0000830"> <termsem="SO:0000340"> chromosomal </term> regions </term> ( I , II , III , IV and V ) .
+Phenotypic differences for male and female ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> and hg/hg ) mice relative to the appropriate controls are listed .
+For congenics outside of MMU2 , a general summary of <termsem="SO:0000771"> QTL </term> effects is listed to the right of each donor <termsem="SO:0000001"> region </term> .
+Abbreviations : WT , body weight ; GR , growth rate ; T , tail length ; NA , nasal-anal body length ; TF , total weight of four fat pads ; AI , adiposity index and BMI , body mass index .
+Growth curves for MMU2 B6.CAST and HG.CAST speed congenic strains .
+Body weight LSMEANS  SEM are plotted as a function of time ( weeks ) .
+Top plot , growth curves in male B6 ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) and HG ( hg/hg ) speed congenic strains ; bottom plot , growth curves in female B6 ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> ) and HG ( hg/hg ) speed congenic strains .
+Significant three-way donor <termsem="SO:0000001"> region </term> by HG <termsem="SO:0001027"> genotype </term> by sex interaction for AI in the 2M donor <termsem="SO:0000001"> region </term> .
+AI plot illustrates the effect of the hg <termsem="SO:0000159"> deletion </term> on altering fat deposition between the sexes .
+The interaction is significant at P = 0.0004 .
+GenMAPP growth hormone ( Gh ) signaling pathway .
+<termsem="SO:0000704"> Genes </term> known to be or potentially involved in Gh signaling were mined from primary literature , reviews and book chapters .
+<termsem="SO:0000704"> Genes </term> are organized broadly based on functionality .
+MMU <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> position </term> for each <termsem="SO:0000704"> gene </term> is to the right of each symbol and <termsem="SO:0000704"> genes </term> located on MMU2 , 9 , 11 and 17 are highlighted in yellow , purple , orange and green , respectively .
+<termsem="SO:0000704"> Genes </term> located on MMUX are labeled in white .
+Forty-four of the <termsem="SO:0000704"> genes </term> <termsem="SO:0000068"> overlapping </term> <termsem="SO:0000771"> QTL intervals </term> were selected for sequencing in the CAST strain .
+B6.CAST and HG.CAST speed congenic strains developed to isolate and characterize <termsem="SO:0001026"> genome </term> - wide <termsem="SO:0000771"> QTL </term> affecting growth and obesity .
+<termsem="SO:0000771"> QTL </term> , <termsem="SO:0000771"> quantitative trait locus </term> ; MMU , mouse <termsem="SO:0000340"> chromosome </term> ; LOD , log of the odds .
+a <termsem="SO:0000771"> QTL </term> MGI [ 59 ] nomenclature .
+Q1Ucd1-w26 never received an official MGI name , because it only reached a suggestive level of significance ; hg modifier <termsem="SO:0000771"> QTL </term> are in bold [ 24 ] .
+b Mbp <termsem="SO:0000001"> position </term> according to the August 2005 mm7 UCSC [ 28 ] <termsem="SO:0001026"> genome </term> <termsem="SO:0001248"> assembly </term> ( NCBI Build 35 ) , peak LOD from [ 24 ] .
+c In the linkage analysis performed in [ 24 ] , the peak <termsem="SO:0000001"> location </term> for Wg2 , Carp1 , Cara1 and Feml1 was 59 -- 63 cM ( 115 -- 120 Mbp ) in hg/hg F2 mice and 78 -- 83 cM ( 135 -- 150 Mbp ) in <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> F2 mice .
+d Full congenic name consists of three parts : 1 .
+B6.CAST , indicates the recipient strain is B6 and the donor strain is CAST ; HG.CAST , indicates the recipient strain is HG and the donor strain is CAST ; 2 .
+markers defining the minimal congenic <termsem="SO:0000001"> interval </term> ; 3 .
+the number of backcrosses used for speed congenic development .
+e Represents the minimum <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> region </term> spanned by CAST donor <termsem="SO:0001023"> alleles </term> .
+Body length and adiposity phenotypes of B6.CAST and HG.CAST MMU2 speed congenic strains .
+NA , nasal-anal body length ; Tail , tail length ; GFP , gonadal fat pad ; FFP , femoral fat pad ; MFP , mesenteric fat pad ; RFP , retroperitoneal fat pad ; TF , summed weight of four fat pads ; AI , adiposity index ( TF/body weight * 100 ) and BMI , body mass index ( body weight at sacrifice/NA2 * 100 ) .
+Values are expressed as LSMEANS  SEM .
+LSMEANS in bold are significantly different than the respective control after Bonferroni correction ( B6 ( critical P < 0.00625 ) or HG ( P < 0.00833 ) ) within each sex .
+Significance levels for the main effects , two-way and three way interactions of MMU2 speed congenic donor <termsem="SO:0000001"> region </term> ( DR ) , HG <termsem="SO:0001027"> genotype </term> ( HG ) ( <termsem="SO:0000817"> + </term> / <termsem="SO:0000817"> + </term> or hg/hg ) and sex for selected traits .
+6WK , weight at 6 weeks of age ; 9WK , weight at 9 weeks of age ; G26 , weight gain from 2 to 6 weeks of age ; G29 , weight gain from 2 to 9 weeks of age ; NA , nasal-anal body length ; TF , total fat pad weight and AI , adiposity index .
+Significant effects after a Bonferroni correction ( critical P < 0.0071 ) are in bold .
+a The distal ( 2D ) donor <termsem="SO:0000001"> region </term> was not analyzed .
+Body size , growth rate and length phenotypes of HG.CAST speed congenic strains .
+2WK , weight at 2 weeks of age ; 3WK , weight at 3 weeks of age ; 6WK , weight at 6 weeks of age ; 9WK , weight at 9 weeks of age ; G26 , weight gain from 2 to 6 weeks of age ; G29 , weight gain from 2 to 9 weeks of age ; NA , nasal-anal body length ; Tail , tail length .
+Values are expressed as least square means ( LSMEANS )  SEM .
+LSMEANS in bold are significantly different than the control ( HGC ) ( critical P < 0.005 ) after Bonferroni correction within each sex .
+Adiposity phenotypes of HG.CAST speed congenic strains .
+GFP , gonadal fat pad ; FFP , femoral fat pad ; MFP , mesenteric fat pad ; RFP , retroperitoneal fat pad ; TF , summed weight of four fat pads ; AI , adiposity index ( TF/body weight * 100 ) and BMI , body mass index ( body weight at sacrifice/NA2 * 100 ) .
+Values are expressed as least square means ( LSMEANS )  SEM .
+LSMEANS in bold are significantly different than the control ( HGC ) ( critical P < 0.005 ) after Bonferroni correction within each sex .
+Carcass composition phenotypes of HG.CAST speed congenic strains .
+H2O , carcass water ; % H2O , water as a percent of carcass weight ; FAT , carcass fat ; % FAT , fat as a percent of carcass weight ; ASH , carcass ash ; % ASH , ash as a percent of carcass weight ; PROT , carcass protein , % PROT , protein as a percent of carcass weight .
+Values are expressed as least square means ( LSMEANS )  SEM .
+LSMEANS in bold are significantly different than the control ( HGC ) ( critical P < 0.0125 ) after Bonferroni correction within each sex .
+Nonsynonymous <termsem="SO:0000694"> SNP </term> in MMU2 , 9 and 17 hg modifier candidate <termsem="SO:0000704"> genes </term> <termsem="SO:0000732"> predicted </term> by SIFT and Polyphen to alter protein function .
+MMU , mouse <termsem="SO:0000340"> chromosome </term> ; <termsem="SO:0001237"> AA </term> , <termsem="SO:0001237"> amino acid </term> ; PBD , probably damaging , PSD , possibly damaging ; B , Benign ; T , tolerated and D , deleterious .
+a <termsem="SO:0001237"> Amino acid </term> <termsem="SO:0001059"> change </term> , first <termsem="SO:0001237"> residue </term> listed corresponds to the CAST <termsem="SO:0001023"> allele </term> and second corresponds to the B6 <termsem="SO:0001023"> allele </term> .
+b Indicates which <termsem="SO:0001023"> allele </term> was designated as '' <termsem="SO:0001059"> mutant </term> '' , i.e. B6/CAST , B6 <termsem="SO:0001023"> allele </term> is <termsem="SO:0001059"> mutant </term> and CAST is <termsem="SO:0000817"> wild type </term> .

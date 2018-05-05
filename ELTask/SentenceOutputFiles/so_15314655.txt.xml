@@ -1,0 +1,306 @@
+The Zebrafish moonshine <termsem="SO:0000704"> Gene </term> Encodes Transcriptional Intermediary Factor 1 , an Essential Regulator of Hematopoiesis .
+Hematopoiesis is precisely orchestrated by lineage-specific <termsem="SO:0000352"> DNA </term> - binding proteins that regulate transcription in concert with coactivators and corepressors .
+<termsem="SO:0001059"> Mutations </term> in the zebrafish moonshine ( mon ) <termsem="SO:0000704"> gene </term> specifically disrupt both embryonic and adult hematopoiesis , resulting in severe red blood cell aplasia .
+We report that mon encodes the zebrafish <termsem="SO:0000855"> ortholog </term> of mammalian transcriptional intermediary factor 1 ( TIF1 ) ( or TRIM33 ) , a member of the TIF1 family of coactivators and corepressors .
+During development , hematopoietic progenitor cells in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> fail to express normal levels of hematopoietic transcription factors , including gata1 , and undergo apoptosis .
+Three different mon <termsem="SO:0001059"> mutant </term> <termsem="SO:0001023"> alleles </term> each encode premature <termsem="SO:0000319"> stop codons </term> , and enforced expression of <termsem="SO:0000817"> wild-type </term> tif1 <termsem="SO:0000234"> mRNA </term> rescues embryonic hematopoiesis in homozygous mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+Surprisingly , a high level of zygotic tif1 <termsem="SO:0000234"> mRNA </term> expression delineates ventral mesoderm during hematopoietic stem cell and progenitor formation prior to gata1 expression .
+Transplantation studies reveal that tif1 functions in a cell-autonomous manner during the differentiation of erythroid precursors .
+Studies in murine erythroid cell lines demonstrate that Tif1 protein is localized within novel nuclear foci , and expression decreases during erythroid cell maturation .
+Our results establish a major role for this transcriptional intermediary factor in the differentiation of hematopoietic cells in vertebrates .
+Hematopoiesis involves the coordinated processes of cell proliferation and differentiation of a relatively small number of progenitor cells into billions of circulating red and white blood cells ( Thisse and Zon 2002 ) .
+Hematopoiesis in vertebrates , from zebrafish to humans , is an evolutionarily conserved program that produces two waves of stem or progenitor cells that differ both in their embryonic origins and in the lineages of differentiated blood cells produced ( Palis and Yoder 2001 ; Orkin and Zon 2002 ; Galloway and Zon 2003 ) .
+The first , or primitive , wave of hematopoiesis originates from ventral mesoderm and gives rise to progenitor cells that differentiate in embryonic blood islands .
+The primitive wave of hematopoiesis produces a burst of embryonic erythrocytes and macrophages .
+The second , or definitive , wave of hematopoiesis arises from self-renewing stem cells that develop primarily in the intraembryonic aorta -- gonad -- mesonephros region .
+These definitive hematopoietic stem cells seed the later developing marrow spaces , to produce all lineages of adult blood cells , including definitive erythrocytes , myeloid cells , and lymphocytes .
+We have undertaken a <termsem="SO:0000704"> genetic </term> approach to characterize <termsem="SO:0000704"> genes </term> that control hematopoiesis using the zebrafish as a model system ( Thisse and Zon 2002 ) .
+As part of a large-scale forward <termsem="SO:0000704"> genetic </term> screen , we previously identified bloodless zebrafish <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> that failed to express the erythroid transcription factor gata1 normally in embryonic hematopoietic precursors ( Ransom et al. 1996 ) .
+We named one of these zebrafish <termsem="SO:0000704"> genes </term> moonshine ( mon ) , and another group named a noncomplementing <termsem="SO:0001023"> allele </term> vampire ( Weinstein et al. 1996 ) .
+Here , we have determined that <termsem="SO:0001059"> mutations </term> in the mon <termsem="SO:0000704"> gene </term> cause a disruption in both primitive embryonic and definitive adult hematopoiesis , resulting in a severe loss of erythroid cells .
+Erythroid progenitor cells in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> are initially present , but fail to express normal levels of hematopoietic transcription factors and undergo apoptosis .
+<termsem="SO:0000001"> Positional </term> cloning identifies the mon <termsem="SO:0000704"> gene </term> as the zebrafish <termsem="SO:0000855"> ortholog </term> of mammalian transcriptional intermediary factor 1 ( TIF1 ) , a member of the TIF1 family of transcriptional coactivators and corepressors ( Le Douarin et al. 1995 ; Friedman et al. 1996 ; Kim et al. 1996 ; Venturini et al. 1999 ; Peng et al. 2002 ) .
+The three members of the vertebrate TIF1 family (  ,  , and  ) are large nuclear proteins that each contain an N-terminal RBCC or TRIM <termsem="SO:0000417"> domain </term> ( Reymond et al. 2001 ) composed of a RING finger , two <termsem="SO:0000620"> B-boxes </term> , and a <termsem="SO:0001080"> coiled-coil </term> <termsem="SO:0000417"> domain </term> .
+TIF1 family members also contain a <termsem="SO:0100015"> C-terminal </term> plant homeodomain finger and bromodomain that are characteristic of chromatin remodeling factors .
+TIF1 has been shown to associate with a variety of ligand-bound nuclear hormone receptors ( Le Douarin et al. 1995 ) and function as a coactivator for retinoic acid receptors ( Zhong et al. 1999 ) .
+TIF1 has been shown to act as a corepressor for the large family of Krppel-associated box ( KRAB ) <termsem="SO:0000417"> domain </term> zinc-finger transcription factors ( Friedman et al. 1996 ; Abrink et al. 2001 ) .
+In contrast , TIF1 does not associate directly with either nuclear receptors or KRAB <termsem="SO:0000417"> domains </term> that bind to the other TIF1 family members ( Venturini et al. 1999 ; Abrink et al. 2001 ) .
+Biochemical studies also demonstrate that TIF1 forms both homo-oligomers and hetero-oligomers with TIF1 but not with TIF1 ( Peng et al. 2002 ) .
+The murine Tif1 and Tif1 <termsem="SO:0000704"> genes </term> have not yet been subjected to <termsem="SO:0000704"> gene </term> targeting experiments , whereas analysis of mouse <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> demonstrates that Tif1 is required for postimplantation embryogenesis and mesoderm induction in particular ( Cammas et al. 2000 ) .
+Taken together , these studies suggest that a major function of TIF1 family members is to link <termsem="SO:0000352"> DNA </term> - binding proteins with other coactivators or corepressors during development .
+Our studies establish that tif1 functions as an essential regulator of embryonic and adult hematopoiesis in vertebrates .
+Cell transplantation studies demonstrate that tif1 acts in a cell-autonomous manner during embryonic hematopoiesis .
+The tif1 <termsem="SO:0000704"> gene </term> is expressed specifically in ventral mesoderm and hematopoietic progenitors , then downregulated as erythroid maturation occurs .
+Tif1 protein localizes to a novel class of nuclear bodies in both primary mouse embryo fibroblasts and erythroleukemia cell lines .
+Taken together , our studies demonstrate that Tif1 is required for normal erythroid cell development and survival .
+The Zebrafish mon <termsem="SO:0000704"> Gene </term> Is Essential for Both Primitive and Definitive Erythropoiesis .
+In order to determine when the mon <termsem="SO:0000704"> gene </term> is required in development , we first examined hematopoietic <termsem="SO:0000704"> gene </term> expression and apoptosis in zebrafish homozygous mon <termsem="SO:0001059"> mutant </term> embryos .
+During embryogenesis , homozygous zebrafish mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> have no red blood cells ( RBCs ) visible in circulation ( Ransom et al. 1996 ; Weinstein et al. 1996 ) .
+The mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> initiate expression of gata1 in hematopoietic cells around the five-somite stage , similar to <termsem="SO:0000817"> wild-type </term> embryos ( data not shown ) ; however , based on TUNEL staining , the differentiating erythroid cells undergo programmed cell death from the 12-somite stage to 22 h postfertilization ( hpf ) ( Figure 1A and 1B , arrows ) .
+At 12 somites , gata1 expression is only slightly reduced .
+By 18 -- 22 hpf , hematopoietic-specific markers such as gata1 , scl , gata2 , and ikaros are not detected in the embryonic blood island ( Figure 1A and 1B ; unpublished data ) .
+The hematopoietic cells are thus correctly specified early during the development of mon <termsem="SO:0001059"> mutant </term> embryos , but these precursors undergo cell death .
+Based on expression of c-myb and rag1 ( Figure 1B , arrows ) , mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> have normal myeloid and lymphoid development , respectively .
+In addition to the deficit of RBCs in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> , there is a prominent loss of fin-fold and tail mesenchyme ( Ransom et al. 1996 ) .
+TUNEL staining of mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> demonstrates extensive apoptosis of mesenchymal cells in the trunk and tail bud regions ( Figure 1A and 1B , arrows ) .
+The mon <termsem="SO:0000704"> gene </term> is thus required for normal development and survival of both committed erythroid progenitor cells and posterior mesenchymal cells .
+We next examined definitive hematopoiesis in rare surviving homozygous adult zebrafish mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+<termsem="SO:0001059"> Mutations </term> in mon are generally lethal by 10 to 14 d of development ( Ransom et al. 1996 ) , although rare mon homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> ( approximately 1 in 500 bloodless embryos ) of all tested <termsem="SO:0001023"> alleles </term> survive to adulthood .
+Adult mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> show cardiac hypertrophy , presumably due to the severe anemia leading to a high output state ( Figure 2 ) .
+In <termsem="SO:0000817"> wild-type </term> zebrafish , the adult site of hematopoiesis is the kidney ( Al Adhami and Kunz 1977 ) , which contains erythroid , lymphoid , and myeloid populations at various stages of differentiation ( Bennett et al. 2001 ) .
+In mon homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> , there is a severe block in maturation at the proerythroblast stage ( Figure 2 ) , whereas the differentiation of myeloid cells is normal ( unpublished data ) .
+This demonstrates that the mon <termsem="SO:0000704"> gene </term> product acts during both primitive and definitive erythropoiesis .
+<termsem="SO:0000001"> Positional </term> Cloning Identifies mon as the Zebrafish <termsem="SO:0000855"> Ortholog </term> of Mammalian TIF1 .
+We identified the mon <termsem="SO:0000704"> gene </term> by <termsem="SO:0000001"> positional </term> cloning using a panel of 2,200 diploid <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> collected from Tbingen background ( TU ) / WIK strain hybrid parents carrying the montg234 <termsem="SO:0001023"> allele </term> .
+The mon <termsem="SO:0001059"> mutant </term> <termsem="SO:0000704"> gene </term> was positioned on <termsem="SO:0000340"> Chromosome </term> 8 between <termsem="SO:0000289"> microsatellite markers </term> z987 and z11001 ( Figure 3A ) ( Knapik et al. 1998 ) .
+For <termsem="SO:0000001"> positional </term> cloning purposes , over 12,000 <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphic </term> </term> markers were screened using amplified <termsem="SO:0000731"> fragment </term> length <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphism </term> </term> ( AFLP ) ( Ransom and Zon 1999 ) , and 36 markers within the <termsem="SO:0000001"> interval </term> were isolated .
+One of these , MA3 , was found to be 0.3 cM from the <termsem="SO:0000704"> gene </term> ( Figure 3A ) and was utilized as the starting <termsem="SO:0000001"> point </term> of a <termsem="SO:0000340"> chromosomal </term> walk .
+A critical <termsem="SO:0000154"> P1 bacterial artificial chromosome </term> <termsem="SO:0000151"> clone </term> ( <termsem="SO:0000154"> PAC </term> ) , 107N19 , was obtained that spanned the <termsem="SO:0000704"> genetic </term> <termsem="SO:0000001"> interval </term> .
+Two simple <termsem="SO:0000001"> sequence </term> conformation <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphism </term> </term> ( SSCP ) markers found on this <termsem="SO:0000154"> PAC </term> <termsem="SO:0000151"> clone </term> flank the critical <termsem="SO:0000704"> genetic </term> <termsem="SO:0000001"> interval </term> .
+The marker 80M12-T7 maps two recombinants out of 4,400 meioses <termsem="SO:0000624"> telomeric </term> of the <termsem="SO:0001059"> mutation </term> , and the marker 157J23-T7 maps one recombinant <termsem="SO:0000577"> centromic </term> of the <termsem="SO:0001059"> mutation </term> ( Figure 3A ) .
+The end <termsem="SO:0000001"> sequences </term> and SSCP markers of <termsem="SO:0000154"> PAC </term> 107N19 are found in the zebrafish <termsem="SO:0000991"> <termsem="SO:0001026"> genomic </term> sequence </term> <termsem="SO:0000149"> contig </term> ctg23107 ( http://www.ensembl.org/Danio_rerio/ ) containing a <termsem="SO:0000732"> predicted </term> zebrafish TIF1 family gene .
+This <termsem="SO:0000154"> PAC </term> was hybridized to a kidney <termsem="SO:0000756"> cDNA </term> library , resulting in the isolation of four <termsem="SO:0000151"> clones </term> that represented the same <termsem="SO:0000704"> gene </term> .
+The mon <termsem="SO:0000704"> gene </term> encodes a member of the TIF1 family of transcriptional cofactors ( Figure 3B and 3C ) .
+The <termsem="SO:0000316"> coding sequence </term> of mon is most similar to human TIF ( Le Douarin et al. 1995 ; Friedman et al. 1996 ; Venturini et al. 1999 ) , and the <termsem="SO:0000001"> locations </term> of <termsem="SO:0000333"> <termsem="SO:0000147"> exon </term> boundaries </term> are <termsem="SO:0000856"> conserved </term> between the zebrafish and human <termsem="SO:0000704"> genes </term> ( unpublished data ) .
+The mon locus on zebrafish <termsem="SO:0000340"> Chromosome </term> 8 is also predicted to be <termsem="SO:0000860"> syntenic </term> to the region of human <termsem="SO:0000340"> Chromosome </term> 1p that contains the TIF1 <termsem="SO:0000704"> gene </term> based on the <termsem="SO:0000330"> <termsem="SO:0000856"> conserved </term> locations </term> of 12 other <termsem="SO:0000858"> orthologous </term> <termsem="SO:0000704"> gene </term> pairs , including NRAS , mapped to these <termsem="SO:0000001"> regions </term> in human and zebrafish ( Barbazuk et al. 2000 ) .
+Therefore , based on <termsem="SO:0000001"> sequence </term> similarity and <termsem="SO:0000830"> <termsem="SO:0000340"> chromosomal </term> location </term> , the zebrafish mon <termsem="SO:0000704"> gene </term> is the likely <termsem="SO:0000855"> ortholog </term> of the human TIF1 <termsem="SO:0000704"> gene </term> .
+We have identified ethyl-nitrosourea ( ENU ) - induced <termsem="SO:1000008"> point mutations </term> in three <termsem="SO:0001023"> alleles </term> of mon ( Figure 3C and 3D ) , each of which generates a premature <termsem="SO:0000319"> stop codon </term> .
+The montb222b and montg234 <termsem="SO:0001023"> alleles </term> have a severe phenotype with no circulating blood cells .
+In contrast , the monm262 <termsem="SO:0001023"> allele </term> has 10 -- 100 circulating blood cells by 48 hpf , in comparison to the approximately 3,000 RBCs in the circulation of <termsem="SO:0000817"> wild-type </term> or heterozygous embryos at the same time point .
+The monm262 <termsem="SO:0001023"> allele </term> was found to encode a premature <termsem="SO:0000319"> stop codon </term> at <termsem="SO:0000001"> position </term> E40 , which would encode a putative protein of only 40 <termsem="SO:0001237"> amino acids </term> .
+Although this <termsem="SO:0001059"> mutation </term> would be expected to lead to a complete loss of mon <termsem="SO:0000704"> gene </term> product , another <termsem="SO:0001442"> methionine </term> is found downstream at <termsem="SO:0001237"> amino acid position </term> 104 .
+In vitro translation experiments in reticulocyte lysates demonstrate reinitiation of translation from this <termsem="SO:0001442"> methionine </term> ( unpublished data ) .
+Therefore , the hypomorphic larval phenotype of the monm262 <termsem="SO:0001023"> allele </term> is likely due to partial loss of mon function or expression .
+The presence of <termsem="SO:0001059"> mutations </term> in each of the mon <termsem="SO:0001023"> alleles </term> indicates that defective Tif1 function is the cause of the mon phenotype .
+In order to determine whether tif1 is expressed in hematopoietic mesoderm , we next examined zebrafish embryos by whole-mount in situ hybridization ( Figure 4A ) .
+tif1 <termsem="SO:0000234"> mRNA </term> is expressed maternally and is found throughout the embryo during blastula stages .
+During gastrulation and epiboly stages , zygotic expression of mon is highest in the mesendoderm of the germ ring .
+At tail bud and early somite stages a high level of tif1 expression delineates a horseshoe-shaped population of ventral/lateral mesoderm that will give rise to blood and also expresses stem cell leukemiahematopoietic transcription factor ( scl ) ( Liao et al. 1997 ) .
+This group of cells continues to express tif1 and scl while it converges and forms the embryonic blood island ( Detrich et al. 1995 ) .
+The tif1 <termsem="SO:0000704"> gene </term> is also highly expressed in the central nervous system as well as the mesenchyme of the trunk and tail .
+Homozygous montg234 <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> have a greatly reduced amount of tif1 <termsem="SO:0000234"> mRNA </term> in all tissues consistent with nonsense-mediated <termsem="SO:0000673"> message </term> decay .
+Thus , zebrafish tif1 is specifically expressed in ventral mesoderm and putative hemangioblasts prior to and during the embryonic stages when hematopoietic progenitors are undergoing apoptosis in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+We also compared the expression of zebrafish mon to mouse Tif1 ( Figure 4A and 4B ) .
+Mouse Tif1 is highly expressed in erythroid blood islands of the yolk sac , and it is subsequently expressed in the fetal liver at a high level , and in other tissues , including the central nervous system .
+Taken together these results strongly suggest that zebrafish mon and mouse Tif1 are <termsem="SO:0000855"> orthologs </term> that function during hematopoiesis .
+Given that mammalian TIF1 has been shown to form hetero-oligomers with Tif1 ( Peng et al. 2002 ) , we searched for additional TIF1 family members in zebrafish to compare with tif1 .
+Using zebrafish expressed sequence tag ( EST ) sequences , we designed <termsem="SO:0000112"> primers </term> to RT-PCR amplify a TIF1-related <termsem="SO:0000756"> cDNA </term> from embryonic 10-hpf and 24-hpf <termsem="SO:0000356"> RNA </term> .
+This <termsem="SO:0000756"> cDNA </term> encodes a <termsem="SO:0000732"> predicted </term> zebrafish <termsem="SO:0000855"> ortholog </term> of human TIF1 based on <termsem="SO:0000732"> predicted </term> <termsem="SO:0001407"> <termsem="SO:0001237"> amino acid </term> sequences </term> ( see Figure 3B ) .
+In addition , zebrafish tif1 <termsem="SO:0000345"> ESTs </term> map to LG4 in a <termsem="SO:0000001"> region </term> <termsem="SO:0000732"> predicted </term> to be <termsem="SO:0000860"> syntenic </term> to the region of human <termsem="SO:0000340"> Chromosome </term> 7 that contains the TIF1 <termsem="SO:0000704"> gene </term> based on the <termsem="SO:0000330"> <termsem="SO:0000856"> conserved </term> locations </term> of eight other <termsem="SO:0000858"> orthologous </term> <termsem="SO:0000704"> gene </term> pairs , including SEMA3A , mapped to these <termsem="SO:0000001"> regions </term> in human and zebrafish ( Barbazuk et al. 2000 ) .
+We next compared the embryonic expression pattern of tif1 <termsem="SO:0000234"> mRNA </term> to tif1 by in situ hybridization .
+Like mammalian TIF1 ( Le Douarin et al. 1995 ; Niederreither et al. 1999 ) , the <termsem="SO:0000732"> predicted </term> zebrafish tif1 gene is broadly expressed ( see Figure 4A ) .
+At five somites , zebrafish tif1 does not display the relatively high expression in the horseshoe-shaped region of hematopoietic mesoderm seen with tif1 .
+At later stages , tif1 is evenly expressed throughout most of the embryo , including the developing blood islands .
+Therefore , tif1 is coexpressed in the same cells with tif1 and may therefore be available to form hetero-oligomers in vivo .
+Forced Expression of tif1 Rescues Hematopoiesis in mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> .
+To further confirm that a <termsem="SO:0001059"> mutation </term> in the zebrafish tif1 <termsem="SO:0000704"> gene </term> is responsible for the mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutant </term> </term> phenotype we performed embryo rescue experiments ( Figure 5A ; Table 1 ) .
+Microinjection of <termsem="SO:0000351"> synthetic </term> <termsem="SO:0000817"> wild-type </term> mon <termsem="SO:0000234"> mRNA </term> at the one-cell stage rescues the formation of embryonic erythrocytes in genotyped <termsem="SO:0001059"> mutant </term> embryos without causing obvious defects in embryonic patterning or organogenesis .
+At 4 d of development , 70 % ( n = 10 ) of montg234 <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> show significant ( greater than 200 cells in comparison to a <termsem="SO:0000817"> <termsem="independent_continuant"> wild-type </term> </term> estimate of 3,000 cells ) rescue of circulating hemoglobinized RBCs in comparison to control sibling <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> ( n = 75 ) .
+Based on the correction of the jagged fin-fold phenotype ( Ransom et al. 1996 ) , the mesenchymal cells are rescued to a similar extent as the anemia ( unpublished data ) .
+Overexpression of mon did not result in expanded blood cell numbers in <termsem="SO:0000817"> wild-type </term> embryos and was not toxic at doses that rescue the phenotype of mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> ( unpublished data ) .
+Since there were no expanded or ectopic blood populations in the embryos , these rescue experiments suggest that mon functions as a permissive factor required for hematopoiesis .
+Marrow Transplantation Rescues Erythropoiesis in mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> .
+The high levels of tif1 expression in erythroid cells suggest that it functions as a cell-autonomous regulator of <termsem="SO:0000704"> gene </term> expression in hematopoietic cells .
+In order to test this hypothesis , we transplanted <termsem="SO:0000817"> wild-type </term> adult zebrafish kidney marrow cells carrying a gata1 : green fluorescent protein ( GFP ) <termsem="SO:0000902"> transgene </term> into 48-hpf mon <termsem="SO:0001059"> mutant </term> embryos ( Figure 5B ; Table 2 ) .
+The gata1 : GFP <termsem="SO:0000902"> transgene </term> makes use of the gata1 <termsem="SO:0000167"> promoter </term> to drive GFP expression and can thus be used to mark donor-derived erythroid cells ( Long et al. 1997 ) .
+Untransplanted <termsem="SO:0001059"> mutant </term> embryos have no embryonic blood cells in circulation .
+Following transplantation , <termsem="SO:0001059"> mutant </term> host embryos were observed daily for 2 wk .
+Of 191 <termsem="SO:0001059"> mutant </term> embryos injected , 129 ( 68 % ) showed GFP + cells in circulation 2 d later .
+Many recipients showed robust increases in donor-derived cells over the observation period .
+Of 81 recipients initially scored as having less than ten GFP + cells at day 2 posttransplant , 13 ( 16 % ) of these demonstrated a marked increase in erythroid cells with 100 -- 1,000 GFP + cells in circulation 6 d later .
+By day 10 , these transplanted embryos showed approximately 3,000 cells in circulation , similar to the number of blood cells in normal embryos .
+Despite robust reconstitution of blood cells , <termsem="SO:0001059"> mutant </term> recipients did not inflate their swim bladders and thus failed to survive longer than nontransplanted sibling controls , all dying by 3 wk of age .
+In contrast , 13/35 ( 37 % ) heterozygous montg234 transplants survived to early adulthood .
+Similar transplants of <termsem="SO:0000817"> wild-type </term> cells can fully rescue vlad tepes ( gata1 ) <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> ( Traver et al. 2003 ) .
+Therefore , the results of cell transplantations suggests that tif1 plays a cell-autonomous role in erythroid cells , and its role in nonhematopoietic tissues , such as trunk mesenchyme or the nervous system , is also required for embryo survival .
+Tif1 in Punctate Nuclear Foci Is Developmentally Regulated .
+In order to examine the subcellular distribution of Tif1 protein , we generated an affinity-purified rabbit polyclonal antiserum directed against the <termsem="SO:0100015"> C-terminal </term> 15 <termsem="SO:0001237"> amino acids </term> <termsem="SO:0000856"> conserved </term> in human TIF1 and mouse Tif1 .
+Immunofluorescence of mouse embryo fibroblast nuclei with the anti-Tif1 antiserum demonstrates that Tif1 is localized in small nuclear foci ( Figure 6A ) .
+The localization of Tif1 protein appears different from the more diffuse nuclear patterns typically seen in studies of Tif1 ( Remboutsika et al. 2002 ) or TIF1 ( Cammas et al. 2002 ) .
+A recent report demonstrates that TIF1 associates with heterochromatin-containing foci after retinoic acid treatment or serum starvation ( Cammas et al. 2002 ) .
+Thus , localization or expression of the TIF1 proteins may be regulated during distinct developmental processes or by environmental cues .
+The nuclear foci that contain Tif1 do not colocalize with two markers of heterochromatin , HP1 protein and DAPI staining of <termsem="SO:0000352"> DNA </term> ( Figure 6A ) .
+Furthermore , Tif1 does not colocalize with promyelocytic leukemia <termsem="SO:0000704"> gene </term> product ( PML ) nuclear bodies , <termsem="SO:0000352"> DNA </term> repair complexes that contain Mre11 , or transcriptional complexes containing TFII-B ( unpublished data ) .
+We next examined the expression of Tif1 protein during the differentiation of G1E cells , a murine erythroleukemia cell line that can terminally differentiate into erythrocytes when a Gata1 : estrogen receptor <termsem="SO:0000806"> fusion </term> protein is stabilized in response to estrogen exposure ( Weiss et al. 1997 ) .
+Western blot analysis demonstrated that Tif1 protein expression decreases with terminal erythroid differentiation ( Figure 6B ) .
+Consistent with this finding , after 24 hpf , zebrafish mon <termsem="SO:0000234"> mRNA </term> expression falls during the terminal maturation of the primitive erythroid cells ( unpublished data ) .
+In two different murine erythroleukemia cell lines ( MEL and G1E ) , Tif1 is also expressed in nuclear foci , and even though the overall Tif1 protein level is reduced , this nuclear foci localization does not change with differentiation ( unpublished data ) .
+This provides further support for the hypothesis that Tif1 acts within novel nuclear foci , during erythroid differentiation .
+The zebrafish is an excellent model system to elucidate the molecular machinery controlling <termsem="SO:0000704"> gene </term> expression during hematopoiesis ( Thisse and Zon 2002 ; Galloway and Zon 2003 ) .
+As part of a large-scale forward <termsem="SO:0000704"> genetic </term> screen , we originally identified a complementation group of independent <termsem="SO:0001059"> mutant </term> <termsem="SO:0001023"> alleles </term> in the zebrafish <termsem="SO:0000704"> gene </term> that we named moonshine ( Ransom et al. 1996 ) .
+<termsem="SO:0000001"> Positional </term> cloning was used to identify the mon <termsem="SO:0000704"> gene </term> , establishing a critical role for a transcriptional intermediary factor , Tif1 , during hematopoietic development .
+The mon <termsem="SO:0000704"> Gene </term> Encodes the Zebrafish <termsem="SO:0000855"> Ortholog </term> of Mammalian TIF1 .
+Our results strongly support the conclusion that we have <termsem="SO:0000001"> positionally </term> cloned the zebrafish mon <termsem="SO:0000704"> gene </term> correctly , and it is the <termsem="SO:0000855"> ortholog </term> of mammalian Tif1 .
+Tif1 is present in the critical <termsem="SO:0000704"> genetic </term> <termsem="SO:0000001"> interval </term> encompassing a single approximately 50-kb <termsem="SO:0000154"> PAC </term> <termsem="SO:0000151"> clone </term> defined by linkage analysis ( see Figure 3 ) .
+<termsem="SO:0000001"> Sequence </term> analysis indicates that zebrafish tif1 is most similar in <termsem="SO:0000732"> predicted </term> <termsem="SO:0001407"> <termsem="SO:0001237"> amino acid </term> sequence </term> and <termsem="SO:0000188"> intron </term> / <termsem="SO:0000147"> exon </term> structure compared to the <termsem="SO:0000732"> predicted </term> <termsem="SO:0000858"> orthologous </term> human and mouse genes .
+Zebrafish tif1 is located in a region of zebrafish <termsem="SO:0000340"> Chromosome </term> 8 <termsem="SO:0000860"> syntenic </term> to the region of human <termsem="SO:0000340"> Chromosome </term> 1 containing TIF1 .
+We identified <termsem="SO:1000008"> point mutations </term> in tif1 from three different <termsem="SO:0001023"> alleles </term> of mon that each result in premature <termsem="SO:0000319"> stop codons </term> and <termsem="SO:0000234"> mRNA </term> decay .
+In addition , tif1/Tif1 is highly expressed in hematopoietic cells throughout embryogenesis in both zebrafish and mouse ( see Figure 4 ) .
+And as predicted , forced expression of <termsem="SO:0000817"> wild-type </term> tif1 <termsem="SO:0000234"> mRNA </term> efficiently rescues hematopoiesis in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> and does not perturb hematopoiesis in <termsem="SO:0000817"> wild-type </term> embryos ( see Figure 5 ) .
+We have also cloned the <termsem="SO:0000732"> predicted </term> zebrafish <termsem="SO:0000855"> ortholog </term> of tif1 , which is more uniformly expressed in zebrafish embryos like mammalian TIF1 ( Le Douarin et al. 1995 ; Niederreither et al. 1999 ) ( see Figures 3A and 4A ) and may therefore be available to form hetero-oligomers with Tif1 protein in developing hematopoietic cells .
+Comparing available zebrafish and mammalian TIF1 - <termsem="SO:0000732"> predicted </term> <termsem="SO:0001407"> <termsem="SO:0001237"> amino acid </term> sequences </term> , it appears that the Tif1 <termsem="SO:0000855"> orthologs </term> are the most highly <termsem="SO:0000856"> conserved </term> family members while the Tif1 <termsem="SO:0000001"> sequences </term> are relatively more divergent .
+We have not found a Tif1 <termsem="SO:0000855"> ortholog </term> , thus far , in the zebrafish or fugu <termsem="SO:0001026"> genome </term> or <termsem="SO:0000345"> EST sequences </term> .
+It is possible that Tif1 , like the KRAB <termsem="SO:0000417"> domain </term> transcription factors it binds to , may be present only in tetrapods ( Urrutia 2003 ) .
+However , more complete <termsem="SO:0001026"> genome sequences </term> will be needed to confirm this hypothesis .
+Based on our analysis of zebrafish mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> , it is reasonable to predict that Tif1 , the most <termsem="SO:0000857"> evolutionarily conserved </term> TIF1 family member , plays a similarly essential role in human and mouse hematopoiesis .
+<termsem="SO:0001059"> Mutations </term> in tif1 Cause Apoptosis of Erythroid Progenitors .
+Our examination of hematopoietic <termsem="SO:0000704"> gene </term> expression , apoptosis , and marrow histology in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> demonstrates that early erythroid progenitors are formed in homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> , but they fail to properly differentiate and instead undergo programmed cell death ( see Figure 1 ) .
+The expression of gata1 appears to initiate normally in the committed erythroid cells of mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+However , the cells are abnormal prior to the complete loss of gata1 expression .
+TUNEL-positive apoptotic cells are abundant by the 12-somite stage of development , and by 22 hpf all hematopoietic <termsem="SO:0000704"> gene </term> expression is extinguished .
+The expression of marker <termsem="SO:0000704"> genes </term> , including scl and gata2 , characteristic of hematopoietic stem cells and primitive hematopoietic progenitors , are also not detected in the embryonic blood islands of <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> at 22 hpf .
+This indicates that the <termsem="SO:0001059"> mutant </term> hematopoietic cells are not blocked prior to commitment to the erythroid lineage , but instead develop as abnormal erythroid cells and undergo apoptosis , similar to gata1-deficient erythroid cells ( Fujiwara et al. 1996 ; Lyons et al. 2002 ) .
+Defective erythropoiesis and severe anemia were also observed in rare surviving homozygous <termsem="SO:0001059"> mutant </term> mon adults , demonstrating that tif1 is also required in definitive hematopoiesis ( see Figure 2 ) .
+The zygotic phenotypes of mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> may not reveal the function of maternally inherited Tif1 .
+Maternally expressed zebrafish Tif1 may play roles in hematopoiesis or other aspects of organogenesis that are not detectable due to the presence of <termsem="SO:0000817"> wild-type </term> <termsem="SO:0000234"> mRNA </term> in eggs laid by heterozygous mothers .
+Analysis of the offspring of homozygous mon <termsem="SO:0001059"> mutant </term> female zebrafish will aid in defining the function of this maternal <termsem="SO:0000234"> mRNA </term> .
+The present analysis of zygotic mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> provides data that are consistent with the conclusion that tif1 is essential for erythropoiesis but do not rule out essential functions in other hematopoietic lineages .
+The hematopoietic phenotype of mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> resembles the loss of erythroid cells seen in both mouse Gata1 knockout embryos and zebrafish vlad tepes ( gata1 ) <termsem="SO:0001059"> mutant </term> embryos ( Fujiwara et al. 1996 ; Lyons et al. 2002 ) .
+In an effort to determine if there is a <termsem="SO:0000704"> genetic </term> relationship between mon and gata1 , we tested their ability to rescue erythropoiesis .
+Both injection of gata1 <termsem="SO:0000234"> mRNA </term> into mon homozygous <termsem="SO:0001059"> mutant </term> embryos and injection of tif1 <termsem="SO:0000234"> mRNA </term> into gata1 knock-down embryos failed to rescue hematopoiesis ( unpublished data ) .
+We also tested for a direct interaction between Tif1 and Gata1 proteins by coimmunoprecipitation and yeast two-hybrid assays and found no association ( unpublished data ) .
+Although the <termsem="SO:0001059"> mutations </term> in each of these <termsem="SO:0000704"> genes </term> arrest cells at a similar stage of development , our results suggest that gata1 and tif1 act independently .
+This does not rule out the possibility that parallel <termsem="SO:0000704"> genetic </term> pathways involving gata1 and tif1 , operating together , regulate <termsem="SO:0000704"> gene </term> transcription within blood cells .
+The Role of Tif1 in Primitive and Definitive Erythropoiesis .
+Taken together , our data suggest that tif1 is required as a permissive cofactor for the erythroid lineage-specific control of hematopoietic <termsem="SO:0000704"> gene </term> expression .
+We reasonably predict that Tif1 protein functions as a transcriptional intermediary factor in hematopoietic progenitor cells given that both TIF1 ( Zhong et al. 1999 ) and TIF1 ( Friedman et al. 1996 ; Abrink et al. 2001 ) have been shown to act as intermediary factors that positively or negatively regulate <termsem="SO:0000704"> gene </term> transcription .
+These studies indicate that TIF1 and TIF1 act as scaffolds that link different classes of <termsem="SO:0000352"> DNA </term> - binding proteins and chromatin-associated proteins into larger regulatory complexes .
+Tif1 is detected within nuclear foci ( see Figure 6 ) , which , based on our analysis , do not appear to correspond to several types of previously described nuclear bodies , including PML bodies .
+Localization of Tif1 to these nuclear bodies may be regulated by posttranslational modification such as SUMO modification that is required for PML to form PML nuclear domains ( Zhong et al. 2000a , 2000b ; Best et al. 2002 ) .
+These foci may serve as assembly points where Tif1 forms multisubunit complexes with <termsem="SO:0000352"> DNA </term> - binding transcription factors and their other essential coactivators or corepressors , during the early stages of erythroid differentiation .
+It will be important to determine the identity of Tif1-interacting proteins in nuclear foci and establish how they function with Tif1 to regulate blood cell development .
+Zebrafish and mouse strains and studies .
+Zebrafish were maintained and staged as described ( Westerfield 1998 ) .
+The <termsem="SO:0001023"> alleles </term> montb222b and montg234 were generated in a large-scale screen for ENU-induced <termsem="SO:0001059"> mutations </term> ( Ransom et al. 1996 ) on the TU , whereas the monm262 <termsem="SO:0001023"> allele </term> was derived on the AB strain and was originally called vampire ( Weinstein et al. 1996 ) .
+Mapping strains were constructed by mating to WIK or SJD <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphic </term> </term> strains .
+Linkage analysis was performed on haploid or diploid embryos obtained from TU/SJD or TU/WIK hybrids .
+In situ hybridization and stainings of embryos were done as described ( Thompson et al. 1998 ; Liao et al. 2002 ) .
+In situ hybridization of mouse embryos was performed as described ( Kingsley et al. 2001 ) .
+<termsem="SO:0000991"> <termsem="SO:0001026"> Genomic </term> DNA </term> isolation , genotyping , AFLP analysis , and <termsem="SO:0000340"> chromosomal </term> walking were each performed as previously described ( Brownlie et al. 1998 ; Ransom and Zon 1999 ) .
+A complete list of <termsem="SO:0000112"> primers </term> for <termsem="SO:0000704"> genetic </term> mapping , RT-PCR , and sequencing of mon are available on request .
+<termsem="SO:0000234"> mRNA </term> expression <termsem="SO:0001037"> constructs </term> , <termsem="SO:0001183"> morpholinos </term> , and microinjection .
+The full-length mon <termsem="SO:0000756"> cDNA </term> was subcloned into EcoRI and XhoI <termsem="SO:0000001"> sites </term> in the pCS2 + <termsem="SO:0000440"> vector </term> .
+<termsem="SO:0000351"> Synthetic </term> <termsem="SO:0000234"> mRNA </term> was transcribed in vitro , and microinjection was performed essentially as described ( Liao et al. 2002 ) .
+Whole kidney marrow cells were isolated from adult gata1 : EGFP <termsem="SO:0000902"> transgenic </term> donors , resuspended in 0.9 X phosphate-buffered saline + 5 % fetal bovine serum , and injected into the sinus venosus of 2-d-old montg234  /  and control embryos .
+Between 102 and 103 kidney marrow cells were injected per embryo .
+Individual transplanted embryos were anesthetized and visualized daily under an inverted fluorescent microscope ( DM-IRE2 ; Leica , Wetzlar , Germany ) for GFP + cells over a span of 12 d. On day 13 posttransplant , all surviving larvae ( 12/129 ; 9 % ) were placed in tanks and monitored for survival .
+Antibodies , immunostaining , and immunoblots .
+Antisera against the human C-terminal TIF1 sequence RRKRLKSDERPVHIK was generated in rabbits ( Genemed Synthesis , South San Francisco , California , United States ) and affinity purified .
+Mouse embryonic fibroblasts grown on coverslips were immunostained with HP1 ( Chemicon , Temecula , California , United States ) and Tif1 antisera simultaneously .
+In brief , cells were fixed in 4 % paraformaldehyde for 5 min , washed with phosphate-buffered saline , and blocked with 5 % serum ( PBST ) for 30 min .
+After incubation with the primary antibodies ( PBST , 60 min ) cells were washed three times with PBST and incubated with secondary antibodies ( Jackson Laboratory , Bar Harbor , Maine , United States ) followed by three washes in PBST .
+Cells were embedded with Vectashield/DAPI and analyzed using an Axioplan 2 microscope ( Zeiss , Jena , Germany ) .
+Digital images were processed using the Volocity 1.0 software ( Improvision , Lexington , Massachusetts , United States ) .
+G1E cell differentiation experiments were performed essentially as described ( Weiss et al. 1997 ) .
+Transplantation of <termsem="SO:0000817"> wild-type </term> zebrafish marrow cells carrying a gata1 : GFP <termsem="SO:0000902"> transgene </term> into 2-d-old embryos reconstitutes erythropoiesis , but not viability , in montg234 homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+Movies of live embryos at day 3 posttransplant highlight less than 100 GFP + RBCs in circulation .
+Transplanted cells were observed to proliferate , resulting in thousands of donor-derived erythrocytes 7 d later .
+Movies present GFP-fluorescent images of live zebrafish larvae .
+Untransplanted Control montg234 Homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> Had No Fluorescent Cells in Circulation at 3 Days of Development .
+( 13.7 MB MOV ) .
+Click here for additional data file .
+One Day after Transplantation , Less Than 100 GFP + Erythrocytes Were Visible in the Circulation of Three montg234 Homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> .
+( 11.3 MB MOV ) .
+Click here for additional data file .
+Untransplanted Control montg234 Homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> Had No Fluorescent Cells in Circulation at 9 Days of Development .
+( 7.9 MB MOV ) .
+Click here for additional data file .
+Seven Days after Transplantation , Thousands of Donor-Derived Erythrocytes Were Visible in the Circulation of a Representative montg234 Homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> Mutant </term> </term> .
+Click here for additional data file .
+The GenBank ( http://www.ncbi.nlm.nih.gov/Genbank ) accession numbers for the <termsem="SO:0000704"> genes </term> and <termsem="SO:0000704"> gene </term> products discussed in this paper are fly bonus ( AAF19646 ) , human TIF1 ( 015164 ) , human TIF1 ( Q13263 ) , human TIF ( Q9UPN9 ) , human TIF1 ( Q9UPN9 ) , mon ( AY59853 ) , mouse Tif1 ( Q64127 ) , mouse Tif1 ( AAH58391 ) , and mouse Tif1 ( NP444400 ) .
+The <termsem="SO:0000756"> cDNA sequences </term> of zebrafish mon/tif1 and tif1 have been deposited in GenBank under the accession numbers AY598453 and AY598454 , respectively .
+We thank A. Davidson , J. Amatruda , and J. Christian for critical review of this manuscript ; J. Postlethwait and W. Talbot for helpful discussions and experimental advice ; B. Weinstein for the gift of the m262 <termsem="SO:0001023"> allele </term> of mon ; and D. Giarla for administrative assistance .
+DGR was funded by the American Cancer Society and an award to Oregon Health and Science University by the Howard Hughes Medical Institute ( HHMI ) Biomedical Research Support Program for Medical Schools .
+LIZ and SHO are investigators of the HHMI .
+This work was supported by grants from the National Institutes of Health .
+AFLP - amplified <termsem="SO:0000731"> fragment </term> length <termsem="SO:0000694"> <termsem="SO:0001025"> polymorphism </term> </term> .
+<termsem="SO:0000345"> EST </term> - <termsem="SO:0000345"> expressed sequence tag </term> .
+GFP - green fluorescent protein .
+hpf - hours postfertilization .
+KRAB - Krppel-associated box .
+mon - moonshine ; <termsem="SO:0000154"> PAC </term> .
+PML - promyelocytic leukemia <termsem="SO:0000704"> gene </term> product .
+RBCs - red blood cells .
+scl - stem cell leukemia ; SSCP .
+TIF - transcriptional intermediary factor .
+TU - Tbingen background .
+Zebrafish mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> Have Severe Defects in Primitive Hematopoiesis .
+( A ) Whole-mount TUNEL assays reveal that ventral-posterior mesodermal cells undergo apoptosis in homozygous montg234 <termsem="SO:0001059"> mutant </term> embryos .
+Whole-mount in situ hybridization of gata1 detected at the 12 - and 18-somite stage in genotyped embryos .
+Posterior views , anterior to the left .
+( B ) Extensive apoptosis is visible in the trunk and tail ( arrowhead ) and also in hematopoietic cells of the embryonic blood island at 22 h of development ( arrow ) .
+Whole-mount in situ hybridization at 22 hpf including scl , gata2 , gata1 , ikaros , and myb in montg234 <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+Expression of myb is greatly reduced in the blood islands because of a loss of erythroid cells , but embryonic macrophages are still present ( arrows ) .
+The expression of rag1 in thymic T-cells appears normal in mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> at 5 d postfertilization ( arrow heads ) .
+Lateral views of 22 hpf and 5-d-old embryos .
+Zebrafish mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> Also Have Severe Defects in Definitive Hematopoiesis .
+Adult phenotype of <termsem="SO:0000817"> <termsem="independent_continuant"> wild-type </term> </term> and mon <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+A rare surviving montb222 homozygous adult shows significant cardiomegaly in comparison to a <termsem="SO:0000817"> wild-type </term> age-matched control .
+Wright -- Giemsa stained marrow of <termsem="SO:0000817"> wild-type </term> adult in comparison to a homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutant </term> </term> .
+Note the dramatic reduction of terminally differentiated erythroid cells and the presence of abnormally large megaloblastic proerythroblasts in the montb222 <termsem="SO:0001059"> mutant </term> marrow .
+<termsem="SO:0000001"> Positional </term> Cloning Identifies the mon <termsem="SO:0000704"> Gene </term> as Zebrafish tif1 .
+( A ) <termsem="SO:0001249"> Physical map </term> of the mon locus on zebrafish <termsem="SO:0000340"> Chromosome </term> 8 .
+<termsem="SO:0000289"> Microsatellite markers </term> z987 and z11001 were used to initially identify recombinants in a panel of 2,200 diploid montg234 homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+The AFLP marker MA3 was used to initiate a <termsem="SO:0000340"> chromosomal </term> walk in <termsem="SO:0000154"> PAC </term> libraries .
+The critical <termsem="SO:0000154"> PACS </term> that were isolated to encompass the mon <termsem="SO:0000001"> locus </term> are indicated by numbers above bar .
+The <termsem="SO:0000154"> PAC </term> 107N19 defines the critical <termsem="SO:0000001"> interval </term> for the mon <termsem="SO:0000704"> gene </term> .
+This <termsem="SO:0000154"> PAC </term> was used as a <termsem="SO:0000051"> probe </term> to screen <termsem="SO:0000756"> cDNA </term> libraries and to identify zebrafish tif1 <termsem="SO:0000756"> cDNAs </term> .
+Numbers below the bar indicate the number of recombinants identified by SSCP analysis .
+( B ) Clustal-W -- generated phylogentic tree of zebrafish ( Danio rerio [ Dr ] ) Tif1 and Tif1 <termsem="SO:0001407"> peptide sequences </term> in comparison to TIF1 family members : human ( Hs ) TIF1 , TIF1 , and TIF1 ; mouse ( Mm ) Tif1 , Tif1 , and Tif1 ; ; and fly ( Dm ) bonus .
+( C ) Diagrams illustrating the structure of the Tif1 - <termsem="SO:0000732"> predicted </term> <termsem="SO:0001407"> peptide </term> and the three identified point <termsem="SO:0001060"> mutants </term> .
+RING finger ( RING ) , <termsem="SO:0000620"> B-boxes </term> ( B1 and B2 ) , plant homeodomain finger ( PHD ) and bromodomain ( BROMO ) .
+Numbers below the first diagram indicate the percent identity shared between each of these <termsem="SO:0000417"> domains </term> in zebrafish and human TIF1 .
+The <termsem="SO:0000732"> predicted </term> truncated proteins are indicated .
+( D ) <termsem="SO:0000352"> DNA sequence </term> chromatograms showing the three ENU-induced point <termsem="SO:0001060"> mutants </term> in comparison to <termsem="SO:0000817"> wild-type </term> control <termsem="SO:0000001"> sequences </term> .
+The mon/tif1 <termsem="SO:0000704"> Gene </term> Is Highly Expressed in Hematopoietic Mesoderm .
+( A ) In situ hybridization of zebrafish embryos demonstrating the embryonic expression of tif1 .
+tif1 is initially expressed as a maternal <termsem="SO:0000234"> mRNA </term> .
+Increased expression of tif1 in ventral-lateral mesoderm begins between the one - to three-somite stages and increases through early development .
+By five somites , tif1 is strongly expressed in lateral stripes of mesoderm that also express scl .
+At 22 hpf tif1 is expressed broadly in the brain , spinal cord , trunk , and tail mesenchyme , but is at much higher levels in hematopoietic cells of the blood island .
+Zebrafish tif1 is also broadly expressed but relatively more uniform in most tissues , in comparison to tif1 .
+Tif1 is weakly expressed at early somite stages in hematopoietic mesoderm and uniformly expressed at 22 hpf , including expression in the blood islands .
+Expression of scl at five somites and 22 hpf highlights the embryonic blood island in comparison to tif1 expression .
+( B ) In situ hybridization of mouse embryos detects broad expression of Tif1 at embryonic day 8.5 including the yolk sac blood islands ( arrow ) .
+AT embryonic day 12.5 , there is high level expression in the fetal liver ( arrow ) and broad expression in the embryonic brain , spinal chord , gut , and muscle .
+Overexpression of <termsem="SO:0000817"> Wild-Type </term> tif1 <termsem="SO:0000234"> mRNA </term> or Marrow Transplantation Rescues Embryonic Hematopoiesis in mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> .
+( A ) montg234 <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> are rescued by injection of <termsem="SO:0000234"> mRNA </term> - encoding <termsem="SO:0000817"> wild-type </term> Tif1 protein .
+At 4 d of development , large numbers of RBCs are visible in the circulation of <termsem="SO:0000817"> wild-type </term> zebrafish , shown here by o-dianisidine staining of hemoglobin .
+Uninjected monttg234 homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> are completely bloodless .
+Injection of 100 pg of <termsem="SO:0000817"> wild-type </term> tif1 <termsem="SO:0000234"> mRNA </term> rescues erythropoiesis in <termsem="SO:0001059"> mutant </term> embryos .
+o-dianisidine-stained larvae are shown in ventral views to highlight blood in vessels .
+( B ) Transplantation of <termsem="SO:0000817"> wild-type </term> zebrafish marrow cells carrying a gata1 : GFP <termsem="SO:0000902"> transgene </term> into 2-d-old embryos reconstitutes erythropoiesis , but not viability , in montg234 homozygous <termsem="SO:0001059"> <termsem="independent_continuant"> mutants </term> </term> .
+Still frames from movies of live embryos at day 3 posttransplant highlight less than 100 GFP + RBCs in circulation ( top ) .
+Transplanted cells were observed to proliferate resulting in thousands of donor-derived erythrocytes 7 d later ( bottom ) .
+Arrows indicate the hearts of control and transplanted zebrafish .
+See Videos S1 -- S4 .
+Mammalian Tif1 Protein Localizes to Nuclear Bodies Distinct from Heterochromatin .
+( A ) Deconvolved immunofluorescence images of a mouse embryonic fibroblast cell nucleus stained with an anti-Tif1 antibody and stained with a monoclonal antibody directed against HP1 .
+This is also compared to DAPI staining .
+The merged images of the nucleus show that Tif1 does not colocalize with the HP1 or DAPI staining of heterochromatin while HP1 and DAPI staining overlap .
+( B ) G1ER mouse erythroleukemia cells express high levels of Tif1 protein as detected by Western blot analysis .
+Expression of Tif1 decreases during Gata1-dependent erythroid maturation induced by -estradiol treatment to induce a Gata1 -- ER <termsem="SO:0000806"> fusion </term> protein .
+Overexpression of tif1 <termsem="SO:0000234"> mRNA </term> Rescues mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> : Hematopoietic Phenotypes .
+<termsem="SO:0000351"> Synthetic </term> tif1 <termsem="SO:0000234"> mRNA </term> ( 100 pg ) was injected at the one-cell stage into embryos of the indicated <termsem="SO:0001027"> genotypes </term> .
+For the mon embryos , circulating cells where counted each day through 4 d , when the embryos were fixed and stained with o-dianisidine to detect hemoglobin in mature RBCs .
+Normal embryos contain approximately 3,000 circulating cells at these time points .
+Results are given as number of embryos with the indicated phenotype .
+Numbers in parentheses represent percentage of total embryos analyzed .
+Marrow Transplantation Rescues Hematopoiesis But Not Survival in mon <termsem="SO:0001059"> <termsem="independent_continuant"> Mutants </term> </term> : Embryos with Transplanted Erythroid Cells .
+Between 100 and 1,000 kidney marrow cells from adult gata1 : EGFP <termsem="SO:0000902"> transgenic </term> donors were injected per zebrafish embryo at 48 hpf .
+Individual transplanted embryos were anesthetized and visualized for GFP + erythroid cells .
+By 10 d posttransplantation the indicated number of embryos had an estimated 100 to 3,000 GFP + cells in circulation .
+At 3 mo the indicated number of fish were alive .
+The relative percentage of embryos is shown in parentheses .
+Conflicts of interest .
+The authors have declared that no conflicts of interest exist .
+Author contributions .
+DGR , NB , KN , DT , CB , NST , YZ , JP , SHO , and LIZ conceived and designed the experiments .
+DGR , NB , KN , DT , CB , NST , NPL , WJS , CAL , CH , BAB , and PDK performed the experiments .
+DGR , NB , KN , DT , CB , NST , NPL , YZ , JP , SHO , and LIZ analyzed the data .
+DGR , NB , KN , DT , NST , YZ , BAB , SL , and JP contributed reagents/materials/analysis tools .
+DGR , NB , KN , DT , and LIZ wrote the paper .
+Academic Editor : William Talbot , Stanford University .
+$ Current address : Department of Cell and Developmental Biology , Oregon Health and Science University , Portland , Oregon , United States of America .
+Citation : Ransom DG , Bahary N , Niss K , Traver D , Burns C , et al. ( 2004 ) The zebrafish moonshine <termsem="SO:0000704"> gene </term> encodes transcriptional intermediary factor 1 , an essential regulator of hematopoiesis .
+PLoS Biol 2 ( 8 ) : e237 .
