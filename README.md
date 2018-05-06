@@ -19,7 +19,7 @@ Automatic external reference linking of biomedical entities from information ext
 *AMR Reader
 	*Source: https://github.com/panx27/amr-reader/tree/master/amrreader
 	
-##Entity Linking Code\\
+##Entity Linking Code
 The entity linking code is contained under the:
 	*ELTask/elcode - preprocessing and network code
 	*ELTask/w2vPubmedv1 - generate embeddings
