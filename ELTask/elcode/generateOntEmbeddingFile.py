@@ -6,9 +6,9 @@ import numpy as np
 with open("../dumps/labelsEmbedding.pkl", 'rb') as f:
     ontEmbDict = pickle.load(f, encoding='latin1') 
 
-file_name = "testSet"
+file_name = ""
 idLabelDict = json.load(open("../dumps/IDLabelMapping.json","rb"))
-truths = pickle.load(open("../dumps/ground_truthstestSet.pkl","rb"))
+truths = pickle.load(open("../dumps/ground_truths.pkl","rb"))
 
 emb_list = []
 
@@ -19,7 +19,7 @@ for truth in truths:
 	associatedLabel = idLabelDict[str(truth)]
 	associatedEmbedding = ontEmbDict[associatedLabel]
 	emb_list.append(associatedEmbedding)
-
+	#What is 1827, the unique labels; is this the 1-hot portion?
 	truth_np1 =np.zeros(shape=(1827,1))
 	truth_np1[truth - 1] = 1
 	truth_np.append(truth_np1)	
@@ -29,7 +29,7 @@ truth_np = truth_np.astype('float32')
 ontMatrix = np.stack(emb_list,axis=0)
 print(" Shape of ontMatrix ", ontMatrix.shape)
 
-#Distribute if it is the entire batch, else just generate the test set
+#Distribute if it is the entire batch, else just generate the test set, 
 if file_name != "testSet":
 	batch1 = ontMatrix[0:12534]
 	batch2 = ontMatrix[12534:2*12534]
