@@ -35,6 +35,7 @@ def generateSentenceEmbedding(model, ont_consolidated):
 	#print "Orig sent " + ont_consolidated
 	cleaned_desc = cleanASentence(ont_consolidated)
 	s1=keepOnlyWordsInModel (cleaned_desc,model)
+	#Put in the unk token
 	len_modelwords = len(s1)
 	#print("Len ",len_modelwords)
 	lens.append(len_modelwords)

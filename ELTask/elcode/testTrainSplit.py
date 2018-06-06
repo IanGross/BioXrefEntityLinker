@@ -2,6 +2,7 @@ import numpy as np
 import pickle
 import tensorflow as tf
 import sys
+from dataloaderforcnn import combine_alldata
 
 
 '''
@@ -12,15 +13,17 @@ wordRep, ontRep, truths
 Need to choose 1880 samples from each for 85:15 split
 '''
 def shuffle_data():
-	lens = [12534, 12534, 12534, 12537]
+	#lens = [12533, 12533, 12534, 12537]
 
 	for i in range(1,5):
-		x_i = np.arange(lens[i - 1])
-		np.random.shuffle(x_i)
+		
 
 		batchword_data = pickle.load(open("../dumps/wordRep" + str(i) + ".pkl","rb"),encoding='latin1')
 		truth_data = pickle.load(open("../dumps/truth" + str(i) + ".pkl","rb"),encoding='latin1')
 		ontrep_data = pickle.load(open("../dumps/ontRep" + str(i) + ".pkl","rb"),encoding='latin1')
+
+		x_i = np.arange(batchword_data.shape[0])
+		np.random.shuffle(x_i)
 
 		batchword_data = batchword_data[x_i]
 		truth_data = truth_data[x_i]
@@ -91,12 +94,28 @@ def generate_data():
 	test_y = []
 	test_worddata  = []
 	test_ontdata = []
-	lens = [12533, 12533, 12533, 12540]
-	#Go through the 4 batches
-	for i in range(1,5):
-		batchword_data = pickle.load(open("../dumps/wordRep" + str(i) + ".pkl","rb"),encoding='latin1')
-		truth_data = pickle.load(open("../dumps/truth" + str(i) + ".pkl","rb"),encoding='latin1')
-		ontrep_data = pickle.load(open("../dumps/ontRep" + str(i) + ".pkl","rb"),encoding='latin1')
+	(all_sentdata,all_ontdata,all_truthdata) = combine_alldata()
+	all_i = np.arange(all_sentdata.shape[0])
+	np.random.shuffle(all_i)
+
+	all_sentdata = all_sentdata[all_i]
+	all_ontdata = all_ontdata[all_i]
+	all_truthdata = all_truthdata[all_i]
+	division_seed = int(all_sentdata.shape[0]/4)
+
+
+	print(" Shuffled sent ", all_sentdata.shape, " Shuffled ont ",all_ontdata.shape, " Shuffled truth ", all_truthdata.shape, "Division seed ", division_seed)
+
+	#Go through the  4 batches, that are induced inside
+	for i in range(0,4):
+		if i == 3:
+			batchword_data = all_sentdata[i*division_seed:]
+			truth_data = all_truthdata[i*division_seed:]
+			ontrep_data = all_ontdata[i*division_seed:]
+		else:
+			batchword_data = all_sentdata[i*division_seed:(i+1)*division_seed]
+			truth_data = all_truthdata[i*division_seed:(i+1)*division_seed]
+			ontrep_data =all_ontdata[i*division_seed:(i+1)*division_seed]		
 		#Normalising data
 		batchword_data -= np.mean(batchword_data, axis=(1, 2), keepdims=True)
 		batchword_data /= np.std(batchword_data, axis=(1,2), keepdims=True)
@@ -104,16 +123,20 @@ def generate_data():
 		ontrep_data -= np.mean(ontrep_data, axis=(1, 2), keepdims=True)
 		ontrep_data /= np.std(ontrep_data, axis=(1,2), keepdims=True)
 
+		print("Sent length ", batchword_data.shape, " Ont length ",ontrep_data.shape, " Truth length ",truth_data.shape)
+
 		#Shuffling the data for the train and test, and writing them to separate files.
-		shuffle=np.arange(1880)
+		len_batch = batchword_data.shape[0]
+		len_testbatch = int(0.15*len_batch)
+		shuffle=np.arange(len_testbatch)
 		np.random.shuffle(shuffle)
-		train_left = list(set([i for i in range(lens[i-1])]) - set(shuffle))
+		train_left = list(set([i for i in range(len_batch)]) - set(shuffle))
 		#Defining the splits per batch
 		train_wordbdata = batchword_data[train_left]
 		train_y = truth_data[train_left]
 		train_ontdata = ontrep_data[train_left]
 
-		if i == 1:
+		if i == 0:
 			test_worddata = batchword_data[shuffle]
 			test_y = truth_data[shuffle]
 			test_ontdata = ontrep_data[shuffle]
@@ -132,7 +155,7 @@ def generate_data():
 			print(" Batch data shape for ont ", train_ontdata.shape)
 
 		with open("../dumps/truth" + str(i) + "train.pkl","wb") as truthf:
-			pickle.dump(truth_data, truthf)
+			pickle.dump(train_y, truthf)
 			print(" Batch data shape for truth ", train_y.shape)
 
 	with open("../dumps/wordReptest.pkl","wb") as wordt:

@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 import json
+from dataloaderforcnn import combine_data
 
 '''
 Define the graph which specifies placeholders, ops and trainable variables
@@ -110,7 +111,7 @@ with graph.as_default():
         flat_ont = tf.identity(tf.layers.Flatten()(c3_ont),name="flat_ont")
         fc_ont = tf.identity(tf.layers.dense(inputs=flat_ont, units=5112, activation=tf.nn.relu),name="dense_ont")
 
-        prediction = tf.identity(tf.nn.softmax(tf.layers.dense(inputs=fc_sent, units=1827)),name="pred_op")
+        prediction = tf.layers.dense(inputs=fc_sent, units=1827)
         return (fc_sent, fc_ont, prediction)
 
     '''
@@ -168,11 +169,12 @@ with graph.as_default():
     #Get prediction on training batch, this is the non-argmaxed and non-softmaxed one
     (fc_sent, fc_ont, prediction) = model(tf_worddataset,tf_ontdataset)
     #Will try reg later
-    loss = calc_loss(tf_labels, prediction)    
+    loss = calc_loss(tf_labels, prediction)   
+    post_softmax = tf.identity(tf.nn.softmax(prediction),name="pred_op") 
     #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
     train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
 
-    accuracy = accuracy(prediction, tf_labels)   
+    accuracy = accuracy(post_softmax, tf_labels)   
 
 #Number of iterations
 num_steps = 12
@@ -190,8 +192,6 @@ ctr_step = 0
 
 # Save the model
 tf.get_collection('validation_nodes')
-batch_sizes = [10653, 10653, 10653, 10660]
-test_datasize = 7520
 train_errors = []
 test_errors = []
 train_accuracies = []
@@ -210,106 +210,95 @@ with tf.Session(graph=graph) as session:
   tf.add_to_collection('validation_nodes', tf_ontdataset)
   tf.add_to_collection('validation_nodes', tf_labels)
   tf.add_to_collection('validation_nodes', prediction)
-  loss_train = 0 
+  loss_train = 0
 
+  (all_sentdata, all_ontdata, all_truthdata) = combine_data()
+  size_data = all_ontdata.shape[0]
 
-  for step in range(initial,num_steps):
-    
-    #Choose a random portion of 50 datapoints, by shuffling the data and slicing it
-    #X and Y share the same first dim, need to shuffle the rows in both based on same seed, hence need to do this
-    #Convert it to one epoch run - 1000 runs on a batch of 50
-    #Y_shuff = Y[seed]
-    
-    #Over different batch files
-    for batch_i in range(1,5):
-        num_sgd = np.arange(batch_sizes[batch_i-1])
-        np.random.shuffle(num_sgd)
-        sent_bf = open("../dumps/wordRep" + str(batch_i) + "train.pkl","rb")
-        sent_batchdata = pickle.load(sent_bf,encoding='latin1')
-        sent_batchdata = sent_batchdata[num_sgd]
-        sent_bf.close()
-        ont_bf = open("../dumps/ontRep" + str(batch_i) + "train.pkl","rb")
-        ont_batchdata = pickle.load(ont_bf, encoding = 'latin1')
-        ont_batchdata = ont_batchdata[num_sgd]
-        ont_bf.close()
-        truth_bf = open("../dumps/truth" + str(batch_i) + "train.pkl","rb")
-        truth_batchdata = pickle.load(truth_bf)
-        truth_batchdata = truth_batchdata[num_sgd]
+  print("Overall data size", size_data," Sent shape ", all_sentdata.shape," Ont shape ", all_ontdata.shape, " Truth shape ", all_truthdata.shape)
 
-        truth_bf.close()
-        print("Shape 0f the file data  ",sent_batchdata.shape," labels ",truth_batchdata.shape," Ont ",ont_batchdata.shape)
-        i=0
-        for epoch in range(batch_size,batch_sizes[batch_i-1],batch_size):
-            #index1 = np.random.choice(sgd_batchsize,8,replace=False)
-            train_sent_batch = sent_batchdata[i:epoch].reshape([-1, 12,250, 1])
-            train_ont_batch = ont_batchdata[i:epoch].reshape([-1,50,250,1])
-            train_label_batch = truth_batchdata[i:epoch].reshape([-1,1827])
-            #print("Shape 0f the batch ",train_label_batch.shape," inp ",train_sent_batch.shape," Ont ",train_ont_batch.shape)
-            i=epoch        
-            #Assigning the batch values to keys of a feed dictionary, that will be passed around for every session run val
-            #The train step runs one run of forward prop and back prop
-            batch_preds, _ = session.run([prediction, train_step],feed_dict={tf_worddataset:train_sent_batch, tf_ontdataset: train_ont_batch, tf_labels: train_label_batch})
+  for step in range(initial,num_steps):    
+    #Shuffle all the data every epoch run
+    num_sgd = np.arange(size_data)
+    np.random.shuffle(num_sgd)
+    sents_mat = all_sentdata[num_sgd]
+    ontreps_mat = all_ontdata[num_sgd]
+    truths1hot_mat = all_truthdata[num_sgd]
+    i=0
+    for epoch in range(batch_size,size_data,batch_size):
+        #index1 = np.random.choice(sgd_batchsize,8,replace=False)
+        train_sent_batch = sents_mat[i:epoch].reshape([-1, 12,250, 1])
+        train_ont_batch = ontreps_mat[i:epoch].reshape([-1,50,250,1])
+        train_label_batch = truths1hot_mat[i:epoch].reshape([-1,1827])
+        #print("Shape 0f the batch ",train_label_batch.shape," inp ",train_sent_batch.shape," Ont ",train_ont_batch.shape)
+        i=epoch        
+        #Assigning the batch values to keys of a feed dictionary, that will be passed around for every session run val
+        #The train step runs one run of forward prop and back prop
+        _ = session.run(train_step,feed_dict={tf_worddataset:train_sent_batch, tf_ontdataset: train_ont_batch, tf_labels: train_label_batch})
 
-            #At every 10 steps calc loss and reset it
-            if ((i/batch_size)%10 == 0):
-                #Randomly choose the 300 samples
-                index2 = np.random.choice(batch_sizes[batch_i -1], 500,replace=False)
-                train_sent_rand = sent_batchdata[index2].reshape([-1,12,250,1])
-                train_label_rand = truth_batchdata[index2].reshape([-1,1827])
-                train_ont_rand = ont_batchdata[index2].reshape([-1,50,250,1])
-                #Load test data
-                sent_btf = open("../dumps/wordReptest.pkl","rb")
-                sent_batchtdata = pickle.load(sent_btf,encoding='latin1')
-                sent_btf.close()
-                ont_btf = open("../dumps/ontReptest.pkl","rb")
-                ont_batchtdata = pickle.load(ont_btf, encoding = 'latin1')
-                ont_btf.close()
-                truth_btf = open("../dumps/truthtest.pkl","rb")
-                truth_batchtdata = pickle.load(truth_btf)
-                truth_btf.close()
+        #At every 10 steps calc loss and reset it
+        if ((i/batch_size)%10 == 0):
+            #Randomly choose the 300 samples
+            index2 = np.random.choice(all_sentdata.shape[0], 500,replace=False)
+            train_sent_rand = all_sentdata[index2].reshape([-1,12,250,1])
+            train_label_rand = all_truthdata[index2].reshape([-1,1827])
+            train_ont_rand = all_ontdata[index2].reshape([-1,50,250,1])
+            #Load test data
+            sent_btf = open("../dumps/wordReptest.pkl","rb")
+            sent_batchtdata = pickle.load(sent_btf,encoding='latin1')
+            sent_btf.close()
+            ont_btf = open("../dumps/ontReptest.pkl","rb")
+            ont_batchtdata = pickle.load(ont_btf, encoding = 'latin1')
+            ont_btf.close()
+            truth_btf = open("../dumps/truthtest.pkl","rb")
+            truth_batchtdata = pickle.load(truth_btf)
+            truth_btf.close()
+            test_datasize = sent_batchtdata.shape[0]
+            t_index = np.random.choice(test_datasize, 300, replace=False)
+            test_sents = sent_batchtdata[t_index].reshape([-1,12,250,1])
+            test_labels = truth_batchtdata[t_index].reshape([-1,1827])
+            test_onts = ont_batchtdata[t_index].reshape([-1,50,250,1])
+            print("Shape of the test  ", test_sents.shape, " y ",test_labels.shape, " Shape of ont ",test_onts.shape)
+            _,loss_train,train_acc = session.run([post_softmax,loss,accuracy],feed_dict={tf_worddataset:train_sent_rand, tf_ontdataset: train_ont_rand, tf_labels: train_label_rand})
+            test_preds,loss_test,test_acc = session.run([post_softmax,loss,accuracy],feed_dict={tf_worddataset:test_sents, tf_ontdataset: test_onts, tf_labels: test_labels})
 
-                t_index = np.random.choice(test_datasize, 300, replace=False)
-                test_sents = sent_batchtdata[t_index].reshape([-1,12,250,1])
-                test_labels = truth_batchtdata[t_index].reshape([-1,1827])
-                test_onts = ont_batchtdata[t_index].reshape([-1,50,250,1])
-                print("Shape of the test  ", test_sents.shape, " y ",test_labels.shape, " Shape of ont ",test_onts.shape)
-                _,loss_train,train_acc = session.run([prediction,loss,accuracy],feed_dict={tf_worddataset:train_sent_rand, tf_ontdataset: train_ont_rand, tf_labels: train_label_rand})
-                test_preds,loss_test,test_acc = session.run([prediction,loss,accuracy],feed_dict={tf_worddataset:test_sents, tf_ontdataset: test_onts, tf_labels: test_labels})
+            prev_loss = loss_train
 
-                prev_loss = loss_train
+            print("\n Run ",str(i/batch_size)," within epoch ",step, " with train accuracy ", train_acc, " and test accuracy ",test_acc)
+            print("Value of loss function on train ",loss_train," Loss test ", loss_test)
+            train_errors.append(loss_train)
+            test_errors.append(loss_test)
+            train_accuracies.append(train_acc)
+            test_accuracies.append(test_acc)
 
-                print("\n Run ",str(i/batch_size)," within epoch ",step, " with train accuracy ", train_acc, " and test accuracy ",test_acc)
-                print("Value of loss function on train ",loss_train," Loss test ", loss_test)
-                train_errors.append(loss_train)
-                test_errors.append(loss_test)
-                train_accuracies.append(train_acc)
-                test_accuracies.append(test_acc)
+            #Print test error per class
+            errors_digit = calcerror_perclass(test_preds, test_labels)
+            #Store a mapping of classes against indices
+            IDLabelMappingsf = open("../dumps/IDLabelMapping.json","rb")
+            class_mapping = json.load(IDLabelMappingsf)
+            IDLabelMappingsf.close()
+            #print(" Keys ", class_mapping.keys())
+            for digit in errors_digit:
+                #print(" Digit ", digit)
+                if errors_digit[digit]["val"] < 100:
+                    print("Classification Accuracy for class ",class_mapping[str(digit + 1)]," is : %.3f%%" % (100 - errors_digit[digit]["val"]), " terms in class ",errors_digit[digit]["size"])
 
-                #Print test error per class
-                errors_digit = calcerror_perclass(test_preds, test_labels)
-                #Store a mapping of classes against indices
-                IDLabelMappingsf = open("../dumps/IDLabelMapping.json","rb")
-                class_mapping = json.load(IDLabelMappingsf)
-                IDLabelMappingsf.close()
-                #print(" Keys ", class_mapping.keys())
-                for digit in errors_digit:
-                    #print(" Digit ", digit)
-                    if errors_digit[digit]["val"] < 100:
-                        print("Classification Error for class ",class_mapping[str(digit + 1)]," is : %.3f%%" % (100 - errors_digit[digit]["val"]), " terms in class ",errors_digit[digit]["size"])
+            #Clearing memory
+            sent_batchtdata =[]
+            truth_batchtdata = []
+            ont_batchtdata = []
 
-                #Clearing memory
-                sent_batchtdata =[]
-                truth_batchtdata = []
-                ont_batchtdata = []
-
-                #Reset loss and loss_ctr value
-                ctr_step = 0
+            #Reset loss and loss_ctr value
+            ctr_step = 0
             ctr_step += 1
-        print("\n Finished an epoch run ",step, " and loss ",loss_train, " within ",batch_i)
-        errs = [train_errors,test_errors,train_accuracies,test_accuracies]
-        filehandler2 = open("model/plotparamsplain" + str(step) + str(batch_i) +  ".txt","wb")
-        pickle.dump(errs,filehandler2,protocol=2)
-        filehandler2.close()
-        #Save the model every epoch(1000 iterations)
-        dump_name = "model/my_modelplain_" + str(step) + str(batch_i)
-        save_path = saver.save(session, dump_name)      
+    print("\n Finished an epoch run ",step, " and loss ",loss_train)
+    errs = [train_errors,test_errors,train_accuracies,test_accuracies]
+    filehandler2 = open("model/plotparamsplain" + str(step) +  ".txt","wb")
+    pickle.dump(errs,filehandler2,protocol=2)
+    filehandler2.close()
+    #Save the model every epoch(1000 iterations)
+    dump_name = "model/my_modelplain_" + str(step)
+    save_path = saver.save(session, dump_name)    
+    
+    
+        
