@@ -177,7 +177,7 @@ with graph.as_default():
     accuracy = accuracy(post_softmax, tf_labels)   
 
 #Number of iterations
-num_steps = 12
+num_steps = 50
 batch_size = 100
 
 #The error plot lists

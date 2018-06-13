@@ -8,7 +8,7 @@ import matplotlib.lines as mlines
 
 with tf.Session() as sess:
     # Load old model
-    new_saver = tf.train.import_meta_graph('model/my_modelplain_01.meta')
+    new_saver = tf.train.import_meta_graph('model/my_modelplain_38.meta')
     new_saver.restore(sess,tf.train.latest_checkpoint('model/'))
 
     #Helper function to access the tensors by names
@@ -42,7 +42,7 @@ with tf.Session() as sess:
 
         print("Shape of preds labels",preds_labels.shape,"Shape of labels",labels_indices.shape,"Size of actual array",preds_size)
         for pred_index in range(0,preds_size):
-            print("Entity : ", word_contexts[pred_index]["entity"], " Ground truth ", word_contexts[pred_index]["truth"], " Predicted ",class_mapping[str(preds_labels[pred_index] + 1)] )
+            print("Entity : ", word_contexts[pred_index]["entity"], " with neighborhood ",  word_contexts[pred_index]["consolidated"], " Ground truth ", word_contexts[pred_index]["truth"], " Predicted ",class_mapping[str(preds_labels[pred_index] + 1)] )
             #If the actual label and the predicted label don't match, then add one against the actual label
             if labels_indices[pred_index] != preds_labels[pred_index]:
                 #print("Val is equal",pred_index)

@@ -7,6 +7,7 @@ from pattern.en import singularize
 from readerModified import *
 import random
 import json
+import nltk
 
 
 '''
@@ -52,7 +53,11 @@ def generateNeighborhood(amrCont, word):
 
 	all_FullNames = [ele[1] for ele in nodeNames]
 	nodeNameFirstOccurence = 0
-	associatedNodeName = ""	
+	associatedNodeName = ""
+	#Surpass everything else as amr is empty 
+	if len(all_FullNames) <= 1:
+		return "EMPTY"
+
 	if word in all_FullNames:
 		firstMatch = all_FullNames.index(word)
 		associatedNodeName = nodeNames[firstMatch][0]
@@ -81,12 +86,23 @@ def generateNeighborhood(amrCont, word):
 		else:
 			max_matchpos = -1
 			max_matchlen = 0
-			word_list = list(word)
+			#Ignore spaces
+			word_list = list(str.replace(word," ",""))
 			for possible_nodei in range(len(all_FullNames)):
 				node_list = list(all_FullNames[possible_nodei])
+				longest = len(word_list)
+				#Cut it off to the maximally occuring
+				if len(word_list) > len(node_list):
+					longest = len(node_list)
+				firstcounts = [0]*longest
+
+				for len_i in range(longest):
+					if word_list[len_i] == node_list[len_i]:
+						firstcounts[len_i] = 1
+
 				#Find maximum number of intersection and weight them by the number of repititions, eg cell-> cellular and not visceral
 				counts = [node_list.count(chari) for chari in word_list]
-				intersection_len = sum(counts)
+				intersection_len = int(0.7*sum(firstcounts) + 0.3*sum(counts))
 				if intersection_len > max_matchlen:
 					max_matchlen = intersection_len
 					max_matchpos = possible_nodei
@@ -102,6 +118,9 @@ def generateNeighborhood(amrCont, word):
 				nodeNameFirstOccurence = allNamesFirst[associatedNodeName]
 
 		print(" Fuzzy match for ", word, " in ",all_FullNames[firstMatch])
+
+	if associatedNodeName == "":
+		return "EMPTY"
 
 	candidates = []
 	#Extract six words, three ahead and three behind 
@@ -233,19 +252,24 @@ def loadSentences(ind_file):
 							bsOut = BeautifulSoup(line, 'lxml')
 							sent_groundtemplate = {"sentence":"","word_truths":[]}								
 							term_mentions = bsOut.findAll("term")
+							#print(" Sentence ", term_mentions)
+							seen_mentions_within_sentence = []
 
 							for i in range(len(term_mentions)):
 								ontology_mapping = term_mentions[i]["sem"]
 								word = term_mentions[i].text
-								#Don't choose the unmatched terms
-								if ontology_mapping not in unmatched_truths:
-									#Add individual mappings for 1-Hot
-									if ontology_mapping not in utruthlist:
-										#print(sentenceleveltruths)
-										#Will need to add an AMR portion here, pos will be used to retrieve AMR candidates if word not found
-										amr_neighbors = generateNeighborhood(amr_sent,word)	
-										word_truths.append({"entity":word,"truth":ontology_mapping,"sentence":mod_sent.strip(),"consolidated":amr_neighbors})
-										groundtruthslist.append(labelIDmapping[ontology_mapping])			
+								if word not in seen_mentions_within_sentence:
+									#Don't choose the unmatched terms
+									if ontology_mapping not in unmatched_truths:
+										#Add individual mappings for 1-Hot
+										if ontology_mapping not in utruthlist:
+											#print(sentenceleveltruths)
+											#Will need to add an AMR portion here, pos will be used to retrieve AMR candidates if word not found
+											amr_neighbors = generateNeighborhood(amr_sent,word)	
+											if amr_neighbors != "EMPTY":
+												word_truths.append({"entity":word,"truth":ontology_mapping,"sentence":mod_sent.strip(),"consolidated":amr_neighbors,"term":word,"cons_token":[word.lower() for word in nltk.word_tokenize(amr_neighbors)]})
+												groundtruthslist.append(labelIDmapping[ontology_mapping])
+												seen_mentions_within_sentence.append(word)			
 	print(" unmatched ", len(actual_unmatched))
 	print("Finished adding truths for ",ind_file)		
 	
@@ -351,19 +375,26 @@ def sentenceXMLtoMapping():
 								sent_groundtemplate = {"sentence":"","word_truths":[]}								
 								term_mentions = bsOut.findAll("term")
 
+								seen_mentions_within_sentence = []
+
 								for i in range(len(term_mentions)):
 									ontology_mapping = term_mentions[i]["sem"]
 									word = term_mentions[i].text
-									#Don't choose the unmatched terms
-									if ontology_mapping not in unmatched_truths:
-										#Add individual mappings for 1-Hot
-										if ontology_mapping not in utruthlist:
-											utruthlist.append(ontology_mapping)
-											#print(sentenceleveltruths)
-										#Will need to add an AMR portion here, pos will be used to retrieve AMR candidates if word not found
-										amr_neighbors = generateNeighborhood(amr_sent,word)	
-										word_truths.append({"truth":ontology_mapping,"sentence":mod_sent.strip(),"consolidated":amr_neighbors})
-										groundtruthslist.append(labelIDmapping[ontology_mapping])			
+									#Ignore multiple mentions within the same sentence, tends to confuse the network
+									if word not in seen_mentions_within_sentence:
+										#Don't choose the unmatched terms
+										if ontology_mapping not in unmatched_truths:
+											#Add individual mappings for 1-Hot
+											if ontology_mapping not in utruthlist:
+												utruthlist.append(ontology_mapping)
+												#print(sentenceleveltruths)
+											#Will need to add an AMR portion here, pos will be used to retrieve AMR candidates if word not found
+											amr_neighbors = generateNeighborhood(amr_sent,word)	
+											#Remove amr-empties
+											if amr_neighbors != "EMPTY":
+												word_truths.append({"truth":ontology_mapping,"sentence":mod_sent.strip(),"consolidated":amr_neighbors,"term":word})
+												groundtruthslist.append(labelIDmapping[ontology_mapping])
+												seen_mentions_within_sentence.append(word)			
 					print(len(utruthlist))
 					print(" unmatched ", len(actual_unmatched))
 					print("Finished adding truths for ",ind_file)
@@ -422,8 +453,8 @@ def moveRenamefiles():
 #moveRenamefiles()
 #Next, run the sentence parser (NOTE: currently in a tokenized form, but can be very easily modified to be untokenized)
 #Finally, run this function (Still need to generate the AMR based on these sentences)
-#sentenceXMLtoMapping()
-loadSentences("testSet")
+sentenceXMLtoMapping()
+#loadSentences("testSet")
 
 
 

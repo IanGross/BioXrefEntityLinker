@@ -31,10 +31,11 @@ print(" Shape of ontMatrix ", ontMatrix.shape)
 
 #Distribute if it is the entire batch, else just generate the test set, 
 if file_name != "testSet":
-	batch1 = ontMatrix[0:12534]
-	batch2 = ontMatrix[12534:2*12534]
-	batch3 = ontMatrix[12534*2:12534*3]
-	batch4 = ontMatrix[12534*3:]
+	int_split = int(ontMatrix.shape[0]/4)
+	batch1 = ontMatrix[0:int_split]
+	batch2 = ontMatrix[int_split:2*int_split]
+	batch3 = ontMatrix[int_split*2:int_split*3]
+	batch4 = ontMatrix[int_split*3:]
 
 	with open("../dumps/ontRep1.pkl","wb") as b1:
 		pickle.dump(batch1, b1)
@@ -52,10 +53,10 @@ if file_name != "testSet":
 		pickle.dump(batch4, b4)
 		print(" Batch size b4 ",batch4.shape)
 
-	batcht1 = truth_np[0:12534]
-	batcht2 = truth_np[12534:2*12534]
-	batcht3 = truth_np[12534*2:12534*3]
-	batcht4 = truth_np[12534*3:]
+	batcht1 = truth_np[0:int_split]
+	batcht2 = truth_np[int_split:2*int_split]
+	batcht3 = truth_np[int_split*2:int_split*3]
+	batcht4 = truth_np[int_split*3:]
 
 	with open("../dumps/truth1.pkl","wb") as bt1:
 		pickle.dump(batcht1, bt1)

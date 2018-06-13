@@ -70,7 +70,7 @@ model = gensim.models.Word2Vec.load('modelWord2Vec')
 
 print "finished loading."
 emb_list = []
-file_word = "testSet"
+file_word = ""
 #Read values from ont file, and assign embedings
 term_list = pickle.load(open("../dumps/word_contexts" + file_word + ".pkl","rb"))
 
@@ -85,11 +85,12 @@ wordMatrix = np.stack(emb_list,axis=0)
 
 #Distribute data for normal rep
 if file_word != "testSet":
+	int_4 = int(wordMatrix.shape[0]/4)
 	#Distribute the matrix, unable to write it fully
-	batch1 = wordMatrix[0:12534]
-	batch2 = wordMatrix[12534:2*12534]
-	batch3 = wordMatrix[12534*2:12534*3]
-	batch4 = wordMatrix[12534*3:]
+	batch1 = wordMatrix[0:int_4]
+	batch2 = wordMatrix[int_4:2*int_4]
+	batch3 = wordMatrix[int_4*2:int_4*3]
+	batch4 = wordMatrix[int_4*3:]
 	with open("../dumps/wordRep1.pkl","wb") as b1:
 		pickle.dump(batch1, b1)
 		print(" Batch size b1 ",batch1.shape)

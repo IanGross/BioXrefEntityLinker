@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import pickle
 
-errors = pickle.load(open("model/plotparamsplain3.txt","rb"))
+errors = pickle.load(open("model/plotparamsplain22.txt","rb"))
 
 train_errors = errors[0]
 test_errors = errors[1]
@@ -17,7 +17,7 @@ plt.xlabel("Number of Iterations")
 plt.ylabel("Accuracies ")
 plt.legend()
 plt.title("Training and Test Losses over every 10 Iterations")
-plt.savefig("model/errors_pubmedplainerrors3.png")
+plt.savefig("model/errors_pubmederrorsplain22.png")
 plt.show()
 
 
@@ -27,7 +27,7 @@ plt.xlabel("Number of Iterations")
 plt.ylabel("Losses")
 plt.legend()
 plt.title("Training and Test Accuracies over every 10 Iterations")
-plt.savefig("model/errors_pubmedplainaccuracies3.png")
+plt.savefig("model/errors_pubmedaccuraciesplain22.png")
 plt.show()
 
 

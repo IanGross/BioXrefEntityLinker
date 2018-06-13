@@ -1,5 +1,6 @@
 import pickle
 import numpy as np
+import nltk
 
 def combine_data():
 	all_sentdata = []

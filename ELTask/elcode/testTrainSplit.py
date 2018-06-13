@@ -128,8 +128,7 @@ def generate_data():
 		#Shuffling the data for the train and test, and writing them to separate files.
 		len_batch = batchword_data.shape[0]
 		len_testbatch = int(0.15*len_batch)
-		shuffle=np.arange(len_testbatch)
-		np.random.shuffle(shuffle)
+		shuffle=np.random.choice(len_batch, len_testbatch,replace=False)
 		train_left = list(set([i for i in range(len_batch)]) - set(shuffle))
 		#Defining the splits per batch
 		train_wordbdata = batchword_data[train_left]
