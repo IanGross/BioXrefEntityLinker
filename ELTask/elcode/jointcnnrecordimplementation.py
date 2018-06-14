@@ -7,6 +7,7 @@ import data_constants
 import pickle
 
 EMBEDFILE_NAME = "../dumps/word_embeddings.pkl"
+EMBEDDING_SIZE = 250
 
 # embedding_fname is numpy matrix of embeddings (V x d) where V is vocab size and d is embedding dim
 def _load_embeddings(embedding_fname):
@@ -97,6 +98,46 @@ if __name__ == '__main__':
                         strides=[1, 2, 2, 1], padding='VALID')
 
     '''
+    CNN with multiple filter sizes and convolves over same input
+    '''
+    def mul_filtercnn(filter_sizes, input_data):
+        #Need the maximum sequence length amongst the batch
+        #sequence_length = 0
+        #sequence_length = input_data.get_shape().as_list()
+        #print("sequence_length ", input_data.shape)
+        # Create a convolution + maxpool layer for each filter size
+        pooled_outputs = []
+        num_filters = 2
+        for i, filter_size in enumerate(filter_sizes):
+            with tf.name_scope("conv-maxpool-%s" % filter_size):
+                # Convolution Layer
+                conv = tf.layers.conv2d(\
+                  inputs=input_data,\
+                  filters=num_filters,\
+                  kernel_size=[filter_size,EMBEDDING_SIZE],\
+                  padding="VALID",\
+                  activation=tf.nn.relu)
+                print(" Shape of conv ",conv.shape)
+                # Apply nonlinearity
+                # Maxpooling over the outputs
+                #pooled = tf.layers.max_pooling2d(inputs=conv, pool_size=[2, 2], strides=2)
+                # Max-pooling over the outputs
+                # pooled = tf.nn.max_pool(
+                #     conv,
+                #     ksize=[1, 14 - filter_size + 1, 1, 1],
+                #     strides=[1, 1, 1, 1],
+                #     padding='VALID')
+                pooled = tf.reduce_max(conv, axis=[1])
+                print("Pooled shape ",pooled.shape)
+                pooled_outputs.append(pooled)
+        print(" Pooled ",pooled_outputs)
+        # Combine all the pooled features
+        num_filters_total = num_filters * len(filter_sizes)
+        h_pool = tf.concat(pooled_outputs,axis=2)
+        h_pool_flat = tf.expand_dims(tf.reshape(h_pool, [-1, num_filters_total]),-1)
+        return h_pool_flat
+
+    '''
     For sentence network - 2 Conv[12 (3 x 3), 12 (3 x 3)], 1 Pool , Fully dense 5112
     For ont network - 3 Conv [50 (7x7), 50 (5x5), 75 (3 x 3)], 2 Pool, Fully dense 5112
     Both will share logit
@@ -124,30 +165,35 @@ if __name__ == '__main__':
         # # Pooling Layer #1
         # pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2)
         #Forward prop phase for sent network
-        c1_sent = tf.identity(tf.layers.conv2d(\
-              inputs=sent_data,\
-              filters=1,\
-              kernel_size=[3, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c1_sent")
-        p1_sent = tf.layers.max_pooling2d(inputs=c1_sent, pool_size=[2, 2], strides=2)
-        c2_sent = tf.identity(tf.layers.conv2d(\
-              inputs=p1_sent,\
-              filters=1,\
-              kernel_size=[3, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c2_sent")
-        c3_sent = tf.identity(tf.layers.conv2d(\
-              inputs=c2_sent,\
-              filters=1,\
-              kernel_size=[3, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c3_sent")
+        # c1_sent = tf.identity(tf.layers.conv2d(\
+        #       inputs=sent_data,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c1_sent")
+        # p1_sent = tf.layers.max_pooling2d(inputs=c1_sent, pool_size=[2, 2], strides=2)
+        # c2_sent = tf.identity(tf.layers.conv2d(\
+        #       inputs=p1_sent,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c2_sent")
+        # c3_sent = tf.identity(tf.layers.conv2d(\
+        #       inputs=c2_sent,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c3_sent")
         #c4_sent = tf.identity(tf.nn.relu(conv2d(c2_sent, w_sentc4)),name="c4_sent")
-        flat_sent = tf.identity(tf.layers.Flatten()(c3_sent),name="flat_sent")
-        flat_sentex = tf.expand_dims(flat_sent,-1)
+        filter_sizes = [2,3, 5]
+        filter_bitsent = mul_filtercnn(filter_sizes, sent_data)
+        #filter_sizesp2 = [3,3,3]
+        #pool2 = mul_filtercnn(filter_sizes, pool1)
+        #pool3 = mul_filtercnn(filter_sizes, pool2)
+        #flat_sent = tf.identity(tf.layers.Flatten()(pool1),name="flat_sent")
+        #flat_sentex = tf.expand_dims(flat_sent,-1)
         fc_sent = tf.identity(tf.layers.conv1d(\
-              inputs=flat_sentex,\
+              inputs=filter_bitsent,\
               filters=1,\
               kernel_size=1,\
               padding="same",\
@@ -155,35 +201,39 @@ if __name__ == '__main__':
         #Add logits and softmax here
 
         #Forward prop phase for ont network,change this to accept just the ont alone?
-        c1_ont = tf.identity(tf.layers.conv2d(\
-              inputs=ont_data,\
-              filters=1,\
-              kernel_size=[7, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c1_ont")
-        p1_ont = tf.layers.max_pooling2d(inputs=c1_ont, pool_size=[2, 2], strides=2)
-        c2_ont = tf.identity(tf.layers.conv2d(\
-              inputs=p1_ont,\
-              filters=1,\
-              kernel_size=[5, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c2_ont")
-        p2_ont = tf.layers.max_pooling2d(inputs=c2_ont, pool_size=[2, 2], strides=2)
-        c3_ont = tf.identity(tf.layers.conv2d(\
-              inputs=p2_ont,\
-              filters=1,\
-              kernel_size=[3, 250],\
-              padding="same",\
-              activation=tf.nn.relu),name="c3_ont")
-        flat_ont = tf.identity(tf.layers.Flatten()(c3_ont),name="flat_ont")
-        flat_ontex = tf.expand_dims(flat_ont,-1)
+        # c1_ont = tf.identity(tf.layers.conv2d(\
+        #       inputs=ont_data,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c1_ont")
+        # p1_ont = tf.layers.max_pooling2d(inputs=c1_ont, pool_size=[2, 2], strides=2)
+        # c2_ont = tf.identity(tf.layers.conv2d(\
+        #       inputs=p1_ont,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c2_ont")
+        # p2_ont = tf.layers.max_pooling2d(inputs=c2_ont, pool_size=[2, 2], strides=2)
+        # c3_ont = tf.identity(tf.layers.conv2d(\
+        #       inputs=p2_ont,\
+        #       filters=1,\
+        #       kernel_size=[3, 250],\
+        #       padding="same",\
+        #       activation=tf.nn.relu),name="c3_ont")
+        filter_sizesont = [3, 5, 7]
+        filter_bitont = mul_filtercnn(filter_sizesont, ont_data)
+        #pool2ont = mul_filtercnn(filter_sizes, pool1ont)
+        #pool3ont = mul_filtercnn(filter_sizes, pool2ont)
+        #flat_ont = tf.identity(tf.layers.Flatten()(pool1ont),name="flat_ont")
+        #flat_ontex = tf.expand_dims(flat_ont,-1)
         fc_ont = tf.identity(tf.layers.conv1d(\
-              inputs=flat_ontex,\
+              inputs=filter_bitont,\
               filters=1,\
               kernel_size=1,\
               padding="same",\
               activation=tf.nn.sigmoid),name="fc_ont")
-        return (flat_sentex, flat_ontex, fc_sent, fc_ont)
+        return (filter_bitsent, filter_bitont, fc_sent, fc_ont)
 
     '''
     Calculate the cosine similarity between ont rep and sent rep
@@ -245,9 +295,10 @@ if __name__ == '__main__':
         return digits
 
 
-    batch_n = 5
+    batch_n = 40
     n_threads = 1
     fname_list = ['../dumps/train.data0.tfrecord', '../dumps/train.data1.tfrecord']
+    fname_testlist = ['../dumps/test.data0.tfrecord', '../dumps/test.data1.tfrecord']
     fname_holder = tf.placeholder(tf.string, shape=[None])
     #Google what this means?
     buff_size = 2
@@ -281,19 +332,23 @@ if __name__ == '__main__':
     #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
     loss=calc_loss(O[2],O[3])
 
+    #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
+    train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
+
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         seen_feats = []
         count = 0
 
         for _ in range(n_epochs):
+            print(" Starting an epoch ")
             shuffle(fname_list)
             sess.run(itr.initializer, feed_dict={fname_holder: fname_list})
             while True:
                 try:
                     #Initialise the embeddings
                     sess.run(E)
-                    (s, o, x, y), cos_dist, z = sess.run([O, loss, next_elem[2]])
+                    (s, o, x, y), cos_dist, _, z = sess.run([O, loss,train_step, next_elem[2]])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)
