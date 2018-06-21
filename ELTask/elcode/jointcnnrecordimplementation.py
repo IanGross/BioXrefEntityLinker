@@ -247,14 +247,13 @@ if __name__ == '__main__':
     Calc loss for every data point, and take the mean
     '''
     def calc_loss(sent_rep,ont_rep):
-        sent_shape = sent_rep.get_shape().as_list()
-        ont_shape = ont_rep.get_shape().as_list()
-        normalised_sent = tf.nn.l2_normalize(sent_rep,dim=1)
-        normalised_ont = tf.nn.l2_normalize(ont_rep,dim=1)
+        normalised_sent = tf.nn.l2_normalize(sent_rep,dim=2)
+        normalised_ont = tf.nn.l2_normalize(ont_rep,dim=2)
         #Averaging out the loss
         #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,weights=1.0,scope=None,axis=1,loss_collection=tf.GraphKeys.LOSSES,reduction=tf.losses.Reduction.SUM_BY_NONZERO_WEIGHTS)
-        return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,scope=None,axis=1)
-        #return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
+        #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,scope=None,axis=1)
+        #This is going completely wrong
+        return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
 
     '''
     Accuracy is computed by comparing the predicted and actual labels
