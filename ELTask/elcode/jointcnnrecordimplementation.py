@@ -108,6 +108,7 @@ if __name__ == '__main__':
         # Create a convolution + maxpool layer for each filter size
         pooled_outputs = []
         num_filters = 2
+        print("Shape of input data ", input_data.shape)
         for i, filter_size in enumerate(filter_sizes):
             with tf.name_scope("conv-maxpool-%s" % filter_size):
                 # Convolution Layer
@@ -116,7 +117,12 @@ if __name__ == '__main__':
                   filters=num_filters,\
                   kernel_size=[filter_size,EMBEDDING_SIZE],\
                   padding="VALID",\
-                  activation=tf.nn.relu)
+                  activation=tf.nn.sigmoid)
+                '''
+                Applying 6 filters, so these should give two filter values for each filter size?
+                Batch, sen_len, dim, 2
+                Pooling needs to choose the maximal value from each of these two filters
+                '''
                 print(" Shape of conv ",conv.shape)
                 # Apply nonlinearity
                 # Maxpooling over the outputs
@@ -135,6 +141,7 @@ if __name__ == '__main__':
         num_filters_total = num_filters * len(filter_sizes)
         h_pool = tf.concat(pooled_outputs,axis=2)
         h_pool_flat = tf.expand_dims(tf.reshape(h_pool, [-1, num_filters_total]),-1)
+        print("Shape of h_pool final ",h_pool_flat)
         return h_pool_flat
 
     '''
@@ -233,7 +240,7 @@ if __name__ == '__main__':
               kernel_size=1,\
               padding="same",\
               activation=tf.nn.sigmoid),name="fc_ont")
-        return (filter_bitsent, filter_bitont, fc_sent, fc_ont)
+        return (fc_sent, fc_ont)
 
     '''
     Calculate the cosine similarity between ont rep and sent rep
@@ -246,8 +253,8 @@ if __name__ == '__main__':
         normalised_ont = tf.nn.l2_normalize(ont_rep,dim=1)
         #Averaging out the loss
         #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,weights=1.0,scope=None,axis=1,loss_collection=tf.GraphKeys.LOSSES,reduction=tf.losses.Reduction.SUM_BY_NONZERO_WEIGHTS)
-        #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,scope=None,axis=1)
-        return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
+        return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,scope=None,axis=1)
+        #return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
 
     '''
     Accuracy is computed by comparing the predicted and actual labels
@@ -330,7 +337,7 @@ if __name__ == '__main__':
     #Need to add code for tf.reshape here
     O = model(embed_tf_worddataset, embed_tf_ontdataset)
     #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
-    loss=calc_loss(O[2],O[3])
+    loss=calc_loss(O[0],O[1])
 
     #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
     train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
@@ -348,7 +355,7 @@ if __name__ == '__main__':
                 try:
                     #Initialise the embeddings
                     sess.run(E)
-                    (s, o, x, y), cos_dist, _, z = sess.run([O, loss,train_step, next_elem[2]])
+                    (x, y), cos_dist, _, z = sess.run([O, loss,train_step, next_elem[2]])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)
