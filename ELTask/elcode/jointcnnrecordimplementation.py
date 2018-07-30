@@ -100,7 +100,7 @@ if __name__ == '__main__':
     '''
     CNN with multiple filter sizes and convolves over same input
     '''
-    def mul_filtercnn(filter_sizes, input_data):
+    def mul_filtercnn(filter_sizes, input_data, name_prefix):
         #Need the maximum sequence length amongst the batch
         #sequence_length = 0
         #sequence_length = input_data.get_shape().as_list()
@@ -110,7 +110,7 @@ if __name__ == '__main__':
         num_filters = 2
         print("Shape of input data ", input_data.shape)
         for i, filter_size in enumerate(filter_sizes):
-            with tf.name_scope("conv-maxpool-%s" % filter_size):
+            with tf.variable_scope("%s_conv-maxpool-%s" % (name_prefix, filter_size)):
                 # Convolution Layer
                 conv = tf.layers.conv2d(\
                   inputs=input_data,\
@@ -160,80 +160,19 @@ if __name__ == '__main__':
         """
         Assembles the output function
         """
-
-        # # Convolutional Layer #1
-        # conv1 = tf.layers.conv2d(
-        #       inputs=input_layer,
-        #       filters=12,
-        #       kernel_size=[3, 3],
-        #       padding="same",
-        #       activation=tf.nn.relu)
-
-        # # Pooling Layer #1
-        # pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2)
-        #Forward prop phase for sent network
-        # c1_sent = tf.identity(tf.layers.conv2d(\
-        #       inputs=sent_data,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c1_sent")
-        # p1_sent = tf.layers.max_pooling2d(inputs=c1_sent, pool_size=[2, 2], strides=2)
-        # c2_sent = tf.identity(tf.layers.conv2d(\
-        #       inputs=p1_sent,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c2_sent")
-        # c3_sent = tf.identity(tf.layers.conv2d(\
-        #       inputs=c2_sent,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c3_sent")
-        #c4_sent = tf.identity(tf.nn.relu(conv2d(c2_sent, w_sentc4)),name="c4_sent")
-        filter_sizes = [2,3, 5]
-        filter_bitsent = mul_filtercnn(filter_sizes, sent_data)
-        #filter_sizesp2 = [3,3,3]
-        #pool2 = mul_filtercnn(filter_sizes, pool1)
-        #pool3 = mul_filtercnn(filter_sizes, pool2)
-        #flat_sent = tf.identity(tf.layers.Flatten()(pool1),name="flat_sent")
-        #flat_sentex = tf.expand_dims(flat_sent,-1)
+        filter_sizes = [2, 3, 5]
+        filter_bitsent = mul_filtercnn(filter_sizes, sent_data, 'sent')
+        
         fc_sent = tf.identity(tf.layers.conv1d(\
               inputs=filter_bitsent,\
               filters=1,\
               kernel_size=1,\
               padding="same",\
               activation=tf.nn.sigmoid),name="fc_sent")
-        #Add logits and softmax here
-
-        #Forward prop phase for ont network,change this to accept just the ont alone?
-        # c1_ont = tf.identity(tf.layers.conv2d(\
-        #       inputs=ont_data,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c1_ont")
-        # p1_ont = tf.layers.max_pooling2d(inputs=c1_ont, pool_size=[2, 2], strides=2)
-        # c2_ont = tf.identity(tf.layers.conv2d(\
-        #       inputs=p1_ont,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c2_ont")
-        # p2_ont = tf.layers.max_pooling2d(inputs=c2_ont, pool_size=[2, 2], strides=2)
-        # c3_ont = tf.identity(tf.layers.conv2d(\
-        #       inputs=p2_ont,\
-        #       filters=1,\
-        #       kernel_size=[3, 250],\
-        #       padding="same",\
-        #       activation=tf.nn.relu),name="c3_ont")
+       
         filter_sizesont = [3, 5, 7]
-        filter_bitont = mul_filtercnn(filter_sizesont, ont_data)
-        #pool2ont = mul_filtercnn(filter_sizes, pool1ont)
-        #pool3ont = mul_filtercnn(filter_sizes, pool2ont)
-        #flat_ont = tf.identity(tf.layers.Flatten()(pool1ont),name="flat_ont")
-        #flat_ontex = tf.expand_dims(flat_ont,-1)
+        filter_bitont = mul_filtercnn(filter_sizesont, ont_data, 'ont')
+       
         fc_ont = tf.identity(tf.layers.conv1d(\
               inputs=filter_bitont,\
               filters=1,\
@@ -245,27 +184,29 @@ if __name__ == '__main__':
     '''
     Calculate the cosine similarity between ont rep and sent rep
     Calc loss for every data point, and take the mean
+    Find cosine sim between a single point and its correct prediction
+    How do we find the actual prediction?
     '''
     def calc_loss(sent_rep,ont_rep):
-        normalised_sent = tf.nn.l2_normalize(sent_rep,dim=2)
-        normalised_ont = tf.nn.l2_normalize(ont_rep,dim=2)
+        normalised_sent = tf.nn.l2_normalize(tf.squeeze(sent_rep, [-1]), axis=1)
+        normalised_ont = tf.nn.l2_normalize(tf.squeeze(ont_rep, [-1]), axis=1)
         #Averaging out the loss
         #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,weights=1.0,scope=None,axis=1,loss_collection=tf.GraphKeys.LOSSES,reduction=tf.losses.Reduction.SUM_BY_NONZERO_WEIGHTS)
-        #return tf.losses.cosine_distance(normalised_sent,normalised_ont,dim=None,scope=None,axis=1)
+        return tf.losses.cosine_distance(normalised_sent, normalised_ont, dim=None, scope=None, axis=1)
         #This is going completely wrong
-        return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
+        #return 1 - tf.reduce_mean(tf.matmul(normalised_sent,normalised_ont,transpose_b=True))
 
     '''
     Accuracy is computed by comparing the predicted and actual labels
     argmax is used on the 1-K encoded arrays for the same
     Then the mean value of the number of matches is returned
     Since the softmax is not applied during the training phase a softmax needs to be applied before checking for accuracy
+    Take the output pred, and check cosine sim between the y and all other terms; run argmax and find the highest
     '''
     def accuracy(preds, expected):       
         correct_prediction = tf.equal(tf.argmax(preds, 1),tf.argmax(expected, 1))
         accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float64))
         return accuracy*100
-
 
     '''
     Find per class Classification Error
@@ -305,6 +246,7 @@ if __name__ == '__main__':
     n_threads = 1
     fname_list = ['../dumps/train.data0.tfrecord', '../dumps/train.data1.tfrecord']
     fname_testlist = ['../dumps/test.data0.tfrecord', '../dumps/test.data1.tfrecord']
+    #fname_ontlist = []
     fname_holder = tf.placeholder(tf.string, shape=[None])
     #Google what this means?
     buff_size = 2
@@ -336,15 +278,22 @@ if __name__ == '__main__':
     #Need to add code for tf.reshape here
     O = model(embed_tf_worddataset, embed_tf_ontdataset)
     #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
-    loss=calc_loss(O[0],O[1])
+    loss = calc_loss(O[0], O[1])
 
-    #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
-    train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
+    with tf.variable_scope("loss"):
+        #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
+        train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
+
+    with open('MY_GRAPH.txt', 'w') as f:
+        f.write(str(tf.get_default_graph().as_graph_def()))
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         seen_feats = []
         count = 0
+        #For getting tensor board to work
+        file_writer = tf.summary.FileWriter('logs/')
+        file_writer.add_graph(sess.graph)
 
         for _ in range(n_epochs):
             print(" Starting an epoch ")
@@ -353,8 +302,9 @@ if __name__ == '__main__':
             while True:
                 try:
                     #Initialise the embeddings
-                    sess.run(E)
-                    (x, y), cos_dist, _, z = sess.run([O, loss,train_step, next_elem[2]])
+                    # sess.run(E)
+                    #merge = tf.summary.merge_all()
+                    (x, y), cos_dist, _, z = sess.run([ O, loss, train_step, next_elem[2]])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)

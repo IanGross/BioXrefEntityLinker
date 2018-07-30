@@ -60,3 +60,30 @@ DATA_SHAPES = {
                'description': [None],
                'truth': [1827]
                }
+
+NP_ONT_KEY_TYPE_MAP = {                        
+                        'description': NP_INT_TYPE,
+                        'n_description': NP_INT_TYPE,
+                        'truth': NP_INT_TYPE,
+                         'n_truth': NP_INT_TYPE                        
+                       }
+
+TF_ONT_KEY_TYPE_MAP = {                        
+                        'description': TF_INT_TYPE,
+                        'n_description': TF_INT_TYPE,
+                        'truth': TF_INT_TYPE,
+                        'n_truth': TF_INT_TYPE
+                       }
+
+READER_ONT_KEY_TYPE_MAP = {           
+                            'description': tf.string,
+                            'n_description': tf.int64,
+                            'truth': tf.string,
+                            'n_truth': tf.int64
+                           }
+
+ONT_DATA_SHAPES = {               
+               'description': [None],
+               'truth': [1827]
+               }
+

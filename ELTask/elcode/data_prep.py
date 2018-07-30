@@ -150,11 +150,15 @@ Files: ../dumps/word_contexts.pkl, ../dumps/unique_truthconts.pkl
             'description': 'We is mouse', 'n_description': 1,
             'truth': np.arange(D, dtype=np.float32),
             'n_truth': D}
+vocab_all is a common data structure to build the vocabulary of words
+vocab_dict is used to contain the struct of {'sent','n_sent','ont','n_ont','truth','n_truth'}
 '''
 def build_consolidatedsentandontmapping(terms_file, ont_contextsfile, labelmapping_file):
     vocab_all = set()
+    ont_seens = []
     #List of tuples, sent; ont
     vocab_dict = []
+    ont_descs = []
 
     labelidmapping = load_json(labelmapping_file)
     num_truths = len(labelidmapping)
@@ -169,8 +173,15 @@ def build_consolidatedsentandontmapping(terms_file, ont_contextsfile, labelmappi
         vocab_all.add(sent_consolidated)
         vocab_all.add(associatedont_consolidated)
         vocab_dict.append({'sentence':sent_consolidated,'n_sentence':len(sent_consolidated.split(" ")),'description':associatedont_consolidated, 'n_description':len(associatedont_consolidated.split(" ")),'truth': truth_np,'n_truth':num_truths})
+        '''
+        Add in the IDs as a part of the tuple portion to reduce sorting complexity
+        The ont descriptions need to be arranged by their order
+        '''
+        if truth_id not in ont_seens:
+            ont_seens.append(truth_id)
+            ont_descs.append(({'description':associatedont_consolidated, 'n_description': len(associatedont_consolidated.split(" ")),'truth':truth_np,'n_truth':num_truths},truth_id))
     print("Num truths ",num_truths)
-    return (list(vocab_all), vocab_dict)
+    return (list(vocab_all), vocab_dict, ont_descs)
 
 
 def sent_preprocessingandcleanup(sent):
@@ -183,7 +194,7 @@ def sent_preprocessingandcleanup(sent):
     #Replace multiple spaces
     cleanedsent = re.sub(r'\s+',' ',cleanedsent)
     #Return unique chars
-    #cleanedsent= " ".join(list(unique_everseen(cleanedsent.split(" "))))
+    cleanedsent= " ".join(list(unique_everseen(cleanedsent.split(" "))))
     return cleanedsent
 
 #Normalise the word embedding by tf-idf
@@ -264,6 +275,8 @@ def write_tf_records(split_examples, split_name, out_dir, n_files,
     if rando:
         print('Writing features to files randomly')
     else:
+        #HACK for now
+        n_vids = len(split_examples)
         save_size = np.ceil(n_vids / float(n_files))
         if not n_vids / n_files:
             adj_n_files = n_vids
@@ -318,13 +331,14 @@ if __name__ == '__main__':
     #         'n_truth': D}
     #         ]
     #input_sentences = [text for item in data for label, text in item.items() if label in ['sentence', 'description']]
-    (vocab_all, vocab_dict) = build_consolidatedsentandontmapping(TERMS_FILE, ONT_CONTEXTSFILE, ONTLABELIDMAPPINF_FNAME)
+    (vocab_all, vocab_dict, ont_all) = build_consolidatedsentandontmapping(TERMS_FILE, ONT_CONTEXTSFILE, ONTLABELIDMAPPINF_FNAME)
     word_to_idx = build_vocab(vocab_all, threshold=1)
     print(word_to_idx)
 
     #Generating embedding matrix
     embeddings = get_word_embeddings_from_w2vPMd(EMBEDDING_FNAME,w_idx_map=word_to_idx)
 
+    #Store pre-trained embeddings for each of the ont terms
     for x in vocab_dict:
         sent_tokens = x['sentence'].split(' ')
         sent_array = []
@@ -340,6 +354,22 @@ if __name__ == '__main__':
     vocab_size = len(vocab_dict)
     print("Records ", vocab_size)
 
+    #Sort the ontologies by the truth id; so that it is easier to load them in
+    ont_all.sort(key = lambda x : x[1])
+    print(" Ont peek ",ont_all[:10])
+    #Post sorting, store only the 0th terms
+    ont_refined = [ont_obj[0] for ont_obj in ont_all]
+    '''
+    Inefficient, but find a way to add to onts above
+    '''
+    for ont_term in ont_refined:        
+        ont_desc_array = []
+        ont_desc_tokens = ont_term['description'].split(' ')
+        #Append index of the ont description
+        for ont_d in ont_desc_tokens:
+            ont_desc_array.append(word_to_idx.get(ont_d, word_to_idx[data_constants.UNK_TOKEN]))
+        ont_term['description'] = np.asarray(ont_desc_array)
+
     #Perform test and train split here, pick like 15% 
     #Shuffling the data for the train and test, and writing them to separate files.
     len_batch = vocab_size
@@ -348,7 +378,9 @@ if __name__ == '__main__':
     train_left = list(set([j for j in range(len_batch)]) - set(test_portion))
     train_set = list(map(lambda x:vocab_dict[x],train_left))
     test_set = list(map(lambda x:vocab_dict[x],test_portion))
+    #Add ability to build ont file here
     print(" Train ", len(train_left), " Test ",len(test_portion))
+    print("Len of ONTS_DESCS ", len(ont_refined))
     print("Sample test sizes ", train_set[0]['sentence'].shape,  "Sent len ", train_set[0]['n_sentence'], " Ont ", train_set[0]['description'].shape, "Ont len ", train_set[0]['n_description'],  " Truth ", train_set[0]['truth'].shape, "Truth len ",train_set[0]['n_truth'] )
 
     write_tf_records(split_examples=train_set, split_name='train', out_dir='../dumps', n_files=2,
@@ -356,3 +388,6 @@ if __name__ == '__main__':
 
     write_tf_records(split_examples=test_set, split_name='test', out_dir='../dumps', n_files=1,
                      feat_key_type=data_constants.NP_FEAT_KEY_TYPE_MAP, rando=True)
+
+    write_tf_records(split_examples=ont_refined, split_name='ontologyall', out_dir='../dumps', n_files=1,
+                     feat_key_type=data_constants.NP_ONT_KEY_TYPE_MAP, rando=False)
