@@ -222,8 +222,11 @@ if __name__ == '__main__':
     Since the softmax is not applied during the training phase a softmax needs to be applied before checking for accuracy
     Take the output pred, and check cosine sim between the y and all other terms; run argmax and find the highest
     '''
-    def accuracy(preds, expected):       
-        correct_prediction = tf.equal(tf.argmax(preds, 1),tf.argmax(expected, 1))
+    def accuracy(sent_reps, ont_reps, expected):     
+        sent_repsnorm = tf.nn.l2_normalize(tf.squeeze(sent_rep, [-1]), axis=1)
+        ont_reps = tf.nn.l2_normalize(tf.squeeze(ont_rep, [-1]), axis=1)
+        products =   tf.matmul(sent_repsnorm, tf.transpose(ont_reps))
+        correct_prediction = tf.equal(tf.argmax(products, 1),tf.argmax(expected, 1))
         accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float64))
         return accuracy*100
 
@@ -296,6 +299,17 @@ if __name__ == '__main__':
                                   feature_shapes=feat_dims
                                 )
 
+    #Batch size should be size of test set in case of ont reader stuff?
+    test_itr, next_elem_test = get_data_itr(batch_size=batch_n,
+                                  num_threads=n_threads,
+                                  fnames=fname_holder,
+                                  q_capacity=buff_size,
+                                  shuffle_input=shuff_data,
+                                  serialized_keys=serial_keys,
+                                  out_type_keys=output_type_keys,
+                                  feature_shapes=feat_dims
+                                )
+
     #Ont keys should not be shuffled, need to be loaded in order
     ontall_itr, next_elem_ont = get_data_itr(batch_size=batch_ont_n,
                                   num_threads=n_threads,
@@ -317,6 +331,12 @@ if __name__ == '__main__':
     #1 - GO:0000 , GO:000 - [12,24]
     embed_tf_ontdataset = tf.nn.embedding_lookup(E, next_elem[1])
 
+    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
+    embed_tf_worddataset_test = tf.nn.embedding_lookup(E, next_elem_test[0])
+    #1 - GO:0000 , GO:000 - [12,24]
+    embed_tf_ontdataset_test = tf.nn.embedding_lookup(E, next_elem_test[1])
+
+    #inefficient does this need to be done?
     embed_tf_entireontdataset = tf.nn.embedding_lookup(E, next_elem_ont[0])
 
 
@@ -328,6 +348,10 @@ if __name__ == '__main__':
 
     #Obtain a matrix rep of all ont terms
     entire_ontrep = ontmodel(embed_tf_entireontdataset)
+
+    sent_rep_test = sentmodel(embed_tf_worddataset_test)
+    ont_rep_test = ontmodel(embed_tf_ontdataset_test)
+    #accuracy_test = accuracy(sent_rep_test, entire_ontrep, next_elem_test[2])
 
     with tf.variable_scope("loss"):
         #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
@@ -380,6 +404,20 @@ if __name__ == '__main__':
                             except tf.errors.OutOfRangeError:
                                 print(' Finished consuming the ont data ')
                                 print(" Ontrep ", ontrep_out.shape)
+                                break
+                        #Initialize the test data to compute accuracy for each of the preds
+                        sess.run(test_itr.initializer, feed_dict={fname_holder: fname_testlist})
+                        epoch_acc = []
+                        #Obtain the ont representation
+                        while True:
+                            try:
+                                sent_rep_t, _ = sess.run([ sent_rep_test, ont_rep_test])
+                                acc_test = accuracy(sent_rep_t, ontrep_out, next_elem_test[2])
+                                acc_tval = acc_test.eval()                                
+                                epoch_acc.append(acc_tval)
+                            except tf.errors.OutOfRangeError:
+                                print(' Finished consuming the test data ')
+                                print(' Accuracy at epoch is ', np.mean(epoch_acc))
                                 break
                 except tf.errors.OutOfRangeError:
                     print('Completed epoch')
