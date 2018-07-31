@@ -327,7 +327,7 @@ if __name__ == '__main__':
     loss = calc_loss(sent_rep, ont_rep)
 
     #Obtain a matrix rep of all ont terms
-    entire_ontrep = ontmodel(embed_tf_ontdataset)
+    entire_ontrep = ontmodel(embed_tf_entireontdataset)
 
     with tf.variable_scope("loss"):
         #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
@@ -352,8 +352,8 @@ if __name__ == '__main__':
             Initialize the train, test and ont readers
             Access can be determined at different points of time 
             '''
-            sess.run(itr.initializer, feed_dict={fname_holder: fname_list})
-            sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
+            sess.run(itr.initializer, feed_dict={fname_holder: fname_list})            
+            ctr = 0
 
             while True:
                 try:
@@ -366,6 +366,21 @@ if __name__ == '__main__':
                     print("Sent ", y.shape)
                     print(" Cosine distance is ", cos_dist)
                     print("Truth ", z.shape)
+                    ctr+=1
+                    print(" per batch ctr consumed ", ctr*40, " of data")
+                    #Run the test portion per 400 iterations
+                    if (ctr*40)%400 == 0:
+                        print("Running test portion  at ",(ctr*40), "step")
+                        sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
+                        #Obtain the ont representation
+                        while True:
+                            try:
+                                ontrep_out = sess.run(entire_ontrep)
+                                print(" Ontrep ", ontrep_out.shape)
+                            except tf.errors.OutOfRangeError:
+                                print(' Finished consuming the ont data ')
+                                print(" Ontrep ", ontrep_out.shape)
+                                break
                 except tf.errors.OutOfRangeError:
                     print('Completed epoch')
                     break
