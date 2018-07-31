@@ -326,15 +326,18 @@ if __name__ == '__main__':
     embed_shape, embed_init = _load_embeddings(EMBEDFILE_NAME)
     E = tf.get_variable('embedding_layer', shape=embed_shape, initializer=embed_init)
 
-    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
-    embed_tf_worddataset = tf.nn.embedding_lookup(E, next_elem[0])
-    #1 - GO:0000 , GO:000 - [12,24]
-    embed_tf_ontdataset = tf.nn.embedding_lookup(E, next_elem[1])
+    train_record = next_elem
+    test_record = next_elem_test
 
     #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
-    embed_tf_worddataset_test = tf.nn.embedding_lookup(E, next_elem_test[0])
+    embed_tf_worddataset = tf.nn.embedding_lookup(E, train_record[0])
     #1 - GO:0000 , GO:000 - [12,24]
-    embed_tf_ontdataset_test = tf.nn.embedding_lookup(E, next_elem_test[1])
+    embed_tf_ontdataset = tf.nn.embedding_lookup(E, train_record[1])
+
+    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
+    embed_tf_worddataset_test = tf.nn.embedding_lookup(E, test_record[0])
+    #1 - GO:0000 , GO:000 - [12,24]
+    embed_tf_ontdataset_test = tf.nn.embedding_lookup(E, test_record[1])
 
     #inefficient does this need to be done?
     embed_tf_entireontdataset = tf.nn.embedding_lookup(E, next_elem_ont[0])
@@ -384,12 +387,12 @@ if __name__ == '__main__':
                     #Initialise the embeddings
                     # sess.run(E)
                     #merge = tf.summary.merge_all()
-                    x, y, cos_dist, _, z = sess.run([ sent_rep, ont_rep, loss, train_step, next_elem[2]])
+                    train_rec, x, y, cos_dist, _ = sess.run([ train_record, sent_rep, ont_rep, loss, train_step])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)
                     print(" Cosine distance is ", cos_dist)
-                    print("Truth ", z.shape)
+                    print("Truth ", train_rec[2].shape)
                     ctr+=1
                     print(" per batch ctr consumed ", ctr*40, " of data")
                     #Run the test portion per 400 iterations
@@ -411,8 +414,8 @@ if __name__ == '__main__':
                         #Obtain the ont representation
                         while True:
                             try:
-                                sent_rep_t, _ = sess.run([ sent_rep_test, ont_rep_test])
-                                acc_test = accuracy(sent_rep_t, ontrep_out, next_elem_test[2])
+                                tr, sent_rep_t, _ = sess.run([ test_record, sent_rep_test, ont_rep_test])
+                                acc_test = accuracy(sent_rep_t, ontrep_out, tr[2])
                                 acc_tval = acc_test.eval()                                
                                 epoch_acc.append(acc_tval)
                             except tf.errors.OutOfRangeError:
