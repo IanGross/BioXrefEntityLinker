@@ -9,6 +9,7 @@ import pickle
 EMBEDFILE_NAME = "../dumps/word_embeddings.pkl"
 EMBEDDING_SIZE = 250
 
+#Need to load the ont feat dict now
 # embedding_fname is numpy matrix of embeddings (V x d) where V is vocab size and d is embedding dim
 def _load_embeddings(embedding_fname):
     with open(embedding_fname, 'rb') as pe_f:
@@ -32,6 +33,7 @@ def _parse_el_example(array_feats, array_feat_types, quant_feats):
 def get_data_itr(**kwargs):
     """
         Return a data iterator for the tfrecord files.
+        These function needs to be made generic enough to read in ONT constants as well
     """
     batch_size = kwargs.pop('batch_size', 4)
     num_threads = kwargs.pop('num_threads', 8)
@@ -41,7 +43,7 @@ def get_data_itr(**kwargs):
     serialized_keys = kwargs.pop('serialized_keys', data_constants.READER_FEAT_KEY_TYPE_MAP)
     out_type_keys = kwargs.pop('out_type_keys', data_constants.TF_FEAT_KEY_TYPE_MAP)
     feature_shapes = kwargs.pop('feature_shapes', data_constants.DATA_SHAPES)
-
+    #This can still be invariant
     quantity_keys = {key: quant_type for key, quant_type in serialized_keys.items() if key[:2] == 'n_'}
     arr_key_type = {key: quant_type for key, quant_type in out_type_keys.items() if key[:2] != 'n_'}
 
@@ -144,6 +146,45 @@ if __name__ == '__main__':
         print("Shape of h_pool final ",h_pool_flat)
         return h_pool_flat
 
+    #Sentence and ont need to share same weights, at some point function needs to be consolidated
+    def sentmodel(sent_data):
+        sent_data = tf.expand_dims(sent_data, -1)
+        """
+        Assembles the output function
+        """
+        with tf.variable_scope("sent", reuse=tf.AUTO_REUSE):
+            filter_sizes = [2, 3, 5]
+            filter_bitsent = mul_filtercnn(filter_sizes, sent_data, 'sent')
+            
+            fc_sent = tf.identity(tf.layers.conv1d(\
+                  inputs=filter_bitsent,\
+                  filters=1,\
+                  kernel_size=1,\
+                  padding="same",\
+                  activation=tf.nn.sigmoid),name="fc_sent")
+        return fc_sent
+
+    def ontmodel(ont_data):
+        '''
+        Ont portion, output the ont representation
+        What does it mean for weights to be shared?
+        '''
+        ont_data = tf.expand_dims(ont_data, -1)
+        with tf.variable_scope("ont", reuse=tf.AUTO_REUSE):
+            filter_sizesont = [3, 5, 7]
+            filter_bitont = mul_filtercnn(filter_sizesont, ont_data, 'ont')
+           
+            fc_ont = tf.identity(tf.layers.conv1d(\
+                  inputs=filter_bitont,\
+                  filters=1,\
+                  kernel_size=1,\
+                  padding="same",\
+                  activation=tf.nn.sigmoid),name="fc_ont")
+
+        return fc_ont
+
+
+
     '''
     For sentence network - 2 Conv[12 (3 x 3), 12 (3 x 3)], 1 Pool , Fully dense 5112
     For ont network - 3 Conv [50 (7x7), 50 (5x5), 75 (3 x 3)], 2 Pool, Fully dense 5112
@@ -155,30 +196,8 @@ if __name__ == '__main__':
 
     '''
     def model(sent_data,ont_data):
-        sent_data = tf.expand_dims(sent_data, -1)
-        ont_data = tf.expand_dims(ont_data, -1)
-        """
-        Assembles the output function
-        """
-        filter_sizes = [2, 3, 5]
-        filter_bitsent = mul_filtercnn(filter_sizes, sent_data, 'sent')
-        
-        fc_sent = tf.identity(tf.layers.conv1d(\
-              inputs=filter_bitsent,\
-              filters=1,\
-              kernel_size=1,\
-              padding="same",\
-              activation=tf.nn.sigmoid),name="fc_sent")
-       
-        filter_sizesont = [3, 5, 7]
-        filter_bitont = mul_filtercnn(filter_sizesont, ont_data, 'ont')
-       
-        fc_ont = tf.identity(tf.layers.conv1d(\
-              inputs=filter_bitont,\
-              filters=1,\
-              kernel_size=1,\
-              padding="same",\
-              activation=tf.nn.sigmoid),name="fc_ont")
+        fc_sent = sentmodel(sent_data)
+        fc_ont = ontmodel(ont_data)
         return (fc_sent, fc_ont)
 
     '''
@@ -241,23 +260,32 @@ if __name__ == '__main__':
                 digits[key]["val"] = 150
         return digits
 
-
+    #Reading 40 records at a time?
     batch_n = 40
+    #Make this dynamic later
+    batch_ont_n = 1827
     n_threads = 1
+    #Need to include ont list as well here
     fname_list = ['../dumps/train.data0.tfrecord', '../dumps/train.data1.tfrecord']
-    fname_testlist = ['../dumps/test.data0.tfrecord', '../dumps/test.data1.tfrecord']
+    fname_testlist = ['../dumps/test.data0.tfrecord']
+    fname_ontlist = ['../dumps/ontologyall.data0.tfrecord']
     #fname_ontlist = []
     fname_holder = tf.placeholder(tf.string, shape=[None])
     #Google what this means?
     buff_size = 2
     shuff_data = True
+    #Need to introduce a set for ont list as well
     serial_keys = data_constants.READER_FEAT_KEY_TYPE_MAP
     output_type_keys = data_constants.TF_FEAT_KEY_TYPE_MAP
     feat_dims = data_constants.DATA_SHAPES
 
+    ont_serial_keys = data_constants.READER_ONT_KEY_TYPE_MAP
+    ont_output_type_keys = data_constants.TF_ONT_KEY_TYPE_MAP
+    ont_feat_dims = data_constants.ONT_DATA_SHAPES
+
     n_epochs = 4
 
-
+    #Batch size should be size of test set in case of ont reader stuff?
     itr, next_elem = get_data_itr(batch_size=batch_n,
                                   num_threads=n_threads,
                                   fnames=fname_holder,
@@ -268,22 +296,44 @@ if __name__ == '__main__':
                                   feature_shapes=feat_dims
                                 )
 
+    #Ont keys should not be shuffled, need to be loaded in order
+    ontall_itr, next_elem_ont = get_data_itr(batch_size=batch_ont_n,
+                                  num_threads=n_threads,
+                                  fnames=fname_holder,
+                                  q_capacity=buff_size,
+                                  shuffle_input=False,
+                                  serialized_keys=ont_serial_keys,
+                                  out_type_keys=ont_output_type_keys,
+                                  feature_shapes=ont_feat_dims
+                                )
+
+
+
     embed_shape, embed_init = _load_embeddings(EMBEDFILE_NAME)
     E = tf.get_variable('embedding_layer', shape=embed_shape, initializer=embed_init)
 
+    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
     embed_tf_worddataset = tf.nn.embedding_lookup(E, next_elem[0])
     #1 - GO:0000 , GO:000 - [12,24]
     embed_tf_ontdataset = tf.nn.embedding_lookup(E, next_elem[1])
 
+    embed_tf_entireontdataset = tf.nn.embedding_lookup(E, next_elem_ont[0])
+
+
     #Need to add code for tf.reshape here
-    O = model(embed_tf_worddataset, embed_tf_ontdataset)
+    sent_rep = sentmodel(embed_tf_worddataset)
+    ont_rep = ontmodel(embed_tf_ontdataset)
     #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
-    loss = calc_loss(O[0], O[1])
+    loss = calc_loss(sent_rep, ont_rep)
+
+    #Obtain a matrix rep of all ont terms
+    entire_ontrep = ontmodel(embed_tf_ontdataset)
 
     with tf.variable_scope("loss"):
         #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
         train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
 
+    #tensorboard portion
     with open('MY_GRAPH.txt', 'w') as f:
         f.write(str(tf.get_default_graph().as_graph_def()))
 
@@ -298,13 +348,19 @@ if __name__ == '__main__':
         for _ in range(n_epochs):
             print(" Starting an epoch ")
             shuffle(fname_list)
+            '''
+            Initialize the train, test and ont readers
+            Access can be determined at different points of time 
+            '''
             sess.run(itr.initializer, feed_dict={fname_holder: fname_list})
+            sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
+
             while True:
                 try:
                     #Initialise the embeddings
                     # sess.run(E)
                     #merge = tf.summary.merge_all()
-                    (x, y), cos_dist, _, z = sess.run([ O, loss, train_step, next_elem[2]])
+                    x, y, cos_dist, _, z = sess.run([ sent_rep, ont_rep, loss, train_step, next_elem[2]])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)
@@ -313,4 +369,8 @@ if __name__ == '__main__':
                 except tf.errors.OutOfRangeError:
                     print('Completed epoch')
                     break
+
+            ontrep_out = sess.run(entire_ontrep)
+            print(" Ontrep ", ontrep_out.shape)
+
         sess.close()
