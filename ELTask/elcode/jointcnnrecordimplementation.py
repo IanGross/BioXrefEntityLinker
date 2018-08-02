@@ -148,11 +148,13 @@ if __name__ == '__main__':
 
     #Sentence and ont need to share same weights, at some point function needs to be consolidated
     def sentmodel(sent_data):
-        sent_data = tf.expand_dims(sent_data, -1)
         """
         Assembles the output function
         """
-        with tf.variable_scope("sent", reuse=tf.AUTO_REUSE):
+
+        # with tf.variable_scope("sent", reuse=tf.AUTO_REUSE):
+        with tf.variable_scope("sent"):
+            sent_data = tf.expand_dims(sent_data, -1)
             filter_sizes = [2, 3, 5]
             filter_bitsent = mul_filtercnn(filter_sizes, sent_data, 'sent')
             
@@ -162,15 +164,16 @@ if __name__ == '__main__':
                   kernel_size=1,\
                   padding="same",\
                   activation=tf.nn.sigmoid),name="fc_sent")
-        return fc_sent
+            return fc_sent
 
     def ontmodel(ont_data):
         '''
         Ont portion, output the ont representation
         What does it mean for weights to be shared?
         '''
-        ont_data = tf.expand_dims(ont_data, -1)
-        with tf.variable_scope("ont", reuse=tf.AUTO_REUSE):
+        # with tf.variable_scope("ont", reuse=tf.AUTO_REUSE):
+        with tf.variable_scope("ont"):
+            ont_data = tf.expand_dims(ont_data, -1)
             filter_sizesont = [3, 5, 7]
             filter_bitont = mul_filtercnn(filter_sizesont, ont_data, 'ont')
            
@@ -181,7 +184,7 @@ if __name__ == '__main__':
                   padding="same",\
                   activation=tf.nn.sigmoid),name="fc_ont")
 
-        return fc_ont
+            return fc_ont
 
 
 
@@ -225,10 +228,13 @@ if __name__ == '__main__':
     def accuracy(sent_reps, ont_reps, expected):     
         sent_repsnorm = tf.nn.l2_normalize(tf.squeeze(sent_rep, [-1]), axis=1)
         ont_reps = tf.nn.l2_normalize(tf.squeeze(ont_rep, [-1]), axis=1)
+        # sent_reps = tf.Print(sent_reps, [tf.shape(sent_reps)], message="sent_reps", summarize=1000)
+        # ont_reps = tf.Print(ont_reps, [tf.shape(ont_reps)], message="ont_reps", summarize=1000)
         products =   tf.matmul(sent_repsnorm, tf.transpose(ont_reps))
-        correct_prediction = tf.equal(tf.argmax(products, 1),tf.argmax(expected, 1))
-        accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float64))
-        return accuracy*100
+        # products = tf.Print(products, [tf.shape(products)], message="products", summarize=1000)
+        correct_prediction = tf.equal(tf.argmax(products, 1), tf.argmax(expected, 1))
+        accuracy_val = tf.reduce_mean(tf.cast(correct_prediction, tf.float64))
+        return accuracy_val*100
 
     '''
     Find per class Classification Error
@@ -275,7 +281,7 @@ if __name__ == '__main__':
     #fname_ontlist = []
     fname_holder = tf.placeholder(tf.string, shape=[None])
     #Google what this means?
-    buff_size = 2
+    buff_size = 200
     shuff_data = True
     #Need to introduce a set for ont list as well
     serial_keys = data_constants.READER_FEAT_KEY_TYPE_MAP
@@ -288,77 +294,94 @@ if __name__ == '__main__':
 
     n_epochs = 4
 
-    #Batch size should be size of test set in case of ont reader stuff?
-    itr, next_elem = get_data_itr(batch_size=batch_n,
-                                  num_threads=n_threads,
-                                  fnames=fname_holder,
-                                  q_capacity=buff_size,
-                                  shuffle_input=shuff_data,
-                                  serialized_keys=serial_keys,
-                                  out_type_keys=output_type_keys,
-                                  feature_shapes=feat_dims
-                                )
+    with tf.variable_scope("Train_iterator"):
+        #Batch size should be size of test set in case of ont reader stuff?
+        itr, next_elem = get_data_itr(batch_size=batch_n,
+                                      num_threads=n_threads,
+                                      fnames=fname_holder,
+                                      q_capacity=buff_size,
+                                      shuffle_input=shuff_data,
+                                      serialized_keys=serial_keys,
+                                      out_type_keys=output_type_keys,
+                                      feature_shapes=feat_dims
+                                    )
 
-    #Batch size should be size of test set in case of ont reader stuff?
-    test_itr, next_elem_test = get_data_itr(batch_size=batch_n,
-                                  num_threads=n_threads,
-                                  fnames=fname_holder,
-                                  q_capacity=buff_size,
-                                  shuffle_input=shuff_data,
-                                  serialized_keys=serial_keys,
-                                  out_type_keys=output_type_keys,
-                                  feature_shapes=feat_dims
-                                )
+    with tf.variable_scope("Test_iterator"):
+        #Batch size should be size of test set in case of ont reader stuff?
+        test_itr, next_elem_test = get_data_itr(batch_size=batch_n,
+                                      num_threads=n_threads,
+                                      fnames=fname_holder,
+                                      q_capacity=buff_size,
+                                      shuffle_input=shuff_data,
+                                      serialized_keys=serial_keys,
+                                      out_type_keys=output_type_keys,
+                                      feature_shapes=feat_dims
+                                    )
 
-    #Ont keys should not be shuffled, need to be loaded in order
-    ontall_itr, next_elem_ont = get_data_itr(batch_size=batch_ont_n,
-                                  num_threads=n_threads,
-                                  fnames=fname_holder,
-                                  q_capacity=buff_size,
-                                  shuffle_input=False,
-                                  serialized_keys=ont_serial_keys,
-                                  out_type_keys=ont_output_type_keys,
-                                  feature_shapes=ont_feat_dims
-                                )
+    with tf.variable_scope("Entire_Ontology_iterator"):
+        #Ont keys should not be shuffled, need to be loaded in order
+        ontall_itr, next_elem_ont = get_data_itr(batch_size=batch_ont_n,
+                                      num_threads=n_threads,
+                                      fnames=fname_holder,
+                                      q_capacity=buff_size,
+                                      shuffle_input=False,
+                                      serialized_keys=ont_serial_keys,
+                                      out_type_keys=ont_output_type_keys,
+                                      feature_shapes=ont_feat_dims
+                                    )
 
 
 
     embed_shape, embed_init = _load_embeddings(EMBEDFILE_NAME)
     E = tf.get_variable('embedding_layer', shape=embed_shape, initializer=embed_init)
 
-    train_record = next_elem
-    test_record = next_elem_test
+    with tf.variable_scope("Train_lookup"):
+        #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
+        embed_tf_worddataset = tf.nn.embedding_lookup(E, next_elem[0])
+        #1 - GO:0000 , GO:000 - [12,24]
+        embed_tf_ontdataset = tf.nn.embedding_lookup(E, next_elem[1])
 
-    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
-    embed_tf_worddataset = tf.nn.embedding_lookup(E, train_record[0])
-    #1 - GO:0000 , GO:000 - [12,24]
-    embed_tf_ontdataset = tf.nn.embedding_lookup(E, train_record[1])
+    with tf.variable_scope("Test_lookup"):
+        #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
+        embed_tf_worddataset_test = tf.nn.embedding_lookup(E, next_elem_test[0])
+        #1 - GO:0000 , GO:000 - [12,24]
+        # embed_tf_ontdataset_test = tf.nn.embedding_lookup(E, next_elem_test[1])
 
-    #or can it be done per record as well? 1 x |W| x 1800; choose the maximal here
-    embed_tf_worddataset_test = tf.nn.embedding_lookup(E, test_record[0])
-    #1 - GO:0000 , GO:000 - [12,24]
-    embed_tf_ontdataset_test = tf.nn.embedding_lookup(E, test_record[1])
-
-    #inefficient does this need to be done?
-    embed_tf_entireontdataset = tf.nn.embedding_lookup(E, next_elem_ont[0])
+    with tf.variable_scope("Entire_Ontology_lookup"):
+        #inefficient does this need to be done?
+        embed_tf_entireontdataset = tf.nn.embedding_lookup(E, next_elem_ont[0])
 
 
     #Need to add code for tf.reshape here
-    sent_rep = sentmodel(embed_tf_worddataset)
-    ont_rep = ontmodel(embed_tf_ontdataset)
-    #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
-    loss = calc_loss(sent_rep, ont_rep)
+    with tf.variable_scope("sent_model") as sent_scope:
+        sent_rep = sentmodel(embed_tf_worddataset)
+        # ont_rep = ontmodel(embed_tf_ontdataset)
+        # #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
+        # loss = calc_loss(sent_rep, ont_rep)
+        sent_scope.reuse_variables()
+        sent_rep_test = sentmodel(embed_tf_worddataset_test)
+        # ont_rep_test = ontmodel(embed_tf_ontdataset_test)
+        #accuracy_test = accuracy(sent_rep_test, entire_ontrep, next_elem_test[2])
 
-    #Obtain a matrix rep of all ont terms
-    entire_ontrep = ontmodel(embed_tf_entireontdataset)
+    with tf.variable_scope("ont_model") as ont_scope:
+        ont_rep = ontmodel(embed_tf_ontdataset)
+        ont_scope.reuse_variables()
+        #Obtain a matrix rep of all ont terms
+        entire_ontrep = ontmodel(embed_tf_entireontdataset)
 
-    sent_rep_test = sentmodel(embed_tf_worddataset_test)
-    ont_rep_test = ontmodel(embed_tf_ontdataset_test)
-    #accuracy_test = accuracy(sent_rep_test, entire_ontrep, next_elem_test[2])
 
     with tf.variable_scope("loss"):
+        #Loss per batch is calculated as the cosine distance between the sentence and ontology representation
+        loss = calc_loss(sent_rep, ont_rep)
         #Run the Adam Optimiser(AdaGrad + Momentum) with an initial eta of 0.0001
         train_step = tf.train.AdamOptimizer(1e-4).minimize(loss)
+
+    with tf.variable_scope("accuracy"):
+        acc_test = accuracy(sent_rep_test, entire_ontrep, next_elem_test[2])
+
+    #with tf.control_dependencies("entire_ontrep"):
+       
+    # acc_test = accuracy(sent_rep_test, entire_ontrep, next_elem_test[2])
 
     #tensorboard portion
     with open('MY_GRAPH.txt', 'w') as f:
@@ -387,37 +410,42 @@ if __name__ == '__main__':
                     #Initialise the embeddings
                     # sess.run(E)
                     #merge = tf.summary.merge_all()
-                    train_rec, x, y, cos_dist, _ = sess.run([ train_record, sent_rep, ont_rep, loss, train_step])
+                    x, y, cos_dist, _, truth_elem = sess.run([ sent_rep, ont_rep, loss, train_step, next_elem[2]])
                     #print(" Sent embedding ", s)
                     print(" Description ",x.shape)
                     print("Sent ", y.shape)
                     print(" Cosine distance is ", cos_dist)
-                    print("Truth ", train_rec[2].shape)
+                    print("Truth ", truth_elem.shape)
                     ctr+=1
                     print(" per batch ctr consumed ", ctr*40, " of data")
                     #Run the test portion per 400 iterations
                     if (ctr*40)%400 == 0:
                         print("Running test portion  at ",(ctr*40), "step")
-                        sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
+                        # sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
                         #Obtain the ont representation
-                        while True:
-                            try:
-                                ontrep_out = sess.run(entire_ontrep)
-                                print(" Ontrep ", ontrep_out.shape)
-                            except tf.errors.OutOfRangeError:
-                                print(' Finished consuming the ont data ')
-                                print(" Ontrep ", ontrep_out.shape)
-                                break
+                        # while True:
+                        #     try:
+                        #         ontrep_out = sess.run(entire_ontrep)
+                        #         print(" Ontrep ", ontrep_out.shape)
+                        #     except tf.errors.OutOfRangeError:
+                        #         print(' Finished consuming the ont data ')
+                        #         print(" Ontrep ", ontrep_out.shape)
+                        #         break
                         #Initialize the test data to compute accuracy for each of the preds
                         sess.run(test_itr.initializer, feed_dict={fname_holder: fname_testlist})
                         epoch_acc = []
                         #Obtain the ont representation
                         while True:
                             try:
-                                tr, sent_rep_t, _ = sess.run([ test_record, sent_rep_test, ont_rep_test])
-                                acc_test = accuracy(sent_rep_t, ontrep_out, tr[2])
-                                acc_tval = acc_test.eval()                                
+                                sess.run(ontall_itr.initializer, feed_dict={fname_holder: fname_ontlist})
+                                # sent_rep_t, acc_tval = sess.run([sent_rep_test, acc_test])
+                                # acc_test = accuracy(sent_rep_test, ontrep_out, next_elem_test[2])
+                                acc_tval = sess.run([acc_test])
                                 epoch_acc.append(acc_tval)
+                                # sent_rep_t, pred_test = sess.run([sent_rep_test, next_elem_test[2]])
+                                # acc_test = accuracy(sent_rep_t, ontrep_out, pred_test)
+                                # acc_tval = acc_test.eval()                                
+                                # epoch_acc.append(acc_tval)
                             except tf.errors.OutOfRangeError:
                                 print(' Finished consuming the test data ')
                                 print(' Accuracy at epoch is ', np.mean(epoch_acc))
@@ -425,8 +453,5 @@ if __name__ == '__main__':
                 except tf.errors.OutOfRangeError:
                     print('Completed epoch')
                     break
-
-            ontrep_out = sess.run(entire_ontrep)
-            print(" Ontrep ", ontrep_out.shape)
-
+            print(" Finished consuming an entire batch ")
         sess.close()
